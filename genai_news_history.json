@@ -1,0 +1,302 @@
+[
+  {
+    "date": "2025-11-02T10:01:31.337552",
+    "title": "Stability AI、日本語特化の画像生成AI「Japanese Stable Image Generation」を発表",
+    "url": "https://www.itmedia.co.jp/news/articles/241029/news153.html"
+  },
+  {
+    "date": "2025-11-02T10:01:31.337552",
+    "title": "rinna、音声合成技術で「感情」の強度をスライダーで調整可能に",
+    "url": "https://www.itmedia.co.jp/news/articles/241028/news136.html"
+  },
+  {
+    "date": "2025-11-02T10:01:31.337552",
+    "title": "Google、AIが検索結果を要約する「AIオーバービュー」を日本で正式提供開始",
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/1634657.html"
+  },
+  {
+    "date": "2025-11-02T10:01:31.337552",
+    "title": "ソフトバンク、NVIDIAの最新AI半導体「Blackwell」搭載サーバーを国内最速で提供へ",
+    "url": "https://www.sbbit.jp/article/cont1/142631"
+  },
+  {
+    "date": "2025-11-02T10:01:31.337552",
+    "title": "サイバーエージェント、LLMで広告コピーを1万通り自動生成するシステムを開発",
+    "url": "https://webtan.impress.co.jp/n/2024/10/30/47933"
+  },
+  {
+    "date": "2025-11-03T07:10:54.428173",
+    "title": "アドビ、動画生成AI「Adobe Video GigaGAN」を発表 - 高解像度化と物体除去を実現",
+    "url": "https://www.watch.impress.co.jp/docs/news/1635841.html"
+  },
+  {
+    "date": "2025-11-03T07:10:54.428173",
+    "title": "Preferred Networks、人型ロボット向け汎用基盤モデル「PFRobotics-Model-1」を開発",
+    "url": "https://www.preferred.jp/ja/news/pr20251029/"
+  },
+  {
+    "date": "2025-11-03T07:10:54.428173",
+    "title": "LINEヤフー、日本語性能を強化した小型LLM「ELYZA-tasks-11b」を公開",
+    "url": "https://www.lycorp.co.jp/ja/news/release/000983/"
+  },
+  {
+    "date": "2025-11-03T07:10:54.428173",
+    "title": "Microsoft、AI機能「Recall」のプレビュー提供を延期 - セキュリティ懸念に対応",
+    "url": "https://www.itmedia.co.jp/news/articles/2510/28/news091.html"
+  },
+  {
+    "date": "2025-11-03T07:10:54.428173",
+    "title": "Notion、AI機能を強化し企業向け新プラン「Notion 2.0」を発表",
+    "url": "https://www.notion.so/ja-jp/releases/2025-10-29"
+  },
+  {
+    "date": "2025-11-04T15:03:28.811299",
+    "title": "Meta、ビジネス向け生成AI「Meta AI」を日本で提供開始",
+    "url": "https://about.fb.com/ja/news/2024/05/meta-ai-in-japan/"
+  },
+  {
+    "date": "2025-11-04T15:03:28.811299",
+    "title": "Anthropic、日本法人を設立し本格展開を開始、日本語特化モデルも開発へ",
+    "url": "https://www.itmedia.co.jp/news/articles/2405/15/news150.html"
+  },
+  {
+    "date": "2025-11-04T15:03:28.811299",
+    "title": "PwC Japan、AIエージェント開発専門組織「AI Factory」を発足",
+    "url": "https://www.pwc.com/jp/ja/press-room/2024/generative-ai-factory240514.html"
+  },
+  {
+    "date": "2025-11-04T15:03:28.811299",
+    "title": "KADOKAWA・講談社など出版社19社、生成AIの著作権侵害に共同声明",
+    "url": "https://www.itmedia.co.jp/news/articles/2405/27/news149.html"
+  },
+  {
+    "date": "2025-11-04T15:03:28.811299",
+    "title": "note、法人向けに生成AI記事作成支援サービス「note pro AIアシスタント」を提供開始",
+    "url": "https://www.watch.impress.co.jp/docs/news/1594121.html"
+  },
+  {
+    "date": "2025-11-05T07:03:32.158544",
+    "title": "Apple、OpenAIとの提携を発表、ChatGPTをiOS 18などに統合へ",
+    "url": "https://openai.com/index/openai-and-apple-announce-partnership/"
+  },
+  {
+    "date": "2025-11-05T07:03:32.158544",
+    "title": "Google、ロボットの自律行動を支援する新AIモデル群「Gemini Robotics」を発表",
+    "url": "https://deepmind.google/discover/blog/gemini-robotics-powering-a-new-generation-of-robotic-systems/"
+  },
+  {
+    "date": "2025-11-05T07:03:32.158544",
+    "title": "さくらインターネット、NVIDIAの最新GPU「H200」搭載の生成AI向けクラウドサービスを提供開始",
+    "url": "https://www.sakura.ad.jp/corporate/information/news/2024/05/23/1968213620/"
+  },
+  {
+    "date": "2025-11-05T07:03:32.158544",
+    "title": "OpenAI、対話の中で画像を生成・編集できる新機能「Image Generation in Conversation」を発表",
+    "url": "https://openai.com/index/image-generation-in-conversation/"
+  },
+  {
+    "date": "2025-11-05T07:03:32.158544",
+    "title": "製薬大手イーライリリー、Google傘下のIsomorphic LabsとAI創薬で提携",
+    "url": "https://www.isomorphiclabs.com/news/isomorphic-labs-announces-multi-target-collaboration-with-eli-lilly"
+  },
+  {
+    "date": "2025-11-06T07:01:05.870356",
+    "title": "Google DeepMind、特定のタスクに特化した小規模AIモデル「Specialized Gemini」を発表",
+    "url": "https://deepmind.google/discover/blog/a-new-era-of-specialized-models-with-specialized-gemini/"
+  },
+  {
+    "date": "2025-11-06T07:01:05.870356",
+    "title": "Amazon、生成AIによる商品レビュー要約機能を日本で提供開始",
+    "url": "https://www.aboutamazon.jp/news/pr/20251105-ai-generated-review-highlights"
+  },
+  {
+    "date": "2025-11-06T07:01:05.870356",
+    "title": "NEC、日本語性能を強化した独自の生成AI基盤モデル「cotomi-1.3B」を開発",
+    "url": "https://jpn.nec.com/press/202511/20251105_01.html"
+  },
+  {
+    "date": "2025-11-06T07:01:05.870356",
+    "title": "Perplexity、AI検索に学術論文や特定のYouTubeチャンネルを対象とする「検索フォーカス」機能を追加",
+    "url": "https://blog.perplexity.ai/search-focus"
+  },
+  {
+    "date": "2025-11-06T07:01:05.870356",
+    "title": "トヨタ系企業、生成AIで知財業務を効率化する新ツール「AI Ninja」を発表",
+    "url": "https://prtimes.jp/main/html/rd/p/000000011.000107241.html"
+  },
+  {
+    "date": "2025-11-07T07:01:43.479145",
+    "title": "Stability AI、日本語に特化した画像生成モデル「Japanese Stable Diffusion XL」を発表",
+    "url": "https://prtimes.jp/main/html/rd/p/000000042.000112247.html"
+  },
+  {
+    "date": "2025-11-07T07:01:43.479145",
+    "title": "ソフトバンク、NVIDIAと共同で国内最大級の生成AI向け計算基盤を構築へ",
+    "url": "https://www.softbank.jp/corp/news/press/sbkk/2025/20251105_01/"
+  },
+  {
+    "date": "2025-11-07T07:01:43.479145",
+    "title": "理化学研究所、スーパーコンピュータ「富岳」で学習した1760億パラメータのLLM「Fugaku-LLM 2」を公開",
+    "url": "https://www.riken.jp/press/2025/20251106_1/index.html"
+  },
+  {
+    "date": "2025-11-07T07:01:43.479145",
+    "title": "サイバーエージェント、広告クリエイティブ制作に特化した生成AI「AI Creator Studio」を提供開始",
+    "url": "https://www.cyberagent.co.jp/news/detail/id=30987"
+  },
+  {
+    "date": "2025-11-07T07:01:43.479145",
+    "title": "rinna、より人間らしく自然な感情表現が可能な音声合成AI「Emotional Voice」を発表",
+    "url": "https://rinna.co.jp/news/2025/11/07/emotional-voice.html"
+  },
+  {
+    "date": "2025-11-08T07:02:27.686648",
+    "title": "Stability AI、日本語の指示で高品質な画像を生成するAIモデル「Japanese InstructBLIP Alpha」を公開",
+    "url": "https://ja.stability.ai/blog/japanese-instructblip-alpha"
+  },
+  {
+    "date": "2025-11-08T07:02:27.686648",
+    "title": "住友商事、生成AI「Copilot」の全社導入で年間12億円のコスト削減効果を試算",
+    "url": "https://www.sumitomocorp.com/ja/jp/news/release/2025/group/1918"
+  },
+  {
+    "date": "2025-11-08T07:02:27.686648",
+    "title": "法務AI開発のリーガルテック企業「リセ」、シリーズCで10億円の資金調達を実施",
+    "url": "https://prtimes.jp/main/html/rd/p/000000057.000059456.html"
+  },
+  {
+    "date": "2025-11-08T07:02:27.686648",
+    "title": "FastLabel、AI開発プロセスを自動化する「Autoflow」機能の正式版を提供開始",
+    "url": "https://fastlabel.ai/news/autoflow-ga"
+  },
+  {
+    "date": "2025-11-08T07:02:27.686648",
+    "title": "Google、検索結果に生成AIによる回答を表示する「SGE」を関西弁など複数の方言に対応",
+    "url": "https://japan.googleblog.com/2025/11/sge-update.html"
+  },
+  {
+    "date": "2025-11-09T07:01:13.216919",
+    "title": "LINEヤフー、日本語に特化した独自の生成AI基盤モデルを開発",
+    "url": "https://www.lycorp.co.jp/ja/news/releases/000987/"
+  },
+  {
+    "date": "2025-11-09T07:01:13.216919",
+    "title": "Notion、AI機能を強化した新プラン「Notion AI Pro」を発表",
+    "url": "https://www.watch.impress.co.jp/docs/news/1589899.html"
+  },
+  {
+    "date": "2025-11-09T07:01:13.216919",
+    "title": "アドビ、動画生成AI「Adobe Firefly Video」をプレビュー版で公開",
+    "url": "https://blog.adobe.com/jp/publish/2025/10/29/introducing-firefly-video-and-new-ai-powered-tools-in-premiere-pro"
+  },
+  {
+    "date": "2025-11-09T07:01:13.216919",
+    "title": "パナソニック、人と共存するAIの倫理基本方針を策定・公開",
+    "url": "https://news.panasonic.com/jp/press/jn251106-1"
+  },
+  {
+    "date": "2025-11-09T07:01:13.216919",
+    "title": "東京大学、次世代のAI計算基盤「HOKUSAI-Large-2」の本格運用を開始",
+    "url": "https://www.u-tokyo.ac.jp/focus/ja/press/z0114_00003.html"
+  },
+  {
+    "date": "2025-11-10T06:01:13.070069",
+    "title": "グーグル、テキストからプレゼン資料を自動生成する機能を「Gemini」に実装",
+    "url": "https://www.watch.impress.co.jp/docs/news/1637699.html"
+  },
+  {
+    "date": "2025-11-10T06:01:13.070069",
+    "title": "日産、生成AIで作成した新型「エルグランド」の風景合成画像を公開",
+    "url": "https://car.watch.impress.co.jp/docs/news/1636886.html"
+  },
+  {
+    "date": "2025-11-10T06:01:13.070069",
+    "title": "NTT西日本、声優などの「声」を知的財産として活用する音声AI事業「VOICENCE」を開始",
+    "url": "https://www.itmedia.co.jp/news/articles/241105/news150.html"
+  },
+  {
+    "date": "2025-11-10T06:01:13.070069",
+    "title": "経済産業省、国産生成AI開発プロジェクト「GENIAC」で新たに23件の採択先を発表",
+    "url": "https://www.meti.go.jp/press/2024/11/20241105002/20241105002.html"
+  },
+  {
+    "date": "2025-11-10T06:01:13.070069",
+    "title": "Preferred Networks、生成AIの学習を加速する独自開発の深層学習プロセッサー「MN-Core 2」を発表",
+    "url": "https://www.preferred.jp/ja/news/pr20241106/"
+  },
+  {
+    "date": "2025-11-11T06:01:17.617157",
+    "title": "AWS、国内企業の生成AI活用事例を多数公開",
+    "url": "https://aws.amazon.com/jp/blogs/news/generative-ai-use-cases-in-japan-202511/"
+  },
+  {
+    "date": "2025-11-11T06:01:17.617157",
+    "title": "メルカリ、生成AIで出品を効率化する「AI出品」機能を提供開始",
+    "url": "https://about.mercari.com/press/news/articles/20251106_aishuppin/"
+  },
+  {
+    "date": "2025-11-11T06:01:17.617157",
+    "title": "Microsoft、自律型AIエージェント構築の新機能「Agent HQ」をGitHub上で発表",
+    "url": "https://github.blog/2025-11-08-agent-hq-build-your-own-ai-agents/"
+  },
+  {
+    "date": "2025-11-11T06:01:17.617157",
+    "title": "内閣府、行政文書作成を支援する国産LLM活用の実証実験を開始",
+    "url": "https://www.cao.go.jp/press/20251107_ai_poc.html"
+  },
+  {
+    "date": "2025-11-11T06:01:17.617157",
+    "title": "GMOとSakana AI、日本語に特化した高性能LLMの共同研究開発を開始",
+    "url": "https://www.gmo.jp/news/article/9055/"
+  },
+  {
+    "date": "2025-11-12T06:01:12.635811",
+    "title": "NTT、処理性能を最大2倍に高めた大規模言語モデル「tsuzumi 2」を提供開始",
+    "url": "https://group.ntt/jp/newsrelease/2025/11/06/251106a.html"
+  },
+  {
+    "date": "2025-11-12T06:01:12.635811",
+    "title": "サイバーエージェント、広告クリエイティブ制作の効率化に向け、動画生成AIの活用を開始",
+    "url": "https://www.cyberagent.co.jp/news/detail/id=30988"
+  },
+  {
+    "date": "2025-11-12T06:01:12.635811",
+    "title": "rinna、日本語と英語のバイリンガル音声合成モデル「NevaRiver-Bilingual」を公開",
+    "url": "https://rinna.co.jp/news/2025/11/20251105.html"
+  },
+  {
+    "date": "2025-11-12T06:01:12.635811",
+    "title": "博報堂ＤＹＨＤ、生成AIを活用し企業のマーケティングDXを支援する新会社「株式会社Hakuhodo DY Generative AI」を設立",
+    "url": "https://www.hakuhodody-holdings.co.jp/news/corporate/2025/11/007420.html"
+  },
+  {
+    "date": "2025-11-12T06:01:12.635811",
+    "title": "ABEJA、製造業向けに特化した生成AI外観検査ソリューション「ABEJA Inspection AI」を発表",
+    "url": "https://abejainc.com/ja/news/20251107-3993/"
+  },
+  {
+    "date": "2025-11-14T06:02:59.557608",
+    "title": "三菱UFJ銀行、全行員35,000人に「ChatGPT Enterprise」を導入",
+    "url": "https://www.itmedia.co.jp/news/articles/2511/13/news150.html"
+  },
+  {
+    "date": "2025-11-14T06:02:59.557608",
+    "title": "NTT、顧客の次の行動を予測する「大規模行動モデル（LAM）」を確立",
+    "url": "https://group.ntt/jp/newsrelease/2025/11/12/251112a.html"
+  },
+  {
+    "date": "2025-11-14T06:02:59.557608",
+    "title": "note、韓国NAVERと資本業務提携 AI活用で創作活動を支援",
+    "url": "https://www.watch.impress.co.jp/docs/news/1638441.html"
+  },
+  {
+    "date": "2025-11-14T06:02:59.557608",
+    "title": "ソフトバンク、日本語に強い国産LLM「Sarashina」のAPIを提供開始",
+    "url": "https://www.softbank.jp/corp/news/press/sbkk/2025/20251105_01/"
+  },
+  {
+    "date": "2025-11-14T06:02:59.557608",
+    "title": "立教大学など、LLMが「存在しない規則性」を見出す傾向を発見",
+    "url": "https://www.itmedia.co.jp/news/articles/2511/11/news139.html"
+  }
+]

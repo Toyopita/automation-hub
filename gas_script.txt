@@ -1,0 +1,1421 @@
+/**
+ * 改良版：季節別快適制御システム（不快指数・時間帯別対応版）
+ * 
+ * 【新機能】
+ * - 不快指数（DI）による体感重視制御
+ * - 時間帯別制御基準（朝・昼・夕・夜）
+ * - 夜間の体温下降期に配慮した制御
+ * - 省エネ重視の段階的制御
+ */
+
+/**
+ * 設定値取得（拡張版）
+ */
+function getConfig() {
+  const props = PropertiesService.getScriptProperties();
+  
+  return {
+    // SwitchBot設定
+    switchbot: {
+      token: props.getProperty('SWITCHBOT_TOKEN'),
+      co2MeterId: props.getProperty('CO2_METER_DEVICE_ID'),
+      outdoorSensorId: props.getProperty('OUTDOOR_SENSOR_DEVICE_ID'),
+      airconId: props.getProperty('AIRCON_DEVICE_ID'),
+      circulatorId: props.getProperty('CIRCULATOR_DEVICE_ID'),
+      apiUrl: 'https://api.switch-bot.com/v1.1/devices'
+    },
+    
+    // スプレッドシート・通知設定
+    spreadsheet: {
+      name: props.getProperty('SPREADSHEET_NAME') || '季節別快適ログ_DI対応',
+      sheetName: props.getProperty('SHEET_NAME') || 'log'
+    },
+    notification: {
+      recipient: props.getProperty('NOTIFICATION_EMAIL'),
+      subject: '不快指数対応・季節別快適制御レポート'
+    },
+    
+    // 季節別快適制御設定
+    thresholds: {
+      // ===== 季節判定基準 =====
+      summerTemp: 25,          // 夏季判定：外気25℃以上
+      winterTemp: 20,          // 冬季判定：外気20℃以下
+      
+      // ===== 従来の季節別理想温度（冬季・中間期用） =====
+      winter: {
+        idealMin: 25,
+        idealMax: 27,
+        heatingTarget: 23,
+      },
+      moderate: {
+        idealMin: 25,
+        idealMax: 28,
+        heatingTarget: 23,
+        coolingTarget: 29
+      },
+      
+      // ===== 不快指数制御基準（夏季用） =====
+      discomfortIndex: {
+        morning: {        // 朝（6-10時）
+          coolingStart: 75,      // DI 75で冷房開始（76→75に変更）
+          coolingTarget: 29,     // 設定温度29℃
+          description: '体温低い時間帯のため寛容'
+        },
+        daytime: {        // 昼（10-16時）
+          coolingStart: 74,      // DI 74で冷房開始（75→74に変更）
+          coolingTarget: 29,     // 設定温度29℃
+          description: '活動時間帯、体感重視制御'
+        },
+        evening: {        // 夕（16-22時）
+          coolingStart: 73,      // DI 73で冷房開始（74→73に変更）
+          coolingTarget: 29,     // 設定温度29℃
+          description: '最も暑く感じやすい時間帯'
+        },
+        night: {          // 夜（22-6時）
+          coolingStart: 76,      // DI 76で冷房開始（77→76に変更）
+          coolingTarget: 29,     // 設定温度29℃
+          description: '体温下降期、睡眠重視'
+        },
+        // 共通基準
+        stopThreshold: 71,       // DI 71以下で冷房停止（72→71に変更）
+        emergencyDI: 85,         // DI 85以上で緊急冷房
+        severeDI: 80,            // DI 80以上で積極冷房
+      },
+      
+      // ===== 湿度制御 =====
+      humidityMin: 40,
+      humidityMax: 60,
+      humidityHigh: 70,        // 除湿開始：70%
+      humidityEmergency: 80,   // 緊急除湿：80%
+      
+      // ===== 緊急制御 =====
+      emergencyHot: 32,
+      emergencyCold: 15,
+      
+      // ===== エアコン設定範囲 =====
+      minSetTemp: 16,
+      maxSetTemp: 32
+    }
+  };
+}
+
+/**
+ * 不快指数計算
+ */
+function calculateDiscomfortIndex(temperature, humidity) {
+  const di = 0.81 * temperature + 0.01 * humidity * (0.99 * temperature - 14.3) + 46.3;
+  return Math.round(di * 10) / 10; // 小数点第1位まで
+}
+
+/**
+ * 不快指数評価
+ */
+function evaluateDiscomfortIndex(di) {
+  if (di < 70) return { level: 'comfortable', text: '快適', class: 'ideal' };
+  if (di < 75) return { level: 'slightly_hot', text: 'やや暑い', class: 'good' };
+  if (di < 80) return { level: 'hot', text: '暑くて汗が出る', class: 'caution' };
+  if (di < 85) return { level: 'very_hot', text: '暑くてたまらない', class: 'warning' };
+  return { level: 'extremely_hot', text: '非常に暑い', class: 'emergency' };
+}
+
+/**
+ * 時間帯判定
+ */
+function getTimeOfDay(hour) {
+  if (hour >= 6 && hour < 10) return 'morning';
+  if (hour >= 10 && hour < 16) return 'daytime';
+  if (hour >= 16 && hour < 21) return 'evening';
+  return 'night'; // 21-6時
+}
+
+/**
+ * 夜間判定関数（既存機能）
+ */
+function isNightTime() {
+  const now = new Date();
+  const hour = now.getHours();
+  return hour >= 22 || hour < 6;
+}
+
+/**
+ * 季節判定（既存機能）
+ */
+function getSeason(outdoorTemp) {
+  const CONFIG = getConfig();
+  
+  if (outdoorTemp === null || outdoorTemp === undefined) {
+    const month = new Date().getMonth() + 1;
+    if (month >= 6 && month <= 9) return 'summer';
+    if (month >= 12 || month <= 2) return 'winter';
+    return 'moderate';
+  }
+  
+  if (outdoorTemp >= CONFIG.thresholds.summerTemp) {
+    return 'summer';
+  } else if (outdoorTemp <= CONFIG.thresholds.winterTemp) {
+    return 'winter';
+  } else {
+    return 'moderate';
+  }
+}
+
+/**
+ * 不快指数による夏季制御判定（新機能）
+ */
+function determineSummerControlByDI(indoorTemp, indoorHumidity, timeOfDay, isNight) {
+  const CONFIG = getConfig();
+  const di = calculateDiscomfortIndex(indoorTemp, indoorHumidity);
+  const diEvaluation = evaluateDiscomfortIndex(di);
+  const diThresholds = CONFIG.thresholds.discomfortIndex;
+  
+  // 時間帯別基準値取得
+  const timeBasedThreshold = diThresholds[timeOfDay];
+  
+  console.log(`不快指数制御: DI=${di} (${diEvaluation.text}), 時間帯=${timeOfDay}, 基準=${timeBasedThreshold.coolingStart}`);
+  
+  // ===== 優先度1: 不快指数緊急制御 =====
+  if (di >= diThresholds.emergencyDI) {
+    return {
+      mode: 'cool',
+      setTemp: 26, // 緊急時は26℃設定
+      circulator: isNight ? 'off' : 'on',
+      action: `不快指数緊急制御（DI:${di} → 26℃設定）${isNight ? '・夜間静音' : ''}`,
+      priority: 'di_emergency',
+      controlled: true,
+      reasoning: `不快指数${di}（${diEvaluation.text}）で健康保護のため緊急冷房`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 優先度2: 不快指数重度制御 =====
+  if (di >= diThresholds.severeDI) {
+    return {
+      mode: 'cool',
+      setTemp: 27, // 重度時は27℃設定
+      circulator: isNight ? 'off' : 'on',
+      action: `不快指数重度制御（DI:${di} → 27℃設定）${isNight ? '・夜間静音' : ''}`,
+      priority: 'di_severe',
+      controlled: true,
+      reasoning: `不快指数${di}（${diEvaluation.text}）で積極的冷房`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 優先度3: 湿度制御 =====
+  if (indoorHumidity >= CONFIG.thresholds.humidityEmergency) {
+    return {
+      mode: 'dry',
+      setTemp: Math.max(indoorTemp, timeBasedThreshold.coolingTarget),
+      circulator: isNight ? 'off' : 'on',
+      action: `緊急除湿（湿度${indoorHumidity}% → DI改善目標）${isNight ? '・夜間静音' : ''}`,
+      priority: 'humidity_emergency',
+      controlled: true,
+      reasoning: `湿度${indoorHumidity}%で不快指数悪化防止のため緊急除湿`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorHumidity >= CONFIG.thresholds.humidityHigh) {
+    return {
+      mode: 'dry',
+      setTemp: Math.max(indoorTemp, timeBasedThreshold.coolingTarget),
+      circulator: isNight ? 'off' : 'on',
+      action: `除湿制御（湿度${indoorHumidity}% → DI改善）${isNight ? '・夜間静音' : ''}`,
+      priority: 'humidity_control',
+      controlled: true,
+      reasoning: `湿度${indoorHumidity}%で不快指数悪化防止のため除湿`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 優先度4: 時間帯別不快指数制御 =====
+  if (di >= timeBasedThreshold.coolingStart) {
+    return {
+      mode: 'cool',
+      setTemp: timeBasedThreshold.coolingTarget,
+      circulator: isNight ? 'off' : 'on',
+      action: `${timeOfDay}時間帯制御（DI:${di} → ${timeBasedThreshold.coolingTarget}℃）${isNight ? '・夜間静音' : ''}`,
+      priority: `di_${timeOfDay}`,
+      controlled: true,
+      reasoning: `${timeOfDay}時間帯、不快指数${di}（${diEvaluation.text}）で${timeBasedThreshold.description}により冷房`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 快適状態（制御なし） =====
+  if (di <= diThresholds.stopThreshold) {
+    return {
+      mode: 'none',
+      setTemp: null,
+      circulator: isNight ? 'off' : 'on',
+      action: `夏季快適状態（DI:${di}・${timeOfDay}）${isNight ? '・夜間静音' : '・サーキュレーター継続'}`,
+      priority: 'summer_comfortable',
+      controlled: false,
+      circulatorControlled: !isNight,
+      reasoning: `不快指数${di}（${diEvaluation.text}）で${timeOfDay}時間帯として快適、${isNight ? '夜間のため静音重視' : 'サーキュレーターで快適性維持'}`,
+      season: 'summer',
+      timeOfDay: timeOfDay,
+      discomfortIndex: di,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 中間状態（サーキュレーターのみ） =====
+  return {
+    mode: 'none',
+    setTemp: null,
+    circulator: isNight ? 'off' : 'on',
+    action: `夏季準快適状態（DI:${di}・${timeOfDay}）${isNight ? '・夜間静音' : '・風感で調整'}`,
+    priority: 'summer_moderate',
+    controlled: false,
+    circulatorControlled: !isNight,
+    reasoning: `不快指数${di}で冷房基準未満、${isNight ? '夜間のため静音重視' : 'サーキュレーターの風感で体感温度改善'}`,
+    season: 'summer',
+    timeOfDay: timeOfDay,
+    discomfortIndex: di,
+    nightMode: isNight
+  };
+}
+
+/**
+ * 冬季制御判定（既存ロジック維持）
+ */
+function determineWinterControl(indoorTemp, indoorHumidity, isNight = false) {
+  const CONFIG = getConfig();
+  const idealMin = CONFIG.thresholds.winter.idealMin;
+  const idealMax = CONFIG.thresholds.winter.idealMax;
+  const heatingTarget = CONFIG.thresholds.winter.heatingTarget;
+  
+  // 湿度制御チェック
+  if (indoorHumidity >= CONFIG.thresholds.humidityHigh) {
+    return {
+      mode: 'dry',
+      setTemp: Math.max(indoorTemp, idealMax),
+      circulator: isNight ? 'off' : 'on',
+      action: `冬季除湿（湿度${indoorHumidity}%→60%以下）${isNight ? '・夜間静音' : ''}`,
+      priority: 'winter_humidity',
+      controlled: true,
+      reasoning: `冬季湿度制御：カビ・ダニ予防のため除湿${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'winter',
+      nightMode: isNight
+    };
+  }
+  
+  // 温度制御
+  if (indoorTemp > idealMax) {
+    return {
+      mode: 'cool',
+      setTemp: CONFIG.thresholds.moderate.coolingTarget,
+      circulator: isNight ? 'off' : 'on',
+      action: `冬季冷房（${indoorTemp}℃→${CONFIG.thresholds.moderate.coolingTarget}℃）${isNight ? '・夜間静音' : ''}`,
+      priority: 'winter_cooling',
+      controlled: true,
+      reasoning: `冬季温度制御：27℃超過のため冷房（暖房効きすぎ）${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'winter',
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorTemp >= idealMin && indoorTemp <= idealMax) {
+    return {
+      mode: 'none',
+      setTemp: null,
+      circulator: 'off',
+      action: `冬季理想状態（${indoorTemp}℃）${isNight ? '・夜間モード' : ''}`,
+      priority: 'winter_ideal',
+      controlled: false,
+      reasoning: `冬季理想ゾーン：全制御停止で快適状態維持${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'winter',
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorTemp < idealMin) {
+    return {
+      mode: 'heat',
+      setTemp: heatingTarget,
+      circulator: 'off',
+      action: `冬季暖房（${indoorTemp}℃→${heatingTarget}℃）${isNight ? '・夜間モード' : ''}`,
+      priority: 'winter_heating',
+      controlled: true,
+      reasoning: `冬季温度制御：25℃未満のため暖房${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'winter',
+      nightMode: isNight
+    };
+  }
+  
+  // デフォルト返り値（すべての条件に該当しない場合）
+  return {
+    mode: 'none',
+    setTemp: null,
+    circulator: 'off',
+    action: `冬季制御なし（${indoorTemp}℃）`,
+    priority: 'winter_default',
+    controlled: false,
+    reasoning: '冬季：条件に該当せず、制御なし',
+    season: 'winter',
+    nightMode: isNight
+  };
+}
+
+/**
+ * 中間期制御判定（既存ロジック維持）
+ */
+function determineModerateControl(indoorTemp, indoorHumidity, isNight = false) {
+  const CONFIG = getConfig();
+  const idealMin = CONFIG.thresholds.moderate.idealMin;
+  const idealMax = CONFIG.thresholds.moderate.idealMax;
+  const heatingTarget = CONFIG.thresholds.moderate.heatingTarget;
+  const coolingTarget = CONFIG.thresholds.moderate.coolingTarget;
+  
+  // 湿度制御チェック
+  if (indoorHumidity >= CONFIG.thresholds.humidityHigh) {
+    return {
+      mode: 'dry',
+      setTemp: Math.max(indoorTemp, idealMax),
+      circulator: isNight ? 'off' : 'on',
+      action: `中間期除湿（湿度${indoorHumidity}%→60%以下）${isNight ? '・夜間静音' : ''}`,
+      priority: 'moderate_humidity',
+      controlled: true,
+      reasoning: `中間期湿度制御：カビ・ダニ予防のため除湿${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'moderate',
+      nightMode: isNight
+    };
+  }
+  
+  // 温度制御
+  if (indoorTemp > idealMax) {
+    return {
+      mode: 'cool',
+      setTemp: coolingTarget,
+      circulator: isNight ? 'off' : 'on',
+      action: `中間期冷房（${indoorTemp}℃→${coolingTarget}℃）${isNight ? '・夜間静音' : ''}`,
+      priority: 'moderate_cooling',
+      controlled: true,
+      reasoning: `中間期温度制御：28℃超過のため冷房${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'moderate',
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorTemp >= idealMin && indoorTemp <= idealMax) {
+    return {
+      mode: 'none',
+      setTemp: null,
+      circulator: 'off',
+      action: `中間期快適状態（${indoorTemp}℃）${isNight ? '・夜間モード' : ''}`,
+      priority: 'moderate_ideal',
+      controlled: false,
+      reasoning: `中間期快適ゾーン：自然環境重視で制御停止${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'moderate',
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorTemp < idealMin) {
+    return {
+      mode: 'heat',
+      setTemp: heatingTarget,
+      circulator: 'off',
+      action: `中間期暖房（${indoorTemp}℃→${heatingTarget}℃）${isNight ? '・夜間モード' : ''}`,
+      priority: 'moderate_heating',
+      controlled: true,
+      reasoning: `中間期温度制御：25℃未満のため暖房${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: 'moderate',
+      nightMode: isNight
+    };
+  }
+  
+  // デフォルト返り値（すべての条件に該当しない場合）
+  return {
+    mode: 'none',
+    setTemp: null,
+    circulator: 'off',
+    action: `中間期制御なし（${indoorTemp}℃）`,
+    priority: 'moderate_default',
+    controlled: false,
+    reasoning: '中間期：条件に該当せず、制御なし',
+    season: 'moderate',
+    nightMode: isNight
+  };
+}
+
+/**
+ * メイン制御判定（改良版）
+ */
+function determineSeasonalControl(indoorData, outdoorData) {
+  const CONFIG = getConfig();
+  const indoorTemp = indoorData.temperature;
+  const indoorHumidity = indoorData.humidity;
+  const outdoorTemp = outdoorData?.temperature;
+  const season = getSeason(outdoorTemp);
+  const isNight = isNightTime();
+  const now = new Date();
+  const timeOfDay = getTimeOfDay(now.getHours());
+  
+  console.log(`改良制御判定: 室内${indoorTemp}℃/${indoorHumidity}%, 外気${outdoorTemp || 'N/A'}℃, 季節=${season}, 時間帯=${timeOfDay}, 夜間=${isNight}`);
+  
+  // ===== 優先度1: 緊急制御 =====
+  if (indoorTemp >= CONFIG.thresholds.emergencyHot) {
+    return {
+      mode: 'cool',
+      setTemp: 26,
+      circulator: isNight ? 'off' : 'on',
+      action: `緊急冷房（${indoorTemp}℃→26℃）${isNight ? '・夜間静音' : ''}`,
+      priority: 'emergency_hot',
+      controlled: true,
+      reasoning: `緊急高温対応：健康保護のため即座に冷房${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: season,
+      timeOfDay: timeOfDay,
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorTemp <= CONFIG.thresholds.emergencyCold) {
+    return {
+      mode: 'heat',
+      setTemp: CONFIG.thresholds.winter.heatingTarget,
+      circulator: 'off',
+      action: `緊急暖房（${indoorTemp}℃→${CONFIG.thresholds.winter.heatingTarget}℃）`,
+      priority: 'emergency_cold',
+      controlled: true,
+      reasoning: '緊急低温対応：健康保護のため即座に暖房',
+      season: season,
+      timeOfDay: timeOfDay,
+      nightMode: isNight
+    };
+  }
+  
+  if (indoorHumidity >= CONFIG.thresholds.humidityEmergency) {
+    return {
+      mode: 'dry',
+      setTemp: Math.max(indoorTemp, 28),
+      circulator: isNight ? 'off' : 'on',
+      action: `緊急除湿（湿度${indoorHumidity}%→60%以下）${isNight ? '・夜間静音' : ''}`,
+      priority: 'emergency_humidity',
+      controlled: true,
+      reasoning: `緊急高湿度対応：カビ・ダニ予防のため除湿${isNight ? '（夜間のため静音重視）' : ''}`,
+      season: season,
+      timeOfDay: timeOfDay,
+      nightMode: isNight
+    };
+  }
+  
+  // ===== 優先度2: 季節別制御 =====
+  if (season === 'summer') {
+    return determineSummerControlByDI(indoorTemp, indoorHumidity, timeOfDay, isNight);
+  } else if (season === 'winter') {
+    return determineWinterControl(indoorTemp, indoorHumidity, isNight);
+  } else {
+    return determineModerateControl(indoorTemp, indoorHumidity, isNight);
+  }
+}
+
+/**
+ * SwitchBotセンサーデータ取得（既存機能）
+ */
+function getSensorData() {
+  const CONFIG = getConfig();
+  
+  try {
+    const url = `${CONFIG.switchbot.apiUrl}/${CONFIG.switchbot.co2MeterId}/status`;
+    const headers = {
+      'Authorization': CONFIG.switchbot.token,
+      'Content-Type': 'application/json'
+    };
+    
+    const response = UrlFetchApp.fetch(url, { method: 'GET', headers: headers });
+    const data = JSON.parse(response.getContentText());
+    
+    if (data.statusCode === 100 && data.body) {
+      return {
+        temperature: data.body.temperature,
+        humidity: data.body.humidity,
+        co2: data.body.CO2
+      };
+    } else {
+      throw new Error(`SwitchBot API Error: ${data.message}`);
+    }
+  } catch (error) {
+    console.error('センサーデータ取得エラー:', error);
+    throw error;
+  }
+}
+
+/**
+ * 屋外センサーデータ取得（既存機能）
+ */
+function getOutdoorSensorData() {
+  const CONFIG = getConfig();
+  
+  if (!CONFIG.switchbot.outdoorSensorId) {
+    console.log('屋外センサーIDが設定されていません');
+    return null;
+  }
+  
+  try {
+    const url = `${CONFIG.switchbot.apiUrl}/${CONFIG.switchbot.outdoorSensorId}/status`;
+    const headers = {
+      'Authorization': CONFIG.switchbot.token,
+      'Content-Type': 'application/json'
+    };
+    
+    const response = UrlFetchApp.fetch(url, { method: 'GET', headers: headers });
+    const data = JSON.parse(response.getContentText());
+    
+    if (data.statusCode === 100 && data.body) {
+      return {
+        temperature: data.body.temperature,
+        humidity: data.body.humidity,
+        battery: data.body.battery || 'N/A'
+      };
+    } else {
+      throw new Error(`屋外センサー API Error: ${data.message}`);
+    }
+  } catch (error) {
+    console.error('屋外センサーデータ取得エラー:', error);
+    return null;
+  }
+}
+
+/**
+ * エアコン制御（既存機能）
+ */
+function controlAircon(mode, temperature) {
+  const CONFIG = getConfig();
+  
+  if (mode === 'none') {
+    try {
+      const url = `${CONFIG.switchbot.apiUrl}/${CONFIG.switchbot.airconId}/commands`;
+      const headers = {
+        'Authorization': CONFIG.switchbot.token,
+        'Content-Type': 'application/json'
+      };
+      
+      const response = UrlFetchApp.fetch(url, {
+        method: 'POST',
+        headers: headers,
+        payload: JSON.stringify({ command: 'turnOff' })
+      });
+      
+      const result = JSON.parse(response.getContentText());
+      if (result.statusCode !== 100) {
+        throw new Error(`エアコン停止失敗: ${result.message}`);
+      }
+      
+      console.log('✅ エアコン停止成功');
+      return { controlled: true, mode: 'off', reason: 'エアコン停止' };
+      
+    } catch (error) {
+      console.error('❌ エアコン停止エラー:', error);
+      return { controlled: false, error: error.toString() };
+    }
+  }
+  
+  try {
+    const url = `${CONFIG.switchbot.apiUrl}/${CONFIG.switchbot.airconId}/commands`;
+    const headers = {
+      'Authorization': CONFIG.switchbot.token,
+      'Content-Type': 'application/json'
+    };
+    
+    // 電源ON
+    let response = UrlFetchApp.fetch(url, {
+      method: 'POST',
+      headers: headers,
+      payload: JSON.stringify({ command: 'turnOn' })
+    });
+    
+    let result = JSON.parse(response.getContentText());
+    if (result.statusCode !== 100) {
+      throw new Error(`電源ON失敗: ${result.message}`);
+    }
+    
+    // 2秒待機
+    Utilities.sleep(2000);
+    
+    // モード・温度・風量設定
+    const modeParam = mode === 'cool' ? '1' : 
+                     mode === 'dry' ? '2' : 
+                     mode === 'heat' ? '3' : '1';
+    const fanSpeed = '2'; // 常に弱風
+    const commandParams = `${temperature},${modeParam},${fanSpeed},on`;
+    
+    response = UrlFetchApp.fetch(url, {
+      method: 'POST',
+      headers: headers,
+      payload: JSON.stringify({ command: 'setAll', parameter: commandParams })
+    });
+    
+    result = JSON.parse(response.getContentText());
+    if (result.statusCode !== 100) {
+      throw new Error(`制御失敗: ${result.message}`);
+    }
+    
+    console.log(`✅ エアコン制御成功: ${mode}モード ${temperature}℃ 弱風`);
+    return { controlled: true, mode: mode, temperature: temperature, fanSpeed: 'weak' };
+    
+  } catch (error) {
+    console.error('❌ エアコン制御エラー:', error);
+    return { controlled: false, error: error.toString() };
+  }
+}
+
+/**
+ * サーキュレーター制御（既存機能）
+ */
+function controlCirculator(mode) {
+  const CONFIG = getConfig();
+  
+  if (!CONFIG.switchbot.circulatorId) {
+    console.log('⚠️ サーキュレーターIDが設定されていません');
+    return { controlled: false, error: 'サーキュレーターIDが設定されていません' };
+  }
+  
+  try {
+    const url = `${CONFIG.switchbot.apiUrl}/${CONFIG.switchbot.circulatorId}/commands`;
+    const headers = {
+      'Authorization': CONFIG.switchbot.token,
+      'Content-Type': 'application/json'
+    };
+    
+    const payload = {
+      command: mode === 'on' ? 'turnOn' : 'turnOff',
+      parameter: 'default',
+      commandType: 'command'
+    };
+    
+    const response = UrlFetchApp.fetch(url, {
+      method: 'POST',
+      headers: headers,
+      payload: JSON.stringify(payload)
+    });
+    
+    const result = JSON.parse(response.getContentText());
+    if (result.statusCode !== 100) {
+      throw new Error(`サーキュレーター制御失敗: ${result.message}`);
+    }
+    
+    console.log(`✅ サーキュレーター制御成功: ${mode === 'on' ? 'ON' : 'OFF'}`);
+    return { controlled: true, mode: mode === 'on' ? 'ON' : 'OFF' };
+    
+  } catch (error) {
+    console.error('❌ サーキュレーター制御エラー:', error);
+    return { controlled: false, error: error.toString() };
+  }
+}
+
+/**
+ * ログ記録（拡張版）
+ */
+function logToSpreadsheet(data) {
+  const CONFIG = getConfig();
+  
+  try {
+    let spreadsheet;
+    const files = DriveApp.getFilesByName(CONFIG.spreadsheet.name);
+    if (files.hasNext()) {
+      spreadsheet = SpreadsheetApp.open(files.next());
+    } else {
+      spreadsheet = SpreadsheetApp.create(CONFIG.spreadsheet.name);
+    }
+    
+    let sheet;
+    try {
+      sheet = spreadsheet.getSheetByName(CONFIG.spreadsheet.sheetName);
+    } catch (error) {
+      sheet = spreadsheet.insertSheet(CONFIG.spreadsheet.sheetName);
+      
+      // 拡張ヘッダー行
+      sheet.getRange(1, 1, 1, 22).setValues([[
+        '日時', '室内温度', '室内湿度', '外気温', '外気湿度', '季節判定',
+        'エアコンモード', '設定温度', 'サーキュレーター', '制御内容', 
+        '制御優先度', '制御実行', '制御根拠', '外気データソース', 
+        '屋外電池', 'CO2濃度', '不快指数', '不快指数評価', '時間帯',
+        '理想ゾーン判定', '制御効率', '夜間モード'
+      ]]);
+    }
+    
+    const row = [
+      new Date(),
+      data.indoor.temperature,
+      data.indoor.humidity,
+      data.outdoor?.temperature || 'N/A',
+      data.outdoor?.humidity || 'N/A',
+      data.control.season || 'unknown',
+      data.control.mode === 'none' ? '制御なし' : data.control.mode,
+      data.control.setTemp || 'N/A',
+      data.control.circulator || 'N/A',
+      data.control.action,
+      data.control.priority,
+      data.control.controlled ? 'Yes' : 'No',
+      data.control.reasoning || 'N/A',
+      data.outdoor?.source || 'N/A',
+      data.outdoor?.battery || 'N/A',
+      data.indoor.co2 || 'N/A',
+      data.control.discomfortIndex || 'N/A',
+      data.control.discomfortIndex ? evaluateDiscomfortIndex(data.control.discomfortIndex).text : 'N/A',
+      data.control.timeOfDay || 'N/A',
+      getIdealZoneStatus(data.control.season, data.indoor.temperature),
+      data.control.controlled ? 'エアコン制御' : 'エアコン停止',
+      data.control.nightMode ? 'Yes' : 'No'
+    ];
+    
+    sheet.appendRow(row);
+    console.log('✅ ログ記録完了');
+    
+  } catch (error) {
+    console.error('❌ ログ記録エラー:', error);
+  }
+}
+
+/**
+ * 理想ゾーン判定（既存機能）
+ */
+function getIdealZoneStatus(season, temperature) {
+  const CONFIG = getConfig();
+  
+  if (season === 'summer') {
+    // 夏季は不快指数基準なので、温度だけでは判定困難
+    return '不快指数基準適用中';
+  } else if (season === 'winter') {
+    return (temperature >= CONFIG.thresholds.winter.idealMin && temperature <= CONFIG.thresholds.winter.idealMax) ? '理想ゾーン内' : '理想ゾーン外';
+  } else {
+    return (temperature >= CONFIG.thresholds.moderate.idealMin && temperature <= CONFIG.thresholds.moderate.idealMax) ? '快適ゾーン内' : '快適ゾーン外';
+  }
+}
+
+/**
+ * 通知送信（拡張版）
+ */
+function sendGmailNotification(data) {
+  const CONFIG = getConfig();
+  
+  try {
+    const now = new Date();
+    const timeStr = Utilities.formatDate(now, 'Asia/Tokyo', 'HH:mm');
+    const dateStr = Utilities.formatDate(now, 'Asia/Tokyo', 'yyyy年MM月dd日');
+    const timeOfDay = data.control.timeOfDay || 'unknown';
+    const isNight = data.control.nightMode || false;
+    
+    let timeOfDayText = '';
+    switch(timeOfDay) {
+      case 'morning': timeOfDayText = '朝'; break;
+      case 'daytime': timeOfDayText = '昼'; break;
+      case 'evening': timeOfDayText = '夕方'; break;
+      case 'night': timeOfDayText = '夜'; break;
+      default: timeOfDayText = '時間帯不明';
+    }
+    
+    const subject = `不快指数対応・季節別快適制御レポート（${data.control.season}季・${timeOfDayText}） - ${timeStr}`;
+    
+    const idealZoneStatus = getIdealZoneStatus(data.control.season, data.indoor.temperature);
+    const di = data.control.discomfortIndex;
+    const diEvaluation = di ? evaluateDiscomfortIndex(di) : { text: 'N/A', class: 'unknown' };
+    
+    const safeData = {
+      temperature: data.indoor?.temperature || 0,
+      humidity: data.indoor?.humidity || 0,
+      co2: data.indoor?.co2 || 'N/A',
+      outdoorTemp: data.outdoor?.temperature || 'N/A',
+      outdoorHumidity: data.outdoor?.humidity || 'N/A',
+      battery: data.outdoor?.battery || 'N/A',
+      mode: data.control?.mode || 'none',
+      setTemperature: data.control?.setTemp || 'N/A',
+      circulator: data.control?.circulator || 'N/A',
+      action: data.control?.action || '状態確認中',
+      priority: data.control?.priority || 'unknown',
+      reasoning: data.control?.reasoning || 'N/A',
+      season: data.control?.season || 'unknown',
+      timeOfDay: timeOfDayText,
+      discomfortIndex: di || 'N/A',
+      discomfortText: diEvaluation.text
+    };
+    
+    // 季節・時間帯別ステータス評価
+    let statusColor = '#10B981';
+    let statusIcon = '●';
+    let statusText = '快適に制御されています';
+    let bgGradient = 'linear-gradient(135deg, #10B981 0%, #059669 100%)';
+    
+    if (safeData.season === 'summer' && di) {
+      if (di < 72) {
+        statusColor = '#10B981';
+        statusText = `夏季快適状態（DI:${di}・${timeOfDayText}）`;
+        bgGradient = 'linear-gradient(135deg, #10B981 0%, #059669 100%)';
+      } else if (di >= 80) {
+        statusColor = '#EF4444';
+        statusText = `不快指数高レベル（DI:${di}・${timeOfDayText}）`;
+        bgGradient = 'linear-gradient(135deg, #EF4444 0%, #DC2626 100%)';
+      } else if (di >= 75) {
+        statusColor = '#F59E0B';
+        statusText = `不快指数注意レベル（DI:${di}・${timeOfDayText}）`;
+        bgGradient = 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)';
+      } else {
+        statusColor = '#3B82F6';
+        statusText = `不快指数準快適（DI:${di}・${timeOfDayText}）`;
+        bgGradient = 'linear-gradient(135deg, #3B82F6 0%, #2563EB 100%)';
+      }
+    } else if (idealZoneStatus.includes('理想') || idealZoneStatus.includes('快適')) {
+      statusColor = '#10B981';
+      statusText = `${safeData.season}季の理想ゾーン内で快適です`;
+      bgGradient = 'linear-gradient(135deg, #10B981 0%, #059669 100%)';
+    }
+    
+    // 夜間モード表示
+    const nightModeText = isNight ? '（夜間静音モード）' : '';
+    
+    // HTMLメール本文（簡略版）
+    const htmlBody = `
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f8fafc; }
+        .container { max-width: 600px; margin: 20px auto; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); }
+        .header { background: ${bgGradient}; padding: 30px 20px; text-align: center; color: white; }
+        .header h1 { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+        .content { padding: 30px; }
+        .status-card { background: ${statusColor}15; border-left: 4px solid ${statusColor}; padding: 20px; border-radius: 8px; margin-bottom: 24px; }
+        .status-card h2 { color: ${statusColor}; font-size: 18px; margin-bottom: 8px; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .metric-card { background: #f8fafc; padding: 20px; border-radius: 12px; text-align: center; border: 1px solid #e2e8f0; }
+        .metric-value { font-size: 24px; font-weight: 700; color: #1e293b; margin-bottom: 4px; }
+        .metric-label { font-size: 12px; color: #64748b; }
+        .di-info { background: #e0f2fe; padding: 20px; border-radius: 12px; margin-bottom: 24px; border-left: 4px solid #0369a1; }
+        .footer { background: #f8fafc; padding: 20px; text-align: center; border-top: 1px solid #e2e8f0; color: #64748b; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>不快指数対応・季節別快適制御システム</h1>
+            <div>${dateStr} ${timeStr} (${timeOfDayText})${nightModeText}</div>
+        </div>
+        
+        <div class="content">
+            <div class="status-card">
+                <h2>${statusIcon} ${statusText}</h2>
+                <div>季節: ${safeData.season}季、時間帯: ${timeOfDayText}</div>
+            </div>
+            
+            ${safeData.season === 'summer' && di ? `
+            <div class="di-info">
+                <h3>● 不快指数制御情報</h3>
+                <p><strong>不快指数: ${di}</strong> (${diEvaluation.text})</p>
+                <p>時間帯: ${timeOfDayText}（${CONFIG.thresholds.discomfortIndex[timeOfDay]?.description || '基準なし'}）</p>
+            </div>
+            ` : ''}
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">${safeData.temperature}°C</div>
+                    <div class="metric-label">室内温度</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">${safeData.humidity}%</div>
+                    <div class="metric-label">室内湿度</div>
+                </div>
+                ${safeData.season === 'summer' && di ? `
+                <div class="metric-card">
+                    <div class="metric-value">${di}</div>
+                    <div class="metric-label">不快指数</div>
+                </div>
+                ` : ''}
+                <div class="metric-card">
+                    <div class="metric-value">${safeData.outdoorTemp}°C</div>
+                    <div class="metric-label">外気温</div>
+                </div>
+            </div>
+            
+            <div style="background: #f1f5f9; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
+                <h4 style="color: #1e40af; margin-bottom: 8px;">実行された制御</h4>
+                <p>${safeData.action}</p>
+            </div>
+            
+            <div style="background: #f0fdf4; padding: 16px; border-radius: 8px;">
+                <h4 style="color: #166534; margin-bottom: 8px;">制御根拠</h4>
+                <p>${safeData.reasoning}</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>不快指数対応・時間帯別制御システムからの自動レポート</p>
+        </div>
+    </div>
+</body>
+</html>`;
+    
+    // プレーンテキスト版
+    const plainTextBody = `
+不快指数対応・季節別快適制御レポート（${safeData.season}季・${timeOfDayText}）
+==================================================
+[日時] ${dateStr} ${timeStr}${nightModeText}
+[季節] ${safeData.season}季制御
+[時間帯] ${timeOfDayText}
+[室内] ${safeData.temperature}°C, ${safeData.humidity}%, CO2 ${safeData.co2}ppm
+[外気] ${safeData.outdoorTemp}°C, ${safeData.outdoorHumidity}%
+${safeData.season === 'summer' && di ? `[不快指数] ${di} (${diEvaluation.text})` : ''}
+[エアコン] ${safeData.mode === 'none' ? '制御なし' : safeData.mode} ${safeData.setTemperature}°C
+[サーキュレーター] ${safeData.circulator}
+[実行] ${safeData.action}
+[根拠] ${safeData.reasoning}
+[電池] ${safeData.battery !== 'N/A' ? safeData.battery + '%' : 'N/A'}
+`;
+    
+    // メール送信
+    GmailApp.sendEmail(
+      CONFIG.notification.recipient,
+      subject,
+      plainTextBody,
+      {
+        name: '不快指数対応・季節別快適制御システム',
+        htmlBody: htmlBody
+      }
+    );
+    
+    console.log('✅ 通知送信完了');
+    
+  } catch (error) {
+    console.error('❌ 通知送信エラー:', error);
+  }
+}
+
+/**
+ * メイン制御処理（改良版）
+ */
+function mainControl() {
+  try {
+    console.log('=== 不快指数対応・季節別快適制御開始 ===');
+    
+    // 1. 室内センサーデータ取得
+    const sensorData = getSensorData();
+    console.log('室内環境:', sensorData);
+    
+    // 2. 屋外センサーデータ取得
+    const outdoorData = getOutdoorSensorData();
+    if (outdoorData) {
+      console.log('外気環境:', {
+        temperature: outdoorData.temperature,
+        humidity: outdoorData.humidity,
+        battery: outdoorData.battery
+      });
+    } else {
+      console.log('外気データなし: 月ベースで季節推定');
+    }
+    
+    // 3. 改良版制御判定
+    const control = determineSeasonalControl(sensorData, outdoorData);
+    console.log('制御判定:', control);
+    
+    // 4. 不快指数情報表示（夏季のみ）
+    if (control.season === 'summer' && control.discomfortIndex) {
+      const diEval = evaluateDiscomfortIndex(control.discomfortIndex);
+      console.log(`不快指数詳細: DI=${control.discomfortIndex} (${diEval.text}), 時間帯=${control.timeOfDay}`);
+    }
+    
+    // 5. エアコン制御実行
+    const airconResult = controlAircon(control.mode, control.setTemp);
+    
+    // 6. サーキュレーター制御実行
+    const circulatorResult = controlCirculator(control.circulator);
+    
+    // 7. ログ記録
+    const logData = {
+      indoor: {
+        temperature: sensorData.temperature,
+        humidity: sensorData.humidity,
+        co2: sensorData.co2
+      },
+      outdoor: outdoorData ? {
+        temperature: outdoorData.temperature,
+        humidity: outdoorData.humidity,
+        battery: outdoorData.battery,
+        source: 'outdoor_sensor'
+      } : null,
+      control: {
+        ...control,
+        airconResult: airconResult,
+        circulatorResult: circulatorResult
+      }
+    };
+    
+    logToSpreadsheet(logData);
+    
+    console.log('=== 不快指数対応・季節別快適制御完了 ===');
+    
+  } catch (error) {
+    console.error('❌ メイン制御エラー:', error);
+    
+    // エラー通知
+    try {
+      const CONFIG = getConfig();
+      if (CONFIG.notification.recipient) {
+        GmailApp.sendEmail(
+          CONFIG.notification.recipient,
+          '不快指数対応・季節別快適制御システムエラー',
+          `エラーが発生しました:\n\n${error.toString()}\n\n時刻: ${new Date()}`
+        );
+      }
+    } catch (emailError) {
+      console.error('エラー通知送信失敗:', emailError);
+    }
+  }
+}
+
+/**
+ * 通知処理（改良版）
+ */
+function sendNotification() {
+  try {
+    console.log('=== 通知処理開始 ===');
+    
+    const sensorData = getSensorData();
+    const outdoorData = getOutdoorSensorData();
+    
+    const currentStatus = determineSeasonalControl(sensorData, outdoorData);
+    
+    const notificationData = {
+      indoor: {
+        temperature: sensorData.temperature,
+        humidity: sensorData.humidity,
+        co2: sensorData.co2
+      },
+      outdoor: outdoorData,
+      control: {
+        ...currentStatus,
+        action: '現在の状態報告（通知のみ）'
+      }
+    };
+    
+    sendGmailNotification(notificationData);
+    
+    console.log('✅ 通知処理完了');
+    
+  } catch (error) {
+    console.error('❌ 通知処理エラー:', error);
+  }
+}
+
+/**
+ * 初期設定（改良版）
+ */
+function setup() {
+  console.log('=== 不快指数対応・季節別快適制御システム初期設定 ===');
+  
+  // 既存トリガー削除
+  const triggers = ScriptApp.getProjectTriggers();
+  triggers.forEach(trigger => ScriptApp.deleteTrigger(trigger));
+  
+  // 15分毎のメイン制御
+  ScriptApp.newTrigger('mainControl')
+    .timeBased()
+    .everyMinutes(15)
+    .create();
+  
+  // 昼12時の通知
+  ScriptApp.newTrigger('sendNotification')
+    .timeBased()
+    .everyDays(1)
+    .atHour(12)
+    .create();
+  
+  console.log('✅ トリガー設定完了');
+  console.log('- メイン制御: 15分毎');
+  console.log('- 通知送信: 毎日12時');
+  
+  console.log('');
+  console.log('【夏季：不快指数制御基準】');
+  console.log(`朝（6-10時）: DI ${CONFIG.thresholds.discomfortIndex.morning.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.morning.coolingTarget}℃設定`);
+  console.log(`昼（10-16時）: DI ${CONFIG.thresholds.discomfortIndex.daytime.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.daytime.coolingTarget}℃設定`);
+  console.log(`夕（16-22時）: DI ${CONFIG.thresholds.discomfortIndex.evening.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.evening.coolingTarget}℃設定`);
+  console.log(`夜（22-6時）: DI ${CONFIG.thresholds.discomfortIndex.night.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.night.coolingTarget}℃設定`);
+  console.log(`冷房停止: DI ${CONFIG.thresholds.discomfortIndex.stopThreshold}以下`);
+  console.log(`緊急制御: DI ${CONFIG.thresholds.discomfortIndex.emergencyDI}以上`);
+  
+  console.log('');
+  console.log('【冬季・中間期：温度制御基準】');
+  console.log(`冬季: ${CONFIG.thresholds.winter.idealMin}-${CONFIG.thresholds.winter.idealMax}℃ (暖房${CONFIG.thresholds.winter.heatingTarget}℃)`);
+  console.log(`中間期: ${CONFIG.thresholds.moderate.idealMin}-${CONFIG.thresholds.moderate.idealMax}℃`);
+  
+  console.log('');
+  console.log('【湿度制御】');
+  console.log(`除湿開始: ${CONFIG.thresholds.humidityHigh}%以上`);
+  console.log(`緊急除湿: ${CONFIG.thresholds.humidityEmergency}%以上`);
+  
+  console.log('');
+  console.log('【デバイス設定】');
+  console.log(`SwitchBotトークン: ${CONFIG.switchbot.token ? '設定済み' : '未設定'}`);
+  console.log(`CO2メーター: ${CONFIG.switchbot.co2MeterId || '未設定'}`);
+  console.log(`屋外センサー: ${CONFIG.switchbot.outdoorSensorId || '未設定'}`);
+  console.log(`エアコン: ${CONFIG.switchbot.airconId || '未設定'}`);
+  console.log(`サーキュレーター: ${CONFIG.switchbot.circulatorId || '未設定'}`);
+  console.log(`通知先: ${CONFIG.notification.recipient || '未設定'}`);
+  
+  console.log('');
+  console.log('【時間帯別特徴】');
+  console.log(`朝: ${CONFIG.thresholds.discomfortIndex.morning.description}`);
+  console.log(`昼: ${CONFIG.thresholds.discomfortIndex.daytime.description}`);
+  console.log(`夕: ${CONFIG.thresholds.discomfortIndex.evening.description}`);
+  console.log(`夜: ${CONFIG.thresholds.discomfortIndex.night.description}`);
+}
+
+/**
+ * 現在の環境状況表示
+ */
+function showCurrentStatus() {
+  console.log('=== 現在の環境状況 ===');
+  
+  try {
+    // センサーデータ取得
+    const sensorData = getSensorData();
+    const outdoorData = getOutdoorSensorData();
+    
+    // 基本情報
+    const now = new Date();
+    const timeStr = Utilities.formatDate(now, 'Asia/Tokyo', 'yyyy/MM/dd HH:mm:ss');
+    const timeOfDay = getTimeOfDay(now.getHours());
+    const isNight = isNightTime();
+    const season = getSeason(outdoorData?.temperature);
+    
+    console.log(`【現在時刻】${timeStr} (${timeOfDay}${isNight ? '・夜間モード' : ''})`);
+    console.log(`【季節判定】${season}季`);
+    
+    // 室内環境
+    console.log('');
+    console.log('【室内環境】');
+    console.log(`温度: ${sensorData.temperature}℃`);
+    console.log(`湿度: ${sensorData.humidity}%`);
+    console.log(`CO2: ${sensorData.co2}ppm`);
+    
+    // 不快指数（夏季のみ）
+    if (season === 'summer') {
+      const di = calculateDiscomfortIndex(sensorData.temperature, sensorData.humidity);
+      const diEval = evaluateDiscomfortIndex(di);
+      const CONFIG = getConfig();
+      const timeBasedThreshold = CONFIG.thresholds.discomfortIndex[timeOfDay];
+      
+      console.log('');
+      console.log('【不快指数分析】');
+      console.log(`不快指数: ${di} (${diEval.text})`);
+      console.log(`${timeOfDay}時間帯基準: DI ${timeBasedThreshold.coolingStart}で冷房開始`);
+      console.log(`制御判定: ${di >= timeBasedThreshold.coolingStart ? '冷房必要' : '快適範囲'}`);
+    }
+    
+    // 屋外環境
+    console.log('');
+    console.log('【屋外環境】');
+    if (outdoorData) {
+      console.log(`温度: ${outdoorData.temperature}℃`);
+      console.log(`湿度: ${outdoorData.humidity}%`);
+      console.log(`電池: ${outdoorData.battery}%`);
+    } else {
+      console.log('データなし（月ベース季節推定）');
+    }
+    
+    // 制御判定
+    console.log('');
+    console.log('【制御判定結果】');
+    const control = determineSeasonalControl(sensorData, outdoorData);
+    console.log(`制御内容: ${control.action}`);
+    console.log(`優先度: ${control.priority}`);
+    console.log(`制御実行: ${control.controlled ? 'Yes' : 'No'}`);
+    console.log(`根拠: ${control.reasoning}`);
+    
+    // エアコン・サーキュレーター状態予測
+    console.log('');
+    console.log('【デバイス制御予定】');
+    console.log(`エアコン: ${control.mode === 'none' ? '停止' : `${control.mode}モード ${control.setTemp}℃`}`);
+    console.log(`サーキュレーター: ${control.circulator === 'on' ? 'ON' : 'OFF'}${isNight ? ' (夜間静音)' : ''}`);
+    
+  } catch (error) {
+    console.error('❌ 状況表示エラー:', error);
+  }
+  console.log('');
+  console.log('【不快指数対応・季節別快適制御システムの特徴】');
+  console.log('✅ 夏季：不快指数（DI）による体感重視制御');
+  console.log('✅ 時間帯別制御：朝DI74・昼DI73・夕DI72・夜DI75（体感調整版）');
+  console.log('✅ 冬季・中間期：従来の温度制御を継続');
+  console.log('✅ 夜間配慮：体温下降期に合わせた制御＋静音重視');
+  console.log('✅ 省エネ重視：段階的制御＋最小限運転');
+  
+  // 初回制御実行
+  console.log('初回制御を実行します...');
+  mainControl();
+}
+
+/**
+ * システムテスト（改良版）
+ */
+function testSystem() {
+  console.log('=== 不快指数対応・季節別快適制御システムテスト ===');
+  
+  try {
+    // 1. センサーデータテスト
+    console.log('1. センサーデータ取得テスト');
+    const sensorData = getSensorData();
+    console.log('✅ 室内センサー:', sensorData);
+    
+    const outdoorData = getOutdoorSensorData();
+    if (outdoorData) {
+      console.log('✅ 屋外センサー:', outdoorData);
+    } else {
+      console.log('⚠️ 屋外センサー：設定なしまたは取得失敗');
+    }
+    
+    // 2. 不快指数計算テスト
+    console.log('2. 不快指数計算テスト');
+    const di = calculateDiscomfortIndex(sensorData.temperature, sensorData.humidity);
+    const diEval = evaluateDiscomfortIndex(di);
+    console.log(`✅ 不快指数: ${di} (${diEval.text})`);
+    
+    // 3. 時間帯判定テスト
+    console.log('3. 時間帯判定テスト');
+    const now = new Date();
+    const timeOfDay = getTimeOfDay(now.getHours());
+    const isNight = isNightTime();
+    console.log(`✅ 現在時刻: ${now.getHours()}時 → ${timeOfDay} (夜間=${isNight})`);
+    
+    // 4. 季節判定テスト
+    console.log('4. 季節判定テスト');
+    const season = getSeason(outdoorData?.temperature);
+    console.log('✅ 季節判定:', season);
+    
+    // 5. 制御判定テスト
+    console.log('5. 制御判定テスト');
+    const control = determineSeasonalControl(sensorData, outdoorData);
+    console.log('✅ 制御判定:', control);
+    
+    // 6. 時間帯別不快指数テストケース
+    if (season === 'summer') {
+      console.log('6. 夏季時間帯別制御パターンテスト');
+      
+      const testCases = [
+        { temp: 27, hum: 60, time: 'morning', desc: '朝27℃60%' },
+        { temp: 27, hum: 70, time: 'daytime', desc: '昼27℃70%' },
+        { temp: 26, hum: 75, time: 'evening', desc: '夕26℃75%' },
+        { temp: 28, hum: 65, time: 'night', desc: '夜28℃65%' }
+      ];
+      
+      testCases.forEach(testCase => {
+        const testDI = calculateDiscomfortIndex(testCase.temp, testCase.hum);
+        const testControl = determineSummerControlByDI(testCase.temp, testCase.hum, testCase.time, testCase.time === 'night');
+        console.log(`${testCase.desc}: DI=${testDI} → ${testControl.action}`);
+      });
+    }
+    
+    console.log('');
+    console.log('🎉 不快指数対応・季節別快適制御システムテスト完了！');
+    console.log('');
+    console.log('【現在の状況】');
+    console.log(`室内: ${sensorData.temperature}℃, ${sensorData.humidity}%, CO2 ${sensorData.co2}ppm`);
+    if (outdoorData) {
+      console.log(`屋外: ${outdoorData.temperature}℃, ${outdoorData.humidity}%, 電池${outdoorData.battery}%`);
+    }
+    console.log(`季節: ${season}, 時間帯: ${timeOfDay}`);
+    if (season === 'summer') {
+      console.log(`不快指数: ${di} (${diEval.text})`);
+    }
+    console.log(`制御: ${control.action}`);
+    console.log(`根拠: ${control.reasoning}`);
+    
+    console.log('');
+    console.log('【新機能の特徴】');
+    console.log('✅ 不快指数による科学的な体感評価');
+    console.log('✅ 時間帯別制御基準（生理リズム対応）');
+    console.log('✅ 夜間の体温下降期に配慮した制御');
+    console.log('✅ 詳細なログ記録（DI値・時間帯・根拠）');
+    console.log('✅ 省エネ重視の段階的制御');
+    
+  } catch (error) {
+    console.error('❌ テスト失敗:', error);
+  }
+}
+
+/**
+ * 不快指数計算テスト（単体テスト）
+ */
+function testDiscomfortIndex() {
+  console.log('=== 不快指数計算テスト ===');
+  
+  const testCases = [
+    { temp: 25, hum: 50, expected: '快適' },
+    { temp: 27, hum: 60, expected: 'やや暑い' },
+    { temp: 28, hum: 70, expected: '暑くて汗' },
+    { temp: 30, hum: 80, expected: '暑くてたまらない' },
+    { temp: 32, hum: 85, expected: '非常に暑い' }
+  ];
+  
+  testCases.forEach(testCase => {
+    const di = calculateDiscomfortIndex(testCase.temp, testCase.hum);
+    const evaluation = evaluateDiscomfortIndex(di);
+    console.log(`${testCase.temp}℃ ${testCase.hum}% → DI: ${di} (${evaluation.text}) [期待: ${testCase.expected}]`);
+  });
+  
+  console.log('✅ 不快指数計算テスト完了');
+}
+
+/**
+ * 設定値表示（改良版）
+ */
+function showConfig() {
+  console.log('=== 不快指数対応・季節別快適制御システム設定 ===');
+  
+  const CONFIG = getConfig();
+  
+  console.log('【季節判定基準】');
+  console.log(`夏季: 外気${CONFIG.thresholds.summerTemp}℃以上`);
+  console.log(`冬季: 外気${CONFIG.thresholds.winterTemp}℃以下`);
+  console.log(`中間期: 外気${CONFIG.thresholds.winterTemp}-${CONFIG.thresholds.summerTemp}℃`);
+  
+  console.log('');
+  console.log('【夏季：不快指数制御基準】');
+  console.log(`朝（6-10時）: DI ${CONFIG.thresholds.discomfortIndex.morning.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.morning.coolingTarget}℃設定`);
+  console.log(`昼（10-16時）: DI ${CONFIG.thresholds.discomfortIndex.daytime.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.daytime.coolingTarget}℃設定`);
+  console.log(`夕（16-22時）: DI ${CONFIG.thresholds.discomfortIndex.evening.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.evening.coolingTarget}℃設定`);
+  console.log(`夜（22-6時）: DI ${CONFIG.thresholds.discomfortIndex.night.coolingStart}で冷房開始 → ${CONFIG.thresholds.discomfortIndex.night.coolingTarget}℃設定`);
+  console.log(`冷房停止: DI ${CONFIG.thresholds.discomfortIndex.stopThreshold}以下`);
+  console.log(`緊急制御: DI ${CONFIG.thresholds.discomfortIndex.emergencyDI}以上`);
+  
+  console.log('');
+  console.log('【冬季・中間期：温度制御基準】');
+  console.log(`冬季: ${CONFIG.thresholds.winter.idealMin}-${CONFIG.thresholds.winter.idealMax}℃ (暖房${CONFIG.thresholds.winter.heatingTarget}℃)`);
+  console.log(`中間期: ${CONFIG.thresholds.moderate.idealMin}-${CONFIG.thresholds.moderate.idealMax}℃`);
+  
+  console.log('');
+  console.log('【湿度制御】');
+  console.log(`除湿開始: ${CONFIG.thresholds.humidityHigh}%以上`);
+  console.log(`緊急除湿: ${CONFIG.thresholds.humidityEmergency}%以上`);
+  
+  console.log('');
+  console.log('【デバイス設定】');
+  console.log(`SwitchBotトークン: ${CONFIG.switchbot.token ? '設定済み' : '未設定'}`);
+  console.log(`CO2メーター: ${CONFIG.switchbot.co2MeterId || '未設定'}`);
+  console.log(`屋外センサー: ${CONFIG.switchbot.outdoorSensorId || '未設定'}`);
+  console.log(`エアコン: ${CONFIG.switchbot.airconId || '未設定'}`);
+  console.log(`サーキュレーター: ${CONFIG.switchbot.circulatorId || '未設定'}`);
+  console.log(`通知先: ${CONFIG.notification.recipient || '未設定'}`);
+  
+  console.log('');
+  console.log('【時間帯別特徴】');
+  console.log(`朝: ${CONFIG.thresholds.discomfortIndex.morning.description}`);
+  console.log(`昼: ${CONFIG.thresholds.discomfortIndex.daytime.description}`);
+  console.log(`夕: ${CONFIG.thresholds.discomfortIndex.evening.description}`);
+  console.log(`夜: ${CONFIG.thresholds.discomfortIndex.night.description}`);
+}

@@ -1,0 +1,43 @@
+# 環境変数・機密情報
+.env
+.env.local
+.env.*.local
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# ログファイル
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 一時ファイル
+*.tmp
+*.temp
+/tmp/
+
+# バックアップ
+*.backup
+*.bak
+
+# Notion API トークン（万が一）
+*token*.txt
+*secret*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

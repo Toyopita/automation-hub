@@ -1,0 +1,9 @@
+{
+  "name": "discord-mcp-server",
+  "version": "1.0.0",
+  "description": "Discord MCP Server with Google Calendar and Notion integration",
+  "dependencies": {
+    "@notionhq/client": "^2.2.0",
+    "googleapis": "^144.0.0"
+  }
+}

@@ -1,0 +1,1126 @@
+/**
+ * メイン処理：締切間近のタスクとカレンダー予定をメール通知
+ */
+function notifyUpcomingTasksAndEvents() {
+  const props = PropertiesService.getScriptProperties();
+  const NOTION_TOKEN = props.getProperty('NOTION_TOKEN');
+  const NOTION_DB_ID = props.getProperty('NOTION_DB_ID');
+  const EMAIL_TO = props.getProperty('EMAIL_TO');
+  const CALENDAR_IDS = props.getProperty('CALENDAR_IDS'); // '祖霊社,プライベート' のような形式
+  
+  // カレンダーIDの正確な設定（実際のIDを使用）
+  // 表示順序: 1.六曜 2.祖霊社 3.本社 4.年祭 5.冥福祭 6.プライベート 7.関西イベント
+  let calendarIds = [
+    'br7nsak3pjv3d379ddrf4bfgpo7splo1@import.calendar.google.com',  // 六曜カレンダー
+    'cf7eae583e48c538ae20a84a8d238f9590555ffc283752864fb2252e5ba24555@group.calendar.google.com',  // 祖霊社
+    '079e3c154e7e09e8bf9844a7d6244981c48f5282252f8ec346286e66018025bb@group.calendar.google.com',  // 本社
+    '40ea48b73cb27b73af8113fc8d9943a609f1a75e47eb65dd5a126fea516004ea@group.calendar.google.com',  // 年祭
+    '4985421b6573a758fa7cc5c3c610ee1f725ef2e2e29fa8a758690043dc02c6c5@group.calendar.google.com',  // 冥福祭
+    'izumooyashiro.osaka.takeshi@gmail.com',  // プライベート
+    'ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com'  // 関西イベント情報
+  ];
+  
+  if (CALENDAR_IDS) {
+    const rawIds = CALENDAR_IDS.split(',').map(id => id.trim());
+    calendarIds = rawIds.map(id => {
+      // カレンダー名からIDへの変換
+      switch(id) {
+        case '六曜カレンダー':
+          return 'br7nsak3pjv3d379ddrf4bfgpo7splo1@import.calendar.google.com';
+        case '祖霊社':
+          return 'cf7eae583e48c538ae20a84a8d238f9590555ffc283752864fb2252e5ba24555@group.calendar.google.com';
+        case '本社':
+          return '079e3c154e7e09e8bf9844a7d6244981c48f5282252f8ec346286e66018025bb@group.calendar.google.com';
+        case '年祭':
+          return '40ea48b73cb27b73af8113fc8d9943a609f1a75e47eb65dd5a126fea516004ea@group.calendar.google.com';
+        case '冥福祭':
+          return '4985421b6573a758fa7cc5c3c610ee1f725ef2e2e29fa8a758690043dc02c6c5@group.calendar.google.com';
+        case 'プライベート':
+          return 'izumooyashiro.osaka.takeshi@gmail.com';
+        case '関西イベント情報':
+          return 'ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com';
+        case 'primary':
+          return 'izumooyashiro.osaka.takeshi@gmail.com';
+        default:
+          return id; // そのまま使用（IDが直接指定された場合）
+      }
+    });
+  }
+  
+  console.log('対象カレンダー:', calendarIds);
+  const DEADLINE_DAYS = 7;
+
+  // Notionタスクの取得
+  const tasks = fetchTasksFromNotion(NOTION_TOKEN, NOTION_DB_ID);
+  const upcomingTasks = filterUpcomingTasks(tasks, DEADLINE_DAYS);
+  
+  // Googleカレンダー予定の取得（条件指定可能）
+  const calendarOptions = {
+    excludePrivate: true,        // [プライベート]を含む予定を除外
+    excludeDeclined: true,       // 参加を辞退した予定を除外
+    excludeAllDay: false,        // 終日予定を除外しない
+    onlyOwnEvents: false,        // 自分が作成した予定のみ取得しない
+    excludeKeywords: ['テスト', 'test'], // 特定キーワードを含む予定を除外
+    // includeOnlyCategories: ['重要', '会議'], // 特定カテゴリのみ含める
+    // excludeCategories: ['プライベート'],     // 特定カテゴリを除外
+    // minGuestCount: 2,          // 最低参加者数
+    includeToday: true           // 今日の予定も含める
+  };
+  const upcomingEvents = fetchUpcomingCalendarEvents(calendarIds, DEADLINE_DAYS, calendarOptions);
+
+  if (upcomingTasks.length > 0 || upcomingEvents.length > 0) {
+    sendCombinedEmail(upcomingTasks, upcomingEvents, EMAIL_TO, NOTION_TOKEN);
+  } else {
+    Logger.log('通知対象のタスク・予定はありません。');
+  }
+}
+
+/**
+ * Notionから全タスク取得
+ */
+function fetchTasksFromNotion(token, dbId) {
+  const url = `https://api.notion.com/v1/databases/${dbId}/query`;
+  const options = {
+    method: 'post',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Notion-Version': '2022-06-28',
+      'Content-Type': 'application/json',
+    },
+    payload: JSON.stringify({})
+  };
+  const response = UrlFetchApp.fetch(url, options);
+  const data = JSON.parse(response.getContentText());
+  return data.results;
+}
+
+/**
+ * 締切が近く、かつ「進捗」が「未了」のタスクのみ抽出
+ * 期限が過ぎているタスクも未了の場合は通知対象に含める
+ */
+function filterUpcomingTasks(tasks, deadlineDays) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const futureDeadline = new Date(today);
+  futureDeadline.setDate(today.getDate() + deadlineDays);
+  const TARGET_STATUS = '未了';
+
+  return tasks.filter(task => {
+    const due = task.properties['期限']?.date?.start;
+    if (!due) return false;
+    
+    const dueDate = new Date(due);
+    dueDate.setHours(0, 0, 0, 0);
+    
+    const status = (task.properties['進捗']?.status?.name || '').trim();
+    if (status !== TARGET_STATUS) return false;
+
+    // 未了タスクの場合：
+    // - 期限が過ぎているもの（今日より前）→ 含める
+    // - 期限が今日から指定日数以内のもの → 含める
+    // - 期限が指定日数より先のもの → 除外
+    const isOverdue = dueDate < today;
+    const isWithinDeadline = dueDate >= today && dueDate <= futureDeadline;
+    
+    return isOverdue || isWithinDeadline;
+  });
+}
+
+/**
+ * 複数のGoogleカレンダーから近日中の予定を取得（終日予定の日付ずれ修正版）
+ */
+function fetchUpcomingCalendarEvents(calendarIds, days, options = {}) {
+  let allEvents = [];
+  
+  // 文字列の場合は配列に変換
+  const targetCalendars = Array.isArray(calendarIds) ? calendarIds : [calendarIds];
+  
+  // 時間範囲の設定（タイムゾーンを明示的に処理）
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // 時刻をリセット
+  
+  const startDate = options.includeToday !== false ? new Date(today) : new Date(today.getTime() + 24*60*60*1000);
+  const endDate = new Date(today.getTime() + days * 24*60*60*1000);
+  endDate.setHours(23, 59, 59, 999); // 終了日の最後まで含める
+
+  console.log(`取得期間: ${startDate.toLocaleDateString('ja-JP')} 〜 ${endDate.toLocaleDateString('ja-JP')}`);
+
+  // 各カレンダーから予定を取得
+  targetCalendars.forEach(calendarId => {
+    try {
+      const calendar = CalendarApp.getCalendarById(calendarId || 'primary');
+      if (!calendar) {
+        Logger.log(`カレンダーが見つかりません: ${calendarId}`);
+        return;
+      }
+
+      console.log(`カレンダー "${calendar.getName()}" から予定を取得中...`);
+      const events = calendar.getEvents(startDate, endDate);
+      console.log(`"${calendar.getName()}" から ${events.length} 件の予定を取得`);
+      
+      const mappedEvents = events.map(event => {
+        const startTime = event.getStartTime();
+        const endTime = event.getEndTime();
+        const isAllDay = event.isAllDayEvent();
+        
+        // 終日予定の場合、正確な日付を取得するため特別処理
+        let displayStartDate, displayEndDate;
+        let actualStartDate, actualEndDate;
+        
+        if (isAllDay) {
+          // 終日予定の場合、タイムゾーンの問題で日付がずれることがあるため
+          // より慎重に処理する
+          
+          // startTimeのローカル時刻をそのまま使用
+          // ただし、時刻が0時でない場合（タイムゾーンずれ）を考慮
+          let adjustedStartTime = new Date(startTime);
+          
+          // もし時刻が15時以降（UTCで翌日0時＝JSTで9時のケース）なら、1日進める
+          if (adjustedStartTime.getHours() >= 15) {
+            adjustedStartTime.setDate(adjustedStartTime.getDate() + 1);
+          }
+          
+          const year = adjustedStartTime.getFullYear();
+          const month = adjustedStartTime.getMonth() + 1;
+          const date = adjustedStartTime.getDate();
+          const dayOfWeek = ['日', '月', '火', '水', '木', '金', '土'][adjustedStartTime.getDay()];
+          displayStartDate = `${year}年${month}月${date}日（${dayOfWeek}）`;
+          
+          // 終了日は終日予定の場合、endTimeが翌日0時になっているので-1日する
+          const adjustedEndTime = new Date(endTime);
+          adjustedEndTime.setDate(adjustedEndTime.getDate() - 1);
+          const endYear = adjustedEndTime.getFullYear();
+          const endMonth = adjustedEndTime.getMonth() + 1;
+          const endDate = adjustedEndTime.getDate();
+          const endDayOfWeek = ['日', '月', '火', '水', '木', '金', '土'][adjustedEndTime.getDay()];
+          displayEndDate = `${endYear}年${endMonth}月${endDate}日（${endDayOfWeek}）`;
+          
+          // 日付判定用にも調整後の日付を使用
+          actualStartDate = new Date(adjustedStartTime.getFullYear(), adjustedStartTime.getMonth(), adjustedStartTime.getDate());
+          actualEndDate = new Date(adjustedEndTime.getFullYear(), adjustedEndTime.getMonth(), adjustedEndTime.getDate());
+        } else {
+          // 時刻指定の予定の場合
+          // toISOString()はUTCを返すため、ローカル日付から直接取得する
+          const year = startTime.getFullYear();
+          const month = startTime.getMonth() + 1;
+          const date = startTime.getDate();
+          const dayOfWeek = ['日', '月', '火', '水', '木', '金', '土'][startTime.getDay()];
+          displayStartDate = `${year}年${month}月${date}日（${dayOfWeek}）`;
+          
+          const endYear = endTime.getFullYear();
+          const endMonth = endTime.getMonth() + 1;
+          const endDate = endTime.getDate();
+          const endDayOfWeek = ['日', '月', '火', '水', '木', '金', '土'][endTime.getDay()];
+          displayEndDate = `${endYear}年${endMonth}月${endDate}日（${endDayOfWeek}）`;
+          
+          actualStartDate = startTime;
+          actualEndDate = endTime;
+        }
+        
+        return {
+          title: event.getTitle(),
+          startTime: startTime,
+          endTime: endTime,
+          description: event.getDescription() || '',
+          location: event.getLocation() || '',
+          isAllDay: isAllDay,
+          id: event.getId(),
+          calendarName: calendar.getName(),
+          calendarId: calendarId,
+          guests: event.getGuestList().length,
+          isOwnEvent: event.isOwnedByMe(),
+          myResponseStatus: event.getMyStatus(),
+          // デバッグ用：元の日付情報
+          originalStartTime: startTime.toISOString(),
+          originalEndTime: endTime.toISOString(),
+          localStartDate: displayStartDate,
+          localEndDate: displayEndDate,
+          // 正確な日付判定用
+          actualStartDate: actualStartDate,
+          actualEndDate: actualEndDate
+        };
+      });
+      
+      allEvents = allEvents.concat(mappedEvents);
+      
+    } catch (error) {
+      Logger.log(`カレンダー "${calendarId}" の取得エラー: ${error}`);
+    }
+  });
+
+  // フィルタリング処理
+  const filteredEvents = allEvents.filter(event => {
+    // 基本的な除外条件
+    if (!event.title || event.title === '(プライベート)') {
+      console.log(`除外: タイトルなし/プライベート - ${event.title}`);
+      return false;
+    }
+    
+    // カスタム条件の適用
+    if (options.excludePrivate && event.title.includes('[プライベート]')) {
+      console.log(`除外: プライベート - ${event.title}`);
+      return false;
+    }
+    if (options.excludeDeclined && event.myResponseStatus === CalendarApp.GuestStatus.NO) {
+      console.log(`除外: 辞退済み - ${event.title}`);
+      return false;
+    }
+    if (options.onlyOwnEvents && !event.isOwnEvent) {
+      console.log(`除外: 自分以外が作成 - ${event.title}`);
+      return false;
+    }
+    if (options.excludeAllDay && event.isAllDay) {
+      console.log(`除外: 終日予定 - ${event.title}`);
+      return false;
+    }
+    if (options.excludeKeywords) {
+      const titleLower = event.title.toLowerCase();
+      if (options.excludeKeywords.some(keyword => titleLower.includes(keyword.toLowerCase()))) {
+        console.log(`除外: キーワード一致 - ${event.title}`);
+        return false;
+      }
+    }
+    
+    console.log(`含める: ${event.title} (${event.localStartDate} ${event.calendarName})`);
+    return true;
+  });
+
+  // 開始時間でソート
+  filteredEvents.sort((a, b) => a.actualStartDate - b.actualStartDate);
+  
+  console.log(`最終的に ${filteredEvents.length} 件の予定を取得`);
+  return filteredEvents;
+}
+
+/**
+ * タスクとカレンダー予定を統合したHTMLメール送信
+ */
+function sendCombinedEmail(tasks, events, emailTo, notionToken) {
+  const subject = '📅【今週の予定・締切間近タスク】統合通知';
+  
+  const today = new Date();
+  const todayStr = formatJapaneseDate(today.toISOString().split('T')[0]);
+  
+  console.log('=== メール送信準備 ===');
+  console.log('予定数:', events.length);
+  events.forEach((event, index) => {
+    console.log(`${index + 1}. ${event.title}`);
+    console.log(`   localStartDate: ${event.localStartDate}`);
+    console.log(`   終日フラグ: ${event.isAllDay}`);
+    console.log(`   元startTime: ${event.startTime}`);
+  });
+  
+  let htmlBody = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 700px;
+                margin: 0 auto;
+                background-color: #f5f5f5;
+                padding: 20px;
+            }
+            .container {
+                background-color: white;
+                border-radius: 10px;
+                padding: 30px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 30px;
+                padding-bottom: 20px;
+                border-bottom: 3px solid #4285f4;
+            }
+            .header h1 {
+                color: #4285f4;
+                margin: 0;
+                font-size: 24px;
+            }
+            .date-info {
+                background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+                color: white;
+                padding: 15px;
+                border-radius: 8px;
+                text-align: center;
+                margin-bottom: 25px;
+                font-weight: bold;
+            }
+            .section {
+                margin-bottom: 35px;
+            }
+            .section-title {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 12px 20px;
+                margin: 0 0 15px 0;
+                border-radius: 8px;
+                font-size: 18px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .section-title.tasks {
+                background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            }
+            .section-title.events {
+                background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+            }
+            .count-badge {
+                background-color: rgba(255,255,255,0.2);
+                padding: 4px 12px;
+                border-radius: 15px;
+                font-size: 14px;
+                margin-left: auto;
+            }
+            .content-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+                background-color: white;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            }
+            .content-table th {
+                background-color: #f8f9fa;
+                color: #495057;
+                padding: 12px;
+                text-align: left;
+                font-weight: bold;
+                border-bottom: 2px solid #dee2e6;
+            }
+            .content-table td {
+                padding: 12px;
+                border-bottom: 1px solid #eee;
+                vertical-align: top;
+            }
+            .content-table tr:last-child td {
+                border-bottom: none;
+            }
+            .content-table tr:nth-child(even) {
+                background-color: #f8f9fa;
+            }
+            .content-table tr:hover {
+                background-color: #e3f2fd;
+                transition: background-color 0.3s ease;
+            }
+            .task-name, .event-title {
+                font-weight: bold;
+                color: #2c3e50;
+                font-size: 15px;
+            }
+            .project-name {
+                background-color: #e3f2fd;
+                color: #1976d2;
+                padding: 4px 8px;
+                border-radius: 15px;
+                font-size: 12px;
+                font-weight: bold;
+                display: inline-block;
+                max-width: 120px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .due-date, .event-time {
+                font-weight: bold;
+            }
+            .due-today, .event-today {
+                color: #e74c3c;
+                background-color: #ffebee;
+                padding: 4px 8px;
+                border-radius: 5px;
+            }
+            .due-soon, .event-soon {
+                color: #f39c12;
+                background-color: #fef9e7;
+                padding: 4px 8px;
+                border-radius: 5px;
+            }
+            .event-location {
+                color: #666;
+                font-size: 13px;
+                margin-top: 4px;
+            }
+            .event-description {
+                color: #666;
+                font-size: 12px;
+                margin-top: 4px;
+                max-width: 200px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .all-day-badge {
+                background-color: #34a853;
+                color: white;
+                padding: 2px 6px;
+                border-radius: 10px;
+                font-size: 10px;
+                font-weight: bold;
+                margin-left: 8px;
+            }
+            .urgent-badge {
+                background-color: #ff6b6b;
+                color: white;
+                padding: 2px 6px;
+                border-radius: 10px;
+                font-size: 10px;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+            .urgent-badge.overdue {
+                background-color: #dc3545;
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0% { opacity: 1; }
+                50% { opacity: 0.7; }
+                100% { opacity: 1; }
+            }
+            .no-items {
+                text-align: center;
+                color: #666;
+                font-style: italic;
+                padding: 30px;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+            }
+            .footer {
+                margin-top: 30px;
+                padding-top: 20px;
+                border-top: 1px solid #eee;
+                text-align: center;
+                color: #666;
+                font-size: 12px;
+            }
+            @media (max-width: 700px) {
+                body { padding: 10px; }
+                .container { padding: 20px; }
+                .content-table th, .content-table td { padding: 8px; font-size: 13px; }
+                .section-title { font-size: 16px; }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>📅 今週の予定・締切タスク統合通知</h1>
+            </div>
+            
+            <div class="date-info">
+                📅 ${todayStr} から1週間の予定とタスク状況
+            </div>`;
+
+  // カレンダー予定セクション - カレンダー別に分離して表示
+  // 表示順序の定義（祖霊社、本社、年祭、冥福祭は統合）
+  const displaySections = [
+    {
+      title: '六曜カレンダー',
+      calendarIds: ['br7nsak3pjv3d379ddrf4bfgpo7splo1@import.calendar.google.com'],
+      todayOnly: true
+    },
+    {
+      title: '神社（祖霊社・本社・年祭・冥福祭）',
+      calendarIds: [
+        'cf7eae583e48c538ae20a84a8d238f9590555ffc283752864fb2252e5ba24555@group.calendar.google.com',  // 祖霊社
+        '079e3c154e7e09e8bf9844a7d6244981c48f5282252f8ec346286e66018025bb@group.calendar.google.com',  // 本社
+        '40ea48b73cb27b73af8113fc8d9943a609f1a75e47eb65dd5a126fea516004ea@group.calendar.google.com',  // 年祭
+        '4985421b6573a758fa7cc5c3c610ee1f725ef2e2e29fa8a758690043dc02c6c5@group.calendar.google.com'   // 冥福祭
+      ],
+      todayOnly: false
+    },
+    {
+      title: 'プライベート',
+      calendarIds: ['izumooyashiro.osaka.takeshi@gmail.com'],
+      todayOnly: false
+    },
+    {
+      title: '関西イベント情報',
+      calendarIds: ['ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com'],
+      todayOnly: false
+    }
+  ];
+
+  // 各セクションごとにイベントを処理
+  displaySections.forEach(section => {
+    const sectionEvents = [];
+    
+    // このセクションに含まれるカレンダーのイベントを収集
+    events.forEach(event => {
+      if (!section.calendarIds.includes(event.calendarId)) {
+        return; // このセクションのカレンダーではない
+      }
+      
+      // 六曜カレンダーの場合は今日の予定のみ含める
+      if (section.todayOnly) {
+        const eventDate = new Date(event.actualStartDate);
+        eventDate.setHours(0, 0, 0, 0);
+        const todayDate = new Date(today);
+        todayDate.setHours(0, 0, 0, 0);
+        
+        if (eventDate.getTime() !== todayDate.getTime()) {
+          return; // 今日以外は除外
+        }
+      }
+      
+      sectionEvents.push(event);
+    });
+    
+    // イベントがない場合はこのセクションをスキップ
+    if (sectionEvents.length === 0) return;
+    
+    // イベントを開始時間でソート
+    sectionEvents.sort((a, b) => a.actualStartDate - b.actualStartDate);
+
+    const calendarEvents = sectionEvents;
+
+    htmlBody += `
+            <div class="section">
+                <h2 class="section-title events">
+                    📅 ${section.title}
+                    <span class="count-badge">${calendarEvents.length}件</span>
+                </h2>`;
+
+    htmlBody += `
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 40%;">📝 予定</th>
+                            <th style="width: 30%;">⏰ 日時</th>
+                            <th style="width: 30%;">📍 カレンダー</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+    calendarEvents.forEach(event => {
+      // 日付比較用に時刻をリセットした日付を使用
+      const eventDateOnly = new Date(event.actualStartDate);
+      eventDateOnly.setHours(0, 0, 0, 0);
+      
+      const todayDateOnly = new Date(today);
+      todayDateOnly.setHours(0, 0, 0, 0);
+      
+      const diffTime = eventDateOnly - todayDateOnly;
+      const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+      
+      let timeClass = 'event-time';
+      let urgentBadge = '';
+      if (diffDays === 0) {
+        timeClass = 'event-today';
+        urgentBadge = '<span class="urgent-badge">今日</span>';
+      } else if (diffDays > 0 && diffDays <= 2) {
+        timeClass = 'event-soon';
+        urgentBadge = '<span class="urgent-badge">今週</span>';
+      } else if (diffDays < 0) {
+        // 過去の予定（本来は表示されないはずだが、念のため）
+        timeClass = 'event-time';
+        urgentBadge = '';
+      }
+
+      const timeStr = event.isAllDay 
+        ? `${event.localStartDate}<span class="all-day-badge">終日</span>`
+        : `${event.localStartDate} ${formatTime(event.startTime)}〜${formatTime(event.endTime)}`;
+
+      const locationInfo = event.location ? `<div class="event-location">📍 ${event.location}</div>` : '';
+      const descriptionInfo = event.description ? `<div class="event-description">${event.description}</div>` : '';
+      
+      // 統合セクション（神社）の場合はカレンダー名を表示
+      const calendarInfo = section.calendarIds.length > 1 
+        ? `<div class="event-location">📅 ${event.calendarName}</div>` 
+        : '';
+
+      htmlBody += `
+                        <tr>
+                            <td class="event-title">${event.title}${urgentBadge}${locationInfo}${descriptionInfo}</td>
+                            <td class="${timeClass}">${timeStr}</td>
+                            <td>${calendarInfo}</td>
+                        </tr>`;
+    });
+
+    htmlBody += `
+                    </tbody>
+                </table>
+            </div>`;
+  });
+
+  // Notionタスクセクション
+  htmlBody += `
+            <div class="section">
+                <h2 class="section-title tasks">
+                    🚨 締切間近タスク（未了）
+                    <span class="count-badge">${tasks.length}件</span>
+                </h2>`;
+
+  if (tasks.length > 0) {
+    htmlBody += `
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">📂 プロジェクト</th>
+                            <th style="width: 45%;">📝 タスク名</th>
+                            <th style="width: 30%;">⏰ 締切日</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+    const sortedTasks = tasks.sort((a, b) => {
+      const dateA = new Date(a.properties['期限']?.date?.start);
+      const dateB = new Date(b.properties['期限']?.date?.start);
+      return dateA - dateB;
+    });
+
+    sortedTasks.forEach(task => {
+      const title = task.properties['タスク名']?.title?.[0]?.plain_text || '（タイトルなし）';
+      const dueRaw = task.properties['期限']?.date?.start || '';
+      const dueFormatted = formatJapaneseDate(dueRaw);
+      
+      const dueDate = new Date(dueRaw);
+      const diffTime = dueDate - today;
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      
+      let dueDateClass = 'due-date';
+      let urgentBadge = '';
+      
+      if (diffDays < 0) {
+        // 期限が過ぎている場合
+        dueDateClass = 'due-today'; // 赤色で表示
+        urgentBadge = '<span class="urgent-badge overdue">期限超過</span>';
+      } else if (diffDays <= 0) {
+        dueDateClass = 'due-today';
+        urgentBadge = '<span class="urgent-badge">今日</span>';
+      } else if (diffDays <= 3) {
+        dueDateClass = 'due-soon';
+        urgentBadge = '<span class="urgent-badge">今週</span>';
+      }
+
+      const relation = task.properties['プロジェクト名']?.relation;
+      let projectName = 'プロジェクト未設定';
+      if (relation && relation.length > 0) {
+        const projectId = relation[0].id;
+        projectName = fetchProjectNameById(projectId, notionToken) || '不明';
+      }
+
+      htmlBody += `
+                        <tr>
+                            <td><span class="project-name">${projectName}</span></td>
+                            <td class="task-name">${title}${urgentBadge}</td>
+                            <td class="${dueDateClass}">${dueFormatted}</td>
+                        </tr>`;
+    });
+
+    htmlBody += `
+                    </tbody>
+                </table>`;
+  } else {
+    htmlBody += `<div class="no-items">✅ 締切間近の未了タスクはありません</div>`;
+  }
+
+  htmlBody += `
+            </div>
+            
+            <div class="footer">
+                <p>💡 <strong>このメールは自動送信されています</strong></p>
+                <p>📅 カレンダー予定の確認とNotionタスクの進捗更新をお忘れなく</p>
+                <hr style="border: none; border-top: 1px solid #eee; margin: 15px 0;">
+                <p style="color: #999; font-size: 11px;">
+                    送信日時: ${new Date().toLocaleString('ja-JP')} | 
+                    対象期間: 今日から${7}日間（六曜は当日のみ）
+                </p>
+            </div>
+        </div>
+    </body>
+    </html>
+  `;
+
+  MailApp.sendEmail({
+    to: emailTo,
+    subject: subject,
+    htmlBody: htmlBody
+  });
+}
+
+/**
+ * プロジェクト名取得（リレーションページからタイトル抽出）
+ */
+function fetchProjectNameById(pageId, token) {
+  const url = `https://api.notion.com/v1/pages/${pageId}`;
+  const options = {
+    method: 'get',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Notion-Version': '2022-06-28',
+      'Content-Type': 'application/json',
+    }
+  };
+  try {
+    const response = UrlFetchApp.fetch(url, options);
+    const data = JSON.parse(response.getContentText());
+    const titleProp = Object.values(data.properties).find(p => p.type === 'title');
+    return titleProp?.title?.[0]?.plain_text || '(無名)';
+  } catch (e) {
+    Logger.log('プロジェクト取得失敗: ' + e);
+    return '(取得失敗)';
+  }
+}
+
+/**
+ * 和式日付＋曜日：2025年4月30日（水）形式
+ */
+function formatJapaneseDate(dateStr) {
+  const d = new Date(dateStr);
+  const y = d.getFullYear();
+  const m = d.getMonth() + 1;
+  const day = d.getDate();
+  const w = ['日', '月', '火', '水', '木', '金', '土'][d.getDay()];
+  return `${y}年${m}月${day}日（${w}）`;
+}
+
+/**
+ * 時刻フォーマット：HH:MM形式
+ */
+function formatTime(date) {
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  return `${hours}:${minutes}`;
+}
+
+// ==================== デバッグ・テスト機能 ====================
+
+/**
+ * Notionタスクのフィルタリング状況をデバッグする関数
+ */
+function debugTaskFiltering() {
+  const props = PropertiesService.getScriptProperties();
+  const NOTION_TOKEN = props.getProperty('NOTION_TOKEN');
+  const NOTION_DB_ID = props.getProperty('NOTION_DB_ID');
+  const DEADLINE_DAYS = 7;
+
+  console.log('=== Notionタスクデバッグ開始 ===');
+  console.log('今日の日付:', new Date().toLocaleDateString('ja-JP'));
+  
+  // 全タスク取得
+  const allTasks = fetchTasksFromNotion(NOTION_TOKEN, NOTION_DB_ID);
+  console.log('取得した全タスク数:', allTasks.length);
+  
+  // 各タスクの詳細情報を表示
+  console.log('\n=== 全タスクの詳細 ===');
+  allTasks.forEach((task, index) => {
+    const title = task.properties['タスク名']?.title?.[0]?.plain_text || '（タイトルなし）';
+    const dueRaw = task.properties['期限']?.date?.start || '';
+    const status = (task.properties['進捗']?.status?.name || '').trim();
+    
+    console.log(`${index + 1}. ${title}`);
+    console.log(`   期限: ${dueRaw}`);
+    console.log(`   進捗: "${status}"`);
+    
+    if (dueRaw) {
+      const dueDate = new Date(dueRaw);
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      dueDate.setHours(0, 0, 0, 0);
+      
+      const diffTime = dueDate - today;
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      
+      console.log(`   期限日付オブジェクト: ${dueDate}`);
+      console.log(`   今日との差: ${diffDays}日`);
+      console.log(`   期限過ぎ?: ${dueDate < today ? 'はい' : 'いいえ'}`);
+    }
+    console.log('---');
+  });
+  
+  // フィルタリング実行
+  const filteredTasks = filterUpcomingTasks(allTasks, DEADLINE_DAYS);
+  console.log('\n=== フィルタリング結果 ===');
+  console.log('フィルタリング後のタスク数:', filteredTasks.length);
+  
+  if (filteredTasks.length > 0) {
+    console.log('\n=== 通知対象タスク ===');
+    filteredTasks.forEach((task, index) => {
+      const title = task.properties['タスク名']?.title?.[0]?.plain_text || '（タイトルなし）';
+      const dueRaw = task.properties['期限']?.date?.start || '';
+      const status = (task.properties['進捗']?.status?.name || '').trim();
+      
+      console.log(`${index + 1}. ${title} (期限: ${dueRaw}, 進捗: ${status})`);
+    });
+  } else {
+    console.log('❌ 通知対象のタスクがありません');
+  }
+  
+  // 特定の条件でのフィルタリングテスト
+  console.log('\n=== 条件別フィルタリングテスト ===');
+  
+  // 未了タスクのみ
+  const incompleteTasks = allTasks.filter(task => {
+    const status = (task.properties['進捗']?.status?.name || '').trim();
+    return status === '未了';
+  });
+  console.log('未了タスク数:', incompleteTasks.length);
+  
+  // 期限ありタスクのみ
+  const tasksWithDue = allTasks.filter(task => {
+    return task.properties['期限']?.date?.start;
+  });
+  console.log('期限設定済みタスク数:', tasksWithDue.length);
+  
+  // 未了かつ期限ありタスク
+  const incompleteWithDue = allTasks.filter(task => {
+    const status = (task.properties['進捗']?.status?.name || '').trim();
+    const due = task.properties['期限']?.date?.start;
+    return status === '未了' && due;
+  });
+  console.log('未了かつ期限設定済みタスク数:', incompleteWithDue.length);
+  
+  if (incompleteWithDue.length > 0) {
+    console.log('\n=== 未了かつ期限設定済みタスクの詳細 ===');
+    incompleteWithDue.forEach((task, index) => {
+      const title = task.properties['タスク名']?.title?.[0]?.plain_text || '（タイトルなし）';
+      const dueRaw = task.properties['期限']?.date?.start;
+      const dueDate = new Date(dueRaw);
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      dueDate.setHours(0, 0, 0, 0);
+      
+      const isOverdue = dueDate < today;
+      const futureDeadline = new Date(today);
+      futureDeadline.setDate(today.getDate() + DEADLINE_DAYS);
+      const isWithinDeadline = dueDate >= today && dueDate <= futureDeadline;
+      
+      console.log(`${index + 1}. ${title}`);
+      console.log(`   期限: ${dueRaw}`);
+      console.log(`   期限過ぎ: ${isOverdue ? 'はい' : 'いいえ'}`);
+      console.log(`   期限内: ${isWithinDeadline ? 'はい' : 'いいえ'}`);
+      console.log(`   通知対象: ${(isOverdue || isWithinDeadline) ? 'はい' : 'いいえ'}`);
+      console.log('---');
+    });
+  }
+}
+
+/**
+ * メール送信のテスト（カレンダー予定なし、タスクのみ）
+ */
+function testEmailSending() {
+  const props = PropertiesService.getScriptProperties();
+  const NOTION_TOKEN = props.getProperty('NOTION_TOKEN');
+  const NOTION_DB_ID = props.getProperty('NOTION_DB_ID');
+  const EMAIL_TO = props.getProperty('EMAIL_TO');
+  const DEADLINE_DAYS = 7;
+
+  console.log('=== メール送信テスト実行 ===');
+  
+  // Notionタスク取得
+  const tasks = fetchTasksFromNotion(NOTION_TOKEN, NOTION_DB_ID);
+  const upcomingTasks = filterUpcomingTasks(tasks, DEADLINE_DAYS);
+  console.log('通知対象タスク数:', upcomingTasks.length);
+  
+  // 期限過ぎタスクの詳細確認
+  const overdueTasks = upcomingTasks.filter(task => {
+    const dueRaw = task.properties['期限']?.date?.start;
+    if (!dueRaw) return false;
+    const dueDate = new Date(dueRaw);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    dueDate.setHours(0, 0, 0, 0);
+    return dueDate < today;
+  });
+  
+  console.log('期限過ぎタスク数:', overdueTasks.length);
+  overdueTasks.forEach((task, index) => {
+    const title = task.properties['タスク名']?.title?.[0]?.plain_text || '（タイトルなし）';
+    const dueRaw = task.properties['期限']?.date?.start;
+    console.log(`${index + 1}. ${title} (期限: ${dueRaw})`);
+  });
+  
+  // カレンダー予定は空配列でテスト
+  const upcomingEvents = [];
+  
+  if (EMAIL_TO) {
+    console.log('メール送信を実行します...');
+    console.log('送信先:', EMAIL_TO);
+    
+    try {
+      sendCombinedEmail(upcomingTasks, upcomingEvents, EMAIL_TO, NOTION_TOKEN);
+      console.log('✅ メール送信完了');
+    } catch (error) {
+      console.log('❌ メール送信エラー:', error);
+      console.log('スタックトレース:', error.stack);
+    }
+  } else {
+    console.log('❌ EMAIL_TOが設定されていません');
+  }
+}
+
+/**
+ * カレンダー予定のデバッグ確認（複数カレンダー・日付詳細表示対応）
+ */
+function debugCalendarEvents() {
+  const props = PropertiesService.getScriptProperties();
+  const CALENDAR_IDS = props.getProperty('CALENDAR_IDS') || 'primary';
+  const calendarIds = CALENDAR_IDS.split(',').map(id => id.trim());
+  
+  console.log('=== カレンダー設定確認 ===');
+  console.log('CALENDAR_IDS:', CALENDAR_IDS);
+  console.log('対象カレンダー配列:', calendarIds);
+  
+  // 条件なしで全予定取得
+  console.log('\n=== 条件なしで全予定取得 ===');
+  try {
+    const allEvents = fetchUpcomingCalendarEvents(calendarIds, 7, {});
+    console.log('全予定数:', allEvents.length);
+    
+    console.log('\n=== 取得した予定一覧（詳細）===');
+    allEvents.forEach((event, index) => {
+      console.log(`${index + 1}. ${event.title}`);
+      console.log(`   カレンダー: ${event.calendarName}`);
+      console.log(`   開始時刻: ${event.startTime.toLocaleString('ja-JP')}`);
+      console.log(`   終了時刻: ${event.endTime.toLocaleString('ja-JP')}`);
+      console.log(`   開始日付: ${event.localStartDate}`);
+      console.log(`   終日フラグ: ${event.isAllDay ? 'はい' : 'いいえ'}`);
+      console.log(`   場所: ${event.location || '未設定'}`);
+      console.log(`   参加者数: ${event.guests}人`);
+      console.log(`   ISO開始: ${event.originalStartTime}`);
+      console.log(`   ISO終了: ${event.originalEndTime}`);
+      console.log('---');
+    });
+    
+    console.log('\n=== 日付別予定 ===');
+    const eventsByDate = {};
+    allEvents.forEach(event => {
+      const dateKey = event.localStartDate;
+      if (!eventsByDate[dateKey]) {
+        eventsByDate[dateKey] = [];
+      }
+      eventsByDate[dateKey].push(event);
+    });
+    
+    Object.keys(eventsByDate).sort((a, b) => {
+      // 日本語日付文字列のソート（年月日で比較）
+      const dateA = new Date(a.replace(/年|月|日|\(.\)/g, '/').replace(/\/$/, ''));
+      const dateB = new Date(b.replace(/年|月|日|\(.\)/g, '/').replace(/\/$/, ''));
+      return dateA - dateB;
+    }).forEach(date => {
+      console.log(`\n📅 ${date}:`);
+      eventsByDate[date].forEach(event => {
+        console.log(`  - ${event.title} (${event.calendarName})`);
+      });
+    });
+    
+  } catch (error) {
+    console.log('❌ カレンダー予定取得エラー:', error);
+    console.log('スタックトレース:', error.stack);
+  }
+}
+
+/**
+ * 統合通知のテスト実行
+ */
+function testCombinedNotification() {
+  const props = PropertiesService.getScriptProperties();
+  const NOTION_TOKEN = props.getProperty('NOTION_TOKEN');
+  const NOTION_DB_ID = props.getProperty('NOTION_DB_ID');
+  const CALENDAR_ID = props.getProperty('CALENDAR_ID') || 'primary';
+  const DEADLINE_DAYS = 7;
+
+  console.log('=== 統合通知テスト実行 ===');
+  
+  // Notionタスク取得
+  const tasks = fetchTasksFromNotion(NOTION_TOKEN, NOTION_DB_ID);
+  const upcomingTasks = filterUpcomingTasks(tasks, DEADLINE_DAYS);
+  console.log('未了タスク数:', upcomingTasks.length);
+  
+  // カレンダー予定取得
+  const upcomingEvents = fetchUpcomingCalendarEvents(CALENDAR_ID, DEADLINE_DAYS);
+  console.log('近日中の予定数:', upcomingEvents.length);
+  
+  console.log('\n=== 通知対象まとめ ===');
+  console.log(`📅 予定: ${upcomingEvents.length}件`);
+  console.log(`🚨 未了タスク: ${upcomingTasks.length}件`);
+  
+  if (upcomingTasks.length > 0 || upcomingEvents.length > 0) {
+    console.log('✅ 通知メールの送信対象があります');
+    
+    // デバッグのためメール送信を有効化
+    const EMAIL_TO = props.getProperty('EMAIL_TO');
+    if (EMAIL_TO) {
+      console.log('メール送信を実行します...');
+      sendCombinedEmail(upcomingTasks, upcomingEvents, EMAIL_TO, NOTION_TOKEN);
+      console.log('メール送信完了');
+    } else {
+      console.log('❌ EMAIL_TOが設定されていません');
+    }
+  } else {
+    console.log('❌ 通知対象がありません');
+  }
+}
+
+/**
+ * 設定値確認（複数カレンダーID対応版）
+ */
+function checkAllProperties() {
+  const props = PropertiesService.getScriptProperties();
+  const keys = ['NOTION_TOKEN', 'NOTION_DB_ID', 'EMAIL_TO', 'CALENDAR_IDS'];
+  
+  console.log('=== 設定値確認 ===');
+  keys.forEach(key => {
+    const value = props.getProperty(key);
+    console.log(`${key}: ${value ? '設定済み' : '❌未設定'}`);
+    if (key === 'CALENDAR_IDS') {
+      if (value) {
+        const calendarIds = value.split(',').map(id => id.trim());
+        console.log(`  → 対象カレンダー: ${calendarIds.join(', ')}`);
+      } else {
+        console.log('  → CALENDAR_IDSが未設定の場合、デフォルトの7カレンダーが使用されます');
+        console.log('     (六曜、祖霊社、本社、年祭、冥福祭、プライベート、関西イベント情報)');
+      }
+    }
+  });
+}
+
+/**
+ * 複数カレンダーIDを設定するヘルパー関数
+ */
+function setCalendarIds(calendarIds) {
+  const props = PropertiesService.getScriptProperties();
+  const idsString = Array.isArray(calendarIds) ? calendarIds.join(',') : calendarIds;
+  props.setProperty('CALENDAR_IDS', idsString);
+  console.log('CALENDAR_IDSを設定しました:', idsString);
+}
+
+/**
+ * プライベート、関西イベント情報、六曜カレンダー、祖霊社、本社、年祭、冥福祭を設定する専用関数
+ */
+function setupTargetCalendars() {
+  // カレンダー名で設定する場合（表示順序に従って設定）
+  setCalendarIds('六曜カレンダー,祖霊社,本社,年祭,冥福祭,プライベート,関西イベント情報');
+  
+  console.log('✅ 以下の7つのカレンダーを設定しました:');
+  console.log('   1. 六曜カレンダー（当日のみ表示）');
+  console.log('   2. 神社（祖霊社・本社・年祭・冥福祭を統合表示）');
+  console.log('   3. プライベート');
+  console.log('   4. 関西イベント情報');
+}
+
+/**
+ * 利用可能な全カレンダーのIDと名前を表示
+ */
+function listAllCalendars() {
+  const calendars = CalendarApp.getAllCalendars();
+  
+  console.log('=== 利用可能なカレンダー一覧 ===');
+  console.log(`合計: ${calendars.length}個のカレンダー\n`);
+  
+  calendars.forEach((calendar, index) => {
+    console.log(`${index + 1}. ${calendar.getName()}`);
+    console.log(`   ID: ${calendar.getId()}`);
+    console.log('');
+  });
+}

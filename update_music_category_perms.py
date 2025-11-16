@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+import asyncio
+import os
+import discord
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
+if not TOKEN:
+    raise ValueError("DISCORD_TOKENが.envファイルに設定されていません。")
+
+intents = discord.Intents.default()
+intents.message_content = True
+intents.guilds = True
+bot = discord.Client(intents=intents)
+
+MUSIC_CATEGORY_ID = 1433376616272363560  # Musicカテゴリ
+
+@bot.event
+async def on_ready():
+    print(f"✅ Bot logged in as {bot.user}")
+    try:
+        # サーバーを取得
+        guild = bot.guilds[0]
+        print(f"🏠 サーバー: {guild.name}")
+
+        # Musicカテゴリを取得
+        category = guild.get_channel(MUSIC_CATEGORY_ID)
+        if not category:
+            print(f"❌ Musicカテゴリ (ID: {MUSIC_CATEGORY_ID}) が見つかりません")
+            await bot.close()
+            return
+        print(f"📁 カテゴリ: {category.name}")
+
+        # オーナーを取得
+        owner_id = guild.owner_id
+        owner = guild.get_member(owner_id)
+        if not owner:
+            owner = await guild.fetch_member(owner_id)
+        print(f"👤 オーナー: {owner.name} (ID: {owner.id})")
+
+        # Bot自身にパーミッションを付与
+        await category.set_permissions(
+            guild.me,
+            read_messages=True,
+            send_messages=True,
+            view_channel=True,
+            manage_channels=True
+        )
+
+        print(f"✅ Musicカテゴリのパーミッション更新成功")
+        print(f"   Bot ({guild.me.name}) にアクセス権を付与しました")
+
+    except Exception as e:
+        print(f"❌ エラー: {e}")
+        import traceback
+        traceback.print_exc()
+    finally:
+        await bot.close()
+
+bot.run(TOKEN)

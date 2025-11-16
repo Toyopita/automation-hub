@@ -1,0 +1,752 @@
+[
+  {
+    "date": "2025-11-02T10:04:37.091305",
+    "title": "Notion フォームが遂に登場！回答を直接データベースに自動保存",
+    "url": "https://www.notion.so/product/forms"
+  },
+  {
+    "date": "2025-11-02T10:04:37.091305",
+    "title": "Notion Mail発表！AIサポートで受信トレイをスマートに整理",
+    "url": "https://www.notion.so/blog/notion-mail"
+  },
+  {
+    "date": "2025-11-02T10:04:37.091305",
+    "title": "データベースページの「レイアウト機能」が進化し、より自由なカスタマイズが可能に",
+    "url": "https://www.notion.so/releases/2024-10-24"
+  },
+  {
+    "date": "2025-11-02T10:04:37.091305",
+    "title": "オートメーションが数式に対応し、より複雑で高度なワークフローを実現",
+    "url": "https://www.notion.so/ja-jp/help/database-automations"
+  },
+  {
+    "date": "2025-11-02T10:04:37.091305",
+    "title": "Notion AIがPDFや画像の内容を認識！ファイルについて直接質問できるように",
+    "url": "https://www.notion.so/ja-jp/help/q-and-a"
+  },
+  {
+    "date": "2025-11-03T07:11:40.142408",
+    "title": "Notion AIが自律型エージェントに進化、複数ステップのタスクを自動実行",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-03T07:11:40.142408",
+    "title": "Notion AIに「メモリ」機能が追加、ユーザーの指示や文脈を記憶",
+    "url": "https://www.notion.so/ja-jp/releases/2024-09-24"
+  },
+  {
+    "date": "2025-11-03T07:11:40.142408",
+    "title": "Notion Calendarが進化、カレンダー上でDBのステータス更新が可能に",
+    "url": "https://www.notion.so/ja-jp/help/notion-calendar-and-notion"
+  },
+  {
+    "date": "2025-11-03T07:11:40.142408",
+    "title": "待望のオフラインモードが正式リリース、ネット接続なしで作業可能に",
+    "url": "https://www.notion.so/ja-jp/help/offline-mode"
+  },
+  {
+    "date": "2025-11-03T07:11:40.142408",
+    "title": "ファイルストレージサービス「Skiff」を買収、Notion Drive提供への布石か",
+    "url": "https://www.itmedia.co.jp/news/articles/2402/12/news059.html"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "データベースに行レベルの権限設定が登場、より詳細なアクセス管理が可能に",
+    "url": "https://www.notion.so/ja-jp/help/database-row-level-permissions"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "自然言語で数式を自動生成する「AI Formula Generator」が実装",
+    "url": "https://www.notion.so/ja-jp/help/ai-formulas"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "Notion APIが大幅更新、「Multi-Source Databases」の導入でデータ構造が変化",
+    "url": "https://developers.notion.com/changelog/introducing-multi-source-databases"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "ユーザベース、CEO主導の活用でNotion利用率9割超を達成",
+    "url": "https://prtimes.jp/main/html/rd/p/000000189.000031131.html"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "建築設計の梓設計、情報の透明性確保とワークフロー変革にNotionを活用",
+    "url": "https://prtimes.jp/main/html/rd/p/000000189.000031131.html"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "Notionを「ビジネス司令塔」として活用し、複数ツールを統合管理",
+    "url": "https://firstaimovers.com/blog/notion-for-business/"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "一貫性を保つための「標準データベーステンプレート」活用法",
+    "url": "https://www.notion.so/ja-jp/help/templates"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "Jiraとの「双方向同期データベース」機能が正式リリース",
+    "url": "https://www.notion.so/help/synced-databases"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "Zapier連携が強化され、8,000以上のアプリとのノーコード自動化を実現",
+    "url": "https://zapier.com/apps/notion/integrations"
+  },
+  {
+    "date": "2025-11-03T08:12:47.990870",
+    "title": "JavaScript/TypeScript SDKが更新され、ページのロック/アンロック操作に対応",
+    "url": "https://github.com/makenotion/notion-sdk-js/releases/tag/v5.1.0"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "Notion AIの新機能「Q&A」が一般提供開始、データベースに直接質問して回答を自動生成",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "Figmaとの連携が進化、デザインのプレビューと同期がよりスムーズに",
+    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "トヨタ自動車、グループ全体の情報共有基盤としてNotionを活用しサイロ化を解消",
+    "url": "https://www.itmedia.co.jp/news/articles/2405/28/news053.html"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "Notion APIがWebhookを強化、ワークスペース全体の変更をリアルタイムに検知",
+    "url": "https://developers.notion.com/docs/webhooks"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "自動化プラットフォーム「Make」との連携強化、ノーコードで複雑な業務を自動化",
+    "url": "https://www.make.com/en/integrations/notion"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "データベースに「タブ表示」が新登場、複数のビューをすっきりと整理",
+    "url": "https://www.notion.so/ja-jp/help/views"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "エンタープライズ向けセキュリティを強化、DLP・SIEM連携に対応",
+    "url": "https://www.notion.so/ja-jp/enterprise"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "Notion Calendarがアップデート、データベースのテキストプロパティを直接編集可能に",
+    "url": "https://www.notion.so/releases"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "株式会社LayerX、バクラク事業本部でNotionを導入し情報格差ゼロの組織文化を醸成",
+    "url": "https://www.notion.so/ja-jp/customers/layerx"
+  },
+  {
+    "date": "2025-11-04T15:02:02.099638",
+    "title": "Notion APIが「ページテンプレートの適用」に対応、定型ページの自動生成がより高度に",
+    "url": "https://developers.notion.com/reference/post-page"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "Notion AIが「AIエージェント」に進化、複数アプリを横断した業務自動化を実現",
+    "url": "https://www.businessinsider.jp/post-291310"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "Notionネイティブの「フォーム機能」が実装、アンケートやフィードバック収集が容易に",
+    "url": "https://www.notion.so/ja-jp/releases/2024-10-09"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "メルカリ、全社的な情報共有基盤としてNotionを導入、AIネイティブな働き方を推進",
+    "url": "https://www.watch.impress.co.jp/docs/news/1630151.html"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "待望の「オフラインモード」が利用可能に、インターネット接続なしで作業を継続",
+    "url": "https://www.notion.so/ja-jp/help/offline-mode"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "新ツール「Notionメール」が発表、AIによる受信トレイ整理とカレンダー連携を実現",
+    "url": "https://www.itmedia.co.jp/news/articles/2409/26/news150.html"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "グッドパッチ、社内のUXナレッジをAIで引き出す「ナレッジ引き出しAI」をNotionベースで構築",
+    "url": "https://goodpatch.com/blog/knowledge-ai"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "会議を自動で文字起こし・要約する「AIミーティングノート」機能が登場",
+    "url": "https://www.gizmodo.jp/2024/09/notion-3-is-coming.html"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "SOMPO Light Vortex、事業推進のハブとしてNotionを活用し、迅速な情報共有文化を醸成",
+    "url": "https://www.notion.so/ja-jp/customers/sompo-light-vortex"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "ページのレイアウト機能が向上、より柔軟なカラム設定やブロックの配置調整が可能に",
+    "url": "https://www.notion.so/ja-jp/releases/2024-09-25"
+  },
+  {
+    "date": "2025-11-05T07:01:49.829889",
+    "title": "NotionとGoogle Driveの連携が強化、ファイルプレビューや同期の安定性が向上",
+    "url": "https://www.notion.so/help/add-embeds-and-previews"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "Notion AI、自然言語で関数を自動作成する「AI Formula」を発表",
+    "url": "https://www.notion.so/product/ai"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "データベースに「行単位の権限設定」機能が追加、より柔軟なアクセス管理が可能に",
+    "url": "https://www.notion.so/help/page-permissions"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "Notion APIが大幅更新、「マルチソースデータベース」対応で後方互換性のない変更",
+    "url": "https://developers.notion.com/docs/upgrading-to-version-2025-09-03"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "ラクスル、Notion活用で開発チームの情報共有を促進し開発速度を大幅に向上",
+    "url": "https://www.notion.so/ja-jp/customers/raksul"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "鹿島建設、全社的なDX推進基盤としてNotionを導入",
+    "url": "https://www.nikkei.com/article/DGXZQOUC2578L0V20C24A5000000/"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "Notion、データベースオートメーションに「定期実行トリガー」を追加",
+    "url": "https://www.notion.so/help/database-automations"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "Miro連携が進化、Notionページに埋め込んだMiroボードの直接編集に対応",
+    "url": "https://miro.com/marketplace/notion/"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "リクルート、社内情報ポータルをNotionで構築し年間1万時間の工数削減",
+    "url": "https://www.notion.so/ja-jp/customers/recruit"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "NotionモバイルアプリがUIを刷新、素早くメモが取れる「クイックノート」機能を搭載",
+    "url": "https://www.notion.so/mobile"
+  },
+  {
+    "date": "2025-11-06T07:02:20.320380",
+    "title": "エンタープライズ向けに「監査ログ」機能を強化、管理者がより詳細なアクティビティを追跡可能に",
+    "url": "https://www.notion.so/help/audit-log"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Notion、データベースに新しい「ステータス」プロパティを正式導入",
+    "url": "https://www.notion.so/ja-jp/releases/2025-10-23"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "パナソニック コネクト、国内最大規模でNotionを導入、約1万2500人の従業員が活用",
+    "url": "https://www.itmedia.co.jp/news/articles/2510/16/news111.html"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Notion Calendarが進化、iOS 18のロック画面ウィジェットとスタンバイに対応",
+    "url": "https://www.macrumors.com/2025/10/29/notion-calendar-lock-screen-widgets/"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Notion AI、複数言語のリアルタイム翻訳精度が向上",
+    "url": "https://www.notion.so/ja-jp/help/translate-text-with-notion-ai"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "freee、全社のナレッジマネジメント基盤としてNotionを採用",
+    "url": "https://prtimes.jp/main/html/rd/p/000001751.000005263.html"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Figmaとの連携が強化、デザインファイルのプレビューとコメント同期がよりリッチに",
+    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews-to-notion-pages"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Notion APIがアップデート、ページ作成時に「ステータス」プロパティの指定に対応",
+    "url": "https://developers.notion.com/reference/changelog/page-create-and-update-now-support-the-status-property"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "教育機関向けプラン「Notion for Education」が拡充、管理機能とテンプレートを提供",
+    "url": "https://www.notion.so/ja-jp/students"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "Zapier連携が更新、新しいデータベースプロパティに対応したトリガーとアクションが追加",
+    "url": "https://zapier.com/apps/notion/integrations"
+  },
+  {
+    "date": "2025-11-07T07:01:51.310843",
+    "title": "ITreview、2025年秋の「AI議事録自動作成ツール」部門でNotionを「Leader」として初選出",
+    "url": "https://www.itreview.jp/categories/ai-meeting-assistant/grid"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion、AIを活用してデータベースのインサイトを自動生成する「AIプロパティ」をベータ公開",
+    "url": "https://www.notion.so/ja-jp/releases/2025-10-28"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "ソニーミュージック、新人アーティストの発掘・育成プロセス管理にNotionを全面採用",
+    "url": "https://www.itmedia.co.jp/business/articles/2510/26/news031.html"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion Calendar、Google Tasksとの連携機能を正式リリース",
+    "url": "https://www.notion.so/ja-jp/help/notion-calendar-and-google-tasks"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion、セキュリティ機能を強化する「Bring Your Own Key (BYOK)」を発表",
+    "url": "https://www.notion.so/ja-jp/enterprise/security"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Sansan、全社のプロダクト開発ロードマップをNotionで一元管理し、部門横断の連携を強化",
+    "url": "https://logmi.jp/tech/articles/330150"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion APIがアップデート、データベースのスキーマ変更に対応",
+    "url": "https://developers.notion.com/changelog/database-schema-updates-in-the-api"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion、オフラインモードを大幅に改善し、デスクトップアプリでの安定性を向上",
+    "url": "https://www.notion.so/ja-jp/releases/2025-10-15"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "TypeformとNotionの連携が強化、フォーム回答をデータベースに自動でリッチに反映",
+    "url": "https://www.typeform.com/connect/notion/"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Fast Retailing (ファーストリテイリング)、グローバルでの店舗開発プロセス管理にNotionを活用",
+    "url": "https://www.nikkei.com/article/DGXZQOUC1845T0Y5A011C2000000/"
+  },
+  {
+    "date": "2025-11-08T07:01:18.899018",
+    "title": "Notion、数式(Formula) 2.0を発表、より直感的で強力な関数が利用可能に",
+    "url": "https://www.notion.so/help/formulas-2-0"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Notion、新しい「ボードビュー」をリリース、カラムごとの集計機能が追加",
+    "url": "https://www.notion.so/ja-jp/releases/2025-11-04"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "株式会社メルカリ、全社ドキュメント基盤としてNotionを導入し情報共有を加速",
+    "url": "https://prtimes.jp/main/html/rd/p/000000315.000026386.html"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Notion、ヨーロッパ（フランクフルト）でのデータレジデンシーオプションを提供開始",
+    "url": "https://www.notion.so/help/data-residency"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Salesforceとの公式連携が発表、CRMデータをNotionデータベースにリアルタイム同期",
+    "url": "https://www.notion.so/integrations/salesforce"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "NotionモバイルアプリのUIが刷新、クイックキャプチャ機能が強化",
+    "url": "https://www.notion.so/mobile"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "アサヒビール、商品開発プロセスにNotionを導入し、部門間の連携を強化",
+    "url": "https://enterprise.watch.impress.co.jp/docs/news/1635021.html"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Miroとの連携がアップデート、埋め込みボードの双方向編集に対応",
+    "url": "https://miro.com/marketplace/notion/"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Notion API、コメント機能へのアクセスを強化、特定コメントへの返信が可能に",
+    "url": "https://developers.notion.com/changelog/commenting-on-the-api"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "Notion、チームスペースに高度な権限設定を追加、特定ページのゲスト共有がより柔軟に",
+    "url": "https://www.notion.so/help/permissions-and-sharing"
+  },
+  {
+    "date": "2025-11-09T07:01:21.438580",
+    "title": "筑波大学、研究室間の共同研究プロジェクト管理にNotionを活用",
+    "url": "https://www.u-presscenter.jp/article/post-52180.html"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion、Slackとの連携を大幅に強化し、Slack内でのデータベース項目作成が可能に",
+    "url": "https://www.notion.so/ja-jp/releases/2024-05-23"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion API、待望のWebhookに対応し、リアルタイムな外部連携を実現",
+    "url": "https://developers.notion.com/docs/webhooks"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "株式会社LayerX、バクラク事業本部におけるプロダクトマネジメント基盤をNotionに統一",
+    "url": "https://www.notion.so/ja-jp/customers/layerx"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion、データベースの「リレーション」機能を強化、サブアイテムと依存関係の管理が容易に",
+    "url": "https://www.notion.so/ja-jp/help/relations-and-rollups"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion、教育機関向けプラン「Notion for Education」を拡充し、大規模導入に対応",
+    "url": "https://www.notion.so/ja-jp/education"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "GitHubとの連携機能が強化、Pull RequestのステータスがNotion上で双方向同期",
+    "url": "https://wwws.notion.so/product/integrations/github"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "株式会社SmartHR、全社のセキュリティポリシーとインシデント管理にNotionを活用",
+    "url": "https://wwwhttps.notion.so/ja-jp/customers/smarthr"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion AI、新機能「Q&A」の一般提供を開始、ワークスペース内の情報を横断検索",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-10T06:01:27.207282",
+    "title": "Notion、ホーム画面のカスタマイズ機能をリリース、表示ウィジェットの選択が可能に",
+    "url": "https://www.notion.so/ja-jp/help/home"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Notion、データベースオートメーション機能を発表、トリガーとアクションで定型作業を自動化",
+    "url": "https://www.notion.so/ja-jp/help/database-automations"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "建設DXのANDPAD、全社約1,500名でNotionを導入しナレッジマネジメントを強化",
+    "url": "https://prtimes.jp/main/html/rd/p/000000454.000018105.html"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Notion Calendarが正式リリース、旧CronアプリがNotionと完全統合",
+    "url": "https://www.notion.so/product/calendar"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Notion APIがデータベースプロパティの作成・更新に対応",
+    "url": "https://developers.notion.com/changelog/create-and-update-database-properties-via-the-api"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Figmaとの連携が強化、ライブ埋め込みのデザインプレビューがより高速かつインタラクティブに",
+    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "株式会社カミナシ、全社情報共有基盤としてNotionを採用し、属人化を解消",
+    "url": "https://kaminashi.jp/news/2024-09-18-notion"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Notion AI、データベースのコンテキストに基づいた自動入力機能を追加",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "エンタープライズプラン向けに「監査ログ」機能が提供開始",
+    "url": "https://www.notion.so/ja-jp/help/audit-log"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "株式会社MonotaRO、SCM部門でNotionを活用し、複雑な業務プロセスを可視化",
+    "url": "https://tech-blog.monotaro.com/entry/2024/05/23/100000"
+  },
+  {
+    "date": "2025-11-11T06:01:20.899979",
+    "title": "Notion、Wiki機能に「検証済みページ」と「オーナー」設定を追加",
+    "url": "https://www.notion.so/ja-jp/help/wikis"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Notion、数式(Formula)機能を「2.0」へ大幅アップデート、複数行記述やコメントに対応",
+    "url": "https://www.notion.so/ja-jp/releases/2023-09-06"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "株式会社ZOZO、カスタマーサポート部門のナレッジマネジメント基盤にNotionを導入",
+    "url": "https://www.prtimes.jp/main/html/rd/p/000000123.000013598.html"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Notionの「ボタン」機能が強化、データベースのプロパティ編集や複数アクションの実行が可能に",
+    "url": "https://www.notion.so/help/buttons"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Miroとの連携機能が向上、埋め込みボードの双方向編集とプレビューがより高速に",
+    "url": "https://miro.com/help/notion-integration/"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Notion AI、ページ全体だけでなく「選択範囲のテキスト」の要約にも対応",
+    "url": "https://www.notion.so/product/ai"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "ウイングアーク１ｓｔ、営業部門の案件管理と情報共有にNotionを活用し生産性を向上",
+    "url": "https://www.wingarc.com/company/press/20251028-01.html"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Notion API、ページやブロックへの「コメント追加・取得」に対応",
+    "url": "https://developers.notion.com/reference/create-comment"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "データベースに「ユニークIDプロパティ」が新登場、タスクやチケット管理が容易に",
+    "url": "https://www.notion.so/help/id-property"
+  },
+  {
+    "date": "2025-11-12T06:04:11.371856",
+    "title": "Notion、法人プラン向けに「ヨーロッパ（フランクフルト）」でのデータ保管オプションを提供開始",
+    "url": "https://www.notion.so/ja-jp/help/data-residency"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "Notion AI Q&A機能が一般提供開始、ワークスペース内の情報をAIが回答",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "株式会社メルカリ、全社2,000名超でNotionを導入し「AI-Native」な組織へ",
+    "url": "https://www.notion.so/ja-jp/customers/mercari"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "Notion APIがアップデート、ページのアイコンをAPI経由で設定可能に",
+    "url": "https://developers.notion.com/changelog/page-icons-and-cover-images"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "株式会社LayerX、バクラク事業本部でNotionを全面採用し情報共有を強化",
+    "url": "https://www.notion.so/ja-jp/customers/layerx"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "Notionの新しい「リンクプレビュー」機能で、ページ間の文脈共有がより簡単に",
+    "url": "https://www.notion.so/releases/2024-05-21"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "SlackとNotionの連携が強化、データベース更新の通知をより詳細に設定可能に",
+    "url": "https://www.notion.so/help/guides/notifications-slack-integrations"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "株式会社LegalOn Technologies、急成長組織のナレッジマネジメント基盤にNotionを導入",
+    "url": "https://www.notion.so/ja-jp/customers/legalon-technologies"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "Notion Calendarに「週番号（Week Numbers）」表示機能が追加",
+    "url": "https://www.notion.so/releases"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "ヘイ株式会社、STORESのプロダクト開発プロセスをNotionで一元管理",
+    "url": "https://www.notion.so/ja-jp/customers/hey"
+  },
+  {
+    "date": "2025-11-13T06:03:31.809219",
+    "title": "Notionの「同期ブロック」が権限設定に対応、より安全な情報共有が可能に",
+    "url": "https://www.notion.so/help/synced-blocks"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Notion、データベースの「自動化」機能を正式リリース",
+    "url": "https://www.notion.so/ja-jp/help/database-automations"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Notion、新しい「ホーム」画面を導入、パーソナライズが可能に",
+    "url": "https://www.notion.so/ja-jp/help/home"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "株式会社アンドパッド、全社の情報共有基盤としてNotionを導入",
+    "url": "https://prtimes.jp/main/html/rd/p/000000424.000018149.html"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Notion APIがデータベースの「グループ化」に対応",
+    "url": "https://developers.notion.com/changelog/create-and-manage-database-groups-through-the-api"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Figmaとの連携が強化、デザインファイルのプレビューと同期がよりスムーズに",
+    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews-to-pages"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Sansan株式会社、部門間の連携強化とナレッジ共有のためにNotionを導入",
+    "url": "https://prtimes.jp/main/html/rd/p/000000607.000049627.html"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Notion AI、文章作成をリアルタイムで支援する「オートフィル」機能を追加",
+    "url": "https://www.notion.so/ja-jp/product/ai"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "データベースに「最終更新者」と「作成者」プロパティが追加",
+    "url": "https://www.notion.so/releases/2024-05-29"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "株式会社SmartHR、プロダクト開発部門でNotionを活用し開発プロセスを効率化",
+    "url": "https://smarthr.jp/mag/culture/21194/"
+  },
+  {
+    "date": "2025-11-14T06:02:16.157107",
+    "title": "Notion Calendar、複数タイムゾーンの表示機能を強化",
+    "url": "https://www.notion.so/product/calendar"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Notion、数式(Formula) 2.0をリリース。より高度な計算と新しい関数が利用可能に",
+    "url": "https://www.notion.so/ja-jp/releases/2025-10-29"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "株式会社サイバーエージェント、クリエイティブ部門でNotionを導入し制作プロセスを効率化",
+    "url": "https://www.notion.so/ja-jp/customers/cyberagent"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Notion APIがコメントへの返信（スレッド作成）に対応",
+    "url": "https://developers.notion.com/changelog/create-comment-replies-with-the-api"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Miroとの連携が強化、Notionページ上でMiroボードのインタラクティブな編集が可能に",
+    "url": "https://miro.com/ja/integrations/notion/"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Notion、アクセシビリティを大幅に改善し、キーボード操作とスクリーンリーダー対応を強化",
+    "url": "https://www.notion.so/ja-jp/help/keyboard-shortcuts"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "freee株式会社、全社導入で「オープンな情報共有文化」を醸成",
+    "url": "https://www.notion.so/ja-jp/customers/freee"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Notion AIを活用した議事録の自動要約とネクストアクション抽出術が話題に",
+    "url": "https://www.itmedia.co.jp/business/articles/2510/21/news045.html"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "Zapier連携がアップデート、新しいトリガーとアクションが追加",
+    "url": "https://zapier.com/apps/notion/integrations"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "データベースビューの改善：タイムラインでの依存関係可視化とカレンダーのオーバーレイ表示",
+    "url": "https://www.notion.so/ja-jp/whats-new"
+  },
+  {
+    "date": "2025-11-15T06:51:00.292484",
+    "title": "株式会社カカオピッコマ、グローバルな情報共有基盤としてNotionを導入",
+    "url": "https://prtimes.jp/main/html/rd/p/000000515.000003707.html"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notion、プロジェクト管理機能を大幅強化、「Projects」を正式リリース",
+    "url": "https://www.notion.so/ja-jp/product/projects"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "株式会社メルカリ、グループ全従業員約2,300名を対象にNotionを導入",
+    "url": "https://www.notion.so/ja-jp/customers/merpay"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notion API、データベースプロパティの作成と更新に対応",
+    "url": "https://developers.notion.com/changelog/create-and-update-database-properties"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "GitHubとの連携が双方向化、Notion上でIssueのステータス更新が可能に",
+    "url": "https://www.notion.so/ja-jp/help/add-links-and-backlinks"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notion AI、画像生成機能（Image Generation）のベータ版を公開",
+    "url": "https://www.notion.so/ja-jp/help/guides/generate-images-with-notion-ai"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Slackとの連携がアップデート、チャンネル内の会話をNotionデータベースへ直接保存",
+    "url": "https://www.notion.so/ja-jp/help/slack-integration"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "大日本印刷（DNP）、DX推進とハイブリッドワークのナレッジ共有基盤としてNotionを採用",
+    "url": "https://www.dnp.co.jp/news/detail/20169070_1587.html"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notion、新しい「ステータス」プロパティタイプを導入",
+    "url": "https://www.notion.so/ja-jp/help/status-property"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notionを使ったチーム横断でのOKR（目標と主要な成果）管理術",
+    "url": "https://www.notion.so/ja-jp/templates/okrs"
+  },
+  {
+    "date": "2025-11-16T06:02:18.478007",
+    "title": "Notion API、ページのアイコンとしてカスタム画像のアップロードに対応",
+    "url": "https://developers.notion.com/changelog/page-icons-can-now-be-files-or-emoji-objects"
+  },
+  {
+    "date": "2025-11-17T06:03:37.964168",
+    "title": "Notion APIが大幅アップデート、テンプレートからのページ作成やユーザーメンションに対応",
+    "url": "https://relay.app/blog/notion-integration-updates-october-2025"
+  },
+  {
+    "date": "2025-11-17T06:03:37.964168",
+    "title": "教育機関でのNotion活用が拡大、駒澤大学が活用事例を発表",
+    "url": "https://www.u-presscenter.jp/article/post-52027.html"
+  }
+]
