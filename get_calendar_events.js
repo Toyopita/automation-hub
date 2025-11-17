@@ -31,15 +31,19 @@ async function getTodayEvents() {
     const now = new Date();
     const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
 
-    const today = new Date(jstNow);
-    today.setHours(0, 0, 0, 0);
+    const year = jstNow.getFullYear();
+    const month = String(jstNow.getMonth() + 1).padStart(2, '0');
+    const day = String(jstNow.getDate()).padStart(2, '0');
 
-    const tomorrow = new Date(today);
+    // 日本時間の0:00と翌日0:00をUTC時刻として構築
+    const timeMin = `${year}-${month}-${day}T00:00:00+09:00`;
+
+    const tomorrow = new Date(jstNow);
     tomorrow.setDate(tomorrow.getDate() + 1);
-
-    // 日本時間をUTCに変換
-    const timeMin = new Date(today.getTime() - (9 * 60 * 60 * 1000)).toISOString().replace(/\.000Z$/, '');
-    const timeMax = new Date(tomorrow.getTime() - (9 * 60 * 60 * 1000)).toISOString().replace(/\.000Z$/, '');
+    const tomorrowYear = tomorrow.getFullYear();
+    const tomorrowMonth = String(tomorrow.getMonth() + 1).padStart(2, '0');
+    const tomorrowDay = String(tomorrow.getDate()).padStart(2, '0');
+    const timeMax = `${tomorrowYear}-${tomorrowMonth}-${tomorrowDay}T00:00:00+09:00`;
 
     const allEvents = [];
 
