@@ -220,12 +220,9 @@ async def on_ready():
 
         for i, news in enumerate(verified_news, 1):
             thread_title = f"{news['title']}"
-            thread_content = f"""📰 **ニュース概要**
-{news['summary']}
+            thread_content = f"""{news['summary']}
 
----
-🔗 **記事を読む:** {news['url']}
-"""
+📖 [続きを読む](<{news['url']}>)"""
 
             print(f'スレッド作成中 ({i}/{len(verified_news)}): {thread_title[:50]}...')
 
