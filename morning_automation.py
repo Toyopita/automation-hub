@@ -110,7 +110,7 @@ def check_shukuchoku() -> bool:
     try:
         # Node.jsスクリプトを実行
         script_path = os.path.join(os.path.dirname(__file__), 'check_shukuchoku.js')
-        result = subprocess.run(['node', script_path], capture_output=True, text=True)
+        result = subprocess.run(['/usr/local/bin/node', script_path], capture_output=True, text=True)
 
         # 標準出力を表示
         if result.stdout:
@@ -141,7 +141,7 @@ def check_holiday() -> bool:
     try:
         # Node.jsスクリプトを実行
         script_path = os.path.join(os.path.dirname(__file__), 'check_holiday.js')
-        result = subprocess.run(['node', script_path], capture_output=True, text=True)
+        result = subprocess.run(['/usr/local/bin/node', script_path], capture_output=True, text=True)
 
         # 標準出力を表示
         if result.stdout:
