@@ -150,18 +150,19 @@ def parse_rss(rss_content):
 
 
 async def verify_url(url):
-    """URLが実際にアクセス可能か検証"""
+    """URLが実際にアクセス可能か検証し、オリジナルURLを返す"""
     try:
         async with aiohttp.ClientSession() as session:
             async with session.head(url, timeout=aiohttp.ClientTimeout(total=5), allow_redirects=True) as response:
-                return response.status < 400
+                return (response.status < 400, str(response.url))
     except:
+        # HEADリクエストが失敗した場合、GETで再試行
         try:
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, timeout=aiohttp.ClientTimeout(total=5), allow_redirects=True) as response:
-                    return response.status < 400
+                    return (response.status < 400, str(response.url))
         except:
-            return False
+            return (False, url)
 
 
 @bot.event
