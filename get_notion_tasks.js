@@ -30,7 +30,13 @@ const NOTION_TASK_DB = '1c800160-1818-807c-b083-f475eb3a07b9';
 async function getNotionTasks() {
     const notion = new Client({ auth: NOTION_TOKEN });
 
-    const today = new Date();
+    // 日本時間で今日と1週間後を計算
+    const now = new Date();
+    const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+
+    const today = new Date(jstNow);
+    today.setHours(0, 0, 0, 0);
+
     const oneWeekLater = new Date(today);
     oneWeekLater.setDate(oneWeekLater.getDate() + 7);
 
@@ -103,7 +109,14 @@ async function getNotionTasks() {
             const dueDateStr = dueProp?.date?.start || '';
 
             if (dueDateStr) {
-                const dueDate = new Date(dueDateStr.split('T')[0]);
+                // 期限日を日本時間で解釈
+                const dueDateParts = dueDateStr.split('T')[0].split('-');
+                const dueDate = new Date(
+                    parseInt(dueDateParts[0]),
+                    parseInt(dueDateParts[1]) - 1,
+                    parseInt(dueDateParts[2]),
+                    0, 0, 0, 0
+                );
                 const diffTime = dueDate - today;
                 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
