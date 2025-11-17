@@ -21,7 +21,7 @@ function loadEnv() {
 }
 
 const env = loadEnv();
-const NOTION_TOKEN = env.NOTION_TOKEN_TASK;
+const NOTION_TOKEN = env.NOTION_TOKEN; // メインのトークンを使用
 
 async function findClaudePage() {
     const notion = new Client({ auth: NOTION_TOKEN });
