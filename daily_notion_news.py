@@ -103,6 +103,26 @@ async def fetch_google_news():
         return None
 
 
+def remove_html_tags(text):
+    """HTMLタグを除去してプレーンテキストを返す"""
+    if not text:
+        return ''
+
+    # HTMLエンティティをデコード（&lt; → <）
+    text = unescape(text)
+
+    # HTMLタグを全て除去
+    text = re.sub(r'<[^>]+>', '', text)
+
+    # 連続する空白を1つにまとめる
+    text = re.sub(r'\s+', ' ', text)
+
+    # 前後の空白を削除
+    text = text.strip()
+
+    return text
+
+
 def parse_rss(rss_content):
     """RSSコンテンツをパースしてニュースリストを返す"""
     feed = feedparser.parse(rss_content)
@@ -113,6 +133,10 @@ def parse_rss(rss_content):
         url = entry.get('link', '')
         summary = entry.get('summary', entry.get('description', ''))
         published = entry.get('published', '')
+
+        # HTMLタグを除去
+        title = remove_html_tags(title)
+        summary = remove_html_tags(summary)
 
         if url:
             news_list.append({
