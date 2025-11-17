@@ -27,6 +27,9 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # 🎡｜大阪関西万博 フォーラムチャンネルID（IZUMOサーバー）
 EXPO_FORUM_ID = 1439846883504689193
 
+# 関西イベント情報カレンダーID
+KANSAI_EVENT_CALENDAR_ID = 'ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com'
+
 # 処理済みリアクション記録ファイル
 PROCESSED_FILE = '/Users/minamitakeshi/discord-mcp-server/expo_calendar_processed.json'
 
@@ -156,7 +159,7 @@ def create_google_calendar_event(event_info, article_url):
     # 一旦イベント情報をファイルに保存して、別プロセスで処理
 
     event_data = {
-        "calendarId": "primary",
+        "calendarId": KANSAI_EVENT_CALENDAR_ID,
         "summary": event_info['event_name'],
         "start": start_datetime,
         "end": end_datetime,
