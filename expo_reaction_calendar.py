@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-大阪関西万博フォーラムのリアクション監視Bot
+イベントフォーラムのリアクション監視Bot
 
 📅 リアクションが付いた投稿を解析してイベント情報を抽出し、
 Googleカレンダーに自動登録する
 
-フォーラムチャンネルID: 1439846883504689193
+監視対象フォーラム:
+- 🎡｜大阪関西万博 (IZUMOサーバー): 1439846883504689193
+- 🎪イベント (Minamiサーバー): 1434499089420128317
 """
 
 import os
@@ -26,8 +28,12 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# 🎡｜大阪関西万博 フォーラムチャンネルID（IZUMOサーバー）
-EXPO_FORUM_ID = 1439846883504689193
+# 監視対象フォーラムチャンネルID
+EXPO_FORUM_ID = 1439846883504689193  # 🎡｜大阪関西万博（IZUMOサーバー）
+MINAMI_EVENT_FORUM_ID = 1434499089420128317  # 🎪イベント（Minamiサーバー）
+
+# 監視対象フォーラムのリスト
+MONITORED_FORUMS = [EXPO_FORUM_ID, MINAMI_EVENT_FORUM_ID]
 
 # 関西イベント情報カレンダーID
 KANSAI_EVENT_CALENDAR_ID = 'ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com'
