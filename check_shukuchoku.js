@@ -38,17 +38,20 @@ async function checkShukuchoku() {
 
         const calendar = google.calendar({ version: 'v3', auth: oAuth2Client });
 
-        // 前日18:00から当日9:00までの範囲
+        // 前日18:00から当日9:00までの範囲（日本時間）
         const now = new Date();
+        const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
 
-        const yesterday = new Date();
+        const yesterday = new Date(jstNow);
         yesterday.setDate(yesterday.getDate() - 1);
         yesterday.setHours(18, 0, 0, 0);
-        const timeMin = yesterday.toISOString();
 
-        const today = new Date();
+        const today = new Date(jstNow);
         today.setHours(9, 0, 0, 0);
-        const timeMax = today.toISOString();
+
+        // 日本時間をUTCに変換
+        const timeMin = new Date(yesterday.getTime() - (9 * 60 * 60 * 1000)).toISOString();
+        const timeMax = new Date(today.getTime() - (9 * 60 * 60 * 1000)).toISOString();
 
         console.log(`[INFO] 宿直チェック範囲: ${timeMin} - ${timeMax}`);
 
