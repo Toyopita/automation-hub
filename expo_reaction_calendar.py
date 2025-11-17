@@ -210,10 +210,10 @@ def create_google_calendar_event(event_info, article_url):
 @bot.event
 async def on_ready():
     """Bot起動時に実行"""
-    print(f'Bot起動: {bot.user}')
-    print(f'監視中: 2つのイベントフォーラム（📅 リアクションでカレンダー登録）')
-    print(f'  - 🎡｜大阪関西万博（IZUMOサーバー）')
-    print(f'  - 🎪イベント（Minamiサーバー）')
+    print(f'Bot起動: {bot.user}', flush=True)
+    print(f'監視中: 2つのイベントフォーラム（📅 リアクションでカレンダー登録）', flush=True)
+    print(f'  - 🎡｜大阪関西万博（IZUMOサーバー）', flush=True)
+    print(f'  - 🎪イベント（Minamiサーバー）', flush=True)
 
 
 @bot.event
