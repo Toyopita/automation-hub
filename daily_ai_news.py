@@ -15,6 +15,8 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import aiohttp
 import feedparser
+import re
+from html import unescape
 
 # 環境変数読み込み
 load_dotenv()
