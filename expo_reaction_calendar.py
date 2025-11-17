@@ -152,45 +152,53 @@ URL: {url}
 
 
 def create_google_calendar_event(event_info, article_url):
-    """Googleカレンダーにイベントを登録"""
+    """Googleカレンダーにイベントを登録（サービスアカウント認証）"""
 
-    # 日時フォーマット作成
-    start_datetime = f"{event_info['start_date']}T{event_info['start_time']}:00"
-    end_datetime = f"{event_info['end_date']}T{event_info['end_time']}:00"
+    try:
+        # サービスアカウント認証
+        credentials = service_account.Credentials.from_service_account_file(
+            SERVICE_ACCOUNT_FILE,
+            scopes=['https://www.googleapis.com/auth/calendar']
+        )
 
-    # MCP Google Calendar APIを使用
-    # Claude Code経由で実行するため、ここではシェルコマンドで呼び出し
-    # 実際にはClaude CodeのMCP機能を使う必要があるため、
-    # 一旦イベント情報をファイルに保存して、別プロセスで処理
+        # Calendar APIクライアント作成
+        service = build('calendar', 'v3', credentials=credentials)
 
-    event_data = {
-        "calendarId": KANSAI_EVENT_CALENDAR_ID,
-        "summary": event_info['event_name'],
-        "start": start_datetime,
-        "end": end_datetime,
-        "location": event_info.get('location', ''),
-        "description": f"{event_info.get('description', '')}\n\nソース: {article_url}",
-        "timeZone": "Asia/Tokyo"
-    }
+        # 日時フォーマット作成
+        start_datetime = f"{event_info['start_date']}T{event_info['start_time']}:00"
+        end_datetime = f"{event_info['end_date']}T{event_info['end_time']}:00"
 
-    # イベント情報を一時ファイルに保存
-    pending_file = '/Users/minamitakeshi/discord-mcp-server/expo_calendar_pending.json'
+        # イベントデータ作成
+        event = {
+            'summary': event_info['event_name'],
+            'location': event_info.get('location', ''),
+            'description': f"{event_info.get('description', '')}\n\nソース: {article_url}",
+            'start': {
+                'dateTime': start_datetime,
+                'timeZone': 'Asia/Tokyo',
+            },
+            'end': {
+                'dateTime': end_datetime,
+                'timeZone': 'Asia/Tokyo',
+            },
+        }
 
-    pending_events = []
-    if os.path.exists(pending_file):
-        with open(pending_file, 'r', encoding='utf-8') as f:
-            try:
-                pending_events = json.load(f)
-            except:
-                pending_events = []
+        # カレンダーにイベント登録
+        event_result = service.events().insert(
+            calendarId=KANSAI_EVENT_CALENDAR_ID,
+            body=event
+        ).execute()
 
-    pending_events.append(event_data)
+        print(f'✅ カレンダー登録成功: {event_info["event_name"]}')
+        print(f'   イベントURL: {event_result.get("htmlLink")}')
 
-    with open(pending_file, 'w', encoding='utf-8') as f:
-        json.dump(pending_events, f, ensure_ascii=False, indent=2)
+        return True
 
-    print(f'✅ カレンダー登録待ちリストに追加: {event_info["event_name"]}')
-    return True
+    except Exception as e:
+        print(f'❌ カレンダー登録エラー: {e}')
+        import traceback
+        traceback.print_exc()
+        return False
 
 
 @bot.event
