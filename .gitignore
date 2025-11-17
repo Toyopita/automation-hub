@@ -41,3 +41,18 @@ __pycache__/
 .idea/
 *.swp
 *.swo
+
+# Node.js
+node_modules/
+
+# Google認証トークン
+google_calendar_token.json
+
+# 一時データ
+.last_order_check
+
+# 会話ログ（機密情報の可能性）
+conversation_logs/
+
+# JSON履歴ファイル（除外する場合）
+# *_history.json
