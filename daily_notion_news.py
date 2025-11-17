@@ -219,8 +219,8 @@ async def on_ready():
 
         print(f'新規ニュース数: {len(unique_news)}')
 
-        # 最新3件のみに絞る（Notionニュースは少ないので3件）
-        unique_news = unique_news[:3]
+        # 最新1件のみに絞る（1時間ごと実行のため）
+        unique_news = unique_news[:1]
         print(f'投稿対象: {len(unique_news)}件')
 
         # URL検証を実行してオリジナルURLを取得
