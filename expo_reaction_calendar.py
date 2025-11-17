@@ -145,10 +145,10 @@ URL: {url}
                     return event_info
                 else:
                     print(f'Gemini APIエラー: {response.status}')
-                    return {"has_event": false}
+                    return {"has_event": False}
     except Exception as e:
         print(f'イベント情報抽出エラー: {e}')
-        return {"has_event": false}
+        return {"has_event": False}
 
 
 def create_google_calendar_event(event_info, article_url):
