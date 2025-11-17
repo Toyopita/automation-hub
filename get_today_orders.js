@@ -30,14 +30,19 @@ const NOTION_ORDER_DB = '19800160-1818-8095-987d-eff320494e12';
 async function getTodayOrders() {
     const notion = new Client({ auth: NOTION_TOKEN });
 
-    // 今日の開始時刻と終了時刻
-    const today = new Date();
+    // 今日の開始時刻と終了時刻（日本時間）
+    const now = new Date();
+    const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+
+    const today = new Date(jstNow);
     today.setHours(0, 0, 0, 0);
-    const todayStr = today.toISOString();
 
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
-    const tomorrowStr = tomorrow.toISOString();
+
+    // 日本時間をUTCに変換してISO形式に
+    const todayStr = new Date(today.getTime() - (9 * 60 * 60 * 1000)).toISOString();
+    const tomorrowStr = new Date(tomorrow.getTime() - (9 * 60 * 60 * 1000)).toISOString();
 
     try {
         const response = await notion.databases.query({
