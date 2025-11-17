@@ -2,6 +2,7 @@
 """
 毎朝7時に生成AIニュースをIZUMOサーバーの「🤖｜生成AI」フォーラムに投稿
 
+Google News RSSを使用（完全無料・API key不要）
 フォーラムチャンネルID: 1434340159389700157
 """
 
@@ -13,6 +14,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import aiohttp
+import feedparser
 
 # 環境変数読み込み
 load_dotenv()
@@ -23,6 +25,9 @@ GENAI_FORUM_ID = 1434340159389700157
 
 # 投稿履歴ファイル
 HISTORY_FILE = '/Users/minamitakeshi/discord-mcp-server/genai_news_history.json'
+
+# Google News RSS URL（日本語の生成AIニュース）
+GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q=生成AI OR ChatGPT OR Claude OR Gemini OR 人工知能 OR AI&hl=ja&gl=JP&ceid=JP:ja'
 
 # Bot初期化
 intents = discord.Intents.default()
@@ -64,61 +69,61 @@ def save_history(history, new_items):
         json.dump(history, f, ensure_ascii=False, indent=2)
 
 
-def get_history_text(history):
-    """履歴を文字列形式で返す（Geminiへの指示用）"""
-    if not history:
-        return "なし"
+def is_duplicate(title, url, history):
+    """履歴と重複しているか確認"""
+    for item in history:
+        # URLが完全一致
+        if item['url'] == url:
+            return True
+        # タイトルの類似度が高い（70%以上の単語一致）
+        title_words = set(title.split())
+        history_words = set(item['title'].split())
+        if title_words and history_words:
+            similarity = len(title_words & history_words) / len(title_words | history_words)
+            if similarity > 0.7:
+                return True
+    return False
 
-    lines = []
-    for item in history[-20:]:  # 直近20件
-        lines.append(f"- {item['title']}")
 
-    return "\n".join(lines)
+async def fetch_google_news():
+    """Google News RSSから最新ニュースを取得"""
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(GOOGLE_NEWS_RSS, timeout=aiohttp.ClientTimeout(total=10)) as response:
+                if response.status == 200:
+                    rss_content = await response.text()
+                    return rss_content
+                else:
+                    print(f'RSS取得エラー: ステータスコード {response.status}')
+                    return None
+    except Exception as e:
+        print(f'RSS取得エラー: {e}')
+        return None
 
 
-async def fetch_ai_news(history):
-    """Geminiに最新の生成AIニュースを非同期で取得させる"""
-    history_text = get_history_text(history)
+def parse_rss(rss_content):
+    """RSSコンテンツをパースしてニュースリストを返す"""
+    feed = feedparser.parse(rss_content)
+    news_list = []
 
-    prompt = f"""【重要】必ずWeb検索を実行して、最新の生成AIニュースを探してください。
+    for entry in feed.entries[:20]:  # 最新20件まで取得
+        # Google NewsのRSSはentryにtitle, link, published, summaryを含む
+        title = entry.get('title', '')
+        url = entry.get('link', '')
+        summary = entry.get('summary', entry.get('description', ''))
+        published = entry.get('published', '')
 
-【過去に投稿済みのニュース（直近20件）】:
-{history_text}
+        # Google NewsのリンクからオリジナルURLを抽出
+        # Google Newsはリダイレクトを使うため、実際のURLを取得
+        if url:
+            news_list.append({
+                'title': title,
+                'summary': summary[:200] if summary else 'ニュース概要なし',
+                'url': url,
+                'published': published
+            })
 
-上記と重複しない、完全に新しいニュースのみを選んでください。
-**新しいニュースが見つからない場合は、正直に「新しいニュースはありません」と答えてください。**
-
-要件:
-- 直近1週間以内の最新ニュース（できるだけ新しいものを優先）
-- 日本語で、かつ日本のニュースソースを優先
-- 過去に投稿したニュースとタイトルや内容が重複しないこと（最重要）
-- **必ずWeb検索を実行**して、実際に存在する記事のURLを取得すること
-- URLは実際にアクセス可能な正確なURLであること（架空のURLは絶対NG）
-- 新しいニュースが見つかった場合のみ、以下の形式で出力:
-
----NEWS_START---
-タイトル: [ニュースのタイトル]
-概要: [2-3文で簡潔な概要]
-URL: [ソース元の完全なURL（必須・Web検索で確認済みのURL）]
----NEWS_END---
-
-- 技術的な進展、新製品、ビジネス動向など多様なトピックを
-- 各ニュースは必ず ---NEWS_START--- と ---NEWS_END--- で囲む
-- 新しいニュースが見つからない場合は上記形式を使わず、「新しいニュースはありません」とだけ答える"""
-
-    process = await asyncio.create_subprocess_exec(
-        '/usr/local/bin/gemini',
-        stdin=asyncio.subprocess.PIPE,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE
-    )
-
-    stdout, stderr = await process.communicate(input=prompt.encode())
-
-    if process.returncode == 0:
-        return stdout.decode().strip()
-    else:
-        return f"ニュース取得エラー: {stderr.decode()}"
+    return news_list
 
 
 async def verify_url(url):
@@ -135,30 +140,6 @@ async def verify_url(url):
                     return response.status < 400
         except:
             return False
-
-
-def parse_news(content):
-    """Geminiの返答から個別のニュースを抽出"""
-    import re
-
-    # ---NEWS_START--- と ---NEWS_END--- で囲まれた部分を抽出
-    news_blocks = re.findall(r'---NEWS_START---(.*?)---NEWS_END---', content, re.DOTALL)
-
-    news_list = []
-    for block in news_blocks:
-        # タイトル、概要、URLを抽出
-        title_match = re.search(r'タイトル:\s*(.+)', block)
-        summary_match = re.search(r'概要:\s*(.+?)(?=URL:)', block, re.DOTALL)
-        url_match = re.search(r'URL:\s*(.+)', block)
-
-        if title_match and summary_match and url_match:
-            news_list.append({
-                'title': title_match.group(1).strip(),
-                'summary': summary_match.group(1).strip(),
-                'url': url_match.group(1).strip()
-            })
-
-    return news_list
 
 
 @bot.event
@@ -180,29 +161,55 @@ async def on_ready():
         history = load_history()
         print(f'投稿履歴: {len(history)}件')
 
-        # 最新ニュースを非同期で取得
-        print('Geminiから最新の生成AIニュースを取得中...')
-        news_content = await fetch_ai_news(history)
+        # Google News RSSから最新ニュースを取得
+        print('Google News RSSから生成AIニュースを取得中...')
+        rss_content = await fetch_google_news()
 
-        # ニュースをパース
-        news_list = parse_news(news_content)
-        print(f'取得したニュース数: {len(news_list)}')
+        if not rss_content:
+            print('❌ RSS取得に失敗しました')
+            await bot.close()
+            return
+
+        # RSSをパース
+        news_list = parse_rss(rss_content)
+        print(f'RSS取得ニュース数: {len(news_list)}')
 
         if len(news_list) == 0:
+            print('ℹ️  ニュースが見つかりませんでした')
+            await bot.close()
+            return
+
+        # 重複を除外
+        print('重複チェック中...')
+        unique_news = []
+        for news in news_list:
+            if not is_duplicate(news['title'], news['url'], history):
+                unique_news.append(news)
+                print(f'  ✅ 新規: {news["title"][:50]}...')
+            else:
+                print(f'  ⏭️  重複（スキップ）: {news["title"][:50]}...')
+
+        if len(unique_news) == 0:
             print('ℹ️  新しいニュースはありません（投稿をスキップします）')
             await bot.close()
             return
 
+        print(f'新規ニュース数: {len(unique_news)}')
+
+        # 最新5件のみに絞る
+        unique_news = unique_news[:5]
+        print(f'投稿対象: {len(unique_news)}件')
+
         # URL検証を実行
         print('URL検証中...')
         verified_news = []
-        for news in news_list:
+        for news in unique_news:
             is_valid = await verify_url(news['url'])
             if is_valid:
                 verified_news.append(news)
-                print(f'  ✅ URL検証OK: {news["url"]}')
+                print(f'  ✅ URL検証OK: {news["url"][:60]}...')
             else:
-                print(f'  ❌ URL検証NG（除外）: {news["url"]} - {news["title"]}')
+                print(f'  ❌ URL検証NG（除外）: {news["url"][:60]}...')
 
         if len(verified_news) == 0:
             print('⚠️  全てのニュースがURL検証に失敗しました（投稿をスキップします）')
@@ -219,7 +226,7 @@ async def on_ready():
             thread_title = f"{news['title']}"
             thread_content = f"{news['summary']}\n\n**ソース:** {news['url']}"
 
-            print(f'スレッド作成中 ({i}/{len(verified_news)}): {thread_title}')
+            print(f'スレッド作成中 ({i}/{len(verified_news)}): {thread_title[:50]}...')
 
             thread = await forum.create_thread(
                 name=thread_title[:100],  # Discordのタイトル文字数制限対策
@@ -239,7 +246,7 @@ async def on_ready():
         print('投稿履歴を保存しました')
 
         # macOS通知
-        os.system(f'osascript -e \'display notification "{today}の生成AIニュース {posted_count}件を投稿しました" with title "Discord生成AIニュース"\'')
+        os.system(f'osascript -e \'display notification "{today}の生成AIニュース {posted_count}件を投稿しました（Google News RSS使用）" with title "Discord生成AIニュース"\'')
 
     except Exception as e:
         print(f'エラー: {e}')
