@@ -222,7 +222,7 @@ async def on_ready():
             thread_title = f"{news['title']}"
             thread_content = f"""{news['summary']}
 
-📖 [続きを読む](<{news['url']}>)"""
+{news['url']}"""
 
             print(f'スレッド作成中 ({i}/{len(verified_news)}): {thread_title[:50]}...')
 
