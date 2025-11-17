@@ -220,12 +220,22 @@ async def on_ready():
 async def on_raw_reaction_add(payload):
     """リアクション追加時に実行"""
 
-    # 監視対象フォーラム以外は無視
-    if payload.channel_id not in MONITORED_FORUMS:
-        return
-
     # 📅 絵文字以外は無視
     if str(payload.emoji) != '📅':
+        return
+
+    # チャンネルを取得してフォーラムスレッドかチェック
+    channel = bot.get_channel(payload.channel_id)
+    if not channel:
+        return
+
+    # スレッドの場合、親フォーラムをチェック
+    if isinstance(channel, discord.Thread):
+        parent_id = channel.parent_id
+        if parent_id not in MONITORED_FORUMS:
+            return
+    # 通常チャンネルの場合、そのチャンネルIDをチェック
+    elif payload.channel_id not in MONITORED_FORUMS:
         return
 
     # 処理済みチェック
