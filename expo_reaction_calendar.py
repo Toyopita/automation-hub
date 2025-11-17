@@ -247,10 +247,6 @@ async def on_raw_reaction_add(payload):
     print(f'📅 リアクション検知: メッセージID {payload.message_id}', flush=True)
 
     try:
-        # チャンネルとメッセージを取得
-        channel = bot.get_channel(payload.channel_id)
-        if not channel:
-            return
 
         # スレッドの場合、最初のメッセージを取得
         if isinstance(channel, discord.Thread):
