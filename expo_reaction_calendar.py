@@ -32,6 +32,9 @@ EXPO_FORUM_ID = 1439846883504689193
 # 関西イベント情報カレンダーID
 KANSAI_EVENT_CALENDAR_ID = 'ba311ba9532e646a2b72cb8ae66eae3fe2a364b44fcfbf34f7b0f9dbc297b0f0@group.calendar.google.com'
 
+# Google Calendar APIサービスアカウントJSONファイル
+SERVICE_ACCOUNT_FILE = '/Users/minamitakeshi/discord-mcp-server/google-calendar-service-account.json'
+
 # 処理済みリアクション記録ファイル
 PROCESSED_FILE = '/Users/minamitakeshi/discord-mcp-server/expo_calendar_processed.json'
 
