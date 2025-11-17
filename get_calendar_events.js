@@ -27,15 +27,19 @@ const CALENDAR_NAMES = {
 };
 
 async function getTodayEvents() {
-    const today = new Date();
+    // 日本時間の今日の範囲を取得
+    const now = new Date();
+    const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+
+    const today = new Date(jstNow);
+    today.setHours(0, 0, 0, 0);
+
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
 
-    today.setHours(0, 0, 0, 0);
-    tomorrow.setHours(0, 0, 0, 0);
-
-    const timeMin = today.toISOString().replace(/\.000Z$/, '');
-    const timeMax = tomorrow.toISOString().replace(/\.000Z$/, '');
+    // 日本時間をUTCに変換
+    const timeMin = new Date(today.getTime() - (9 * 60 * 60 * 1000)).toISOString().replace(/\.000Z$/, '');
+    const timeMax = new Date(tomorrow.getTime() - (9 * 60 * 60 * 1000)).toISOString().replace(/\.000Z$/, '');
 
     const allEvents = [];
 
