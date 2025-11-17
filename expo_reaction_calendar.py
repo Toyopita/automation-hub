@@ -18,6 +18,8 @@ import json
 import subprocess
 from datetime import datetime
 import re
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 # 環境変数読み込み
 load_dotenv()
