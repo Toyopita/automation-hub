@@ -223,14 +223,15 @@ async def on_ready():
         unique_news = unique_news[:3]
         print(f'投稿対象: {len(unique_news)}件')
 
-        # URL検証を実行
-        print('URL検証中...')
+        # URL検証を実行してオリジナルURLを取得
+        print('URL検証＆オリジナルURL取得中...')
         verified_news = []
         for news in unique_news:
-            is_valid = await verify_url(news['url'])
+            is_valid, original_url = await verify_url(news['url'])
             if is_valid:
+                news['url'] = original_url  # オリジナルURLに置き換え
                 verified_news.append(news)
-                print(f'  ✅ URL検証OK: {news["url"][:60]}...')
+                print(f'  ✅ URL検証OK: {original_url[:60]}...')
             else:
                 print(f'  ❌ URL検証NG（除外）: {news["url"][:60]}...')
 
