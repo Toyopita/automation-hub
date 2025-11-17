@@ -38,9 +38,13 @@ async function checkHoliday() {
 
         const calendar = google.calendar({ version: 'v3', auth: oAuth2Client });
 
-        // 今日の日付（YYYY-MM-DD形式）
+        // 今日の日付（YYYY-MM-DD形式、日本時間）
         const now = new Date();
-        const todayStr = now.toISOString().split('T')[0];
+        const jstDate = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+        const year = jstDate.getFullYear();
+        const month = String(jstDate.getMonth() + 1).padStart(2, '0');
+        const day = String(jstDate.getDate()).padStart(2, '0');
+        const todayStr = `${year}-${month}-${day}`;
 
         // 過去1週間から未来1週間の範囲で検索（終日イベントを確実に拾うため）
         const weekAgo = new Date(now);
