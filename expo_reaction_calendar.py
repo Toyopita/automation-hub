@@ -231,10 +231,10 @@ async def on_raw_reaction_add(payload):
     # 処理済みチェック
     processed = load_processed()
     if payload.message_id in processed:
-        print(f'⏭️  処理済み: メッセージID {payload.message_id}')
+        print(f'⏭️  処理済み: メッセージID {payload.message_id}', flush=True)
         return
 
-    print(f'📅 リアクション検知: メッセージID {payload.message_id}')
+    print(f'📅 リアクション検知: メッセージID {payload.message_id}', flush=True)
 
     try:
         # チャンネルとメッセージを取得
