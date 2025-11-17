@@ -234,8 +234,8 @@ async def on_ready():
 
         print(f'新規ニュース数: {len(unique_news)}')
 
-        # 最新5件のみに絞る
-        unique_news = unique_news[:5]
+        # 最新2件のみに絞る（1時間ごと実行のため）
+        unique_news = unique_news[:2]
         print(f'投稿対象: {len(unique_news)}件')
 
         # URL検証を実行してオリジナルURLを取得
