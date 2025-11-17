@@ -88,7 +88,7 @@ async def fetch_article_content(url):
                 else:
                     return None
     except Exception as e:
-        print(f'記事取得エラー: {e}')
+        print(f'記事取得エラー: {e}', flush=True)
         return None
 
 
@@ -150,10 +150,10 @@ URL: {url}
                     event_info = json.loads(text)
                     return event_info
                 else:
-                    print(f'Gemini APIエラー: {response.status}')
+                    print(f'Gemini APIエラー: {response.status}', flush=True)
                     return {"has_event": False}
     except Exception as e:
-        print(f'イベント情報抽出エラー: {e}')
+        print(f'イベント情報抽出エラー: {e}', flush=True)
         return {"has_event": False}
 
 
@@ -195,13 +195,13 @@ def create_google_calendar_event(event_info, article_url):
             body=event
         ).execute()
 
-        print(f'✅ カレンダー登録成功: {event_info["event_name"]}')
-        print(f'   イベントURL: {event_result.get("htmlLink")}')
+        print(f'✅ カレンダー登録成功: {event_info["event_name"]}', flush=True)
+        print(f'   イベントURL: {event_result.get("htmlLink")}', flush=True)
 
         return True
 
     except Exception as e:
-        print(f'❌ カレンダー登録エラー: {e}')
+        print(f'❌ カレンダー登録エラー: {e}', flush=True)
         import traceback
         traceback.print_exc()
         return False
@@ -255,7 +255,7 @@ async def on_raw_reaction_add(payload):
         else:
             message = await channel.fetch_message(payload.message_id)
 
-        print(f'メッセージ取得: {message.content[:100]}...')
+        print(f'メッセージ取得: {message.content[:100]}...', flush=True)
 
         # URLを抽出
         urls = re.findall(r'https?://[^\s]+', message.content)
@@ -265,7 +265,7 @@ async def on_raw_reaction_add(payload):
             return
 
         article_url = urls[0]
-        print(f'URL: {article_url}')
+        print(f'URL: {article_url}', flush=True)
 
         # 記事タイトルを取得（スレッドタイトルまたはメッセージの最初の行）
         if isinstance(channel, discord.Thread):
@@ -273,7 +273,7 @@ async def on_raw_reaction_add(payload):
         else:
             article_title = message.content.split('\n')[0][:100]
 
-        print(f'記事タイトル: {article_title}')
+        print(f'記事タイトル: {article_title}', flush=True)
 
         # Geminiでイベント情報を抽出
         print('Gemini APIでイベント情報を抽出中...')
@@ -287,8 +287,8 @@ async def on_raw_reaction_add(payload):
             await message.add_reaction('❌')
             return
 
-        print(f'✅ イベント検出: {event_info["event_name"]}')
-        print(f'   日時: {event_info["start_date"]} {event_info["start_time"]}')
+        print(f'✅ イベント検出: {event_info["event_name"]}', flush=True)
+        print(f'   日時: {event_info["start_date"]} {event_info["start_time"]}', flush=True)
 
         # Googleカレンダーに登録
         success = create_google_calendar_event(event_info, article_url)
@@ -304,7 +304,7 @@ async def on_raw_reaction_add(payload):
         save_processed(payload.message_id)
 
     except Exception as e:
-        print(f'エラー: {e}')
+        print(f'エラー: {e}', flush=True)
         import traceback
         traceback.print_exc()
 
