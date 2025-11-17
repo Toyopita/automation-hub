@@ -36,6 +36,7 @@ async function findClaudePage() {
 
         console.error(`[INFO] ${response.results.length}件のページを取得`);
 
+        const allPages = [];
         const matches = [];
 
         for (const page of response.results) {
@@ -44,6 +45,12 @@ async function findClaudePage() {
                 if (value.type === 'title' && value.title && value.title.length > 0) {
                     const title = value.title[0].plain_text;
                     if (title) {
+                        allPages.push({
+                            id: page.id,
+                            title: title,
+                            parent_type: page.parent.type
+                        });
+
                         // claude、専用、Claude、CLAUDEなどを含むページを全て表示
                         if (title.toLowerCase().includes('claude') || title.includes('専用')) {
                             matches.push({
@@ -59,10 +66,20 @@ async function findClaudePage() {
             }
         }
 
+        // 全ページタイトルを表示（最初の20件）
+        console.error('\n[INFO] 取得したページ（最初の20件）:');
+        allPages.slice(0, 20).forEach((p, i) => {
+            console.error(`  ${i+1}. ${p.title} (${p.parent_type})`);
+        });
+
         if (matches.length > 0) {
             console.log(JSON.stringify({ matches }, null, 2));
         } else {
-            console.log(JSON.stringify({ error: 'claude関連のページが見つかりません' }, null, 2));
+            console.log(JSON.stringify({
+                error: 'claude関連のページが見つかりません',
+                total_pages: allPages.length,
+                sample_titles: allPages.slice(0, 10).map(p => p.title)
+            }, null, 2));
         }
     } catch (error) {
         console.error('Error:', error.message);
