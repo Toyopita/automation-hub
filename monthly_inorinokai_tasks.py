@@ -91,9 +91,9 @@ def create_task(task_name, deadline):
 def main():
     """メイン処理"""
     # 24日チェック
-    # if not is_24th_day():
-    #     print('ℹ️  今日は24日ではありません。タスク生成をスキップします。')
-    #     return
+    if not is_24th_day():
+        print('ℹ️  今日は24日ではありません。タスク生成をスキップします。')
+        return
 
     # 日本時間で今日の日付を取得
     now = datetime.now(JST)
