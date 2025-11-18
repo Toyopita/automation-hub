@@ -3,8 +3,8 @@
 """
 冥福祭タスク自動追加スクリプト
 
-Googleカレンダー「冥福祭」から未来のイベントを取得し、
-その前日を期限として12タスクをNotionに自動追加する。
+毎日0:00に実行され、翌日（明日）に冥福祭がある場合、
+今日を期限として12タスクをNotionに自動追加する。
 """
 
 import os
@@ -84,17 +84,23 @@ def get_calendar_service():
     return build('calendar', 'v3', credentials=creds)
 
 
-def get_meifuku_events():
-    """Googleカレンダーから冥福祭イベントを取得"""
+def get_tomorrow_meifuku_events():
+    """Googleカレンダーから明日の冥福祭イベントを取得"""
     try:
         service = get_calendar_service()
 
-        # 日本時間で今日から1年後まで
-        now = datetime.now(ZoneInfo('Asia/Tokyo'))
-        future_date = now + timedelta(days=365)
+        # 日本時間で明日の0:00から23:59まで
+        jst = ZoneInfo('Asia/Tokyo')
+        now = datetime.now(jst)
+        tomorrow = now + timedelta(days=1)
 
-        time_min = now.isoformat()
-        time_max = future_date.isoformat()
+        # 明日の0:00
+        tomorrow_start = tomorrow.replace(hour=0, minute=0, second=0, microsecond=0)
+        # 明日の23:59
+        tomorrow_end = tomorrow.replace(hour=23, minute=59, second=59, microsecond=999999)
+
+        time_min = tomorrow_start.isoformat()
+        time_max = tomorrow_end.isoformat()
 
         events_result = service.events().list(
             calendarId=MEIFUKU_CALENDAR_ID,
@@ -112,7 +118,7 @@ def get_meifuku_events():
                 start = item['start'].get('dateTime', item['start'].get('date'))
                 event_date = datetime.fromisoformat(start.replace('Z', '+00:00'))
                 if event_date.tzinfo is None:
-                    event_date = event_date.replace(tzinfo=ZoneInfo('Asia/Tokyo'))
+                    event_date = event_date.replace(tzinfo=jst)
 
                 events.append({
                     'summary': summary,
@@ -192,22 +198,25 @@ def add_task_to_notion(task_name, deadline):
         return False
 
 
-def add_tasks_for_event(event_date, event_name):
-    """指定された冥福祭の前日を期限としてタスクを追加"""
+def add_tasks_for_tomorrow_event(event_date, event_name):
+    """明日の冥福祭用のタスクを今日を期限として追加"""
     # 1日の冥福祭はスキップ
     if event_date.day == 1:
         print(f"× {event_name} ({event_date.strftime('%Y-%m-%d')}) は1日のためスキップ")
         return 0
 
-    # 前日を計算（日本時間）
-    deadline = (event_date - timedelta(days=1)).strftime('%Y-%m-%d')
+    # 今日を期限とする（日本時間）
+    jst = ZoneInfo('Asia/Tokyo')
+    today = datetime.now(jst)
+    deadline = today.strftime('%Y-%m-%d')
 
     # 既にタスクが存在するかチェック
     if check_existing_tasks(deadline):
         print(f"✓ {event_name} ({event_date.strftime('%Y-%m-%d')}) のタスクは既に追加済み")
         return 0
 
-    print(f"→ {event_name} ({event_date.strftime('%Y-%m-%d')}) のタスクを追加中...")
+    print(f"→ 明日の {event_name} ({event_date.strftime('%Y-%m-%d')}) のタスクを追加中...")
+    print(f"   期限: {deadline}")
 
     added_count = 0
     for task_name in TASKS:
@@ -228,27 +237,37 @@ def main():
         print("エラー: NOTION_TOKEN_TASK が設定されていません")
         sys.exit(1)
 
-    # 冥福祭イベント取得
-    print("\n[1] Googleカレンダーから冥福祭イベントを取得中...")
-    events = get_meifuku_events()
+    # 日本時間で今日と明日の日付を表示
+    jst = ZoneInfo('Asia/Tokyo')
+    now = datetime.now(jst)
+    tomorrow = now + timedelta(days=1)
+    print(f"\n今日: {now.strftime('%Y-%m-%d (%A)')}")
+    print(f"明日: {tomorrow.strftime('%Y-%m-%d (%A)')}")
+
+    # 明日の冥福祭イベント取得
+    print("\n[1] 明日の冥福祭イベントを確認中...")
+    events = get_tomorrow_meifuku_events()
 
     if not events:
-        print("  冥福祭イベントが見つかりませんでした")
+        print("  ℹ️  明日に冥福祭はありません。タスク生成をスキップします。")
         return
 
-    print(f"  ✓ {len(events)}件の冥福祭イベントを検出")
+    print(f"  ✓ 明日に{len(events)}件の冥福祭イベントがあります")
 
     # 各イベントに対してタスク追加
     print("\n[2] タスクを追加中...")
     total_added = 0
 
     for event in events:
-        added = add_tasks_for_event(event['start'], event['summary'])
+        added = add_tasks_for_tomorrow_event(event['start'], event['summary'])
         total_added += added
 
     # 結果通知
     print("\n" + "=" * 60)
-    print(f"完了: {total_added}件のタスクを追加しました")
+    if total_added > 0:
+        print(f"完了: {total_added}件のタスクを追加しました")
+    else:
+        print("タスクは既に追加済みです")
     print("=" * 60)
 
     # macOS通知
@@ -256,7 +275,7 @@ def main():
         import subprocess
         subprocess.run([
             'osascript', '-e',
-            f'display notification "冥福祭タスク{total_added}件をNotionに追加しました" with title "冥福祭タスク自動追加"'
+            f'display notification "明日の冥福祭用タスク{total_added}件を追加しました" with title "冥福祭タスク自動追加"'
         ])
 
 
