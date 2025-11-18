@@ -13,6 +13,17 @@ import subprocess
 import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+from pathlib import Path
+
+# .envファイルから環境変数を読み込む
+env_path = Path(__file__).parent / '.env'
+if env_path.exists():
+    with open(env_path) as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                key, value = line.split('=', 1)
+                os.environ[key] = value
 
 # 環境変数から取得
 NOTION_TOKEN = os.environ.get('NOTION_TOKEN_TASK')
