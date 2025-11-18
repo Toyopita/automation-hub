@@ -194,6 +194,11 @@ def add_task_to_notion(task_name, deadline):
 
 def add_tasks_for_event(event_date, event_name):
     """指定された冥福祭の前日を期限としてタスクを追加"""
+    # 1日の冥福祭はスキップ
+    if event_date.day == 1:
+        print(f"× {event_name} ({event_date.strftime('%Y-%m-%d')}) は1日のためスキップ")
+        return 0
+
     # 前日を計算（日本時間）
     deadline = (event_date - timedelta(days=1)).strftime('%Y-%m-%d')
 
