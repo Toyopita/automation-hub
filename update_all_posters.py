@@ -99,14 +99,14 @@ def main():
     while has_more:
         if start_cursor:
             response = notion.databases.query(
-                database_id=DATABASE_ID,
-                start_cursor=start_cursor,
-                page_size=100
+                **{"database_id": DATABASE_ID,
+                "start_cursor": start_cursor,
+                "page_size": 100}
             )
         else:
             response = notion.databases.query(
-                database_id=DATABASE_ID,
-                page_size=100
+                **{"database_id": DATABASE_ID,
+                "page_size": 100}
             )
 
         all_pages.extend(response["results"])
