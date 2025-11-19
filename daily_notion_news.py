@@ -29,7 +29,34 @@ NOTION_FORUM_ID = 1434339945656487997
 HISTORY_FILE = '/Users/minamitakeshi/discord-mcp-server/notion_news_history.json'
 
 # Google News RSS URL（Notionに関するニュース）
-GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q=Notion OR ノーション&hl=ja&gl=JP&ceid=JP:ja'
+GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q=Notion OR ノーション OR NotionAI&hl=ja&gl=JP&ceid=JP:ja'
+
+# 信頼できる日本語メディア名のリスト（タイトルやsummaryに含まれる文字列で判定）
+TRUSTED_MEDIA_NAMES = [
+    '日本経済新聞',
+    '日経',
+    'ITmedia',
+    'CNET Japan',
+    'CNET',
+    'ギズモード',
+    'Gizmodo',
+    'WIRED',
+    'Impress Watch',
+    'PC Watch',
+    'ASCII.jp',
+    'ASCII',
+    'ZDNet Japan',
+    'ZDNet',
+    'TechCrunch',
+    'PR TIMES',
+    'マイナビニュース',
+    'マイナビ',
+    'Engadget',
+    'Notion',
+    'Google',
+    'OpenAI',
+    'Anthropic',
+]
 
 # Bot初期化
 intents = discord.Intents.default()
@@ -71,18 +98,27 @@ def save_history(history, new_items):
         json.dump(history, f, ensure_ascii=False, indent=2)
 
 
+def is_trusted_source(title, summary):
+    """タイトルまたは要約に信頼できるメディア名が含まれているかチェック"""
+    combined_text = f"{title} {summary}"
+    for media_name in TRUSTED_MEDIA_NAMES:
+        if media_name in combined_text:
+            return True
+    return False
+
+
 def is_duplicate(title, url, history):
     """履歴と重複しているか確認"""
     for item in history:
         # URLが完全一致
         if item['url'] == url:
             return True
-        # タイトルの類似度が高い（70%以上の単語一致）
+        # タイトルの類似度が高い（80%以上の単語一致）
         title_words = set(title.split())
         history_words = set(item['title'].split())
         if title_words and history_words:
             similarity = len(title_words & history_words) / len(title_words | history_words)
-            if similarity > 0.7:
+            if similarity > 0.8:
                 return True
     return False
 
@@ -128,7 +164,9 @@ def parse_rss(rss_content):
     feed = feedparser.parse(rss_content)
     news_list = []
 
-    for entry in feed.entries[:20]:  # 最新20件まで取得
+    # Google Newsの自然な順序を信頼（日付フィルタなし）
+    # 重複チェック（30日履歴）で古いニュースは自動的に除外される
+    for entry in feed.entries[:50]:  # 最新50件まで取得（より多くから選別）
         title = entry.get('title', '')
         url = entry.get('link', '')
         summary = entry.get('summary', entry.get('description', ''))
@@ -202,10 +240,46 @@ async def on_ready():
             await bot.close()
             return
 
-        # 重複を除外
-        print('重複チェック中...')
-        unique_news = []
+        # 先にURL検証を実行してオリジナルURLを取得（重複チェックの精度向上のため）
+        print('URL検証＆オリジナルURL取得中...')
+        verified_news = []
         for news in news_list:
+            is_valid, original_url = await verify_url(news['url'])
+            if is_valid:
+                news['url'] = original_url  # オリジナルURLに置き換え
+                verified_news.append(news)
+                print(f'  ✅ URL検証OK: {original_url[:60]}...')
+            else:
+                print(f'  ❌ URL検証NG（除外）: {news["url"][:60]}...')
+
+        if len(verified_news) == 0:
+            print('⚠️  全てのニュースがURL検証に失敗しました（投稿をスキップします）')
+            await bot.close()
+            return
+
+        print(f'検証済みニュース数: {len(verified_news)}')
+
+        # 信頼できる情報源のみにフィルタリング
+        print('信頼できる情報源のフィルタリング中...')
+        trusted_news = []
+        for news in verified_news:
+            if is_trusted_source(news['title'], news['summary']):
+                trusted_news.append(news)
+                print(f'  ✅ 信頼できる情報源: {news["title"][:50]}...')
+            else:
+                print(f'  ⏭️  除外（信頼できない情報源）: {news["title"][:50]}...')
+
+        if len(trusted_news) == 0:
+            print('ℹ️  信頼できる情報源からのニュースが見つかりませんでした（投稿をスキップします）')
+            await bot.close()
+            return
+
+        print(f'信頼できるニュース数: {len(trusted_news)}')
+
+        # オリジナルURLで重複を除外
+        print('重複チェック中（オリジナルURLベース）...')
+        unique_news = []
+        for news in trusted_news:
             if not is_duplicate(news['title'], news['url'], history):
                 unique_news.append(news)
                 print(f'  ✅ 新規: {news["title"][:50]}...')
@@ -223,36 +297,17 @@ async def on_ready():
         unique_news = unique_news[:1]
         print(f'投稿対象: {len(unique_news)}件')
 
-        # URL検証を実行してオリジナルURLを取得
-        print('URL検証＆オリジナルURL取得中...')
-        verified_news = []
-        for news in unique_news:
-            is_valid, original_url = await verify_url(news['url'])
-            if is_valid:
-                news['url'] = original_url  # オリジナルURLに置き換え
-                verified_news.append(news)
-                print(f'  ✅ URL検証OK: {original_url[:60]}...')
-            else:
-                print(f'  ❌ URL検証NG（除外）: {news["url"][:60]}...')
-
-        if len(verified_news) == 0:
-            print('⚠️  全てのニュースがURL検証に失敗しました（投稿をスキップします）')
-            await bot.close()
-            return
-
-        print(f'検証済みニュース数: {len(verified_news)}')
-
         # 各ニュースを個別のスレッドとして投稿
         today = datetime.now().strftime('%Y年%m月%d日')
         posted_count = 0
 
-        for i, news in enumerate(verified_news, 1):
+        for i, news in enumerate(unique_news, 1):
             thread_title = f"{news['title']}"
 
             # 完全にシンプルな形式：要約 + 空行 + URL のみ
             thread_content = f"{news['summary']}\n\n{news['url']}"
 
-            print(f'スレッド作成中 ({i}/{len(verified_news)}): {thread_title[:50]}...')
+            print(f'スレッド作成中 ({i}/{len(unique_news)}): {thread_title[:50]}...')
 
             thread = await forum.create_thread(
                 name=thread_title[:100],  # Discordのタイトル文字数制限対策
@@ -268,7 +323,7 @@ async def on_ready():
         print(f'\n✅ 全{posted_count}件の投稿完了')
 
         # 投稿履歴を保存
-        save_history(history, verified_news)
+        save_history(history, unique_news)
         print('投稿履歴を保存しました')
 
         # macOS通知
