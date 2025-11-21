@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
+NOTION_TOKEN = os.environ.get('NOTION_TOKEN_ORDER')
 
 # 立春日データ（国立天文台暦計算室の情報に基づく）
 # 参考: https://eco.mtk.nao.ac.jp/koyomi/
