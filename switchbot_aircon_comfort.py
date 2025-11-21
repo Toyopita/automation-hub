@@ -363,7 +363,7 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
     if season == 'summer':
         summer_diff = -temp_diff  # 室外-室内
 
-        # 冷房OFF条件: 室内≦26℃ または 温度差≧7℃
+        # 冷房OFF条件: 室内≦26℃ または 温度差≧7℃（コマンド送信しない）
         if indoor_temp <= Config.SUMMER_INDOOR_LOW or summer_diff >= Config.SUMMER_TEMP_DIFF_HIGH:
             reason = []
             if indoor_temp <= Config.SUMMER_INDOOR_LOW:
@@ -374,10 +374,10 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': 'off',
-                'action': f'夏季・{" / ".join(reason)} → 冷房OFF',
+                'action': f'夏季・{" / ".join(reason)} → 冷房不要',
                 'priority': 'temp_low',
-                'controlled': True,
-                'reasoning': f'{" または ".join(reason)}のため冷房停止',
+                'controlled': False,  # OFFコマンドは送信しない
+                'reasoning': f'{" または ".join(reason)}のため冷房不要',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
