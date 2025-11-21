@@ -75,7 +75,7 @@ class Config:
     # 冬季: 絶対温度 + 温度差の複合ロジック
     WINTER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 暖房OFF
     WINTER_TEMP_DIFF_LOW = 5.0    # 温度差 < 5℃ → 体感寒い
-    WINTER_HEATING_TARGET = 27    # 暖房設定温度
+    WINTER_HEATING_TARGET = 26    # 暖房設定温度
     WINTER_INDOOR_COLD = 23.0     # 室内 < 23℃ → 絶対的に寒い
     WINTER_INDOOR_COOL = 25.0     # 室内 < 25℃ かつ 温度差小 → 暖房ON
     WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房OFF
