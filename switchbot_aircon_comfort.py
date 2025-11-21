@@ -92,6 +92,10 @@ class Config:
     EMERGENCY_HOT = 32   # 室内32℃以上で緊急冷房
     EMERGENCY_COLD = 15  # 室内15℃以下で緊急暖房
 
+    # CO2濃度アラート
+    CO2_ALERT_THRESHOLD = 1000  # CO2 1000ppm以上で換気通知
+    CO2_ALERT_CHANNEL_ID = 1437603269307535484  # Minamiサーバー通知チャンネル
+
     # 加湿器設定（冬季のみ）
     HUMIDIFIER_START = 60  # 湿度60%未満で加湿器ON
     HUMIDIFIER_STOP = 65   # 湿度65%以上で加湿器OFF
