@@ -39,10 +39,11 @@ def find_risshun_page(year: int) -> str:
         "Content-Type": "application/json"
     }
 
+    # 西暦プロパティはselectタイプなので、文字列で検索
     data = {
         "filter": {
             "property": "西暦",
-            "number": {"equals": year}
+            "select": {"equals": str(year)}
         }
     }
 
