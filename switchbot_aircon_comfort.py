@@ -47,16 +47,20 @@ class Config:
 
     # ===== 温度差ベースの制御閾値（科学的根拠に基づく） =====
 
-    # 冬季: 以前の設定 + 温度差
-    WINTER_TEMP_DIFF_HIGH = 7.0   # 室内-室外 ≧ 7℃ → 暖房OFF
-    WINTER_HEATING_TARGET = 27    # 暖房設定温度（以前: 27℃）
-    WINTER_INDOOR_LOW = 23.0      # 室内 < 23℃ → 暖房ON（以前: 23℃）
-    WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房OFF（以前: 26℃）
+    # 冬季: 絶対温度 + 温度差の複合ロジック
+    WINTER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 暖房OFF
+    WINTER_TEMP_DIFF_LOW = 5.0    # 温度差 < 5℃ → 体感寒い
+    WINTER_HEATING_TARGET = 27    # 暖房設定温度
+    WINTER_INDOOR_COLD = 23.0     # 室内 < 23℃ → 絶対的に寒い
+    WINTER_INDOOR_COOL = 25.0     # 室内 < 25℃ かつ 温度差小 → 暖房ON
+    WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房OFF
 
-    # 夏季: 以前の設定 + 温度差
-    SUMMER_TEMP_DIFF_HIGH = 7.0   # 室外-室内 ≧ 7℃ → 冷房OFF
-    SUMMER_COOLING_TARGET = 29    # 冷房設定温度（以前: 29℃）
-    SUMMER_INDOOR_HIGH = 28.0     # 室内 ≧ 28℃ → 冷房ON
+    # 夏季: 絶対温度 + 温度差の複合ロジック
+    SUMMER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 冷房OFF
+    SUMMER_TEMP_DIFF_LOW = 5.0    # 温度差 < 5℃ → 体感暑い
+    SUMMER_COOLING_TARGET = 29    # 冷房設定温度
+    SUMMER_INDOOR_HOT = 28.0      # 室内 ≧ 28℃ → 絶対的に暑い
+    SUMMER_INDOOR_WARM = 26.0     # 室内 ≧ 26℃ かつ 温度差小 → 冷房ON
     SUMMER_INDOOR_LOW = 26.0      # 室内 ≦ 26℃ → 冷房OFF
 
     # 緊急制御（絶対温度による安全制御）
