@@ -283,50 +283,55 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
             'night_mode': is_night
         }
 
-    # ===== 冬季: 温度差ベース制御 =====
+    # ===== 冬季: 温度差 + 絶対温度ベース制御 =====
     if season == 'winter':
-        if temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
-            # 室内が室外より5℃以上高い → 暖房OFF（暑く感じる）
+        # 暖房OFF条件: 室内≧26℃ または 温度差≧7℃
+        if indoor_temp >= Config.WINTER_INDOOR_HIGH or temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
+            reason = []
+            if indoor_temp >= Config.WINTER_INDOOR_HIGH:
+                reason.append(f'室内{indoor_temp}℃≧{Config.WINTER_INDOOR_HIGH}℃')
+            if temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
+                reason.append(f'温度差{temp_diff:.1f}℃≧{Config.WINTER_TEMP_DIFF_HIGH}℃')
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': humidifier_status,
-                'action': f'冬季・温度差{temp_diff:.1f}℃（≧{Config.WINTER_TEMP_DIFF_HIGH}℃）→ 暖房OFF',
-                'priority': 'temp_diff_high',
+                'action': f'冬季・{" / ".join(reason)} → 暖房OFF',
+                'priority': 'temp_high',
                 'controlled': True,
-                'reasoning': f'室内外温度差{temp_diff:.1f}℃が{Config.WINTER_TEMP_DIFF_HIGH}℃以上。体感的に暑いため暖房停止',
+                'reasoning': f'{" または ".join(reason)}のため暖房停止',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '暖房OFF（温度差大）',
+                'temp_diff_action': '暖房OFF',
                 'night_mode': is_night
             }
-        elif temp_diff <= Config.WINTER_TEMP_DIFF_LOW:
-            # 室内が室外より2℃以下高い → 暖房ON（寒く感じる）
+        # 暖房ON条件: 室内<24℃ かつ 温度差<7℃
+        elif indoor_temp < Config.WINTER_INDOOR_LOW and temp_diff < Config.WINTER_TEMP_DIFF_HIGH:
             return {
                 'mode': 'heat',
                 'set_temp': Config.WINTER_HEATING_TARGET,
                 'humidifier': humidifier_status,
-                'action': f'冬季・温度差{temp_diff:.1f}℃（≦{Config.WINTER_TEMP_DIFF_LOW}℃）→ 暖房ON（{Config.WINTER_HEATING_TARGET}℃）',
-                'priority': 'temp_diff_low',
+                'action': f'冬季・室内{indoor_temp}℃<{Config.WINTER_INDOOR_LOW}℃ / 温度差{temp_diff:.1f}℃ → 暖房ON（{Config.WINTER_HEATING_TARGET}℃）',
+                'priority': 'temp_low',
                 'controlled': True,
-                'reasoning': f'室内外温度差{temp_diff:.1f}℃が{Config.WINTER_TEMP_DIFF_LOW}℃以下。体感的に寒いため暖房開始',
+                'reasoning': f'室内温度{indoor_temp}℃が{Config.WINTER_INDOOR_LOW}℃未満のため暖房開始',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '暖房ON（温度差小）',
+                'temp_diff_action': '暖房ON（室温低）',
                 'night_mode': is_night
             }
         else:
-            # 温度差が適正範囲（2~5℃）→ 現状維持
+            # 適正範囲（室内24~26℃、温度差<7℃）→ 現状維持
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': humidifier_status,
-                'action': f'冬季・温度差{temp_diff:.1f}℃（適正範囲）→ 現状維持',
-                'priority': 'temp_diff_ok',
+                'action': f'冬季・室内{indoor_temp}℃ / 温度差{temp_diff:.1f}℃ → 現状維持',
+                'priority': 'temp_ok',
                 'controlled': False,
-                'reasoning': f'室内外温度差{temp_diff:.1f}℃が適正範囲（{Config.WINTER_TEMP_DIFF_LOW}~{Config.WINTER_TEMP_DIFF_HIGH}℃）',
+                'reasoning': f'室内温度{indoor_temp}℃が適正範囲（{Config.WINTER_INDOOR_LOW}~{Config.WINTER_INDOOR_HIGH}℃）',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
