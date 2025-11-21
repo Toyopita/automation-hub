@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
+NOTION_TOKEN = os.environ.get('NOTION_TOKEN_TASK')
 TASK_DB_ID = '1c800160-1818-807c-b083-f475eb3a07b9'
 
 def create_task():
