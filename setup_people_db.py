@@ -29,7 +29,7 @@ headers = {
     "Content-Type": "application/json"
 }
 
-# Relationと基本的なFormulaを追加
+# Relationプロパティだけを追加（Formulaは手動設定）
 data = {
     "properties": {
         "節入りカレンダー": {
@@ -37,26 +37,6 @@ data = {
                 "database_id": risshun_db_id,
                 "type": "single_property",
                 "single_property": {}
-            }
-        },
-        "生まれ年（西暦）": {
-            "formula": {
-                "expression": "year(prop(\"生年月日\"))"
-            }
-        },
-        "九星用_年": {
-            "formula": {
-                "expression": "prop(\"生まれ年（西暦）\")"  # 仮の式
-            }
-        },
-        "本命星番号": {
-            "formula": {
-                "expression": "1"  # 仮の式
-            }
-        },
-        "本命星": {
-            "formula": {
-                "expression": "\"\""  # 仮の式
             }
         }
     }
