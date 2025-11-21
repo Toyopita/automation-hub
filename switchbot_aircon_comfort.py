@@ -18,8 +18,33 @@ import asyncio
 import requests
 from datetime import datetime, timezone, timedelta
 from typing import Dict, Optional, Any
+from pathlib import Path
 import discord
 from dotenv import load_dotenv
+
+# 状態保存ファイル
+STATE_FILE = Path(__file__).parent / 'aircon_state.json'
+
+
+def load_previous_state() -> Optional[str]:
+    """前回のエアコン状態を読み込む"""
+    try:
+        if STATE_FILE.exists():
+            with open(STATE_FILE, 'r') as f:
+                data = json.load(f)
+                return data.get('mode')
+    except Exception as e:
+        print(f"[WARN] 前回状態の読み込み失敗: {e}")
+    return None
+
+
+def save_current_state(mode: str):
+    """現在のエアコン状態を保存"""
+    try:
+        with open(STATE_FILE, 'w') as f:
+            json.dump({'mode': mode, 'updated': datetime.now().isoformat()}, f)
+    except Exception as e:
+        print(f"[WARN] 状態の保存失敗: {e}")
 
 # 環境変数読み込み
 load_dotenv()
