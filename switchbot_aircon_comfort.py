@@ -607,6 +607,48 @@ def send_macos_notification(title: str, message: str):
         print(f"[ERROR] macOS通知エラー: {e}")
 
 
+# ===== CO2アラート（Discord通知） =====
+CO2_ALERT_STATE_FILE = Path(__file__).parent / 'co2_alert_state.json'
+
+def load_co2_alert_state() -> bool:
+    """前回のCO2アラート状態を読み込む（True=アラート中）"""
+    try:
+        if CO2_ALERT_STATE_FILE.exists():
+            with open(CO2_ALERT_STATE_FILE, 'r') as f:
+                data = json.load(f)
+                return data.get('alerted', False)
+    except:
+        pass
+    return False
+
+def save_co2_alert_state(alerted: bool):
+    """CO2アラート状態を保存"""
+    try:
+        with open(CO2_ALERT_STATE_FILE, 'w') as f:
+            json.dump({'alerted': alerted, 'updated': datetime.now().isoformat()}, f)
+    except:
+        pass
+
+def send_co2_alert_discord(co2_level: int):
+    """CO2アラートをDiscordに送信"""
+    try:
+        url = f"https://discord.com/api/v10/channels/{Config.CO2_ALERT_CHANNEL_ID}/messages"
+        headers = {
+            'Authorization': f'Bot {Config.DISCORD_TOKEN}',
+            'Content-Type': 'application/json'
+        }
+        data = {
+            'content': f'⚠️ **CO2濃度アラート**\n\n現在のCO2濃度: **{co2_level}ppm**\n\n換気してください！'
+        }
+        response = requests.post(url, headers=headers, json=data)
+        if response.ok:
+            print(f"[INFO] CO2アラートDiscord通知送信完了: {co2_level}ppm")
+        else:
+            print(f"[ERROR] CO2アラートDiscord通知失敗: {response.status_code}")
+    except Exception as e:
+        print(f"[ERROR] CO2アラートDiscord通知エラー: {e}")
+
+
 # ===== メイン処理 =====
 async def main():
     """メイン制御処理"""
