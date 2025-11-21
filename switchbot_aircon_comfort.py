@@ -629,14 +629,21 @@ async def main():
     print(f"[INFO] 制御判定: {control_decision['action']}")
     print(f"[INFO] 制御根拠: {control_decision['reasoning']}")
 
-    # 3. エアコン制御実行
+    # 3. 前回の状態と比較してエアコン制御実行
+    previous_mode = load_previous_state()
+    current_mode = control_decision['mode']
+    print(f"[INFO] 前回モード: {previous_mode} → 今回モード: {current_mode}")
+
     aircon_result = None
-    if control_decision['controlled']:
-        print(f"[INFO] エアコン制御実行: {control_decision['mode']} {control_decision.get('set_temp', 'N/A')}℃")
-        aircon_result = control_aircon(control_decision['mode'], control_decision.get('set_temp'))
+    state_changed = (previous_mode != current_mode)
+
+    if state_changed:
+        print(f"[INFO] 状態変化あり → エアコン制御実行: {current_mode} {control_decision.get('set_temp', 'N/A')}℃")
+        aircon_result = control_aircon(current_mode, control_decision.get('set_temp'))
         print(f"[INFO] エアコン制御結果: {'成功' if aircon_result else '失敗'}")
+        save_current_state(current_mode)
     else:
-        print("[INFO] エアコン制御: 制御不要")
+        print("[INFO] 状態変化なし → コマンド送信スキップ")
 
     # 4. 加湿器制御実行
     humidifier_mode = control_decision.get('humidifier', 'off')
