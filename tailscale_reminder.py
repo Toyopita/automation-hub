@@ -35,6 +35,12 @@ def create_task():
             },
             '期限': {
                 'date': {'start': deadline}
+            },
+            'プロジェクト名': {
+                'relation': [{'id': '1c900160-1818-80da-9ba3-d5fda958514f'}]  # 日常業務
+            },
+            'タグ': {
+                'multi_select': [{'name': '日常業務'}]
             }
         }
     }
