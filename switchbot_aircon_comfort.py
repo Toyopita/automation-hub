@@ -403,9 +403,42 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
     }
 
 
+# ===== 不快指数計算 =====
+def calculate_discomfort_index(temperature: float, humidity: float) -> float:
+    """不快指数（DI）を計算"""
+    di = 0.81 * temperature + 0.01 * humidity * (0.99 * temperature - 14.3) + 46.3
+    return round(di, 1)
+
+
+def evaluate_discomfort_index(di: float, season: str) -> Dict[str, str]:
+    """不快指数を評価"""
+    if season == 'summer':
+        if di < 70:
+            return {'level': 'comfortable', 'text': '快適'}
+        elif di < 75:
+            return {'level': 'slightly_hot', 'text': 'やや暑い'}
+        elif di < 80:
+            return {'level': 'hot', 'text': '暑くて汗が出る'}
+        elif di < 85:
+            return {'level': 'very_hot', 'text': '暑くてたまらない'}
+        else:
+            return {'level': 'extremely_hot', 'text': '非常に暑い'}
+    else:  # winter, spring, autumn
+        if di < 60:
+            return {'level': 'cold', 'text': '寒い'}
+        elif di < 68:
+            return {'level': 'slightly_cold', 'text': 'やや寒い'}
+        elif di < 75:
+            return {'level': 'comfortable', 'text': '快適'}
+        elif di < 80:
+            return {'level': 'slightly_warm', 'text': 'やや暖かい'}
+        else:
+            return {'level': 'hot', 'text': '暑い'}
+
+
 # ===== Notion記録 =====
 def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
-    """Notionにログを記録"""
+    """Notionにログを記録（既存DBフォーマット）"""
     url = 'https://api.notion.com/v1/pages'
     headers = {
         'Authorization': f'Bearer {Config.NOTION_TOKEN}',
@@ -419,11 +452,14 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
 
     # 制御サマリーを生成
     mode_jp = {'cool': '冷房', 'heat': '暖房', 'dry': '除湿', 'none': '停止'}.get(control['mode'], '不明')
+    temp_diff = control.get('temp_diff')
+    temp_diff_str = f"（温度差{temp_diff:.1f}℃）" if temp_diff is not None else ""
+
     if control['mode'] == 'none':
-        summary = f"{control.get('temp_diff_action', '制御なし')}"
+        summary = f"制御なし{temp_diff_str}"
     else:
         temp_str = f" {control['set_temp']}℃" if control.get('set_temp') else ""
-        summary = f"{mode_jp}ON{temp_str}"
+        summary = f"{mode_jp}ON{temp_str}{temp_diff_str}"
         if control.get('priority') == 'emergency':
             summary += "【緊急】"
 
@@ -431,78 +467,51 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
     jst = timezone(timedelta(hours=9))
     now_jst = datetime.now(jst)
 
-    # Notionに記録するプロパティ
+    # 不快指数計算
+    di = calculate_discomfort_index(indoor['temperature'], indoor['humidity'])
+    di_eval = evaluate_discomfort_index(di, control['season'])
+
+    # 既存DBのプロパティに合わせて記録
     properties = {
         '制御サマリー': {'title': [{'text': {'content': summary}}]},
+        '日時': {'date': {'start': now_jst.strftime('%Y-%m-%dT%H:%M:%S+09:00')}},
+        '室内温度': {'number': indoor['temperature']},
+        '室内湿度': {'number': indoor['humidity']},
+        'CO2濃度': {'number': indoor.get('co2')},
+        '季節': {'select': {'name': get_season_jp(control['season'])}},
+        '時間帯': {'select': {'name': get_time_of_day_jp(control['time_of_day'])}},
+        'エアコンモード': {'select': {'name': mode_jp}},
+        '加湿器': {'select': {'name': {'on': 'ON', 'off': 'OFF', 'maintain': '維持'}.get(control.get('humidifier', 'off'), 'OFF')}},
+        '制御内容': {'rich_text': [{'text': {'content': control['action'][:2000]}}]},
+        '制御根拠': {'rich_text': [{'text': {'content': control['reasoning'][:2000]}}]},
+        '制御実行': {'checkbox': control['controlled']},
+        '優先度': {'select': {'name': '通常'}},
+        '夜間モード': {'checkbox': control.get('night_mode', False)},
+        '不快指数': {'number': di},
+        '不快指数評価': {'select': {'name': di_eval['text']}}
     }
+
+    # 設定温度（ない場合は0）
+    properties['設定温度'] = {'number': control.get('set_temp') or 0}
+
+    # 外気温度・湿度
+    if outdoor:
+        properties['外気温度'] = {'number': outdoor['temperature']}
+        properties['外気湿度'] = {'number': outdoor['humidity']}
+
+    # API制御結果
+    if aircon_result is not None:
+        properties['API制御結果'] = {'select': {'name': '成功' if aircon_result else '失敗'}}
 
     data = {
         'parent': {'database_id': Config.NOTION_DATABASE_ID},
-        'properties': properties,
-        'children': [
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"日時: {now_jst.strftime('%Y-%m-%d %H:%M:%S')}"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"室内: {indoor['temperature']}℃ / {indoor['humidity']}%"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"室外: {outdoor['temperature'] if outdoor else 'N/A'}℃"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"温度差: {control.get('temp_diff', 'N/A')}℃"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"季節: {get_season_jp(control['season'])}"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"制御内容: {control['action']}"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"制御根拠: {control['reasoning']}"}}]
-                }
-            },
-            {
-                'object': 'block',
-                'type': 'paragraph',
-                'paragraph': {
-                    'rich_text': [{'type': 'text', 'text': {'content': f"API結果: {'成功' if aircon_result else '失敗' if aircon_result is not None else '未実行'}"}}]
-                }
-            }
-        ]
+        'properties': properties
     }
 
     try:
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
-        print("[INFO] Notion記録完了（テストDB）")
+        print("[INFO] Notion記録完了")
         return True
     except Exception as e:
         print(f"[ERROR] Notion記録エラー: {e}")
