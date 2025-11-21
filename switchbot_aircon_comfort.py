@@ -341,57 +341,61 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'night_mode': is_night
             }
 
-    # ===== 夏季: 温度差ベース制御 =====
+    # ===== 夏季: 温度差 + 絶対温度ベース制御 =====
     if season == 'summer':
-        # 夏は室外-室内で計算（室外の方が暑い想定）
         summer_diff = -temp_diff  # 室外-室内
 
-        if summer_diff >= Config.SUMMER_TEMP_DIFF_HIGH:
-            # 室外が室内より7℃以上高い → 冷房病リスク、冷房弱める
+        # 冷房OFF条件: 室内≦25℃ または 温度差≧7℃
+        if indoor_temp <= Config.SUMMER_INDOOR_LOW or summer_diff >= Config.SUMMER_TEMP_DIFF_HIGH:
+            reason = []
+            if indoor_temp <= Config.SUMMER_INDOOR_LOW:
+                reason.append(f'室内{indoor_temp}℃≦{Config.SUMMER_INDOOR_LOW}℃')
+            if summer_diff >= Config.SUMMER_TEMP_DIFF_HIGH:
+                reason.append(f'温度差{summer_diff:.1f}℃≧{Config.SUMMER_TEMP_DIFF_HIGH}℃')
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': 'off',
-                'action': f'夏季・温度差{summer_diff:.1f}℃（≧{Config.SUMMER_TEMP_DIFF_HIGH}℃）→ 冷房OFF（冷房病予防）',
-                'priority': 'temp_diff_high',
+                'action': f'夏季・{" / ".join(reason)} → 冷房OFF',
+                'priority': 'temp_low',
                 'controlled': True,
-                'reasoning': f'室内外温度差{summer_diff:.1f}℃が{Config.SUMMER_TEMP_DIFF_HIGH}℃以上。冷房病リスクのため冷房停止',
+                'reasoning': f'{" または ".join(reason)}のため冷房停止',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '冷房OFF（温度差大）',
+                'temp_diff_action': '冷房OFF',
                 'night_mode': is_night
             }
-        elif summer_diff >= Config.SUMMER_TEMP_DIFF_LOW:
-            # 室外が室内より5~7℃高い → 適正範囲、冷房維持
-            return {
-                'mode': 'none',
-                'set_temp': None,
-                'humidifier': 'off',
-                'action': f'夏季・温度差{summer_diff:.1f}℃（適正範囲）→ 現状維持',
-                'priority': 'temp_diff_ok',
-                'controlled': False,
-                'reasoning': f'室内外温度差{summer_diff:.1f}℃が適正範囲（{Config.SUMMER_TEMP_DIFF_LOW}~{Config.SUMMER_TEMP_DIFF_HIGH}℃）',
-                'season': season,
-                'time_of_day': time_of_day,
-                'temp_diff': temp_diff,
-                'temp_diff_action': '現状維持（適正範囲）',
-                'night_mode': is_night
-            }
-        else:
-            # 温度差が小さい → 冷房ON
+        # 冷房ON条件: 室内≧28℃ かつ 温度差<7℃
+        elif indoor_temp >= Config.SUMMER_INDOOR_HIGH and summer_diff < Config.SUMMER_TEMP_DIFF_HIGH:
             return {
                 'mode': 'cool',
                 'set_temp': Config.SUMMER_COOLING_TARGET,
                 'humidifier': 'off',
-                'action': f'夏季・温度差{summer_diff:.1f}℃（＜{Config.SUMMER_TEMP_DIFF_LOW}℃）→ 冷房ON（{Config.SUMMER_COOLING_TARGET}℃）',
-                'priority': 'temp_diff_low',
+                'action': f'夏季・室内{indoor_temp}℃≧{Config.SUMMER_INDOOR_HIGH}℃ / 温度差{summer_diff:.1f}℃ → 冷房ON（{Config.SUMMER_COOLING_TARGET}℃）',
+                'priority': 'temp_high',
                 'controlled': True,
-                'reasoning': f'室内外温度差{summer_diff:.1f}℃が{Config.SUMMER_TEMP_DIFF_LOW}℃未満。快適維持のため冷房開始',
+                'reasoning': f'室内温度{indoor_temp}℃が{Config.SUMMER_INDOOR_HIGH}℃以上のため冷房開始',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '冷房ON（温度差小）',
+                'temp_diff_action': '冷房ON（室温高）',
+                'night_mode': is_night
+            }
+        else:
+            # 適正範囲（室内25~28℃、温度差<7℃）→ 現状維持
+            return {
+                'mode': 'none',
+                'set_temp': None,
+                'humidifier': 'off',
+                'action': f'夏季・室内{indoor_temp}℃ / 温度差{summer_diff:.1f}℃ → 現状維持',
+                'priority': 'temp_ok',
+                'controlled': False,
+                'reasoning': f'室内温度{indoor_temp}℃が適正範囲（{Config.SUMMER_INDOOR_LOW}~{Config.SUMMER_INDOOR_HIGH}℃）',
+                'season': season,
+                'time_of_day': time_of_day,
+                'temp_diff': temp_diff,
+                'temp_diff_action': '現状維持（適正範囲）',
                 'night_mode': is_night
             }
 
