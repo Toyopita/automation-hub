@@ -35,9 +35,9 @@ class Config:
     DISCORD_TOKEN = os.environ.get('DISCORD_TOKEN')
     DISCORD_CHANNEL_ID = int(os.environ.get('AIRCON_CONTROL_DISCORD_CHANNEL', '1437603269307535484'))
 
-    # Notion設定（テスト用DB）
+    # Notion設定（本番DB）
     NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
-    NOTION_DATABASE_ID = '2b200160-1818-8186-af92-e9578d56b8f5'  # テスト用DB
+    NOTION_DATABASE_ID = '2a800160-1818-8102-9426-e392d267abd6'  # 本番DB
 
     # SwitchBotデバイスID
     AIRCON_DEVICE_ID = os.environ.get('AIRCON_DEVICE_ID', '02-202404131311-10141115')
