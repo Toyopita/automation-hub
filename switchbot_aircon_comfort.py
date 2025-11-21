@@ -289,7 +289,7 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
 
     # ===== 冬季: 絶対温度 + 温度差の複合ロジック =====
     if season == 'winter':
-        # 暖房OFF条件: 室内≧26℃ または 温度差≧7℃
+        # 暖房OFF条件: 室内≧26℃ または 温度差≧7℃（コマンド送信しない）
         if indoor_temp >= Config.WINTER_INDOOR_HIGH or temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
             reason = []
             if indoor_temp >= Config.WINTER_INDOOR_HIGH:
@@ -300,10 +300,10 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': humidifier_status,
-                'action': f'冬季・{" / ".join(reason)} → 暖房OFF',
+                'action': f'冬季・{" / ".join(reason)} → 暖房不要',
                 'priority': 'temp_high',
-                'controlled': True,
-                'reasoning': f'{" または ".join(reason)}のため暖房停止',
+                'controlled': False,  # OFFコマンドは送信しない
+                'reasoning': f'{" または ".join(reason)}のため暖房不要',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
