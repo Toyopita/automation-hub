@@ -665,10 +665,28 @@ async def main():
         return
 
     print(f"[INFO] 室内: {indoor_data['temperature']}℃ / {indoor_data['humidity']}%")
+    co2_level = indoor_data.get('co2')
+    if co2_level:
+        print(f"[INFO] CO2濃度: {co2_level}ppm")
     if outdoor_data:
         print(f"[INFO] 屋外: {outdoor_data['temperature']}℃")
         temp_diff = indoor_data['temperature'] - outdoor_data['temperature']
         print(f"[INFO] 温度差（室内-室外）: {temp_diff:.1f}℃")
+
+    # 1.5. CO2濃度チェック（1000ppm超で換気通知）
+    if co2_level and co2_level >= Config.CO2_ALERT_THRESHOLD:
+        was_alerted = load_co2_alert_state()
+        if not was_alerted:
+            send_co2_alert_discord(co2_level)
+            save_co2_alert_state(True)
+            print(f"[INFO] CO2アラート発報: {co2_level}ppm")
+        else:
+            print(f"[INFO] CO2高濃度継続中（アラート済み）: {co2_level}ppm")
+    elif co2_level and co2_level < Config.CO2_ALERT_THRESHOLD:
+        was_alerted = load_co2_alert_state()
+        if was_alerted:
+            save_co2_alert_state(False)
+            print(f"[INFO] CO2濃度正常化: {co2_level}ppm")
 
     # 2. 温度差ベースの制御判定
     control_decision = determine_temp_diff_control(indoor_data, outdoor_data)
