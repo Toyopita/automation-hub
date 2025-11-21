@@ -359,11 +359,11 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'night_mode': is_night
             }
 
-    # ===== 夏季: 温度差 + 絶対温度ベース制御 =====
+    # ===== 夏季: 絶対温度 + 温度差の複合ロジック =====
     if season == 'summer':
         summer_diff = -temp_diff  # 室外-室内
 
-        # 冷房OFF条件: 室内≦25℃ または 温度差≧7℃
+        # 冷房OFF条件: 室内≦26℃ または 温度差≧7℃
         if indoor_temp <= Config.SUMMER_INDOOR_LOW or summer_diff >= Config.SUMMER_TEMP_DIFF_HIGH:
             reason = []
             if indoor_temp <= Config.SUMMER_INDOOR_LOW:
@@ -384,24 +384,40 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'temp_diff_action': '冷房OFF',
                 'night_mode': is_night
             }
-        # 冷房ON条件: 室内≧28℃ かつ 温度差<7℃
-        elif indoor_temp >= Config.SUMMER_INDOOR_HIGH and summer_diff < Config.SUMMER_TEMP_DIFF_HIGH:
+        # 冷房ON条件1: 室内≧28℃（絶対的に暑い）
+        elif indoor_temp >= Config.SUMMER_INDOOR_HOT:
             return {
                 'mode': 'cool',
                 'set_temp': Config.SUMMER_COOLING_TARGET,
                 'humidifier': 'off',
-                'action': f'夏季・室内{indoor_temp}℃≧{Config.SUMMER_INDOOR_HIGH}℃ / 温度差{summer_diff:.1f}℃ → 冷房ON（{Config.SUMMER_COOLING_TARGET}℃）',
-                'priority': 'temp_high',
+                'action': f'夏季・室内{indoor_temp}℃≧{Config.SUMMER_INDOOR_HOT}℃ → 冷房ON（{Config.SUMMER_COOLING_TARGET}℃）',
+                'priority': 'temp_hot',
                 'controlled': True,
-                'reasoning': f'室内温度{indoor_temp}℃が{Config.SUMMER_INDOOR_HIGH}℃以上のため冷房開始',
+                'reasoning': f'室内温度{indoor_temp}℃が{Config.SUMMER_INDOOR_HOT}℃以上（絶対的に暑い）',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '冷房ON（室温高）',
+                'temp_diff_action': '冷房ON（絶対暑）',
+                'night_mode': is_night
+            }
+        # 冷房ON条件2: 室内26~28℃ かつ 温度差<5℃（体感暑い）
+        elif indoor_temp >= Config.SUMMER_INDOOR_WARM and summer_diff < Config.SUMMER_TEMP_DIFF_LOW:
+            return {
+                'mode': 'cool',
+                'set_temp': Config.SUMMER_COOLING_TARGET,
+                'humidifier': 'off',
+                'action': f'夏季・室内{indoor_temp}℃ / 温度差{summer_diff:.1f}℃<{Config.SUMMER_TEMP_DIFF_LOW}℃ → 冷房ON（{Config.SUMMER_COOLING_TARGET}℃）',
+                'priority': 'temp_diff_low',
+                'controlled': True,
+                'reasoning': f'室内{indoor_temp}℃かつ温度差{summer_diff:.1f}℃が小さい（体感暑い）',
+                'season': season,
+                'time_of_day': time_of_day,
+                'temp_diff': temp_diff,
+                'temp_diff_action': '冷房ON（体感暑）',
                 'night_mode': is_night
             }
         else:
-            # 適正範囲（室内25~28℃、温度差<7℃）→ 現状維持
+            # 適正範囲 → 現状維持
             return {
                 'mode': 'none',
                 'set_temp': None,
@@ -409,7 +425,7 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
                 'action': f'夏季・室内{indoor_temp}℃ / 温度差{summer_diff:.1f}℃ → 現状維持',
                 'priority': 'temp_ok',
                 'controlled': False,
-                'reasoning': f'室内温度{indoor_temp}℃が適正範囲（{Config.SUMMER_INDOOR_LOW}~{Config.SUMMER_INDOOR_HIGH}℃）',
+                'reasoning': f'室内温度・温度差ともに適正範囲',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
