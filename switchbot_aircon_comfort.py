@@ -54,10 +54,12 @@ class Config:
     WINTER_INDOOR_LOW = 24.0      # 室内 < 24℃ → 暖房ON条件の一つ
     WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房OFF
 
-    # 夏季: 冷房病予防（推奨温度差5~7℃以内）
-    SUMMER_TEMP_DIFF_HIGH = 7.0   # 室外-室内 ≧ 7℃ → 冷房弱める
+    # 夏季: 冷房病予防（推奨温度差5~7℃以内）+ 絶対温度
+    SUMMER_TEMP_DIFF_HIGH = 7.0   # 室外-室内 ≧ 7℃ → 冷房OFF
     SUMMER_TEMP_DIFF_LOW = 5.0    # 室外-室内 ≦ 5℃ → 冷房維持
     SUMMER_COOLING_TARGET = 27    # 冷房設定温度
+    SUMMER_INDOOR_HIGH = 28.0     # 室内 ≧ 28℃ → 冷房ON
+    SUMMER_INDOOR_LOW = 25.0      # 室内 ≦ 25℃ → 冷房OFF
 
     # 緊急制御（絶対温度による安全制御）
     EMERGENCY_HOT = 32   # 室内32℃以上で緊急冷房
