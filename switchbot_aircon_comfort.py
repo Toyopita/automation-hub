@@ -62,7 +62,7 @@ class Config:
 
     # Notion設定（本番DB）
     NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
-    NOTION_DATABASE_ID = '2b300160-1818-81c8-8197-cc03705eb6ac'  # 本番DB v3
+    NOTION_DATA_SOURCE_ID = '2a800160-1818-814b-b27a-000b80e0ceb0'  # v2 Data Source 1
 
     # SwitchBotデバイスID
     AIRCON_DEVICE_ID = os.environ.get('AIRCON_DEVICE_ID', '02-202404131311-10141115')
@@ -580,7 +580,7 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
         properties['API制御結果'] = {'select': {'name': '成功' if aircon_result else '失敗'}}
 
     data = {
-        'parent': {'database_id': Config.NOTION_DATABASE_ID},
+        'parent': {'type': 'data_source_id', 'data_source_id': Config.NOTION_DATA_SOURCE_ID},
         'properties': properties
     }
 
