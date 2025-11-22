@@ -514,15 +514,8 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
 
         properties['不快指数評価'] = {'select': {'name': di_eval['text']}}
 
-    # データベースIDをハイフン付きUUID形式に変換
-    db_id = Config.NOTION_DATABASE_ID
-    if '-' not in db_id:
-        # ハイフンなしの形式 (例: 2a800160181881fbb09bddf450e44e74) をハイフン付きに変換
-        # 形式: 8-4-4-4-12
-        db_id = f"{db_id[:8]}-{db_id[8:12]}-{db_id[12:16]}-{db_id[16:20]}-{db_id[20:]}"
-
     data = {
-        'parent': {'database_id': db_id},
+        'parent': {'database_id': Config.NOTION_DATABASE_ID},
         'properties': properties
     }
 
