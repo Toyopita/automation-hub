@@ -594,6 +594,34 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
         return False
 
 
+# ===== Discord エラー通知 =====
+def send_discord_error_notification(error_message: str, error_details: str = ""):
+    """Notion記録エラー時にDiscord通知を送信"""
+    try:
+        url = f"https://discord.com/api/v10/channels/{Config.DISCORD_CHANNEL_ID}/messages"
+        headers = {
+            'Authorization': f'Bot {Config.DISCORD_TOKEN}',
+            'Content-Type': 'application/json'
+        }
+
+        content = f"🚨 **エアコン制御システム - Notion記録エラー**\n\n"
+        content += f"**エラー内容**: {error_message}\n"
+        if error_details:
+            content += f"**詳細**: {error_details[:500]}\n"
+        content += f"**発生時刻**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+        content += "⚠️ Notion記録が失敗しています。確認してください。"
+
+        data = {'content': content}
+        response = requests.post(url, headers=headers, json=data)
+
+        if response.ok:
+            print("[INFO] Discord エラー通知送信完了")
+        else:
+            print(f"[WARN] Discord エラー通知送信失敗: {response.status_code}")
+    except Exception as e:
+        print(f"[WARN] Discord エラー通知送信エラー: {e}")
+
+
 # ===== macOS通知 =====
 def send_macos_notification(title: str, message: str):
     """macOS通知"""
