@@ -526,6 +526,8 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
         return True
     except Exception as e:
         print(f"[ERROR] Notion記録エラー: {e}")
+        if hasattr(e, 'response') and e.response:
+            print(f"[ERROR] Response body: {e.response.text[:500]}")
         return False
 
 
