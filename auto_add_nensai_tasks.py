@@ -163,6 +163,7 @@ def check_existing_tasks(deadline):
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 200:
             results = response.json().get('results', [])
+            print(f"   デバッグ: {len(results)}件のタスクが見つかりました")
             return len(results) > 0
         else:
             print(f"警告: タスク検索失敗: {response.text}")
