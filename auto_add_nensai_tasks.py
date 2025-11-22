@@ -257,14 +257,12 @@ def main():
         return
 
     print(f"  ✓ 明日に{len(events)}件の年祭イベントがあります")
-
-    # 各イベントに対してタスク追加
-    print("\n[2] タスクを追加中...")
-    total_added = 0
-
     for event in events:
-        added = add_tasks_for_tomorrow_event(event['start'], event['summary'])
-        total_added += added
+        print(f"     - {event['summary']} ({event['start'].strftime('%H:%M')})")
+
+    # 同じ日の年祭は1回だけタスク追加
+    print("\n[2] タスクを追加中...")
+    total_added = add_tasks_for_tomorrow()
 
     # 結果通知
     print("\n" + "=" * 60)
