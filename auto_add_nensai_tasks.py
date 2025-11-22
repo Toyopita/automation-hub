@@ -201,24 +201,25 @@ def add_task_to_notion(task_name, deadline):
         return False
 
 
-def add_tasks_for_tomorrow_event(event_date, event_name):
+def add_tasks_for_tomorrow():
     """明日の年祭用のタスクを今日を期限として追加"""
-    # 1日の年祭はスキップ
-    if event_date.day == 1:
-        print(f"× {event_name} ({event_date.strftime('%Y-%m-%d')}) は1日のためスキップ")
-        return 0
-
     # 今日を期限とする（日本時間）
     jst = ZoneInfo('Asia/Tokyo')
     today = datetime.now(jst)
+    tomorrow = today + timedelta(days=1)
     deadline = today.strftime('%Y-%m-%d')
+
+    # 1日の年祭はスキップ
+    if tomorrow.day == 1:
+        print(f"× 明日 ({tomorrow.strftime('%Y-%m-%d')}) は1日のためスキップ")
+        return 0
 
     # 既にタスクが存在するかチェック
     if check_existing_tasks(deadline):
-        print(f"✓ {event_name} ({event_date.strftime('%Y-%m-%d')}) のタスクは既に追加済み")
+        print(f"✓ 年祭タスクは既に追加済みです（期限: {deadline}）")
         return 0
 
-    print(f"→ 明日の {event_name} ({event_date.strftime('%Y-%m-%d')}) のタスクを追加中...")
+    print(f"→ 明日の年祭用タスクを追加中...")
     print(f"   期限: {deadline}")
 
     added_count = 0
