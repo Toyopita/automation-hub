@@ -521,13 +521,15 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
 
     try:
         response = requests.post(url, headers=headers, json=data)
+        if not response.ok:
+            print(f"[ERROR] Notion API failed with status {response.status_code}")
+            print(f"[ERROR] Response: {response.text[:500]}")
+            return False
         response.raise_for_status()
         print("[INFO] Notion記録完了")
         return True
     except Exception as e:
         print(f"[ERROR] Notion記録エラー: {e}")
-        if hasattr(e, 'response') and e.response:
-            print(f"[ERROR] Response body: {e.response.text[:500]}")
         return False
 
 
