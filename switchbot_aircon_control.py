@@ -32,7 +32,7 @@ class Config:
 
     # Notion設定
     NOTION_TOKEN = os.environ.get('NOTION_TOKEN')
-    NOTION_DATABASE_ID = os.environ.get('AIRCON_CONTROL_NOTION_DB', '2a800160-1818-8138-8a0f-f07369a651e7')
+    NOTION_DATABASE_ID = os.environ.get('AIRCON_CONTROL_NOTION_DB', '2a800160-1818-8102-9426-e392d267abd6')
 
     # SwitchBotデバイスID
     AIRCON_DEVICE_ID = os.environ.get('AIRCON_DEVICE_ID', '02-202404131311-10141115')
