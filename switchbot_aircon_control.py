@@ -443,7 +443,7 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
     headers = {
         'Authorization': f'Bearer {Config.NOTION_TOKEN}',
         'Content-Type': 'application/json',
-        'Notion-Version': '2022-06-28'
+        'Notion-Version': '2025-09-03'
     }
 
     control = log_data['control']
