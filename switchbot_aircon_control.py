@@ -515,7 +515,7 @@ def log_to_notion(log_data: Dict, aircon_result: Optional[bool] = None) -> bool:
         properties['不快指数評価'] = {'select': {'name': di_eval['text']}}
 
     data = {
-        'parent': {'database_id': Config.NOTION_DATABASE_ID},
+        'parent': {'type': 'data_source_id', 'data_source_id': Config.NOTION_DATA_SOURCE_ID},
         'properties': properties
     }
 
