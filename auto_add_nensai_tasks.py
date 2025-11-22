@@ -30,7 +30,7 @@ if env_path.exists():
 
 # 環境変数から取得
 NOTION_TOKEN = os.environ.get('NOTION_TOKEN_TASK')
-NENSAI_PROJECT_ID = "d095a904-59d0-494a-b91e-af83c310dffa"
+NENSAI_PROJECT_ID = "2b300160-1818-80f8-98c6-d5dad8c68a1f"
 TASK_DB_ID = "1c800160-1818-807c-b083-f475eb3a07b9"
 USER_ID = "4463c065-1795-49cf-a939-1b018b08e25b"  # Minami
 NENSAI_CALENDAR_ID = "40ea48b73cb27b73af8113fc8d9943a609f1a75e47eb65dd5a126fea516004ea@group.calendar.google.com"
