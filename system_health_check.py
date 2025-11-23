@@ -307,7 +307,9 @@ class HealthReporter:
         report_type: str,
         job_categories: Dict[str, List[str]],
         error_summary: Dict[str, int],
-        total_errors: int
+        total_errors: int,
+        error_details: List[ErrorLogEntry] = None,
+        job_statuses: Dict[str, JobStatus] = None
     ) -> bool:
         """Notionにレポートを保存"""
         try:
@@ -331,6 +333,33 @@ class HealthReporter:
                 report_name = f"週次レポート {now.strftime('%Y年%m月 第%W週')}"
             else:
                 report_name = f"日次レポート {now.strftime('%Y-%m-%d')}"
+
+            # 失敗ジョブの詳細テキスト生成
+            failed_jobs_detail = ""
+            if job_categories['failed']:
+                failed_jobs_detail = "失敗したジョブ:\n"
+                for job in job_categories['failed']:
+                    exit_status = ""
+                    if job_statuses and job in job_statuses:
+                        exit_code = job_statuses[job].last_exit_status
+                        exit_status = f" (Exit code: {exit_code})"
+                    failed_jobs_detail += f"- {job}{exit_status}\n"
+
+            # エラー詳細テキスト生成
+            error_detail_text = ""
+            if error_summary:
+                error_detail_text = "エラー発生スクリプト:\n"
+                sorted_errors = sorted(error_summary.items(), key=lambda x: x[1], reverse=True)
+                for script, count in sorted_errors:
+                    error_detail_text += f"- {script}: {count}件\n"
+
+                # 最新のエラーメッセージ
+                if error_details and len(error_details) > 0:
+                    error_detail_text += "\n最新エラーメッセージ (直近5件):\n"
+                    for i, error in enumerate(error_details[:5], 1):
+                        time_str = error.timestamp.strftime('%Y-%m-%d %H:%M:%S')
+                        error_detail_text += f"{i}. [{time_str}] {error.script}\n"
+                        error_detail_text += f"   {error.message}\n\n"
 
             # Notion APIリクエスト
             url = "https://api.notion.com/v1/pages"
@@ -376,6 +405,14 @@ class HealthReporter:
                 '総合評価': {
                     'type': 'select',
                     'select': {'name': overall_status}
+                },
+                '失敗ジョブ詳細': {
+                    'type': 'rich_text',
+                    'rich_text': [{'type': 'text', 'text': {'content': failed_jobs_detail[:2000]}}] if failed_jobs_detail else []
+                },
+                'エラー詳細': {
+                    'type': 'rich_text',
+                    'rich_text': [{'type': 'text', 'text': {'content': error_detail_text[:2000]}}] if error_detail_text else []
                 }
             }
 
