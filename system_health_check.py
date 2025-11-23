@@ -387,8 +387,13 @@ class HealthReporter:
 
 def main():
     """メイン処理"""
+    # コマンドライン引数でレポートタイプを決定
+    report_type = "daily"  # デフォルトは日次
+    if len(sys.argv) > 1 and sys.argv[1] == "--weekly":
+        report_type = "weekly"
+
     print("=" * 60)
-    print("システム健全性チェック開始")
+    print(f"システム健全性チェック開始 ({'週次' if report_type == 'weekly' else '日次'})")
     print("=" * 60)
 
     # launchdジョブチェック
@@ -421,6 +426,11 @@ def main():
 
     # Discord通知
     reporter.send_discord_notification(daily_report)
+
+    # 週次レポートの場合はNotionにも保存
+    if report_type == "weekly":
+        print("\n[週次] Notionにレポートを保存中...")
+        reporter.save_to_notion(report_type, job_categories, error_summary, len(errors))
 
     print("\nシステム健全性チェック完了")
 
