@@ -287,6 +287,102 @@ class HealthReporter:
             print(f"[ERROR] Discord notification error: {e}")
             return False
 
+    def save_to_notion(
+        self,
+        report_type: str,
+        job_categories: Dict[str, List[str]],
+        error_summary: Dict[str, int],
+        total_errors: int
+    ) -> bool:
+        """Notionにレポートを保存"""
+        try:
+            if not self.notion_token or not self.notion_db_id:
+                print("[WARN] Notion credentials not configured")
+                return False
+
+            now = datetime.now()
+            total_jobs = sum(len(jobs) for jobs in job_categories.values())
+
+            # 総合評価を決定
+            if job_categories['failed'] or total_errors > 10:
+                overall_status = "要注意"
+            elif total_errors > 0:
+                overall_status = "注意"
+            else:
+                overall_status = "良好"
+
+            # レポート名生成
+            if report_type == "weekly":
+                report_name = f"週次レポート {now.strftime('%Y年%m月 第%W週')}"
+            else:
+                report_name = f"日次レポート {now.strftime('%Y-%m-%d')}"
+
+            # Notion APIリクエスト
+            url = "https://api.notion.com/v1/pages"
+            headers = {
+                'Authorization': f'Bearer {self.notion_token}',
+                'Content-Type': 'application/json',
+                'Notion-Version': '2025-09-03'
+            }
+
+            properties = {
+                'レポート名': {
+                    'type': 'title',
+                    'title': [{'type': 'text', 'text': {'content': report_name}}]
+                },
+                'レポート日時': {
+                    'type': 'date',
+                    'date': {'start': now.strftime('%Y-%m-%d')}
+                },
+                'レポートタイプ': {
+                    'type': 'select',
+                    'select': {'name': '週次' if report_type == 'weekly' else '日次'}
+                },
+                '総ジョブ数': {
+                    'type': 'number',
+                    'number': total_jobs
+                },
+                '成功ジョブ数': {
+                    'type': 'number',
+                    'number': len(job_categories['success'])
+                },
+                '失敗ジョブ数': {
+                    'type': 'number',
+                    'number': len(job_categories['failed'])
+                },
+                '実行中ジョブ数': {
+                    'type': 'number',
+                    'number': len(job_categories['running'])
+                },
+                'エラーログ件数': {
+                    'type': 'number',
+                    'number': total_errors
+                },
+                '総合評価': {
+                    'type': 'select',
+                    'select': {'name': overall_status}
+                }
+            }
+
+            data = {
+                'parent': {'database_id': self.notion_db_id},
+                'properties': properties
+            }
+
+            response = requests.post(url, headers=headers, json=data, timeout=10)
+
+            if response.ok:
+                print(f"[INFO] Notion {report_type} report saved successfully")
+                return True
+            else:
+                print(f"[ERROR] Notion save failed: {response.status_code}")
+                print(f"[ERROR] Response: {response.text}")
+                return False
+
+        except Exception as e:
+            print(f"[ERROR] Notion save error: {e}")
+            return False
+
 
 def main():
     """メイン処理"""
