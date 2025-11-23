@@ -469,7 +469,13 @@ def main():
     # レポート生成・送信
     print("\n[3/3] レポートを生成・送信中...")
     reporter = HealthReporter()
-    daily_report = reporter.generate_daily_report(job_categories, error_summary, len(errors))
+    daily_report = reporter.generate_daily_report(
+        job_categories,
+        error_summary,
+        len(errors),
+        error_details=errors,
+        job_statuses=job_statuses
+    )
 
     print("\n" + "=" * 60)
     print(daily_report)
@@ -481,7 +487,14 @@ def main():
     # 週次レポートの場合はNotionにも保存
     if report_type == "weekly":
         print("\n[週次] Notionにレポートを保存中...")
-        reporter.save_to_notion(report_type, job_categories, error_summary, len(errors))
+        reporter.save_to_notion(
+            report_type,
+            job_categories,
+            error_summary,
+            len(errors),
+            error_details=errors,
+            job_statuses=job_statuses
+        )
 
     print("\nシステム健全性チェック完了")
 
