@@ -213,7 +213,9 @@ class HealthReporter:
         self,
         job_categories: Dict[str, List[str]],
         error_summary: Dict[str, int],
-        total_errors: int
+        total_errors: int,
+        error_details: List[ErrorLogEntry] = None,
+        job_statuses: Dict[str, JobStatus] = None
     ) -> str:
         """日次レポート生成(Discord用)"""
         now = datetime.now()
@@ -229,16 +231,20 @@ class HealthReporter:
         report += f"❌ 失敗: {len(job_categories['failed'])}\n"
         report += f"⚠️ 未ロード: {len(job_categories['not_loaded'])}\n\n"
 
-        # 失敗ジョブの詳細
+        # 失敗ジョブの詳細（exit statusも表示）
         if job_categories['failed']:
             report += f"**🚨 失敗したジョブ ({len(job_categories['failed'])})**\n"
             for job in job_categories['failed'][:10]:  # 最大10件
-                report += f"- `{job}`\n"
+                exit_status = ""
+                if job_statuses and job in job_statuses:
+                    exit_code = job_statuses[job].last_exit_status
+                    exit_status = f" (Exit: {exit_code})"
+                report += f"- `{job}`{exit_status}\n"
             if len(job_categories['failed']) > 10:
                 report += f"...他{len(job_categories['failed']) - 10}件\n"
             report += "\n"
 
-        # エラーログサマリー
+        # エラーログ詳細
         report += f"**📝 エラーログ** (合計: {total_errors})\n"
         if error_summary:
             sorted_errors = sorted(error_summary.items(), key=lambda x: x[1], reverse=True)
@@ -246,6 +252,14 @@ class HealthReporter:
                 report += f"- `{script}`: {count}件\n"
             if len(error_summary) > 5:
                 report += f"...他{len(error_summary) - 5}スクリプト\n"
+
+            # 最新のエラーメッセージを表示
+            if error_details and len(error_details) > 0:
+                report += f"\n**最新エラー (直近3件):**\n"
+                for error in error_details[:3]:
+                    time_str = error.timestamp.strftime('%H:%M:%S')
+                    msg = error.message[:100] + "..." if len(error.message) > 100 else error.message
+                    report += f"- `[{time_str}] {error.script}`: {msg}\n"
         else:
             report += "エラーなし ✨\n"
 
