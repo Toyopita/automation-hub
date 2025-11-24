@@ -22,7 +22,7 @@ NOTION_VERSION = '2022-06-28'
 
 # データベースID
 TASK_DB_ID = '1c800160-1818-807c-b083-f475eb3a07b9'  # 祖霊社タスクDB
-PROJECT_ID = '1c900160-1818-80da-9ba3-d5fda958514f'  # 祈りの会プロジェクト
+PROJECT_ID = '1dd00160-1818-80fd-acc5-d5e7b5cbdc80'  # 祈りの会プロジェクト
 
 # 日本時間
 JST = ZoneInfo('Asia/Tokyo')
@@ -97,10 +97,13 @@ def main():
 
     # 日本時間で今日の日付を取得
     now = datetime.now(JST)
-    today_str = now.strftime('%Y-%m-%d')
+    # 25日を期限とする（24日に実行して翌日25日の期限を設定）
+    from datetime import timedelta
+    tomorrow = now + timedelta(days=1)
+    deadline_str = tomorrow.strftime('%Y-%m-%d')
 
-    print(f'📅 祈りの会タスク自動生成を開始します（{today_str}）')
-    print(f'   期限: {today_str}')
+    print(f'📅 祈りの会タスク自動生成を開始します（{now.strftime("%Y-%m-%d")}）')
+    print(f'   期限: {deadline_str}')
     print(f'   タスク数: {len(INORINOKAI_TASKS)}件\n')
 
     # タスクを順次作成
@@ -108,7 +111,7 @@ def main():
     for i, task_name in enumerate(INORINOKAI_TASKS, 1):
         print(f'[{i}/{len(INORINOKAI_TASKS)}] {task_name}...', end=' ')
 
-        if create_task(task_name, today_str):
+        if create_task(task_name, deadline_str):
             print('✅')
             success_count += 1
         else:
