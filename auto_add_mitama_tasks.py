@@ -271,17 +271,13 @@ def add_tasks_for_event(event_date, event_name):
     """御霊鎮めイベント用のタスクを追加"""
     print(f"\n→ {event_name} ({event_date.strftime('%Y-%m-%d')}) の処理中...")
 
-    # プロジェクト検索または作成
-    project_id = find_project_by_date(event_date)
+    # 日付のない固定の御霊鎮めプロジェクトを検索
+    project_id = find_mitama_project()
     if project_id:
-        print(f"  ✓ プロジェクトは既に存在します")
+        print(f"  ✓ 御霊鎮めプロジェクトを使用します")
     else:
-        print(f"  → プロジェクトを作成中...")
-        project_id = create_project(event_date)
-        if not project_id:
-            print(f"  ✗ プロジェクト作成失敗")
-            return 0
-        print(f"  ✓ プロジェクト作成完了")
+        print(f"  ✗ 御霊鎮めプロジェクトが見つかりません")
+        return 0
 
     # タスク追加（期限別に処理）
     total_added = 0
