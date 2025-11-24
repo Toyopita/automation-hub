@@ -171,31 +171,33 @@ def find_project_by_date(event_date):
             "Content-Type": "application/json"
         }
 
-        # 期間フィールドで日付を検索
+        # まず御霊鎮めプロジェクトを全件取得
         data = {
             "filter": {
-                "and": [
-                    {
-                        "property": "プロジェクト名",
-                        "title": {"equals": "御霊鎮め"}
-                    },
-                    {
-                        "property": "期間",
-                        "date": {"equals": event_date.strftime('%Y-%m-%d')}
-                    }
-                ]
+                "property": "プロジェクト名",
+                "title": {"contains": "御霊鎮め"}
             }
         }
 
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 200:
             results = response.json().get('results', [])
-            if results:
-                return results[0]['id']
+            target_date = event_date.strftime('%Y-%m-%d')
+
+            # 各プロジェクトの期間をチェック
+            for project in results:
+                period = project['properties'].get('期間', {}).get('date')
+                if period:
+                    start_date = period.get('start', '')
+                    # 日付が一致するか確認（時刻部分は無視）
+                    if start_date.startswith(target_date):
+                        return project['id']
         return None
 
     except Exception as e:
         print(f"警告: プロジェクト検索エラー: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 
