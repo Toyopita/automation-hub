@@ -161,8 +161,8 @@ def get_upcoming_mitama_events():
         return []
 
 
-def find_project_by_date(event_date):
-    """指定日付の御霊鎮めプロジェクトを検索"""
+def find_mitama_project():
+    """日付のない固定の御霊鎮めプロジェクトを検索"""
     try:
         url = f"https://api.notion.com/v1/databases/{PROJECT_DB_ID}/query"
         headers = {
@@ -171,63 +171,34 @@ def find_project_by_date(event_date):
             "Content-Type": "application/json"
         }
 
-        # まず御霊鎮めプロジェクトを全件取得
+        # 御霊鎮めプロジェクトを全件取得
         data = {
             "filter": {
                 "property": "プロジェクト名",
-                "title": {"contains": "御霊鎮め"}
+                "title": {"equals": "御霊鎮め"}
             }
         }
 
         response = requests.post(url, headers=headers, json=data)
         if response.status_code == 200:
             results = response.json().get('results', [])
-            target_date = event_date.strftime('%Y-%m-%d')
 
-            # 各プロジェクトの期間をチェック
+            # 期間が設定されていないプロジェクトを優先
             for project in results:
                 period = project['properties'].get('期間', {}).get('date')
-                if period:
-                    start_date = period.get('start', '')
-                    # 日付が一致するか確認（時刻部分は無視）
-                    if start_date.startswith(target_date):
-                        return project['id']
+                if not period:
+                    return project['id']
+
+            # 期間がないプロジェクトがない場合は最初のプロジェクトを返す
+            if results:
+                return results[0]['id']
+
         return None
 
     except Exception as e:
         print(f"警告: プロジェクト検索エラー: {e}")
         import traceback
         traceback.print_exc()
-        return None
-
-
-def create_project(event_date):
-    """御霊鎮めプロジェクトを作成"""
-    try:
-        url = "https://api.notion.com/v1/pages"
-        headers = {
-            "Authorization": f"Bearer {NOTION_TOKEN}",
-            "Notion-Version": "2022-06-28",
-            "Content-Type": "application/json"
-        }
-        data = {
-            "parent": {"database_id": PROJECT_DB_ID},
-            "properties": {
-                "プロジェクト名": {"title": [{"text": {"content": "御霊鎮め"}}]},
-                "期間": {"date": {"start": event_date.strftime('%Y-%m-%d')}},
-                "担当者": {"people": [{"id": USER_ID}]}
-            }
-        }
-
-        response = requests.post(url, headers=headers, json=data)
-        if response.status_code == 200:
-            return response.json()['id']
-        else:
-            print(f"エラー: プロジェクト作成失敗: {response.text}")
-            return None
-
-    except Exception as e:
-        print(f"エラー: プロジェクト作成中にエラー: {e}")
         return None
 
 
