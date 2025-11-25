@@ -4,6 +4,12 @@
 """
 import requests
 import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# .envファイルを読み込む
+env_path = Path(__file__).parent / '.env'
+load_dotenv(env_path)
 
 SWITCHBOT_TOKEN = os.getenv('SWITCHBOT_TOKEN')
 DEVICE_ID = "02-202506171446-61222081"
