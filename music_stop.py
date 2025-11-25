@@ -12,22 +12,17 @@ env_path = Path(__file__).parent / '.env'
 load_dotenv(env_path)
 
 SWITCHBOT_TOKEN = os.getenv('SWITCHBOT_TOKEN')
-DEVICE_ID = "02-202506171446-61222081"
+SCENE_ID = "a7f7434f-19d3-448b-ba96-734d29bb90a2"  # 停止シーン
 
 def stop_music():
     """音楽を停止"""
-    url = f"https://api.switch-bot.com/v1.1/devices/{DEVICE_ID}/commands"
+    url = f"https://api.switch-bot.com/v1.1/scenes/{SCENE_ID}/execute"
     headers = {
         "Authorization": SWITCHBOT_TOKEN,
         "Content-Type": "application/json"
     }
-    data = {
-        "command": "Stop",
-        "parameter": "default",
-        "commandType": "command"
-    }
 
-    response = requests.post(url, json=data, headers=headers)
+    response = requests.post(url, headers=headers)
     if response.status_code == 200:
         print("✓ 音楽を停止しました")
     else:
