@@ -54,20 +54,14 @@ async def upload_to_thread():
                         filename="coin_chute_v41_test.stl"),
         ]
 
-        message_content = """**v4.1 シェル構造版（1/10スケール）**
+        message_content = """**v4.1（1/10スケール）**
 
 📏 サイズ: 24×35×12mm
-🕳️ 排出口: x=30mm
+🕳️ 排出口: x=30mm (WALL_THICKNESS上)
 🪝 フック: 4箇所
-📐 壁厚: 0.4mm (実寸4mm)
 
-**ULTRATHINK修正:**
-- 固体→シェル構造に変更
-- 外側傾斜面 + 内側傾斜面 + 縁
-- 不要な底面データ完全削除
-- Watertight: True
-
-確認お願いします"""
+「下に小さな層」の問題を特定中。
+スライサーのスクショで問題箇所を教えてください。"""
 
         try:
             # ファイルをアップロード
