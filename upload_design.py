@@ -50,18 +50,25 @@ async def upload_to_thread():
         # ファイルパス
         base_dir = "/Users/minamitakeshi/3d_models/coin_chute"
         files = [
-            discord.File(f"{base_dir}/design_diagram_v3.png", filename="設計図_v3.0_ULTRATHINK.png"),
-            discord.File(f"{base_dir}/coin_chute_back.stl", filename="coin_chute_back.stl"),
-            discord.File(f"{base_dir}/coin_chute_front.stl", filename="coin_chute_front.stl"),
+            discord.File(f"{base_dir}/design_diagram_v3.png", filename="設計図_v3.1_コイン流出改善版.png"),
+            discord.File(f"{base_dir}/coin_chute_back.stl", filename="coin_chute_back_v3.1.stl"),
+            discord.File(f"{base_dir}/coin_chute_front.stl", filename="coin_chute_front_v3.1.stl"),
         ]
 
-        message_content = """📎 **設計ファイル一式**
+        message_content = """📎 **v3.1 アップデート - コイン流出改善版** 🚀
 
-1. **設計図_v3.0_ULTRATHINK.png** - 全体設計図（側面図・上面図・ジョイント詳細・仕様表）
-2. **coin_chute_back.stl** - Backパーツ（220mm、入口側、約300g）
-3. **coin_chute_front.stl** - Frontパーツ（105mm、出口側、約150g）
+**主要改善点:**
+✅ 傾斜角度: **20° → 30°** (+10°、より強い流れ)
+✅ 前壁高さ: **30mm → 15mm** (上部開放 90mm → 105mm)
+✅ 高低差: **114.7mm → 181.9mm** (+67.2mm、大幅改善)
 
-**印刷可能な状態です！** 🎉"""
+**ファイル一式:**
+1. **設計図_v3.1_コイン流出改善版.png** - 全体設計図（30°傾斜対応）
+2. **coin_chute_back_v3.1.stl** - Backパーツ（220mm、30°傾斜、約300g）
+3. **coin_chute_front_v3.1.stl** - Frontパーツ（105mm、15mm前壁、約150g）
+
+**印刷可能な状態です！** 🎉
+コインがより前方までスムーズに流れる設計になりました。"""
 
         try:
             # ファイルをアップロード
