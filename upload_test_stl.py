@@ -54,15 +54,17 @@ async def upload_to_thread():
                         filename="coin_chute_v41_test.stl"),
         ]
 
-        message_content = """**v4.1 最適化版（1/10スケール）**
+        message_content = """**v4.1 シェル構造版（1/10スケール）**
 
 📏 サイズ: 24×35×12mm
-🕳️ 排出口: x=30mm（前端から5mm内側）
+🕳️ 排出口: x=30mm
 🪝 フック: 4箇所
+📐 壁厚: 0.4mm (実寸4mm)
 
-**変更点:**
-- 傾斜がz=0から開始（排出口が最低点）
-- 底面の無駄なデータを削除
+**ULTRATHINK修正:**
+- 固体→シェル構造に変更
+- 外側傾斜面 + 内側傾斜面 + 縁
+- 不要な底面データ完全削除
 - Watertight: True
 
 確認お願いします"""
