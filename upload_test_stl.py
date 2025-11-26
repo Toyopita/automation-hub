@@ -50,22 +50,25 @@ async def upload_to_thread():
         # ファイルパス
         base_dir = "/Users/minamitakeshi/3d_models/coin_chute"
         files = [
-            discord.File(f"{base_dir}/coin_chute_v41_test.stl",
-                        filename="coin_chute_v41_test.stl"),
+            discord.File(f"{base_dir}/coin_chute_v41_back.stl",
+                        filename="coin_chute_v41_back.stl"),
+            discord.File(f"{base_dir}/coin_chute_v41_front.stl",
+                        filename="coin_chute_v41_front.stl"),
         ]
 
-        message_content = """**v4.1 完全修正版（1/10スケール）**
+        message_content = """**v4.1 原寸大版（前後2分割）**
 
-📏 サイズ: 24×35×12mm
-🕳️ 排出口: x=30mm
+**後部パーツ (coin_chute_v41_back.stl)**
+📏 サイズ: 220×240mm
+✓ Watertight
+
+**前部パーツ (coin_chute_v41_front.stl)**
+📏 サイズ: 130×240mm
+🕳️ 排出口: Ø50mm (x=80mm)
 🪝 フック: 4箇所
+✓ Watertight
 
-**修正完了:**
-- Z range: 0.000〜22.088 ✓
-- フックがz=0以下に出ない
-- v4.0完璧版と同じ構造
-
-確認お願いします"""
+接合して使用してください。"""
 
         try:
             # ファイルをアップロード
