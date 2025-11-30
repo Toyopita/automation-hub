@@ -46,8 +46,8 @@ TASKS = [
 ]
 
 
-def check_existing_tasks(deadline):
-    """指定期限のタスクが既に存在するかチェック"""
+def check_existing_task_by_name(task_name):
+    """タスク名でひふみプロジェクトのタスクが既に存在するかチェック（未完了のみ）"""
     try:
         url = "https://api.notion.com/v1/databases/{}/query".format(TASK_DB_ID)
         headers = {
@@ -63,8 +63,12 @@ def check_existing_tasks(deadline):
                         "relation": {"contains": HIFUMI_PROJECT_ID}
                     },
                     {
-                        "property": "期限",
-                        "date": {"equals": deadline}
+                        "property": "タスク名",
+                        "title": {"equals": task_name}
+                    },
+                    {
+                        "property": "進捗",
+                        "status": {"does_not_equal": "完了"}
                     }
                 ]
             }
