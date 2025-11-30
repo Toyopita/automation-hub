@@ -128,9 +128,10 @@ def get_last_day_of_month():
 
 
 def add_monthly_tasks():
-    """今月末の期限としてタスクを追加（タスクごとに重複チェック）"""
-    # 日本時間で今月末の日付を期限とする
-    deadline = get_last_day_of_month()
+    """今日の日付を期限としてタスクを追加（タスクごとに重複チェック）"""
+    # 日本時間で今日の日付を期限とする
+    now = datetime.now(ZoneInfo('Asia/Tokyo'))
+    deadline = now.strftime('%Y-%m-%d')
 
     print(f"→ 今月末 ({deadline}) を期限としてひふみタスクを追加中...")
 
