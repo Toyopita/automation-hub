@@ -133,7 +133,7 @@ def add_monthly_tasks():
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
     deadline = now.strftime('%Y-%m-%d')
 
-    print(f"→ 今月末 ({deadline}) を期限としてひふみタスクを追加中...")
+    print(f"→ 本日 ({deadline}) を期限としてひふみタスクを追加中...")
 
     added_count = 0
     skipped_count = 0
