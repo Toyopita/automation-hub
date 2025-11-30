@@ -115,25 +115,42 @@ def add_task_to_notion(task_name, deadline):
         return False
 
 
-def add_monthly_tasks():
-    """今月末の期限としてタスクを追加"""
-    # 日本時間で今日の日付
+def get_last_day_of_month():
+    """今月の最終日を取得"""
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
-    deadline = now.strftime('%Y-%m-%d')
+    # 翌月の1日から1日引いて今月の最終日を取得
+    if now.month == 12:
+        next_month = datetime(now.year + 1, 1, 1, tzinfo=ZoneInfo('Asia/Tokyo'))
+    else:
+        next_month = datetime(now.year, now.month + 1, 1, tzinfo=ZoneInfo('Asia/Tokyo'))
+    last_day = next_month - timedelta(days=1)
+    return last_day.strftime('%Y-%m-%d')
 
-    # 既にタスクが存在するかチェック
-    if check_existing_tasks(deadline):
-        print(f"✓ 本日 ({deadline}) のひふみタスクは既に追加済み")
-        return 0
 
-    print(f"→ 本日 ({deadline}) を期限としてひふみタスクを追加中...")
+def add_monthly_tasks():
+    """今月末の期限としてタスクを追加（タスクごとに重複チェック）"""
+    from datetime import timedelta
+
+    # 日本時間で今月末の日付を期限とする
+    deadline = get_last_day_of_month()
+
+    print(f"→ 今月末 ({deadline}) を期限としてひふみタスクを追加中...")
 
     added_count = 0
+    skipped_count = 0
+
     for task_name in TASKS:
+        # タスク名で未完了タスクが既に存在するかチェック
+        if check_existing_task_by_name(task_name):
+            print(f"  - スキップ: {task_name}（未完了タスクが既に存在）")
+            skipped_count += 1
+            continue
+
         if add_task_to_notion(task_name, deadline):
+            print(f"  + 追加: {task_name}")
             added_count += 1
 
-    print(f"  ✓ {added_count}/{len(TASKS)} タスクを追加しました")
+    print(f"  ✓ 追加: {added_count}件, スキップ: {skipped_count}件")
     return added_count
 
 
