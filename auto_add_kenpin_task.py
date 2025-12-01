@@ -2,11 +2,12 @@
 """
 献品データ入力タスク自動追加スクリプト
 
-毎月月末（28-31日）に実行し、「献品データ入力」タスクを
+毎月月末（その月の最終日）に実行し、「献品データ入力」タスクを
 日常業務プロジェクトに自動追加します。
 """
 
 import os
+import calendar
 import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -27,6 +28,12 @@ def log(message: str):
     """ログ出力"""
     timestamp = datetime.now(ZoneInfo('Asia/Tokyo')).strftime('%Y-%m-%d %H:%M:%S')
     print(f"[{timestamp}] {message}")
+
+
+def is_last_day_of_month(dt: datetime) -> bool:
+    """今日がその月の最終日かどうかをチェック"""
+    last_day = calendar.monthrange(dt.year, dt.month)[1]
+    return dt.day == last_day
 
 
 def check_existing_task(task_name: str) -> bool:
