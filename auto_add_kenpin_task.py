@@ -121,7 +121,16 @@ def main():
     now = datetime.now(ZoneInfo('Asia/Tokyo'))
     deadline = now.strftime('%Y-%m-%d')
 
-    log(f"本日 ({deadline}) を期限として献品タスクを追加中...")
+    # 月末チェック
+    if not is_last_day_of_month(now):
+        last_day = calendar.monthrange(now.year, now.month)[1]
+        log(f"スキップ: 今日 ({now.day}日) は月末ではありません（{now.month}月は{last_day}日まで）")
+        print("=" * 60)
+        print("完了: 月末ではないため実行をスキップしました")
+        print("=" * 60)
+        return
+
+    log(f"本日 ({deadline}) は月末です。献品タスクを追加中...")
 
     # 重複チェック
     if check_existing_task(TASK_NAME):
