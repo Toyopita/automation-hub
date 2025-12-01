@@ -158,6 +158,16 @@ def main():
         print("エラー: NOTION_TOKEN_TASK が設定されていません")
         sys.exit(1)
 
+    # 月末チェック
+    now = datetime.now(ZoneInfo('Asia/Tokyo'))
+    if not is_last_day_of_month(now):
+        last_day = calendar.monthrange(now.year, now.month)[1]
+        print(f"\nスキップ: 今日 ({now.day}日) は月末ではありません（{now.month}月は{last_day}日まで）")
+        print("=" * 60)
+        print("完了: 月末ではないため実行をスキップしました")
+        print("=" * 60)
+        return
+
     # タスク追加
     print("\n[1] ひふみタスクを追加中...")
     total_added = add_monthly_tasks()
