@@ -116,16 +116,10 @@ def add_task_to_notion(task_name, deadline):
         return False
 
 
-def get_last_day_of_month():
-    """今月の最終日を取得"""
-    now = datetime.now(ZoneInfo('Asia/Tokyo'))
-    # 翌月の1日から1日引いて今月の最終日を取得
-    if now.month == 12:
-        next_month = datetime(now.year + 1, 1, 1, tzinfo=ZoneInfo('Asia/Tokyo'))
-    else:
-        next_month = datetime(now.year, now.month + 1, 1, tzinfo=ZoneInfo('Asia/Tokyo'))
-    last_day = next_month - timedelta(days=1)
-    return last_day.strftime('%Y-%m-%d')
+def is_last_day_of_month(dt: datetime) -> bool:
+    """今日がその月の最終日かどうかをチェック"""
+    last_day = calendar.monthrange(dt.year, dt.month)[1]
+    return dt.day == last_day
 
 
 def add_monthly_tasks():
