@@ -1,80 +1,5 @@
 [
   {
-    "date": "2025-11-03T07:11:40.142408",
-    "title": "Notion AIが自律型エージェントに進化、複数ステップのタスクを自動実行",
-    "url": "https://www.notion.so/ja-jp/product/ai"
-  },
-  {
-    "date": "2025-11-03T07:11:40.142408",
-    "title": "Notion AIに「メモリ」機能が追加、ユーザーの指示や文脈を記憶",
-    "url": "https://www.notion.so/ja-jp/releases/2024-09-24"
-  },
-  {
-    "date": "2025-11-03T07:11:40.142408",
-    "title": "Notion Calendarが進化、カレンダー上でDBのステータス更新が可能に",
-    "url": "https://www.notion.so/ja-jp/help/notion-calendar-and-notion"
-  },
-  {
-    "date": "2025-11-03T07:11:40.142408",
-    "title": "待望のオフラインモードが正式リリース、ネット接続なしで作業可能に",
-    "url": "https://www.notion.so/ja-jp/help/offline-mode"
-  },
-  {
-    "date": "2025-11-03T07:11:40.142408",
-    "title": "ファイルストレージサービス「Skiff」を買収、Notion Drive提供への布石か",
-    "url": "https://www.itmedia.co.jp/news/articles/2402/12/news059.html"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "データベースに行レベルの権限設定が登場、より詳細なアクセス管理が可能に",
-    "url": "https://www.notion.so/ja-jp/help/database-row-level-permissions"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "自然言語で数式を自動生成する「AI Formula Generator」が実装",
-    "url": "https://www.notion.so/ja-jp/help/ai-formulas"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "Notion APIが大幅更新、「Multi-Source Databases」の導入でデータ構造が変化",
-    "url": "https://developers.notion.com/changelog/introducing-multi-source-databases"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "ユーザベース、CEO主導の活用でNotion利用率9割超を達成",
-    "url": "https://prtimes.jp/main/html/rd/p/000000189.000031131.html"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "建築設計の梓設計、情報の透明性確保とワークフロー変革にNotionを活用",
-    "url": "https://prtimes.jp/main/html/rd/p/000000189.000031131.html"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "Notionを「ビジネス司令塔」として活用し、複数ツールを統合管理",
-    "url": "https://firstaimovers.com/blog/notion-for-business/"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "一貫性を保つための「標準データベーステンプレート」活用法",
-    "url": "https://www.notion.so/ja-jp/help/templates"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "Jiraとの「双方向同期データベース」機能が正式リリース",
-    "url": "https://www.notion.so/help/synced-databases"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "Zapier連携が強化され、8,000以上のアプリとのノーコード自動化を実現",
-    "url": "https://zapier.com/apps/notion/integrations"
-  },
-  {
-    "date": "2025-11-03T08:12:47.990870",
-    "title": "JavaScript/TypeScript SDKが更新され、ページのロック/アンロック操作に対応",
-    "url": "https://github.com/makenotion/notion-sdk-js/releases/tag/v5.1.0"
-  },
-  {
     "date": "2025-11-04T15:02:02.099638",
     "title": "Notion AIの新機能「Q&A」が一般提供開始、データベースに直接質問して回答を自動生成",
     "url": "https://www.notion.so/ja-jp/product/ai"
@@ -1083,5 +1008,10 @@
     "date": "2025-12-03T05:37:05.623876",
     "title": "Notionが従業員と投資家に120億ドル評価での株式売却を協議中 - Bloomberg 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nVXR3U3FtU1BxdWpqNHhiWHlVMTRnYVZxMjBWRG8tN2diVVoxQXR2X1ZxZU9lZmxtN3VKUkg0VEdlSEhyS3otV0h2QmFEb3ltS3ZCVTJ5Y2hIeUcxXzZVRmFYR0ZDNGVhREFLanQ3Q1Y?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2025-12-03T09:39:23.832643",
+    "title": "Notionアンバサダー 効率化の鬼と呼ばれたAI/DX専門家・崎原盛央（モーリー）氏も参加決定 —— カスタマークラウド「Global Video Hackathon」 - PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43dlZBU1hjdEIyYzN3amo2UVBBY0xOTzMxZk9FZFQ0bnFiSzdmUmRNX3l6VkxTeXdnSElSX051N1ZmcEFXcUF5UWVEYXRhX0NwcF9Odkc4S3Uta2NaMG9lSEs4MUhWNG5wR1E?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
