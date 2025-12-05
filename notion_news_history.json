@@ -1,105 +1,5 @@
 [
   {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "Notion AIの新機能「Q&A」が一般提供開始、データベースに直接質問して回答を自動生成",
-    "url": "https://www.notion.so/ja-jp/product/ai"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "Figmaとの連携が進化、デザインのプレビューと同期がよりスムーズに",
-    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "トヨタ自動車、グループ全体の情報共有基盤としてNotionを活用しサイロ化を解消",
-    "url": "https://www.itmedia.co.jp/news/articles/2405/28/news053.html"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "Notion APIがWebhookを強化、ワークスペース全体の変更をリアルタイムに検知",
-    "url": "https://developers.notion.com/docs/webhooks"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "自動化プラットフォーム「Make」との連携強化、ノーコードで複雑な業務を自動化",
-    "url": "https://www.make.com/en/integrations/notion"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "データベースに「タブ表示」が新登場、複数のビューをすっきりと整理",
-    "url": "https://www.notion.so/ja-jp/help/views"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "エンタープライズ向けセキュリティを強化、DLP・SIEM連携に対応",
-    "url": "https://www.notion.so/ja-jp/enterprise"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "Notion Calendarがアップデート、データベースのテキストプロパティを直接編集可能に",
-    "url": "https://www.notion.so/releases"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "株式会社LayerX、バクラク事業本部でNotionを導入し情報格差ゼロの組織文化を醸成",
-    "url": "https://www.notion.so/ja-jp/customers/layerx"
-  },
-  {
-    "date": "2025-11-04T15:02:02.099638",
-    "title": "Notion APIが「ページテンプレートの適用」に対応、定型ページの自動生成がより高度に",
-    "url": "https://developers.notion.com/reference/post-page"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "Notion AIが「AIエージェント」に進化、複数アプリを横断した業務自動化を実現",
-    "url": "https://www.businessinsider.jp/post-291310"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "Notionネイティブの「フォーム機能」が実装、アンケートやフィードバック収集が容易に",
-    "url": "https://www.notion.so/ja-jp/releases/2024-10-09"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "メルカリ、全社的な情報共有基盤としてNotionを導入、AIネイティブな働き方を推進",
-    "url": "https://www.watch.impress.co.jp/docs/news/1630151.html"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "待望の「オフラインモード」が利用可能に、インターネット接続なしで作業を継続",
-    "url": "https://www.notion.so/ja-jp/help/offline-mode"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "新ツール「Notionメール」が発表、AIによる受信トレイ整理とカレンダー連携を実現",
-    "url": "https://www.itmedia.co.jp/news/articles/2409/26/news150.html"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "グッドパッチ、社内のUXナレッジをAIで引き出す「ナレッジ引き出しAI」をNotionベースで構築",
-    "url": "https://goodpatch.com/blog/knowledge-ai"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "会議を自動で文字起こし・要約する「AIミーティングノート」機能が登場",
-    "url": "https://www.gizmodo.jp/2024/09/notion-3-is-coming.html"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "SOMPO Light Vortex、事業推進のハブとしてNotionを活用し、迅速な情報共有文化を醸成",
-    "url": "https://www.notion.so/ja-jp/customers/sompo-light-vortex"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "ページのレイアウト機能が向上、より柔軟なカラム設定やブロックの配置調整が可能に",
-    "url": "https://www.notion.so/ja-jp/releases/2024-09-25"
-  },
-  {
-    "date": "2025-11-05T07:01:49.829889",
-    "title": "NotionとGoogle Driveの連携が強化、ファイルプレビューや同期の安定性が向上",
-    "url": "https://www.notion.so/help/add-embeds-and-previews"
-  },
-  {
     "date": "2025-11-06T07:02:20.320380",
     "title": "Notion AI、自然言語で関数を自動作成する「AI Formula」を発表",
     "url": "https://www.notion.so/product/ai"
@@ -1013,5 +913,10 @@
     "date": "2025-12-03T09:39:23.832643",
     "title": "Notionアンバサダー 効率化の鬼と呼ばれたAI/DX専門家・崎原盛央（モーリー）氏も参加決定 —— カスタマークラウド「Global Video Hackathon」 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43dlZBU1hjdEIyYzN3amo2UVBBY0xOTzMxZk9FZFQ0bnFiSzdmUmRNX3l6VkxTeXdnSElSX051N1ZmcEFXcUF5UWVEYXRhX0NwcF9Odkc4S3Uta2NaMG9lSEs4MUhWNG5wR1E?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2025-12-05T18:16:11.852635",
+    "title": "Cloudflare、システム障害-ZoomやNotion,Canvaに影響(2025年12月5日) - 合同会社ロケットボーイズ",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVDdCOHYwOU1JalhtVTNTYWNlOVpYXzBKbkcxdUpaNkJlQjZnazU1aERSY2xmTVo5YVFad2RWdHM3ZC1kbEtQU3ByUk1TWWotR2g4bTZJZjFYN0dsUDhKNUpCSjc5SW9rcl9xOXZ6N0xUanJ2M1l4TUpyTFMxcFhvbXgwQ3JlQmlHREV0Wg?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
