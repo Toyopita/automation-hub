@@ -97,8 +97,8 @@ async function checkHoliday() {
         if (todaysHolidays && todaysHolidays.length > 0) {
             console.log(`[INFO] 今日は休日（${todaysHolidays.length}件）:`);
             todaysHolidays.forEach(event => {
-                const start = event.start.date;
-                const end = event.end.date;
+                const start = event.start.date || event.start.dateTime;
+                const end = event.end.date || event.end.dateTime;
                 console.log(`  - ${event.summary} (${start} - ${end})`);
             });
             process.exit(1); // 休日
