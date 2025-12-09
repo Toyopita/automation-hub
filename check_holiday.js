@@ -74,18 +74,24 @@ async function checkHoliday() {
             event.summary && event.summary.includes('休み')
         );
 
-        // 今日が休日に該当するかチェック
+        // 今日が休日に該当するかチェック（終日イベント＋時間指定イベント両対応）
         const todaysHolidays = holidayEvents.filter(event => {
-            // 終日イベントのみを対象（event.start.date が存在）
-            if (!event.start.date) return false;
+            // 1. 終日イベント（event.start.date が存在）
+            if (event.start.date) {
+                const startDate = event.start.date;
+                const endDate = event.end.date;
+                // start.date <= today < end.date（end.dateは排他的）
+                return startDate <= todayStr && todayStr < endDate;
+            }
 
-            const startDate = event.start.date;
-            const endDate = event.end.date;
+            // 2. 時間指定イベント（event.start.dateTime が存在）
+            if (event.start.dateTime) {
+                // dateTimeから日付部分を抽出（例: 2025-12-09T00:00:00+09:00 → 2025-12-09）
+                const eventDate = event.start.dateTime.split('T')[0];
+                return eventDate === todayStr;
+            }
 
-            // start.date <= today < end.date（end.dateは排他的）
-            const isTodayInRange = startDate <= todayStr && todayStr < endDate;
-
-            return isTodayInRange;
+            return false;
         });
 
         if (todaysHolidays && todaysHolidays.length > 0) {
