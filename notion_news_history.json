@@ -1,50 +1,5 @@
 [
   {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion、Slackとの連携を大幅に強化し、Slack内でのデータベース項目作成が可能に",
-    "url": "https://www.notion.so/ja-jp/releases/2024-05-23"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion API、待望のWebhookに対応し、リアルタイムな外部連携を実現",
-    "url": "https://developers.notion.com/docs/webhooks"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "株式会社LayerX、バクラク事業本部におけるプロダクトマネジメント基盤をNotionに統一",
-    "url": "https://www.notion.so/ja-jp/customers/layerx"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion、データベースの「リレーション」機能を強化、サブアイテムと依存関係の管理が容易に",
-    "url": "https://www.notion.so/ja-jp/help/relations-and-rollups"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion、教育機関向けプラン「Notion for Education」を拡充し、大規模導入に対応",
-    "url": "https://www.notion.so/ja-jp/education"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "GitHubとの連携機能が強化、Pull RequestのステータスがNotion上で双方向同期",
-    "url": "https://wwws.notion.so/product/integrations/github"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "株式会社SmartHR、全社のセキュリティポリシーとインシデント管理にNotionを活用",
-    "url": "https://wwwhttps.notion.so/ja-jp/customers/smarthr"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion AI、新機能「Q&A」の一般提供を開始、ワークスペース内の情報を横断検索",
-    "url": "https://www.notion.so/ja-jp/product/ai"
-  },
-  {
-    "date": "2025-11-10T06:01:27.207282",
-    "title": "Notion、ホーム画面のカスタマイズ機能をリリース、表示ウィジェットの選択が可能に",
-    "url": "https://www.notion.so/ja-jp/help/home"
-  },
-  {
     "date": "2025-11-11T06:01:20.899979",
     "title": "Notion、データベースオートメーション機能を発表、トリガーとアクションで定型作業を自動化",
     "url": "https://www.notion.so/ja-jp/help/database-automations"
@@ -733,5 +688,10 @@
     "date": "2025-12-10T05:54:56.231270",
     "title": "「Notionで全部できる」→ムリでした…。挫折から誕生した【私の最強フォーメーション】 - ライフハッカー・ジャパン",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zVWUtYU4yZkk1dHc2bWcxdWNiWW5SM3c3TEtXLXVIOHBwclNiU3Mxd2w2THZjTjhwYld5bzZWNW1MUjVmdXJaRXoxaUh0aWVLWEtDamhMcmVGczZxTDlRZjZ3eVlqNks1aEszM2Jkd3FHUkRHQy00?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2025-12-10T10:57:44.250598",
+    "title": "【明日開催】AIエージェント博 by AI博覧会 フロアマップを一挙公開！Notion、日清食品など登壇者全34名が集結 - newscast.jp",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KMjdadG5kU2JRWDR3UkRaSnM2dVNHYUx5R2Y5WWttWk4ybURPOEIxSGYyWU5aamgyN2t6RmNydkNVS2Rkdy1HMHJjMFJmQjg?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
