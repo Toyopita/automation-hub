@@ -157,8 +157,15 @@ async def fetch_messages(channel_id: str, limit: int = 50) -> dict:
 
     try:
         channel = bot.get_channel(int(channel_id))
-        if not channel or not isinstance(channel, discord.TextChannel):
-            return {"status": "error", "message": f"Channel with ID {channel_id} not found or is not a text channel."}
+        if not channel:
+            # スレッドの場合はfetchで取得
+            try:
+                channel = await bot.fetch_channel(int(channel_id))
+            except:
+                return {"status": "error", "message": f"Channel with ID {channel_id} not found."}
+
+        if not isinstance(channel, (discord.TextChannel, discord.Thread)):
+            return {"status": "error", "message": f"Channel with ID {channel_id} is not a text channel or thread."}
 
         # メッセージ履歴を取得（新しい順）
         messages = []
