@@ -42,11 +42,18 @@ async def send_message(channel_id: str, message: str) -> dict:
 
     try:
         channel = bot.get_channel(int(channel_id))
-        if channel and isinstance(channel, discord.TextChannel):
+        if not channel:
+            # スレッドの場合はfetchで取得
+            try:
+                channel = await bot.fetch_channel(int(channel_id))
+            except:
+                return {"status": "error", "message": f"Channel with ID {channel_id} not found."}
+
+        if isinstance(channel, (discord.TextChannel, discord.Thread)):
             await channel.send(message)
             return {"status": "success", "message": f"Sent '{message}' to channel {channel_id}"}
         else:
-            return {"status": "error", "message": f"Channel with ID {channel_id} not found or is not a text channel."}
+            return {"status": "error", "message": f"Channel with ID {channel_id} is not a text channel or thread."}
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
