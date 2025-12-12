@@ -1,100 +1,5 @@
 [
   {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Notion、データベースオートメーション機能を発表、トリガーとアクションで定型作業を自動化",
-    "url": "https://www.notion.so/ja-jp/help/database-automations"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "建設DXのANDPAD、全社約1,500名でNotionを導入しナレッジマネジメントを強化",
-    "url": "https://prtimes.jp/main/html/rd/p/000000454.000018105.html"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Notion Calendarが正式リリース、旧CronアプリがNotionと完全統合",
-    "url": "https://www.notion.so/product/calendar"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Notion APIがデータベースプロパティの作成・更新に対応",
-    "url": "https://developers.notion.com/changelog/create-and-update-database-properties-via-the-api"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Figmaとの連携が強化、ライブ埋め込みのデザインプレビューがより高速かつインタラクティブに",
-    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "株式会社カミナシ、全社情報共有基盤としてNotionを採用し、属人化を解消",
-    "url": "https://kaminashi.jp/news/2024-09-18-notion"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Notion AI、データベースのコンテキストに基づいた自動入力機能を追加",
-    "url": "https://www.notion.so/ja-jp/product/ai"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "エンタープライズプラン向けに「監査ログ」機能が提供開始",
-    "url": "https://www.notion.so/ja-jp/help/audit-log"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "株式会社MonotaRO、SCM部門でNotionを活用し、複雑な業務プロセスを可視化",
-    "url": "https://tech-blog.monotaro.com/entry/2024/05/23/100000"
-  },
-  {
-    "date": "2025-11-11T06:01:20.899979",
-    "title": "Notion、Wiki機能に「検証済みページ」と「オーナー」設定を追加",
-    "url": "https://www.notion.so/ja-jp/help/wikis"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Notion、数式(Formula)機能を「2.0」へ大幅アップデート、複数行記述やコメントに対応",
-    "url": "https://www.notion.so/ja-jp/releases/2023-09-06"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "株式会社ZOZO、カスタマーサポート部門のナレッジマネジメント基盤にNotionを導入",
-    "url": "https://www.prtimes.jp/main/html/rd/p/000000123.000013598.html"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Notionの「ボタン」機能が強化、データベースのプロパティ編集や複数アクションの実行が可能に",
-    "url": "https://www.notion.so/help/buttons"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Miroとの連携機能が向上、埋め込みボードの双方向編集とプレビューがより高速に",
-    "url": "https://miro.com/help/notion-integration/"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Notion AI、ページ全体だけでなく「選択範囲のテキスト」の要約にも対応",
-    "url": "https://www.notion.so/product/ai"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "ウイングアーク１ｓｔ、営業部門の案件管理と情報共有にNotionを活用し生産性を向上",
-    "url": "https://www.wingarc.com/company/press/20251028-01.html"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Notion API、ページやブロックへの「コメント追加・取得」に対応",
-    "url": "https://developers.notion.com/reference/create-comment"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "データベースに「ユニークIDプロパティ」が新登場、タスクやチケット管理が容易に",
-    "url": "https://www.notion.so/help/id-property"
-  },
-  {
-    "date": "2025-11-12T06:04:11.371856",
-    "title": "Notion、法人プラン向けに「ヨーロッパ（フランクフルト）」でのデータ保管オプションを提供開始",
-    "url": "https://www.notion.so/ja-jp/help/data-residency"
-  },
-  {
     "date": "2025-11-13T06:03:31.809219",
     "title": "Notion AI Q&A機能が一般提供開始、ワークスペース内の情報をAIが回答",
     "url": "https://www.notion.so/ja-jp/product/ai"
@@ -708,5 +613,10 @@
     "date": "2025-12-11T00:11:34.338423",
     "title": "【明日開催】AIエージェント博 by AI博覧会 フロアマップを一挙公開！Notion、日清食品など登壇者全34名が集結 - AIsmiley",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPb3hLQXpkcXRpTEtsUHdBNWQxb1lkODdNdHEzSHh4QnptYkFScWJ5bFdwa1RRdkQwbE5zLU03dG1PWkpHRGwzVUpZVEFpOWVteXpmVWVzLUZjTXNNb2dHSXZxTGV3NlU?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2025-12-12T09:31:41.179628",
+    "title": "【AIエージェント博】第7弾スピーカー4名を発表！Notion活用からAI社員による完全自動化まで。2026年に向けたAX推進の全貌 - newscast.jp",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA3OGtwaXhWbmJ3Q3I2MFFKdE9EQnRMamdUQzBhNkNkNE12QVpkMnRvbE9EY0F6MkFTNEU1TUN6UHFQLUV1WlVN?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
