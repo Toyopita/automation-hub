@@ -278,6 +278,71 @@ async def create_forum_thread(forum_id: str, thread_title: str, first_message: s
         return {"status": "error", "message": str(e)}
 
 @mcp.tool()
+async def list_forum_threads(forum_id: str) -> dict:
+    """
+    フォーラムチャンネルのスレッド一覧を取得します。
+
+    Args:
+        forum_id: フォーラムチャンネルのID
+    """
+    global bot_started
+
+    # Botがまだ起動していない場合は起動
+    if not bot_started:
+        import asyncio
+        asyncio.create_task(bot.start(TOKEN))
+        bot_started = True
+        # Bot接続を待つ
+        await asyncio.sleep(3)
+
+    if not bot.is_ready():
+        return {"status": "error", "message": "Bot is not ready yet."}
+
+    try:
+        forum_channel = bot.get_channel(int(forum_id))
+        if not forum_channel:
+            return {"status": "error", "message": f"Forum channel with ID {forum_id} not found."}
+
+        if not isinstance(forum_channel, discord.ForumChannel):
+            return {"status": "error", "message": f"Channel {forum_id} is not a forum channel."}
+
+        threads = []
+
+        # アクティブなスレッドを取得
+        for thread in forum_channel.threads:
+            threads.append({
+                "thread_id": str(thread.id),
+                "thread_name": thread.name,
+                "created_at": thread.created_at.isoformat() if thread.created_at else None,
+                "archived": thread.archived,
+                "locked": thread.locked,
+                "message_count": thread.message_count,
+                "thread_url": f"https://discord.com/channels/{forum_channel.guild.id}/{thread.id}"
+            })
+
+        # アーカイブされたスレッドも取得
+        async for thread in forum_channel.archived_threads(limit=50):
+            threads.append({
+                "thread_id": str(thread.id),
+                "thread_name": thread.name,
+                "created_at": thread.created_at.isoformat() if thread.created_at else None,
+                "archived": thread.archived,
+                "locked": thread.locked,
+                "message_count": thread.message_count,
+                "thread_url": f"https://discord.com/channels/{forum_channel.guild.id}/{thread.id}"
+            })
+
+        return {
+            "status": "success",
+            "forum_id": forum_id,
+            "forum_name": forum_channel.name,
+            "thread_count": len(threads),
+            "threads": threads
+        }
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+@mcp.tool()
 async def create_category(guild_id: str, category_name: str) -> dict:
     """
     指定されたサーバー（ギルド）に新しいカテゴリを作成します。
