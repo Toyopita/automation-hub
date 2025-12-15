@@ -39,19 +39,28 @@ async function checkShukuchoku() {
         const calendar = google.calendar({ version: 'v3', auth: oAuth2Client });
 
         // 前日18:00から当日9:00までの範囲（日本時間）
+        // launchd環境でもUTC環境でも正しく動作するように、UTCベースで計算
         const now = new Date();
-        const jstNow = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
 
-        const yesterday = new Date(jstNow);
-        yesterday.setDate(yesterday.getDate() - 1);
-        yesterday.setHours(18, 0, 0, 0);
+        // 現在のUTC時刻にJSTオフセット（+9時間）を加えて日本時間の日付を取得
+        const jstOffset = 9 * 60 * 60 * 1000;
+        const jstTime = now.getTime() + jstOffset;
+        const jstDate = new Date(jstTime);
 
-        const today = new Date(jstNow);
-        today.setHours(9, 0, 0, 0);
+        // 日本時間での今日の年月日を取得
+        const jstYear = jstDate.getUTCFullYear();
+        const jstMonth = jstDate.getUTCMonth();
+        const jstDay = jstDate.getUTCDate();
 
-        // 日本時間をUTCに変換
-        const timeMin = new Date(yesterday.getTime() - (9 * 60 * 60 * 1000)).toISOString();
-        const timeMax = new Date(today.getTime() - (9 * 60 * 60 * 1000)).toISOString();
+        // 前日18:00 JST = 前日09:00 UTC
+        const yesterdayJST18 = new Date(Date.UTC(jstYear, jstMonth, jstDay - 1, 18, 0, 0));
+        const timeMin = new Date(yesterdayJST18.getTime() - jstOffset).toISOString();
+
+        // 当日09:00 JST = 当日00:00 UTC
+        const todayJST9 = new Date(Date.UTC(jstYear, jstMonth, jstDay, 9, 0, 0));
+        const timeMax = new Date(todayJST9.getTime() - jstOffset).toISOString();
+
+        console.log(`[INFO] 日本時間での今日: ${jstYear}-${String(jstMonth + 1).padStart(2, '0')}-${String(jstDay).padStart(2, '0')}`);
 
         console.log(`[INFO] 宿直チェック範囲: ${timeMin} - ${timeMax}`);
 
