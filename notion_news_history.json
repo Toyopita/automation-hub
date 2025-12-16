@@ -1,155 +1,5 @@
 [
   {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Notion、データベースの「自動化」機能を正式リリース",
-    "url": "https://www.notion.so/ja-jp/help/database-automations"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Notion、新しい「ホーム」画面を導入、パーソナライズが可能に",
-    "url": "https://www.notion.so/ja-jp/help/home"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "株式会社アンドパッド、全社の情報共有基盤としてNotionを導入",
-    "url": "https://prtimes.jp/main/html/rd/p/000000424.000018149.html"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Notion APIがデータベースの「グループ化」に対応",
-    "url": "https://developers.notion.com/changelog/create-and-manage-database-groups-through-the-api"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Figmaとの連携が強化、デザインファイルのプレビューと同期がよりスムーズに",
-    "url": "https://www.notion.so/ja-jp/help/add-embeds-and-previews-to-pages"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Sansan株式会社、部門間の連携強化とナレッジ共有のためにNotionを導入",
-    "url": "https://prtimes.jp/main/html/rd/p/000000607.000049627.html"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Notion AI、文章作成をリアルタイムで支援する「オートフィル」機能を追加",
-    "url": "https://www.notion.so/ja-jp/product/ai"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "データベースに「最終更新者」と「作成者」プロパティが追加",
-    "url": "https://www.notion.so/releases/2024-05-29"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "株式会社SmartHR、プロダクト開発部門でNotionを活用し開発プロセスを効率化",
-    "url": "https://smarthr.jp/mag/culture/21194/"
-  },
-  {
-    "date": "2025-11-14T06:02:16.157107",
-    "title": "Notion Calendar、複数タイムゾーンの表示機能を強化",
-    "url": "https://www.notion.so/product/calendar"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Notion、数式(Formula) 2.0をリリース。より高度な計算と新しい関数が利用可能に",
-    "url": "https://www.notion.so/ja-jp/releases/2025-10-29"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "株式会社サイバーエージェント、クリエイティブ部門でNotionを導入し制作プロセスを効率化",
-    "url": "https://www.notion.so/ja-jp/customers/cyberagent"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Notion APIがコメントへの返信（スレッド作成）に対応",
-    "url": "https://developers.notion.com/changelog/create-comment-replies-with-the-api"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Miroとの連携が強化、Notionページ上でMiroボードのインタラクティブな編集が可能に",
-    "url": "https://miro.com/ja/integrations/notion/"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Notion、アクセシビリティを大幅に改善し、キーボード操作とスクリーンリーダー対応を強化",
-    "url": "https://www.notion.so/ja-jp/help/keyboard-shortcuts"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "freee株式会社、全社導入で「オープンな情報共有文化」を醸成",
-    "url": "https://www.notion.so/ja-jp/customers/freee"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Notion AIを活用した議事録の自動要約とネクストアクション抽出術が話題に",
-    "url": "https://www.itmedia.co.jp/business/articles/2510/21/news045.html"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "Zapier連携がアップデート、新しいトリガーとアクションが追加",
-    "url": "https://zapier.com/apps/notion/integrations"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "データベースビューの改善：タイムラインでの依存関係可視化とカレンダーのオーバーレイ表示",
-    "url": "https://www.notion.so/ja-jp/whats-new"
-  },
-  {
-    "date": "2025-11-15T06:51:00.292484",
-    "title": "株式会社カカオピッコマ、グローバルな情報共有基盤としてNotionを導入",
-    "url": "https://prtimes.jp/main/html/rd/p/000000515.000003707.html"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notion、プロジェクト管理機能を大幅強化、「Projects」を正式リリース",
-    "url": "https://www.notion.so/ja-jp/product/projects"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "株式会社メルカリ、グループ全従業員約2,300名を対象にNotionを導入",
-    "url": "https://www.notion.so/ja-jp/customers/merpay"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notion API、データベースプロパティの作成と更新に対応",
-    "url": "https://developers.notion.com/changelog/create-and-update-database-properties"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "GitHubとの連携が双方向化、Notion上でIssueのステータス更新が可能に",
-    "url": "https://www.notion.so/ja-jp/help/add-links-and-backlinks"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notion AI、画像生成機能（Image Generation）のベータ版を公開",
-    "url": "https://www.notion.so/ja-jp/help/guides/generate-images-with-notion-ai"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Slackとの連携がアップデート、チャンネル内の会話をNotionデータベースへ直接保存",
-    "url": "https://www.notion.so/ja-jp/help/slack-integration"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "大日本印刷（DNP）、DX推進とハイブリッドワークのナレッジ共有基盤としてNotionを採用",
-    "url": "https://www.dnp.co.jp/news/detail/20169070_1587.html"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notion、新しい「ステータス」プロパティタイプを導入",
-    "url": "https://www.notion.so/ja-jp/help/status-property"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notionを使ったチーム横断でのOKR（目標と主要な成果）管理術",
-    "url": "https://www.notion.so/ja-jp/templates/okrs"
-  },
-  {
-    "date": "2025-11-16T06:02:18.478007",
-    "title": "Notion API、ページのアイコンとしてカスタム画像のアップロードに対応",
-    "url": "https://developers.notion.com/changelog/page-icons-can-now-be-files-or-emoji-objects"
-  },
-  {
     "date": "2025-11-17T06:03:37.964168",
     "title": "Notion APIが大幅アップデート、テンプレートからのページ作成やユーザーメンションに対応",
     "url": "https://relay.app/blog/notion-integration-updates-october-2025"
@@ -588,5 +438,10 @@
     "date": "2025-12-13T16:48:52.825712",
     "title": "ファインディ、Notion全社導入。AIを活用した業務プロセスの自動化・可視化・改善を推進 - AIsmiley",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBud0FOV0M3R19KczBlbFUyU2o5VWsxZjN6UWNtM1JCNUQ3ckE4eDBJX2RwUW9YSlluQ3FaLXNwQktadllfcVRBcy1MWU5qM2FubzZlb2hNM3ZsUUMwSXRDaUd6alQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2025-12-16T13:26:56.417483",
+    "title": "ARR5億ドル規模のNotion、評価額110億ドルで従業員向けテンダーオファーを開始【報道】 - thebridge.jp",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jdDRHcVVXY0hqdmhUWWtOc0c0MXkxYWE1bVVmaDlfZEJjU2Rib01rVWtPeXlLS1lTSnNTLThycHhpWUtFTTlxZGYteTd2c285ZTdONWE2NWRaNExpQ3FJSVJwWHpzdXBpOHZsX0RHRGtiTFZWSzRaX2xPOA?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
