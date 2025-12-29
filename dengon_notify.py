@@ -18,7 +18,7 @@ NOTION_TOKEN = os.getenv("NOTION_TOKEN_ORDER")  # MCPと同じトークン
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
 LINE_GROUP_ID = os.getenv("LINE_USER_ID")  # 実際はグループID（Cから始まる）
 NOTION_DB_ID = "8a5b21f3-ac93-4967-b473-a0b68f93c8a8"
-POLLING_INTERVAL = 10  # 秒
+POLLING_INTERVAL = 60  # 秒（1分）
 
 # APIエンドポイント
 NOTION_API_URL = "https://api.notion.com/v1"
