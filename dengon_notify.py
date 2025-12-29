@@ -141,7 +141,7 @@ def mark_as_notified(page_id: str) -> bool:
     headers = {
         "Authorization": f"Bearer {NOTION_TOKEN}",
         "Content-Type": "application/json",
-        "Notion-Version": "2022-06-28"
+        "Notion-Version": NOTION_API_VERSION
     }
 
     payload = {
