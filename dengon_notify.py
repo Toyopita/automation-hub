@@ -29,7 +29,7 @@ LINE_API_URL = "https://api.line.me/v2/bot/message/push"
 def log(message: str):
     """タイムスタンプ付きログ出力"""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{timestamp}] {message}")
+    print(f"[{timestamp}] {message}", flush=True)
 
 
 def get_unnotified_messages() -> list:
