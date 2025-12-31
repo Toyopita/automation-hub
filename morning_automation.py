@@ -3,11 +3,15 @@
 """
 朝の自動化スクリプト（6:40実行）
 宿直の日はスキップする
+
+オプション:
+  --force  宿直・休日チェックをスキップして強制実行（正月用）
 """
 
 import os
 import sys
 import time
+import argparse
 import requests
 from datetime import datetime, timedelta
 from typing import Optional, Dict
