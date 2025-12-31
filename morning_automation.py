@@ -171,30 +171,39 @@ def check_holiday() -> bool:
 
 def main():
     """メイン処理"""
+    # 引数解析
+    parser = argparse.ArgumentParser(description='朝の自動化スクリプト')
+    parser.add_argument('--force', action='store_true',
+                        help='宿直・休日チェックをスキップして強制実行（正月用）')
+    args = parser.parse_args()
+
     print("=== 朝の自動化スクリプト 開始 ===")
     print(f"実行時刻: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-    # 1. 宿直チェック
-    print("[INFO] 宿直カレンダーをチェック中...")
-    is_shukuchoku = check_shukuchoku()
+    if args.force:
+        print("[INFO] 🎍 強制実行モード（正月用）- 宿直・休日チェックをスキップします")
+    else:
+        # 1. 宿直チェック
+        print("[INFO] 宿直カレンダーをチェック中...")
+        is_shukuchoku = check_shukuchoku()
 
-    if is_shukuchoku:
-        print("[INFO] 宿直中のため、自動化をスキップします")
-        print("=== 処理完了（スキップ） ===")
-        return
+        if is_shukuchoku:
+            print("[INFO] 宿直中のため、自動化をスキップします")
+            print("=== 処理完了（スキップ） ===")
+            return
 
-    print("[INFO] 宿直予定なし")
+        print("[INFO] 宿直予定なし")
 
-    # 2. 休日チェック
-    print("[INFO] プライベートカレンダーをチェック中...")
-    is_holiday = check_holiday()
+        # 2. 休日チェック
+        print("[INFO] プライベートカレンダーをチェック中...")
+        is_holiday = check_holiday()
 
-    if is_holiday:
-        print("[INFO] 休日のため、自動化をスキップします")
-        print("=== 処理完了（スキップ） ===")
-        return
+        if is_holiday:
+            print("[INFO] 休日のため、自動化をスキップします")
+            print("=== 処理完了（スキップ） ===")
+            return
 
-    print("[INFO] 休日予定なし。自動化を実行します")
+        print("[INFO] 休日予定なし。自動化を実行します")
 
     # 3. テレビON
     print("[INFO] テレビをONにします...")
