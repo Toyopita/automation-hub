@@ -169,6 +169,13 @@ def check_holiday() -> bool:
         return False
 
 
+def is_newyear_period() -> bool:
+    """1月1日〜3日（正月期間）かどうかを判定"""
+    from zoneinfo import ZoneInfo
+    now = datetime.now(ZoneInfo('Asia/Tokyo'))
+    return now.month == 1 and now.day in [1, 2, 3]
+
+
 def main():
     """メイン処理"""
     # 引数解析
@@ -179,6 +186,13 @@ def main():
 
     print("=== 朝の自動化スクリプト 開始 ===")
     print(f"実行時刻: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+    # 正月期間（1/1〜1/3）は--forceなしでは実行しない（6:00の正月用が実行されるため）
+    if not args.force and is_newyear_period():
+        print("[INFO] 🎍 正月期間（1/1〜1/3）のため、通常版はスキップします")
+        print("[INFO] 6:00の正月用スクリプトで既に実行済みです")
+        print("=== 処理完了（スキップ） ===")
+        return
 
     if args.force:
         print("[INFO] 🎍 強制実行モード（正月用）- 宿直・休日チェックをスキップします")
