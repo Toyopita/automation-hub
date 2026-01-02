@@ -1,60 +1,5 @@
 [
   {
-    "date": "2025-12-03T23:00:48.559664",
-    "title": "グーグルGemini 3は脅威、OpenAIのアルトマンCEOが「コードレッド」を社員に発令 - Forbes JAPAN",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15ajNja2hFeTZpTjJWdkp4Y0JuZXBGZGxZYW5lWlZLMHJqX3l4Y21CNWxoU0VuNWVGWW1ocGpBNnBZTDVfT0VfeVltdE9EaU55ZTFxT0pQNjI?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-03T23:00:48.559664",
-    "title": "AIの米アンソロピック、ソフト開発ツールの新興買収 - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81SV9aVmdvc3RxWjlYdTBUVGQ5VHlNSFpSeVBSckR2UXRxQzFDTTJTUlU1bDdhVTh2bHB6WHlqUmViei1hZEkzMW0xOUJ4VmlBTWY1Vl9PcE96d1VyWXYxRnd4NG9GNWtiZ0QxeA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T01:02:06.768943",
-    "title": "AIでレトロゲームを操作 スコアを競う新たな“eスポーツ”誕生 - 日経クロストレンド",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tT2xmZEZsNWREeFRzQktPOFRoRDcycTNsdXF5dWpIczJwMVlYZWdTMVR5OHVmM185Z0xtTUVTMi0wZXRrYnAteE5BSmlRbExaZ2wtSlNoNGxZSXZ6VjZiaFFnQVdtdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T01:02:06.768943",
-    "title": "AWSがAIモデルの新機軸「Nova Forge」 再学習が容易に、破滅的忘却も克服 - 日経クロステック",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95dE05TnQyV19oWmNhem9kY2JoMTJkNjFVQTVQdmpuQVVaaDU0UHQyNUtkc2NIUXZQOXQtWVRlT2tCUE0tX0VVMmthd3lDdVVpWjE2eU5JSVI3N1d6OHVzeFNlM3E2U0RGY2g4Yg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T02:02:45.703030",
-    "title": "Anthropic、JavaScriptランタイム「Bun」を買収 「Claude Code」は10億ドル規模に - ITmedia",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tYW1DcGlFU3VoWEZrbm9RcjdJYV91U3IxazNwY0dWYmZwTXpVSHl5S2o1ekNkanpjR1A5OXZUTUZueDEzcEtkQ25NcnZpcEg3ZkE3WFZRbUtwQVVNeWx5b29ycUlCZUNZWDgxdFlOMA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T03:03:25.191030",
-    "title": "「Meta AIグラス」が26年に日本上陸 本社幹部が明かすAI時代の新体験 - 日経クロストレンド",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvV21XS2E4ZExRVnJVWWhRN21XUGJPbDRXbGh4a19ZNUQyQWo5S2hRQS1XbU10eDRLZFJhOGU0UFp3bW9pOUlmNlI0T0VWd2tqdFY2ZGlLTnJITXdKYldhRnpmS0tMZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T03:03:25.191030",
-    "title": "中国･昇視唯盛、AI搭載の溶接ロボット量産 人手不足の製造現場に的 - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55M2tlbGFqWmJNTW9XNjNCU3ZBX0xXRDZxNklZVlcyalIxb1EzUFVjS0ttYWNUN09pVUtUZDNZZVFzeTNJbi05Nkc3Yl9yNlNYdUhjLVlGU0pfT21qYVJQb29YVGJwcTJGekJXSA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T04:04:06.888570",
-    "title": "AIの米アンソロピック、2026年にも株式上場を計画 FT報道 - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CSnFYLXlqUUFRd0xrWFBqRVhFOUNEMTlYZFdBaUxJSXNyUGF3amlZNWxPRzBFSU5ydGJEX0pNZ0VnaXJsNzk1M2dVZEpxSFF1WVZEajBkak83cVJTN0QyU0cwbFJvb3d5WTNxVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T04:04:06.888570",
-    "title": "OpenAI、アクセンチュアと提携 エンプラ版ChatGPT供給、AIエージェント導入拡大目指す - ITmedia",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SSnhyNXgxeTZqSmNYb3RLMEdXNzFoQzJpSi1Sb25lZFlrdUt5cUxuTkVXYVZUalAtaFFwTl9rSmRUdERQSlNkQTdKYUZtUWJqU3FvOWdiYS0wbGVIWThrckdwWkw2aFg1ODFsRGlGWQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T05:04:48.374516",
-    "title": "米国でゴーストデータセンター横行、AI電力使用過剰申請 計画6割減も - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xVFViQV94X2Zqai1BbEVSUTFoVWdUbHJyTVdOYTlDX3hsQ3hTRlJhX0JpaE90QnlnNVVWR0lpck9MV1FYM1NkTEtROUtCR3MwSjNkMVV3eVJQZXVma2tGYjcwX2YtM1ZESzRHdg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-04T05:04:48.374516",
-    "title": "AI前提に業務を再設計 NTTデータグループ社長 佐々木裕氏 - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUel8xY1AzR3AwTUVic2thc3E0UFpENnVQUEdTMUtyY0hZbjRUbWxrYzAxWV9OdmtxU25BUHI4T1lTWmJGYzB4Smk0d3hDY3MwNFNsU095bWRvWkZ6WHpHalM5YnhTaDU2LVk2Nw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-04T06:05:28.995421",
     "title": "ソブリンAI時代の日本 文化圏創造が生む新たな価値[PR] - 日経BizGate",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ncE1hNXJYZl9HenRQNjB1aFpjQVh6cmxvbWhkNVRWSWYxWmtzeDd3QTRjLVBqQkFPZmhOOGRmNkt0TWlzSVlpRDNXeEdhV2VDRnp3bExiSmNiOFowcnU5YXNqb2I0NkFsdDFIeDhCSGY?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5358,5 +5303,15 @@
     "date": "2026-01-02T22:30:38.686121",
     "title": "高校を中退した若者が独学でAIを学び、博士号を取得し、OpenAIに採用された。 - Vietnam.vn",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSVJUTm5TM0NRUjR0QU1UY21tU1Nld19aTEZyQmZtZ1hMVm5ja0hYTDYxMXhDSnhHV1lJOFRmYXo1bm04UTBwVm1MVE9TdVpLNURnZ2ppalFub1NGVzJZRVBxOHhTazV0dVowcDRRdzFLeGhXb0l4c1BXOUpoOGI2d2VNVVpPSlJwWGV1NFdnQVlVUHpneDh5Q01OSEdlUnM?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-03T05:34:43.038908",
+    "title": "フィジカルAI、ものづくり王国で実装へ オークマはロボで物流省人化 - 日本経済新聞",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNC1zdHlGUEhzYkF6TUxYOE5fMTFGaGpVTFlpVDdPNmVGakNYT2laMkExMFVta09EelNTcy1EMVdkeE40RHBvTWZ5S2RkWlAybFZRak1WTWVHVWd4MXByMmFTcnFwajRSVGNBUw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-03T05:34:43.038908",
+    "title": "AI時代に議員は不要か 定数削減案が問う存在意義 - 日本経済新聞",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tZVVuMDdmSkkxdm14MVRMdVBTR2VjZHlSWVJiYmJkdnZwc2pfTzFtR3hySTJ6Q0F3ZHppZ2ZQX3JCR3dwcFEtQmhYWUw5N29ycGhzNnN2N1pTQ0M1ZEdQRmRPYnlTMGZaMi1JVg?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
