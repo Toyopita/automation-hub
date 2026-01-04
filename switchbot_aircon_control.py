@@ -47,7 +47,8 @@ class Config:
 
     # 冬季設定
     WINTER_HEATING_START = 23  # 室温23℃未満で暖房開始
-    WINTER_HEATING_TARGET = 27  # 暖房設定温度27℃
+    WINTER_HEATING_TARGET = 27  # 暖房設定温度27℃（通常）
+    WINTER_HEATING_TARGET_NIGHT = 24  # 暖房設定温度24℃（深夜0:00〜6:00）
     WINTER_HEATING_STOP = 26    # 室温26℃で暖房停止
 
     # 加湿器設定（冬季のみ）
