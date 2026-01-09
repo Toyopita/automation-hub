@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-10T09:21:00.322503",
-    "title": "Googleの最新モデル「Gemini 3」を自社開発の独自ベンチマークデータセットを用いて検証～「Gemini 3」は、契約書業務において構造化された推論・ルールの適用が重視されるタスクでは高い成果を発揮するものの、応答速度はに課題～ - 株式会社LegalOn Technologies｜リ - 株式会社LegalOn Technologies",
-    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE0tY2pFZ25Rd2VSSTdERlVYUUcxOTY3WTFCZzNDUURMZTFUa2lWYVRrdk5jYzdmTEc0STVaQnI4OE4xd2M?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-10T09:21:00.322503",
-    "title": "Planna Inc. と Robo Co-op、「Flow to AI」共同発表 AI導入とAIレディネスを両立する新モデルで、企業変革の“流れ”を再設計 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sYlhhZml5YUpnS2h4dTIzMWpWYk5KSU5rYy1DQmplbmp0UnBTQzdWMlA0VG01Y1M3TEx1c2VaTk44U2dERE4zR2RrbEh1cWxQY1hnYVJTa2U1OC1rSmpJUjFNLVFmY256SWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-10T10:21:40.952788",
     "title": "QTnet 福岡県と生成AIの回答精度を飛躍的に向上させる新手法を共創 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BeUk5M0I1bHRjS0pJMW91dFQ1MS1qNGx2aHJmWEVJcFF2MThjUkk5V2Z2RFpvNjV5T1hKRVpQN2JUQmpHQnkyV2w5QzN0eEU2eDFmX2NfV01mdXFoSFgzTGVObVdTQVlOX2c?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5293,5 +5283,15 @@
     "date": "2026-01-09T08:58:19.613648",
     "title": "米Unconventional AIが異例の巨額シード調達、次世代AIハード開発目指し - 日経クロステック",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BbkstU3JONkFFWmUxOXVFWHZIMzJmU1gxNldJNjJlRWhtd1k3ZnFwc1Nvd2N2Tm5XekNiZjRxV3dmWndzUmFPVklNOG14MVJ6d2dLZ3o0MFR1MGdxLXNFcXFNVGprUVFkdHhEZw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-09T09:58:59.471652",
+    "title": "グーグル、Gmailに新機能「AI Inbox」 Geminiが重要メールを自動整理 - CNET Japan",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QTFNFWU5NUmF1WHJDTUlhVTlteWt3YzNKUG5zNjBiM1JINkdOamFmU1JQYm1VeDF6aDJtdFlnV3l0STJvNE5XNEdLSk5OTzUxekE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-09T09:58:59.471652",
+    "title": "Gmail、Gemini 3で大型アップデート 「AIによる概要」や「AI受信箱」（Impress Watch） - Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM1VXOFJtSVNPYmtkQkg2b3dQeUtHNS1fcWdfOFZZM2drY0ZycHlfd2M0YzlhX01KWFdCa2haQjVhMXVONWZZSzBjLVhqNE9uLTltX2ZQb2k3SXZsaFZXTVB4SmZpYkVVUzRxZlZlU0VhUHhpZW1rREJ2ZnhGc0U?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
