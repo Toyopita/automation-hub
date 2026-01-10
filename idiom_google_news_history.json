@@ -1,85 +1,5 @@
 [
   {
-    "date": "2025-12-11T23:27:10.661142+09:00",
-    "title": "エンタープライズ向け Gemini 3 を公開 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX0ZWZFhodk40ODdLVC1MOWsyS3JUcm5EcWJ6ekRvbWRCdlRQWThLWXF5bWIwNkJZWlRrRHdlSmFURFBEM1FPVGt3cFpoU1lmSF9EMkV1MC03bjVvQ3VpWllOWTYwbHJiczY3d182bEhHcE12RVBvZUNWXzlhcm9GT2pZU3gzYXo1bkFQVDJyM1dyZm96M2Y5UkJOYkNXR3M?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T23:27:10.661142+09:00",
-    "title": "Google One 2TB以上でYouTube Premiumが月額1100円(14％オフ) - Impress Watch",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SdVQ5UUlIUWRjVmd4ZDQzb0VEU2prd2doR2dTZ25kdlpRN2RRc1g3Z2RYTUY3WDN6QTJlNVFQUXNnM2NWQzRlRmQwY0xtRWpycWhHOUJpVVRmQ2g2LWszcV9GSFI?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T00:27:49.801247+09:00",
-    "title": "Google、MCPサーバの発見や管理のためのレジストリ「Cloud API Registry」プレビュー公開 - Publickey",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SWFZOaVBiSDhINFA3Q2Zud3dhUnNhS1c0VDZlaHBFeHFzOHZ5UFhrNmgyOGFXWDRPZzYyQUZwUXhlc2N4aG1RS3NubXVRcVdzcjJkTTM4aG9XbUhHU3BLVWFoYThHeUZuNUxiV3dtRVFXX2tv?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T00:27:49.801247+09:00",
-    "title": "Viksit Bharat への支援: インドにおける最新の AI 投資を発表 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMFl4MzBmYmcxNzlnSHp2dVRYUHN4U2hJSzk1aTBDbUM2azBBbjJaYkl6WkxIWmJURmpkVzFwNDJ3b2RRakFyMEFQMThRbTVoOGxKbnpBNzlEbjBzeEJqWF95UFViMWRURVdBOC1wWko4Q190M0VMeUNCaXlOcW5qRTFlQUNiT3J1TUJmam9MdmxhSG8zdlZrODNVT1psVXJBWnNHRmxlM20?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T01:28:28.390982+09:00",
-    "title": "LegalOn Technologies、Googleの最新モデル「Gemini 3」を自社開発の独自ベンチマークデータセットを用いて検証 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtQTlZelRXVFI3eHBlbGRCRmxqVUd4VUNLZUlXQmxCZVhhakdGU3dRSnBPWUFXS1huTEt2WXBtNU5YemcwWTdJa0N6LUtHLUZraXAtOTBMNDFyYTJNdlJxQnNDZzRBUnNUWEE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T01:28:28.390982+09:00",
-    "title": "YouTube Premiumが割引利用できる「Google Oneプレミアム」追加オプション。日本でも提供開始 - PHILE WEB",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jTjRIX3oxQTNOTGd4QU1SY2kyTldEU3pHdFREQ1ZyR0I3VkpLTHJMWkdSSjZ2T29ZcXc5eUJzbFAtRzJWcXZ5MEdnbzBJTnZ1RkRvcDE4XzdMenVVZS0zWGRGVXo1Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T02:29:05.705486+09:00",
-    "title": "クラウドエースの社員 8 名が 2025 年の Google Cloud Partner All-starsを受賞 - クラウドエース株式会社",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE04NU5UOWx1Ynk0b0dmaFN3Z19uWU84blAzbFNRdmJseFNmNUI2cHBBakJWaEt4WlBhWTgwSGNRWS04Mm00RUU5aTU2VFRwUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T02:29:05.705486+09:00",
-    "title": "インタラクションから分析情報へ: Google ADK 向け BigQuery Agent Analytics の発表 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkRMRmZ6RHNuWlBpbXR3TS1Wd1BZakkta045bDJhVGkyNWlBeURfaVdnUHVEN0M3NElBRGMxV1NuVndKOFZIRHBveE1VZEdmSnFnOHFLY3ZCMjdsRk03ZzZFdm5IalZiSTFnb3k4OUl4OFcxbW5Qb3NQUzNDSUFvbXBPTjU4MGtZNldkRU5xU0QwWjJvMTJfSA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T03:29:44.348622+09:00",
-    "title": "Google Workspace Studio × Gemで生まれる業務効率化の相乗効果｜クラウドテクノロジーブログ - ソフトバンク",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcWdzb1dZSi1TTVN2bTJRV01xN1NPSjNFUmRveUd5cFBiRFJ1QlhrTThjMUFzOXAzSm85R3l1TjUwWTl5d2hBaEVMZkdBMlpfSUlRM1pCS3VtS3hOOXR1QXVlLUFpUkd5SWRhMnY5MVlQVzlQR0pOUndRRXZES25DRkotYmd1c1BUQWVKLVhKZ09VY2p2ZldPTA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T03:29:44.348622+09:00",
-    "title": "警視庁「サイバーセキュリティ有識者研修」に Google Cloud が登壇──捜査・業務を変革する生成 AI と脅威インテリジェンスの最前線 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOc1dQRk5fNHdxN1ZabTdmN2pIMkxKWTRBS0RSZklMZ0pWVWRpQzdlcjVoWTJ0UnFBR3lpdElnQ2ZkSmdPMHc3azRJVlRWVmVoQ1ZYU1RwYlhmcldSN0UwWlRpOTNpVUViZ0xtdzdKQzJpVTVZdHREZF9QcWREcWJjd2JDeF9YLWxmNzluLTRwUEo0cXUzRVlaZXhrekRrQUt5LTZkRFVmRUFveEI1WXdUR0lsYWZGN1RwXzc2X0tRUUxfSENrVXl1bkRCcjEtcE53OVdsWGRNQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T04:30:22.529685+09:00",
-    "title": "ワークマン、Gemini と Veo で EC コンテンツ制作を変革──「少数精鋭」で挑む新たな顧客体験 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVHhSQzF3S2drRmYxVWJ0WFdFa2p4bklJTjNXZlVTWmlpamx6aUlsdGVweTlvNzlVanM1RkljYWNoU3FZWU4wdTBsMElzQ1VEeGFiOUJRcUJtVkRhMXIwYmFBMkJoOHNqdFRXVUQ4dnRZYndqbTM4d1JLOWdBS3Q3VVptdWNidkNNS01nN2tSRDRBZFJDd3dhYVFOdXhiRzlBTEw0WmM5Q254SGYzR3pHdHJzQ19xZ28?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T04:30:22.529685+09:00",
-    "title": "Gemini Enterprise: ビジネスに最適な Google AI - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fcWljZV80X2RfTmtkek9OaURTTndiRm84TUpWN2hLZUpwWFZaVjBuVDVFeVljRktmWVNoV2E5ZERaYWlQTXU1b3dKM3FEQW1SUUJYUnRZdnZpaktz?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T05:31:00.031826+09:00",
-    "title": "オンワード、ECサイトにGoogle Cloudの生成AI導入 「ささげ」で年間約200万円を削減へ - EnterpriseZine",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LZ3hDMFFoQmw4c1hXSUxXczE2UmVFRjMwb1pHX0dvN0EtY0V6aFVjdjhIZXJadDdQVWRmeHFIVFJDX2RNRUI0aG9EeGt6SGxEN0dTNXZn?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T05:31:00.031826+09:00",
-    "title": "クリエイティブ生成AIプラットフォーム「AI SCREAM」、Google の最新画像生成AI「Nano Banana Pro（Gemini 3 Pro Image）」を実装 - cyberagent.co.jp",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zenFBS2RJV0NNRHg0ckdJdTJZTXRoLWc3NEE1OVVFZHZQOHByRTd0UUMwSklRTlMxOGRBeWN1OURSWkpTbXFmR3g2LXA3c3laWWxEdjlLZkRpVXVYMXc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T06:31:36.200339+09:00",
-    "title": "Google Cloud と戦略的提携、信頼性の高いAIサービスを本格展開 | KDDI News Room - KDDI ニュースルーム",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5dFMwYWkyZmpxbUd3RDZHbWl0WTUxb3RUanVTNXpuMlBCaldPeGw4WEVYNUpISnktem96ejhCeE1pMXFyVHBCR29obGtoRW5obk1nc0tyTlBfNWdGWThSUHc3eWxISGRqOFpj?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T06:31:36.200339+09:00",
-    "title": "「Google One」と「YouTube Premium」のセット割が日本にも……と思ったら罠が待っていた - PC Watch",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IbzNsWXRHTGxnUDZENXYwZGw4dmJLcmFIMVF6d2x3elRWQjVFQVVpTGNGNF9kX1FMUGNiYlliczB3VFpnaTFVa0dPQlVWcExHd2U3NzhoU2RPSktJWERsTFVUMA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-12T07:32:13.089114+09:00",
     "title": "Google Cloud の生成メディアモデルの勢いを活かす - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMVJXcmJCcXBnZVBWaFc2bldXZjNnTXhSejJaa0tUSER6MlRUZjZ2MFVoMUZtNFF4emk3SHBmMlhXeXl0QXpQQTN6LVItVTUyQ09HUFlEWWVPRjUyZWdOYW9XMVVKa1FRakQxU3ROR3NFTkVWV2lqRjlEU01ZUGpFYlNxNS1NdXJtX29HNzdRREp6eHEycFJxY0h4T1RwUGdlLTEyYnIxVFVoVDY0N3k1M1VWT2pxZw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1488,5 +1408,15 @@
     "date": "2026-01-10T23:01:14.409813+09:00",
     "title": "Google Cloud Partner Tech Influencer Challenge 2025 受賞企業 & 優秀コンテンツが決定！ - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa08tU2VIUGNJTzNYdnFZS0J3aE0ySllTQjhFT2U5SkhoWUVKaGYwdGV3ZWxIeFU4aHgtZVFoWFdkMW1ZRU52RUVYZFZvejlXcjNuSUc5OVV0Q21DemtUeGpSdlJOQ29BQTZ1cVRJWWFELUxDa1kwQlVmd2szZlNaVS14NEZ1WDhDajRDU3dmXzJnckNObEFrT2JqQTZoQ1RJelZ3cHg2S09Mak1EVVE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T07:17:56.135382+09:00",
+    "title": "Gemini Enterprise: ビジネスに最適な Google AI - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fcWljZV80X2RfTmtkek9OaURTTndiRm84TUpWN2hLZUpwWFZaVjBuVDVFeVljRktmWVNoV2E5ZERaYWlQTXU1b3dKM3FEQW1SUUJYUnRZdnZpaktz?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T07:17:56.135382+09:00",
+    "title": "Google Cloud と戦略的提携、信頼性の高いAIサービスを本格展開 | KDDI News Room - KDDI ニュースルーム",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5dFMwYWkyZmpxbUd3RDZHbWl0WTUxb3RUanVTNXpuMlBCaldPeGw4WEVYNUpISnktem96ejhCeE1pMXFyVHBCR29obGtoRW5obk1nc0tyTlBfNWdGWThSUHc3eWxISGRqOFpj?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
