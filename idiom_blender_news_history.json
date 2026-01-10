@@ -1,40 +1,5 @@
 [
   {
-    "date": "2025-12-11T23:27:32.967229+09:00",
-    "title": "Blenderで利用できるオープンソースのAIエージェント「LL3M」発表！ テキストプロンプトからPythonコードを生成し3Dモデルを自動生成、部分修正・追加生成にも対応 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EYVlnNFlLWWxHT2pfUjl3VWN3NFYtWmVJOE1YaXFQTDBUSUtONFdaV2Vvc2V5elBtM0gyalpWMmgyXzRVNG1DUEpicV9RNFNIQ1VZM0p5alo0cFp4?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T00:28:11.430154+09:00",
-    "title": "無料3DCG統合環境「Blender 4.5」は使い勝手が大幅向上 ～ストレスフリーな作業が可能 - Blender ウォッチング - 窓の杜",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zdjI3Sjd5NVBpWnRLNEVRRFF4RkNhNWR0VEM2ZU5DUlA2eHJRcjhfSHNER3ZWeXllRlljUU53MmRuazZTUEF2eERvWFdUZmdkWnhvSDBSazhwa2lvQmV5d2hSX1JheXAyaTBUbGNiSXNmeTNvMl9QUzFsQmc5QQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T02:28:52.994805+09:00",
-    "title": "Blender内でAIテクスチャ生成ができるオープンソースのアドオン「StableGen」リリース！ SDXLとControlNetによる画像生成、Qwen-Image-Editも近日実装 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91cEVlVkNsSDVPaVJQRnl1eUFqbFJqdktjQkEyalRRMEYyWjlTb2JxNFJRWjJTUGlaeXIxLVlVY21QS0FJOXR6eGEtQ3hDeXVfaDZ1c1JsUGhRajd6eHJDSkxvQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T03:29:28.271359+09:00",
-    "title": "オープンソース「Krita」でノーマルマップ画像を作成しBlenderで活用！ mokunachoi氏によるチュートリアルが話題 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zZUd6aVJnbHJRWmx1X0xSNnB0TGx4Y3NoanpwQ0tudlpqOWlIT1ZKNkFKTkc5T0M1SWxzMnFyTndTOEVQUnJ3dUhmbHFUZUpjU1FJaXg2eFJiMDJvcVZRdkt3UWFjTUdJ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T04:30:03.260016+09:00",
-    "title": "テーマは「西暦3025年」Blenderユーザー限定の3DCG作品コンテスト「b3d創作祭」第3回が開催決定。【応募締切は9/14（日）まで】 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ay1KekNFVGtkT2tYOWVNVlpOWG5wMU9fWmtWMlBqYV9zWWZhbFVoWGtFNFdvZGdHOEFGVkpmRXh1alZVZk5JTmU0dGlwUnZrOHl1aA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T05:30:38.489848+09:00",
-    "title": "無料の3DCG統合環境「Blender」最新版はスカルプトのブラシがペンの傾きに対応 - Blender ウォッチング - 窓の杜",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12blZyQkJrMkpMUlJIUVVfUVZDWmxpVFFJTFJ1REh4N2hRcC1BcDRzZ3MwcDI4Tm1VdFNmVWNIdDJNbHM0NGpmVG5KSkFDOUpCbzBTYTNKTFVkbENHbWRhbngtRGloNURtNWVzcWdJSU1jNEVMOWp2NUVQSWVwQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T06:31:12.029230+09:00",
-    "title": "注目のVRChatアバター作者たちが語る！モデル制作の舞台裏 | Blender Fes 2025AW - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CQ0MxUUlVUS1Gd2sweFgtcXhSZFBNYUttWGdSYmt4anVzckdTRmNRSEVhT0Z3VllnX1N5ckRHeEd5RHpNSGkxMWlRVWpuYVhxbjRvem1XT0JJQTFtVXRPZlJyUDNhdEt3U0JOSFg0T3Y?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-12T07:31:46.618555+09:00",
     "title": "無料3DCGツール「Blender」のiPad版の開発が進行中 - GIGAZINE",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mOHF4M3RQUU93NUNYYmVlZ0ZaZHhrZHdkalhBb2NCVENTRjlIOFJqdmVVQ25RZFlyNUltZ2JhXzFUWllnd1lyZXZ0NFE5R2pmdEN6WEhpOFF2TkxR?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -398,5 +363,10 @@
     "date": "2026-01-10T22:50:56.034333+09:00",
     "title": "HDR出力が可能になった無料の3DCG統合環境「Blender 5.0」 (窓の杜) - Yahoo!ニュース",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUxFT09aRUUwejFkUm9hU3BfU2xISmRKNHN1ZUhySzYtSmZWYTNIUmpCRUZueHo2ZndzMi12ZDhhcGFMeGpLT00xaDZQRHI0NDhZay1TRDJFZkJtM3JXQUViUkVzQjdBYUFsMk9WdlJkSDhvT2NGN0dGQTRqN2FIMTlsMHpRd3RZRUFjM1d3?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T07:06:28.714032+09:00",
+    "title": "AIツール「Claude」を使ってBlender上でモデリングしてみよう ～さらに複雑な実践編 - gihyo.jp",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80U1ZJTE5RbXJTQ084eElyM19rNThoT0tjXzN5OTdpVk9VX051MnJnbHptTkFEU1BuN1ZqVi1Ndng5aEVudXZsM20xTWU2V3NfcnR0ZVlJVVJkN2E4WXJj?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
