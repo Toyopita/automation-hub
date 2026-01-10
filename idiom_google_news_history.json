@@ -1,55 +1,5 @@
 [
   {
-    "date": "2025-12-11T13:27:27.517782+09:00",
-    "title": "Google、すべてのサービスに生成AIと接続できるフルマネージドなMCPサーバを提供すると宣言。まずはGoogleマップ、BigQuery、Google Compute Engineで利用可能に - Publickey",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaEtuYm10cUJqWTRXam9oblFjWms5NkdxMF9la1pGRmlBWFg3VEdLT0MwbGQwU1RNOGp4Y04wLXpWX2FfVmxtVG5mWVN5ank5Zzk2REx5UE43Z2JzTEtvWWRaTkFvOXN1RVF3LXpzU2JjY29nMG1FdndYQmJIMFJFTFphMTE3NUVDV1h5Ny1B?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T13:27:27.517782+09:00",
-    "title": "検索から「ささげ」業務まで。オンワードが Google Cloud の生成 AI で実現する EC サイトの全方位改革 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1gyRFZFeFVrQ2pFMGpsOEVGUWFweHBvNFhMWllUYnROY01jTG9xWjVIZjVwXzBncTRpSmdjX1d3SlhuLTZRLXZBWXFzVnJBUFI5bkc0U2N4SmhMTDIxSFNxYndFM0YwaFctOThVbHk5WW5tLXJINmd6dFZFdUdQSm9KSXRBQmljVjFvLTh6ajZ6VXRoMkJKcDB6WjZ1bEV1UE1EUHB6VTRNeXVxN1Q4?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T14:28:04.348539+09:00",
-    "title": "パル: Looker と Vertex AI Search for commerce で実現する、60 ブランドを支えるデータ民主化と EC 検索体験の革新 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONDdCYVBWZkRtbkVMb1Mtd1VOMldBbEtOOFEwUVNiRXd0RXl4cDdlZ0JnUldiYk1NWWVDeWR5bGdQOTBqUHRDYko0cWhKYi1ESkZIby1pWUFiVk9yQk1GaGp2V3k5eGNtX09zOERNYU03TkVRQ1RPR3dBQU5lS1UyRHlGU0o2VWFYS0c4c1k5dnZ4QllrYzlaMjVhYmFBWHc1RkVsVnJpVVZaTFNyRE1CRmtUTDJMRWFTSmJMdHVSbUhNMENsS3hFNlhPZUpORUVt?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T14:28:04.348539+09:00",
-    "title": "エージェント時代の到来: Google Public Sector サミットで 1 日 300 個以上の AI エージェントを構築し、影響力を高めてミッションを推進させましょう - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNckJRbWwtOUc2dl9ZbEhGa0wwT2hMckV4X2xlVzR1S2k5WE13aHY1Qm43OXp2MktlbFd0c0RPSk9EVWV5QjhLM2dUSVFZZ1ZsLVhBUGFYRDZoNTRoV3pGcnNvT3BtNlVzYjA4YTlGWk5oSzBFZU5mdzQ3MzRncFFFTWZfRUZtcUszMkZ2OHF0Z1BZV0R3N24zakJIUUpEWWg5WE54d2pua2xNUk1aeFZWblMxVnNsaS0ybnJVbnpTSFBIbHI2aFJ1a3VXTm5lSGR5ZUFCRWNoUmp6eFd5cUNFSTJtYUlHckZhTU1qU3VtaWZtRWU3MTUtNFltYkRSZjN4b0doQ09PeXdGVHdZNWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T15:28:42.973085+09:00",
-    "title": "Google Kubernetes Engine の階層化 KV キャッシュで LLM のパフォーマンスを向上させる - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWXEzdGNQOVRmQmp6YjRFRFBRWDlWRmIzd3RVdXJ4SzRCaTctVTR2NC1xMExnTUVyZmdyNkxuamhiUUFOZWN6dFBFQVpXN0UyUVBONXVtU2FpeFI2NWpYc05WTkJsOWFNS19aMGlwd2hQbGhQOUtmUElsSUJUNzRFVnZpbkFtZTVwUkpKOUptYWxFOVZ1WEJ1VExtTGJlNEc0RkJlM1ptMzlhRlRwRlIwYmJfbWZWaFRuVlU5Mk9CNEFjZ0xXWngwbjVJVDExdGdJX3lCaw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T15:28:42.973085+09:00",
-    "title": "メタデータがなくても、AI と Dataplex Universal Catalog があれば OK - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV1ZVQnEwVkNfRDdRbG5fZ1FNRUVObDlQamRzWG9PenZKNmx1czlCb1g3YUlvYUdYbmtSNGZkaDlaQ2NKTmVMd0ZFbDhoQUV6VTNDUWtYTzhNeUdVTldqdUhsNDBKbjZVemtEcUhJLUx0aDhhVWc4Rnd0MEtveFRGSXBHSkJCblNoOXAxN1dTT05zT3ktRDBSc0VsbkQxN1ZWcURkYkxSSHZ2MlFDRjEw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T16:29:20.941572+09:00",
-    "title": "指示する前に動き出す！Google Julesの新機能が革新的すぎる - slashgear.jp",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xZDB5UTVPb3dHdzEyeWQyOGRKLUotVmFHSDllLU8wMlhJTjVOOEhPaXdvUjlFV1dyTVptdHpIOWhhSTB0a3c5cmctTGs4Zzd1d0dmc3daRlo?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T16:29:20.941572+09:00",
-    "title": "Wipro Enterprises case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fLXo0MmpPckdOTS01djU3UVBBcUROOHU4WlZZN013MHBaWG1zdm93UnlJOENnNWkyU1lHNktjMHRkQWpfREtJLTNPRWw1YUdIOFA2SkFiLUoxOWVuOFE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T17:29:58.461989+09:00",
-    "title": "Google Cloud Partner Top Engineer 2026 アワードプログラム 受賞者発表 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR0RROHZ0elV1YUc3SF83UzdqZGVmODBXSlVkb0VaTFc5N2U3Um02Mi03bURMZm01Nm56UUJrV0M2U0ZWbXhpR0pCT3NPRV9pb0VBNDRCY082T1YtZy1rWHdDSzJqeGN3aUpBR2JUbEh3d0FTVjRLMUVDX3B2T1JUcmNfOXFwYk5lRGtlM3VGQWJZR0hpdDhpdlRhOUdZY3pmaGcxWFVsSy14U2d5QXB5d0hyQkRKU1QtTE5XMmRsRTRYaTA3QXRFWXk4NA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T17:29:58.461989+09:00",
-    "title": "2025 年の Google Cloud Partner All-stars の受賞者を表彰 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeElNdEdBNUZWSGRaT3JIdUxVN09OQnZYMFZjZHl3QmIxNGZxQ3U0ZEFCLW14MlZpTlZDQVNwdWNpOHQwT0tmUjg2X3pUNGNvQkNST1BHODI3VzBkLWE5aGZjdmF5TE9tLXJwMTh4Sm4wVFktZXdSQ0Nrc0o4MnJRelF1TDI1eTIyY3ppVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-11T18:30:38.447404+09:00",
     "title": "N4D の一般提供を開始: スケールアウト型ワークロードのコスト パフォーマンスが最大 3.5 倍に - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTk1WWVZoQnlJdDFWaVVmckFIdlJXWEZPZFQxNFlVaGZLN2NlZUVHbDBVT3V1WXRucUU4T0ZLZ3dEN3ZnQktDbjc5QUNEazRlYTd6U2tveUI5VE5EVHZmVUUxbVVzcWVmZWdMcVhCV0NOOWZ4eFBfTWdJbXRwTVBidzc2dllraDlzVktn?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1568,5 +1518,15 @@
     "date": "2026-01-10T12:49:17.962883+09:00",
     "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0hZb3ZYZ29ZZWh4UkJvZHFFUkppR2VlSFpfRXVhQ3dROTd0cjBUUVhTbEViV29vV0xTbFZza3pJYy1VLThIR3pLRXBjdTJvQXF6WHlOS0gyc1B0MXRWcXA1VWtmWExKVW91czAxLU1maTBCSzdsZ01fLVlZQ2FNM1lRaDgxa2xES25yNzF0WTdnUUxqSG1DU0RCTUtMbUVna0lHVg?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-10T17:52:26.135941+09:00",
+    "title": "最新の生成 AI に確率的丸めが不可欠な理由 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVkRIbXYxeTVsMFhDNmlRZXlBQVE5S1B6Ylp0TllfRTllT29CemhnRjJ0YWJ6YnpSWDYtTDRSR2VwOEd3c3pXRUIyeU9sd3gxOHVSRHpWWXdIRm9pODE1NHotOWlYMUMtN1RSWTNETm1yYjZGNVRSNEh2N1lHaFVmVkR3UWN4eUhrLXJMNG5sOVdtWXl2MFNhWENyanFTd0NYRzVSSjRCYU1PMU5TYktGMHBCYWVBX0hDdjRRMi1nQTZVLVI3NkE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-10T17:52:26.135941+09:00",
+    "title": "2025 年の Google Cloud Partner All-stars の受賞者を表彰 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZTJhRFJab3VuUm9EMEc3TlQ1RVYzYTlHQXRBRUJkdlFnTmdpeVh2X3BqYS1PQXJGRkhDY1pxelMzdWF0U2thUXpZaU0zNnp5ZDY0RTZsNGY0dHhNb21TYm9FTHoybzVacnlqLXBkYUlRMk4xZGVBbnlISThtSGtMN1pCdDFTbUdXTklLX0Z3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
