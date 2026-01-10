@@ -1,25 +1,5 @@
 [
   {
-    "date": "2025-12-11T10:25:37.014108+09:00",
-    "title": "Localhost のような所は他にない: Triofox 脆弱性 CVE-2025-12480 を利用した未認証のリモートアクセス - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQVdCYkVLemhQNVl5T3R5eUZoZkkwZkUyaHl2S1liQTBPZ1FjbmlVSkk4ZURhNVM5ektKTE5FTUZBc1FkVE5rZWd0RTFBODBqVmVrZ3N2TUhOSGx0NkFDZ19qdHNkcmxHTGdMRDZ0a2lUekg5cFpYbVE5ZS01NkVpOUJyU2RPVWZWRGI4SVE4cm96alU4dE82RXEybFhjUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T10:25:37.014108+09:00",
-    "title": "タイムトラベル トリアージ: .NET プロセスの空洞化のケーススタディを使用したタイムトラベル デバッグの概要 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTc2cUhUVlZqWm1UTVBwOTd5YnNYMm5kMDBuQUlhWWZ1QkdiUDQ0a0xJS0FmTERpb1lUWXdrVkhxLWpjTS1xd0ozT20zanlTamFXVWdOSHNzSU9zRlU5d2l4VmRsT1JacklqUjcxT2RjeFoxcVR0elVUX3F3ekhIUkg4eU1DTWxZM2otVEtFQnFvZnAxM0ZmdEdIOVZTZV82VWJLejJnaDQ2NllPSi1r?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T11:26:13.533838+09:00",
-    "title": "一休: Google Cloud 移行でレガシーな開発環境から脱却し、作業効率化とサービス品質の向上、ビジネスの成長を実現 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaUlkb0ZBOWZYakR6Qm1WQlRLejR5aEcwZ2U4QTN3QWtfTzBkTThCVE52bFlrSVFMekh1ZmxjTm1SZkgxVC1XbVF0NzFJeUdEUjRtVFZtMklMRnk0WjFaSjRNOWJnSVN5eUk0Y3ZET2otWElCOTBGZFdnbnFqYWY0X0RUTkZITDVXbkpVbEtSbGI2WThDTWExN2Z1eHZBWFppVFJEX3dxY3lBTGFRRWJUV2tMaGhiNERRcmtzSHozWk5ILUpjeTFGbGFXWjJ3WnRJcnhkcW9hVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T11:26:13.533838+09:00",
-    "title": "最前線からのインテリジェンス: UNC1549 による航空宇宙および防衛エコシステムへの攻撃で使用された TTP、カスタムツール、マルウェアの分析 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHFSc0VBYzJFYmwxem1BSExhLTJZazN1QW9sTl9ZelJGX2xFRjNuWkMxTlBCQ3NiMXFINGRjSmY3ZU1CREdJbEZJVmVtNnA2OWtUcUI2N2xzNThmNGszX2U2bTJGOWpIWTlBWGlJbU1LcE9rTTN5WDhVM1JzWE9Xd3FOQW9NX1NDNE4zb2lWUmd0c2FOb0tDaFU3MFdNZ3N1Y2Z5NUVwR3hpRHRMTHpqMi02TQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-11T12:26:49.862671+09:00",
     "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnpGNmVaRE4wT1FhQkNFU2lLWGZ0Tk1KV3FmYm0tRTdGYzR3Z0h4bXBuejgwaU5CZnNCZjhGck1UREtzN1p5aUYwSEcyVVBkbU1ha2hTTmFCRUhkRWxVUU5EdFhPa2NwMGFhT21WQTJ6WEE1cW1jbE9jdWF1Y2tGc05nUXcxYmdQeFlCQkY4N3FVWXRrRVQ0VGY2X3NEOGZndUdmSDJn?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1588,5 +1568,10 @@
     "date": "2026-01-10T09:47:22.945333+09:00",
     "title": "KDDI と Google Cloud、AI の祭典「KDDI AI Agent Day」を開催：AI エージェントが実現する可能性 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0x1cThNVmtYWk9nM29VSUduWWFNbVpHSFZ0WXVqUllRWkVEMU1fRGxxbi1DMGp4WXJFbWV3OWVORDNXZE9RYnoxUnZMSTdlVm5hcFhreW5aUkF2WXhmdGxpeEVEMXI2bFFTOVdDcVhLX2dCa2NwUE8tT2gxM0MyYXlyQ2FpT1NScWhZMWZpcWhLVFJCcm9NQ00yN3ZfR2trQzZ5dmRNajd1Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-10T11:48:38.675131+09:00",
+    "title": "一休: Google Cloud 移行でレガシーな開発環境から脱却し、作業効率化とサービス品質の向上、ビジネスの成長を実現 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXB6TkI3dmx4QnRsX24xaEItYlNMU1ZPc2hnN2NrV2FyZjh4dlBDeHZBS1hPN01wemFOcHU2Sl9SYzh3OXpmOEoxUUJjZDQ1M05uQk9pTUphZXFhNUM5aDBCWG9VSkJhckVob2FJNmpLSmtReU4zRGIxX3VuVmtEdkxHZnBRT2tWUUVFT0k2ZnVndWlzWGZTLWxsZjRWZ2lFOGVHbzVlZ0tLXzF6UjBiQjd2UHhELUVaUjBGODN6QkxKR0NFSXpJd2FNaWlWLXBNWmtUZGJR?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
