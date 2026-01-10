@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-11T12:26:49.862671+09:00",
-    "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUnpGNmVaRE4wT1FhQkNFU2lLWGZ0Tk1KV3FmYm0tRTdGYzR3Z0h4bXBuejgwaU5CZnNCZjhGck1UREtzN1p5aUYwSEcyVVBkbU1ha2hTTmFCRUhkRWxVUU5EdFhPa2NwMGFhT21WQTJ6WEE1cW1jbE9jdWF1Y2tGc05nUXcxYmdQeFlCQkY4N3FVWXRrRVQ0VGY2X3NEOGZndUdmSDJn?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-11T12:26:49.862671+09:00",
-    "title": "Google、「Google Cloud Next 2026」の登録受付を開始、アーリーバード価格で提供 - CodeZine",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tNWtiaVdqZDhNZHNkMWpobEhNZC0zZDhuMEc5NlJQaDdzOVV3VkxKelh0N2RQeGtrMV9MSlI0ZVQ0WlJvdWpoY2oxVmcydw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-11T13:27:27.517782+09:00",
     "title": "Google、すべてのサービスに生成AIと接続できるフルマネージドなMCPサーバを提供すると宣言。まずはGoogleマップ、BigQuery、Google Compute Engineで利用可能に - Publickey",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaEtuYm10cUJqWTRXam9oblFjWms5NkdxMF9la1pGRmlBWFg3VEdLT0MwbGQwU1RNOGp4Y04wLXpWX2FfVmxtVG5mWVN5ank5Zzk2REx5UE43Z2JzTEtvWWRaTkFvOXN1RVF3LXpzU2JjY29nMG1FdndYQmJIMFJFTFphMTE3NUVDV1h5Ny1B?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1573,5 +1563,10 @@
     "date": "2026-01-10T11:48:38.675131+09:00",
     "title": "一休: Google Cloud 移行でレガシーな開発環境から脱却し、作業効率化とサービス品質の向上、ビジネスの成長を実現 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXB6TkI3dmx4QnRsX24xaEItYlNMU1ZPc2hnN2NrV2FyZjh4dlBDeHZBS1hPN01wemFOcHU2Sl9SYzh3OXpmOEoxUUJjZDQ1M05uQk9pTUphZXFhNUM5aDBCWG9VSkJhckVob2FJNmpLSmtReU4zRGIxX3VuVmtEdkxHZnBRT2tWUUVFT0k2ZnVndWlzWGZTLWxsZjRWZ2lFOGVHbzVlZ0tLXzF6UjBiQjd2UHhELUVaUjBGODN6QkxKR0NFSXpJd2FNaWlWLXBNWmtUZGJR?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-10T12:49:17.962883+09:00",
+    "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0hZb3ZYZ29ZZWh4UkJvZHFFUkppR2VlSFpfRXVhQ3dROTd0cjBUUVhTbEViV29vV0xTbFZza3pJYy1VLThIR3pLRXBjdTJvQXF6WHlOS0gyc1B0MXRWcXA1VWtmWExKVW91czAxLU1maTBCSzdsZ01fLVlZQ2FNM1lRaDgxa2xES25yNzF0WTdnUUxqSG1DU0RCTUtMbUVna0lHVg?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
