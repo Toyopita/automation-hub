@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-13T06:45:22.738329+09:00",
-    "title": "Google Distributed Cloud でオンプレミスなどあらゆる場所で Gemini を実行 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWUNwamVNS3ZWWW9ZSWphZl9EWEFwWm02YnVKb3ZONEpsQ1ZlZG5qLVFxTVcxQW5OUWFXYks4TWx2VUt1OG5ndUMySnFOWFJQRTVZWmNRV25QbG1Oam0xRUhpS0s0dFB2TUpmRkxwLXNSQVZlZ0NrRXlJS1lEY3luNGZ6NmRkdFZFSEhXWFF3?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-13T09:47:09.344094+09:00",
     "title": "Google、学習向け「TPUv8ax」と推論向け「TPUv8x」の次世代チップを開発中：脱NVIDIA戦略が本格的に進行中 - XenoSpectrum",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82bkdCNUZWV3djb3BOTk1wdndyUXEybGQwcl9CSkpaZUx3dklHZmtaY2ZNWmJoLV9YZUMySzRHUmkwMHNtNHd4M0k3aXpUXy1jbWVLSzlDdFRhZkdQd0VMa2ZxM25BUG5XNUEyS3lEX1UzRmIxNTZSVVJiaVhNdw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1358,5 +1353,10 @@
     "date": "2026-01-12T02:41:47.566233+09:00",
     "title": "Google Cloud Partner Top Engineer 2026 アワードプログラム 申し込みを開始 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeE4wTTdoUzVrYTNYV1N5TURVNHQ2bGRNbFplclp2Z3R1bFNvNVpRZVpWMWlMWWJ0ZnMyTDgtOVBUNFNabzFVdENZczJNWEZQS1FyekdlU0lIV280b093SUM4a19yWld3akdxS1g3a2RLR21JaVZfcERJOHJpWjF4MWtJbEFlcEI0dDZWLWU0dXM?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-12T07:44:39.334125+09:00",
+    "title": "Google Distributed Cloud でオンプレミスなどあらゆる場所で Gemini を実行 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWUNwamVNS3ZWWW9ZSWphZl9EWEFwWm02YnVKb3ZONEpsQ1ZlZG5qLVFxTVcxQW5OUWFXYks4TWx2VUt1OG5ndUMySnFOWFJQRTVZWmNRV25QbG1Oam0xRUhpS0s0dFB2TUpmRkxwLXNSQVZlZ0NrRXlJS1lEY3luNGZ6NmRkdFZFSEhXWFF3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
