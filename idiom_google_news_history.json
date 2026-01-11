@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-12T19:39:03.669829+09:00",
-    "title": "Gmail の分類ラベル機能が拡張、DLP ルールでヘッダー・フッターに警告文や注釈を自動挿入可能に - HelenTech",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1PdUUzMnR1TVFTQUR6cUVBY1d4X1NvV2pvZHFUNkN0U2luUUR0MWVIRHEybGxFa1E5bzFJTEZHU1NlUHM5QWxV?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T19:39:03.669829+09:00",
-    "title": "「え、そこまで？」Chrome同期機能の裏側を知って、私がそっとOFFにした理由 - ライフハッカー・ジャパン",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWGEzSENNMEtFX1dzVlFDVjhoMWJWclRxSzlXTnBxU0pNa2ZIeGNJTnVVdS1iTkMtTTAwcDZ4M2JCdTd0Q2tlTmVkdzNIT3JKV1E2ckVtd0Iyb0pEaVZnbjI2aS1XdkI0akNYREZwbGZyU1lsazRzUVYzS0sxd0k5eG9nUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-12T20:39:39.504716+09:00",
     "title": "エヌデーデー、Google Cloudの エンタープライズコミュニティに貢献 Jagu'e'r(Japan Google Cloud User Group for En... - アットプレス",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9rS0lBYjRqY0JNR195bmNJU1NxTDlNT2U5VGduRWE4TWhnTlU1T1d0cUVPZkZycTRfanA2UXRkSlNramxsVEhVUUFsQWl6Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1333,5 +1323,15 @@
     "date": "2026-01-11T19:37:21.126979+09:00",
     "title": "Tata Tea Jaago Re case study - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41eDcyYUUxV2xxOGNpMTRJWHVDVm1HNjNiUVlPWHMyMDY1cHI4UHZiT05tcThZb3lRYUVoMDBnUmFqc2RpbERVZW1FZmxEWFRVdTI4Z3ZEbC1Kc2RIX2RjRHVMT2xBMUZudDFDZ0paWmhVb2EtNnROcw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T20:37:59.123513+09:00",
+    "title": "Google Cloud Next 26 の登録受付を開始しました。 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMUgxaU5iQ0NUc0RtTFl6ZnR6cHZiMTZKQXZTRkZYYThiN2N3eGRLSFpPYVlmMFEwOTFQRUVQcU9xeTk4OXFwUjNjem5ZSFU4T0ZkREJZMlhFdVZuYjZxNTVRZFFQS3RIWmI0bVhlNm1aUnI2R0ZnV0RaUkF4QXhZMDlYbFZkNlBGU2xvUTN0N2VRQ0R4X3Axbmk1ajRWWlhqNGc?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T20:37:59.123513+09:00",
+    "title": "Google Skills: Google AI の学習などの新たなプラットフォーム - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXRmcXQ0SmstT3FNV2F1TW4waTdBdHg2YXRtOWJTT1d4XzhIeDRLNWptbFVSTUppcXFCbUhGdzdKai0xRzFpZm96Z0ZPdjJEekRsLTQzVHFxSmYtZXJTb2dIeDdtTzFhajdIeVM1QkJaSEF1bVdhUGs2M09mTERwejdwOExVdUVkdTFZZ1ZfeU9wUEltQWlDTjN6RzI2U2s?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
