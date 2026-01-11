@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from discord_auth_handler import run_with_retry
 
 # 環境変数読み込み
 load_dotenv()
@@ -494,5 +495,4 @@ async def on_message(message: discord.Message):
 
 
 if __name__ == "__main__":
-    log('INFO', 'カレンダー登録Bot起動中...')
-    bot.run(DISCORD_TOKEN)
+    run_with_retry(bot, DISCORD_TOKEN, 'カレンダーMonitor')
