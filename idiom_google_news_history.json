@@ -1,100 +1,5 @@
 [
   {
-    "date": "2025-12-12T07:32:13.089114+09:00",
-    "title": "Google Cloud の生成メディアモデルの勢いを活かす - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMVJXcmJCcXBnZVBWaFc2bldXZjNnTXhSejJaa0tUSER6MlRUZjZ2MFVoMUZtNFF4emk3SHBmMlhXeXl0QXpQQTN6LVItVTUyQ09HUFlEWWVPRjUyZWdOYW9XMVVKa1FRakQxU3ROR3NFTkVWV2lqRjlEU01ZUGpFYlNxNS1NdXJtX29HNzdRREp6eHEycFJxY0h4T1RwUGdlLTEyYnIxVFVoVDY0N3k1M1VWT2pxZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T07:32:13.089114+09:00",
-    "title": "AWS と Google Cloud が連携してマルチクラウド ネットワーキングを簡素化 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0xibGFhR0hNTHNuUE9rakFVb040b3RVRmg0OU1vZEY3MTQ3U010cGJLREVEMnE4T1lic0JYMkRYZHBJN1JBTF9tbUxvOW1VQ0N2bTNPR1ZOYVd3T09EWk9HR2V5Z202Y1pESWtIRVEzbUFNTnB3U0todEJQWF9FQklodzk2M1RNb2tYUHk1UlM2b2RWZWR4eERFSEtIQTlib3VFbl9IeUwzYWRfenEw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T08:32:48.089553+09:00",
-    "title": "Google Gemini Enterpriseにゼロクリック脆弱性「GeminiJack」─共有ドキュメントから企業データ窃取可能に - innovaTopia",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zQmhJdEZxN0dhRW8zY2dmRktaeDZpWGlndmVubDJRSUtUN2Itak11WHVVeFVscURfOHdmUTR4TU04UFlESGI1Ri01QVJHU25tVWtORkJpcm4xbjM4cjhxMmlSRnlaTDhYelR5U1p5b25Ydw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T08:32:48.089553+09:00",
-    "title": "Beep Saúde case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rTzkyb2VLeDN1VkdxdUlXV2VvUGc0TTZfRHZwNDlHa3BSWGVfVFlpLUIyS0FDWHVMa0lheFkwMFJESzRSY080OGxWU1pEdlFxQXFiQkNNRU8yVEhzWFNScw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T09:33:20.575501+09:00",
-    "title": "Googleが米軍の特注AIプラットフォーム「GenAI.mil」向けに「Gemini for Government」を提供 - GIGAZINE",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZWVZxS0VjZEJEZEw4ZTJFVE15OG5VMmRqbmNKT0xPZWREczN0LTRXczhsT0o3Rjh3QVRLMWxaTzdXX2xlSW9SdkU4ZlRkMWprQUV3TS0zaUZibkFmRURpWUZqS3FwbmtMdE5uQmxoV1E4Z3pYOVE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T09:33:20.575501+09:00",
-    "title": "日立、Google Cloudとの戦略的アライアンスを推進し、現場にあわせたAIエージェントの開発によりフロントラインワーカーの業務変革を加速：2025年10月10日 - Hitachi Global",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OVW9DcXhoYzBFZkN5OGdPN3RGR3U4dFg5dnEtWVNJTXpUc1NaZ3BZQ2hrYXdMN0FPVnJsMjBqNzRtTmczbE1YdnF2TlA0OXFuZldpbUZ6NzVEQ052RjI4LU1BMFBHZThTNGx6VQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T10:33:56.068398+09:00",
-    "title": "Google、AIエージェント向け「Model Context Protocol」対応のマネージドサーバを発表 - CodeZine",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4OVQ4cnhyYXdSVkRDeklWV3o5WmFtNjVaUkgxVTNoWVdXNktSajl2TmVqSHBIOTFRTk5rNEYwNmFhdlhXUkY5ZVVqaEw2dw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T10:33:56.068398+09:00",
-    "title": "BNYがGoogle CloudのGemini EnterpriseをEliza AIプラットフォームに統合 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGdEo2WDlkRjNzSTNBX2YxREhfYmtadVhoM2NHb2daREhjb1dhVGpNX0xiSURnQmxsUDhjbTBaeWxvUG14UHlnQ2phb3MyWkpWcXI1aGZ0ZTY4S2xZTzhFbHZsNFRXQkxjWGdnUDhsNjk?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T11:34:30.390653+09:00",
-    "title": "京都桂病院、Google WorkspaceとAppSheetの活用で医療現場が業務改革を推進 - クラウド Watch",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vcWhMYlVNaXV1MUhIVzVZRlRfM3V0Vm1zX0F2ZU5GcmF2Rk9SdzMwX2lfeEZBNFh4c1NRMFdpZ24yUUxFa2VCNkI5cG15Uk1kcjZYdFRpU1lUaFptRlRKZzdVUXFJLWs?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T11:34:30.390653+09:00",
-    "title": "Google Skills: Google AI の学習などの新たなプラットフォーム - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXRmcXQ0SmstT3FNV2F1TW4waTdBdHg2YXRtOWJTT1d4XzhIeDRLNWptbFVSTUppcXFCbUhGdzdKai0xRzFpZm96Z0ZPdjJEekRsLTQzVHFxSmYtZXJTb2dIeDdtTzFhajdIeVM1QkJaSEF1bVdhUGs2M09mTERwejdwOExVdUVkdTFZZ1ZfeU9wUEltQWlDTjN6RzI2U2s?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T12:35:03.202878+09:00",
-    "title": "京都桂病院、Google WorkspaceとAppSheetの活用で医療現場が業務改革を推進（クラウド Watch） - Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qb2dQbmxiRFVmWmo2WjJtamNMcTVLeno5RWVuRUtGcEg0U0dqMW5jQURVV1JDWlhIa3FGb1ZCN3g5VklRbXhNWWpPYjdLbWpaYnJ3R2FxdzJjQS1Ca2NLQ015aWFoVUI5aEVQUndxYTFvRkdZZmNVRDF1cGd1bm8?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T12:35:03.202878+09:00",
-    "title": "Angkas case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80OWY5VnJVSExYVEtRMldFS1R5ZldBb1ZNb2ptY1gxQkhTREE3c0FuUjFiSUdvSzAwbXhmVHRnWVJPdkxnbTFVNm1SaTNyMHU5LUtsY1dibmJzcUE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T13:35:38.606659+09:00",
-    "title": "「Google Cloud でのプロダクション レディな AI の開発」学習プログラム - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMy1peUZtNnExdFZUUjcwamR4NHFMUWpKdnhSMHNkcWRUaVdqZkhCa1MzMUJBTkdFUFZmbnR3Sk5GMktkSG9Jc2hzcFdOMHhuSXMzcFdLZUxxTEhfTEtFOEdmblh1eVlkV0FUdkFSOE00SU1iZzBxZVpaRXZaYWJpbG52YzgzRHBKSkJRT1B5SWN0T0trcEJOYkhzdFFXcTB6SXFrN0pQTzJ1THhCbHJaSHBfNVZuNWxO?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T13:35:38.606659+09:00",
-    "title": "京都大学、Google Cloud と連携し AI・DX で拓く教育・研究の未来を創造 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcEFrTXpqZFhNcnNGUFllNGtMSzV1NFhkY2E4LVJtNy1qemNCY0t6OUItSE9DSFhCSHY5aW5pQU9JR3FKSkFTT1pXWDROSmZ1V19uVzZic0dBUjc2bWtNQmF6OHlkd1JZYTFtMmY0WlVEOTNGQ2pSZko0bzZvQV9Eam9fYWVsWjBlVlhkaVh1LWs5aTNDTU8yMEtBQ3FVVVhTLUllZmRMbXRjNG14bFU4OVBhQzB4d2lHMGpqUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T14:36:14.126728+09:00",
-    "title": "Google Cloud Next 26 の登録受付を開始しました。 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlJiVktVUFlkbm5sbE9SYWtVNkpLRUMwY3lnUW1OSnVab1JDU1RDNlZGVkNKWjNvVE9fN0dVQ0tPWDFubXB1MzZHTDB3MW5TZnY4REVrZ0RELUdSTGRweUhhRGJRamdlYUJYOWNyWXFUb0pnWDVhZEJJR0E1X09LOE5CRU5JRlVlVk02TGEtbEtwaGt0Y0Izanl1RTI5Vkljdkg0?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T14:36:14.126728+09:00",
-    "title": "VPC フローログと Flow Analyzer でクロスクラウド ネットワーク トラフィックの分析情報を取得 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOG5VcVd0NVVoUlB5VzcyVU9Gc2ZwMlQ1X0pndW5vOTZHTG94bE1iRlRzTk5FQy1ncmQtWUZkZTZZTHZxRFFTdXVWOE56ZDVIMHpvdFBvbzlPOWRkRUktVlZVYzJNbzl2VkFSQmNNVzZoOWF0YzczSy1vUDJjQmw2NXZGQ29qaVRtRF9vWEdwT2xnV3E0MlE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T17:37:50.323182+09:00",
-    "title": "キンドリルのエンジニアが「Google Cloud Partner Top Engineer 2026」 に選出 - Kyndryl",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2NCYlBsTFRXSG5FelE0SDFRdUhXLUNlVjNRNWV6VVZhb21HLVRsd1R5QWRsNkxINWJjR1pOZFZmN3drRTZ4RmpqWEpRVS1fUGRJb1RKZnEyeU1iOEJVN1lfUHVRMF8ydjUwZVZDWTkyenJPdzBDb2l6NjBMZEF6NkF3Tm5yajFIdnl5Y2lR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T18:38:25.922300+09:00",
-    "title": "Contextual AI case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zS1FZVm5nVlpYaTd6UkdMNFk5TXgwa0hqelNWTWU5YkhxUkhiSjh1V096blB2RXpzYkVUdEtUR3NqTjY3VmhRbGFGbnRMaEdCblRvNU9WNWw5czNmZ2thLVdXYw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-12T18:38:25.922300+09:00",
-    "title": "【Next Tokyo】120 以上のアーカイブ セッションを本日公開！ - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0xpR2tkYXlPTlFJOEQwTUNiMXVuSXF0cjZEYTJWTkliWE80SGRESmJRaUdPU2pHQTZENF9tTmJsTU9DSEZPNnFGQ3Y0QkhtUE93QXpOWThjeXNzSlFDNWdHN0g0ZmFwT0NIOV9kay1sM3dDY1VIOWlnRlhxaGdLSXRmTFA2SUJYdUZlNEtOQ0hzVjJkZzZ2VmdMX3Nndw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-12T19:39:03.669829+09:00",
     "title": "Gmail の分類ラベル機能が拡張、DLP ルールでヘッダー・フッターに警告文や注釈を自動挿入可能に - HelenTech",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1PdUUzMnR1TVFTQUR6cUVBY1d4X1NvV2pvZHFUNkN0U2luUUR0MWVIRHEybGxFa1E5bzFJTEZHU1NlUHM5QWxV?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1418,5 +1323,15 @@
     "date": "2026-01-11T07:17:56.135382+09:00",
     "title": "Google Cloud と戦略的提携、信頼性の高いAIサービスを本格展開 | KDDI News Room - KDDI ニュースルーム",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5dFMwYWkyZmpxbUd3RDZHbWl0WTUxb3RUanVTNXpuMlBCaldPeGw4WEVYNUpISnktem96ejhCeE1pMXFyVHBCR29obGtoRW5obk1nc0tyTlBfNWdGWThSUHc3eWxISGRqOFpj?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T19:37:21.126979+09:00",
+    "title": "Innobrix が Google Maps Platform 3D Maps で築く建設業界の未来 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRjhDeUFTVWFsOTE3NFpoTlNmdGRsSUUyUW53ZmJTTjYxekxhS3d6cVg5V2xtbmtpdzM1OEFhQmxuRTVLMUtfVEN4WjkxbTFlYUxQbVdvVzh5UTVZUk8xWENOaHdGb1BnSVhldFRQVHlxOUV2X0IzQWtYZWIycE1YQXFrMVVGRmlTMWJkcVltTkl6Q2doNHVhOHp1LTlCQXlBbldDaVZRWUlsZFd1UEZxZ1NyUzhlTFRma1UtMzdwMUhpaXpMbUlxa2ZrQUhmV3JVVzRERVV1dFE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-11T19:37:21.126979+09:00",
+    "title": "Tata Tea Jaago Re case study - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41eDcyYUUxV2xxOGNpMTRJWHVDVm1HNjNiUVlPWHMyMDY1cHI4UHZiT05tcThZb3lRYUVoMDBnUmFqc2RpbERVZW1FZmxEWFRVdTI4Z3ZEbC1Kc2RIX2RjRHVMT2xBMUZudDFDZ0paWmhVb2EtNnROcw?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
