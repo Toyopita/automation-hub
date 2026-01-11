@@ -19,6 +19,7 @@ import discord
 from discord.ui import View, Select, Modal, TextInput
 from dotenv import load_dotenv
 import requests
+from discord_auth_handler import run_with_retry
 
 # 環境変数読み込み
 load_dotenv()
@@ -647,5 +648,4 @@ async def on_message(message: discord.Message):
 
 
 if __name__ == "__main__":
-    log('INFO', '献品監視Bot起動中...')
-    client.run(DISCORD_TOKEN)
+    run_with_retry(client, DISCORD_TOKEN, '献品Monitor')
