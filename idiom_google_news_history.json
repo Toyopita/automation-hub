@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-14T18:05:37.956050+09:00",
-    "title": "Regione Umbria case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GS1RyTTFyd0s0YzJGNDRhcXJpNlpELWtoTEZHWGkxUkoyS2RsZkZIa2lmQ1ZKcE5YTEZyVzAzdWRPUFZSYVltTUlmVm1TRkdiajN3azVfOVlLbTB2Mm1TUjZPVkFwcTZSMWs1VXlkdmE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-14T22:07:57.389908+09:00",
     "title": "NTTドコモ 社内データ活用基盤の裏側 - Cloud Run が支える開発の民主化とデータ活用の未来 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWUhTZVJpOHhUOExsenFWT0VOMm9xMk1iM3p4VVgxd1JtRWFKTE9SNjJKdkprSE5wR2xhSE8wSmZ5QzRvcXk1VHg1SmkwSWwzek9OVXhYMk9saWpyMmlFX2F1VWJrNXRtMW9BSmhWRk1mWEZVQnRZNVo4RUlWbnNhcVJWQ2pfMk1jSGhkZm0zaFQzeG8tU1ZrdDhBYw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1448,5 +1443,15 @@
     "date": "2026-01-13T18:04:55.872926+09:00",
     "title": "AppleがGoogleのGeminiを使う複数年契約を締結、イーロン・マスクは「不当な権利の集中」と非難 - GIGAZINE",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE14aHNkRm1tN1VFaFF0SWRET3NsSWdVclFEYUxvaHZvbldQcm5kQXlaV05IR0RHQUQ1cWo3VUlLX2xicTNoeFJxZTBlNk4tMnJqelFoRm9xWVN2cFhzTmVTbk5CR2JwYmxoZlk2Q05PVDMtWWNaV0Q4?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-13T19:05:33.991249+09:00",
+    "title": "Googleの「Gemini API」でファイル容量制限の緩和やクラウドサービス経由でのアップロードに対応 - ケータイ Watch",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiR3pMTXFOR0xWeFc4UGxSQlI3dEc0bUZmZmd5cnNRVzVuWWw3MVQtS2pucTdHOUNfNUVTZS1yT215WjFwMkM5Z2kxaWZQOEdVdE1aOFVqMG5mQjFsWHBWSDdsSUFMcGs?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-13T19:05:33.991249+09:00",
+    "title": "Das Ende der iPhone-Souveränität? Warum Apples 1-Milliarde-Dollar-Deal mit der Google KI Gemini einer Kapitulation gleichkommt - Xpert.Digital - Konrad Wolfenstein",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWElrQWJVbkZnWlVNQjBPNDRob3d2am0ySUlMNlpwR1NadHZVWVNTdEd1OGZLd3ozQ1lXOXpMc2hqWWk0THVydEN5S2NUQmRvNFNqQVVCZFhPX250RzRvQjNoQzJIUG1pQmtSWExFYlVwV1hwelJURnNtd0RVVFdvcTFrMEZNZHZZclkwQ1psRdIBlwFBVV95cUxOaXdrMHhKSGp5Sk1CLThuSlh6eTNKbDUtM1oxYlduOF9UQ3M0aG5FOW9Famd6cUlRMkVVNkh0OWhiYXRIWDFZNlFmRWJjUWxCSFFXSTY3Xzh2c1o3MW55bTJoN1NYeU5qOUpsSEwzbTRnZ25Hcm16MGhLMVFMSGpPVGtiUVZPY2Q3NTM1WlVNR3NWX085QUdJ?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
