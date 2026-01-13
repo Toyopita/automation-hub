@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-12-14T22:07:57.389908+09:00",
-    "title": "NTTドコモ 社内データ活用基盤の裏側 - Cloud Run が支える開発の民主化とデータ活用の未来 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWUhTZVJpOHhUOExsenFWT0VOMm9xMk1iM3p4VVgxd1JtRWFKTE9SNjJKdkprSE5wR2xhSE8wSmZ5QzRvcXk1VHg1SmkwSWwzek9OVXhYMk9saWpyMmlFX2F1VWJrNXRtMW9BSmhWRk1mWEZVQnRZNVo4RUlWbnNhcVJWQ2pfMk1jSGhkZm0zaFQzeG8tU1ZrdDhBYw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-14T22:07:57.389908+09:00",
-    "title": "SpiralAI株式会社 の導入事例 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrMGNYamhPejdQRUM4UTdMMzl0LVlmQVF1RXFLZlVBVnF5RVBpVkNsWEg2RHdsNE5VZVFHVXdJYkVMQzAyVUlwVEhhQnZXNHJhdV96YnRQTHpSVE45eXJLQ1RTUzNUTjIyUEN0Rg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-14T23:08:32.355565+09:00",
-    "title": "グローバルでのセキュリティ事業の強化に向け、日立システムズがGoogle Cloud セキュリティ ソリューションを日本国内でも提供開始：ニュースリリース：2025年：株式会社日立システムズ - hitachi-systems.com",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDWE1IazcwR2haNEcxVFRkSE4zVmZvS2x3bDNESFdJZG9xRnc0a0ptX1Y1b1dTYlp1X3dldXFLQ0c0Qk9YcmJUV3JfMWMycExLeWJLeXpiQklYWjNYWE1Vc0djSm5Jdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-15T02:10:19.724118+09:00",
     "title": "Google Cloud Partner All Certification Holders 2025 応募開始 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNThDQWFOT2VReHk5UFRhWEVaaXhkOHVGellSZ2FrbVRjNEh4eENTZWxIZzdBdl9sczRORnQ3a1lSc25sa3U0UkxYNC1XaS1KSVU0d0JIT0ZLN0R5U2ZOM1M1Y2RWaVB5NEVsVl8zS2tJQ1lwa0NZWHJYY0JZRnpGbTY0TDdULVJjNmlsOG8xRER3ODZkb2FYcjN5c20?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1483,5 +1468,15 @@
     "date": "2026-01-13T22:07:32.403112+09:00",
     "title": "Agentic AI Summit '26 Spring 開催決定！AIは「生成」から「実行」へ。ビジネスを動かすマルチエージェント時代。 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDRmbzYyZ002SXNrRTVubHlJYmpWVHBRX0ZocmxLMjNPeHhZMXhKamRVNjFCRXhxTkpUWEstMVpnb0RWa0ZHMDNwMTF1QXlPMFpXSUNqX1dZb1Y4WmNXU0xKbFZXX2I4UE15bFJycUdvckpBNE5UelVwRTFNTmFrSnd1U3VvVkVrOHpZZkVsV0Q0X2s?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-14T00:08:18.217250+09:00",
+    "title": "AppleとGoogleがAI分野で提携、次世代SiriはGeminiベースに - ｄメニューニュース",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xSW1seThSOVJRQWg4UGxzVE1SZEtyRUdubU04MEYzc3k2OEhhbGFDb3B0MmZLOEktYmlBLVhlMk1fd0owYk5HNnhkQ3RBQ2pKS2tMaEV0MjVGbHc5dkNjTUR4WDZ0WFpDYXBtTXpCTlUzSzFzdUc40gF8QVVfeXFMTnA1S3duWFJsbmN1SUdkMWFWdU52c3c1NkF2N3I0amw4RV83Vmxyb3dBUnItWkZCUWMzUHFCblhtM3FCbW84dVotTVoxSFM4OEZ3d0phLURjem9obVlzSWlMeXNyYUxFLTNrYkRscU8zbWtFbURzSC1NWWpCOA?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-14T00:08:18.217250+09:00",
+    "title": "すかいらーくグループにおける生成 AI 活用: 店舗オペレーションの変革とデータ民主化への挑戦 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWmMydk1TWFMxTFhsOVdCVFdLZnB1Vmd4Y191eWF5VEZJSDRsRVlGcDhfdXBhbFVrUXdTLWU1dXU4QVdKYW1Wa0EySno0UTUxcGZ5YjZ2SWhIZlpfeV9MNkpLZGpxTzhfNmd3Ry11dy0tRG0zcTRaOE0zdU4xSGR3dTZwMlA4cVhsenp1VV9YbDJwR3ZZYmdsU256aEU?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
