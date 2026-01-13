@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-14T15:01:53.921932+09:00",
-    "title": "GIGAZINEの新着記事をDiscordサーバーに即時通知できる「GIGAZINE BOT」のサーバー登録数制限がようやく解除されて誰でも使用可能になったので開発の流れとサポートとの地獄のやり取りを振り返ってみた - GIGAZINE",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aVVNjRktJLW93eGlrNTZMQThmRjAwSWtvcFl3TnJubXp4eXlqSi1Bd0FZV3pSSmwwNmtjYVdZQ3pmY1ZvSC1MNHlTZTVtUUwxTDVsZDBRdUlTOFRMZDBzR083Wmh6bkJ0M09LOWY5WS0yZ080TG5IakRR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-16T05:23:37.228630+09:00",
     "title": "Discordコミュ運用術：作っておきたいおすすめチャンネル【実践編2】 - Appliv Games",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2M2pNRVBzaU5pX216SVJlVEZLSFh6MUZ4WnFpYmJ0RzhJWVVScnloUjBsc2RMTFEzOEJUV3Badl9uZmFYc2N2bFFKekwwUllvdWc?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -328,5 +323,10 @@
     "date": "2026-01-13T05:47:45.115351+09:00",
     "title": "Discordとは？5つのメリット・使い方を6つのステップで詳しく解説 - DMM WEBCAMP",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0yT3hEY3AtWVkyZ0Vfbm9IV0VzdnZXUkNoUFBiQklNdWNWSmF0Q0tZUEpmRi0xNldiSWV3T2xyUEtSU1djVVg1SWZMX3l1bVJrNUQ2ZENXRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-13T15:53:10.050595+09:00",
+    "title": "GIGAZINEの新着記事をDiscordサーバーに即時通知できる「GIGAZINE BOT」のサーバー登録数制限がようやく解除されて誰でも使用可能になったので開発の流れとサポートとの地獄のやり取りを振り返ってみた - GIGAZINE",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aVVNjRktJLW93eGlrNTZMQThmRjAwSWtvcFl3TnJubXp4eXlqSi1Bd0FZV3pSSmwwNmtjYVdZQ3pmY1ZvSC1MNHlTZTVtUUwxTDVsZDBRdUlTOFRMZDBzR083Wmh6bkJ0M09LOWY5WS0yZ080TG5IakRR?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
