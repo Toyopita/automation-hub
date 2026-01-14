@@ -84,6 +84,22 @@ def control_light(command: str) -> bool:
     return result is not None
 
 
+def control_light_with_retry(command: str, max_retries: int = 3, retry_interval: int = 5) -> bool:
+    """リビング電気制御（リトライ機能付き）"""
+    for attempt in range(max_retries):
+        if control_light(command):
+            if attempt > 0:
+                print(f"[INFO] リトライ{attempt + 1}回目で成功しました")
+            return True
+
+        if attempt < max_retries - 1:
+            print(f"[WARN] リビング電気制御失敗。リトライ {attempt + 1}/{max_retries}... ({retry_interval}秒後)")
+            time.sleep(retry_interval)
+
+    print(f"[ERROR] リビング電気制御: {max_retries}回リトライしましたが失敗しました")
+    return False
+
+
 def execute_scene(scene_id: str) -> bool:
     """SwitchBotシーンを実行"""
     url = f"https://api.switch-bot.com/v1.1/scenes/{scene_id}/execute"
