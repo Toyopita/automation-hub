@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-15T16:19:24.290194+09:00",
-    "title": "Google、AIに人間のような「長期記憶」をあたえる新アーキテクチャ「Titans」とフレームワーク「MIRAS」を発表 - ビジネス+IT",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84cmJfNlc1YzZNdGdXd2NVdHBWcTEzdkg4VGxFbUROX2twUE1rdGNNOXR5dlBUSFJVbm9pdVdWdlgxaXhNUGFpbWpzSDE3dTcwUE5V?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-15T16:19:24.290194+09:00",
-    "title": "AIデータ社×リーガルテック社、ロボット産業の“技術はあるが儲からない”構造課題に対応する新収益モデルを共同発表 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOZTViejNJLWViRVZjaWNrTkhfWklUSjRWdl93eHdfRDFhMXBzMlBiZ1hvMWlsUUJyRFczR1BMZVV3QmU4SWdVYVFoLXNvYWwxWk9seHZuTE5PdzV4NUk4UFJxOG85dmZFakE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-15T17:20:00.410107+09:00",
     "title": "NVIDIA Run:ai Model Streamer を使用して GKE 上のモデルのダウンロードを高速化 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeWZpWEFmVlpqSDFHYXB5SW16X2tVUXAzcDEyUGJRMDRsUDBJMmswSEJPcDhLaDRJcG9ETkNRdnYxV2ZoVzBPY3AtajItQVRySmQ0NDVBRzJNbEotM2tQSllfS3N1RFlGZmpnZWRuSHV1U2g0REF5X05PZDBfb0xvX0pzdXpyTTF0ZndjVXBjVTMzdlhpZnRmX3EteDh6aHpMN1NRa3lCOUIwX25OWS1pQUE3SVZJUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5228,5 +5218,15 @@
     "date": "2026-01-14T15:47:34.975829+09:00",
     "title": "住宅分野の消費者の生成AIを使ったWebでの情報検索行動の実態を可視化、業界初「生成AI対策/LLMO弱点あぶり出し調査」サービス開始、生成AI時代のWebマーケティング戦略を立案（ニュースリリース） - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0V0Nqc1ItcEtfcnF6QUV6Q2FYX0pLcFBYTVVId3VWeXBmMUNWVFgtVGhCOWJmbHU4Y0F5V3Q1NzRBSVNVR1MtaWZvRGpzdmxlbFBOdFJvMjFqODZ2WXFMNXVGRjNUSU9wNUE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-14T16:48:13.148446+09:00",
+    "title": "貴社のインフラストラクチャは AI エージェントに対応していますか？ - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2RxNmg4NTNMUkNmcnBYYjdmSU93SXdGVGVfNFNWMVNEYWUzUUJleGNmYVRqaHFTcmJueGpQWGxiWlBVeFhlZHgteDU3Q0luZzdWcnNMUmxDWjMwQWVRLVoxcmFfX05BQjl4bTFwSnVKZngyejNpZjRCNkVjV1lFSk9vODNYQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-14T16:48:13.148446+09:00",
+    "title": "\"1回直せばAIが覚える\"自社流に育つ経理AI—近鉄ロジスティクス・システムズの事例をPIVOTで公開 - PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLclhFNUw3Qkpsa3Q5Ry0zaWJfYXY1VnZ1MVlBeTdSTGZYWkxZRFdFeGJ4a3NYNHU2Qm4waGZnVW43SmUzVVBfMVBLSGZrM0JpeDBMeE9FNEQtY2ZoSmVyWU93MEE2WHRmTkE?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
