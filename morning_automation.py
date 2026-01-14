@@ -84,7 +84,7 @@ def control_light(command: str) -> bool:
     return result is not None
 
 
-def control_light_with_retry(command: str, max_retries: int = 3, retry_interval: int = 5) -> bool:
+def control_light_with_retry(command: str, max_retries: int = 10, retry_interval: int = 5) -> bool:
     """リビング電気制御（リトライ機能付き）"""
     for attempt in range(max_retries):
         if control_light(command):
