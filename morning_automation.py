@@ -249,9 +249,9 @@ def main():
         scene_result = execute_scene(Config.TV_CHANNEL_10_SCENE_ID)
         print(f"[INFO] 10chシーン実行結果: {'成功' if scene_result else '失敗'}")
 
-    # 4. リビング電気ON
+    # 4. リビング電気ON（リトライ機能付き）
     print("[INFO] リビング電気をONにします...")
-    light_result = control_light('turnOn')
+    light_result = control_light_with_retry('turnOn')
     print(f"[INFO] リビング電気制御結果: {'成功' if light_result else '失敗'}")
 
     print("=== 処理完了 ===")
