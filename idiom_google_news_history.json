@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-18T01:27:22.270653+09:00",
-    "title": "GoogleがMetaのPyTorchと提携しNvidiaの優位性に挑戦、ロイター報道 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sUXUxU1VfVlpMRjctSjU5Wlk0Qy0wcTVpNzdTWkQ5ZkhZVXl4V0R1RGRQYmZnaUVWTTlmU0V4NUdLdzVVYjhHSnJSa3lfNnVYZGJXRTU1YW9MLXBfcGQyVkhTak8yanl4blRYblpDX2Q?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-18T10:32:22.293654+09:00",
     "title": "OLAPデータベースのClickHouse、Google Cloud東京リージョンで「ClickHouse Cloud」を提供開始 - ITmedia",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1idVo3QjlVcmpnNm8ySjdvOEhUTGhycEFQSWRvWUdfZlZUZzRVdm81RTdvb3NHMXlMcUVTR3NqZlVrc3NiNlYzSEVjQlNhNFU3aXlONU1mY0pfSEF5WF9PMGNYWnBpbUYzTUVpMHpTVkM0QQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1523,5 +1518,10 @@
     "date": "2026-01-17T00:50:56.270498+09:00",
     "title": "Google、Gemma 3ベース、55言語を網羅したオープンな翻訳モデルTranslateGemmaをリリース - gihyo.jp",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BYU1oNEUxM2d3ZUx6ekxTREUzRVdoVWQ4U2lyNnlWWTNNQXRWdmpTaFdYZ2xlNzFiSDFfVFl5aEl6YVdvMnpwaXQ4TDBVN3p3R2ZkYzBIS0hBOG8?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-17T07:54:58.699896+09:00",
+    "title": "翻訳特化のAIモデル「TranslateGemma」をGoogleが公開、日本語も対応 - GIGAZINE",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LWldxNU4wRTN2N0RuWDE0QXB4MXc4YjBxako4Mmc2Vk5Fd3M0U0lUbFZnU1RZSXhpQVpNSUlIYzVPdVRvUFVZU1RjQ2kzNnF3X281S3R0VDMwWWUyOUM4bHN2UElhRzJp?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
