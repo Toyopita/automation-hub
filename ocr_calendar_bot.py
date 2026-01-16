@@ -181,7 +181,7 @@ async def analyze_image_with_gemini(image_url):
         log('INFO', f'画像ダウンロード完了: {len(image_data)} bytes')
 
         # Gemini モデル初期化
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        model = genai.GenerativeModel('gemini-1.5-flash')
 
         # プロンプト作成
         prompt = """この画像からイベント情報を抽出してください。
