@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-18T10:32:22.293654+09:00",
-    "title": "OLAPデータベースのClickHouse、Google Cloud東京リージョンで「ClickHouse Cloud」を提供開始 - ITmedia",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1idVo3QjlVcmpnNm8ySjdvOEhUTGhycEFQSWRvWUdfZlZUZzRVdm81RTdvb3NHMXlMcUVTR3NqZlVrc3NiNlYzSEVjQlNhNFU3aXlONU1mY0pfSEF5WF9PMGNYWnBpbUYzTUVpMHpTVkM0QQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-18T10:32:22.293654+09:00",
-    "title": "ClickHouse、Google Cloud 東京リージョンで「ClickHouse Cloud」の提供を開始 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NM3lXTGJZaTE0RlJKN3NDdDR6clh6YTVBRWxhWmw3UGdzTEQ4NVRYeFJSS0VmV2p6TVJ0cmdESW0yekZOYlB0c1piRldkb00ybThLN21VRURabEhqVTRmeWxZRWdwbzRzR3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-18T11:32:58.075628+09:00",
     "title": "「シャドー IT」「シャドー AI」を可視化・制御！アイレット、ブラウザ上で導入可能な「Chrome Enterprise Premium 導入支援サービス」を提供開始 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcFRRRDNya2tKUmJpWExyNW5LWUJBVjloVy10QXlwVWViMDI0ZEdQM1E2dllUX3Z1R01uSWR1M3YxY0VFQy1qR1piZDQ3TGw4eWpkVV81cy0zYnVGMkpaN1dJVHI3anpJZEE?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1523,5 +1513,15 @@
     "date": "2026-01-17T07:54:58.699896+09:00",
     "title": "翻訳特化のAIモデル「TranslateGemma」をGoogleが公開、日本語も対応 - GIGAZINE",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LWldxNU4wRTN2N0RuWDE0QXB4MXc4YjBxako4Mmc2Vk5Fd3M0U0lUbFZnU1RZSXhpQVpNSUlIYzVPdVRvUFVZU1RjQ2kzNnF3X281S3R0VDMwWWUyOUM4bHN2UElhRzJp?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-17T10:56:40.086912+09:00",
+    "title": "Google for Education 「クラウド×生成AIで授業が変わる！教科の本質に迫るセミナー3days」を2/25-27にオンラインで開催 - 教育家庭新聞社",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tM3Rqekl2bjZ3ZWlCd2lQaG1UMXlSb1dwRWhFUmtzTzRjSFBrMm5pengzMXZ3bnBIWWRPU2h3QWV5VTZ2VWNQUmN2azJuZ1RPS2lB?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-17T10:56:40.086912+09:00",
+    "title": "グローバルでのセキュリティ事業の強化に向け、日立システムズがGoogle Cloud セキュリティ ソリューションを日本国内でも提供開始：ニュースリリース：2025年：株式会社日立システムズ - hitachi-systems.com",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDWE1IazcwR2haNEcxVFRkSE4zVmZvS2x3bDNESFdJZG9xRnc0a0ptX1Y1b1dTYlp1X3dldXFLQ0c0Qk9YcmJUV3JfMWMycExLeWJLeXpiQklYWjNYWE1Vc0djSm5Jdw?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
