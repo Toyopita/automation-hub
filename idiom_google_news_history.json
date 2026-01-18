@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-20T01:55:14.099726+09:00",
-    "title": "【無料】Google AI Studioで画像生成を行う方法！注意点も解説 - 株式会社SHIFT AI",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9wRzZPbGN4UUlBRDdvYjJwSUp0SE1sUVNOQjJROURDN0VvMkdzVFZJNEh1R2ExMjRTSEMxdi1TY1JndDVEVDYwNnh3?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-20T03:56:24.248271+09:00",
-    "title": "Gemini Live API が Vertex AI で一般提供開始 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUw4S3IxdEJuc2E0enV3dmFLcFdCcXZfZjhpU3hyeFNZaXRTcjlydzJvVkpESXdjU2RRWGJuM1phcTk5eU9pbllWWm0tc3J2R3llbVoxUlF1ai1sOHdGeUo1WHpFbWp5MF8xYWlXRkpGQm1RQVphYnhxNU9hVGZxX1pHLUNKY05BUS1yeFc3MXdGa0RQVUh2VEszb1JHWFk2TzA4?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-20T08:59:04.251334+09:00",
     "title": "Google Cloud、サイバーセキュリティ大手のPalo Alto Networkと数十億ドル規模の新契約（ITmedia NEWS） - Yahoo!ニュース",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtUnlBZXZMWUtLaUU4ODJXTHVzaWYtUzExZ1ZfR0pxR1hqUkJIZ1p1WmZHMGRaaUQ3aWNrM04wNXVlajczUWgwOEZfdUx4YUs3LVB1aGtsMkZvdUVZUjVWZFBRTzhxSmdBM3pEb0xqaFdGSkh3Z3VqbmRPZExUc0k?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1408,5 +1398,10 @@
     "date": "2026-01-19T00:22:26.241339+09:00",
     "title": "TPU「Ironwood」 の一般提供開始と推論時代を支える新しい Axion VM を発表 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVB4NlphVmYxdjRkekN3dWctUWZiUG5UandVUEtuYnI4SVpyaTZ6M2F2X21xOVRwU20zTnFLT0QtODRNVDdZdlZGY21SZlUwOXhoNGtqc0FoaWJTQUlaT25LUXVVUTdKTjc5T0tydFZHSlYyTW1waTVBZ1NOZU5VNTdxMTE2TTdqM01nTjRDc1IzekZBVll4NUtKczFuRTRQaDNMQlNOdlZoVXJNVFE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T07:26:37.478379+09:00",
+    "title": "Google Cloud 上の AlphaEvolve: エージェントによる発見と最適化のための AI - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX0ExSlpwMldCejVPQmtXRDAzQ25Yc2J6NVAxN0RfMG9lNURlUTZBcWgwTjVOUDBvS3ZJTGlpTTlqbHFlcC01TVViUzFaaWE3OXcyN0R1WHpzWnRkQklwRDhEZmwwU3gtNFhWWXFMNER5VksweUNjVWVob1otSW9QMGlEQm8yWU8wOURtMWFsY2lEb0E?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
