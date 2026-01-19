@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-20T19:00:32.394041+09:00",
-    "title": "「Blender 4.5 LTS」リリース！ Vulkanサポート、ジオメトリノードの機能拡張、コンポジター強化、ポイントクラウド導入など - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yQ01hOXhDTHl2V1NjSEY2b0dCTVlBSm5yTGhqaHdyRS1yZmY0TXZIM0EwRXJNY3RLSnR3UVplaTdQQUVabzFUdl9zblRzT3dnc0NGaHdqdHpEVi1IZ05SNXkzVEo0cHc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-20T20:01:10.207772+09:00",
-    "title": "Blenderアドオン「Retopoflow 4」リリース！ 定番リポトロジーツールが全面刷新、新機能追加、Blenderの編集モードとのシームレスな統合、パフォーマンス向上 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zUlphV0tPWVk2WWoyM3JpRGJKM1lTQ0dtTi03SmdUUmZUU1RoNGF1Z3dMSi1UV2ZjdUlqdFhOUVBRcjNzSUk1Sldmd2szSl9HVk9fZVdiMDctUDZWaFJ0aDhMc2JNZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-21T02:50:05.421890+09:00",
     "title": "Blenderからnano-bananaでレンダリング！ 榊正宗氏開発の無料Blenderアドオン「Monkey Banana」 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVOXQwSW5yd3FnMEp0RW51VjREU1htbFJlaUZ4SFNPZVZiTmw5dzh5V3M2VThLcFZ5T2tMdXB6S21XemV5T2NBNzlMeHd0VTdBZllpaUpGZVp5MWNEa0EwYk96Umh0X1Jq?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -398,5 +388,10 @@
     "date": "2026-01-19T16:21:30.690811+09:00",
     "title": "Blenderのジオメトリノードを駆使した甲冑の宝飾デザインが話題！ ファイル無償配布、Erindale Woodford氏の投稿 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6MUZHazZWZmoxZDV2OXhweWNBY25TUHdreTRqSUl5Y1lGRkRxZmo0cVZzSFhUR1czdzNnSUEyVXRQX3BFcVlkWmdoVm1jSkVrcjdtV042OU9mRDl4LXphVkhhc0xyaGR0?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T20:23:50.825067+09:00",
+    "title": "Blenderアドオン「Retopoflow 4」リリース！ 定番リポトロジーツールが全面刷新、新機能追加、Blenderの編集モードとのシームレスな統合、パフォーマンス向上 - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zUlphV0tPWVk2WWoyM3JpRGJKM1lTQ0dtTi03SmdUUmZUU1RoNGF1Z3dMSi1UV2ZjdUlqdFhOUVBRcjNzSUk1Sldmd2szSl9HVk9fZVdiMDctUDZWaFJ0aDhMc2JNZw?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
