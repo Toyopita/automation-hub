@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-20T14:02:00.783071+09:00",
-    "title": "Google Workspace Studio (旧称Flows)と Gemini で完了！「空き時間いつ？」に全自動で返信するAIエージェント - ソフトバンク",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdS1XQ3pDOEJZRWJpRmNvVFd1U01IZmY5bm03RnJSdTl0aTR3VzlKNVE0dHFhdS12VG5OQ1A3TlB6eHZScnRLMHZZN2JJX1RxT2J1TVVfVUxVUjRfSVBMREVqUUw0MFZ3bEV2OXBuYmJYQml1SDBDaTIwZjNSd2Y4eldGZk9OVzAxZTZHS0dFSDF0a00wX3pObFp3?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-20T14:02:00.783071+09:00",
-    "title": "グーグル、毎朝の予定を要約するAIツール「CC」を公開--Gmailやカレンダーと連携 - ZDNET Japan",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HVlBlWTgzR25LOWw4aVhrdE54LUV4c09KazhmaHVDNktVTm9GU09SNWt6Y2dnMkRxZm9uRk44T2NISkp1Q0NsbnZrN1BIOTNGMjIw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-20T16:03:12.906693+09:00",
     "title": "Chrome Android版にAIポッドキャスト機能、Google Geminiでウェブページを会話形式の音声に変換 - innovaTopia",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rVVp0cl9ybGlNeFMzdnBBTEc4WmtyaTV4Vl9Zc1ZVSWYtdERINDBtY2R5VDBON1BpZTZoTmN6S2tPU0t2dS1ESXF0SURnYkF4RGc?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1428,5 +1418,10 @@
     "date": "2026-01-19T12:29:38.040952+09:00",
     "title": "GoogleのGeminiでSiriを強化 AI開発でAppleが方針大転換 - クラウド Watch",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nblNvdm9ZRWJJOWFhaWx4Tkhjb1NyQWRkSXZGQXA2ZWx6LVZvNHR6bVE1X251N2x3TzVYSWx4dlNDclJscmJPUWNxZmczWTlJdlQwVWdUdW1JcWV3bFJQZHVfVFVIMnlWMzd1c2Q0aWU2OVdNVVpj?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T14:30:45.011577+09:00",
+    "title": "Model Context Protocol の gRPC トランスポート - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0JZN0JrVGFfSlozNV9GcmZkZVZmTUJ2WGhZUEc4dzdFenlqcmx3Z19OeHlMeVFER3pnbFVoMm1tNjB1X0lNb1ZhQTR0bTlWajJjVFI5dHlWRUsxSll1ZDJhd2hyX2g4VVEtTjdtTUZjVDlqTjk0NUxKTE4zZzNQd2U5aDhkYzJNNU9yRnhvT3dhZw?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
