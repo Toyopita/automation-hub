@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-20T16:03:12.906693+09:00",
-    "title": "Chrome Android版にAIポッドキャスト機能、Google Geminiでウェブページを会話形式の音声に変換 - innovaTopia",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rVVp0cl9ybGlNeFMzdnBBTEc4WmtyaTV4Vl9Zc1ZVSWYtdERINDBtY2R5VDBON1BpZTZoTmN6S2tPU0t2dS1ESXF0SURnYkF4RGc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-20T19:04:58.631468+09:00",
     "title": "Google フォト、バックアップ設定と削除におけるアプリと Web の違いを説明 - HelenTech",
     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4WlVUY2lpQ0hicG1ReFBoQ0FtVTBQR29fQ3V3OTBhR2ppajBJTEdCVTBpLUpEU3JiSUdJRG5UWUwzVldBclJB?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1433,5 +1428,15 @@
     "date": "2026-01-19T15:31:22.809968+09:00",
     "title": "スマートな投資: DORA で改善の文化を構築した FINRA の事例 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3ZJOG1MUmo5dUlWQjZ2WHlyMlV0SHRjS19yN29xd291cjJLbVhfU2ZoNkx1Zzkyb0liek95d2NQQmdkODRXZkE4VXNjSm9WRnlXU2kxOGlyMDl6M0ZZbFEyVUV2UURKS3lOWFVOb1VESmdxeDRyTEpxSDc4MHh3dmpqOVFpM2pXcE1xOGJVMTZFSmhJT0t4dERGeUNCU1JtRm1FMUlhdFZWZUptUk9ISGswNy1id0ZEdkE?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T16:32:04.346057+09:00",
+    "title": "Hackensack Meridian Health は VPC Flow Logs を使用してネットワーク移行のリスクを軽減 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGFFbVloMzhIN1hERWx5YmwzUXdCOW1KN1FianZBXy1oakJwNExtdnZ6SmlwMW1kZExSakVaa3duZWdOQ0x0WG16b2VQaC1lSlNTMloxNWhPYmxfYkw2TDgyN1k2amx0U1I0V1VhbEV4UUQ3RU5VSkh4WkVwMjRjV0hNNUYyZV9uMU1ualdncVZsZGhlTnNaUFZuTmlETWpUckhFTA?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T16:32:04.346057+09:00",
+    "title": "新しい書き込み最適化機能により Cloud SQL for MySQL の書き込みパフォーマンスを強化 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb0tIS0tzTWluRmVIa2NKY2VYbk1qaUxTM1JmQWc3N2JqSThjbDhMMzVwNktXSG5sSjY4WnN1WWhUWkJWRWtHX0t3cEJ6a21FYzZjU244MzdjdFUwMk9LcjJfcWVMMWhRMEZfSm9Nd2tyRnRwd2pMQ0NtZ1ZPUThJUUVTWGpUaEdXZl84Q2stZndGbEhDOURzdHBvX2psMUxielE?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
