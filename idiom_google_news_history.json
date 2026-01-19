@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-20T19:04:58.631468+09:00",
-    "title": "Google フォト、バックアップ設定と削除におけるアプリと Web の違いを説明 - HelenTech",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4WlVUY2lpQ0hicG1ReFBoQ0FtVTBQR29fQ3V3OTBhR2ppajBJTEdCVTBpLUpEU3JiSUdJRG5UWUwzVldBclJB?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-20T19:04:58.631468+09:00",
-    "title": "Google Workspace 管理コンソールの監査ログ API が強化。特定リソースの絞り込みも可能に - HelenTech",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBTTWQ4cnFGdTVEUEMwWWNjNnpNSFpzdUkwc0plVFljVnh0aHd6T094OFZubGtBZlNXX3ZVQV9acEZaT2tjT3dz?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-20T23:52:42.087432+09:00",
     "title": "『INSPIRED』著者Marty Cagan氏、Google Cloud BigQuery Data & AI責任者が登壇！「Product Management Summit」スポンサー募集開始 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBR1hySXk1dXpvWGVhb1hPTEpXLWs0OUlhTEZheVNWNm05dlZXTVJXUVEzQU5IRDMzdkt3aEh6SDVsa2lsZE1oR2VIVExRSTJua0F0a1VhRFBnVENfS3JyaVpMVEpDVzBZaXc?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1458,5 +1448,15 @@
     "date": "2026-01-19T18:33:22.309179+09:00",
     "title": "Google Vertex AIに権限昇格の脆弱性、XM Cyberが発見もGoogleは「仕様」と回答 - innovaTopia",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TNUhvU1RxUmdZQmVMVnBSQ0NXaDFVZl9wRHpZamFRY2FFVUsweG11bzZ0VDRBU3loUFM4bklXdmRaZ0F6TDgwQWk1SE1mdEphSnZZLWRWR3hjYTNWTHRhQnkzTXR3TGxuZ0dFZllmTWtTZw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T19:34:02.237263+09:00",
+    "title": "Google、公的機関向けWorkspaceの規約を日本法準拠に改定（Impress Watch） - Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GV19LZGxtMnFMUTdleGlHLVlBME9xYmRMcDRmNVVmQzVBUlhFZ09HYmw4ZHN0LVBqLTZzYVpvdmtOU1RlMGFrX0pNR3p5ajZnNWJrZFJ6VGRFTTBTTjYxZG91Q2NqT08wNjc3UVZBNk53RzlKVjl1NnVXY2dXRUU?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-19T19:34:02.237263+09:00",
+    "title": "Bitazza case study - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrNS0yYnZseUNvS21OWTdxejJ4bldQaDZmeXEwNUpzS2N5ME5LYW1QZ2U5SEhoNkN0Y1JGRnAxSDRaVU94ZGxkNXNBNDJLb3FBVU9rcG9FZ1M5MGs5?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
