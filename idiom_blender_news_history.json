@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-21T12:12:27.434405+09:00",
-    "title": "Blender用ツール「Baga River Generator」リリース！ 手描きのラインからリアルな河川のモデルを作成 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nc1d5VHBzOUl5SmJBN0xnQWdKeTltV3padEttODV3bk1ucGpBdFh4aGtndFc3YTVrUFZZcW9nMWZ6RlY0UTM5Skp6aml4QnNVQ013d0Q5UklmNjFYTWxtNmpQUkwxaGozcjg4TGdDb3VBQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-22T18:33:24.550715+09:00",
     "title": "Blenderアドオン「Shape Key Smoother」リリース！ スムーズなシェイプキーを素早く作成、オリジナルの形状を保持したまま調整可能 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzWWliSzZ5X2VFWld4SGxyOVdZMkFhZl9UN3dITW9pU3BWRGxYVXp2V0lZN2pKQ0FMX1dabjJ4RTBBam15LVBLcWZnSlBCbEo5MU5kYV9EeV85eEdUUFo1cXNqeklEUmlrM24xRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -393,5 +388,10 @@
     "date": "2026-01-20T07:30:31.950220+09:00",
     "title": "ローポリベースで作るセミリアルキャラクター - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wdExlSS1nc2JRalFxaDkzbGtMYU5OWXNnX29CNXdrMHg3MzFCUXlNZllkSl9GbE1tWkR1dFBSVEdfTFU0VEhoemRHRjhpNkczUXRvc2k4dlVIelpfZjNGRW9pZUgzYU90MTN3eDZXel8?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-20T16:35:33.613029+09:00",
+    "title": "無料Blenderアドオン「Mesh Wrap by KIRI Engine v1.0.0」リリース！ 3Dスキャンした地形・レンガ・サーフェスなどを、ベースメッシュに対して自然にラップ - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMQmd5Q24xR1FxVFFCdGZVZnNwY05nVk1WUzNfbzJQZjhLeFA3QlVER0E2N2pEd0pDNnBqa2lJTmtNMFNtWmE0TmRpY19fN2lzQ01lQU1fb2YxNFBTdm1nN0J3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
