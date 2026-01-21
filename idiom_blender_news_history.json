@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-22T18:33:24.550715+09:00",
-    "title": "Blenderアドオン「Shape Key Smoother」リリース！ スムーズなシェイプキーを素早く作成、オリジナルの形状を保持したまま調整可能 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzWWliSzZ5X2VFWld4SGxyOVdZMkFhZl9UN3dITW9pU3BWRGxYVXp2V0lZN2pKQ0FMX1dabjJ4RTBBam15LVBLcWZnSlBCbEo5MU5kYV9EeV85eEdUUFo1cXNqeklEUmlrM24xRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-23T14:44:18.972907+09:00",
     "title": "Blender Studio、Blender 5.0の高品質なキャラクターリグプロジェクト「Storm」公開！ アドオンベースのボディリグ、カスタムフェイシャルリグ、アドオンを提供 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kTGU0bFFERGlYQlZSUmNVTG9oRWpKRV9sNzItbEh1amNIaFk4eVA2WUhLWVF4eXJKLVpqREk5b0VMZWM2UVZDVkZWVEg0TXJReU9IVmdGbGoybDdnTGc?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -403,5 +398,10 @@
     "date": "2026-01-20T22:39:13.051649+09:00",
     "title": "1,300以上の無料アセットを含むLotPixelライブラリにアクセスできるBlender対応のデスクトップツール「LotPixel Hub」ベータ版が公開！ - CGinterest",
     "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPYXdKRnVSY1lGT2dublFVWmxoeEtra3F0X2tUV2puamZQdXVHdjM4NElPOE1OWFdiRXdmOG1kT0YtQTZlNktqa2ppRU9HYTM2Zzl4c3hma01aSENpa2xqYTA0VGhhUkJpSnJocVY2RVVOYXNHVEcwVTJDaTdZcEwxaW55MnlWbWZNa3dwd0Q0WTRtZlA1OWtiaV9QRXhvV1pOMUVSR3p4bHNZeU1SY2VCTzl1RFlOMnlvbnRLWENUcm16UzJoVHNNNldtVjVlMjdnWG9DRW5LQzFGQy05YXlxNU5QVVFyZTFTUGx6VWNGVDNuNGVwZjNEOVpCU0d5ZUR2UjYzeml0X0lHbE9iSE9kTlJGZGRxeEtfWl9ZWWtVUnlwUXhqVnFjNGJCQy0wbU1ESFcyVF9IYjB6dlFVTjNKeE1oRlRxVko2dFVr?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-22T00:53:37.041313+09:00",
+    "title": "「KIRI Engine」が無料Blenderアドオン「3DGS Render 3.0」リリース！ 3D Gaussian Splattingのインポートからペイント、編集、変換、マージ、レンダリング、エクスポートまでをBlender内で完結 - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcTZoT1gtYi1NT05LOE1YdzN6RWE5UHA3Y1UzcnhKdnljVWZRRERWMDdOU0dmeThVcGVudElfSTlmRWZFNmdVdDNaOUF2MzVfMVhId09PV0dzdy15MHZjcEFtOUFYSkxsYWNISjZzX24?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
