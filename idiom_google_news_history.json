@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-22T18:37:53.924365+09:00",
-    "title": "Google CloudがAWSとの直接連携を発表！マルチクラウド接続で連携強化 - クラウドエース株式会社",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZeEVLbzFGRVhOaVJzNXUzTFh2b1pUZ1pGRzhxRlctNlBnbklCTVp5R2tZWENYQURXc0Y0MGp1SGhYcHRMT1ZB?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-23T08:45:53.419701+09:00",
     "title": "電通デジタル、Google CloudとSalesforceのAIエージェント連携による「マルチエージェント導入支援サービス」提供開始 - EnterpriseZine",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93aEZQUE03ZldMaG41N2p5MXB0bm9XVlg0eDhsS2txS2xTdnliVXEwS1AtaXJZaThXdGtGYVVMTVI3bjhDUmR2Q3NCVjlBbFEzbTZyaEtpc2hpZw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1503,5 +1498,10 @@
     "date": "2026-01-21T18:00:30.195117+09:00",
     "title": "AI のプロンプト エンジニアリング ガイド - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOclNydmMxaVNhRkU5X1lNNDhOd3puX0laVWpJOUJQMlNtVldDUTlDSEpHeXk5NTZsZVJqek1FeFZMcVpJTUtITFBKNUY5ZE9iRUpkZnMwOFlUbDJOZGV1UVRGRERnSXA5eTJfYzJnWllvUjQ4?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-21T19:01:02.733670+09:00",
+    "title": "Weekly Google Cloud アップデート情報 - 2026/1/20 - ② ｜クラウドテクノロジーブログ - ソフトバンク",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM21ZUl9kUHRtdDN3ZzdXajNHb1NFNkl4UldZOE1velRwVHVjX3BOSHljczFnYTFhNS1rU3RiYUltNUkwLWFRR2dBMWNBc3BOUnpDYkRLQTJVWEZESlRsZ2cyUTdzOFRnVnc5eGNjZlo0Y25qbHgzcVBxN2d4ZEs3bW1keVZ0b1NoTzRhMkxzcUtZSDE0VWRB?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
