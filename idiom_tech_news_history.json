@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-23T17:56:10.908531+09:00",
-    "title": "【大原雄介の半導体業界こぼれ話】次期CPU「Zen 6=大変革」説に物申す。AMD公式文書を冷静に読み解いてみた - PC Watch",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9POUFOcTQ1M3FhSWdxUFFMYVNlLV9ZcjNySlBQSzBjNl9ySFlaYUMxR1JtMXpLdWVnR0paWWVXTzhkNWxqZV9nWDBLVHBKRVFfdnZGekNKU0laZmFSd2I0aW8wQmFCYjNzT0RIazI4bw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-23T17:56:10.908531+09:00",
-    "title": "東北の鉱工業生産指数、10月は3.7%上昇 半導体需要がけん引 - 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83OFZMNTJzNW44RkxrTFh3YzhSU09uRXJtT283ZHFPNFdJMG1jZlRXbHEzaEMtU2xZUHUxLUtrb1B4SW03SjdlLThNd0RSV2gtNWxwWHkzalhZZXY3eXJxNGR2Q0RObi1jNkpkeg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-23T18:56:48.970277+09:00",
     "title": "メモリ増設可能！300Hz駆動のGeForce RTX 5070 Ti搭載ゲーミングノート - PC Watch",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CNk1TRTEySlZ2THlBOWtQNDMyRVFabzdwX29STC14MVV3Rjh2eDVFQXY1NXAyUUw3TGo0dk5Jc2xkSWtRY3d0ZDFEclg0V0hERzVUS243ekt5d3hxMWhCR1NJNHBwMGRxR2IzVG1WeGh5WHNtY2Zrb253?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -2803,5 +2793,15 @@
     "date": "2026-01-22T17:36:13.273291+09:00",
     "title": "世界の半導体株が上昇-地政学懸念後退やエヌビディアCEOダボス発言で（Bloomberg） - Yahoo!ニュース",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zSTdJazhKU0VVNjM4Z0pwUzYwamxCM2tmT3hHWkswa1d6U0dTQXpfSHI4MDM1LVJCcFhFbkNYUXNfb1F6YVdkYmdtSkxLZ2ExTE9fa3Z1RlVXdVpmUGFwX3JoRGItS2dhRHdxRllTLTJRSGdvRVZYdG1NNXFDODA?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-22T18:36:51.100117+09:00",
+    "title": "住友ベーク、京セラの半導体化学材料を買収 AIデータセンター向け - 日本経済新聞",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YWjkxQ0x4SjY4czFPc1JObTNhU0doUlRqQWd6ejhiWGtSci1BR3pHeDQwaERiZlJvUkRZdUJZTlE5ZFFSMXZjdTZzaV9JQUw5ektEMTY2LV9WU2JzTjNoTnFIeTFvb1VRS0RDMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-22T18:36:51.100117+09:00",
+    "title": "「NVIDIA CUDA Toolkit」に4件の脆弱性 ～OSコマンドインジェクションや任意コード実行／「CUDA Toolkit 13.1」への更新を - 窓の杜",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51WGpwV3ZINHFrUF9aZDFJTU5uOF9GVHk1SjRNSlYwUTZDZ0E4QTFEMFNHM2hCUUFySWg1S2x5Rzdmb0lIYVBCZHBFY3AzWlFKbktwcWhJSjVSV0t1VFA1bE10QjNlUmJj?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
