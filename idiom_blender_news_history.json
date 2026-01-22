@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-23T16:45:38.919670+09:00",
-    "title": "ポイントクラウドからBlender用のPythonスクリプトを生成する「MeshCoder」発表！ LLMを活用した3Dモデル再構築のフレームワーク - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vOUxSMlNkb2d0SzVJSFB2SjdIcE5MZmlJTUF2NmlSU3ZDX0plY0FUbVotMGxVeGFTY09nNTV1aEtjTVk2c2c5RndQRXJUV2s0eU5xYTYyb2U5WXk2RlIzS01FSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-25T15:12:36.792063+09:00",
     "title": "HDR出力が可能になった無料の3DCG統合環境「Blender 5.0」【Blender ウォッチング】 - 窓の杜",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvZDJuRF9xSW5oV1hwNTRaR2RnOVlQcTd3dWFEV0R1d1U2NWNNOURuQkFNcmRodUpwMXpJcVhnYU03ZEdwYVR1ZWt4SjJhSlJfMVBJS0pLMGx0dE9rc0lPLVRyeXhpazFaLVhTV09UOGZrZTRuQ2FORjVqQjd6UQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -403,5 +398,10 @@
     "date": "2026-01-22T16:01:44.856082+09:00",
     "title": "Blender Studio、Blender 5.0の高品質なキャラクターリグプロジェクト「Storm」公開！ アドオンベースのボディリグ、カスタムフェイシャルリグ、アドオンを提供 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kTGU0bFFERGlYQlZSUmNVTG9oRWpKRV9sNzItbEh1amNIaFk4eVA2WUhLWVF4eXJKLVpqREk5b0VMZWM2UVZDVkZWVEg0TXJReU9IVmdGbGoybDdnTGc?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-22T19:03:26.417719+09:00",
+    "title": "「Blender 4.5 LTS」リリース！ Vulkanサポート、ジオメトリノードの機能拡張、コンポジター強化、ポイントクラウド導入など - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yQ01hOXhDTHl2V1NjSEY2b0dCTVlBSm5yTGhqaHdyRS1yZmY0TXZIM0EwRXJNY3RLSnR3UVplaTdQQUVabzFUdl9zblRzT3dnc0NGaHdqdHpEVi1IZ05SNXkzVEo0cHc?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
