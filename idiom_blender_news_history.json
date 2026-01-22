@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-23T14:44:18.972907+09:00",
-    "title": "Blender Studio、Blender 5.0の高品質なキャラクターリグプロジェクト「Storm」公開！ アドオンベースのボディリグ、カスタムフェイシャルリグ、アドオンを提供 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kTGU0bFFERGlYQlZSUmNVTG9oRWpKRV9sNzItbEh1amNIaFk4eVA2WUhLWVF4eXJKLVpqREk5b0VMZWM2UVZDVkZWVEg0TXJReU9IVmdGbGoybDdnTGc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-23T16:45:38.919670+09:00",
     "title": "ポイントクラウドからBlender用のPythonスクリプトを生成する「MeshCoder」発表！ LLMを活用した3Dモデル再構築のフレームワーク - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vOUxSMlNkb2d0SzVJSFB2SjdIcE5MZmlJTUF2NmlSU3ZDX0plY0FUbVotMGxVeGFTY09nNTV1aEtjTVk2c2c5RndQRXJUV2s0eU5xYTYyb2U5WXk2RlIzS01FSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -403,5 +398,10 @@
     "date": "2026-01-22T00:53:37.041313+09:00",
     "title": "「KIRI Engine」が無料Blenderアドオン「3DGS Render 3.0」リリース！ 3D Gaussian Splattingのインポートからペイント、編集、変換、マージ、レンダリング、エクスポートまでをBlender内で完結 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcTZoT1gtYi1NT05LOE1YdzN6RWE5UHA3Y1UzcnhKdnljVWZRRERWMDdOU0dmeThVcGVudElfSTlmRWZFNmdVdDNaOUF2MzVfMVhId09PV0dzdy15MHZjcEFtOUFYSkxsYWNISjZzX24?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-22T16:01:44.856082+09:00",
+    "title": "Blender Studio、Blender 5.0の高品質なキャラクターリグプロジェクト「Storm」公開！ アドオンベースのボディリグ、カスタムフェイシャルリグ、アドオンを提供 - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kTGU0bFFERGlYQlZSUmNVTG9oRWpKRV9sNzItbEh1amNIaFk4eVA2WUhLWVF4eXJKLVpqREk5b0VMZWM2UVZDVkZWVEg0TXJReU9IVmdGbGoybDdnTGc?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
