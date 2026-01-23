@@ -314,71 +314,50 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
             'night_mode': is_night
         }
 
-    # ===== 冬季: 絶対温度 + 温度差の複合ロジック =====
+    # ===== 冬季: 絶対温度優先ロジック（2026-01-23改善） =====
     if season == 'winter':
-        # 暖房OFF条件: 室内≧26℃ または 温度差≧7℃（コマンド送信しない）
-        if indoor_temp >= Config.WINTER_INDOOR_HIGH or temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
-            reason = []
-            if indoor_temp >= Config.WINTER_INDOOR_HIGH:
-                reason.append(f'室内{indoor_temp}℃≧{Config.WINTER_INDOOR_HIGH}℃')
-            if temp_diff >= Config.WINTER_TEMP_DIFF_HIGH:
-                reason.append(f'温度差{temp_diff:.1f}℃≧{Config.WINTER_TEMP_DIFF_HIGH}℃')
+        # 暖房ON条件（最優先）: 室内 < 24℃ → 暖房ON
+        if indoor_temp < Config.WINTER_INDOOR_COLD:
+            return {
+                'mode': 'heat',
+                'set_temp': Config.WINTER_HEATING_TARGET,
+                'humidifier': humidifier_status,
+                'action': f'冬季・室内{indoor_temp}℃ < {Config.WINTER_INDOOR_COLD}℃ → 暖房ON（{Config.WINTER_HEATING_TARGET}℃）',
+                'priority': 'temp_cold',
+                'controlled': True,
+                'reasoning': f'室内温度{indoor_temp}℃が{Config.WINTER_INDOOR_COLD}℃未満のため暖房ON',
+                'season': season,
+                'time_of_day': time_of_day,
+                'temp_diff': temp_diff,
+                'temp_diff_action': '暖房ON（室温優先）',
+                'night_mode': is_night
+            }
+        # 暖房OFF条件: 室内 ≧ 26℃ → 暖房不要
+        elif indoor_temp >= Config.WINTER_INDOOR_HIGH:
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': humidifier_status,
-                'action': f'冬季・{" / ".join(reason)} → 暖房不要',
+                'action': f'冬季・室内{indoor_temp}℃ ≧ {Config.WINTER_INDOOR_HIGH}℃ → 暖房不要',
                 'priority': 'temp_high',
-                'controlled': False,  # OFFコマンドは送信しない
-                'reasoning': f'{" または ".join(reason)}のため暖房不要',
+                'controlled': False,
+                'reasoning': f'室内温度{indoor_temp}℃が{Config.WINTER_INDOOR_HIGH}℃以上のため暖房不要',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
-                'temp_diff_action': '暖房OFF',
-                'night_mode': is_night
-            }
-        # 暖房ON条件1: 室内<23℃（絶対的に寒い）
-        elif indoor_temp < Config.WINTER_INDOOR_COLD:
-            return {
-                'mode': 'heat',
-                'set_temp': Config.WINTER_HEATING_TARGET,
-                'humidifier': humidifier_status,
-                'action': f'冬季・室内{indoor_temp}℃<{Config.WINTER_INDOOR_COLD}℃ → 暖房ON（{Config.WINTER_HEATING_TARGET}℃）',
-                'priority': 'temp_cold',
-                'controlled': True,
-                'reasoning': f'室内温度{indoor_temp}℃が{Config.WINTER_INDOOR_COLD}℃未満（絶対的に寒い）',
-                'season': season,
-                'time_of_day': time_of_day,
-                'temp_diff': temp_diff,
-                'temp_diff_action': '暖房ON（絶対寒）',
-                'night_mode': is_night
-            }
-        # 暖房ON条件2: 室内23~25℃ かつ 温度差<5℃（体感寒い）
-        elif indoor_temp < Config.WINTER_INDOOR_COOL and temp_diff < Config.WINTER_TEMP_DIFF_LOW:
-            return {
-                'mode': 'heat',
-                'set_temp': Config.WINTER_HEATING_TARGET,
-                'humidifier': humidifier_status,
-                'action': f'冬季・室内{indoor_temp}℃ / 温度差{temp_diff:.1f}℃<{Config.WINTER_TEMP_DIFF_LOW}℃ → 暖房ON（{Config.WINTER_HEATING_TARGET}℃）',
-                'priority': 'temp_diff_low',
-                'controlled': True,
-                'reasoning': f'室内{indoor_temp}℃かつ温度差{temp_diff:.1f}℃が小さい（体感寒い）',
-                'season': season,
-                'time_of_day': time_of_day,
-                'temp_diff': temp_diff,
-                'temp_diff_action': '暖房ON（体感寒）',
+                'temp_diff_action': '暖房OFF（十分暖かい）',
                 'night_mode': is_night
             }
         else:
-            # 適正範囲 → 現状維持
+            # 適正範囲（24〜26℃）→ 現状維持
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'humidifier': humidifier_status,
-                'action': f'冬季・室内{indoor_temp}℃ / 温度差{temp_diff:.1f}℃ → 現状維持',
+                'action': f'冬季・室内{indoor_temp}℃（{Config.WINTER_INDOOR_COLD}〜{Config.WINTER_INDOOR_HIGH}℃）→ 現状維持',
                 'priority': 'temp_ok',
                 'controlled': False,
-                'reasoning': f'室内温度・温度差ともに適正範囲',
+                'reasoning': f'室内温度{indoor_temp}℃は適正範囲内',
                 'season': season,
                 'time_of_day': time_of_day,
                 'temp_diff': temp_diff,
