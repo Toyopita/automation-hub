@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-12-24T19:06:04.132949+09:00",
-    "title": "地図のアイデアをカスタムコードのプロトタイプに数分で変換、コーディングは不要 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWWtBSGVNa0pDSmJGY1NQQlhfTHZLQnZVdE1Ubm5tYjVNd1A4MzBvWlBpUWtTYkJYSWFQaHdMdVgtbC1reWZNWFRLVWxvM3BoOHFSLWxHd0g2U0pZSHVXaGNqcHlvRUpoMnUzMUdZNlVOWDBZcXhqeHF2SGVMamM1RDhhZjlIdjcyQ3FGRXZOWmNwZmJYcFQ0V1ptSVlXNVZfV01CZVpCcHQ0aWNzVnltSngtSjl0OURpRDdzTllVZWpsNFZvY2xFTg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T21:07:15.295288+09:00",
-    "title": "Beep Saúde、Google Maps Platform を活用してブラジルで在宅医療を拡大 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb2o4YUlTTW5MMWctcklaWFVUU3dnOHhuOHExMDR4d2dYWi02Z3R4M3NGd0VwZm9jb1d3Q3ZFeHBTQllRMzdsQ3F5WGNUcnpWaWdGRTdWdmRWdDhBNEZTSUNaRGN1bGRpZks4WDVIQ2Q4N001V2xRd1RSTmVTbzBYVWk5MHZQdV9ESkM4UWhtRkZmTGZrend6M3h4NkhfbXJabnZZdjVpcTZhNElCb0ZITWJJaVFpdkQ3OFZIcm1KYVN2TExuU0ZyMFlR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T22:07:53.088149+09:00",
-    "title": "よりスマートに、よりすばやく構築: Google Maps Platform の新しい AI 関連プロダクトとツール - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXhuUkRFb3dhSTB4TW9BTGRpa1FnNXZkYlNkN2JuWG51czlpQjk0dERuWHg4QU5CWU5WSXdJRDRzZXNacjFBMzdzT1drb2JtRE5HRWJLWFdUZnlMMGYxQ2E1cHNIX1c5V3VJYW5yclRBZTJhLVVIdU16Mk5VM2phNGVSS2hmZWtyanBmelVqOHZ1ZEpXaUNmc3l3UGJLNEUwRGRHTFlSalRkM19ySmowdzJHTzlfQi1GWU1wLVpYZk9DWlNoMWQza3NFaGU?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-25T10:14:49.267292+09:00",
     "title": "【AIが口コミと顧客データを“売上”に変える】Googleマップ×口コミ×POSデータで実現する、次世代サロン集客戦略セミナー開催 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zMVhvWVVaM21rcXY1R2RuVVcybnR0Q2sxLXVoaklnR2VwNEZEV3hnNWR5cGFiNE5EQjRPX1M5XzVzZlpoc1B5UXRnUFIxd0lacFhPd3dVekYxellNbmYyNVNGaGFFand5WHc?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1463,5 +1448,10 @@
     "date": "2026-01-23T18:09:21.691629+09:00",
     "title": "衝撃的な出来事の展開 Applu! 新しい Siri Googleのサーバー上で実行される - Letem světem Applem",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEs4TUZVUVFQUy05SVVYNzBKRmFuSU9NRW9qMkgydDdrekNjRlBnOWllLU1MUm9LcWJsWWNvYUpvdjdzWkw1S0x6LUtVN1ZXeUhhXzlQaVZzTkl2OWsxel8wTUdydEVYUjdMSU9fMFJTY1o4d1pyLVhVUmRZMGRLYS1fUjVmNmtyc1dlRG4zbUZRX0lUa1hPdzdvQk9DUjVsT3hTUFl3?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-24T06:16:21.693235+09:00",
+    "title": "Replit が Google Cloud でエンタープライズ グレードのバイブ コーディングを提供 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbXYwOWN2cnc5MWFIQUVld2QzcTJLaEdzVzRxdHRFX3JqaEhvcDFzU1BPOVhMd09wMG9wVnExNlRPQ05fVXVxMnBnekloWmdrTGFIRlNvX3FWYlBHU2Y0TVNqbnJwaUFyT01VQmVXb1IwODBISXJJM3FhdHlsS2IwbkE3U0xlY0FqMldtalBrcXVSZFdFbWRqanNwMlJYdGVPajJlbEVnaC1RbGFjVjNUUld3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
