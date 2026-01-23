@@ -1,45 +1,5 @@
 [
   {
-    "date": "2025-12-24T06:08:36.374104",
-    "title": "ChatGPT版「今年のまとめ」機能が米国などで登場 1年の利用傾向を楽しく振り返る - CNET Japan",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rWlhtcHlQeFpzZDU2TjFYQ2FKLWtNTloyd0hFb1hoRWIxNDJVQjItN1hrckRvT0hVcnFpWnlnQ2kzcmJ4UHZuU1hhb19ibFF6dWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T06:08:36.374104",
-    "title": "AIエージェント構築に不可欠な「MCP」、社内外のシステムの接続を標準化 - 日経クロステック Active",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTGVLRGhxMUktY0x0M0gxX3hhV0pyR1VwOUUtYnlkNUZHVjBzUTFERC1KZEZBclFFSDU1LVZOX05iLWhZSlBPeXBfS1pUckxKU25icWpwZi1PY1lyNXlINzR4aUd0TlFNX1Y4RE05SHNIVGtONko1YXNPQmg1ZzZDcGYzNi1pZXh2NG9FUzE0NXBPWUU?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T07:09:13.903779",
-    "title": "AWSユーザー会が明かす生成AI実装の鍵、新機能「Nova Forge」も試す - 日経クロステック",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDZ2RfMEFzOVhOT1h0VjBvc1o2Z0FtQm9Bb1ZZTm9pWTMxanU0a2ItNUlIa0dBdGNBYi1NRTQ5d2ZlNDBBQmdIZVdYR3Y5Z1lXOWZnUG5hdHBSWWNYeXB3Sm5QNm82Tms?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T07:09:13.903779",
-    "title": "AIがけん引し市場拡大、スマホや車載向けは伸び悩み 半導体の業界地図 - 日経クロステック",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiQXM5ZkpnOEdpNXI2US11aEJleE1xTERzcjBBZUpNV0hyR1V1ak1TV2RzZ1JyMklrMlI5NzNvUkZBckVJcFBhLVpRZURTcWpsaVZTVzFCMEdNNWpWcUZtbkJsd2N1bjRKcGdJSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T08:09:50.177140",
-    "title": "OpenAIが挑む「ChatGPT Atlas」の安全対策--加速する開発競争と解決困難なセキュリティ課題 - ZDNET Japan",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmajQtemlJdGdLY2xPWGJadUN1dWJWc1Z3WHVRUmR2V3NNemdMcGMyeHpUYTRISXBZWDBSSjRQMVBLclUwUXhZS3FYLTRkXzY2alc0?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T08:09:50.177140",
-    "title": "AIかシミュレーションか、フィジカルAIの取材で境界が分からなくなった話 - 日経クロステック",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkR0w5aGl6V0k3bVZ0SjNyUFdQdkpkdFVxUTFlR1oxdVRkY1lVQ252UXR0TWRfUFMzWVV5eEN3NVZodVhBNldBai1ZVXJPdEwtQzdHeWI2Mi1JMVZhSkNLd3RPQUk0bUlySDZNZA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T09:10:27.839377",
-    "title": "AIヒアリング自動化SaaS「Kikuvi」、iOSアプリ版をリリース - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qSGJKN0MyUmM0RkZuM3M2WldEWjRDM0pwYU5VS1pwdVROcy1QU2s1QVhXVUdwSTNqZlBFdS1kMXhrbGxlVDRTaE11QmNLdFROZ29ENFVjM1Z0eHVlTTdRbG95SmVQODd3Vmc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T09:10:27.839377",
-    "title": "生成AIの次は「デジタル労働力」。TOKIUM代表黒﨑賢一が語る、AIと人が協働する「経理AIエージェント」の実像をNewsPicksで公開 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04YzRDOV9NbDlhU2huLVVCY2xzTVZkMDk3bVhXSXBfUHFNMWxRQVNiUVVZSy1qb0lxSlhha0hoSFhFZTg3aGhrdTljZFQ1b3hGSGtuSGpGb01qWURwcTcxNG94RmQ3cEtyaWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-24T10:11:05.401968",
     "title": "【特集】 AI巡るメモリ争奪戦――2026年はPC、スマホに“冬”が到来 - PC Watch",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45c2EwR2xRMXRRemxGQ1NicHY5NHdhb2Jfb0NDVW9rS29SZEtvbHFiWF9BcUV3M3N6dXN4WjBxYlFlV3B6RTVGa3lyMEdxVzRQS09iNzNwZ2E3MmFZSGR3b3I2QmFQTWh2SV9SUFpnVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5388,5 +5348,15 @@
     "date": "2026-01-23T05:47:45.536891",
     "title": "はじめに：『AI搾取 日本の規制の抜け穴（日経プレミアシリーズ）』 - 日経BOOKプラス",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1UC1EUzJxWjl4ejcyS2U1c19sakpINzR1cDlSd3ByaF9lY1FfRG9VOFpqdUFBZ1kzeGhlbjl4WTM5T2JBVVUyQXY1Wi1HeGV4eWtDc0RqRWNHTmRKOFdzSks1VnQ5QlF4REVJYg?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-23T09:16:43.611680",
+    "title": "SHIFT AI Junior「AIで動画をつくる！『好き』を仕事にする考え方と映像制作体験の1日」を開催 - PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sRXpiUmRUUFM0NTdhX0RnSm9WNmlCTHFzRXVqTTV0SDBLbTBTcnhUYl9lQTNaSVpJWTlTclhhbWZiOHMzVHFlVVg3c1ZzZkZ4ZFB0M1d5QmU1ekU1VkdYU1pyZHZObHp1R2c?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-23T09:16:43.611680",
+    "title": "Anthropicの「Claude Cowork」は、ようやく現れた“使えるAIエージェント”？ - WIRED.jp",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pb1Zkb1NZdW85ZmpkbFVFSDRGUWZLWWllSXA1WTBLaVpZTjRVblVMVkRsWTlPWGZsYjdhWFhqdTNXQ2VGRDJNTkVDN0FOWDVLbUpCZjNyQjkxand3czRTQ1U3SUliUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
