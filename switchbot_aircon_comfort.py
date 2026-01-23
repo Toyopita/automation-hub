@@ -72,13 +72,11 @@ class Config:
 
     # ===== 温度差ベースの制御閾値（科学的根拠に基づく） =====
 
-    # 冬季: 絶対温度 + 温度差の複合ロジック
-    WINTER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 暖房OFF
-    WINTER_TEMP_DIFF_LOW = 5.0    # 温度差 < 5℃ → 体感寒い
+    # 冬季: 絶対温度優先ロジック（2026-01-23改善）
+    # ※温度差条件は削除（室内外温度差でヒートショックは起きないため）
     WINTER_HEATING_TARGET = 26    # 暖房設定温度
-    WINTER_INDOOR_COLD = 23.0     # 室内 < 23℃ → 絶対的に寒い
-    WINTER_INDOOR_COOL = 25.0     # 室内 < 25℃ かつ 温度差小 → 暖房ON
-    WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房OFF
+    WINTER_INDOOR_COLD = 24.0     # 室内 < 24℃ → 暖房ON（体感寒い）
+    WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房不要
 
     # 夏季: 絶対温度 + 温度差の複合ロジック
     SUMMER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 冷房OFF
