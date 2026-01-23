@@ -1,25 +1,5 @@
 [
   {
-    "date": "2025-12-24T17:04:50.817496+09:00",
-    "title": "「The Forrester Wave™: AI Infrastructure Solutions, Q4 2025」で Google がリーダーに - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQzA2RV9GVFhkTEh1RXNkSm0yQ1VSZ1RFd3BGTzZJYnptczdEOXdSM1RXWWpxdWtfeUo0SFlvT1FMRjY2RFB3LWppeTdHUUg0bmFObURaZUpsYVhNSHk2V0MwVlo2VVBUcDEtNllBR21tQWpRQU11Vko1WFkzZTlxZ21ENDhJWHYxNVIwbG1SSGloeWFHSXY3Q3RJNlFUWlJOTVFSTGpxeTJCR2M?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T17:04:50.817496+09:00",
-    "title": "Gemini 3 Flash のご紹介: 企業向けのインテリジェンスとスピード - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVi1NZ3ZfX2Q0Qm5yMGd0N1ZxaXdGOFlTQzlNaWdaQ2hFRGNILUhzVXkyeEM2blZxbFBWQmN3Nlp4YnFvX05OYjZHdWVOY05nZjVieDBpSnhsSk51RG9wLWhJX0Q4RHI0TmpvQnZDX0twWlBtSDFiWTVvVTlDRlRRZ3RyMDhuUUR3UDRNTHRDU1ZGaW9aemJR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T18:05:28.708468+09:00",
-    "title": "DeNA: Spanner、C4A インスタンスを駆使して世界規模のゲームアプリ『Pokémon TCG Pocket』の安定運用を実現 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVHVmWnFFcVNmZUh3NC01TEw4NVFlREhBcGE2Mmk1dU1ZMnVJYjVxOFU4MEE5M29oV2F4dUNJM3kxQ1Q4SnB4RXlzYWJ2cHBjYVVKbnB3a2NTWlpaY2gxeVBKSXZqckROdWFnSFlvWFM0ZzhfN0FNZnFFQUxvM1Z1V0V4WVFtR3BUbEpBNzlYbF9HTFhZbzJhX2F2enBLVVVVNGtLN2hXQ2F1YkxEd2pId29FTDBuT185TzR0bWQ4Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-24T18:05:28.708468+09:00",
-    "title": "Google Maps AI Toolkit の Contextual View のご紹介: インタラクティブな Google マップ エクスペリエンスで AI チャットを活性化 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPenRFTkFvLVRiTFVmdDdnM0htbVFHalFSR3NNTFY4NmhYSnhiOU5oaHNFTzN0NVBiOEd3RlpxMnNqQjlPTkNwLXdiYUttbG1QV05NLWg3MnI4RkFaNnhUUzBOMDVXSW9wTHdfaDU4TWhIT21yRFN0VHltNVhOU0ttQkxRR21iSGdHeWpDakhITXhJaFNPemNXRUNKXzhKSEhSbnhpQXhkS2pJb19mQ0IzTlpna2ZacExQZFgxb1JYSXZOMWE3cHZrZlFydDZPbHFjZTRVTDJxUjJyOXZRdU53Q3IyTmlwdGNCT0RDaS10Rmk3dHE1Z2dIVF9XdUpGcEhVcEJz?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-24T19:06:04.132949+09:00",
     "title": "地図のアイデアをカスタムコードのプロトタイプに数分で変換、コーディングは不要 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWWtBSGVNa0pDSmJGY1NQQlhfTHZLQnZVdE1Ubm5tYjVNd1A4MzBvWlBpUWtTYkJYSWFQaHdMdVgtbC1reWZNWFRLVWxvM3BoOHFSLWxHd0g2U0pZSHVXaGNqcHlvRUpoMnUzMUdZNlVOWDBZcXhqeHF2SGVMamM1RDhhZjlIdjcyQ3FGRXZOWmNwZmJYcFQ0V1ptSVlXNVZfV01CZVpCcHQ0aWNzVnltSngtSjl0OURpRDdzTllVZWpsNFZvY2xFTg?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1478,5 +1458,10 @@
     "date": "2026-01-23T16:08:16.347016+09:00",
     "title": "新しい Agent Payments Protocol（AP2）で AI コマースを強化 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1NsUUsyMmlzU0JVS0x6eVFXY1o3S1VCRWxoQlpLb1A2WEJyY1lnSnFuY2huV3VJVDJGTVdITC1kUmpNSjhtYlc5NXNfTjNrUXVickswa2N0eXhWN2JjampHNXNhdUQwd1daaU1OemY0SHYySzBQZTVyYnltWEVnWHQ5X0hWeWlQSGxFSzdZMDBwVkFsMTN2eU1BRnVJR1dDMGpxMFJKZw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-23T18:09:21.691629+09:00",
+    "title": "衝撃的な出来事の展開 Applu! 新しい Siri Googleのサーバー上で実行される - Letem světem Applem",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEs4TUZVUVFQUy05SVVYNzBKRmFuSU9NRW9qMkgydDdrekNjRlBnOWllLU1MUm9LcWJsWWNvYUpvdjdzWkw1S0x6LUtVN1ZXeUhhXzlQaVZzTkl2OWsxel8wTUdydEVYUjdMSU9fMFJTY1o4d1pyLVhVUmRZMGRLYS1fUjVmNmtyc1dlRG4zbUZRX0lUa1hPdzdvQk9DUjVsT3hTUFl3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
