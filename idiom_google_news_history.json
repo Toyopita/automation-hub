@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-12-25T18:19:51.254689+09:00",
-    "title": "Revolut case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwWmg3T2tNU290ZG5zc2NxUjEyMXNnbFpQVzIycVZOdjZRdC1QVEo5azlWMjhiUnlYTEZ1dldXQm85ZzhvZ1ZaN0pKbEhQdnBRQUxjazN3ano5aHJaRjhlZTRYQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-25T20:21:03.824661+09:00",
-    "title": "Cluster Director による AI および HPC クラスタ自動化の一般提供を開始 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbjQ1aDFTVTd0NXVodDdUUkZBZXBfRkZDUk1WT2FuWHRmV1BhYTA1MUpocUpTNXR2bnlxQ2dMTVBzMFNoUFNiWTRSYlFTV1FvbEtxZ1RteFF2RWhJbDhqNkNhWnZEOUF2cHY4cHRZOXVoYnBCb3lYQW55cFg1eFM2RXpjWlg3SU9oaGZzTTdhcTNaQVljLTRPOA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-25T21:21:39.301336+09:00",
-    "title": "Wayne State & Syntasa: Transforming Health Assessments with AI | Google Cloud 公式ブログ - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUTBKZFc0cUljV3NidURqel83eFU3TEtUN1oxZlFQZndzTHRZQlZhNy04M2lKSmw2QjBoVTRNb0pKeDJXYTdmcWVRbHFsVHdxcjRIM2k4Zmc2ZF9Td2U5bTROQ0hHQXlxSGZ0ekpMalplN1M3TGJFR1lzdG1ZcTN5bkh1X1N2VlE0cjRmeTIzNG1ZN1JEMzF5NlBaY2w0WFBWQnY0NDZaeS1qSElVWXgxa3ExUXBkNGNNZFBsWmFzOFlXZUpCcW14QmloeEZkZVN2?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-26T01:23:59.839825+09:00",
     "title": "Google Cloud、“全て”のサービスでMCP対応 AIエージェント開発を効率化（ITmedia エンタープライズ） - Yahoo!ニュース",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKanZWTmFjQnBkQ2Z4YmM0VXpSUDBOOW9MVXdTR2ZlZ1RLMWptV3dMYTRkLWUtSG5TS2lSdTRvVFhyS2JrN2t4ZzZPanRsenRGak1DVVlyaUljWkNuOEw0VVNVbzhtZGJPeFZMc3ZNRENhWnlmNENBR0hWWXNudjQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1403,5 +1388,10 @@
     "date": "2026-01-24T17:22:40.112336+09:00",
     "title": "Gemini 3 を使ってみる: Gemini 3 Flash での Hello World - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUM2S0o1ZE9XcUNhZXc2bmlLQ09KalFKMFZ2T3FYQk1DeTVRUXhwUHRqR0huelpqeURDY2NiUEpiT0ZINC1GU0QwRDdkQlEzcGdvc3dvZGZFY2F6YmVORzljRkE3aERVd2tWVkU5MzQ2NDRQSV96aHNoYkhhUnpWTlI0NG9rYTdrejRhdFZoa1IwYmRWY3dNLVBHSnBhRWpuUURTbFdXbHRCMm50U0M3b09tU1VZOVNaQ09nWnRmaHA0LU5I?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-24T21:25:06.526272+09:00",
+    "title": "日立が狙うフィジカルAI「20兆円市場」 Google Cloudとの連携で描く勝ち筋（ITmedia ビジネスオンライン） - Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94STJKR0YzcEtoVUJ5dTlqS2NJVUVJM3ljQmJnbnU4QUhQUlA0Z210MnQ2UU1xbzRrU1JKRTBjVVB5Qi1UUkpCOHNFWWFWaVo2SllqR05XeUpUd2VjZWlYOU1NcGtJMTJReTJ5Q1hSeWplU0R2MUlrTkV0czBJTkE?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
