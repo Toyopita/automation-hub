@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-12-25T16:18:36.966475+09:00",
-    "title": "JCBがGoogle CloudのWeb Riskを用いてフィッシング対策を強化する取り組み - ニュースメディアVOIX",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XREdnV0hGZDlpeVFRX19weG4wOWFHT0YtMk5DVml2ZDZTTVhDRzRGWWZqZkRNWG16R2tLQUVOei0wbEVBa20tTFE0NjBDS0EtQy1vaVNRQ0pHRU4wYk94WTBidE1pcnRz?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-25T16:18:36.966475+09:00",
-    "title": "情報戦略テクノロジーがGoogle Cloudの高付加価値ソリューション強化を発表 - サードニュース",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44aEExUGRkUVc3dW5vV0xqeXc2RF8xQUp6TFZmM3JPSXVWbGFKY2FkT3NpbEcxODQwRGpPQ081akFyeWkxUVI5eWRhTFJITHF4UjZaR0d5SEM2MmU5Q2h4Nzh5RTg0bGFReUVmMEdQZkRkeFE1RVhyYTBB?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2025-12-25T17:19:14.092815+09:00",
-    "title": "Google Cloud 領域における高付加価値ソリューションの提供体制強化に関するお知らせ - RBB TODAY",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TdnVJeVMzRlR4dWNyN2JXQmN2d0MtM3NadktqUVhDb2FIb3FJUW83M1c1SWpydWpCV3lOVlktcWR1RDJhYXpNM3VjeXlOWkpqQjY1b1Y3eTgxNk5aWkZEV2RNWDVoRTYxSWVzUkYwbVhMV0lxUnU4Sw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-25T18:19:51.254689+09:00",
     "title": "Revolut case study - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwWmg3T2tNU290ZG5zc2NxUjEyMXNnbFpQVzIycVZOdjZRdC1QVEo5azlWMjhiUnlYTEZ1dldXQm85ZzhvZ1ZaN0pKbEhQdnBRQUxjazN3ano5aHJaRjhlZTRYQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1413,5 +1398,10 @@
     "date": "2026-01-24T15:21:29.504568+09:00",
     "title": "VoC（ Voice of Customer ）起点のバーチャルリサーチで顧客理解を高速化 - Google Cloud 活用 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQXBtbTljYTdYTzVpalJWV3hObDdOWWtIZ2pvZ2RVMWFnQU1MekZjVzNCaDdFOHpaUjk2TWZUcGMtVmppa19QSmRwMk5Eb0tvWFFYcnVOa1JMakFkN2ZoUVRpT2ExR19tMm9jbWQ0MENxM1I2SWNlLUNfa2h6QnRuLWxJd003UllqdDNzSUFQUEpQNlN3TTY2b3pucEZtRFNTa0RjS0xhejJtOF8wUElsMkF4Z0FnVGs?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-24T17:22:40.112336+09:00",
+    "title": "Gemini 3 を使ってみる: Gemini 3 Flash での Hello World - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUM2S0o1ZE9XcUNhZXc2bmlLQ09KalFKMFZ2T3FYQk1DeTVRUXhwUHRqR0huelpqeURDY2NiUEpiT0ZINC1GU0QwRDdkQlEzcGdvc3dvZGZFY2F6YmVORzljRkE3aERVd2tWVkU5MzQ2NDRQSV96aHNoYkhhUnpWTlI0NG9rYTdrejRhdFZoa1IwYmRWY3dNLVBHSnBhRWpuUURTbFdXbHRCMm50U0M3b09tU1VZOVNaQ09nWnRmaHA0LU5I?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
