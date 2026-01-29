@@ -39,7 +39,7 @@ HISTORY_FILE = '/Users/minamitakeshi/discord-mcp-server/idiom_medical_news_histo
 
 # Google News RSS URL（医療関連ニュース - 治療・新薬開発に特化）
 # カテゴリ: 新薬承認、治療法開発、臨床試験成功、がん治療、再生医療
-GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q="新薬承認" OR "治療法開発" OR "臨床試験 成功" OR "治験 成功" OR "効果確認" OR "特効薬" OR "画期的治療" OR "がん治療 新薬" OR "免疫療法 効果" OR "遺伝子治療 成功" OR "再生医療 実用化" OR "iPS細胞 治療" OR "CAR-T療法" OR "難病 治療法" OR "希少疾患 新薬" OR "FDA承認 新薬" OR "厚労省承認 新薬" OR "世界初 治療" OR "治験開始" OR "手術成功" OR "移植成功"&hl=ja&gl=JP&ceid=JP:ja'
+GOOGLE_NEWS_RSS = 'https://news.google.com/rss/search?q="新薬承認" OR "治療法開発" OR "臨床試験 成功" OR "治験 成功" OR "効果確認" OR "特効薬" OR "画期的治療" OR "がん治療 新薬" OR "がん 新薬" OR "がん 治験" OR "がん 承認" OR "免疫療法 効果" OR "遺伝子治療 成功" OR "再生医療 実用化" OR "iPS細胞 治療" OR "CAR-T療法" OR "難病 治療法" OR "希少疾患 新薬" OR "FDA承認 新薬" OR "厚労省承認 新薬" OR "世界初 治療" OR "治験開始" OR "手術成功" OR "移植成功"&hl=ja&gl=JP&ceid=JP:ja'
 
 # 信頼できるメディア名のリスト（医療系メディアを追加）
 TRUSTED_MEDIA_NAMES = [
