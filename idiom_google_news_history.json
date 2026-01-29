@@ -1,10 +1,5 @@
 [
   {
-    "date": "2025-12-30T14:25:39.865964+09:00",
-    "title": "グーグル・クラウド・ジャパン、 新代表就任のお知らせ - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNb0JGaGoxU3dFdzJJTUJCN0dDbmE5YjN6MkxpQTVYRG1GX0ZrbklrOHJuV2FQNzJKZ3ZjRXZFbjhWNDB5eEluNXp6ZHZsLUs5c1VPQ1B1WmRJVkEtRnN2bFRkNmU5YmRYc0hzQm5tTy1lc093RWRxMVNTU3pkN1NxejkwTGlaMXNTdUhYTllLTFJreUJoaUE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2025-12-31T09:36:17.711039+09:00",
     "title": "簡単な AI ワークフローの自動化: Cloud Run に n8n をデプロイする - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdnVFUDUyWDlqNDNXS2s5eFVfZHpySFlTTE5kXzlXM0MyN0xMUFZ2NmlUNWtCZjNIRVJNX3ZqV044ZjhEZzNCSnNZYk9zRWQ1Nmp0Tmt0U1ZZNFVlSmxfZHZiNU9tQW9nem5jNmlCVTZmaUZ6NktEanJNRFU1NXNRZTZKQWRoc09lbDZqQ2FVejBRZw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1513,5 +1508,10 @@
     "date": "2026-01-29T11:29:18.705372+09:00",
     "title": "AlloyDB のマネージド接続プーリングのご紹介 - 規模の拡大と接続の高速化 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTU9xNmoyMWFFM2RhVTYzYmJiUjMwOVJpQ01reXJnWmRhV1hXSWo1V1lWQVJQSWl1bEJSaWxrSXVqVjBEOFpoUnlRc3ZwQWFIQWpZV19JVFJiMWp5ZGEzOGVLWjVTUXdQNU5tYVpWWHRIZ2FTMENGZThwS3A4Uk1KUjZwVGsydWVORFN6SElNaVA?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-01-29T15:31:32.659711+09:00",
+    "title": "isento case study - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42VnRBMHNxdXN3MjVzenR3Q3lSTUc4Ym81SjRQb19YUDNqbHRzOW5OVi01aUhKdnZlc3pLUDU5MTlSbXhDT0lNWUZWdXp6NngxWEFublRCWTlHVFk?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
