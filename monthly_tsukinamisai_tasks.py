@@ -58,7 +58,7 @@ def is_last_day_of_month():
     return tomorrow.day == 1
 
 
-def create_task(task_name, deadline):
+def create_task(task_name, deadline, page_content=None):
     """Notionにタスクを作成"""
     headers = {
         'Authorization': f'Bearer {NOTION_TOKEN}',
@@ -83,6 +83,18 @@ def create_task(task_name, deadline):
             }
         }
     }
+
+    # ページ内コンテンツがある場合は追加
+    if page_content:
+        data['children'] = [
+            {
+                'object': 'block',
+                'type': 'paragraph',
+                'paragraph': {
+                    'rich_text': [{'type': 'text', 'text': {'content': page_content}}]
+                }
+            }
+        ]
 
     response = requests.post(
         f'{NOTION_API_URL}/pages',
@@ -115,10 +127,12 @@ def main():
 
     # タスクを順次作成
     success_count = 0
-    for i, task_name in enumerate(TSUKINAMISAI_TASKS, 1):
+    for i, task in enumerate(TSUKINAMISAI_TASKS, 1):
+        task_name = task['name']
+        page_content = task.get('content')
         print(f'[{i}/{len(TSUKINAMISAI_TASKS)}] {task_name}...', end=' ')
 
-        if create_task(task_name, today_str):
+        if create_task(task_name, today_str, page_content):
             print('✅')
             success_count += 1
         else:
