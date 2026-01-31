@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-02T05:01:08.855831+09:00",
-    "title": "『Google フォト』画像が秘密裏にAI学習に利用されている？ プライバシー重視のProtonが主張（Forbes JAPAN） - Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LY1V2N3hTQVNmYU9UenZOaHV4SzBCa0RsbkNaR1luY1AyV05LRHZrT2tjZXlHVC1pbks4UkJVSkE5cjNDemNETDU0TThVb3dXLU9UQTFpOXViSVFScVd1ajBOZlgteThmM200TklrT1RJQUU0WV96bGtyN2tqVWs?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-02T06:01:44.809811+09:00",
-    "title": "Qualia case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XZTRMR0tKaXp3anFsaml3S2F6OXVMa0NkSk02cHlaN3Z4NzdKLVprb19pdjJHX2Y0MkJ3d2xVTWU5UC05SEZRSGxWMGc0VTZ4U3ZjV2FCak43Zmc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-02T18:08:15.237410+09:00",
     "title": "ネットワーキングが Google Cloud での AI ワークロードを強化する 7 つの方法 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQlQ2WFpYR1F4LXRBbEVsbVFBVnEyVWM4SWdtTFA2S0J0cG94TlVrMHpnRkVFSkNZWnpBUE9vRnk1ZG85aEpvQndvMy1ZalBuX1QwcGpqU3RDRDJuamxpbFY2b2xra2JvRkdJVnAwOG9pYnd6b2IxMVZueXE2LUNSNFNmMHhfMHZ3UlpQcEV1MGYzRnZjTTljR0Z2R2wySlRGcWhVc3ZiZGNuRVE?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1533,5 +1523,10 @@
     "date": "2026-02-01T02:59:44.961063+09:00",
     "title": "【Google GenAI】Gemini Enterprise に Box を接続してデータを検索してみた（Data Ingestion コネクタ編） - ソフトバンク",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcUx6ZHJyOWhwSFp6YUJlMTRnbGx4ZkhJdGkxWHVnbzR1aTNESVZGakxpWVQ1ZTBQZkowd3o1aWVwUkZjOEUyaHU5X25ySThDMC1WRHotQXB2WktkQmt3WV96LVhwNGdEUW1UaWZuMnh0VEZKOThCUmZ1WWhtMko5OXpWdk1xOU9mMHVRWV9SZWN2MGJRQ2c?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-01T07:02:13.118101+09:00",
+    "title": "GoogleがIPideaネットワークを閉鎖、何百万ものAndroid携帯がもはや秘密のプロキシではない - VOI.id",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBoY1p6UDE5Ymc1bjBRREJwdmctNHg1bWg0T2dNaE52TVlzYmhhcnI3eXNab1o4UE9Bd29OS0E1OWlseVBraWZkcTB30gFCQVVfeXFMT3dlX182TUw1NFpoZm9pSW5MTkdEdk5VR2UyYjBmTnh3NlkzZFBKUXNhMXQwRFhnSVQ0LTMwQ0JISDlB?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
