@@ -373,7 +373,11 @@ def determine_seasonal_control(indoor_data: Dict, outdoor_data: Optional[Dict]) 
         # 加湿器制御判定
         humidifier_status = 'on' if indoor_humidity < Config.HUMIDIFIER_START else ('off' if indoor_humidity >= Config.HUMIDIFIER_STOP else 'maintain')
 
-        if indoor_temp < Config.WINTER_HEATING_START:
+        # 外気温に応じた暖房開始温度を決定
+        is_cold_day = outdoor_temp is not None and outdoor_temp <= Config.COLD_OUTDOOR_THRESHOLD
+        heating_start_temp = Config.WINTER_HEATING_START_COLD if is_cold_day else Config.WINTER_HEATING_START
+
+        if indoor_temp < heating_start_temp:
             return {
                 'mode': 'heat',
                 'set_temp': Config.WINTER_HEATING_TARGET,
