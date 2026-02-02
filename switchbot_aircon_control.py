@@ -409,16 +409,17 @@ def determine_seasonal_control(indoor_data: Dict, outdoor_data: Optional[Dict]) 
                 'night_mode': is_night
             }
         else:
-            # 22℃〜26℃の間は現状維持
+            # 暖房開始温度〜26℃の間は現状維持
+            cold_day_note = f'（外気温{outdoor_temp}℃≤{Config.COLD_OUTDOOR_THRESHOLD}℃）' if is_cold_day else ''
             return {
                 'mode': 'none',
                 'set_temp': None,
                 'circulator': 'off',
                 'humidifier': humidifier_status,
-                'action': f'冬季適温維持（室温{indoor_temp}℃）',
+                'action': f'冬季適温維持（室温{indoor_temp}℃）{cold_day_note}',
                 'priority': 'winter_maintain',
                 'controlled': False,
-                'reasoning': f'室温{indoor_temp}℃が適温範囲内',
+                'reasoning': f'室温{indoor_temp}℃が適温範囲内（{heating_start_temp}℃〜{Config.WINTER_HEATING_STOP}℃）',
                 'season': season,
                 'time_of_day': time_of_day,
                 'discomfort_index': di,
