@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-03T18:21:52.518746+09:00",
-    "title": "How Sanitas killed Monday morning stress with BigQuery - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xSDNyc0wxbUE4aWpJLVRSWE9JMkJGeGZmWl9YMVZLbzJwU29zRHhQLUl5MDNtS1FHRDk0bzhGSDVnalJHR1V4X1NjU2UzWWJ2S1BQRXBoekJkdzZxMmdPbw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-04T06:28:47.532261+09:00",
     "title": "野村総合研究所、企業の生成AI活用を支援する「AI共創モデル」をGoogle Cloudに拡大 - nri.com",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xWkp0LWRIWlB6WXlaRUppaTBObUZiMHVLSjhVN2poaTFBY1ZKaUZhODNfb2VBMm5PUjJsM3p4XzFOa1JTbFBVXzBnTVliQXUxN1JDVW03T0gzbXlGdWRFa1NvS0dBZw?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1563,5 +1558,15 @@
     "date": "2026-02-02T17:21:02.061326+09:00",
     "title": "足立区・NEC・Google CloudがAIエージェントを活用したEBPMの実証実験 - マイナビニュース",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FaHZMbTR5N0ZNcjlmaXVNR0wyT19PM21JZVVpd2lZb05Ca0JjdWhveDVVVUIwN0Q4cnktUkpxeWJUaEZhTGY2d0ZfMW1uM3JJUVg0QnlkaVd2YVhVS3FoV1V6bmtJVmdk?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-02T19:22:16.024218+09:00",
+    "title": "グーグル、世界最大級の悪意のプロキシ「IPIDEA」を阻止 数百万台のグレー市場（Impress Watch） - Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FclR2Y1JXMmV1WVNxYmw0RTZGQUVHbGhGS3Z6QV80cVpQVzVyZHZpMjFfTkFFU2lnN3d4Y25XTHdWM0NGX01ud1hteUJBdUZfVEhsYXY4anJ5bGlrc3A0TXMxTzAxZnBUZ1JXaVRUYjY3NkdQYnM4LTFLcW5KbEU?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-02T19:22:16.024218+09:00",
+    "title": "グーグル、月1200円で最新Geminiが使える「Google AI Plus」（Impress Watch） - Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zclA4eTV1MU5PQUFHd2dmTEQxYWl0U3FUdHpYYmtCaXZGZW43dUtXOVN5MGZFNFk3UzFjckVsc0J2RU9QMDdIYTdxT1ZnUG9sMUVTOEZ1WTRQaXZCaHFMOUU1OFZzZ2EzeGtaNEU4Q2Q5bml6Y0x1UmpINUNFZzg?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
