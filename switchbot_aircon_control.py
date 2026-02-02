@@ -378,15 +378,16 @@ def determine_seasonal_control(indoor_data: Dict, outdoor_data: Optional[Dict]) 
         heating_start_temp = Config.WINTER_HEATING_START_COLD if is_cold_day else Config.WINTER_HEATING_START
 
         if indoor_temp < heating_start_temp:
+            cold_day_note = f'（外気温{outdoor_temp}℃≤{Config.COLD_OUTDOOR_THRESHOLD}℃）' if is_cold_day else ''
             return {
                 'mode': 'heat',
                 'set_temp': Config.WINTER_HEATING_TARGET,
                 'circulator': 'off',
                 'humidifier': humidifier_status,
-                'action': f'冬季暖房（室温{indoor_temp}℃ → {Config.WINTER_HEATING_TARGET}℃）',
+                'action': f'冬季暖房（室温{indoor_temp}℃ → {Config.WINTER_HEATING_TARGET}℃）{cold_day_note}',
                 'priority': 'winter_heating',
                 'controlled': True,
-                'reasoning': f'室温{indoor_temp}℃が{Config.WINTER_HEATING_START}℃未満のため暖房',
+                'reasoning': f'室温{indoor_temp}℃が{heating_start_temp}℃未満のため暖房{cold_day_note}',
                 'season': season,
                 'time_of_day': time_of_day,
                 'discomfort_index': di,
