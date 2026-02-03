@@ -78,6 +78,13 @@ class Config:
     WINTER_INDOOR_COLD = 24.0     # 室内 < 24℃ → 暖房ON（体感寒い）
     WINTER_INDOOR_HIGH = 26.0     # 室内 ≧ 26℃ → 暖房不要
 
+    # 冬季夜間モード（21時〜5時、外気温8℃以下で室内25℃キープ）
+    WINTER_NIGHT_START_HOUR = 21  # 夜間モード開始時刻
+    WINTER_NIGHT_END_HOUR = 5     # 夜間モード終了時刻
+    WINTER_NIGHT_OUTDOOR_COLD = 8.0   # 外気温8℃以下で夜間モード適用
+    WINTER_NIGHT_TARGET = 25      # 夜間モード暖房設定温度
+    WINTER_NIGHT_INDOOR_THRESHOLD = 25.0  # 室内25℃未満で暖房ON
+
     # 夏季: 絶対温度 + 温度差の複合ロジック
     SUMMER_TEMP_DIFF_HIGH = 7.0   # 温度差 ≧ 7℃ → 冷房OFF
     SUMMER_TEMP_DIFF_LOW = 5.0    # 温度差 < 5℃ → 体感暑い
