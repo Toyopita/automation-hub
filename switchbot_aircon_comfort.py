@@ -323,7 +323,44 @@ def determine_temp_diff_control(indoor_data: Dict, outdoor_data: Optional[Dict])
 
     # ===== 冬季: 絶対温度優先ロジック（2026-01-23改善） =====
     if season == 'winter':
-        # 暖房ON条件（最優先）: 室内 < 24℃ → 暖房ON
+        # 夜間モード判定（21時〜5時）
+        is_winter_night = (now.hour >= Config.WINTER_NIGHT_START_HOUR or now.hour < Config.WINTER_NIGHT_END_HOUR)
+        is_outdoor_cold = outdoor_temp is not None and outdoor_temp <= Config.WINTER_NIGHT_OUTDOOR_COLD
+
+        # 夜間モード（21時〜5時、外気温8℃以下）: 室内25℃キープ
+        if is_winter_night and is_outdoor_cold:
+            if indoor_temp < Config.WINTER_NIGHT_INDOOR_THRESHOLD:
+                return {
+                    'mode': 'heat',
+                    'set_temp': Config.WINTER_NIGHT_TARGET,
+                    'humidifier': humidifier_status,
+                    'action': f'冬季夜間モード・室内{indoor_temp}℃ < {Config.WINTER_NIGHT_INDOOR_THRESHOLD}℃ → 暖房ON（{Config.WINTER_NIGHT_TARGET}℃）',
+                    'priority': 'winter_night',
+                    'controlled': True,
+                    'reasoning': f'夜間（{now.hour}時）・外気温{outdoor_temp}℃≤{Config.WINTER_NIGHT_OUTDOOR_COLD}℃・室内{indoor_temp}℃が{Config.WINTER_NIGHT_INDOOR_THRESHOLD}℃未満のため暖房ON',
+                    'season': season,
+                    'time_of_day': time_of_day,
+                    'temp_diff': temp_diff,
+                    'temp_diff_action': '夜間モード暖房ON',
+                    'night_mode': True
+                }
+            else:
+                return {
+                    'mode': 'none',
+                    'set_temp': None,
+                    'humidifier': humidifier_status,
+                    'action': f'冬季夜間モード・室内{indoor_temp}℃ ≧ {Config.WINTER_NIGHT_INDOOR_THRESHOLD}℃ → 暖房不要',
+                    'priority': 'winter_night_ok',
+                    'controlled': False,
+                    'reasoning': f'夜間（{now.hour}時）・外気温{outdoor_temp}℃≤{Config.WINTER_NIGHT_OUTDOOR_COLD}℃・室内{indoor_temp}℃が{Config.WINTER_NIGHT_INDOOR_THRESHOLD}℃以上のため暖房不要',
+                    'season': season,
+                    'time_of_day': time_of_day,
+                    'temp_diff': temp_diff,
+                    'temp_diff_action': '夜間モード暖房OFF',
+                    'night_mode': True
+                }
+
+        # 通常モード: 暖房ON条件（最優先）: 室内 < 24℃ → 暖房ON
         if indoor_temp < Config.WINTER_INDOOR_COLD:
             return {
                 'mode': 'heat',
