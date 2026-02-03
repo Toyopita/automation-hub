@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-04T14:33:15.907481+09:00",
-    "title": "Nordnet case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0Y2dyQm5Kdi11SnJ4c2RFcGc5MkctTVVYbHRPaDRYNFBMTFRQUmRSU2dQT0IxQVJkczZOTHo1SW42dmIzZWdvNjhMcEFnQkVJM1NRdXlPQ2VSNFpQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-04T14:33:15.907481+09:00",
-    "title": "Google Cloud でのカオス エンジニアリング: 原則、実践、開始方法 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLVRPZWtZbHk1bUlpcnVieXRxZTM5LXdnVmJUaFFaa195aXhKNXdxa0N2dVdhZXlSdmRuUFRwWVJWa21mOWdpUVMwNDVhVEJTdVRpSVNIXzlyLXFUMDdxMlJhbWtLUjA4Nms5UTFyYU56TDZuQlVUU2JHUXprbWN5MnZMRC0ydUdrS2JXQVlEUDJaeWVQNHc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-04T22:37:35.115993+09:00",
     "title": "Tauá Resorts case study - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sVURDUHNObU5kT0ozQmZUTUlwUmRlbmI2c1RYanpTYWVyWW9ELTNwRjZlcWRaR2l6NzFlS1dKOUtIUEp3TEFLMTg0QjlNTF91Q21EX212cDd5TUxEVzdKSmRwOA?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1603,5 +1593,10 @@
     "date": "2026-02-03T13:32:51.105334+09:00",
     "title": "株式会社G-gen、Google Cloud 主催「Google Launchpad for Women 2026」への参画とトレーナー担当を発表 - ASCII.jp",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56OE4wdHBsZ24xb1hOVTMxcmJjVjQwTXBudld4V3JuQkJvbTUzeVdQbUhvUWNuNWxFWmxScmh5UGZRTzk5LXVfTU9Zek5OUVJpSTcxVQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-03T17:35:05.607009+09:00",
+    "title": "AuraInspector: Salesforce Aura の監査によるデータ漏洩の検出 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRFh2SWFlMEtxQnpmNV92OHNTSllJcVllbkJUakxZRVZXN0RWeDltNnQyMDU0UUgzVHQ5LXUxTzE1WnRwZ3piZ1J3cXBjdXhIWUFDUkNySFJvVjVjVHhCa2EyRUdYMTRRVFNSODladjhZa1hoMmxMdkxOR19UMFZZOVBaalVIZVR2QzF5a3lYNS11RjdMQXNQSTNYZ1pmNms2?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
