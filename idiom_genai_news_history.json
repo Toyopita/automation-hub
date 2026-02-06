@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-07T14:31:39.063038+09:00",
-    "title": "GoogleのAIで実現する「考える社内アシスタント」──Gemini Enterpriseで社内ナレッジを武器にする方法 - AIsmiley",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JbHlxamtkT1VvSmd0bVc4WmttSXRROG5YYzktcDRVMlRiTzdXZUU0TkJjbU1oNkJYZ3VYc1JHNmVRUkVJTFF3X1FmdFY4SzI0QmFNWkxxMDBhNDFmMzh0UXhqYW9pejNiUTdV?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-07T14:31:39.063038+09:00",
-    "title": "「 【2026年版】AIに任せる線引きと人間固有の価値～AIに任せる仕事とプロである人間が担う領域～」にWACULが登壇 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jZmMwckszT1EtVXNGZG44QmFYVFJ5cW1QN1U2OWxOd2U1b3h0UWluSFN5WWF1MWg1NWEyNm12S0JFQUtFdEV5UmxmbE11Sll3SUlJTFRkeVZSQnktbks5MExfeWlpSUJOQ0E?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-07T15:32:17.093123+09:00",
     "title": "KDDIアジャイル開発センター、AI駆動開発とオフショアを活用した「KAGオフショアAIラボ」を開始 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd3hmUFFlSmdzTVpnWG1SRC1ONmw3U09nbjk3LTZoemRCZEY0OTJMTndhS0FCaVhNam91ZHpEa1l4cFBVLVVpRVN0S1BhcTZhcG9KUlpMaUpaN2RYMnVxODVOT2RMSmNjREE?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5778,5 +5768,15 @@
     "date": "2026-02-06T14:09:27.197635+09:00",
     "title": "OpenAIも「SaaSの死」促す AIエージェント基盤「Frontier」発表、BtoB特化 - 日経クロステック",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50ZlQ5WjR3QnVmTlA4VmVYelVuOVVFS0RTb1owWWtKbHl6YnB5VVJmV094d1NRWk1hQ2dIazJ5bWVrRGxLSTZrLXRrQm8zUG51b0p2VUxEa1RlaUJjcWhyZWZDNGxLREhpbDhncQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-06T15:10:08.995119+09:00",
+    "title": "ナレッジワーク、個社固有の複雑な業務をAIで支援・代行できる「ナレッジワークカスタマイズAIエージェント」を提供開始 - PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qRlVIODQ4N2d2ZzM1US01aHRwT0RBa2g5VmZ2Ti16ZDU5N2JSeGx3cVRZMk9Vd3JDWm01N3MyT1IxVFJTOU0yMHBuMkMzdWZVWUhOS0dmY1NEWnRPNW9pZVUya0pOaUlkZmc?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-06T15:10:08.995119+09:00",
+    "title": "OpenAI、エージェントコーディングモデル「GPT-5.3-Codex」発表 Anthropicの新Opus発表直後に - ITmedia",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4a3N4eVFSLVRHOGp4ZHN4Y3RnbkhmWXVTYV9LZi0xeEVaR1g2VU9oUENEVFRNbmt5X2pYa2ZZOW1zbmJuT2ExNTVnTnFSS2lnN1Y2NzFrUHlaTDhJRmh5eEpKXzFBY1hLakV3SkNkNA?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
