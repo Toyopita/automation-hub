@@ -248,6 +248,9 @@ def update_github_pages():
         print(f'[WARN] git push失敗: {e.stderr.decode()[:200] if e.stderr else e}')
 
 
+GITHUB_PAGES_URL = 'https://toyopita.github.io/automation-hub/'
+
+
 async def main():
     print(f'[INFO] {datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")} 環境ダッシュボード投稿開始')
 
@@ -260,15 +263,24 @@ async def main():
         print('[WARN] データなし、投稿スキップ')
         return
 
-    # 画像生成
-    print('[INFO] グラフ画像生成中...')
-    image_buf = create_dashboard_image(records)
+    # GitHub Pages更新（先に更新してからDiscordにURL投稿）
+    update_github_pages()
 
-    # サマリーテキスト生成
-    summary = create_summary_text(records)
-
-    # Discord投稿
+    # Discord投稿（URLリンク付きメッセージ）
     print('[INFO] Discordに投稿中...')
+    now = datetime.now(JST)
+    latest = records[-1]
+    latest_temp = latest.get('indoor_temp', '--')
+    latest_hum = latest.get('indoor_humidity', '--')
+    latest_co2 = latest.get('co2', '--')
+
+    message = (
+        f'## 🌡️ 環境レポート - {now.strftime("%Y年%m月%d日")}\n'
+        f'**現在値**: 室内 {latest_temp}°C / {latest_hum}% / CO2 {latest_co2}ppm\n\n'
+        f'📊 **ダッシュボード**: {GITHUB_PAGES_URL}\n\n'
+        f'`自動送信 | {now.strftime("%Y-%m-%d %H:%M")}`'
+    )
+
     intents = discord.Intents.default()
     intents.guilds = True
     client = discord.Client(intents=intents)
@@ -278,17 +290,13 @@ async def main():
         print(f'[INFO] Discord Bot起動: {client.user}')
         channel = client.get_channel(CHANNEL_ID)
         if channel:
-            file = discord.File(image_buf, filename='environment_dashboard.png')
-            await channel.send(content=summary, file=file)
+            await channel.send(content=message)
             print('[INFO] 投稿完了')
         else:
             print(f'[ERROR] チャンネル {CHANNEL_ID} が見つかりません')
         await client.close()
 
     await client.start(DISCORD_TOKEN)
-
-    # GitHub Pages更新
-    update_github_pages()
 
     print(f'[INFO] {datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")} 完了')
 
