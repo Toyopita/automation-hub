@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SwitchBot 環境ダッシュボード</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0f0f1a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans',sans-serif;padding:16px;min-height:100vh}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px}
+h1{font-size:1.4rem;white-space:nowrap}
+.controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.period-btn{background:#1e1e3a;border:1px solid #333;color:#aaa;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:.85rem;transition:.2s}
+.period-btn:hover{border-color:#666}
+.period-btn.active{background:#2d5aa0;color:#fff;border-color:#2d5aa0}
+.refresh-btn{background:#1e1e3a;border:1px solid #333;color:#aaa;padding:6px 12px;border-radius:6px;cursor:pointer;font-size:.85rem}
+.refresh-btn:hover{border-color:#666;color:#fff}
+.last-updated{color:#666;font-size:.75rem}
+
+/* カード */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:20px}
+.card{background:#16163a;border-radius:10px;padding:16px;text-align:center;border:1px solid #222}
+.card-label{font-size:.7rem;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+.card-value{font-size:1.8rem;font-weight:700;line-height:1.2}
+.card-unit{font-size:.75rem;color:#888;margin-top:2px}
+.card-sub{font-size:.7rem;color:#666;margin-top:4px}
+
+/* カード色 */
+.card.temp-hot .card-value{color:#ff6b6b}
+.card.temp-warm .card-value{color:#ffa94d}
+.card.temp-ok .card-value{color:#51cf66}
+.card.temp-cool .card-value{color:#74c0fc}
+.card.temp-cold .card-value{color:#4dabf7}
+.card.hum-dry .card-value{color:#ff8c42}
+.card.hum-ok .card-value{color:#51cf66}
+.card.hum-wet .card-value{color:#74c0fc}
+.card.co2-ok .card-value{color:#51cf66}
+.card.co2-warn .card-value{color:#ffd43b}
+.card.co2-danger .card-value{color:#ff6b6b}
+.card.di-cold .card-value{color:#4dabf7}
+.card.di-ok .card-value{color:#51cf66}
+.card.di-hot .card-value{color:#ff6b6b}
+
+.card-wide{grid-column:span 2}
+.aircon-status{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.aircon-item{text-align:center}
+.aircon-item .mode{font-size:1.2rem;font-weight:700}
+.mode-heat{color:#ff8c00}
+.mode-cool{color:#4169e1}
+.mode-off{color:#666}
+
+/* グラフ */
+.chart-section{background:#16163a;border-radius:10px;padding:16px;margin-bottom:16px;border:1px solid #222}
+.chart-title{font-size:.85rem;font-weight:600;margin-bottom:10px;color:#ccc}
+.chart-container{position:relative;height:220px}
+
+/* テーブル */
+.log-section{background:#16163a;border-radius:10px;padding:16px;margin-bottom:16px;border:1px solid #222}
+.log-section h2{font-size:.85rem;font-weight:600;margin-bottom:12px;color:#ccc}
+table{width:100%;border-collapse:collapse;font-size:.75rem}
+th{text-align:left;padding:6px 8px;border-bottom:1px solid #333;color:#888;white-space:nowrap}
+td{padding:6px 8px;border-bottom:1px solid #1a1a2e;white-space:nowrap}
+tr:hover td{background:rgba(255,255,255,.03)}
+.mode-badge{padding:2px 8px;border-radius:4px;font-size:.7rem;font-weight:600}
+.badge-heat{background:rgba(255,140,0,.2);color:#ff8c00}
+.badge-cool{background:rgba(65,105,225,.2);color:#4169e1}
+.badge-off{background:rgba(100,100,100,.2);color:#888}
+.badge-dry{background:rgba(0,200,200,.2);color:#0cc}
+
+/* ローディング */
+.loading{text-align:center;padding:40px;color:#666}
+@media(max-width:600px){
+  header{flex-direction:column;align-items:flex-start}
+  .chart-container{height:180px}
+  .cards{grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
+  .card-wide{grid-column:span 1}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>&#x1F321;&#xFE0F; SwitchBot 環境ダッシュボード</h1>
+  <div class="controls">
+    <div>
+      <button class="period-btn active" data-period="24h" onclick="setPeriod('24h')">24時間</button>
+      <button class="period-btn" data-period="3d" onclick="setPeriod('3d')">3日</button>
+      <button class="period-btn" data-period="7d" onclick="setPeriod('7d')">1週間</button>
+      <button class="period-btn" data-period="30d" onclick="setPeriod('30d')">1ヶ月</button>
+    </div>
+    <button class="refresh-btn" onclick="refreshAll()">&#x1F504; 更新</button>
+    <span class="last-updated" id="lastUpdated">--</span>
+  </div>
+</header>
+
+<!-- 現在値カード -->
+<section class="cards" id="cardsSection">
+  <div class="card" id="cardIndoorTemp">
+    <div class="card-label">室内温度</div>
+    <div class="card-value">--</div>
+    <div class="card-unit">&deg;C</div>
+  </div>
+  <div class="card" id="cardIndoorHum">
+    <div class="card-label">室内湿度</div>
+    <div class="card-value">--</div>
+    <div class="card-unit">%</div>
+  </div>
+  <div class="card" id="cardCO2">
+    <div class="card-label">CO2</div>
+    <div class="card-value">--</div>
+    <div class="card-unit">ppm</div>
+  </div>
+  <div class="card" id="cardOutdoorTemp">
+    <div class="card-label">外気温度</div>
+    <div class="card-value">--</div>
+    <div class="card-unit">&deg;C</div>
+  </div>
+  <div class="card" id="cardOutdoorHum">
+    <div class="card-label">外気湿度</div>
+    <div class="card-value">--</div>
+    <div class="card-unit">%</div>
+  </div>
+  <div class="card" id="cardDI">
+    <div class="card-label">不快指数</div>
+    <div class="card-value">--</div>
+    <div class="card-sub">--</div>
+  </div>
+  <div class="card card-wide" id="cardAircon">
+    <div class="card-label">制御状態</div>
+    <div class="aircon-status">
+      <div class="aircon-item"><div class="card-sub">エアコン</div><div class="mode mode-off">--</div></div>
+      <div class="aircon-item"><div class="card-sub">加湿器</div><div class="mode mode-off">--</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- グラフ -->
+<div class="chart-section">
+  <div class="chart-title">&#x1F321;&#xFE0F; 温度（室内 / 外気）</div>
+  <div class="chart-container"><canvas id="chartTemp"></canvas></div>
+</div>
+<div class="chart-section">
+  <div class="chart-title">&#x1F4A7; 湿度（室内 / 外気）</div>
+  <div class="chart-container"><canvas id="chartHum"></canvas></div>
+</div>
+<div class="chart-section">
+  <div class="chart-title">&#x1F32B;&#xFE0F; CO2 濃度</div>
+  <div class="chart-container"><canvas id="chartCO2"></canvas></div>
+</div>
+<div class="chart-section">
+  <div class="chart-title">&#x1F4CA; 不快指数</div>
+  <div class="chart-container"><canvas id="chartDI"></canvas></div>
+</div>
+<div class="chart-section">
+  <div class="chart-title">&#x2744;&#xFE0F; エアコン制御</div>
+  <div class="chart-container"><canvas id="chartAircon"></canvas></div>
+</div>
+<div class="chart-section">
+  <div class="chart-title">&#x1F4A8; 加湿器制御</div>
+  <div class="chart-container"><canvas id="chartHumidifier"></canvas></div>
+</div>
+
+<!-- 制御ログ -->
+<div class="log-section">
+  <h2>&#x1F4DD; 制御ログ（最新20件）</h2>
+  <div style="overflow-x:auto">
+    <table>
+      <thead>
+        <tr><th>日時</th><th>エアコン</th><th>設定温度</th><th>加湿器</th><th>室内</th><th>外気</th><th>CO2</th><th>DI</th><th>制御内容</th></tr>
+      </thead>
+      <tbody id="logBody"><tr><td colspan="9" style="text-align:center;color:#666">読み込み中...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+// ===== グローバル状態 =====
+let currentPeriod = '24h';
+let charts = {};
+const REFRESH_INTERVAL = 5 * 60 * 1000; // 5分
+
+// ===== Chart.js グローバル設定 =====
+Chart.defaults.color = '#888';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
+Chart.defaults.font.family = "-apple-system,BlinkMacSystemFont,'Hiragino Sans',sans-serif";
+Chart.defaults.font.size = 11;
+
+const COLORS = {
+  indoorTemp: '#ff6b6b',
+  outdoorTemp: '#4dabf7',
+  indoorHum: '#51cf66',
+  outdoorHum: '#74c0fc',
+  co2: '#ffd43b',
+  di: '#cc5de8',
+  heat: '#ff8c00',
+  cool: '#4169e1',
+  off: '#333',
+  humOn: '#51cf66',
+  humMaintain: '#ffd43b',
+  humOff: '#333',
+};
+
+// ===== 時間軸設定 =====
+function timeUnit(period) {
+  return {
+    '24h': {unit:'hour', stepSize:2, fmt:'HH:mm'},
+    '3d':  {unit:'hour', stepSize:12, fmt:'M/d HH:mm'},
+    '7d':  {unit:'day',  stepSize:1, fmt:'M/d'},
+    '30d': {unit:'day',  stepSize:3, fmt:'M/d'},
+  }[period] || {unit:'hour', stepSize:2, fmt:'HH:mm'};
+}
+
+function makeTimeScale(period) {
+  const tu = timeUnit(period);
+  return {
+    type: 'time',
+    time: {unit: tu.unit, stepSize: tu.stepSize, displayFormats: {hour: tu.fmt, day: tu.fmt}},
+    ticks: {maxRotation: 0, autoSkip: true, maxTicksLimit: 12},
+    grid: {color:'rgba(255,255,255,0.04)'},
+  };
+}
+
+// ===== グラフ初期化 =====
+function initCharts() {
+  const defOpts = (yLabel, extra) => ({
+    responsive: true, maintainAspectRatio: false, animation: {duration: 300},
+    interaction: {mode:'index', intersect:false},
+    scales: {x: makeTimeScale(currentPeriod), y: {grid:{color:'rgba(255,255,255,0.04)'}, title:{display:true, text:yLabel, color:'#888'}, ...extra}},
+    plugins: {legend:{labels:{boxWidth:12, padding:8}}, tooltip:{mode:'index', intersect:false}},
+  });
+
+  // 1. 温度
+  charts.temp = new Chart(document.getElementById('chartTemp'), {
+    type: 'line',
+    data: {datasets: [
+      {label:'室内', borderColor:COLORS.indoorTemp, backgroundColor:'rgba(255,107,107,0.1)', data:[], tension:.3, pointRadius:0, borderWidth:2, fill:false},
+      {label:'外気', borderColor:COLORS.outdoorTemp, backgroundColor:'rgba(77,171,247,0.1)', data:[], tension:.3, pointRadius:0, borderWidth:2, borderDash:[6,3], fill:false},
+    ]},
+    options: defOpts('温度 (°C)'),
+  });
+
+  // 2. 湿度
+  charts.hum = new Chart(document.getElementById('chartHum'), {
+    type: 'line',
+    data: {datasets: [
+      {label:'室内', borderColor:COLORS.indoorHum, data:[], tension:.3, pointRadius:0, borderWidth:2, fill:false},
+      {label:'外気', borderColor:COLORS.outdoorHum, data:[], tension:.3, pointRadius:0, borderWidth:2, borderDash:[6,3], fill:false},
+    ]},
+    options: defOpts('湿度 (%)'),
+  });
+
+  // 3. CO2
+  charts.co2 = new Chart(document.getElementById('chartCO2'), {
+    type: 'line',
+    data: {datasets: [
+      {label:'CO2', borderColor:COLORS.co2, backgroundColor:'rgba(255,212,59,0.15)', data:[], tension:.3, pointRadius:0, borderWidth:2, fill:true},
+    ]},
+    options: {
+      ...defOpts('CO2 (ppm)'),
+      plugins: {
+        legend:{labels:{boxWidth:12, padding:8}},
+        tooltip:{mode:'index', intersect:false},
+        annotation: {annotations: {
+          warn1000: {type:'line', yMin:1000, yMax:1000, borderColor:'rgba(255,107,107,0.5)', borderWidth:2, borderDash:[6,3],
+            label:{display:true, content:'1000ppm', position:'start', color:'#ff6b6b', font:{size:10}, backgroundColor:'transparent'}},
+        }},
+      },
+    },
+  });
+
+  // 4. 不快指数
+  charts.di = new Chart(document.getElementById('chartDI'), {
+    type: 'line',
+    data: {datasets: [
+      {label:'不快指数', borderColor:COLORS.di, data:[], tension:.3, pointRadius:0, borderWidth:2, fill:false},
+    ]},
+    options: {
+      ...defOpts('不快指数'),
+      plugins: {
+        legend:{labels:{boxWidth:12, padding:8}},
+        tooltip:{mode:'index', intersect:false},
+        annotation: {annotations: {
+          comfortZone: {type:'box', yMin:68, yMax:75, backgroundColor:'rgba(81,207,102,0.08)', borderWidth:0,
+            label:{display:true, content:'快適ゾーン', position:{x:'start',y:'center'}, color:'rgba(81,207,102,0.4)', font:{size:10}, backgroundColor:'transparent'}},
+        }},
+      },
+    },
+  });
+
+  // 5. エアコン制御タイムライン
+  charts.aircon = new Chart(document.getElementById('chartAircon'), {
+    type: 'bar',
+    data: {datasets: [
+      {label:'エアコン', data:[], backgroundColor:[], borderWidth:0, barPercentage:1.0, categoryPercentage:1.0},
+    ]},
+    options: {
+      responsive:true, maintainAspectRatio:false, animation:{duration:300},
+      scales: {
+        x: makeTimeScale(currentPeriod),
+        y: {display:false, min:0, max:1},
+      },
+      plugins: {
+        legend:{display:false},
+        tooltip:{callbacks:{
+          label: ctx => ctx.raw.mode || '',
+        }},
+      },
+    },
+  });
+
+  // 6. 加湿器タイムライン
+  charts.humidifier = new Chart(document.getElementById('chartHumidifier'), {
+    type: 'bar',
+    data: {datasets: [
+      {label:'加湿器', data:[], backgroundColor:[], borderWidth:0, barPercentage:1.0, categoryPercentage:1.0},
+    ]},
+    options: {
+      responsive:true, maintainAspectRatio:false, animation:{duration:300},
+      scales: {
+        x: makeTimeScale(currentPeriod),
+        y: {display:false, min:0, max:1},
+      },
+      plugins: {
+        legend:{display:false},
+        tooltip:{callbacks:{
+          label: ctx => ctx.raw.mode || '',
+        }},
+      },
+    },
+  });
+}
+
+// ===== データ取得・更新 =====
+async function fetchCurrent() {
+  try {
+    const res = await fetch('/api/current');
+    if (!res.ok) return;
+    const data = await res.json();
+    updateCards(data);
+  } catch(e) { console.error('current fetch error:', e); }
+}
+
+async function fetchHistory() {
+  try {
+    const res = await fetch(`/api/history?period=${currentPeriod}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    updateCharts(data.records);
+    updateLogTable(data.records);
+  } catch(e) { console.error('history fetch error:', e); }
+}
+
+// ===== カード更新 =====
+function updateCards(data) {
+  const indoor = data.indoor || {};
+  const outdoor = data.outdoor || {};
+
+  function setCard(id, value, unit, classPrefix, thresholds) {
+    const el = document.getElementById(id);
+    const valEl = el.querySelector('.card-value');
+    if (value == null) { valEl.textContent = '--'; return; }
+    valEl.textContent = typeof value === 'number' ? value.toFixed(1) : value;
+
+    // クラスリセット
+    el.className = el.className.replace(/\b(temp|hum|co2|di)-(hot|warm|ok|cool|cold|dry|wet|warn|danger)\b/g, '').trim() + ' card';
+    if (id === 'cardAircon') el.className += ' card-wide';
+
+    if (thresholds) {
+      for (const [cls, fn] of thresholds) {
+        if (fn(value)) { el.className += ` ${cls}`; break; }
+      }
+    }
+  }
+
+  setCard('cardIndoorTemp', indoor.temperature, '°C', 'temp', [
+    ['temp-hot', v=>v>=30], ['temp-warm', v=>v>=27], ['temp-ok', v=>v>=20],
+    ['temp-cool', v=>v>=15], ['temp-cold', v=>true],
+  ]);
+  setCard('cardIndoorHum', indoor.humidity, '%', 'hum', [
+    ['hum-dry', v=>v<40], ['hum-ok', v=>v<=70], ['hum-wet', v=>true],
+  ]);
+  setCard('cardCO2', indoor.co2, 'ppm', 'co2', [
+    ['co2-danger', v=>v>=1000], ['co2-warn', v=>v>=800], ['co2-ok', v=>true],
+  ]);
+  setCard('cardOutdoorTemp', outdoor ? outdoor.temperature : null, '°C', 'temp', [
+    ['temp-hot', v=>v>=30], ['temp-warm', v=>v>=25], ['temp-ok', v=>v>=15],
+    ['temp-cool', v=>v>=5], ['temp-cold', v=>true],
+  ]);
+  setCard('cardOutdoorHum', outdoor ? outdoor.humidity : null, '%', 'hum', [
+    ['hum-dry', v=>v<40], ['hum-ok', v=>v<=70], ['hum-wet', v=>true],
+  ]);
+
+  // 不快指数
+  const diCard = document.getElementById('cardDI');
+  const diVal = diCard.querySelector('.card-value');
+  const diSub = diCard.querySelector('.card-sub');
+  if (data.discomfort_index != null) {
+    diVal.textContent = data.discomfort_index.toFixed(1);
+    diSub.textContent = data.discomfort_eval || '';
+    diCard.className = 'card';
+    if (data.discomfort_index < 68) diCard.className += ' di-cold';
+    else if (data.discomfort_index <= 75) diCard.className += ' di-ok';
+    else diCard.className += ' di-hot';
+  }
+
+  // エアコン・加湿器状態
+  const airconCard = document.getElementById('cardAircon');
+  const modes = airconCard.querySelectorAll('.mode');
+  const modeMap = {heat:'暖房', cool:'冷房', dry:'除湿', none:'停止', unknown:'--'};
+  const modeClass = {heat:'mode-heat', cool:'mode-cool'};
+  const am = data.aircon_mode || 'unknown';
+  modes[0].textContent = modeMap[am] || am;
+  modes[0].className = 'mode ' + (modeClass[am] || 'mode-off');
+
+  document.getElementById('lastUpdated').textContent = '最終更新: ' + new Date().toLocaleTimeString('ja-JP');
+}
+
+// ===== グラフ更新 =====
+function updateCharts(records) {
+  if (!records || !records.length) return;
+
+  const ts = records.map(r => new Date(r.timestamp));
+
+  // 時間軸更新
+  Object.values(charts).forEach(c => {
+    c.options.scales.x = makeTimeScale(currentPeriod);
+  });
+
+  // 1. 温度
+  charts.temp.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:r.indoor_temp}));
+  charts.temp.data.datasets[1].data = records.map((r,i) => ({x:ts[i], y:r.outdoor_temp}));
+
+  // エアコンON区間を背景色で表示
+  const airconAnnotations = {};
+  let segStart = null, segMode = null;
+  for (let i = 0; i < records.length; i++) {
+    const mode = records[i].aircon_mode;
+    const isOn = mode === '暖房' || mode === '冷房';
+    if (isOn && segStart === null) {
+      segStart = ts[i];
+      segMode = mode;
+    } else if ((!isOn || mode !== segMode) && segStart !== null) {
+      airconAnnotations[`seg${i}`] = {
+        type: 'box', xMin: segStart, xMax: ts[i],
+        backgroundColor: segMode === '暖房' ? 'rgba(255,140,0,0.08)' : 'rgba(65,105,225,0.08)',
+        borderWidth: 0,
+      };
+      segStart = isOn ? ts[i] : null;
+      segMode = isOn ? mode : null;
+    }
+  }
+  if (segStart !== null) {
+    airconAnnotations['segLast'] = {
+      type: 'box', xMin: segStart, xMax: ts[ts.length-1],
+      backgroundColor: segMode === '暖房' ? 'rgba(255,140,0,0.08)' : 'rgba(65,105,225,0.08)',
+      borderWidth: 0,
+    };
+  }
+  charts.temp.options.plugins.annotation = {annotations: airconAnnotations};
+  charts.temp.update();
+
+  // 2. 湿度
+  charts.hum.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:r.indoor_humidity}));
+  charts.hum.data.datasets[1].data = records.map((r,i) => ({x:ts[i], y:r.outdoor_humidity}));
+  charts.hum.update();
+
+  // 3. CO2
+  charts.co2.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:r.co2}));
+  charts.co2.update();
+
+  // 4. 不快指数
+  charts.di.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:r.discomfort_index}));
+  charts.di.update();
+
+  // 5. エアコンタイムライン
+  const acColors = records.map(r => {
+    if (r.aircon_mode === '暖房') return COLORS.heat;
+    if (r.aircon_mode === '冷房') return COLORS.cool;
+    return COLORS.off;
+  });
+  charts.aircon.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:1, mode: r.aircon_mode || '停止'}));
+  charts.aircon.data.datasets[0].backgroundColor = acColors;
+  charts.aircon.update();
+
+  // 6. 加湿器タイムライン
+  const humColors = records.map(r => {
+    if (r.humidifier === 'ON') return COLORS.humOn;
+    if (r.humidifier === '維持') return COLORS.humMaintain;
+    return COLORS.humOff;
+  });
+  charts.humidifier.data.datasets[0].data = records.map((r,i) => ({x:ts[i], y:1, mode: r.humidifier || 'OFF'}));
+  charts.humidifier.data.datasets[0].backgroundColor = humColors;
+  charts.humidifier.update();
+
+  // 加湿器の最新状態をカードに反映
+  const lastRec = records[records.length - 1];
+  if (lastRec) {
+    const airconCard = document.getElementById('cardAircon');
+    const modes = airconCard.querySelectorAll('.mode');
+    if (modes[1]) {
+      const hm = lastRec.humidifier || 'OFF';
+      modes[1].textContent = hm;
+      modes[1].className = 'mode ' + (hm === 'ON' ? 'mode-heat' : hm === '維持' ? 'mode-cool' : 'mode-off');
+    }
+  }
+}
+
+// ===== ログテーブル更新 =====
+function updateLogTable(records) {
+  const tbody = document.getElementById('logBody');
+  if (!records || !records.length) {
+    tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:#666">データなし</td></tr>';
+    return;
+  }
+
+  const latest = records.slice(-20).reverse();
+  tbody.innerHTML = latest.map(r => {
+    const dt = new Date(r.timestamp);
+    const dtStr = `${(dt.getMonth()+1)}/${dt.getDate()} ${dt.getHours().toString().padStart(2,'0')}:${dt.getMinutes().toString().padStart(2,'0')}`;
+
+    const mode = r.aircon_mode || '停止';
+    const badgeClass = mode === '暖房' ? 'badge-heat' : mode === '冷房' ? 'badge-cool' : mode === '除湿' ? 'badge-dry' : 'badge-off';
+
+    const setTemp = r.set_temp ? `${r.set_temp}°C` : '-';
+    const hum = r.humidifier || 'OFF';
+    const indoor = r.indoor_temp != null ? `${r.indoor_temp}°C / ${r.indoor_humidity}%` : '-';
+    const outdoor = r.outdoor_temp != null ? `${r.outdoor_temp}°C / ${r.outdoor_humidity}%` : '-';
+    const co2 = r.co2 != null ? `${r.co2}` : '-';
+    const di = r.discomfort_index != null ? r.discomfort_index.toFixed(1) : '-';
+    const action = r.summary || '-';
+
+    return `<tr>
+      <td>${dtStr}</td>
+      <td><span class="mode-badge ${badgeClass}">${mode}</span></td>
+      <td>${setTemp}</td>
+      <td>${hum}</td>
+      <td>${indoor}</td>
+      <td>${outdoor}</td>
+      <td>${co2}</td>
+      <td>${di}</td>
+      <td title="${(r.action||'').replace(/"/g,'&quot;')}">${action}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ===== 期間切替 =====
+function setPeriod(p) {
+  currentPeriod = p;
+  document.querySelectorAll('.period-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.period === p);
+  });
+  fetchHistory();
+}
+
+// ===== 全更新 =====
+async function refreshAll() {
+  await Promise.all([fetchCurrent(), fetchHistory()]);
+}
+
+// ===== 初期化 =====
+document.addEventListener('DOMContentLoaded', () => {
+  initCharts();
+  refreshAll();
+  setInterval(refreshAll, REFRESH_INTERVAL);
+});
+</script>
+</body>
+</html>
