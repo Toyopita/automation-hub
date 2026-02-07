@@ -164,6 +164,90 @@ def create_summary_text(records: list) -> str:
     return '\n'.join(lines)
 
 
+def update_github_pages():
+    """GitHub Pages用の静的HTMLを生成してプッシュ"""
+    print('[INFO] GitHub Pages更新開始...')
+    script_dir = Path(__file__).parent
+
+    # 現在値取得
+    indoor = get_sensor_data(CO2_METER_ID)
+    outdoor = get_sensor_data(OUTDOOR_SENSOR_ID)
+    aircon = get_aircon_state()
+    now = datetime.now(JST)
+
+    current = {
+        'indoor': indoor,
+        'outdoor': outdoor,
+        'discomfort_index': calculate_discomfort_index(indoor['temperature'], indoor['humidity']) if indoor else None,
+        'discomfort_eval': evaluate_discomfort(calculate_discomfort_index(indoor['temperature'], indoor['humidity'])) if indoor else None,
+        'aircon_mode': aircon.get('mode', 'unknown') if aircon else 'unknown',
+        'timestamp': now.isoformat(),
+    }
+
+    # 全期間のデータ取得
+    history = {}
+    for p in ['24h', '3d', '7d', '30d']:
+        records = query_notion_history(p)
+        history[p] = {'period': p, 'count': len(records), 'records': records}
+        print(f'[INFO]   {p}: {len(records)}件')
+
+    # dashboard.html読み込み
+    html = (script_dir / 'dashboard.html').read_text(encoding='utf-8')
+
+    # データ埋め込み
+    now_str = now.strftime('%m/%d %H:%M')
+    embedded = (
+        '<script>\n'
+        f'// === 埋め込みデータ（{now.strftime("%Y-%m-%d %H:%M JST")} スナップショット） ===\n'
+        f'const EMBEDDED_CURRENT = {json.dumps(current, ensure_ascii=False)};\n'
+        f'const EMBEDDED_HISTORY = {json.dumps(history, ensure_ascii=False)};\n'
+        '</script>\n'
+        '<script>\n'
+        'const _origFetch = window.fetch;\n'
+        'window.fetch = function(url) {\n'
+        "  if (url === '/api/current') return Promise.resolve({ok:true, json:()=>Promise.resolve(EMBEDDED_CURRENT)});\n"
+        "  const m = url.match(/\\/api\\/history\\?period=(\\w+)/);\n"
+        '  if (m && EMBEDDED_HISTORY[m[1]]) return Promise.resolve({ok:true, json:()=>Promise.resolve(EMBEDDED_HISTORY[m[1]])});\n'
+        '  return _origFetch.apply(this, arguments);\n'
+        '};\n'
+        '</script>\n'
+    )
+
+    html = html.replace('<style>', embedded + '<style>', 1)
+    html = html.replace(
+        '<title>SwitchBot 環境ダッシュボード</title>',
+        f'<title>SwitchBot 環境ダッシュボード（{now_str} スナップショット）</title>',
+    )
+    html = html.replace(
+        'const REFRESH_INTERVAL = 5 * 60 * 1000;',
+        'const REFRESH_INTERVAL = 999999999; // 静的スナップショット',
+    )
+
+    # docs/index.html に書き出し
+    docs = script_dir / 'docs'
+    docs.mkdir(exist_ok=True)
+    (docs / 'index.html').write_text(html, encoding='utf-8')
+    print(f'[INFO] docs/index.html 更新完了')
+
+    # git commit & push
+    try:
+        subprocess.run(
+            ['git', 'add', 'docs/index.html'],
+            cwd=str(script_dir), check=True, capture_output=True,
+        )
+        subprocess.run(
+            ['git', 'commit', '-m', f'Update: ダッシュボードスナップショット ({now.strftime("%Y-%m-%d %H:%M")})'],
+            cwd=str(script_dir), check=True, capture_output=True,
+        )
+        subprocess.run(
+            ['git', 'push', 'origin', 'master'],
+            cwd=str(script_dir), check=True, capture_output=True,
+        )
+        print('[INFO] GitHub push完了')
+    except subprocess.CalledProcessError as e:
+        print(f'[WARN] git push失敗: {e.stderr.decode()[:200] if e.stderr else e}')
+
+
 async def main():
     print(f'[INFO] {datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")} 環境ダッシュボード投稿開始')
 
@@ -202,6 +286,10 @@ async def main():
         await client.close()
 
     await client.start(DISCORD_TOKEN)
+
+    # GitHub Pages更新
+    update_github_pages()
+
     print(f'[INFO] {datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S")} 完了')
 
 
