@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-09T00:26:35.313020+09:00",
-    "title": "Googleの最新技術を学ぶ開発者向けイベントで、本学学生がプレゼンテーション！【名古屋国際工科専門職大学】 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FcklDaUhQR0ZYOUdRWFZpLXBpR01Oel9vMlg1MjItZnA3NGUzb29UZlNDT1VMT2Z5YVpWLTJORjNqdjRiakh0NFRtcEJaOE01UmFFTk1IV084MWpSaTAtQU1JTHc2eEZ6U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-09T07:30:55.676854+09:00",
     "title": "AIで「社員はバカになる」のか？ 博報堂・花王・Googleが語る、AI時代の働き方に欠かせない“3つのA”とは - Web担当者Forum",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TOHZ4TEhVN3VURUVqN1BYNkRnSFVhVEdIOTJIWnpMYndDWWg2eldVX3lFZnhXaTgtTlNkT1JTQS03cU11TFpucE42bmpIOU5wLUVwYVZacDUzSGM?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1633,5 +1628,10 @@
     "date": "2026-02-07T20:34:07.522614+09:00",
     "title": "Google の ADK を使ったエージェント アプリケーションを Datadog LLM Observability でモニタリングする - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3duUnVldEkzODd5VUY4TzBFVW40YjhLTGQ3RkRxcWlrcHVZbWliWGZCUGdUMnpIckt0WkdVN0ZMYnJJVmxaNml3emVmZVpzRzNLdHJQLVJMblBaVUVadkxkWHRmWHkwN0JlaC1fSlFzU3JLZHFGUWprNXdDcU5kanFfemwwUTBMa0l2RWdNaWpKMnZGSVFUNm1MMXNzMExObTF2NlBjNVZQQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-08T06:40:12.220629+09:00",
+    "title": "PaperBanana：科学論文の図表作成を自動化する「5人のエージェント」 Google Cloudと北京大学が挑む、研究ワークフローの最後の壁 - XenoSpectrum",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVRZNDd5T3JKMHpJVFVXUG1FSVVydkF3THJRNDhSZGZNV3JGczRybjhOSFI3dXJIRFhTRG4wSVpCNTB6R2VsenVlQ0daakRtTFpJUE5oVFB6YS1xNGJNUUhNRmF5cklWYUhXOHVfSlpBSWJtbmFkNXFWS3BacTZmUXZxNWRtT0dCS3FLSw?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
