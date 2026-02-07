@@ -7,6 +7,8 @@ SwitchBot 環境ダッシュボード - 毎朝Discord投稿
 
 import os
 import io
+import json
+import subprocess
 import asyncio
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -20,7 +22,11 @@ import matplotlib.dates as mdates
 from dotenv import load_dotenv
 
 # dashboard_server からNotion取得関数をインポート
-from dashboard_server import query_notion_history, calculate_discomfort_index
+from dashboard_server import (
+    query_notion_history, calculate_discomfort_index,
+    get_sensor_data, get_aircon_state, evaluate_discomfort,
+    CO2_METER_ID, OUTDOOR_SENSOR_ID, JST as _JST,
+)
 
 load_dotenv(Path(__file__).parent / '.env')
 
