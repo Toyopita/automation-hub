@@ -761,27 +761,12 @@ async def main():
     print(f"[INFO] 前回モード: {previous_mode} → 今回モード: {current_mode}")
 
     aircon_result = None
-    state_changed = (previous_mode != current_mode)
-
-    # 強制再送信判定: 暖房/冷房ONなのに室温が閾値より大幅に低い/高い場合
-    force_resend = False
-    if not state_changed and current_mode == 'heat':
-        if indoor_data['temperature'] < Config.WINTER_INDOOR_COLD - 2.0:
-            force_resend = True
-            print(f"[INFO] 室温{indoor_data['temperature']}℃が閾値{Config.WINTER_INDOOR_COLD}℃より大幅に低い → 暖房コマンド強制再送信")
-    elif not state_changed and current_mode == 'cool':
-        if indoor_data['temperature'] > Config.SUMMER_INDOOR_HOT + 2.0:
-            force_resend = True
-            print(f"[INFO] 室温{indoor_data['temperature']}℃が閾値{Config.SUMMER_INDOOR_HOT}℃より大幅に高い → 冷房コマンド強制再送信")
-
-    if state_changed or force_resend:
-        reason = "状態変化あり" if state_changed else "強制再送信"
-        print(f"[INFO] {reason} → エアコン制御実行: {current_mode} {control_decision.get('set_temp', 'N/A')}℃")
-        aircon_result = control_aircon(current_mode, control_decision.get('set_temp'))
+    if control_decision['controlled']:
+        print(f"[INFO] エアコン制御実行: {control_decision['mode']} {control_decision.get('set_temp', 'N/A')}℃")
+        aircon_result = control_aircon(control_decision['mode'], control_decision.get('set_temp'))
         print(f"[INFO] エアコン制御結果: {'成功' if aircon_result else '失敗'}")
-        save_current_state(current_mode)
     else:
-        print("[INFO] 状態変化なし → コマンド送信スキップ")
+        print("[INFO] エアコン制御: 制御不要")
 
     # 4. 加湿器制御実行
     humidifier_mode = control_decision.get('humidifier', 'off')
