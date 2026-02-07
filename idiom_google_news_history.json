@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-01-08T18:23:03.133669+09:00",
-    "title": "Google サービスでの Model Context Protocol（MCP）のサポートを発表 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFZsZWc4dVJlOENNR3NQUkdzQzQ1OEN1Nl8tRUZFM2xyLUpIUkxNbHhaVlJYQ0RWVlF6MGxabTZsMWMxWDZNSGJLNm5sdVZJNFhNS1BNRzVsNDZaMVNORzZsM3lRcE5wZUVpNlZZbnU0NUgwY1hpU0JJVE05bEtUODY3MWVyT1hGVkdwdEJLUEVHOEJaWE9yNXZIYU9KRFpuUWk4WVBDVnNoMVgyalg3YUxZQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-08T18:23:03.133669+09:00",
-    "title": "第 5 回 生成 AI 事例アワード開催中！アイデアと実践でエントリー - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTUzenltYU1EWjFEQ24tS2Y0ZHZZX3FsX25nVndZdmRYdDFMZEhiM00tQ2FxejI5MndrVzRZRDVsOE90UzNFUkhrU3d2T3BSd3FRSHVZMU1vOVI2SjNBbVdvTTU0b1gyOWp0d1RmLUpNUDRHSmx0Ti1YaTMyamRjbG1QZWVUMkFKWjVoRWYwWFlTMEZkS2RsZXh1dHNIVWhVSDNQT2JSRUFrQ3ZVWWdz?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-08T19:23:37.391524+09:00",
-    "title": "ロレアルのAI広告戦略：Google CloudとAdobe活用で制作期間を数週間から数時間へ短縮 - innovaTopia",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tOUFFNlktM2R2b1lObHBKQU5EdWtoMDg5Ry1ocFVDYk9jVmZQRy15LVRuRHl2Q3c0OTdCU2c5UElRWV9FaGdsQU1iMkliYTRRR2c?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-09T00:26:35.313020+09:00",
     "title": "Googleの最新技術を学ぶ開発者向けイベントで、本学学生がプレゼンテーション！【名古屋国際工科専門職大学】 - PR TIMES",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FcklDaUhQR0ZYOUdRWFZpLXBpR01Oel9vMlg1MjItZnA3NGUzb29UZlNDT1VMT2Z5YVpWLTJORjNqdjRiakh0NFRtcEJaOE01UmFFTk1IV084MWpSaTAtQU1JTHc2eEZ6U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1643,5 +1628,10 @@
     "date": "2026-02-07T13:29:57.819244+09:00",
     "title": "紛失したデバイスを見つけるAppleの「Find My」ネットワークやGoogleの「Find Hub」ネットワークの仕組み - GIGAZINE",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1UlotUUxabDlReDVwaFdHVnNrTGQtek1yRTcwWmpDeHJxaHR4am1uT1UtT0VaYkhsRDRfdnpsakZicHM5eDhwZUQ3amJuTllNWFpUUnVHeUl0dzFKVFBMd2UzMkh3b1U?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-07T20:34:07.522614+09:00",
+    "title": "Google の ADK を使ったエージェント アプリケーションを Datadog LLM Observability でモニタリングする - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3duUnVldEkzODd5VUY4TzBFVW40YjhLTGQ3RkRxcWlrcHVZbWliWGZCUGdUMnpIckt0WkdVN0ZMYnJJVmxaNml3emVmZVpzRzNLdHJQLVJMblBaVUVadkxkWHRmWHkwN0JlaC1fSlFzU3JLZHFGUWprNXdDcU5kanFfemwwUTBMa0l2RWdNaWpKMnZGSVFUNm1MMXNzMExObTF2NlBjNVZQQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
