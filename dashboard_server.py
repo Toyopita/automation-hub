@@ -37,6 +37,7 @@ CO2_METER_ID = os.environ.get('CO2_METER_ID', 'B0E9FE561980')
 OUTDOOR_SENSOR_ID = os.environ.get('OUTDOOR_SENSOR_ID', 'D0C84206187C')
 
 STATE_FILE = Path(__file__).parent / 'aircon_state.json'
+EMOTION_DATA_FILE = Path(__file__).parent / 'emotion_data.json'
 JST = ZoneInfo('Asia/Tokyo')
 
 # ===== キャッシュ =====
