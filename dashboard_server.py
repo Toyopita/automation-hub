@@ -1505,6 +1505,13 @@ def generate_advice(days: int) -> Dict:
     first_ts = entries[0].get('timestamp', '')
     last_ts = entries[-1].get('timestamp', '')
 
+    # 総合評価
+    overall = _generate_overall_assessment(
+        entries, trends, cat_effects, attachment, rapid_changes, gaps,
+        best_hours, stage, health, trend_dir,
+        laura_initiative, vulnerable_entries, advice_items,
+    )
+
     return {
         'generated_at': datetime.now(JST).isoformat(),
         'data_range': {
@@ -1514,6 +1521,7 @@ def generate_advice(days: int) -> Dict:
         },
         'stage': stage,
         'advice': advice_items,
+        'overall_assessment': overall,
         'summary': {
             'relationship_health': health,
             'trend_direction': trend_dir,
