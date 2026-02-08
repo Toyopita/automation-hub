@@ -1227,7 +1227,7 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
 
 
 def generate_advice(days: int) -> Dict:
-    """アドバイスAPIのメインロジック"""
+    """アドバイスAPIのメインロジック（Laura最適化版）"""
     if not EMOTION_DATA_FILE.exists():
         return {'error': 'no data'}
 
@@ -1238,20 +1238,30 @@ def generate_advice(days: int) -> Dict:
     if not entries:
         return {'error': 'no data in range'}
 
-    # 各種分析
-    trends = _score_trends(entries)
+    # 関係ステージ検出
+    stage = detect_relationship_stage(entries)
+
+    # 各種分析（ステージ考慮）
+    trends = _score_trends(entries, stage)
     cat_effects = _category_effectiveness(entries)
     attachment = _detect_attachment_issues(entries)
     rapid_changes = _detect_rapid_changes(entries)
     gaps = _compute_communication_gaps(entries)
     best_hours = _best_response_hours(entries)
 
-    # 関係健康度
-    health = _compute_relationship_health(trends, attachment, entries)
+    # Laura固有の分析
+    laura_initiative = _detect_laura_initiative(entries)
+    vulnerable_entries = _detect_vulnerable_sharing(entries)
+    nickname_data = _detect_nickname_intensity(entries)
 
-    # トレンド方向の決定
-    rising_count = sum(1 for k in SCORE_KEYS if trends.get(k, {}).get('direction') == 'rising')
-    falling_count = sum(1 for k in SCORE_KEYS if trends.get(k, {}).get('direction') == 'falling')
+    # 関係健康度（ステージ考慮）
+    health = _compute_relationship_health(trends, attachment, entries, stage)
+
+    # トレンド方向の決定（tentativeを含む）
+    rising_count = sum(1 for k in SCORE_KEYS
+                       if trends.get(k, {}).get('direction', '').startswith('rising'))
+    falling_count = sum(1 for k in SCORE_KEYS
+                        if trends.get(k, {}).get('direction', '').startswith('falling'))
     if rising_count > falling_count + 2:
         trend_dir = 'improving'
     elif falling_count > rising_count + 2:
@@ -1259,19 +1269,32 @@ def generate_advice(days: int) -> Dict:
     else:
         trend_dir = 'stable'
 
-    # キーインサイト生成
-    if health >= 8:
-        key_insight = '関係は非常に良好。現在のアプローチを維持しつつ、新鮮さを保つことが大切。'
-    elif health >= 6:
-        key_insight = '関係は概ね健全。いくつかの改善ポイントに注意を払うとさらに良くなる。'
-    elif health >= 4:
-        key_insight = '改善が必要な領域がある。特に低いスコアのパラメーターに注目して行動を。'
-    else:
-        key_insight = '関係に課題が見られる。コミュニケーションの質と量の改善が急務。'
+    # ステージ考慮のキーインサイト生成
+    stage_labels = {
+        'initial': '初期段階（探索期）',
+        'building': '関係構築期',
+        'establishing': '確立期',
+        'stable': '安定期',
+    }
+    stage_label = stage_labels.get(stage, stage)
 
-    # アドバイスアイテム生成
-    advice_items = _generate_advice_items(entries, trends, cat_effects,
-                                           attachment, rapid_changes, gaps, best_hours)
+    if health >= 8:
+        key_insight = f'【{stage_label}】関係は非常に良好。現在のアプローチを維持しつつ、新鮮さを保つことが大切。'
+    elif health >= 6:
+        key_insight = f'【{stage_label}】関係は概ね健全。{stage_label}としては順調に進展している。'
+    elif health >= 4:
+        key_insight = f'【{stage_label}】改善が必要な領域がある。特にintimacyとfutureの向上が鍵。'
+    else:
+        key_insight = f'【{stage_label}】関係に課題が見られる。コミュニケーションの質と量の改善が急務。'
+
+    # アドバイスアイテム生成（全パラメーター渡し）
+    advice_items = _generate_advice_items(
+        entries, trends, cat_effects, attachment, rapid_changes, gaps, best_hours,
+        stage=stage,
+        laura_initiative=laura_initiative,
+        vulnerable_entries=vulnerable_entries,
+        nickname_data=nickname_data,
+    )
 
     first_ts = entries[0].get('timestamp', '')
     last_ts = entries[-1].get('timestamp', '')
@@ -1283,11 +1306,17 @@ def generate_advice(days: int) -> Dict:
             'to': last_ts,
             'entry_count': len(entries),
         },
+        'stage': stage,
         'advice': advice_items,
         'summary': {
             'relationship_health': health,
             'trend_direction': trend_dir,
             'key_insight': key_insight,
+        },
+        'meta': {
+            'laura_initiative_ratio': laura_initiative['initiative_ratio'],
+            'vulnerable_disclosures': len(vulnerable_entries),
+            'nickname_intensity_max': nickname_data['max_intensity'] if nickname_data else 0,
         },
     }
 
