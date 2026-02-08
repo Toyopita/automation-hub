@@ -413,7 +413,7 @@ STAGE_CONFIG = {
         'trend_threshold': 0.5,        # 傾き判定を緩和（データ少のため）
         'min_data_for_trend': 5,       # トレンド判定に必要な最小エントリ数
         'anxious_threshold': 4,        # anxious警告の閾値を引き上げ（初期の不安は自然）
-        'gap_warning_hours': 36,       # ギャップ警告を緩和（初期はリズム未確立）
+        'gap_warning_hours': 48,       # 遠距離+時差で24hギャップは構造的に発生するため48hに
         'default_confidence': 'low',
     },
     'building': {      # 2週間〜2ヶ月: 関係構築期
