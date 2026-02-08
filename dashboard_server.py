@@ -804,7 +804,7 @@ def _compute_relationship_health(trends: Dict, attachment: Dict, risk_entries: L
 
 def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
                             attachment: Dict, rapid_changes: List[Dict],
-                            gaps: List[Dict], best_hours: List[int],
+                            gaps: List[Dict], best_hours: Dict[str, List[int]],
                             stage: str = 'initial',
                             laura_initiative: Optional[Dict] = None,
                             vulnerable_entries: Optional[List[Dict]] = None,
