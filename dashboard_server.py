@@ -514,15 +514,24 @@ def _compute_trend(values: List[float], threshold: float = 0.3) -> Tuple[str, fl
     return ('stable', round(slope, 2))
 
 
-def _score_trends(entries: List[Dict]) -> Dict[str, Dict]:
-    """各スコアキーごとにトレンドを計算"""
+def _score_trends(entries: List[Dict], stage: str = 'initial') -> Dict[str, Dict]:
+    """各スコアキーごとにトレンドを計算（ステージ考慮）"""
+    config = STAGE_CONFIG[stage]
+    threshold = config['trend_threshold']
+    min_data = config['min_data_for_trend']
     trends = {}
     for key in SCORE_KEYS:
         values = [e['scores'].get(key, 0) for e in entries if e.get('scores')]
-        direction, slope = _compute_trend(values)
+        if len(values) >= min_data:
+            direction, slope = _compute_trend(values, threshold)
+        else:
+            direction, slope = _compute_trend(values, threshold)
+            if direction != 'stable':
+                direction = direction + '_tentative'
         current = values[-1] if values else 0
         trends[key] = {'direction': direction, 'slope': slope, 'current': current,
-                        'min': min(values) if values else 0, 'max': max(values) if values else 0}
+                        'min': min(values) if values else 0, 'max': max(values) if values else 0,
+                        'count': len(values)}
     return trends
 
 
