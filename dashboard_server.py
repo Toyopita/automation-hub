@@ -536,22 +536,36 @@ def _score_trends(entries: List[Dict], stage: str = 'initial') -> Dict[str, Dict
 
 
 def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
-    """トリガーカテゴリ別の効果を集計"""
+    """トリガーカテゴリ別の効果を集計（修飾タグ考慮）"""
     stats: Dict[str, Dict] = {}
     for e in entries:
         trigger = e.get('trigger')
         if not trigger:
             continue
         cat = trigger.get('category', 'unknown')
+        modifiers = trigger.get('modifiers', [])
         deltas = e.get('score_deltas') or {}
         if not deltas:
             continue
         if cat not in stats:
             stats[cat] = {'count': 0, 'total_positive': 0.0, 'total_negative': 0.0,
-                          'response_times': [], 'hours': []}
+                          'response_times': [], 'hours': [],
+                          'with_escalation': [], 'without_escalation': [],
+                          'spontaneous_count': 0, 'entries': []}
         stats[cat]['count'] += 1
-        stats[cat]['total_positive'] += sum(max(0, v) for v in deltas.values())
-        stats[cat]['total_negative'] += sum(min(0, v) for v in deltas.values())
+        pos_effect = sum(max(0, v) for v in deltas.values())
+        neg_effect = sum(min(0, v) for v in deltas.values())
+        stats[cat]['total_positive'] += pos_effect
+        stats[cat]['total_negative'] += neg_effect
+        if '+escalation' in modifiers:
+            stats[cat]['with_escalation'].append({'positive': pos_effect, 'negative': neg_effect})
+        else:
+            stats[cat]['without_escalation'].append({'positive': pos_effect, 'negative': neg_effect})
+        if '+spontaneous' in modifiers:
+            stats[cat]['spontaneous_count'] += 1
+        stats[cat]['entries'].append({
+            'modifiers': modifiers, 'deltas': deltas, 'positive': pos_effect, 'negative': neg_effect,
+        })
         rt = trigger.get('response_time_min')
         if rt is not None:
             stats[cat]['response_times'].append(rt)
@@ -565,12 +579,19 @@ def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
     result = {}
     for cat, s in stats.items():
         n = s['count']
+        esc = s['with_escalation']
+        no_esc = s['without_escalation']
         result[cat] = {
             'count': n,
             'avg_positive': round(s['total_positive'] / n, 1) if n else 0,
             'avg_negative': round(s['total_negative'] / n, 1) if n else 0,
             'avg_response_min': round(sum(s['response_times']) / len(s['response_times'])) if s['response_times'] else None,
             'best_hours': s['hours'],
+            'escalation_avg_positive': round(sum(e['positive'] for e in esc) / len(esc), 1) if esc else None,
+            'escalation_avg_negative': round(sum(e['negative'] for e in esc) / len(esc), 1) if esc else None,
+            'no_escalation_avg_positive': round(sum(e['positive'] for e in no_esc) / len(no_esc), 1) if no_esc else None,
+            'no_escalation_avg_negative': round(sum(e['negative'] for e in no_esc) / len(no_esc), 1) if no_esc else None,
+            'spontaneous_count': s['spontaneous_count'],
         }
     return result
 
