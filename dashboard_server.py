@@ -560,6 +560,7 @@ def _is_cooldown_entry(entry: Dict, prev_entry: Optional[Dict]) -> bool:
 def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
     """トリガーカテゴリ別の効果を集計（修飾タグ考慮、クールダウン除外）"""
     stats: Dict[str, Dict] = {}
+    cooldown_excluded = 0
     for idx, e in enumerate(entries):
         trigger = e.get('trigger')
         if not trigger:
@@ -569,9 +570,16 @@ def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
         deltas = e.get('score_deltas') or {}
         if not deltas:
             continue
+        # クールダウン期のエントリはカテゴリ効果統計から除外
+        # （ピーク後の自然回帰をカテゴリの「逆効果」と誤判定するのを防止）
+        prev_entry = entries[idx - 1] if idx > 0 else None
+        is_cooldown = _is_cooldown_entry(e, prev_entry)
+        if is_cooldown:
+            cooldown_excluded += 1
+            continue
         if cat not in stats:
             stats[cat] = {'count': 0, 'total_positive': 0.0, 'total_negative': 0.0,
-                          'response_times': [], 'hours': [],
+                          'response_times': [], 'hours_jst': [], 'hours_cet': [],
                           'with_escalation': [], 'without_escalation': [],
                           'spontaneous_count': 0, 'entries': []}
         stats[cat]['count'] += 1
@@ -594,8 +602,12 @@ def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
         sent_at = trigger.get('sent_at')
         if sent_at:
             try:
-                h = datetime.fromisoformat(sent_at).hour
-                stats[cat]['hours'].append(h)
+                dt = datetime.fromisoformat(sent_at)
+                h_jst = dt.hour
+                # Laura側の現地時間（CET=JST-8h冬時間）で効果を追跡
+                h_cet = (h_jst - 8) % 24
+                stats[cat]['hours_jst'].append(h_jst)
+                stats[cat]['hours_cet'].append(h_cet)
             except (ValueError, TypeError):
                 pass
     result = {}
@@ -608,12 +620,14 @@ def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
             'avg_positive': round(s['total_positive'] / n, 1) if n else 0,
             'avg_negative': round(s['total_negative'] / n, 1) if n else 0,
             'avg_response_min': round(sum(s['response_times']) / len(s['response_times'])) if s['response_times'] else None,
-            'best_hours': s['hours'],
+            'best_hours_jst': s['hours_jst'],
+            'best_hours_cet': s['hours_cet'],
             'escalation_avg_positive': round(sum(e['positive'] for e in esc) / len(esc), 1) if esc else None,
             'escalation_avg_negative': round(sum(e['negative'] for e in esc) / len(esc), 1) if esc else None,
             'no_escalation_avg_positive': round(sum(e['positive'] for e in no_esc) / len(no_esc), 1) if no_esc else None,
             'no_escalation_avg_negative': round(sum(e['negative'] for e in no_esc) / len(no_esc), 1) if no_esc else None,
             'spontaneous_count': s['spontaneous_count'],
+            'cooldown_excluded': cooldown_excluded,
         }
     return result
 
