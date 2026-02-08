@@ -228,6 +228,33 @@ async def serve_fuji_trip():
     return html_path.read_text(encoding='utf-8')
 
 
+@app.get('/emotion', response_class=HTMLResponse)
+async def serve_emotion_dashboard():
+    html_path = Path(__file__).parent / 'emotion_dashboard.html'
+    return html_path.read_text(encoding='utf-8')
+
+
+@app.get('/api/emotion/current')
+async def api_emotion_current():
+    if not EMOTION_DATA_FILE.exists():
+        return JSONResponse({'error': 'no data'}, status_code=404)
+    data = json.loads(EMOTION_DATA_FILE.read_text(encoding='utf-8'))
+    entries = data.get('entries', [])
+    if not entries:
+        return JSONResponse({'error': 'no data'}, status_code=404)
+    return JSONResponse(entries[-1])
+
+
+@app.get('/api/emotion/history')
+async def api_emotion_history(days: int = Query(default=7, ge=1, le=90)):
+    if not EMOTION_DATA_FILE.exists():
+        return JSONResponse({'days': days, 'count': 0, 'entries': []})
+    data = json.loads(EMOTION_DATA_FILE.read_text(encoding='utf-8'))
+    cutoff = (datetime.now(JST) - timedelta(days=days)).isoformat()
+    filtered = [e for e in data.get('entries', []) if e.get('timestamp', '') >= cutoff]
+    return JSONResponse({'days': days, 'count': len(filtered), 'entries': filtered})
+
+
 @app.get('/api/current')
 async def api_current():
     cached = get_cached('current')
