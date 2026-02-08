@@ -40,6 +40,16 @@ STATE_FILE = Path(__file__).parent / 'aircon_state.json'
 EMOTION_DATA_FILE = Path(__file__).parent / 'emotion_data.json'
 JST = ZoneInfo('Asia/Tokyo')
 
+SCORE_KEYS = ['mood', 'energy', 'intimacy', 'longing', 'eros', 'ds', 'playfulness', 'future', 'engagement']
+
+
+def normalize_entry(entry: Dict) -> Dict:
+    """v1エントリにv2デフォルト値を補完（後方互換）"""
+    entry.setdefault('trigger', None)
+    entry.setdefault('prev_scores', None)
+    entry.setdefault('score_deltas', None)
+    return entry
+
 # ===== キャッシュ =====
 _cache: Dict[str, tuple] = {}
 CACHE_TTL = {
