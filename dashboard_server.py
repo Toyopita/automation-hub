@@ -404,10 +404,89 @@ async def api_history(period: str = Query(default='24h', pattern='^(24h|3d|7d|30
 
 # ===== アドバイス生成ロジック =====
 
+# --- 関係ステージ検出 ---
+# 心理学的根拠: Knapp's relational development model（関係発展段階モデル）
+# 初期段階ではデータ不足のため、判定閾値を緩和し、confidence_levelを付与する
+STAGE_CONFIG = {
+    'initial': {       # 出会い〜2週間: 探索期
+        'max_days': 14,
+        'trend_threshold': 0.5,        # 傾き判定を緩和（データ少のため）
+        'min_data_for_trend': 5,       # トレンド判定に必要な最小エントリ数
+        'anxious_threshold': 4,        # anxious警告の閾値を引き上げ（初期の不安は自然）
+        'gap_warning_hours': 36,       # ギャップ警告を緩和（初期はリズム未確立）
+        'default_confidence': 'low',
+    },
+    'building': {      # 2週間〜2ヶ月: 関係構築期
+        'max_days': 60,
+        'trend_threshold': 0.4,
+        'min_data_for_trend': 8,
+        'anxious_threshold': 3,
+        'gap_warning_hours': 24,
+        'default_confidence': 'medium',
+    },
+    'establishing': {  # 2〜6ヶ月: 確立期
+        'max_days': 180,
+        'trend_threshold': 0.3,
+        'min_data_for_trend': 10,
+        'anxious_threshold': 3,
+        'gap_warning_hours': 24,
+        'default_confidence': 'high',
+    },
+    'stable': {        # 6ヶ月以上: 安定期
+        'max_days': 99999,
+        'trend_threshold': 0.3,
+        'min_data_for_trend': 10,
+        'anxious_threshold': 2,
+        'gap_warning_hours': 18,
+        'default_confidence': 'high',
+    },
+}
+
+
+def detect_relationship_stage(entries: List[Dict]) -> str:
+    """エントリの日付範囲から関係ステージを判定"""
+    if len(entries) < 2:
+        return 'initial'
+    try:
+        first = datetime.fromisoformat(entries[0]['timestamp'])
+        last = datetime.fromisoformat(entries[-1]['timestamp'])
+        days = (last - first).days
+    except (ValueError, TypeError, KeyError):
+        return 'initial'
+    if days <= 14:
+        return 'initial'
+    elif days <= 60:
+        return 'building'
+    elif days <= 180:
+        return 'establishing'
+    return 'stable'
+
+
+def _confidence_level(category_count: int, total_entries: int) -> str:
+    """カテゴリ使用回数とエントリ総数から統計的信頼度を算出"""
+    if category_count >= 10 and total_entries >= 30:
+        return 'high'
+    elif category_count >= 5 and total_entries >= 15:
+        return 'medium'
+    elif category_count >= 3:
+        return 'low'
+    return 'insufficient'
+
+
 # スコアパラメータの重み（関係健康度計算用）
+# 根拠:
+#   engagement×1.4: Gottman研究 - 関与度は関係満足度の最強予測因子
+#   intimacy×1.3: Reis & Shaver (1988) intimacy process model
+#   mood×1.1: 感情トーンは全体的な関係質の指標
+#   future×1.0: 遠距離関係では将来展望が関係維持の鍵（Stafford, 2005）
+#   playfulness×0.9: Proyer (2014) 遊び心と関係満足度の正相関
+#   energy×0.7: 状態変数（疲労等の外的要因に左右される）→ 重みを下げる
+#   longing×0.5: 遠距離では常に高い。重みが高いと健康度を歪める
+#   eros×0.4: 性的テンションは変動が大きく、直接的な関係健全性指標ではない
+#   ds×0.2: D/s嗜好は個人の性的指向であり関係健全性と独立
 SCORE_WEIGHTS = {
-    'mood': 1.0, 'energy': 0.8, 'intimacy': 1.5, 'longing': 0.7,
-    'eros': 0.6, 'ds': 0.3, 'playfulness': 0.9, 'future': 1.2, 'engagement': 1.3,
+    'mood': 1.1, 'energy': 0.7, 'intimacy': 1.3, 'longing': 0.5,
+    'eros': 0.4, 'ds': 0.2, 'playfulness': 0.9, 'future': 1.0, 'engagement': 1.4,
 }
 
 # カテゴリ定義
@@ -415,7 +494,7 @@ ADV_CATEGORIES = ('status', 'effective', 'warning', 'action', 'timing')
 ADV_PRIORITIES = ('urgent', 'important', 'info')
 
 
-def _compute_trend(values: List[float]) -> Tuple[str, float]:
+def _compute_trend(values: List[float], threshold: float = 0.3) -> Tuple[str, float]:
     """直近の値リストから傾き（上昇/下降/安定）を算出。最小二乗法で線形回帰。"""
     n = len(values)
     if n < 2:
@@ -428,9 +507,9 @@ def _compute_trend(values: List[float]) -> Tuple[str, float]:
     if denominator == 0:
         return ('stable', 0.0)
     slope = numerator / denominator
-    if slope > 0.3:
+    if slope > threshold:
         return ('rising', round(slope, 2))
-    elif slope < -0.3:
+    elif slope < -threshold:
         return ('falling', round(slope, 2))
     return ('stable', round(slope, 2))
 
