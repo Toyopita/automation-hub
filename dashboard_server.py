@@ -252,7 +252,7 @@ async def api_emotion_current():
     entries = data.get('entries', [])
     if not entries:
         return JSONResponse({'error': 'no data'}, status_code=404)
-    return JSONResponse(entries[-1])
+    return JSONResponse(normalize_entry(entries[-1]))
 
 
 @app.get('/api/emotion/history')
@@ -261,8 +261,90 @@ async def api_emotion_history(days: int = Query(default=7, ge=1, le=90)):
         return JSONResponse({'days': days, 'count': 0, 'entries': []})
     data = json.loads(EMOTION_DATA_FILE.read_text(encoding='utf-8'))
     cutoff = (datetime.now(JST) - timedelta(days=days)).isoformat()
-    filtered = [e for e in data.get('entries', []) if e.get('timestamp', '') >= cutoff]
+    filtered = [normalize_entry(e) for e in data.get('entries', []) if e.get('timestamp', '') >= cutoff]
     return JSONResponse({'days': days, 'count': len(filtered), 'entries': filtered})
+
+
+@app.get('/api/emotion/trigger-stats')
+async def api_trigger_stats(days: int = Query(default=30, ge=1, le=90)):
+    """カテゴリ別のトリガー統計情報"""
+    if not EMOTION_DATA_FILE.exists():
+        return JSONResponse({'days': days, 'categories': {}, 'total_triggered': 0, 'total_spontaneous': 0})
+    data = json.loads(EMOTION_DATA_FILE.read_text(encoding='utf-8'))
+    cutoff = (datetime.now(JST) - timedelta(days=days)).isoformat()
+    entries = [normalize_entry(e) for e in data.get('entries', []) if e.get('timestamp', '') >= cutoff]
+
+    stats: Dict[str, Dict] = {}
+    total_triggered = 0
+    total_spontaneous = 0
+
+    for e in entries:
+        trigger = e.get('trigger')
+        if trigger is None:
+            total_spontaneous += 1
+            continue
+        total_triggered += 1
+        cat = trigger.get('category', 'unknown')
+        if cat not in stats:
+            stats[cat] = {'count': 0, 'effects': [], 'response_times': [], 'deltas_sum': {k: 0.0 for k in SCORE_KEYS}}
+        stats[cat]['count'] += 1
+        deltas = e.get('score_deltas') or {}
+        effect = sum(max(0, v) for v in deltas.values())
+        stats[cat]['effects'].append(effect)
+        rt = trigger.get('response_time_min')
+        if rt is not None:
+            stats[cat]['response_times'].append(rt)
+        for k in SCORE_KEYS:
+            stats[cat]['deltas_sum'][k] += deltas.get(k, 0)
+
+    result = {}
+    for cat, s in stats.items():
+        n = s['count']
+        result[cat] = {
+            'count': n,
+            'avg_effect': round(sum(s['effects']) / n, 1) if n else 0,
+            'avg_response_min': round(sum(s['response_times']) / len(s['response_times'])) if s['response_times'] else None,
+            'avg_deltas': {k: round(v / n, 1) for k, v in s['deltas_sum'].items()} if n else {},
+        }
+
+    return JSONResponse({
+        'days': days,
+        'categories': result,
+        'total_triggered': total_triggered,
+        'total_spontaneous': total_spontaneous,
+    })
+
+
+@app.get('/api/emotion/best-messages')
+async def api_best_messages(days: int = Query(default=30, ge=1, le=90), limit: int = Query(default=10, ge=1, le=50)):
+    """効果的だったメッセージのランキング"""
+    if not EMOTION_DATA_FILE.exists():
+        return JSONResponse({'days': days, 'messages': []})
+    data = json.loads(EMOTION_DATA_FILE.read_text(encoding='utf-8'))
+    cutoff = (datetime.now(JST) - timedelta(days=days)).isoformat()
+    entries = [normalize_entry(e) for e in data.get('entries', []) if e.get('timestamp', '') >= cutoff]
+
+    triggered = []
+    for e in entries:
+        trigger = e.get('trigger')
+        if trigger is None:
+            continue
+        deltas = e.get('score_deltas') or {}
+        effect = sum(max(0, v) for v in deltas.values())
+        triggered.append({
+            'trigger_message': trigger.get('message', ''),
+            'category': trigger.get('category', 'unknown'),
+            'modifiers': trigger.get('modifiers', []),
+            'sent_at': trigger.get('sent_at'),
+            'response_at': e.get('timestamp'),
+            'response_time_min': trigger.get('response_time_min'),
+            'effect_score': effect,
+            'score_deltas': deltas,
+            'resulting_scores': e.get('scores', {}),
+        })
+
+    triggered.sort(key=lambda x: x['effect_score'], reverse=True)
+    return JSONResponse({'days': days, 'messages': triggered[:limit]})
 
 
 @app.get('/api/current')
