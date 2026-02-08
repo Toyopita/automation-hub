@@ -762,14 +762,22 @@ def _compute_relationship_health(trends: Dict, attachment: Dict, risk_entries: L
 
 def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
                             attachment: Dict, rapid_changes: List[Dict],
-                            gaps: List[Dict], best_hours: List[int]) -> List[Dict]:
-    """ルールベースでアドバイスアイテムを生成（最低20ルール）"""
+                            gaps: List[Dict], best_hours: List[int],
+                            stage: str = 'initial',
+                            laura_initiative: Optional[Dict] = None,
+                            vulnerable_entries: Optional[List[Dict]] = None,
+                            nickname_data: Optional[Dict] = None) -> List[Dict]:
+    """ルールベースでアドバイスアイテムを生成（Laura最適化版・ステージ考慮）"""
     advice = []
     adv_counter = [0]
+    config = STAGE_CONFIG[stage]
+    total_entries = len(entries)
 
     def _add(category: str, priority: str, title: str, body: str,
-             evidence: Dict, action: str):
+             evidence: Dict, action: str, confidence: str = ''):
         adv_counter[0] += 1
+        if not confidence:
+            confidence = config['default_confidence']
         advice.append({
             'id': f'adv_{adv_counter[0]:03d}',
             'category': category,
@@ -778,246 +786,411 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
             'body': body,
             'evidence': evidence,
             'action_suggestion': action,
+            'confidence': confidence,
+            'stage': stage,
         })
 
     latest = entries[-1] if entries else {}
     latest_scores = latest.get('scores', {})
 
     # --- ルール1: intimacy高い + future低い → 将来の話を ---
-    if trends.get('intimacy', {}).get('current', 0) >= 7 and trends.get('future', {}).get('current', 0) <= 4:
+    # Stafford (2005): 遠距離関係では将来展望の共有が関係維持の鍵
+    intimacy_cur = trends.get('intimacy', {}).get('current', 0)
+    future_cur = trends.get('future', {}).get('current', 0)
+    if intimacy_cur >= 6 and future_cur <= 5:
         _add('action', 'important',
              '将来の話題を増やすタイミング',
-             '親密度は高いが、将来に対する意識が低い。関係を深めるには、将来のビジョンを共有する会話が効果的。',
+             f'親密度({intimacy_cur})に対して将来展望({future_cur})が低い。遠距離関係では「いつか会える」という見通しが関係の支え。',
              {'metric': 'future', 'trend': trends['future']['direction'],
-              'value': trends['future']['current'], 'delta': f"{trends['future']['slope']:+.1f}"},
-             '「一緒に行きたい場所」「将来やりたいこと」など未来志向の話題を振る')
+              'value': future_cur, 'delta': f"{trends['future']['slope']:+.1f}"},
+             '「日本に来たらどこに行きたい？」「一緒に行きたい場所」など具体的な未来の話題を振る')
 
-    # --- ルール2: eros急変（+5以上） → エスカレーション警告 ---
+    # --- ルール2: sexual+escalation の判定（細分化） ---
+    # Lauraのデータから: sexual without escalation = mild positive/neutral
+    #                    sexual with escalation + consent = very positive
+    #                    sexual with escalation + boundary violation = negative
+    if 'sexual' in cat_effects:
+        sex_eff = cat_effects['sexual']
+        esc_pos = sex_eff.get('escalation_avg_positive')
+        esc_neg = sex_eff.get('escalation_avg_negative')
+        no_esc_neg = sex_eff.get('no_escalation_avg_negative')
+
+        # +escalation付きsexualで強いマイナスがある場合のみ警告
+        if esc_neg is not None and esc_neg < -2:
+            conf = _confidence_level(sex_eff['count'], total_entries)
+            _add('warning', 'important',
+                 '性的エスカレーション時に境界線に注意',
+                 f"sexual+escalationの平均マイナス効果が{esc_neg}。Lauraは明確な境界線を持っている（例: 一部のフェティッシュは拒否）。"
+                 "相互的なセクシャルコミュニケーションはOKだが、一方的な嗜好の押し付けは逆効果。",
+                 {'metric': 'sexual_escalation', 'trend': 'mixed',
+                  'value': esc_neg, 'delta': 'N/A'},
+                 'Lauraの反応を観察し、嫌がる兆候があればすぐに引く。「A little too much」等のサインを見逃さない',
+                 confidence=conf)
+
+        # エスカレーションなしsexualで全体がマイナスでない場合はポジティブフィードバック
+        if no_esc_neg is not None and no_esc_neg >= -1 and sex_eff.get('no_escalation_avg_positive', 0) >= 2:
+            conf = _confidence_level(sex_eff['count'], total_entries)
+            _add('effective', 'info',
+                 '相互的な性的コミュニケーションは健全',
+                 '性的な話題自体はLauraにとってポジティブ。「sex is the most intimate connection」と語る通り、'
+                 '関係の中での性は親密さの一部として受容されている。',
+                 {'metric': 'sexual_mutual', 'trend': 'positive',
+                  'value': sex_eff.get('no_escalation_avg_positive', 0), 'delta': 'N/A'},
+                 '性的な話題はOKだが、Lauraの反応を見ながら徐々に深める。一方的にならないこと',
+                 confidence=conf)
+
+    # --- ルール3: eros急変（+5以上）→ 文脈考慮のエスカレーション警告 ---
     eros_spikes = [c for c in rapid_changes if c['metric'] == 'eros' and c['delta'] >= 5]
     if eros_spikes:
-        _add('warning', 'urgent',
-             '性的エスカレーションに注意',
-             f"erosが短期間で+{eros_spikes[0]['delta']}急変。急激なエスカレーションはバーンアウトのリスクがある。",
-             {'metric': 'eros', 'trend': 'spike', 'value': eros_spikes[0].get('new_value', 0),
-              'delta': f"+{eros_spikes[0]['delta']}"},
-             'ペースを落とし、感情面の会話も意識的に増やす')
+        # 急変の文脈を確認: 相互合意の上か一方的か
+        spike = eros_spikes[0]
+        trigger_cat = spike.get('trigger_category', '')
+        if trigger_cat == 'sexual':
+            _add('warning', 'info',
+                 '性的テンションの急上昇を検出',
+                 f"erosが+{spike['delta']}急変。相互的な盛り上がりなら問題ないが、"
+                 "急激なペースアップはバーンアウトのリスクがある。翌日のクールダウンを観察すること。",
+                 {'metric': 'eros', 'trend': 'spike', 'value': spike.get('new_value', 0),
+                  'delta': f"+{spike['delta']}"},
+                 '翌日は意図的に感情面の会話を増やし、性的テンション以外の絆も確認する')
+        else:
+            _add('warning', 'important',
+                 '予期しない性的テンション上昇',
+                 f"非sexualトリガーでerosが+{spike['delta']}急変。予期しないコンテキストでのエスカレーション。",
+                 {'metric': 'eros', 'trend': 'spike', 'value': spike.get('new_value', 0),
+                  'delta': f"+{spike['delta']}"},
+                 '原因を分析し、意図しないエスカレーションがないか確認する')
 
-    # --- ルール3: 24h以上ギャップ → 連絡間隔警告 ---
-    long_gaps = [g for g in gaps if g['hours'] >= 24]
+    # --- ルール4: 連絡間隔警告（ステージ考慮） ---
+    gap_threshold = config['gap_warning_hours']
+    long_gaps = [g for g in gaps if g['hours'] >= gap_threshold]
     if long_gaps:
+        max_gap = max(g['hours'] for g in long_gaps)
         _add('warning', 'important',
              '連絡間隔が空いている',
-             f"最大{max(g['hours'] for g in long_gaps):.0f}時間のギャップを検出。長い沈黙は不安を生む可能性がある。",
+             f"最大{max_gap:.0f}時間のギャップを検出。Lauraは内向的で自分からは連絡しにくいタイプのため、"
+             "沈黙が長いと不安につながりやすい。",
              {'metric': 'engagement', 'trend': 'gap',
-              'value': max(g['hours'] for g in long_gaps), 'delta': 'N/A'},
-             '忙しくても短いメッセージ（おはよう、おやすみ）を欠かさない')
+              'value': max_gap, 'delta': 'N/A'},
+             'Lauraの時間帯（CET）を意識し、朝（日本の夕方）と夜（日本の深夜）に短い挨拶を欠かさない')
 
-    # --- ルール4: affectionカテゴリの効果が高い ---
-    if 'affection' in cat_effects and cat_effects['affection']['avg_positive'] >= 4:
-        _add('effective', 'info',
-             '愛情表現が最も効果的',
-             f"「affection」カテゴリの平均効果は+{cat_effects['affection']['avg_positive']}。愛情を直接伝えるメッセージが一番響いている。",
-             {'metric': 'affection_effect', 'trend': 'high',
-              'value': cat_effects['affection']['avg_positive'], 'delta': 'N/A'},
-             '「好き」「会いたい」など直接的な愛情表現を継続する')
+    # --- ルール5: affectionカテゴリの効果（Laura特化閾値） ---
+    if 'affection' in cat_effects:
+        aff = cat_effects['affection']
+        conf = _confidence_level(aff['count'], total_entries)
+        if aff['avg_positive'] >= 3:
+            _add('effective', 'important' if conf == 'high' else 'info',
+                 '愛情表現が最も効果的',
+                 f"「affection」カテゴリの平均効果は+{aff['avg_positive']}（{aff['count']}回）。"
+                 "Lauraは2年間シングルで愛情に飢えている面があり、直接的な愛情表現への反応が強い。"
+                 "+spontaneousの場合さらに効果的。",
+                 {'metric': 'affection_effect', 'trend': 'high',
+                  'value': aff['avg_positive'], 'delta': 'N/A'},
+                 '「I like you」「I miss you」等の直接的な表現を毎日送る。特に相手が求めていないタイミング（+spontaneous）が効果大',
+                 confidence=conf)
 
-    # --- ルール5: anxious愛着2回以上 → 安心感 ---
-    if attachment['anxious_count'] >= 2:
+    # --- ルール6: anxious愛着（ステージ考慮） ---
+    anxious_threshold = config['anxious_threshold']
+    if attachment['anxious_count'] >= anxious_threshold:
         _add('warning', 'urgent',
              '不安型愛着パターンを検出',
-             f"不安型愛着が{attachment['anxious_count']}回出現。相手が関係の安定性に不安を感じている。",
+             f"不安型愛着が{attachment['anxious_count']}回出現（閾値: {anxious_threshold}）。",
              {'metric': 'attachment', 'trend': 'anxious',
               'value': attachment['anxious_count'], 'delta': 'N/A'},
              '安心感を与える言葉（「ずっと一緒にいたい」「大丈夫だよ」）を意識的に増やす')
+    elif attachment['anxious_count'] >= 1 and stage in ('initial', 'building'):
+        # 初期段階のanxiousはDTR文脈で自然 → 警告ではなく参考情報
+        _add('status', 'info',
+             'DTR関連の不安を検出（正常範囲）',
+             f"不安型愛着が{attachment['anxious_count']}回出現。初期段階での「関係の定義」に関する不安は"
+             "関係に真剣に向き合っている証拠であり、問題行動ではない。",
+             {'metric': 'attachment', 'trend': 'anxious_normal',
+              'value': attachment['anxious_count'], 'delta': 'N/A'},
+             '不安を否定せず、「距離はあるけど気持ちは変わらない」等で安心感を与える。DTRの結論を急がない',
+             confidence='medium')
 
-    # --- ルール6: engagement下降トレンド ---
-    if trends.get('engagement', {}).get('direction') == 'falling':
-        _add('warning', 'important',
-             'エンゲージメントが低下傾向',
-             '関与度が下がっている。会話への参加意欲が減少している可能性がある。',
-             {'metric': 'engagement', 'trend': 'falling',
+    # --- ルール7: engagement下降トレンド ---
+    eng_dir = trends.get('engagement', {}).get('direction', 'stable')
+    if eng_dir in ('falling', 'falling_tentative'):
+        pri = 'important' if eng_dir == 'falling' else 'info'
+        tent = '（暫定判定・データ不足）' if '_tentative' in eng_dir else ''
+        _add('warning', pri,
+             f'エンゲージメントが低下傾向{tent}',
+             'Lauraの関与度が下がっている。内向的な性格のため、自分からの発信が減る=関心低下の可能性。',
+             {'metric': 'engagement', 'trend': eng_dir,
               'value': trends['engagement']['current'], 'delta': f"{trends['engagement']['slope']:+.1f}"},
-             '質問形式のメッセージや、相手の興味ある話題を振って関与を促す')
+             '質問形式のメッセージ（interest）や、Lauraの趣味（ジム・映画）に関する話題で関与を促す')
 
-    # --- ルール7: mood上昇トレンド → ポジティブステータス ---
-    if trends.get('mood', {}).get('direction') == 'rising':
+    # --- ルール8: mood上昇トレンド ---
+    mood_dir = trends.get('mood', {}).get('direction', 'stable')
+    if mood_dir in ('rising', 'rising_tentative'):
         _add('status', 'info',
              '気分は上昇傾向',
              '相手のmoodが改善傾向にある。現在のコミュニケーションスタイルが功を奏している。',
-             {'metric': 'mood', 'trend': 'rising',
+             {'metric': 'mood', 'trend': mood_dir,
               'value': trends['mood']['current'], 'delta': f"{trends['mood']['slope']:+.1f}"},
              '現在のアプローチを維持する')
 
-    # --- ルール8: mood下降トレンド ---
-    if trends.get('mood', {}).get('direction') == 'falling':
-        _add('warning', 'urgent',
+    # --- ルール9: mood下降トレンド ---
+    if mood_dir in ('falling', 'falling_tentative'):
+        _add('warning', 'urgent' if mood_dir == 'falling' else 'important',
              '気分が下降傾向',
              '相手のmoodが悪化傾向にある。原因を特定し、対処が必要。',
-             {'metric': 'mood', 'trend': 'falling',
+             {'metric': 'mood', 'trend': mood_dir,
               'value': trends['mood']['current'], 'delta': f"{trends['mood']['slope']:+.1f}"},
              '相手の気持ちに寄り添う会話を増やし、プレッシャーを避ける')
 
-    # --- ルール9: energy低い（<=3） ---
-    if trends.get('energy', {}).get('current', 5) <= 3:
-        _add('status', 'important',
-             'エネルギーが低い',
-             '相手のエネルギーレベルが低い。疲労や仕事のストレスが影響している可能性。',
+    # --- ルール10: energy低い ---
+    if trends.get('energy', {}).get('current', 5) <= 4:
+        _add('status', 'info',
+             'エネルギーが低め',
+             'Lauraのエネルギーが低い。銀行の在宅勤務で疲労がたまっている可能性。毎日のジム通いも体力を使う。',
              {'metric': 'energy', 'trend': trends['energy']['direction'],
               'value': trends['energy']['current'], 'delta': f"{trends['energy']['slope']:+.1f}"},
-             '重い話題を避け、軽い会話や癒し系のメッセージを心がける')
+             '重い話題やDTRを避け、軽い会話やリール共有で負担をかけない')
 
-    # --- ルール10: intimacy上昇中 ---
-    if trends.get('intimacy', {}).get('direction') == 'rising' and trends['intimacy']['current'] >= 5:
+    # --- ルール11: intimacy上昇中 ---
+    int_dir = trends.get('intimacy', {}).get('direction', 'stable')
+    if int_dir in ('rising', 'rising_tentative') and trends['intimacy']['current'] >= 4:
         _add('status', 'info',
              '親密度が順調に上昇中',
-             f"intimacyが{trends['intimacy']['min']}→{trends['intimacy']['current']}に成長。信頼関係が着実に構築されている。",
-             {'metric': 'intimacy', 'trend': 'rising',
+             f"intimacyが{trends['intimacy']['min']}→{trends['intimacy']['current']}に成長。"
+             "Lauraが家族の話（両親の他界）を開示したのは深い信頼の表れ。",
+             {'metric': 'intimacy', 'trend': int_dir,
               'value': trends['intimacy']['current'], 'delta': f"{trends['intimacy']['slope']:+.1f}"},
-             '自己開示を増やし、より深い話題にも踏み込んでみる')
-
-    # --- ルール11: sexualカテゴリの効果がマイナス ---
-    if 'sexual' in cat_effects and cat_effects['sexual']['avg_negative'] < -2:
-        _add('warning', 'important',
-             '性的メッセージが逆効果',
-             f"sexualカテゴリの平均マイナス効果が{cat_effects['sexual']['avg_negative']}。性的メッセージが関係にネガティブな影響を与えている。",
-             {'metric': 'sexual_effect', 'trend': 'negative',
-              'value': cat_effects['sexual']['avg_negative'], 'delta': 'N/A'},
-             '性的な話題のペースを落とし、感情面の会話を優先する')
+             '自己開示の交換を続ける。Lauraが重い話を共有した時は、感謝と共感を示す')
 
     # --- ルール12: praiseカテゴリが効果的 ---
-    if 'praise' in cat_effects and cat_effects['praise']['avg_positive'] >= 3:
+    if 'praise' in cat_effects and cat_effects['praise']['avg_positive'] >= 2:
+        conf = _confidence_level(cat_effects['praise']['count'], total_entries)
         _add('effective', 'info',
              '褒め言葉が効果的',
-             f"praiseカテゴリの平均効果は+{cat_effects['praise']['avg_positive']}。褒めることで相手のmoodとengagementが上がる。",
+             f"praiseカテゴリの平均効果は+{cat_effects['praise']['avg_positive']}（{cat_effects['praise']['count']}回）。",
              {'metric': 'praise_effect', 'trend': 'positive',
               'value': cat_effects['praise']['avg_positive'], 'delta': 'N/A'},
-             '具体的な褒め言葉（「その笑顔が好き」「すごく似合ってる」）を日常的に')
+             '外見だけでなく、性格や行動を具体的に褒める（「ジム頑張ってるね」「真面目なところが好き」）',
+             confidence=conf)
 
-    # --- ルール13: longing高い（>=7）+ 距離問題 ---
-    if trends.get('longing', {}).get('current', 0) >= 7:
+    # --- ルール13: longing高い + 遠距離 ---
+    longing_cur = trends.get('longing', {}).get('current', 0)
+    if longing_cur >= 6:
         _add('status', 'important',
-             '強い渇望感を検出',
-             '会いたい気持ちが非常に強い。長距離関係の場合、この感情が不安に転じるリスクがある。',
+             '会いたい気持ちが強い',
+             f'longing={longing_cur}。遠距離関係では自然な感情だが、具体的な見通しがないと不安に転じやすい。'
+             'Lauraは「If we were living in the same city I would not doubt it」と言っている。',
              {'metric': 'longing', 'trend': trends['longing']['direction'],
-              'value': trends['longing']['current'], 'delta': f"{trends['longing']['slope']:+.1f}"},
-             '具体的な再会プランや、一緒にできるオンライン活動を提案する')
+              'value': longing_cur, 'delta': f"{trends['longing']['slope']:+.1f}"},
+             '「いつか日本に来てね」ではなく、具体的な時期・計画の話をする。オンラインデート（映画同時視聴等）も有効')
 
-    # --- ルール14: ds急変（+2以上） ---
+    # --- ルール14: ds急変（文脈考慮） ---
     ds_spikes = [c for c in rapid_changes if c['metric'] == 'ds' and c['delta'] >= 2]
     if ds_spikes:
-        _add('warning', 'important',
-             'D/sダイナミクスの急変',
-             f"D/sスコアが+{ds_spikes[0]['delta']}急変。支配・服従の力関係が急に強まった。相手の同意と快適さを確認すること。",
+        # LauraはD/s嗜好を持つため、合意の上でのds上昇は問題ではない
+        _add('status', 'info',
+             'D/sダイナミクスの変化',
+             f"D/sスコアが+{ds_spikes[0]['delta']}変化。Lauraは明確なD/s嗜好（被支配願望）を持っているため、"
+             "合意の上での上昇は関係の自然な深まり。ただし境界線（OK: choke, spank / NG: armpit）は厳守。",
              {'metric': 'ds', 'trend': 'spike',
               'value': ds_spikes[0].get('new_value', 0), 'delta': f"+{ds_spikes[0]['delta']}"},
-             '力関係について率直に話し合い、境界線を明確にする')
+             'Lauraが自ら述べた嗜好の範囲内で進める。新しい行為は必ず事前に確認する')
 
-    # --- ルール15: 最も効果的なカテゴリ ---
+    # --- ルール15: 最も効果的なカテゴリ（信頼度付き） ---
     if cat_effects:
         best_cat = max(cat_effects.items(), key=lambda x: x[1]['avg_positive'])
+        conf = _confidence_level(best_cat[1]['count'], total_entries)
+        label = f'（参考）' if conf == 'insufficient' else ''
         _add('effective', 'info',
-             f'最も効果的なアプローチ: {best_cat[0]}',
-             f"「{best_cat[0]}」カテゴリが平均+{best_cat[1]['avg_positive']}で最も効果的。このタイプのメッセージを中心にすると良い。",
+             f'最も効果的なアプローチ: {best_cat[0]}{label}',
+             f"「{best_cat[0]}」カテゴリが平均+{best_cat[1]['avg_positive']}で最も効果的"
+             f"（{best_cat[1]['count']}回使用、信頼度: {conf}）。",
              {'metric': 'best_category', 'trend': 'positive',
               'value': best_cat[1]['avg_positive'], 'delta': 'N/A'},
-             f'「{best_cat[0]}」系のメッセージを意識的に増やす')
+             f'「{best_cat[0]}」系のメッセージを意識的に増やす',
+             confidence=conf)
 
     # --- ルール16: 最適な時間帯 ---
     if best_hours:
         hours_str = '、'.join(f'{h}時' for h in best_hours)
         _add('timing', 'info',
              f'レスポンスが良い時間帯: {hours_str}',
-             f'応答速度が最も速い時間帯は{hours_str}。この時間にメッセージを送ると反応が良い。',
+             f'応答速度が最も速い時間帯は{hours_str}（JST）。Lauraの現地時間を意識すること（CET=JST-8h）。',
              {'metric': 'response_time', 'trend': 'optimal',
               'value': best_hours[0], 'delta': 'N/A'},
              f'{hours_str}頃にメッセージを送るようにする')
 
     # --- ルール17: playfulness低下 ---
-    if trends.get('playfulness', {}).get('direction') == 'falling':
+    play_dir = trends.get('playfulness', {}).get('direction', 'stable')
+    if play_dir in ('falling', 'falling_tentative'):
         _add('action', 'info',
              '遊び心が減少傾向',
-             '会話のplayfulness（遊び心）が下がっている。関係がルーティン化している可能性。',
-             {'metric': 'playfulness', 'trend': 'falling',
+             '会話のplayfulnessが下がっている。Lauraは😂やリアクションを多用する性格で遊び心を好む。',
+             {'metric': 'playfulness', 'trend': play_dir,
               'value': trends['playfulness']['current'], 'delta': f"{trends['playfulness']['slope']:+.1f}"},
-             'ジョーク、ミーム、サプライズなど遊び心のある要素を取り入れる')
+             'リール共有、ミーム、からかい等を増やす。Lauraのジムネタ等を使ったユーモアも有効')
 
     # --- ルール18: riskがcaution連続 ---
     recent_risks = [e.get('risk') for e in entries[-3:]]
     if recent_risks.count('caution') >= 2:
         _add('warning', 'urgent',
              'リスク警告が頻発',
-             '直近でcautionレベルのリスクが複数回検出されている。関係の安定性に注意。',
+             '直近でcautionレベルのリスクが複数回検出。境界線を越えた行動が続いている可能性。',
              {'metric': 'risk', 'trend': 'elevated',
               'value': recent_risks.count('caution'), 'delta': 'N/A'},
-             'エスカレーションを避け、安定した基盤を築くことを優先する')
+             'エスカレーションを一旦停止し、感情面の会話で安定した基盤を築くことを優先する')
 
-    # --- ルール19: future下降 → 関係の方向性 ---
-    if trends.get('future', {}).get('direction') == 'falling':
+    # --- ルール19: future下降 ---
+    fut_dir = trends.get('future', {}).get('direction', 'stable')
+    if fut_dir in ('falling', 'falling_tentative'):
         _add('warning', 'important',
              '将来展望が下降傾向',
-             '将来への見通しスコアが下がっている。関係の方向性に迷いが生じている可能性。',
-             {'metric': 'future', 'trend': 'falling',
+             '将来スコアが下がっている。遠距離関係で将来展望の低下は関係崩壊の前兆になりうる（Stafford, 2005）。',
+             {'metric': 'future', 'trend': fut_dir,
               'value': trends['future']['current'], 'delta': f"{trends['future']['slope']:+.1f}"},
-             '直接的に「これからどうしたい？」と将来について率直に話し合う')
+             '将来について率直に話し合う。「いつか」ではなく具体的な時期を提示できると理想的')
 
-    # --- ルール20: 全体的に安定（全スコアstable） ---
-    all_stable = all(trends[k]['direction'] == 'stable' for k in SCORE_KEYS if k in trends)
+    # --- ルール20: 全体的に安定 ---
+    stable_dirs = ('stable',)
+    all_stable = all(trends[k]['direction'] in stable_dirs for k in SCORE_KEYS if k in trends)
     if all_stable and len(entries) >= 5:
         _add('status', 'info',
              '関係は安定期',
-             '全てのパラメーターが安定している。良い状態だが、マンネリ化しないよう新鮮さも必要。',
+             '全てのパラメーターが安定している。良い状態だが、遠距離関係ではマンネリ化が距離感の増大につながりやすい。',
              {'metric': 'overall', 'trend': 'stable', 'value': 0, 'delta': 'N/A'},
-             '新しい体験（オンラインゲーム、映画同時視聴など）を試してみる')
+             '新しい共有体験（映画同時視聴、オンラインゲーム、お互いの街を紹介等）を試す')
 
     # --- ルール21: reassuranceの効果 ---
     if 'reassurance' in cat_effects:
         eff = cat_effects['reassurance']
-        if eff['avg_positive'] >= 2:
+        conf = _confidence_level(eff['count'], total_entries)
+        # reassuranceはpost-high cooldown時にネガティブに見える場合がある → 文脈チェック
+        if eff['avg_positive'] >= 1:
             _add('effective', 'info',
-                 '安心感を与えるメッセージが有効',
-                 f"reassuranceカテゴリの効果は+{eff['avg_positive']}。安心感を求めている相手には効果的。",
+                 '安心感メッセージの効果',
+                 f"reassuranceカテゴリの効果は+{eff['avg_positive']}（{eff['count']}回）。"
+                 "注意: クールダウン期のデルタは自然な下降であり、メッセージの逆効果ではない場合がある。",
                  {'metric': 'reassurance_effect', 'trend': 'positive',
                   'value': eff['avg_positive'], 'delta': 'N/A'},
-                 '独占性や一途さを伝えるメッセージを適度に送る')
+                 '独占性と一途さを伝えるメッセージを適度に送る。ただし頻度が高すぎると圧になる',
+                 confidence=conf)
 
     # --- ルール22: interestカテゴリの効果 ---
-    if 'interest' in cat_effects and cat_effects['interest']['avg_positive'] >= 2:
+    if 'interest' in cat_effects and cat_effects['interest']['avg_positive'] >= 1:
+        conf = _confidence_level(cat_effects['interest']['count'], total_entries)
         _add('effective', 'info',
              '興味・関心を示すことが効果的',
-             '相手に対する興味や関心を示すメッセージが良い反応を得ている。',
+             'Lauraに対する興味や関心を示すメッセージが良い反応を得ている。内向的で聞き上手なLauraは質問されると饒舌になる。',
              {'metric': 'interest_effect', 'trend': 'positive',
               'value': cat_effects['interest']['avg_positive'], 'delta': 'N/A'},
-             '相手の趣味、仕事、日常について質問する機会を増やす')
+             'ジム、映画、仕事、スイスの生活について質問する。ペルー文化の話も高反応',
+             confidence=conf)
 
-    # --- ルール23: 短い連絡ギャップが多い（12-24h） ---
-    medium_gaps = [g for g in gaps if 12 <= g['hours'] < 24]
+    # --- ルール23: 連絡ギャップ頻度 ---
+    medium_gaps = [g for g in gaps if 12 <= g['hours'] < gap_threshold]
     if len(medium_gaps) >= 3:
         _add('action', 'info',
              '半日以上の空白が頻発',
-             f'{len(medium_gaps)}回の12-24時間ギャップを検出。定期的なコミュニケーションリズムを作ると良い。',
+             f'{len(medium_gaps)}回の12時間以上ギャップを検出。時差8時間のため夜間の空白は自然だが、起きている時間帯の空白は要注意。',
              {'metric': 'gap_frequency', 'trend': 'frequent',
               'value': len(medium_gaps), 'delta': 'N/A'},
-             '朝と夜の挨拶を習慣化して、コミュニケーションのリズムを作る')
+             'Lauraの朝（JST夕方）とLauraの夜（JST深夜）に挨拶メッセージを習慣化する')
 
-    # --- ルール24: intimacy低い（<=3）---
+    # --- ルール24: intimacy低い ---
     if trends.get('intimacy', {}).get('current', 5) <= 3:
         _add('action', 'important',
-             '親密度が低い',
-             '親密度がまだ低い段階。自己開示や深い会話が必要。',
+             '親密度がまだ低い',
+             '親密度が初期段階。自己開示の交換がまだ浅い。',
              {'metric': 'intimacy', 'trend': trends['intimacy']['direction'],
               'value': trends['intimacy']['current'], 'delta': f"{trends['intimacy']['slope']:+.1f}"},
-             '自分のプライベートな話や感情を共有し、相手にも開示を促す')
+             '自分のプライベートな話（家族、夢、不安）を先に開示し、Lauraにも安全に開示できる環境を作る')
 
-    # --- ルール25: eros高い + intimacy低い → バランス警告 ---
+    # --- ルール25: eros-intimacy バランス ---
     eros_val = trends.get('eros', {}).get('current', 0)
     intimacy_val = trends.get('intimacy', {}).get('current', 0)
     if eros_val >= 6 and intimacy_val <= 4:
         _add('warning', 'important',
              '性的関心と感情的親密度のアンバランス',
-             f'eros({eros_val})がintimacy({intimacy_val})を大幅に上回っている。性的関心だけでなく感情的な絆も育てる必要がある。',
+             f'eros({eros_val})がintimacy({intimacy_val})を大幅に上回っている。'
+             'Lauraは「関係の中のセックス」を重視する価値観。感情面の絆が先にないとエロスは長続きしない。',
              {'metric': 'balance', 'trend': 'imbalanced',
               'value': eros_val - intimacy_val, 'delta': 'N/A'},
-             '性的な話題を控えめにし、感情面の会話を優先する')
+             '性的な話題を控えめにし、感情面の会話（自己開示、将来の話）を優先する')
+
+    # --- ルール26: Laura自発行動の追跡（新規） ---
+    if laura_initiative:
+        ratio = laura_initiative['initiative_ratio']
+        if ratio >= 0.3:
+            _add('status', 'info',
+                 'Lauraの自発性が高い',
+                 f"Lauraの自発的メッセージ比率は{ratio:.0%}。内向的な性格を考慮すると非常に高い関与度。"
+                 "自分から写真を送る、自分から話題を振るなどの行動が見られる。",
+                 {'metric': 'laura_initiative', 'trend': 'positive',
+                  'value': ratio, 'delta': 'N/A'},
+                 'Lauraの自発的な行動には必ずポジティブに反応する。それが次の自発行動を促す')
+        elif ratio <= 0.1 and total_entries >= 10:
+            _add('warning', 'info',
+                 'Lauraの自発性が低下',
+                 f"自発的メッセージ比率が{ratio:.0%}。全てユーザー起点の会話になっている。",
+                 {'metric': 'laura_initiative', 'trend': 'low',
+                  'value': ratio, 'delta': 'N/A'},
+                 '会話を一方通行にしない。質問を投げて相手にターンを渡す。返信を急かさない')
+
+    # --- ルール27: 脆弱性開示への反応追跡（新規） ---
+    if vulnerable_entries and len(vulnerable_entries) >= 1:
+        _add('status', 'important',
+             '深い自己開示が発生',
+             f"Lauraが{len(vulnerable_entries)}回の脆弱性開示を行った。"
+             "両親の他界、一人暮らしの孤独感など。これは深い信頼の表れであり、適切な受容が極めて重要。",
+             {'metric': 'vulnerable', 'trend': 'trust_signal',
+              'value': len(vulnerable_entries), 'delta': 'N/A'},
+             '重い話を共有してくれた時は「話してくれてありがとう」「一人にしないよ」等で受容を示す。アドバイスはしない')
+
+    # --- ルール28: +spontaneous修飾タグの効果（新規） ---
+    spontaneous_effects = []
+    for e in entries:
+        trigger = e.get('trigger')
+        if trigger and '+spontaneous' in trigger.get('modifiers', []):
+            deltas = e.get('score_deltas') or {}
+            if deltas:
+                spontaneous_effects.append(sum(max(0, v) for v in deltas.values()))
+    if spontaneous_effects and len(spontaneous_effects) >= 2:
+        avg_spon = round(sum(spontaneous_effects) / len(spontaneous_effects), 1)
+        if avg_spon >= 3:
+            _add('effective', 'info',
+                 '自発的メッセージの効果が高い',
+                 f"+spontaneous修飾付きメッセージの平均効果は+{avg_spon}（{len(spontaneous_effects)}回）。"
+                 "相手が求めていない時に自発的に送るメッセージは効果が高い。",
+                 {'metric': 'spontaneous_effect', 'trend': 'positive',
+                  'value': avg_spon, 'delta': 'N/A'},
+                 '「ふと思い出した」「急に会いたくなった」等、唐突だが温かいメッセージを積極的に送る')
+
+    # --- ルール29: 呼称パターン変化（新規） ---
+    if nickname_data and nickname_data['occurrences'] >= 2:
+        _add('status', 'info',
+             '呼称の強度変化を検出',
+             f"Lauraの「Baby→Babyyyyy」パターンが{nickname_data['occurrences']}回出現"
+             f"（最大y数: {nickname_data['max_intensity']}）。yの数が多いほど感情の高まりを示す。",
+             {'metric': 'nickname_intensity', 'trend': 'positive',
+              'value': nickname_data['max_intensity'], 'delta': 'N/A'},
+             '感情が高い時のサインとして活用。この状態で送るaffectionメッセージは効果倍増')
+
+    # --- ルール30: カテゴリ反復減衰（新規） ---
+    if len(entries) >= 4:
+        recent_cats = []
+        for e in entries[-4:]:
+            t = e.get('trigger')
+            if t:
+                recent_cats.append(t.get('category'))
+        if len(recent_cats) >= 3:
+            from collections import Counter
+            cat_counts = Counter(recent_cats)
+            for cat, count in cat_counts.items():
+                if count >= 3 and cat:
+                    _add('action', 'info',
+                         f'「{cat}」が3回連続 - 新鮮さが薄れる可能性',
+                         f"直近4メッセージ中{count}回が「{cat}」カテゴリ。同じアプローチの反復は効果が減衰する傾向がある。",
+                         {'metric': 'category_repetition', 'trend': 'diminishing',
+                          'value': count, 'delta': 'N/A'},
+                         f'「{cat}」以外のカテゴリ（例: interest, humor, cultural）を意識的に使って変化をつける')
 
     # 優先度順にソート（urgent > important > info）
     priority_order = {'urgent': 0, 'important': 1, 'info': 2}
@@ -1025,17 +1198,19 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
 
     # 最低5件、最大15件に制限
     if len(advice) < 5:
-        # 足りない場合は汎用アドバイスで補完
         generic_advice = [
-            ('status', 'info', 'データ収集中', 'まだ十分なデータが集まっていません。継続的な記録が必要です。',
-             {'metric': 'data', 'trend': 'insufficient', 'value': len(entries), 'delta': 'N/A'},
+            ('status', 'info', 'データ収集中',
+             f'現在{total_entries}件のデータで分析中。信頼度の高い判定には最低30件が必要。継続的な記録が重要。',
+             {'metric': 'data', 'trend': 'insufficient', 'value': total_entries, 'delta': 'N/A'},
              'データが蓄積されるまで記録を続ける'),
-            ('action', 'info', '多様なコミュニケーション', '様々なタイプのメッセージを試して、何が効果的かを探る段階です。',
+            ('action', 'info', '多様なコミュニケーション',
+             '様々なタイプのメッセージを試して、Lauraに何が効果的かを探る段階。',
              {'metric': 'variety', 'trend': 'exploring', 'value': 0, 'delta': 'N/A'},
-             '褒め言葉、質問、愛情表現など様々なアプローチを試す'),
-            ('timing', 'info', '応答パターンを観察中', '相手の応答パターンがまだ分析できるほど蓄積されていません。',
+             '褒め言葉、質問、愛情表現、ユーモアなど様々なアプローチを試す'),
+            ('timing', 'info', '応答パターンを観察中',
+             'Lauraの応答パターンが十分に蓄積されていない。時差（8時間）を考慮した最適な送信時間帯を探索中。',
              {'metric': 'response_pattern', 'trend': 'collecting', 'value': 0, 'delta': 'N/A'},
-             '応答時間を意識して、相手が活発な時間帯を探る'),
+             '応答時間を意識して、Lauraが活発な時間帯（CET日中=JST夕方〜夜）を探る'),
         ]
         for cat, pri, title, body, ev, act in generic_advice:
             if len(advice) >= 5:
@@ -1045,6 +1220,7 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
                 'id': f'adv_{adv_counter[0]:03d}',
                 'category': cat, 'priority': pri, 'title': title,
                 'body': body, 'evidence': ev, 'action_suggestion': act,
+                'confidence': 'low', 'stage': stage,
             })
 
     return advice[:15]
