@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🗻 富士山旅行 しおり</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+  :root {
+    --primary: #1a5276;
+    --primary-light: #2980b9;
+    --accent: #e74c3c;
+    --accent-soft: #f39c12;
+    --bg: #f8f6f0;
+    --card-bg: #ffffff;
+    --text: #2c3e50;
+    --text-light: #7f8c8d;
+    --border: #e8e4dc;
+    --gradient-sky: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-sunset: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --shadow: 0 4px 20px rgba(0,0,0,0.08);
+    --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:
+      linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 100%),
+      url('https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=1920&q=80') center/cover;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(transparent, var(--bg));
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+  }
+
+  .hero-content h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+  }
+
+  .hero-content .subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+    opacity: 0.85;
+  }
+
+  .hero-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  /* ===== CONTAINER ===== */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* ===== SECTION ===== */
+  section {
+    margin-bottom: 4rem;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-header h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .section-header .section-line {
+    width: 60px;
+    height: 3px;
+    background: var(--accent-soft);
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+
+  /* ===== OVERVIEW CARDS ===== */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .overview-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .overview-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  .overview-card .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .overview-card .label {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+  }
+
+  .overview-card .value {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  /* ===== BUDGET ===== */
+  .budget-table {
+    width: 100%;
+    background: var(--card-bg);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+
+  .budget-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .budget-table th {
+    background: var(--primary);
+    color: #fff;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .budget-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.95rem;
+  }
+
+  .budget-table tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    background: #f7f5ef;
+  }
+
+  .budget-table .amount {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .budget-tip {
+    background: #fff9e6;
+    border-left: 4px solid var(--accent-soft);
+    border-radius: 0 12px 12px 0;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .budget-tip strong { color: var(--accent-soft); }
+
+  /* ===== TIMELINE ===== */
+  .day-label {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .timeline {
+    position: relative;
+    padding-left: 3rem;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--primary-light), var(--accent-soft));
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1.8rem;
+    padding-bottom: 1.8rem;
+    border-bottom: 1px dashed var(--border);
+  }
+
+  .timeline-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.35rem;
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    background: var(--primary-light);
+    border: 3px solid var(--bg);
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .timeline-time {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary-light);
+    margin-bottom: 0.2rem;
+  }
+
+  .timeline-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+
+  .timeline-desc {
+    font-size: 0.88rem;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+
+  .timeline-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 20px;
+    margin-top: 0.4rem;
+    font-weight: 500;
+  }
+
+  .tag-shrine { background: #fdecea; color: #c0392b; }
+  .tag-nature { background: #e8f5e9; color: #27ae60; }
+  .tag-food { background: #fff3e0; color: #e67e22; }
+  .tag-move { background: #e3f2fd; color: #2980b9; }
+  .tag-stay { background: #f3e5f5; color: #8e24aa; }
+  .tag-photo { background: #fff8e1; color: #f9a825; }
+
+  /* ===== HOTEL CARDS ===== */
+  .hotel-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hotel-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .hotel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  .hotel-card-inner {
+    padding: 1.5rem 2rem;
+  }
+
+  .hotel-rank {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hotel-rank .badge {
+    background: var(--accent-soft);
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+  .hotel-rank .badge.recommend {
+    background: var(--accent);
+  }
+
+  .hotel-name {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  .hotel-area {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+  }
+
+  .hotel-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .hotel-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.88rem;
+  }
+
+  .hotel-feature .feat-icon {
+    flex-shrink: 0;
+    font-size: 1.1rem;
+  }
+
+  .hotel-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .hotel-price small {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  .hotel-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    color: var(--primary-light);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .hotel-link:hover { color: var(--primary); text-decoration: underline; }
+
+  /* ===== FOOD ===== */
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .food-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+  }
+
+  .food-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .food-card .food-when {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-bottom: 0.8rem;
+  }
+
+  .food-list {
+    list-style: none;
+  }
+
+  .food-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 0.9rem;
+  }
+
+  .food-list li:last-child { border-bottom: none; }
+
+  .food-list .shop-name { font-weight: 500; }
+  .food-list .shop-desc { color: var(--text-light); font-size: 0.82rem; }
+
+  /* ===== CHECKLIST ===== */
+  .checklist {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+  }
+
+  .checklist-items {
+    list-style: none;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .checklist-items li {
+    padding: 0.6rem 0;
+    font-size: 0.95rem;
+    break-inside: avoid;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .checklist-items li::before {
+    content: '☐';
+    font-size: 1.1rem;
+    color: var(--primary-light);
+    flex-shrink: 0;
+  }
+
+  /* ===== TIPS ===== */
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+
+  .tip-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 1.3rem;
+    box-shadow: var(--shadow);
+    border-top: 4px solid;
+  }
+
+  .tip-card.warn { border-color: var(--accent); }
+  .tip-card.info { border-color: var(--primary-light); }
+  .tip-card.good { border-color: #27ae60; }
+
+  .tip-card h4 {
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .tip-card p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-light);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 600px) {
+    .hero { min-height: 500px; }
+    .hero-meta { gap: 1rem; font-size: 0.85rem; }
+    .timeline { padding-left: 2.2rem; }
+    .timeline-item::before { left: -1.55rem; }
+    .checklist-items { columns: 1; }
+    .hotel-features { grid-template-columns: 1fr; }
+    .container { padding: 0 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>富士山旅行</h1>
+    <p class="subtitle">母と妻と行く 絶景の旅</p>
+    <div class="hero-meta">
+      <span>📅 2026年5月中旬（平日）</span>
+      <span>👥 3名</span>
+      <span>🕐 1泊2日</span>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- OVERVIEW -->
+  <section style="margin-top: 3rem;">
+    <div class="section-header">
+      <h2>旅の概要</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="overview-grid">
+      <div class="overview-card">
+        <div class="icon">🚄</div>
+        <div class="label">移動</div>
+        <div class="value">新幹線 + レンタカー</div>
+      </div>
+      <div class="overview-card">
+        <div class="icon">📍</div>
+        <div class="label">エリア</div>
+        <div class="value">富士宮 → 河口湖</div>
+      </div>
+      <div class="overview-card">
+        <div class="icon">♨️</div>
+        <div class="label">宿泊</div>
+        <div class="value">温泉旅館（富士山ビュー）</div>
+      </div>
+      <div class="overview-card">
+        <div class="icon">💰</div>
+        <div class="label">予算（1人）</div>
+        <div class="value">約 30,000〜40,000円</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUDGET -->
+  <section>
+    <div class="section-header">
+      <h2>予算</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="budget-table">
+      <table>
+        <thead>
+          <tr><th>項目</th><th>内容</th><th class="amount">金額（1人）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🚄 新幹線</td><td>新大阪↔三島 自由席 往復</td><td class="amount">23,540円</td></tr>
+          <tr><td>🚗 レンタカー</td><td>1泊2日（コンパクト）＋免責＋ガソリン ÷3</td><td class="amount">約 3,700円</td></tr>
+          <tr><td>🏨 宿泊</td><td>温泉旅館 2食付き</td><td class="amount">10,000〜14,000円</td></tr>
+          <tr><td><strong>合計</strong></td><td></td><td class="amount"><strong>約 37,000〜41,000円</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="budget-tip">
+      <strong>💡 節約Tips</strong><br>
+      <strong>こだまグリーン早特</strong>を使えば、片道10,650円でグリーン車に乗れます（3日前予約）。往復で約2,000円お得＆快適！
+    </div>
+  </section>
+
+  <!-- DAY 1 -->
+  <section>
+    <div class="section-header">
+      <h2>行程</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="day-label">📅 1日目 ─ 富士宮エリア → 河口湖</div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-time">08:00</div>
+        <div class="timeline-title">🚄 新大阪駅 出発</div>
+        <div class="timeline-desc">こだま自由席で三島へ。約2時間30分の列車旅。車窓から浜名湖や富士山も楽しめます。</div>
+        <span class="timeline-tag tag-move">移動</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">10:30</div>
+        <div class="timeline-title">🚗 三島駅 到着 → レンタカー出発</div>
+        <div class="timeline-desc">北口にトヨタ・日産レンタカーあり。コンパクトカーで富士山へ出発！</div>
+        <span class="timeline-tag tag-move">移動</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">11:15</div>
+        <div class="timeline-title">⛩️ 富士山本宮浅間大社</div>
+        <div class="timeline-desc">全国1,300余の浅間神社の総本宮。世界遺産。境内の湧玉池は富士山の雪解け水が湧き出す神秘的なスポット。</div>
+        <span class="timeline-tag tag-shrine">参拝 約45分</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">12:15</div>
+        <div class="timeline-title">🌊 白糸ノ滝</div>
+        <div class="timeline-desc">幅200mの岩壁から絹糸のように流れ落ちる名瀑。世界遺産構成資産。展望台からの眺望が見事です。</div>
+        <span class="timeline-tag tag-nature">散策 約1時間</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">13:30</div>
+        <div class="timeline-title">🍜 昼食：富士宮やきそば</div>
+        <div class="timeline-desc">B-1グランプリ殿堂入りのご当地グルメ。もっちり麺と肉かす、仕上げに削り粉が特徴。お宮横丁 or むめさんがおすすめ。</div>
+        <span class="timeline-tag tag-food">グルメ</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">14:30</div>
+        <div class="timeline-title">🚗 富士宮 → 河口湖へ移動</div>
+        <div class="timeline-desc">約1時間のドライブ。富士山の裾野を走る気持ちの良いルート。</div>
+        <span class="timeline-tag tag-move">移動 約1時間</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">15:30</div>
+        <div class="timeline-title">🌸 河口湖大石公園</div>
+        <div class="timeline-desc">河口湖越しに富士山を望む花の名所。5月は芝桜やネモフィラが美しい。無料駐車場あり。</div>
+        <span class="timeline-tag tag-photo">📷 撮影スポット</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">16:30</div>
+        <div class="timeline-title">🏨 宿チェックイン</div>
+        <div class="timeline-desc">温泉に浸かって旅の疲れを癒やし、富士山を眺めながら夕食を楽しみましょう。</div>
+        <span class="timeline-tag tag-stay">温泉 & 夕食</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAY 2 -->
+  <section>
+    <div class="day-label">📅 2日目 ─ 河口湖エリア満喫 → 帰路</div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-time">07:30</div>
+        <div class="timeline-title">🌅 早朝散歩（河口湖畔）</div>
+        <div class="timeline-desc">風がない早朝は「逆さ富士」のチャンス！湖面に映る富士山は息を飲む美しさです。</div>
+        <span class="timeline-tag tag-photo">📷 逆さ富士</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">08:30</div>
+        <div class="timeline-title">🍳 朝食</div>
+        <div class="timeline-desc">宿のバイキングでしっかりエネルギーチャージ。</div>
+        <span class="timeline-tag tag-food">朝食</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">09:30</div>
+        <div class="timeline-title">⛩️ 新倉山浅間公園（忠霊塔）</div>
+        <div class="timeline-desc">五重塔と富士山の共演は、世界中の旅行ガイドに紹介される日本を象徴する絶景。398段の階段を登った先に感動が待っています。</div>
+        <span class="timeline-tag tag-photo">📷 絶景 約1〜1.5時間</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">11:00</div>
+        <div class="timeline-title">💧 忍野八海</div>
+        <div class="timeline-desc">富士山の伏流水が湧き出す8つの池。透き通ったコバルトブルーの水面が神秘的。周辺で食べ歩きも楽しめます。</div>
+        <span class="timeline-tag tag-nature">散策 約1〜1.5時間</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">12:30</div>
+        <div class="timeline-title">🍲 昼食：ほうとう</div>
+        <div class="timeline-desc">山梨名物の太麺鍋。かぼちゃや野菜がたっぷり。「ほうとう歩成」は味比べ大会殿堂入りの名店。</div>
+        <span class="timeline-tag tag-food">グルメ</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">14:00</div>
+        <div class="timeline-title">🌺 富士芝桜まつり</div>
+        <div class="timeline-desc">約50万株の芝桜が富士山をバックに咲き誇る春の絶景。5月中旬が見頃のピーク。入場料 大人1,000〜1,300円。</div>
+        <span class="timeline-tag tag-nature">見頃 約1.5時間</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">16:00</div>
+        <div class="timeline-title">🚗 三島駅へ → レンタカー返却</div>
+        <div class="timeline-desc">河口湖から三島まで約1時間。お土産を買い忘れずに！</div>
+        <span class="timeline-tag tag-move">移動</span>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-time">17:00</div>
+        <div class="timeline-title">🚄 三島駅 出発 → 19:30 新大阪着</div>
+        <div class="timeline-desc">おつかれさまでした！帰りの新幹線で旅の思い出を振り返りましょう。</div>
+        <span class="timeline-tag tag-move">帰路</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOTELS -->
+  <section>
+    <div class="section-header">
+      <h2>宿泊候補</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="hotel-cards">
+      <!-- Hotel 1 -->
+      <div class="hotel-card">
+        <div class="hotel-card-inner">
+          <div class="hotel-rank">
+            <span class="badge recommend">おすすめ</span>
+          </div>
+          <div class="hotel-name">富ノ湖ホテル</div>
+          <div class="hotel-area">📍 河口湖 ─ 河口湖駅から車10分</div>
+          <div class="hotel-features">
+            <div class="hotel-feature"><span class="feat-icon">🗻</span><span>部屋＋露天風呂から<br>河口湖越しに富士山</span></div>
+            <div class="hotel-feature"><span class="feat-icon">♨️</span><span>大浴場＋露天風呂</span></div>
+            <div class="hotel-feature"><span class="feat-icon">🍽️</span><span>朝夕バイキング</span></div>
+            <div class="hotel-feature"><span class="feat-icon">👥</span><span>3名1室 対応可</span></div>
+          </div>
+          <div class="hotel-price">9,350〜14,300円 <small>/人（2食付き）</small></div>
+          <a href="https://tominoko.net/" target="_blank" class="hotel-link">→ 公式サイトを見る</a>
+        </div>
+      </div>
+
+      <!-- Hotel 2 -->
+      <div class="hotel-card">
+        <div class="hotel-card-inner">
+          <div class="hotel-rank">
+            <span class="badge">コスパ最安</span>
+          </div>
+          <div class="hotel-name">御殿場高原 時之栖</div>
+          <div class="hotel-area">📍 御殿場 ─ JR御殿場駅から無料シャトルバス</div>
+          <div class="hotel-features">
+            <div class="hotel-feature"><span class="feat-icon">🗻</span><span>ほぼ全室から富士山</span></div>
+            <div class="hotel-feature"><span class="feat-icon">♨️</span><span>天然温泉「気楽坊」<br>露天風呂あり</span></div>
+            <div class="hotel-feature"><span class="feat-icon">🍽️</span><span>レストラン選択制</span></div>
+            <div class="hotel-feature"><span class="feat-icon">🎪</span><span>リゾート施設充実</span></div>
+          </div>
+          <div class="hotel-price">8,500〜12,000円 <small>/人（2食付き）</small></div>
+          <a href="https://www.tokinosumika.com/" target="_blank" class="hotel-link">→ 公式サイトを見る</a>
+        </div>
+      </div>
+
+      <!-- Hotel 3 -->
+      <div class="hotel-card">
+        <div class="hotel-card-inner">
+          <div class="hotel-rank">
+            <span class="badge">食事◎</span>
+          </div>
+          <div class="hotel-name">休暇村 富士</div>
+          <div class="hotel-area">📍 田貫湖 ─ 新富士駅からバス約50分</div>
+          <div class="hotel-features">
+            <div class="hotel-feature"><span class="feat-icon">🗻</span><span>全室富士山ビュー<br>逆さ富士も狙える</span></div>
+            <div class="hotel-feature"><span class="feat-icon">♨️</span><span>アルカリ性単純泉<br>（内湯のみ）</span></div>
+            <div class="hotel-feature"><span class="feat-icon">🍽️</span><span>約50種ビュッフェ<br>口コミ評価◎</span></div>
+            <div class="hotel-feature"><span class="feat-icon">👥</span><span>3名1室 対応可</span></div>
+          </div>
+          <div class="hotel-price">14,000〜15,500円 <small>/人（2食付き・平日）</small></div>
+          <a href="https://www.qkamura.or.jp/fuji/" target="_blank" class="hotel-link">→ 公式サイトを見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOD -->
+  <section>
+    <div class="section-header">
+      <h2>グルメスポット</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="food-grid">
+      <div class="food-card">
+        <h3>🍜 富士宮やきそば</h3>
+        <div class="food-when">1日目 昼食</div>
+        <ul class="food-list">
+          <li><span class="shop-name">お宮横丁（アンテナショップ）</span><br><span class="shop-desc">浅間大社横。本場の基本に忠実な味</span></li>
+          <li><span class="shop-name">むめさん</span><br><span class="shop-desc">白糸ノ滝近く。山盛りキャベツが名物</span></li>
+          <li><span class="shop-name">虹屋ミミ</span><br><span class="shop-desc">グランプリ「鉄人」称号。あっさり系</span></li>
+        </ul>
+      </div>
+
+      <div class="food-card">
+        <h3>🍲 ほうとう</h3>
+        <div class="food-when">2日目 昼食</div>
+        <ul class="food-list">
+          <li><span class="shop-name">ほうとう歩成（ふなり）</span><br><span class="shop-desc">味比べ大会3連覇・殿堂入り。黄金ほうとう</span></li>
+          <li><span class="shop-name">甲州ほうとう小作</span><br><span class="shop-desc">地元チェーン最大手。安定の味。駐車場◎</span></li>
+          <li><span class="shop-name">ほうとう不動</span><br><span class="shop-desc">河口湖畔の超有名店（行列覚悟）</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section>
+    <div class="section-header">
+      <h2>持ち物チェックリスト</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="checklist">
+      <ul class="checklist-items">
+        <li>🎫 新幹線チケット</li>
+        <li>🪪 運転免許証</li>
+        <li>📱 充電器・モバイルバッテリー</li>
+        <li>👟 歩きやすい靴</li>
+        <li>🧥 上着（朝晩冷える）</li>
+        <li>📷 カメラ</li>
+        <li>☂️ 折りたたみ傘</li>
+        <li>💊 常備薬</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TIPS -->
+  <section>
+    <div class="section-header">
+      <h2>旅のポイント</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="tips-grid">
+      <div class="tip-card warn">
+        <h4>⚠️ GWは避ける</h4>
+        <p>4/29〜5/6は大混雑＋料金高騰。5月中旬の平日がベスト。</p>
+      </div>
+      <div class="tip-card good">
+        <h4>🌅 早朝が狙い目</h4>
+        <p>朝7時台は逆さ富士のチャンス。観光地も空いています。</p>
+      </div>
+      <div class="tip-card info">
+        <h4>🌡️ 標高800m</h4>
+        <p>平地より約5度涼しい。5月でも朝晩は10度前後になることも。上着必須。</p>
+      </div>
+      <div class="tip-card info">
+        <h4>⛩️ 階段注意</h4>
+        <p>新倉山浅間公園は398段の階段あり。ゆっくりペースで15〜20分。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>🤖 このしおりは Claude Code が作成しました（2026-02-08）</p>
+  <p>📝 日程が決まったら宿の予約はお早めに！</p>
+</footer>
+
+</body>
+</html>
