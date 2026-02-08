@@ -535,10 +535,32 @@ def _score_trends(entries: List[Dict], stage: str = 'initial') -> Dict[str, Dict
     return trends
 
 
+def _is_cooldown_entry(entry: Dict, prev_entry: Optional[Dict]) -> bool:
+    """前エントリがピーク状態（eros>=8 or engagement>=9）の場合、
+    今回エントリの全体的なマイナスデルタはクールダウン（自然回帰）である可能性が高い。
+    カテゴリ効果評価から除外すべきか判定する。
+
+    根拠: laura-analystの発見 - reassuranceの-23は統計的錯覚。
+    erosピーク(9)後の自然回帰をreassuranceの「逆効果」と誤判定していた。"""
+    if prev_entry is None:
+        return False
+    prev_scores = prev_entry.get('scores', {})
+    deltas = entry.get('score_deltas') or {}
+    if not deltas:
+        return False
+    # 前エントリでeros>=8 or engagement>=9（ピーク状態）
+    is_prev_peak = prev_scores.get('eros', 0) >= 8 or prev_scores.get('engagement', 0) >= 9
+    if not is_prev_peak:
+        return False
+    # 今回のデルタが全体的にマイナス（3つ以上のスコアが下降）
+    neg_count = sum(1 for v in deltas.values() if v < 0)
+    return neg_count >= 3
+
+
 def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
-    """トリガーカテゴリ別の効果を集計（修飾タグ考慮）"""
+    """トリガーカテゴリ別の効果を集計（修飾タグ考慮、クールダウン除外）"""
     stats: Dict[str, Dict] = {}
-    for e in entries:
+    for idx, e in enumerate(entries):
         trigger = e.get('trigger')
         if not trigger:
             continue
