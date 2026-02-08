@@ -14,9 +14,10 @@ import os
 import json
 import time
 import requests
+import hashlib
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-from typing import Dict, Optional, List, Any
+from typing import Dict, Optional, List, Any, Tuple
 from pathlib import Path
 
 from dotenv import load_dotenv
