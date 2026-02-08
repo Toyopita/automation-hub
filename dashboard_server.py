@@ -59,6 +59,11 @@ CACHE_TTL = {
     'history_3d': 600,
     'history_7d': 900,
     'history_30d': 900,
+    'advice_7': 300,
+    'advice_14': 300,
+    'advice_30': 300,
+    'advice_60': 300,
+    'advice_90': 300,
 }
 
 
