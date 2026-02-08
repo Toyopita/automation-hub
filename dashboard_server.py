@@ -687,9 +687,10 @@ def _compute_communication_gaps(entries: List[Dict]) -> List[Dict]:
     return gaps
 
 
-def _best_response_hours(entries: List[Dict]) -> List[int]:
-    """応答時間が短い時間帯を特定"""
-    hour_times: Dict[int, List[float]] = {}
+def _best_response_hours(entries: List[Dict]) -> Dict[str, List[int]]:
+    """応答時間が短い時間帯を特定（JST/CET両方）"""
+    hour_times_jst: Dict[int, List[float]] = {}
+    hour_times_cet: Dict[int, List[float]] = {}
     for e in entries:
         trigger = e.get('trigger')
         if not trigger:
@@ -698,15 +699,20 @@ def _best_response_hours(entries: List[Dict]) -> List[int]:
         sent_at = trigger.get('sent_at')
         if rt is not None and sent_at:
             try:
-                h = datetime.fromisoformat(sent_at).hour
-                hour_times.setdefault(h, []).append(rt)
+                h_jst = datetime.fromisoformat(sent_at).hour
+                h_cet = (h_jst - 8) % 24  # CET = JST - 8h (冬時間)
+                hour_times_jst.setdefault(h_jst, []).append(rt)
+                hour_times_cet.setdefault(h_cet, []).append(rt)
             except (ValueError, TypeError):
                 pass
-    if not hour_times:
-        return []
-    avg_by_hour = {h: sum(ts) / len(ts) for h, ts in hour_times.items() if ts}
-    sorted_hours = sorted(avg_by_hour.items(), key=lambda x: x[1])
-    return [h for h, _ in sorted_hours[:3]]
+    result = {'jst': [], 'cet': []}
+    if hour_times_jst:
+        avg_jst = {h: sum(ts) / len(ts) for h, ts in hour_times_jst.items() if ts}
+        result['jst'] = [h for h, _ in sorted(avg_jst.items(), key=lambda x: x[1])[:3]]
+    if hour_times_cet:
+        avg_cet = {h: sum(ts) / len(ts) for h, ts in hour_times_cet.items() if ts}
+        result['cet'] = [h for h, _ in sorted(avg_cet.items(), key=lambda x: x[1])[:3]]
+    return result
 
 
 def _detect_laura_initiative(entries: List[Dict]) -> Dict:
