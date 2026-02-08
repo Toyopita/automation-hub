@@ -221,6 +221,12 @@ async def serve_dashboard():
     return html_path.read_text(encoding='utf-8')
 
 
+@app.get('/fuji', response_class=HTMLResponse)
+async def serve_fuji_trip():
+    html_path = Path(__file__).parent / 'fuji_trip.html'
+    return html_path.read_text(encoding='utf-8')
+
+
 @app.get('/api/current')
 async def api_current():
     cached = get_cached('current')
