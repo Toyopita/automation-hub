@@ -1050,15 +1050,19 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
              f'「{best_cat[0]}」系のメッセージを意識的に増やす',
              confidence=conf)
 
-    # --- ルール16: 最適な時間帯 ---
-    if best_hours:
-        hours_str = '、'.join(f'{h}時' for h in best_hours)
+    # --- ルール16: 最適な時間帯（CET基準で分析） ---
+    best_jst = best_hours.get('jst', [])
+    best_cet = best_hours.get('cet', [])
+    if best_cet:
+        cet_str = '、'.join(f'{h}時' for h in best_cet)
+        jst_str = '、'.join(f'{h}時' for h in best_jst) if best_jst else 'N/A'
         _add('timing', 'info',
-             f'レスポンスが良い時間帯: {hours_str}',
-             f'応答速度が最も速い時間帯は{hours_str}（JST）。Lauraの現地時間を意識すること（CET=JST-8h）。',
+             f'Laura側のベスト時間帯(CET): {cet_str}',
+             f'Lauraの現地時間で{cet_str}（CET）が最もレスポンスが良い。'
+             f'JST換算: {jst_str}。Lauraの夜時間帯（CET 19-23時≒JST 翌3-7時）が特に反応が良い傾向。',
              {'metric': 'response_time', 'trend': 'optimal',
-              'value': best_hours[0], 'delta': 'N/A'},
-             f'{hours_str}頃にメッセージを送るようにする')
+              'value': best_cet[0], 'delta': 'N/A'},
+             f'CET {cet_str}（JST {jst_str}）頃にメッセージを送るようにする')
 
     # --- ルール17: playfulness低下 ---
     play_dir = trends.get('playfulness', {}).get('direction', 'stable')
