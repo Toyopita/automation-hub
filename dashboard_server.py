@@ -1274,6 +1274,164 @@ def _generate_advice_items(entries: List[Dict], trends: Dict, cat_effects: Dict,
     return advice[:15]
 
 
+def _generate_overall_assessment(
+    entries: List[Dict], trends: Dict, cat_effects: Dict,
+    attachment: Dict, rapid_changes: List[Dict], gaps: List[Dict],
+    best_hours: Dict[str, List[int]], stage: str,
+    health: float, trend_dir: str,
+    laura_initiative: Dict, vulnerable_entries: List[Dict],
+    advice_items: List[Dict],
+) -> Dict:
+    """全分析結果を統合した総合評価を生成"""
+    total = len(entries)
+    config = STAGE_CONFIG[stage]
+    stage_labels = {
+        'initial': '初期段階（探索期）', 'building': '関係構築期',
+        'establishing': '確立期', 'stable': '安定期',
+    }
+    stage_label = stage_labels.get(stage, stage)
+
+    # === 良い点を抽出 ===
+    strengths = []
+    # mood安定
+    mood_vals = [e['scores'].get('mood', 0) for e in entries if e.get('scores')]
+    if mood_vals:
+        mood_min = min(mood_vals)
+        mood_avg = sum(mood_vals) / len(mood_vals)
+        if mood_min >= 5 and mood_avg >= 6.5:
+            strengths.append(f'Lauraの気分が非常に安定している（平均{mood_avg:.1f}、最低{mood_min}）。感情の土台がしっかりしている')
+    # engagement高め
+    eng_vals = [e['scores'].get('engagement', 0) for e in entries if e.get('scores')]
+    if eng_vals:
+        eng_avg = sum(eng_vals) / len(eng_vals)
+        if eng_avg >= 7:
+            strengths.append(f'エンゲージメントが常に高い（平均{eng_avg:.1f}）。Lauraは会話に積極的に参加している')
+    # 愛着安定
+    safe_ratio = sum(1 for e in entries if e.get('attachment') == 'safe') / total if total else 0
+    if safe_ratio >= 0.85:
+        strengths.append(f'愛着パターンが安定型（safe {safe_ratio:.0%}）。Lauraは基本的に安心感を持って関係に臨んでいる')
+    # intimacy上昇
+    int_dir = trends.get('intimacy', {}).get('direction', '')
+    if int_dir.startswith('rising'):
+        strengths.append(f'親密度が上昇中（{trends["intimacy"]["min"]}→{trends["intimacy"]["current"]}）。信頼関係が着実に構築されている')
+    # 脆弱性開示
+    if vulnerable_entries:
+        strengths.append(f'Lauraが深い自己開示（家族の話等）をしている。高い信頼の証')
+    # affection効果
+    if 'affection' in cat_effects and cat_effects['affection']['avg_positive'] >= 3:
+        strengths.append(f'愛情表現の効果が高い（平均+{cat_effects["affection"]["avg_positive"]}）。直接的な愛情は確実に響いている')
+    # spontaneous効果
+    spon_effects = []
+    for e in entries:
+        t = e.get('trigger')
+        if t and '+spontaneous' in t.get('modifiers', []):
+            d = e.get('score_deltas') or {}
+            if d:
+                spon_effects.append(sum(max(0, v) for v in d.values()))
+    if spon_effects and sum(spon_effects) / len(spon_effects) >= 4:
+        strengths.append(f'自発的（+spontaneous）メッセージの効果が極めて高い（平均+{sum(spon_effects)/len(spon_effects):.1f}）')
+
+    # === 改善点を抽出 ===
+    concerns = []
+    # future低め
+    fut_cur = trends.get('future', {}).get('current', 5)
+    if fut_cur <= 5:
+        concerns.append(f'将来展望スコアが{fut_cur}と中程度。遠距離関係では将来の具体的な計画が関係の支えになる')
+    # sexual+escalation問題
+    if 'sexual' in cat_effects:
+        esc_neg = cat_effects['sexual'].get('escalation_avg_negative')
+        if esc_neg is not None and esc_neg < -2:
+            concerns.append('性的エスカレーション時にLauraの境界線を超える場面があった（armpit等）。嗜好の押し付けは逆効果')
+    # ギャップ
+    long_gaps = [g for g in gaps if g['hours'] >= config['gap_warning_hours']]
+    if long_gaps:
+        concerns.append(f'最大{max(g["hours"] for g in long_gaps):.0f}時間の連絡ギャップ。Lauraは内向的で自分からは連絡しにくい')
+    # affection反復減衰
+    aff_entries = []
+    for e in entries:
+        t = e.get('trigger')
+        if t and t.get('category') == 'affection':
+            d = e.get('score_deltas') or {}
+            aff_entries.append(sum(v for v in d.values()))
+    if len(aff_entries) >= 3 and aff_entries[-1] < 0 and aff_entries[0] > 0:
+        concerns.append('愛情表現の反復減衰が見られる（効果が回数とともに低下）。同じ言葉の繰り返しでは響かなくなる')
+    # データ不足
+    if total < 20:
+        concerns.append(f'データが{total}件でまだ不足（信頼性の高い分析には30件以上必要）。現在の判定は参考レベル')
+
+    # === 次にやるべきこと（優先順位付き）===
+    next_actions = []
+    # urgentアドバイスから
+    for a in advice_items:
+        if a['priority'] == 'urgent':
+            next_actions.append({'priority': '最優先', 'action': a['action_suggestion'], 'reason': a['title']})
+    # importantから上位2件
+    imp_count = 0
+    for a in advice_items:
+        if a['priority'] == 'important' and imp_count < 2:
+            next_actions.append({'priority': '重要', 'action': a['action_suggestion'], 'reason': a['title']})
+            imp_count += 1
+    # 固定の推奨
+    if not next_actions:
+        next_actions.append({'priority': '推奨', 'action': 'データの蓄積を続ける。多様なカテゴリのメッセージを試す', 'reason': 'データ収集中'})
+    # 常に追加: 最適時間帯
+    best_cet = best_hours.get('cet', [])
+    if best_cet:
+        cet_str = '、'.join(f'{h}時' for h in best_cet[:2])
+        next_actions.append({'priority': '推奨', 'action': f'CET {cet_str}（Lauraの活動時間）にメッセージを送る', 'reason': 'タイミング最適化'})
+    # 常に追加: spontaneous推奨
+    next_actions.append({'priority': '推奨', 'action': '唐突だが温かいメッセージ（+spontaneous）を1日1回は送る', 'reason': '+spontaneousの効果が最も高い'})
+
+    # === 関係の見通し ===
+    if health >= 7 and trend_dir == 'improving':
+        outlook = '非常に良好。このペースで進めば関係はさらに深まる。'
+        outlook_level = 'excellent'
+    elif health >= 6:
+        outlook = f'{stage_label}としては順調。焦らず一歩ずつ進めることが大切。'
+        outlook_level = 'good'
+    elif health >= 4:
+        outlook = '概ね問題ないが改善の余地あり。特にfuture（将来展望）の向上が鍵。'
+        outlook_level = 'fair'
+    else:
+        outlook = '要注意。コミュニケーションの質と頻度を見直す必要がある。'
+        outlook_level = 'concerning'
+
+    # === 総合評価テキスト生成 ===
+    # 最も効果的なカテゴリ
+    best_cat_name = ''
+    if cat_effects:
+        best = max(cat_effects.items(), key=lambda x: x[1]['avg_positive'])
+        best_cat_name = best[0]
+
+    narrative_parts = []
+    narrative_parts.append(
+        f'Lauraとの関係は{stage_label}にあり、健康度は{health}/10。'
+    )
+    if strengths:
+        narrative_parts.append(f'強みとして、{strengths[0]}。')
+    if concerns:
+        narrative_parts.append(f'一方で、{concerns[0]}。')
+    if best_cat_name:
+        narrative_parts.append(f'最も効果的なアプローチは「{best_cat_name}」カテゴリ。')
+    narrative_parts.append(
+        f'Lauraは感情的に安定した人（mood SD={round(sum((v - mood_avg)**2 for v in mood_vals)/len(mood_vals), 2)**0.5 if mood_vals else 0:.1f}）で、'
+        f'相互性と具体的な行動を重視する。言葉だけの繰り返しより、行動で示すことが信頼を深める。'
+    )
+    narrative = ''.join(narrative_parts)
+
+    return {
+        'narrative': narrative,
+        'strengths': strengths[:5],
+        'concerns': concerns[:5],
+        'next_actions': next_actions[:6],
+        'outlook': outlook,
+        'outlook_level': outlook_level,
+        'data_reliability': 'low' if total < 20 else ('medium' if total < 30 else 'high'),
+        'data_count': total,
+        'min_recommended': 30,
+    }
+
+
 def generate_advice(days: int) -> Dict:
     """アドバイスAPIのメインロジック（Laura最適化版）"""
     if not EMOTION_DATA_FILE.exists():
