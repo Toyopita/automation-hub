@@ -673,22 +673,89 @@ def _best_response_hours(entries: List[Dict]) -> List[int]:
     return [h for h, _ in sorted_hours[:3]]
 
 
-def _compute_relationship_health(trends: Dict, attachment: Dict, risk_entries: List[Dict]) -> float:
-    """関係健康度スコア（0-10）を計算"""
+def _detect_laura_initiative(entries: List[Dict]) -> Dict:
+    """Laura側の自発的行動を検出・評価（相手のイニシアチブは関係の健全さの指標）"""
+    spontaneous_entries = [e for e in entries if e.get('trigger') is None]
+    initiative_modifiers = []
+    for e in entries:
+        trigger = e.get('trigger')
+        if trigger and '+initiative' in trigger.get('modifiers', []):
+            initiative_modifiers.append(e)
+    return {
+        'spontaneous_count': len(spontaneous_entries),
+        'initiative_modifier_count': len(initiative_modifiers),
+        'total_entries': len(entries),
+        'initiative_ratio': round(len(spontaneous_entries) / len(entries), 2) if entries else 0,
+    }
+
+
+def _detect_vulnerable_sharing(entries: List[Dict]) -> List[Dict]:
+    """脆弱性の自己開示（vulnerable）を検出"""
+    indicators = ['family', 'parents', 'alone', 'scared', 'afraid', 'hurt', 'cry',
+                  'dont have', 'passed away', 'miss my', 'lonely']
+    vulnerable = []
+    for e in entries:
+        note = (e.get('note') or '').lower()
+        if any(ind in note for ind in indicators):
+            vulnerable.append({
+                'timestamp': e.get('timestamp'),
+                'note': e.get('note'),
+                'scores': e.get('scores', {}),
+            })
+    return vulnerable
+
+
+def _detect_nickname_intensity(entries: List[Dict]) -> Dict:
+    """呼称パターン変化の検出（Baby→Babyyyyy等の感情強度指標）"""
+    patterns = []
+    for e in entries:
+        note = (e.get('note') or '')
+        summary = (e.get('summary') or '')
+        text = note + ' ' + summary
+        y_count = 0
+        for word in text.split():
+            lower = word.lower().rstrip('!.,?')
+            if lower.startswith('baby') and len(lower) > 4:
+                y_count = max(y_count, lower.count('y') - 1)
+            elif lower.startswith('bab') and 'y' in lower:
+                y_count = max(y_count, lower.count('y'))
+        if y_count > 0:
+            patterns.append({'timestamp': e.get('timestamp'), 'extra_y': y_count})
+    return {
+        'occurrences': len(patterns),
+        'max_intensity': max((p['extra_y'] for p in patterns), default=0),
+        'patterns': patterns,
+    }
+
+
+def _compute_relationship_health(trends: Dict, attachment: Dict, risk_entries: List[Dict],
+                                  stage: str = 'initial') -> float:
+    """関係健康度スコア（0-10）を計算（ステージ考慮）"""
+    config = STAGE_CONFIG[stage]
     total_weight = sum(SCORE_WEIGHTS.values())
     weighted_sum = sum(trends[k]['current'] * SCORE_WEIGHTS[k] for k in SCORE_KEYS if k in trends)
     base_score = weighted_sum / total_weight
 
-    # 愛着不安ペナルティ
-    if attachment['anxious_count'] >= 3:
+    # 愛着不安ペナルティ（ステージ考慮）
+    # 初期段階のanxiousはDTR文脈で自然なため、閾値を引き上げ
+    anxious_threshold = config['anxious_threshold']
+    if attachment['anxious_count'] >= anxious_threshold + 1:
         base_score -= 1.0
-    elif attachment['anxious_count'] >= 1:
-        base_score -= 0.5
+    elif attachment['anxious_count'] >= anxious_threshold:
+        base_score -= 0.3
 
-    # リスクペナルティ
+    # 回避型は全ステージで深刻
+    if attachment['avoidant_count'] >= 1:
+        base_score -= 1.5
+
+    # リスクペナルティ（初期段階では緩和）
     caution_count = sum(1 for e in risk_entries if e.get('risk') == 'caution')
-    if caution_count >= 2:
-        base_score -= 0.5
+    if stage == 'initial':
+        if caution_count >= 3:
+            base_score -= 0.5
+    else:
+        if caution_count >= 2:
+            base_score -= 0.5
 
     return round(max(0, min(10, base_score)), 1)
 
