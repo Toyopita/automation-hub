@@ -1,45 +1,5 @@
 [
   {
-    "date": "2026-01-09T07:30:55.676854+09:00",
-    "title": "AIで「社員はバカになる」のか？ 博報堂・花王・Googleが語る、AI時代の働き方に欠かせない“3つのA”とは - Web担当者Forum",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TOHZ4TEhVN3VURUVqN1BYNkRnSFVhVEdIOTJIWnpMYndDWWg2eldVX3lFZnhXaTgtTlNkT1JTQS03cU11TFpucE42bmpIOU5wLUVwYVZacDUzSGM?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T08:31:33.975793+09:00",
-    "title": "Google Cloud、MCPやA2Aを活用しAIエージェントを統合するハンズオンラボを公開 - CodeZine",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1NUVrZ3htLUpYV2l5eTBKalpqS0dDQWU3VDJnSElKanNfXzRyZ185aHlVNDJRbkdZT0ZZU2ZIRDBWbXZ6Y1ZEX2lVdkpWdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T11:33:28.011821+09:00",
-    "title": "Gmailで「Geminiがメールを集約して回答してくれる機能」や「Geminiがメール文面を高度に添削する機能」をGoogleが発表、まずは有料ユーザーから - GIGAZINE",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OSXRzaVhENGJzVVFEY0hqWjZ2dGpnRHFWYnZmdF9jQnhoZ2UtSFJZZ3QzT05IZE9zR0x4Z0tfUTNkZVl1NjVRMnNVWHpTSi0wTTFzTkJ5c0Zrbmd0djVWSkYtV1RVRTk4akQ5OQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T13:34:45.473640+09:00",
-    "title": "Agent Factory のハイライト: Gemini 3、AI Studio、Antigravity、Nano Banana を使用した構築 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObmxIdkViLWdWTG8za2VZbURuUjBLT0xYdkd4WkJGOEpiX0Ywa2tBejg5MG5VdnJMLTJKRkhvdmtRZXlQdjBBOElBNVJqSTdVNG1EZ1lnaGxlRm84ajFHSENsWFg0d3A1dkM2ZUVxNnZtVnpmVUswdUZPc2dkNU42OTdqdHZjM0FrVHdDeTFfS3NYVVdfTW1Ua0w0OFllcVhlSVZ0aFBndmoxVVZqS09aVHlRZnNpcE5BVmhaMFc3eFdmbXdnVTZOaHc2WXJUWUZYbkhkUk1LWDdUYlUxSU5n?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T13:34:45.473640+09:00",
-    "title": "Apigee での MCP サポート開始のお知らせ: 既存の API を安全で管理されたエージェント ツールへ変換 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUNKOUo0OXB1cm9wbnpoS1ZCMHF6Z2tUak9iZUlNbHg2cWVtck9KUWR2ZnlKYkRzVWxCWkZ4V1B2S2Rsa2FtRGJsUXFVT1l5OGNOQ09HTktOVkpWcVNyOExFckhWRVdMVGh0VUs3c0s5Vk5CTm0xTkhRejBlVnpyYzhLX3FJNUIxc2pzUHdR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T14:35:27.692139+09:00",
-    "title": "Agent Factory のハイライト: Agent Sandbox と Pod スナップショットを使用して GKE 上のエージェントを強化する - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxON3Vud0RycmNmcEFYRmdIUXJydEQ1VWFlajFkQVdjY0VLVERyRmhvejlXQmxUNmhIMjBQUkhhWXlXaENNUmFEaVd1S1p2Z2oxU19vVzJ5ak5WTDBrQWlxUWppZVc4OTFNb3dFN3V6RDQ0dDVhUUM3MUNjZGtjMW5TblllUUNVLW5WelJidFZPdl9UZlRrX3RiWjZpYnBDaUVDT1V6cUM5UTVWZXdPcUtqT3QtOTZ2bzg4amRnb0taUmRUb0Q2b0FfaUd5WEtENEsxZFdtaGRxd2NFSDZWdXRyUy1CdzI?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T14:35:27.692139+09:00",
-    "title": "NvidiaがGoogleの幹部を初のチーフマーケティングオフィサーとして採用 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WVWR6WmpEc25OVmw5UHpzWFZDbm5iTDdXb0FVVDhldm5KUjlVUGM5VnFyRUNjYks2MlV2NGJfbUlZaWk5ZnV1aTBNUV9LRUw3UGZtVERoU21wQXI4aG1KbFpDd2NZQTRJZE82M2w4Q2Y?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-09T17:37:22.593208+09:00",
-    "title": "すかいらーくとGoogleが「店舗現場で生成AI活用」に挑む 挨拶の可視化とデータ民主化の事例を公開 - ロボスタ",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IUXdPRmluOUZzWW5NYzFnaUZCbWpPWWpNVGp6eUhOdHZoTFdYTUxPcDNiT3QwOFBVWmRZZjZiNkxvbUJtUjNyelVWUWVhYlBJU2J4YjdoY01kc1YtZTRSWEZhSGk?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-10T02:42:57.730553+09:00",
     "title": "Métrica Móvil case study - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcDBTcTNYYm1pcXJPOEZVR00xcHJnM2FrOHZGZmN6VkRUQ0d4U3V4RHdBQTA5OXh4dHZjWS1ncHFqS0RoUTk2Vnl6cGdQOGtUbXVOSUd1LXczVmtIOFNJNllNTQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1633,5 +1593,10 @@
     "date": "2026-02-08T06:40:12.220629+09:00",
     "title": "PaperBanana：科学論文の図表作成を自動化する「5人のエージェント」 Google Cloudと北京大学が挑む、研究ワークフローの最後の壁 - XenoSpectrum",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVRZNDd5T3JKMHpJVFVXUG1FSVVydkF3THJRNDhSZGZNV3JGczRybjhOSFI3dXJIRFhTRG4wSVpCNTB6R2VsenVlQ0daakRtTFpJUE5oVFB6YS1xNGJNUUhNRmF5cklWYUhXOHVfSlpBSWJtbmFkNXFWS3BacTZmUXZxNWRtT0dCS3FLSw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-08T22:45:27.472395+09:00",
+    "title": "Google サービスでの Model Context Protocol（MCP）のサポートを発表 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFZsZWc4dVJlOENNR3NQUkdzQzQ1OEN1Nl8tRUZFM2xyLUpIUkxNbHhaVlJYQ0RWVlF6MGxabTZsMWMxWDZNSGJLNm5sdVZJNFhNS1BNRzVsNDZaMVNORzZsM3lRcE5wZUVpNlZZbnU0NUgwY1hpU0JJVE05bEtUODY3MWVyT1hGVkdwdEJLUEVHOEJaWE9yNXZIYU9KRFpuUWk4WVBDVnNoMVgyalg3YUxZQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
