@@ -537,7 +537,7 @@ def _score_trends(entries: List[Dict], stage: str = 'initial') -> Dict[str, Dict
 
 def _is_cooldown_entry(entry: Dict, prev_entry: Optional[Dict]) -> bool:
     """前エントリがピーク状態（eros>=8 or engagement>=9）の場合、
-    今回エントリの全体的なマイナスデルタはクールダウン（自然回帰）である可能性が高い。
+    今回エントリの全体的な大幅マイナスデルタはクールダウン（自然回帰）である可能性が高い。
     カテゴリ効果評価から除外すべきか判定する。
 
     根拠: laura-analystの発見 - reassuranceの-23は統計的錯覚。
@@ -552,9 +552,11 @@ def _is_cooldown_entry(entry: Dict, prev_entry: Optional[Dict]) -> bool:
     is_prev_peak = prev_scores.get('eros', 0) >= 8 or prev_scores.get('engagement', 0) >= 9
     if not is_prev_peak:
         return False
-    # 今回のデルタが全体的にマイナス（3つ以上のスコアが下降）
+    # 今回のデルタが全体的に大幅マイナス（合計-5以下かつ4つ以上のスコアが下降）
+    # 軽微な下降（-1が3つ程度）は通常の変動として除外しない
+    neg_sum = sum(v for v in deltas.values() if v < 0)
     neg_count = sum(1 for v in deltas.values() if v < 0)
-    return neg_count >= 3
+    return neg_sum <= -5 and neg_count >= 4
 
 
 def _category_effectiveness(entries: List[Dict]) -> Dict[str, Dict]:
