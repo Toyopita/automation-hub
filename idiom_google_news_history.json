@@ -1,45 +1,5 @@
 [
   {
-    "date": "2026-01-10T02:42:57.730553+09:00",
-    "title": "Métrica Móvil case study - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TcDBTcTNYYm1pcXJPOEZVR00xcHJnM2FrOHZGZmN6VkRUQ0d4U3V4RHdBQTA5OXh4dHZjWS1ncHFqS0RoUTk2Vnl6cGdQOGtUbXVOSUd1LXczVmtIOFNJNllNTQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T03:43:40.650345+09:00",
-    "title": "Google Cloud AI Agent Summit ’25 Fall に協賛 ～弊社 CTO がスポンサー セッションに登壇 - クラウドエース株式会社",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44a0h6UWlMQ2tyRnVxempQRFlLMGpyM0tzV2F6OFZyWWFFbS1SZGRMdlZUSkN6LXdCT0NZUk5oQ2Y1VWlkVnpmcWZxSWZjZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T03:43:40.650345+09:00",
-    "title": "クラウドエースの社員 8 名が 2025 年の Google Cloud Partner All-stars を受賞 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNXU0dEdGNGtWQUg4SGxHRE5peWpLb1MzUzNGeHQ5ek1USktreWNmVHk4ZUJuRmJFekxMOW0tUmZocDRDdjhOZlJ6bHFBbGlYU2VUMjk0Vjlka1V5U2lCNmkzd0JTLUQ3ZFE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T04:44:23.350411+09:00",
-    "title": "Google Cloud Japanがエンタープライズ攻略、鍵はAIエージェントとパートナー戦略 - 日経クロステック",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyRF9nem82WnRpYkxCaUZoQjU4S0VuN3FRYXdlOWlTOENMTlp1Wm1sdGpUQ3QyN291cWtHUl9ab2VUMWdUbTBzODlLdkhIWWVkOHloMTVoOWZsbGl5bXFXYnFvMWQwdWJ0eGhXMg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T04:44:23.350411+09:00",
-    "title": "Google Cloud 主催「Security Summit ’25」に弊社エンジニアが登壇 ～AI ネイティブな防御の実現に向けたセキュリティ自動化 - クラウドエース株式会社",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoUk5qVzlHektjUHZEU18zaUFNRGQtUmNrbEhuMjhpUzdjMWxoTlI4VEtIVklPNWxneHJFb3NDcW1jUzlKQ2Y1bTlhWllEQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T07:46:12.351480+09:00",
-    "title": "【間もなく】Google Meet音声翻訳が6言語対応！1月27日ベータ版展開 - tech-noisy.com",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcUlKOWR3YkZ6STgzS3lkY1Uxb3V3RmkxVTA1eUlvVkpISG5lamFsbldvRnIwNlVwY09kakNXTEJSTHZCeEpQTkdnSkszY1h4UHV5Vm5kY2R4dWIyTm5wSXdSSkJOSGxiaWZGbVBncG9hOHNTN2NZZmJjTmJ5X3o2V3NXeUd6Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T09:47:22.945333+09:00",
-    "title": "KDDI と Google Cloud、AI の祭典「KDDI AI Agent Day」を開催：AI エージェントが実現する可能性 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0x1cThNVmtYWk9nM29VSUduWWFNbVpHSFZ0WXVqUllRWkVEMU1fRGxxbi1DMGp4WXJFbWV3OWVORDNXZE9RYnoxUnZMSTdlVm5hcFhreW5aUkF2WXhmdGxpeEVEMXI2bFFTOVdDcVhLX2dCa2NwUE8tT2gxM0MyYXlyQ2FpT1NScWhZMWZpcWhLVFJCcm9NQ00yN3ZfR2trQzZ5dmRNajd1Zw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-10T11:48:38.675131+09:00",
-    "title": "一休: Google Cloud 移行でレガシーな開発環境から脱却し、作業効率化とサービス品質の向上、ビジネスの成長を実現 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXB6TkI3dmx4QnRsX24xaEItYlNMU1ZPc2hnN2NrV2FyZjh4dlBDeHZBS1hPN01wemFOcHU2Sl9SYzh3OXpmOEoxUUJjZDQ1M05uQk9pTUphZXFhNUM5aDBCWG9VSkJhckVob2FJNmpLSmtReU4zRGIxX3VuVmtEdkxHZnBRT2tWUUVFT0k2ZnVndWlzWGZTLWxsZjRWZ2lFOGVHbzVlZ0tLXzF6UjBiQjd2UHhELUVaUjBGODN6QkxKR0NFSXpJd2FNaWlWLXBNWmtUZGJR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-10T12:49:17.962883+09:00",
     "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0hZb3ZYZ29ZZWh4UkJvZHFFUkppR2VlSFpfRXVhQ3dROTd0cjBUUVhTbEViV29vV0xTbFZza3pJYy1VLThIR3pLRXBjdTJvQXF6WHlOS0gyc1B0MXRWcXA1VWtmWExKVW91czAxLU1maTBCSzdsZ01fLVlZQ2FNM1lRaDgxa2xES25yNzF0WTdnUUxqSG1DU0RCTUtMbUVna0lHVg?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1618,5 +1578,10 @@
     "date": "2026-02-09T01:47:25.678959+09:00",
     "title": "元Google Cloud・Auth0日本事業統括の大須賀利一氏が、株式会社Parkour Japanの執行役員CROに就任。（PR TIMES） - 毎日新聞",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaHNJNUhhYlI5N1hCQmRDTEVWUkxLY3VpWlpDVEZrMmhVa0c5eXpvY0sxOHljQ3k0SkdjWU91eGhXRm9aak9Sd0J2TC1Eb2pTeDA2dngzZkpBNTlweHQyaXo4LXVremhU?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-09T11:53:02.938651+09:00",
+    "title": "NVIDIA RTX PRO 6000 により、Cloud Run 上で高性能推論とサーバーレス コンピューティングが融合 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXctXy1uSDFnUXNJNUZZckpReGVQdXBoblNVb0tLU2pPMUJZY196UFBoVVJrZk1ERWdxb1lyRG1oLVJuVXBtcnV4RVEwbXp6anZYSXc3T3l4TW9QbEZ0MEF6bkVfcnRDcUpmYTRhX3NYYTZtTWluR0JsU0ZIekZDUVc1Z3plQVNjYlBuRjNGNnJXYTRTM3lVLUhDN1puamhheGw3U0ZJamNMSlpoWXJFalhfUmI?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
