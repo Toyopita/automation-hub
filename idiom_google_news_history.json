@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-10T12:49:17.962883+09:00",
-    "title": "Google Cloud での Gemma 3 の実践 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0hZb3ZYZ29ZZWh4UkJvZHFFUkppR2VlSFpfRXVhQ3dROTd0cjBUUVhTbEViV29vV0xTbFZza3pJYy1VLThIR3pLRXBjdTJvQXF6WHlOS0gyc1B0MXRWcXA1VWtmWExKVW91czAxLU1maTBCSzdsZ01fLVlZQ2FNM1lRaDgxa2xES25yNzF0WTdnUUxqSG1DU0RCTUtMbUVna0lHVg?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-10T17:52:26.135941+09:00",
     "title": "最新の生成 AI に確率的丸めが不可欠な理由 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVkRIbXYxeTVsMFhDNmlRZXlBQVE5S1B6Ylp0TllfRTllT29CemhnRjJ0YWJ6YnpSWDYtTDRSR2VwOEd3c3pXRUIyeU9sd3gxOHVSRHpWWXdIRm9pODE1NHotOWlYMUMtN1RSWTNETm1yYjZGNVRSNEh2N1lHaFVmVkR3UWN4eUhrLXJMNG5sOVdtWXl2MFNhWENyanFTd0NYRzVSSjRCYU1PMU5TYktGMHBCYWVBX0hDdjRRMi1nQTZVLVI3NkE?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1583,5 +1578,15 @@
     "date": "2026-02-09T11:53:02.938651+09:00",
     "title": "NVIDIA RTX PRO 6000 により、Cloud Run 上で高性能推論とサーバーレス コンピューティングが融合 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXctXy1uSDFnUXNJNUZZckpReGVQdXBoblNVb0tLU2pPMUJZY196UFBoVVJrZk1ERWdxb1lyRG1oLVJuVXBtcnV4RVEwbXp6anZYSXc3T3l4TW9QbEZ0MEF6bkVfcnRDcUpmYTRhX3NYYTZtTWluR0JsU0ZIekZDUVc1Z3plQVNjYlBuRjNGNnJXYTRTM3lVLUhDN1puamhheGw3U0ZJamNMSlpoWXJFalhfUmI?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-09T13:54:10.350823+09:00",
+    "title": "AI支援開発のコストやコード生成量、分かる？ GoogleがGemini CLIに監視ダッシュボードを追加 - ITmedia",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80aXVIMHpxc0NDbjVYRVM3YUphbUhjZlc5aVhFNGh4VzcxN3BwNy1icG03UHJSOGV1UGYtekRhTWtkamVnZUNjREhOOXhxU2hRMkk5ZFhUMk40Y0FPbjMyWm1xcXhoWXR5dkZRcU1QdGsydw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-09T13:54:10.350823+09:00",
+    "title": "「Salesforceデータ漏えい」は設定ミスが主な原因？ Googleが指摘する“見落とし”：不備を見抜くCLIツール公開 - ITmedia",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4bHNzMUFqbm53MklFczh5UWU4YW5jWHVROVc3eXlNcjVYc3VQT0xsdXJWNXVaV2dhZjBYOVVGd0xnQkNYYmREZmRKV3E4V2E0c2xNTjQ0X1EtVzEzdEtQcms4SjhmV2ZWaHM5ZHJybVJaQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
