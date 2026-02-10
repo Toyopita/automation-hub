@@ -9073,6 +9073,58 @@
         "future": -2,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:59:00.676339+09:00",
+      "summary": "❤️❤️❤️",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "3回リトライ失敗: translation was empty or same as original",
+      "trigger": {
+        "message": "I wish I could kiss your pussy and put my tongue inside you baby... I wanna make love to you so bad 😏",
+        "sent_at": "2026-02-10T23:58:44.441989+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+late_night",
+          "+escalation",
+          "+sensory"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 1
+      }
     }
   ]
 }
