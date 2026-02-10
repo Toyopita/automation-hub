@@ -5948,6 +5948,56 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:11:33.995896+09:00",
+      "summary": "Are you going to sleep Soon? ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 6,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "時差を気にして相手の生活リズムを確認している。エロい流れから日常会話に戻り、穏やかで気遣いのあるトーン。",
+      "trigger": {
+        "message": "Just had dinner and relaxing now haha You barely sleep, don't you baby? 🥺",
+        "sent_at": "2026-02-10T21:17:43.593525+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 53
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": -1
+      }
     }
   ]
 }
