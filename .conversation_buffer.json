@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "You can still watch while you're working baby 🥵",
-    "time": "22:42"
-  },
-  {
     "role": "laura",
     "text": "No honey ",
     "time": "22:42"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Is weird ",
     "time": "23:05"
+  },
+  {
+    "role": "you",
+    "text": "Is it weird? I won't delete them anymore baby 🙂",
+    "time": "23:06"
   }
 ]
