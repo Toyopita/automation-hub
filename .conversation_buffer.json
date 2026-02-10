@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "Are you sad baby? I don't want you to close yourself off 🥺",
-    "time": "23:41"
-  },
-  {
     "role": "laura",
     "text": "Im not Sad ",
     "time": "23:41"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "I dont want you to feel like you have to send me vidéos ",
+    "time": "23:52"
+  },
+  {
+    "role": "laura",
+    "text": "Just if you want okay ",
     "time": "23:52"
   }
 ]
