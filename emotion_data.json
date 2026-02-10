@@ -4556,6 +4556,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:21:43.237278+09:00",
+      "summary": "Because you are taking my underwear off ",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Expecting ',' delimiter: line 14 column 3 (char 214)",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -2,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": -1,
+        "future": 4,
+        "engagement": -2
+      }
     }
   ]
 }
