@@ -7428,6 +7428,57 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:36:12.615553+09:00",
+      "summary": "Okay ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短い返事の繰り返し。感情的に距離を置いている可能性。まだ傷ついているか、会話を終わらせたい様子",
+      "trigger": {
+        "message": "I'm sorry, I didn't know that would bother you baby 🥺 I do trust you",
+        "sent_at": "2026-02-10T23:35:56.792558+09:00",
+        "category": "support",
+        "modifiers": [
+          "+late_night",
+          "+vulnerable"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
