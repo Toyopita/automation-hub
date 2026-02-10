@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I'm sorry, I didn't know that would bother you baby 🥺 I do trust you",
-    "time": "23:35"
-  },
-  {
     "role": "laura",
     "text": "Okay ",
     "time": "23:36"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Because i dont find Instagram save ",
+    "time": "23:49"
+  },
+  {
+    "role": "laura",
+    "text": "I asked you if you save the vidéos ",
     "time": "23:49"
   }
 ]
