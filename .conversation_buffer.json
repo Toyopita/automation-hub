@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Is just weird ",
-    "time": "23:24"
-  },
-  {
-    "role": "laura",
     "text": "You deleted everything… ",
     "time": "23:24"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Okay ",
     "time": "23:36"
+  },
+  {
+    "role": "you",
+    "text": "Don't pull away baby 🥺 I already sent it again",
+    "time": "23:37"
   }
 ]
