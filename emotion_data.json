@@ -5184,6 +5184,57 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:43:29.851373+09:00",
+      "summary": "Thats so hot 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の発言に対する興奮した肯定的な反応。セクスティング中の高揚した状態",
+      "trigger": {
+        "message": "I wanna cum in your mouth while I'm driving 😏",
+        "sent_at": "2026-02-10T15:43:11.927562+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
