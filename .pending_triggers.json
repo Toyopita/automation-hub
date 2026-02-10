@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "message": "About to hop in the bath haha\n\nYou're definitely not sleeping 🥺 You work from home?",
+    "sent_at": "2026-02-10T22:30:50.288047+09:00",
+    "category": "daily",
+    "modifiers": [
+      "+late_night"
+    ]
+  }
+]
