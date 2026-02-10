@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "Is it weird? I won't delete them anymore baby 🙂",
-    "time": "23:06"
-  },
-  {
-    "role": "you",
     "text": "I wasn't feeling confident about that video haha so I deleted it 😂",
     "time": "23:08"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Its okay if you want to delete",
+    "time": "23:33"
+  },
+  {
+    "role": "laura",
+    "text": "Maybe you feel that i can share your vídeos? I dont know ",
     "time": "23:33"
   }
 ]
