@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "Hey baby don't say you don't need me to send it again 🥺",
-    "time": "23:51"
-  },
-  {
     "role": "laura",
     "text": "I dont want you to feel like you have to send me vidéos ",
     "time": "23:52"
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "I wanna see your videos too baby 🥺",
+    "time": "23:56"
+  },
+  {
+    "role": "you",
+    "text": "That's why baby... don't say you won't send them 🥺",
     "time": "23:56"
   }
 ]
