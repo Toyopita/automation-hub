@@ -6563,6 +6563,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:00:05.923733+09:00",
+      "summary": "I dont understand Why do you delete everything ",
+      "scores": {
+        "mood": 5,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "親密なやり取りの後に突然の困惑・不安。彼が送った写真や動画を削除する行動に対する疑問と不安感を表している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -4,
+        "energy": -2,
+        "intimacy": -2,
+        "longing": -5,
+        "eros": -6,
+        "ds": -4,
+        "playfulness": -4,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
