@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "Damn I wanna video chat with you so bad 🥺",
-    "time": "16:14"
-  },
-  {
-    "role": "you",
     "text": "You don't wanna? 🥺",
     "time": "16:24"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "I want to sit on you 😍😍",
+    "time": "22:41"
+  },
+  {
+    "role": "laura",
+    "text": "Im working honey ",
     "time": "22:41"
   }
 ]
