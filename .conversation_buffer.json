@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Im talking about you ",
-    "time": "00:05"
-  },
-  {
-    "role": "laura",
     "text": "For Men is more hard than for woman ",
     "time": "00:05"
   },
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "You're sweet baby 🤍",
+    "time": "00:14"
+  },
+  {
+    "role": "you",
+    "text": "It really feels like you're thinking about me baby 🤍",
     "time": "00:14"
   }
 ]
