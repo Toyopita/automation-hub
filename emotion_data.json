@@ -6421,6 +6421,56 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:49:23.383328+09:00",
+      "summary": "Thank you ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "avoidant",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼の気持ち表現に対して簡素な返答。距離を置いている可能性。仕事中の忙しさもあるが、感情的な reciprocation が少ない",
+      "trigger": {
+        "message": "I like you baby 🤍",
+        "sent_at": "2026-02-10T22:49:08.104113+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": -3,
+        "longing": -3,
+        "eros": -2,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -3
+      }
     }
   ]
 }
