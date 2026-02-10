@@ -9644,6 +9644,49 @@
         "engagement": 4,
         "vulnerability": 4
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:08:02.065468+09:00",
+      "summary": "No ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 7,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 4
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短い否定。彼の冗談に対する真面目な返答。距離や将来への不安が見える会話の流れ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 9,
+        "engagement": 9,
+        "vulnerability": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -4,
+        "engagement": -5
+      }
     }
   ]
 }
