@@ -4699,6 +4699,56 @@
         "future": 3,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:28:17.459401+09:00",
+      "summary": "You see ? 😳",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中。彼女が送った動画/写真を確認したか聞いている。少し恥ずかしそうだが応じている様子",
+      "trigger": {
+        "message": "What do you mean baby?",
+        "sent_at": "2026-02-10T15:26:15.720267+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": 0,
+        "future": -4,
+        "engagement": 2
+      }
     }
   ]
 }
