@@ -7101,6 +7101,57 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:31:01.842106+09:00",
+      "summary": "Its okay dont send if you dont want ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "冷たく距離を置く表現。傷ついて防衛的になっている。表面上は「いいよ」と言いつつ、本心では送ってほしいが期待しないよう自己防衛している典型的な不安型愛着パターン",
+      "trigger": {
+        "message": "Yeah haha I was thinking maybe too much dick content 🙄 Did you like that one? I'll send it again 🫣",
+        "sent_at": "2026-02-10T23:30:32.549797+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+callback",
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -4
+      }
     }
   ]
 }
