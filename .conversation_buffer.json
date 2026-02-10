@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I dont do the same thing ",
-    "time": "23:00"
-  },
-  {
-    "role": "laura",
     "text": "Im not sending you anything \nYou make me feel like i cant trust you sorry ",
     "time": "23:01"
   },
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "Yeah haha I was thinking maybe too much dick content 🙄 Did you like that one? I'll send it again 🫣",
+    "time": "23:30"
+  },
+  {
+    "role": "laura",
+    "text": "Its okay dont send if you dont want ",
     "time": "23:30"
   }
 ]
