@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "But I dont want to be selfish, Thats Why if you really want to have sex and you have the opportunity to have it you can do it ",
-    "time": "00:11"
-  },
-  {
-    "role": "laura",
     "text": "I want to meet you, but i really dont know if that is going to be soon ",
     "time": "00:11"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "But you can do it okay ",
     "time": "00:27"
+  },
+  {
+    "role": "you",
+    "text": "But you're feeling a bit overwhelmed baby?",
+    "time": "00:28"
   }
 ]
