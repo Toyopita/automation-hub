@@ -5142,6 +5142,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:42:38.896039+09:00",
+      "summary": "I can lick you while you drive 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "明確な性的提案。彼の状況を受けて積極的に応答している。恥じらい絵文字で可愛らしさも残している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 2,
+        "ds": 5,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
