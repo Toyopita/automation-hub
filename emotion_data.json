@@ -6916,6 +6916,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:25:04.799929+09:00",
+      "summary": "You deleted everything… ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と失望が混じった繰り返し。trust issueが表面化している状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 3
+      }
     }
   ]
 }
