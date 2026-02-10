@@ -10108,6 +10108,58 @@
         "future": -1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:16:13.019858+09:00",
+      "summary": "Me too ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 5
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼の性的な発言に対して短く同意。距離や不安を抱えつつも、欲望は共有している状態",
+      "trigger": {
+        "message": "I wanna feel your mouth on me so bad baby... not anyone else, just you 🤍",
+        "sent_at": "2026-02-11T00:15:36.694797+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+late_night",
+          "+escalation",
+          "+vulnerable"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
