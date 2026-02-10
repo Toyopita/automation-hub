@@ -10057,6 +10057,57 @@
         "future": 0,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:15:22.785704+09:00",
+      "summary": "I am actually ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼の「考えてくれてるんだね」に対する肯定の返事。会えない不安と罪悪感から彼にセックスの許可を出した直後の発言。短いが感情的重みがある",
+      "trigger": {
+        "message": "It really feels like you're thinking about me baby 🤍",
+        "sent_at": "2026-02-11T00:14:40.941249+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night",
+          "+vulnerable"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 7,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -4,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 3
+      }
     }
   ]
 }
