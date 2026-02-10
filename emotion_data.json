@@ -6605,6 +6605,48 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:00:13.469091+09:00",
+      "summary": "I dont do the same thing ",
+      "scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼がメッセージを削除することへの不満・困惑を表明。やや防衛的なトーン。前のメッセージと合わせて不信感や不安を示唆している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
