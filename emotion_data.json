@@ -6689,6 +6689,99 @@
         "future": 1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:05:39.843494+09:00",
+      "summary": "Mmmh ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不満や疑念が残っている様子。彼の説明に納得していない可能性が高い。短い返答で距離を置いている",
+      "trigger": {
+        "message": "Ah sorry, I just thought it didn't look good haha 😂 And I keep sending similar videos so I thought they're not interesting enough",
+        "sent_at": "2026-02-10T23:05:19.704977+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night",
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:05:42.658150+09:00",
+      "summary": "I dont know… ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安や疑念が残っている状態。前のメッセージと合わせて信頼問題について懸念を表明中。距離を置き始めている可能性",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
