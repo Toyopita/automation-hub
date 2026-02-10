@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I had the app installed time ago but never use it ",
-    "time": "20:22"
-  },
-  {
     "role": "you",
     "text": "I see baby 🤍",
     "time": "20:45"
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "I want you to watch me in real time baby 🥺",
+    "time": "22:44"
+  },
+  {
+    "role": "laura",
+    "text": "Im working honey ",
     "time": "22:44"
   }
 ]
