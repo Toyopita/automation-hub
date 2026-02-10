@@ -6471,6 +6471,56 @@
         "future": 0,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:52:21.070981+09:00",
+      "summary": "Omg baby 😳",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が送った何か（おそらく動画や写真）に対する驚きと興奮の反応。短いが感情的な関与は高い",
+      "trigger": {
+        "message": "I wanna feel your tongue on me baby 🤍",
+        "sent_at": "2026-02-10T22:52:17.660873+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 6,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 0,
+        "engagement": 5
+      }
     }
   ]
 }
