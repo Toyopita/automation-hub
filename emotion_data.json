@@ -7529,6 +7529,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:39:04.789495+09:00",
+      "summary": "I dont know ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短く冷たい返事。傷ついて距離を置いている状態。信頼問題で不安定になっている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
