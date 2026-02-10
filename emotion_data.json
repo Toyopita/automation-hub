@@ -6132,6 +6132,57 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:41:23.509494+09:00",
+      "summary": "I want to sit on you 😍😍",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "ビデオ通話の提案に対して性的な欲望を直接的に表現。距離への渇望と身体的な願望が強い。",
+      "trigger": {
+        "message": "Let's video chat now baby, you just watch 😏",
+        "sent_at": "2026-02-10T22:41:07.936072+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
