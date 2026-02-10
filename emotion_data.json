@@ -6782,6 +6782,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:05:51.370558+09:00",
+      "summary": "Is weird ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安・疑念を感じている。動画削除の件で信頼感が揺らいでいる状態。短い繰り返しで不満を強調",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
