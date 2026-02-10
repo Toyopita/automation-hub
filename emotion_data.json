@@ -8033,6 +8033,90 @@
         "engagement": 0,
         "ds": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:49:32.280584+09:00",
+      "summary": "You Said yes ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 3,
+        "playfulness": 1,
+        "future": 1,
+        "ds": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼女は彼の回答を確認している。やや防衛的で、信頼/安全についての会話が続いている状態。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 4,
+        "ds": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "playfulness": 0,
+        "future": 0,
+        "ds": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:49:34.860913+09:00",
+      "summary": "And then i deleted it ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "説明的・やや防衛的なトーン。自分の行動の理由を淡々と説明している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 3,
+        "playfulness": 1,
+        "future": 1,
+        "ds": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
