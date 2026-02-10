@@ -9446,6 +9446,57 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:06:01.060915+09:00",
+      "summary": "Im talking about you ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "前の発言を繰り返して強調。彼の性的欲求を理解しつつ、距離に対する不安から許可を与えようとしている。自己犠牲的な優しさだが、本心では辛そう",
+      "trigger": {
+        "message": "What about you baby? Would you wanna do it with another guy if you felt like it?",
+        "sent_at": "2026-02-11T00:05:33.652861+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night",
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": -1,
+        "longing": -3,
+        "eros": -3,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
