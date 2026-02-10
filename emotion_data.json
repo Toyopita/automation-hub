@@ -4322,6 +4322,56 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:13:21.988403+09:00",
+      "summary": "I send it to you 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング継続中。彼の要求に応えて写真を送った報告。恥ずかしさと興奮が混在した状態",
+      "trigger": {
+        "message": "I wanna see it baby... I didn't see it yet 🥵 I want yours so bad 🫣",
+        "sent_at": "2026-02-10T15:10:36.052141+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
