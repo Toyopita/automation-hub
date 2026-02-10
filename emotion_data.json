@@ -9176,6 +9176,48 @@
         "future": -3,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:59:46.402339+09:00",
+      "summary": "What i really dont like is beeing so far 🥲",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "距離への寂しさを素直に表現。親密な会話の後の本音。感情的に開いている状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -7,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
