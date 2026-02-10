@@ -6521,6 +6521,48 @@
         "future": 0,
         "engagement": 5
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:52:41.293088+09:00",
+      "summary": "I wanna lick you 🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直接的な性的表現で応答。彼の欲求に対して積極的に同意している。仕事中で動画チャットは断ったが、テキストでは積極的に参加。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
