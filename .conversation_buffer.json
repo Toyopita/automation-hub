@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I like you baby 🤍",
-    "time": "22:49"
-  },
-  {
     "role": "laura",
     "text": "Thank you ",
     "time": "22:49"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "You deleted everything… ",
     "time": "23:24"
+  },
+  {
+    "role": "you",
+    "text": "I didn't delete everything baby 🥺 I kept some of them\n\nI won't delete them anymore. I just thought I was sending too many haha I'm sorry",
+    "time": "23:27"
   }
 ]
