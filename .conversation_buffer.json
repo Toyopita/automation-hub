@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Thank you for the vidéo 🥵",
-    "time": "22:39"
-  },
-  {
-    "role": "laura",
     "text": "I really like Watching you ",
     "time": "22:39"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I dont understand Why do you delete everything ",
     "time": "22:59"
+  },
+  {
+    "role": "laura",
+    "text": "I dont do the same thing ",
+    "time": "23:00"
   }
 ]
