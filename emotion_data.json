@@ -5090,6 +5090,58 @@
         "engagement": 2,
         "concern": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:42:22.599319+09:00",
+      "summary": "Are you driving? 😳",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の大胆な発言に少し驚いている反応。心配と興奮が混ざった感じ",
+      "trigger": {
+        "message": "I'm so hard baby... I'm driving and the tip of my dick is already wet 😏",
+        "sent_at": "2026-02-10T15:41:52.692941+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+spontaneous",
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8,
+        "concern": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
