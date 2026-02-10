@@ -8746,6 +8746,98 @@
         "future": 2,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:56:00.731932+09:00",
+      "summary": "I know ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の不安を受け止めて共感している。短いけど理解を示す優しい返答",
+      "trigger": {
+        "message": "It's hard to read your emotions through text 🥺",
+        "sent_at": "2026-02-10T23:55:34.522918+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 0,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": -3,
+        "future": -4,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:56:03.243259+09:00",
+      "summary": "For me too ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "共感を示し、彼も同じように感じていることを理解している。誤解が解けて安心した後の穏やかなトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
