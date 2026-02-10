@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "About to hop in the bath haha\n\nYou're definitely not sleeping 🥺 You work from home?",
-    "time": "22:30"
-  },
-  {
     "role": "laura",
     "text": "Thank you for the vidéo 🥵",
     "time": "22:39"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I wanna lick you 🥵",
     "time": "22:52"
+  },
+  {
+    "role": "laura",
+    "text": "I dont understand Why do you delete everything ",
+    "time": "22:59"
   }
 ]
