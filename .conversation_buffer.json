@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I didn't delete everything baby 🥺 I kept some of them\n\nI won't delete them anymore. I just thought I was sending too many haha I'm sorry",
-    "time": "23:27"
-  },
-  {
     "role": "laura",
     "text": "You send it again but you deleted it before ",
     "time": "23:28"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Its okay ",
+    "time": "23:38"
+  },
+  {
+    "role": "you",
+    "text": "Do you not wanna send videos anymore? 🥺",
     "time": "23:38"
   }
 ]
