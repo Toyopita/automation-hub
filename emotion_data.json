@@ -5816,6 +5816,96 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T20:47:13.463083+09:00",
+      "summary": "What about you? ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い返しだが、会話を続けようとする積極性が見える",
+      "trigger": {
+        "message": "Is it lunchtime there?",
+        "sent_at": "2026-02-10T20:46:28.699318+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T20:47:14.214304+09:00",
+      "summary": "I take lunch later ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "簡潔な日常会話の返答。特に感情的な要素なし。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -2,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -2,
+        "future": -1,
+        "engagement": -3
+      }
     }
   ]
 }
