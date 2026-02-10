@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I want to meet you, but i really dont know if that is going to be soon ",
-    "time": "00:11"
-  },
-  {
     "role": "you",
     "text": "So what about you baby, would you do it if you were in my position?",
     "time": "00:12"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "But you're feeling a bit overwhelmed baby?",
     "time": "00:28"
+  },
+  {
+    "role": "laura",
+    "text": "No ",
+    "time": "00:31"
   }
 ]
