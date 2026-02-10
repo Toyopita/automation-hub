@@ -4422,6 +4422,48 @@
         "future": 0,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:19:53.948644+09:00",
+      "summary": "Why you want to see me in underwear ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "挑発的な質問。明らかに答えを知っているが、彼に言わせたい遊び心のあるトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -3,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 4
+      }
     }
   ]
 }
