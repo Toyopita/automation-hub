@@ -7336,6 +7336,98 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:34:33.397795+09:00",
+      "summary": "Well ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会話を打ち切ろうとする冷たい返答。信頼問題で傷ついており、距離を置こうとしている",
+      "trigger": {
+        "message": "I don't think that baby, I wouldn't have sent them if I didn't trust you",
+        "sent_at": "2026-02-10T23:34:09.039638+09:00",
+        "category": "support",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:34:34.312379+09:00",
+      "summary": "Okay ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短く冷たい返答。まだ傷ついていて、会話を終わらせたい様子。信頼問題が解決していない",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -1,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
