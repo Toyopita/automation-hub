@@ -1,16 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Okay ",
-    "time": "23:36"
-  },
-  {
-    "role": "you",
-    "text": "Don't pull away baby 🥺 I already sent it again",
-    "time": "23:37"
-  },
-  {
-    "role": "laura",
     "text": "Its okay ",
     "time": "23:38"
   },
@@ -97,6 +87,16 @@
   {
     "role": "laura",
     "text": "I asked you if you save the vidéos ",
+    "time": "23:49"
+  },
+  {
+    "role": "laura",
+    "text": "You Said yes ",
+    "time": "23:49"
+  },
+  {
+    "role": "laura",
+    "text": "And then i deleted it ",
     "time": "23:49"
   }
 ]
