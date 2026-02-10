@@ -7479,6 +7479,56 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:38:41.572204+09:00",
+      "summary": "Its okay ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短い返答の繰り返し。感情的に距離を置いている状態。本心では「大丈夫じゃない」可能性が高い",
+      "trigger": {
+        "message": "Do you not wanna send videos anymore? 🥺",
+        "sent_at": "2026-02-10T23:38:34.273787+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
