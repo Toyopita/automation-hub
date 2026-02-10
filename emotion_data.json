@@ -7798,6 +7798,56 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:43:50.973628+09:00",
+      "summary": "I understand now ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "短く肯定的だが感情的な距離感あり。誤解は解けたが完全には開いていない状態",
+      "trigger": {
+        "message": "How are you feeling baby? I just wanna make sure you understand I trust you 🥺",
+        "sent_at": "2026-02-10T23:42:44.912053+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
