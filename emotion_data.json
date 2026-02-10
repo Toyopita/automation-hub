@@ -7941,6 +7941,56 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:49:21.051779+09:00",
+      "summary": "Because i dont find Instagram save ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "簡潔な説明で距離を保っている。仕事中で余裕がない様子。感情的な緊張は落ち着いてきたが、まだ完全には戻っていない",
+      "trigger": {
+        "message": "To be honest, I was worried you might be getting grossed out by me sending so many dick pics and videos haha... that kinda built up and made me anxious, so I deleted it 🥺 But you also deleted your Instagram posts before baby...",
+        "sent_at": "2026-02-10T23:48:43.674813+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
