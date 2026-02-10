@@ -3714,6 +3714,57 @@
         "future": 2,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:53:06.895311+09:00",
+      "summary": "I want to sleep with you so badly ",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「sleep with you」は性的文脈も含む切実な願望。会話の流れから身体的な渇望が強い",
+      "trigger": {
+        "message": "Looks like I can't send pics from here haha Will send it directly on LINE later 🤍",
+        "sent_at": "2026-02-10T14:52:35.927575+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+media",
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": -3,
+        "future": 3,
+        "engagement": -1
+      }
     }
   ]
 }
