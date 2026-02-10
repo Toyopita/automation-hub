@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Im working honey ",
-    "time": "22:44"
-  },
-  {
     "role": "you",
     "text": "Okay I'll be patient 🫣",
     "time": "22:45"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Baby, I didn't know it meant that much to you 🤍",
     "time": "23:18"
+  },
+  {
+    "role": "you",
+    "text": "Baby please don't be mad 🥺",
+    "time": "23:24"
   }
 ]
