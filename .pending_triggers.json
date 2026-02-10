@@ -16,5 +16,14 @@
       "+late_night",
       "+escalation"
     ]
+  },
+  {
+    "message": "Or are you feeling uncertain about where this is going when you think about the future?",
+    "sent_at": "2026-02-11T00:21:17.518371+09:00",
+    "category": "vulnerable",
+    "modifiers": [
+      "+late_night",
+      "+escalation"
+    ]
   }
 ]
