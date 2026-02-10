@@ -4749,6 +4749,59 @@
         "future": -4,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:30:43.836132+09:00",
+      "summary": "This vidéos are just for you okay 🥺",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 9,
+        "vulnerability": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "独占欲と脆弱性を示す確認要求。彼女専用の親密なコンテンツを送ることへの不安と信頼を表現している。🥺の絵文字が甘えと承認欲求を強調。",
+      "trigger": {
+        "message": "I saw it baby 🥵 You look incredible... that underwear is driving me crazy",
+        "sent_at": "2026-02-10T15:30:07.904310+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": -1,
+        "ds": 1,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": 2,
+        "vulnerability": 3
+      }
     }
   ]
 }
