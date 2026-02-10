@@ -5277,6 +5277,56 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:46:38.501772+09:00",
+      "summary": "Right now? Haha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の要求に驚きつつも乗り気な様子。少し照れながらも楽しんでいる雰囲気",
+      "trigger": {
+        "message": "I wanna see your asshole baby 🫣",
+        "sent_at": "2026-02-10T15:45:46.237499+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
