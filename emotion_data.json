@@ -9497,6 +9497,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:06:08.411326+09:00",
+      "summary": "For Men is more hard than for woman ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "距離による性的欲求不満について、彼の方が我慢しにくいと配慮している。不安定な提案の理由説明",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 1
+      }
     }
   ]
 }
