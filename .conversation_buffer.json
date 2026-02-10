@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "For me everything is okay ❤️",
-    "time": "23:53"
-  },
-  {
     "role": "you",
     "text": "I got scared I was losing you 🥺",
     "time": "23:54"
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "I promise I won't delete my videos anymore baby 🥺",
+    "time": "23:59"
+  },
+  {
+    "role": "laura",
+    "text": "What i really dont like is beeing so far 🥲",
     "time": "23:59"
   }
 ]
