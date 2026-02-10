@@ -7244,6 +7244,56 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:33:30.546164+09:00",
+      "summary": "Its okay if you want to delete",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "冷たく距離を置いている。傷ついて防衛的になっている状態。表面上は「いいよ」と言いながら、実際には傷ついている典型的なパターン",
+      "trigger": {
+        "message": "I wouldn't have sent them if I didn't trust you baby, and if that was the case I would've deleted everything",
+        "sent_at": "2026-02-10T23:33:06.402907+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
