@@ -8344,6 +8344,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:52:22.555832+09:00",
+      "summary": "Just if you want okay ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "彼の不安を和らげようとする優しい配慮。プレッシャーを与えたくないという気遣いが見える。少し距離を置いた印象もあるが、悪意はなく彼を安心させたい意図",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
