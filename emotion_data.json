@@ -9881,6 +9881,48 @@
         "engagement": 1,
         "ds": 0
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:11:50.983729+09:00",
+      "summary": "I want to meet you, but i really dont know if that is going to be soon ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会いたい気持ちはあるが、不確実性への不安を表現。前のメッセージで「性的すぎる」「他の人とセックスしてもいい」と言った後の補足。距離感と将来への懸念が見える",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 5,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7,
+        "ds": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": -4,
+        "ds": -1,
+        "playfulness": -1,
+        "future": 3,
+        "engagement": 0
+      }
     }
   ]
 }
