@@ -3849,6 +3849,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:55:22.297711+09:00",
+      "summary": "I want to sit on you ",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な欲求と距離への切なさが混在。積極的に欲望を表現している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
