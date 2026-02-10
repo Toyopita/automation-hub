@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "I wasn't feeling confident about that video haha so I deleted it 😂",
-    "time": "23:08"
-  },
-  {
-    "role": "you",
     "text": "Are you upset? 🥺",
     "time": "23:10"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Maybe you feel that i can share your vídeos? I dont know ",
     "time": "23:33"
+  },
+  {
+    "role": "you",
+    "text": "I don't think that baby, I wouldn't have sent them if I didn't trust you",
+    "time": "23:34"
   }
 ]
