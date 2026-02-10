@@ -3807,6 +3807,48 @@
         "future": -3,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:55:09.662495+09:00",
+      "summary": "Baby Thank you for the photo 🥵🥵🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れの中で、彼が送った写真に対する感謝と興奮を表現している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
