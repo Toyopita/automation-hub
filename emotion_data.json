@@ -9312,6 +9312,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:02:52.828729+09:00",
+      "summary": "I mean if you meet someone ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "距離への不安から、浮気の許可を出そうとしている可能性。前のメッセージの続き。真剣なトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 7,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -4,
+        "ds": -1,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": -1
+      }
     }
   ]
 }
