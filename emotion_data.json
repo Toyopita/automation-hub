@@ -4514,6 +4514,48 @@
         "future": 0,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:21:31.292673+09:00",
+      "summary": "It doesnt matter ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしがりながらも受け入れている様子。下着の種類は気にしないという意味で、彼の要求に応じる姿勢を示している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
