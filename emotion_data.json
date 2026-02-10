@@ -9031,6 +9031,48 @@
         "future": -3,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:58:38.252655+09:00",
+      "summary": "Thank you ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "誤解が解けて安心した後の素直な感謝。落ち着いた雰囲気に戻っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -2,
+        "ds": -1,
+        "playfulness": -3,
+        "future": -2,
+        "engagement": -4
+      }
     }
   ]
 }
