@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Im not sending you anything \nYou make me feel like i cant trust you sorry ",
-    "time": "23:01"
-  },
-  {
     "role": "you",
     "text": "Ah sorry, I just thought it didn't look good haha 😂 And I keep sending similar videos so I thought they're not interesting enough",
     "time": "23:05"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Its okay dont send if you dont want ",
     "time": "23:30"
+  },
+  {
+    "role": "you",
+    "text": "I didn't mean it like that baby 🥺 I'm sorry for making you feel that way",
+    "time": "23:31"
   }
 ]
