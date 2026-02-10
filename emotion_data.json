@@ -3891,6 +3891,98 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:57:30.369960+09:00",
+      "summary": "I send you in the other chat ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な写真を別チャット（おそらくLINE）に送ったことを伝える短い実務的なメッセージ。文脈から高い親密度とエロス継続中",
+      "trigger": {
+        "message": "I wanna see you too baby 🥵",
+        "sent_at": "2026-02-10T14:55:33.589233+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:57:30.452681+09:00",
+      "summary": "🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "絵文字のみ。恥ずかしがりつつも興奮している様子。前のメッセージ（写真を送ったこと）への照れた反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": -2,
+        "engagement": -2
+      }
     }
   ]
 }
