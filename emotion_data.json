@@ -5998,6 +5998,48 @@
         "future": 1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:11:40.619297+09:00",
+      "summary": "I didnt sleep too much ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の心配に応えて自分の睡眠不足を伝えている。素直な返答",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 6,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
