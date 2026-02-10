@@ -4802,6 +4802,57 @@
         "engagement": 2,
         "vulnerability": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:36:02.059835+09:00",
+      "summary": "You make me so horny 🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中。彼女から積極的に欲望を表現している。彼だけのために送った動画への反応",
+      "trigger": {
+        "message": "That makes me so happy baby 🥵",
+        "sent_at": "2026-02-10T15:35:40.346075+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 9,
+        "vulnerability": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
