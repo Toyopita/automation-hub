@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-12T07:44:39.334125+09:00",
-    "title": "Google Distributed Cloud でオンプレミスなどあらゆる場所で Gemini を実行 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWUNwamVNS3ZWWW9ZSWphZl9EWEFwWm02YnVKb3ZONEpsQ1ZlZG5qLVFxTVcxQW5OUWFXYks4TWx2VUt1OG5ndUMySnFOWFJQRTVZWmNRV25QbG1Oam0xRUhpS0s0dFB2TUpmRkxwLXNSQVZlZ0NrRXlJS1lEY3luNGZ6NmRkdFZFSEhXWFF3?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-12T08:45:12.109145+09:00",
     "title": "新しいデータ サイエンティスト: アナリストからエージェント アーキテクトへ - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb1BxOW1RZnk2akhscjVpcjVGamppdXR5dWpiVUR1eElXOGxFMGY3RVBrZTVRTzhSQVV4UFVwVzdsZkVaNUxEREk2Y2tJU0FtVmcxRU40WDZ2NzBTUEpvdjZOaWtib2FMay1RTVZOdVE3Skotand1OU5zUUo4Q1poMHhBT3NwdTNTMmlHLUJONTVSdGFtQnE5VUdSNEhuY01BaEp4VjNNSDE5NVZzX2FV?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1633,5 +1628,10 @@
     "date": "2026-02-11T06:18:24.151288+09:00",
     "title": "パル: Looker と Vertex AI Search for commerce で実現する、60 ブランドを支えるデータ民主化と EC 検索体験の革新 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONDdCYVBWZkRtbkVMb1Mtd1VOMldBbEtOOFEwUVNiRXd0RXl4cDdlZ0JnUldiYk1NWWVDeWR5bGdQOTBqUHRDYko0cWhKYi1ESkZIby1pWUFiVk9yQk1GaGp2V3k5eGNtX09zOERNYU03TkVRQ1RPR3dBQU5lS1UyRHlGU0o2VWFYS0c4c1k5dnZ4QllrYzlaMjVhYmFBWHc1RkVsVnJpVVZaTFNyRE1CRmtUTDJMRWFTSmJMdHVSbUhNMENsS3hFNlhPZUpORUVt?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-11T08:19:31.124353+09:00",
+    "title": "Google Distributed Cloud でオンプレミスなどあらゆる場所で Gemini を実行 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWUNwamVNS3ZWWW9ZSWphZl9EWEFwWm02YnVKb3ZONEpsQ1ZlZG5qLVFxTVcxQW5OUWFXYks4TWx2VUt1OG5ndUMySnFOWFJQRTVZWmNRV25QbG1Oam0xRUhpS0s0dFB2TUpmRkxwLXNSQVZlZ0NrRXlJS1lEY3luNGZ6NmRkdFZFSEhXWFF3?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
