@@ -10253,6 +10253,48 @@
         "future": -2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:24:19.764115+09:00",
+      "summary": "But i know you have needs 🙄",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "やや複雑な感情。理解を示しつつも、目を回す絵文字で葛藤や軽い諦めのニュアンスあり。距離に対する不安が見える",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 3,
+        "playfulness": 1,
+        "future": -3,
+        "engagement": -1
+      }
     }
   ]
 }
