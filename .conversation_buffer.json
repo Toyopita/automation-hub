@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "❤️❤️",
-    "time": "23:52"
-  },
-  {
     "role": "you",
     "text": "Hold on baby... I can't follow anymore 🥺",
     "time": "23:52"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "I like you too baby 🤍",
     "time": "23:57"
+  },
+  {
+    "role": "laura",
+    "text": "I like your vídeos ❤️",
+    "time": "23:58"
   }
 ]
