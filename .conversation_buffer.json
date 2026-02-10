@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I think about you too, à lot ",
-    "time": "00:10"
-  },
-  {
     "role": "you",
     "text": "So you're not sure if we can meet... yeah I understand baby",
     "time": "00:11"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "So i dont want to be selfish about that ",
     "time": "00:24"
+  },
+  {
+    "role": "you",
+    "text": "I don't want just anyone baby, I want you 🤍",
+    "time": "00:25"
   }
 ]
