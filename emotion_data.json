@@ -10295,6 +10295,48 @@
         "future": -3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:24:28.422641+09:00",
+      "summary": "So i dont want to be selfish about that ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼女は彼の性的欲求を理解しようとしているが、不安と自己犠牲的な態度が見られる。関係の不確実性に対する懸念を示している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": 1
+      }
     }
   ]
 }
