@@ -10211,6 +10211,48 @@
         "future": 5,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:24:12.137440+09:00",
+      "summary": "I dont know because i like you a lot ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と好意の葛藤。将来への不確実性を表明しつつ強い感情を告白している。vulnerable な状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 5,
+        "playfulness": 2,
+        "future": 8,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": 2
+      }
     }
   ]
 }
