@@ -5631,6 +5631,49 @@
         "engagement": 5,
         "neediness": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T16:09:40.057170+09:00",
+      "summary": "Yes ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "明確な同意。性的な文脈での短い肯定応答。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 9,
+        "playfulness": 6,
+        "future": 7,
+        "engagement": 10,
+        "neediness": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -3,
+        "future": -6,
+        "engagement": -4
+      }
     }
   ]
 }
