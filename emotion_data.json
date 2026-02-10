@@ -8981,6 +8981,56 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:58:34.631694+09:00",
+      "summary": "I like your vídeos ❤️",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "不安を和らげる優しい返答。誤解が解けて安心している雰囲気",
+      "trigger": {
+        "message": "I like you too baby 🤍",
+        "sent_at": "2026-02-10T23:57:25.909014+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": -3,
+        "engagement": 1
+      }
     }
   ]
 }
