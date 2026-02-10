@@ -8117,6 +8117,57 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:51:10.506467+09:00",
+      "summary": "What honey ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "avoidant",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短い質問形式。感情的な距離を感じさせる回避的な返答。彼女は仕事中で会話を深めたくない様子",
+      "trigger": {
+        "message": "Hey wait baby... why are you pulling away like this 🥺",
+        "sent_at": "2026-02-10T23:50:03.374177+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night",
+          "+escalation"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
