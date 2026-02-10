@@ -6,5 +6,14 @@
     "modifiers": [
       "+late_night"
     ]
+  },
+  {
+    "message": "I wasn't feeling confident about that video haha so I deleted it 😂",
+    "sent_at": "2026-02-10T23:08:18.722385+09:00",
+    "category": "vulnerable",
+    "modifiers": [
+      "+spontaneous",
+      "+late_night"
+    ]
   }
 ]
