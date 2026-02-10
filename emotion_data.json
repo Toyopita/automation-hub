@@ -5479,6 +5479,56 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:53:27.655151+09:00",
+      "summary": "You can do it ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の要求に許可を与える返答。短いが明確な承諾。",
+      "trigger": {
+        "message": "I need to lick your asshole so bad baby 🥵 Can I see it?",
+        "sent_at": "2026-02-10T15:53:06.309583+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 5,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
