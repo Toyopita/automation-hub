@@ -7848,6 +7848,99 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:48:10.741353+09:00",
+      "summary": "You dont have to send it again ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情的に引いている状態。短い返答で距離を置こうとしている。まだ完全には回復していない",
+      "trigger": {
+        "message": "I sent the finish video too baby... I know you might not wanna see it anymore 🥺",
+        "sent_at": "2026-02-10T23:44:12.968327+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night",
+          "+escalation"
+        ],
+        "response_time_min": 3
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:48:12.842462+09:00",
+      "summary": "Its okay ",
+      "scores": {
+        "mood": 4,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "avoidant",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短く繰り返される「大丈夫」は感情的な距離を示唆。会話を終わらせようとしている可能性",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
