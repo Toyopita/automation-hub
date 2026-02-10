@@ -5579,6 +5579,58 @@
         "future": 4,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T16:09:18.326254+09:00",
+      "summary": "I want you to do that 😳",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 9,
+        "playfulness": 6,
+        "future": 7,
+        "engagement": 10,
+        "neediness": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の具体的な提案に対して素直に欲求を伝えている。恥じらいと興奮が混ざった従順な反応",
+      "trigger": {
+        "message": "And you want me to lick your pussy too, don't you baby? 😏",
+        "sent_at": "2026-02-10T16:09:15.120699+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 5,
+        "neediness": 2
+      }
     }
   ]
 }
