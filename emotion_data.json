@@ -9396,6 +9396,56 @@
         "future": -2,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:04:54.334560+09:00",
+      "summary": "Well honey I know im not there ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "距離への不安から自己犠牲的な許可を出している。要注意サイン",
+      "trigger": {
+        "message": "Why? How could you be okay with me doing that with someone else?",
+        "sent_at": "2026-02-11T00:04:15.029170+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 2,
+        "eros": 4,
+        "ds": -3,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
