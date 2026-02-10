@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "So what about you baby, would you do it if you were in my position?",
-    "time": "00:12"
-  },
-  {
     "role": "laura",
     "text": "I dont have casual sex i told you ",
     "time": "00:12"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "No ",
+    "time": "00:31"
+  },
+  {
+    "role": "laura",
+    "text": "I was just saying that if you want you can ",
     "time": "00:31"
   }
 ]
