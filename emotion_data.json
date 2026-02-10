@@ -7202,6 +7202,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:32:21.581304+09:00",
+      "summary": "Im gonna keep working ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会話を終わらせようとしている。感情的に距離を置いている状態。彼女は傷ついているが直接的な対立は避けている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
