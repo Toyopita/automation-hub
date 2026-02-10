@@ -9923,6 +9923,56 @@
         "future": 3,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:12:59.632848+09:00",
+      "summary": "I dont have casual sex i told you ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "境界線を示しつつ、彼には許可を出すという不安定な状態。会えるか不安を抱えている",
+      "trigger": {
+        "message": "So what about you baby, would you do it if you were in my position?",
+        "sent_at": "2026-02-11T00:12:19.024990+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 1,
+        "future": -2,
+        "engagement": -1
+      }
     }
   ]
 }
