@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-11T19:29:16.737283+09:00",
-    "title": "Blenderで利用できるオープンソースのAIエージェント「LL3M」発表！ テキストプロンプトからPythonコードを生成し3Dモデルを自動生成、部分修正・追加生成にも対応 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EYVlnNFlLWWxHT2pfUjl3VWN3NFYtWmVJOE1YaXFQTDBUSUtONFdaV2Vvc2V5elBtM0gyalpWMmgyXzRVNG1DUEpicV9RNFNIQ1VZM0p5alo0cFp4?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-11T20:29:57.509831+09:00",
     "title": "注目のVRChatアバター作者たちが語る！モデル制作の舞台裏 | Blender Fes 2025AW - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CQ0MxUUlVUS1Gd2sweFgtcXhSZFBNYUttWGdSYmt4anVzckdTRmNRSEVhT0Z3VllnX1N5ckRHeEd5RHpNSGkxMWlRVWpuYVhxbjRvem1XT0JJQTFtVXRPZlJyUDNhdEt3U0JOSFg0T3Y?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -463,5 +458,10 @@
     "date": "2026-02-10T11:49:19.773114+09:00",
     "title": "3Dモデル生成AI「Meshy-5 Preview」リリース！ Blenderアドオン、自然言語による対話形式によるモデル生成にも対応 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54MDNjeEJCX3B6dEhURlpLbU9uNlhHRUxlYnRrRXozS1ZUd3RUTDNRYzlfZEJhcVNuVXVaWmxMZjNHbUJfT0hvbHlScElxOTFhTnZBYUFyR1c4YlctTEJObmh4QU0tQnRESDlv?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-10T19:53:35.254376+09:00",
+    "title": "Blenderで利用できるオープンソースのAIエージェント「LL3M」発表！ テキストプロンプトからPythonコードを生成し3Dモデルを自動生成、部分修正・追加生成にも対応 - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EYVlnNFlLWWxHT2pfUjl3VWN3NFYtWmVJOE1YaXFQTDBUSUtONFdaV2Vvc2V5elBtM0gyalpWMmgyXzRVNG1DUEpicV9RNFNIQ1VZM0p5alo0cFp4?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
