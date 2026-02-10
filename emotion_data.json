@@ -7706,6 +7706,56 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:41:46.254294+09:00",
+      "summary": "Im not Sad ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "avoidant",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情を否定する短い返答。距離を置こうとしている可能性あり。彼女は働いていると言っているが、明らかに動揺している様子",
+      "trigger": {
+        "message": "Are you sad baby? I don't want you to close yourself off 🥺",
+        "sent_at": "2026-02-10T23:41:19.544259+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
