@@ -4219,6 +4219,58 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:08:13.755008+09:00",
+      "summary": "I want you to fuck me 😭😭",
+      "scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 10,
+        "frustration": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "非常に強い性的欲求と切なさを表現。会えない状況への焦燥感が高まっている",
+      "trigger": {
+        "message": "I love it so much baby 🥵",
+        "sent_at": "2026-02-10T15:07:44.137769+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": -3,
+        "future": 1,
+        "engagement": 2,
+        "frustration": 4
+      }
     }
   ]
 }
