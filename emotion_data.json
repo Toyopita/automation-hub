@@ -7059,6 +7059,48 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:30:18.951419+09:00",
+      "summary": "So i dont know made me feel untrusted ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安な気持ちを素直に伝えている。怒りではなく傷ついている状態。丁寧に向き合う必要あり",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
