@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Maybe you feel that i can share your vídeos? I dont know ",
-    "time": "23:33"
-  },
-  {
     "role": "you",
     "text": "I don't think that baby, I wouldn't have sent them if I didn't trust you",
     "time": "23:34"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "I sent the finish video too baby... I know you might not wanna see it anymore 🥺",
     "time": "23:44"
+  },
+  {
+    "role": "laura",
+    "text": "You dont have to send it again ",
+    "time": "23:48"
   }
 ]
