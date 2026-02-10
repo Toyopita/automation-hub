@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I really like Watching you ",
-    "time": "22:39"
-  },
-  {
     "role": "you",
     "text": "Let's video chat now baby, you just watch 😏",
     "time": "22:41"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I dont do the same thing ",
     "time": "23:00"
+  },
+  {
+    "role": "laura",
+    "text": "Im not sending you anything \nYou make me feel like i cant trust you sorry ",
+    "time": "23:01"
   }
 ]
