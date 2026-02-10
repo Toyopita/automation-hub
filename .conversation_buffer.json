@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "I understand baby 🤍",
-    "time": "22:48"
-  },
-  {
-    "role": "you",
     "text": "I like you baby 🤍",
     "time": "22:49"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Is just weird ",
+    "time": "23:24"
+  },
+  {
+    "role": "laura",
+    "text": "You deleted everything… ",
     "time": "23:24"
   }
 ]
