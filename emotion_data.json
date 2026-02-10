@@ -6647,6 +6647,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:01:26.047501+09:00",
+      "summary": "Im not sending you anything \nYou make me feel like i cant trust you sorry ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "信頼の問題を表明。彼が写真/動画を削除することへの不安と傷ついた気持ち。親密な内容を送ることへのブレーキがかかっている状態。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": 1,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": -1
+      }
     }
   ]
 }
