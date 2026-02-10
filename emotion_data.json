@@ -5674,6 +5674,56 @@
         "future": -6,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-10T20:12:12.112616+09:00",
+      "summary": "No baby ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "簡潔な返答。LINEの使用頻度について答えている。前のセクシーな会話からトーンダウンし、日常的な質問への回答",
+      "trigger": {
+        "message": "Do you use LINE much?",
+        "sent_at": "2026-02-10T19:57:15.294784+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 14
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -6,
+        "longing": -6,
+        "eros": -9,
+        "ds": -5,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -3
+      }
     }
   ]
 }
