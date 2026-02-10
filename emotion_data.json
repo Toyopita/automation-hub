@@ -4033,6 +4033,57 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:03:18.825957+09:00",
+      "summary": "Hahahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 6,
+        "ds": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の反応を楽しんでいる様子。軽く笑っている",
+      "trigger": {
+        "message": "I'll watch your video later baby... I don't think I can handle it right now 🥵",
+        "sent_at": "2026-02-10T15:02:57.159046+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -4,
+        "eros": -2,
+        "playfulness": 6,
+        "future": -1,
+        "engagement": -2,
+        "ds": -4
+      }
     }
   ]
 }
