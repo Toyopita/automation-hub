@@ -4598,6 +4598,56 @@
         "future": 4,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:22:52.273025+09:00",
+      "summary": "I really like you 😩",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクシーなやり取りの中で感情的に告白。真剣な気持ちの表現",
+      "trigger": {
+        "message": "I want so many pictures of you baby 🥵",
+        "sent_at": "2026-02-10T15:22:21.250865+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": -2,
+        "future": -3,
+        "engagement": 3
+      }
     }
   ]
 }
