@@ -5378,6 +5378,57 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:49:37.186109+09:00",
+      "summary": "You are driving honey ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "エロいやり取りの最中だが、彼が運転中なので安全を気遣って軽くブレーキをかけている。拒絶ではなく心配から来る優しいリマインダー",
+      "trigger": {
+        "message": "I need it so bad baby 🥵",
+        "sent_at": "2026-02-10T15:49:01.158197+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -4,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
