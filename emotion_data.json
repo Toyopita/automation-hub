@@ -4945,6 +4945,57 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:38:44.434106+09:00",
+      "summary": "Hahaha what do you mean ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の要求に対して恥ずかしがりながらも楽しんでいる。笑いで照れ隠ししつつ、会話を続けている積極的な姿勢",
+      "trigger": {
+        "message": "I wanna see how it looks right now baby 🥵",
+        "sent_at": "2026-02-10T15:37:59.885484+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 3
+      }
     }
   ]
 }
