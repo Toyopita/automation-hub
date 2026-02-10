@@ -3765,6 +3765,48 @@
         "future": 3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:53:10.943783+09:00",
+      "summary": "😓😓😓😓",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "絵文字のみ。直前の「一緒に寝たい」発言の感情的な余韻。性的欲求と寂しさが混在した切なさの表現",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -4,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -3,
+        "engagement": -2
+      }
     }
   ]
 }
