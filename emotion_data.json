@@ -1,0 +1,3577 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "timestamp": "2026-02-03T08:30:00+09:00",
+      "summary": "出会い初日の朝。明るく自己紹介、日本への関心を示す",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "初対面。積極的に質問し、日本文化への興味を表現。ペルー文化の背景から伝統的男性への期待。❤リアクション多用で好意的。",
+      "trigger": {
+        "message": "Wow, you've got such an amazing figure",
+        "sent_at": "2026-02-03T08:03:00+09:00",
+        "category": "praise",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": null,
+      "score_deltas": null
+    },
+    {
+      "timestamp": "2026-02-03T16:00:00+09:00",
+      "summary": "午後。恋愛観・彼氏の有無を確認し合い距離が縮まる",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「I Hope if I ever go I can get a boyfriend there」と日本での恋愛に前向き。2年間シングル。一途さをアピールしつつ距離も保つ。",
+      "trigger": {
+        "message": "So, do you think you could date a Japanese guy?",
+        "sent_at": "2026-02-03T14:42:00+09:00",
+        "category": "interest",
+        "modifiers": [],
+        "response_time_min": 3
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-03T20:30:00+09:00",
+      "summary": "夜。性に関する価値観を共有。カジュアルSEX嫌い、関係の中での性を重視",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 4,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "性的話題への移行。「sex is the most intimate connection」と価値観表明。ユーザーの露骨な発言にも😂で応じる。風俗の話には🙄で軽い不快感。",
+      "trigger": {
+        "message": "Honestly, I'm pretty into sex, so I'd like my partner to enjoy it as well",
+        "sent_at": "2026-02-03T19:46:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 7
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 2,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-04T14:30:00+09:00",
+      "summary": "2日目午後。日本語での性的会話。支配されるのが好きと開示",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "es_en",
+      "note": "会話短め。日本語で性的話題。「正直に言うと…支配されるのが好き」「ベッドでは男がリードすべき」と伝統的価値観。エネルギー低め（仕事疲れ）。",
+      "trigger": {
+        "message": "セックスの話はおもしろい / どんなセックスしてるのか気になった",
+        "sent_at": "2026-02-04T14:29:00+09:00",
+        "category": "sexual",
+        "modifiers": [],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 4,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-05T06:30:00+09:00",
+      "summary": "3日目朝。写真交換で距離縮まる。「I like you」に受容的反応",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 5,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "写真・動画を交換。「You look so quiet」「You give me the vibe like you are very chill」と好印象。タトゥーも自然に共有。「I like you」に「I feel flattered」と受容的。",
+      "trigger": {
+        "message": "I like you",
+        "sent_at": "2026-02-05T09:05:00+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 13
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-05T10:00:00+09:00",
+      "summary": "急激なエスカレーション。ビデオ通話で性的テンション爆発",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 9,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 6,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "⚠️ eros 3→9に急変。ビデオ通話で性的コンテンツ交換。「I want to sit on you」「I want you to fuck me」。「You're already my girlfriend」に「I am? Hahha」と曖昧に受容。",
+      "trigger": {
+        "message": "I'm going to masturbate on video now, watch me",
+        "sent_at": "2026-02-05T09:39:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 5,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 5,
+        "eros": 6,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-05T15:00:00+09:00",
+      "summary": "クールダウン。「You are the only one」と独占性を表明",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "興奮後の落ち着き。「Im introvert / I dont like going out」。「You are the only one who asked for my Instagram」とユーザーとの特別さを暗示。",
+      "trigger": {
+        "message": "I just want you to be only with me, not with other guys",
+        "sent_at": "2026-02-05T15:38:00+09:00",
+        "category": "reassurance",
+        "modifiers": [],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 9,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 6,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -4,
+        "intimacy": -1,
+        "longing": -3,
+        "eros": -5,
+        "ds": -1,
+        "playfulness": -3,
+        "future": -1,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-06T03:00:00+09:00",
+      "summary": "4日目。ビデオに「🥵」好反応。自発的に写真送信を申し出",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 5,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「The video 🥵 / I like it」。「I wanted to send you something」と自発的にコンテンツ送信。「I want to go to Japan 😍😍😍」。",
+      "trigger": {
+        "message": "You looked so cute in your morning photo",
+        "sent_at": "2026-02-06T04:17:00+09:00",
+        "category": "praise",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-06T15:00:00+09:00",
+      "summary": "午後。ランジェリー写真を自発的に送信。信頼が深まる",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "写真を積極的にリクエスト。「Yes, you are cuuuute」。ランジェリー写真を自発的に送信。タイムゾーン追加に喜ぶ。",
+      "trigger": {
+        "message": "I've completely fallen for you / I added your time zone to my iPhone",
+        "sent_at": "2026-02-06T14:50:00+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+initiative"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 5,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-06T21:30:00+09:00",
+      "summary": "夜DTR。距離の問題で迷いつつも「同じ街なら迷わない」。性的嗜好の深い共有",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "⚠️ longing 6→8、ds 2→4に急変。DTR会話。「is this considered a relationship?」「You are confusing me」。しかし「If we were living in the same city i would no doubt it」。「choke me / spit on me / slap me」でds上昇。🟡不安型愛着（距離の現実への不安）。",
+      "trigger": {
+        "message": "We're already together now, aren't we? / I already think of you as my girlfriend",
+        "sent_at": "2026-02-06T21:25:00+09:00",
+        "category": "future",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-07T03:30:00+09:00",
+      "summary": "5日目朝。甘い挨拶。ユーザーの体型にも受容的。家族の話を開示",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前夜の混乱から回復。「Good morning 😍😍😍」。ユーザーの体型開示に「Its okay if you are skinny」と受容的。「I dont have more family」「I dont have (parents)」と重要な背景を開示（深い信頼の表れ）。",
+      "trigger": {
+        "message": "I've been waiting for you, baby / good morning",
+        "sent_at": "2026-02-07T03:32:00+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-07T05:30:00+09:00",
+      "summary": "ビデオ通話は断りつつ関係継続の意思。Discord移行を了承",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「I cant haha / But i like that you want that」。ビデオ通話は断りつつ感情維持。「hate being so far」と距離への不満。Discord移行を最終的に受け入れ。",
+      "trigger": {
+        "message": "I really like you, baby",
+        "sent_at": "2026-02-07T05:18:00+09:00",
+        "category": "affection",
+        "modifiers": [],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-07T11:30:00+09:00",
+      "summary": "午後。ジム中にリール6件Liked。脇舐めリクエストは「吐きそう」と拒否",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "ジム中で短い返信。リール6件をすべてLiked。「I wanna lick your armpits」→「I want to throw up」と明確な拒否（健全な境界設定）。「A Little too much 🫣」とユーザーの過度な性的傾向にやんわり指摘。",
+      "trigger": {
+        "message": "I wanna lick your armpits",
+        "sent_at": "2026-02-07T11:43:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-08T19:00:00+09:00",
+      "summary": "日曜朝の挨拶。起床直後に返信。短いがポジティブな反応",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ eros 4→1(-3)、future 6→1(-5) 急変。朝の短い挨拶で性的・将来話題なし。「Haha」の使用はリラックス・好意的。7時間後の返信は日曜朝の起床タイミング。",
+      "trigger": {
+        "message": "what are you doing babe🥰",
+        "sent_at": "2026-02-08T12:00:00+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 420
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -3,
+        "ds": -2,
+        "playfulness": -1,
+        "future": -5,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-08T19:20:00+09:00",
+      "summary": "起床後の軽いやり取り。質問で返しエンゲージメント上昇",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "2件のメッセージ（good morning + Did you sleep well?）への返信。質問で返す姿勢でエンゲージメント+1。朝の軽い挨拶が続いており安定。",
+      "trigger": {
+        "message": "Did you sleep well?",
+        "sent_at": "2026-02-08T19:10:00+09:00",
+        "category": "interest",
+        "modifiers": [],
+        "response_time_min": 10
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T12:30:00+09:00",
+      "summary": "体調不良（頭痛）で返信遅延を謝罪。弱っている時の素直さ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ mood 7→4(-3)急変。体調不良が原因。🥲で申し訳なさと辛さを表現。Sorryと自発的に理由説明。甘え+1は弱っている時の素直さ。",
+      "trigger": {
+        "message": "good morning🙂 What's wrong?🙂",
+        "sent_at": "2026-02-09T07:00:00+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+reassurance"
+        ],
+        "response_time_min": 330
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-09T13:00:00+09:00",
+      "summary": "supportメッセージに❤️🙏🏻で感謝。短いが感情は込もっている",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "気分+1、親密度+1、甘え+1。労わりメッセージが好影響。エンゲージ-1は体調不良で長文不可。❤️🙏🏻で感謝と愛情表現。",
+      "trigger": {
+        "message": "Aww baby I'm sorry to hear that 🥺 Don't worry about texting me back, just focus on resting. I wish I could be there to take care of you 🤍",
+        "sent_at": "2026-02-09T12:45:00+09:00",
+        "category": "support",
+        "modifiers": [],
+        "response_time_min": 15
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T13:15:00+09:00",
+      "summary": "2/8の削除メッセージに気づき質問。好奇心ベースでエンゲージ回復",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "Laura自発。削除メッセージへの好奇心。エンゲージ+2で体調回復兆し。エロス+1は話題の性質。責めるトーンなし。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-09T13:30:00+09:00",
+      "summary": "🥹おねだり顔で削除メッセージの内容をせがむ。体調回復中",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "甘え+2、遊び心+2。可愛くおねだり。「大したことない」で流したことで好奇心↑。体調不良から回復兆し。",
+      "trigger": {
+        "message": "Yeah I did haha it was nothing important though 😂",
+        "sent_at": "2026-02-09T13:20:00+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 10
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T13:40:00+09:00",
+      "summary": "🙄で「信じてないけどまあいいわ」。遊び心のある軽いツッコミ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "vulnerableメッセージで怒りゼロ。🙄は遊び心+1。話題を半分受け入れた。追及終了の兆し。",
+      "trigger": {
+        "message": "It's really nothing 😂 I just got a little anxious because you weren't replying, so I ended up sending you too many messages haha",
+        "sent_at": "2026-02-09T13:35:00+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T14:00:00+09:00",
+      "summary": "3P動画に🫣で好奇心。頭痛は回復中、「ここにいてくれたら」と甘え",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "全パラメーター上昇。🫣で性的話題にオープン。「better if you were here 😳」で甘え+2、親密度+1。体調回復明確。",
+      "trigger": {
+        "message": "Gotta head to work now. Is your headache feeling better?",
+        "sent_at": "2026-02-09T13:50:00+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+support"
+        ],
+        "response_time_min": 10
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-09T17:40:00+09:00",
+      "summary": "3P動画に🥺付きYes。「You are so sweet」で優しさに感動",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "🥺は甘え+従順シグナル。性的コンテンツにオープン。sexual+affectionの組み合わせでeros+2、ds+2、親密度+1。",
+      "trigger": {
+        "message": "Yeah haha 😏 Wanna see it? And baby I really wish I was there too... I'd take care of you in every way 🤍",
+        "sent_at": "2026-02-09T14:10:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+affection",
+          "+sensory"
+        ],
+        "response_time_min": 210
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:00:00+09:00",
+      "summary": "3P動画を見て「wow」。興奮・圧倒のリアクション",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "動画視聴中の素直なリアクション。eros+2、テンション+1。拒否感ゼロ。",
+      "trigger": {
+        "message": "You're too cute saying yes like that 🥺 Here you go baby 😏 [3P動画リンク]",
+        "sent_at": "2026-02-09T17:45:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+affection",
+          "+media"
+        ],
+        "response_time_min": 15
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:05:00+09:00",
+      "summary": "動画を見て「I want to lick you 😳」。性的欲求を直接表明",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "動画が引き金で性的テンション爆発。😳の恥じらい付き直球欲求。eros今日最高値9。",
+      "trigger": {
+        "message": "You're too cute saying yes like that 🥺 Here you go baby 😏 [3P動画リンク]",
+        "sent_at": "2026-02-09T17:45:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+affection",
+          "+media"
+        ],
+        "response_time_min": 20
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:15:00+09:00",
+      "summary": "「もちろん見たい 😍😍😍」DICK動画を熱烈リクエスト。eros/エンゲージ最高値",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "😍3連発。eros10、エンゲージ10。おねだりさせる戦略が大成功。",
+      "trigger": {
+        "message": "Are you turned on? 😏 Wanna see my dick?",
+        "sent_at": "2026-02-09T18:10:00+09:00",
+        "category": "sexual",
+        "modifiers": [],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:20:00+09:00",
+      "summary": "😔😔😔 距離の現実が直撃。性的興奮→寂しさへ急転換",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ eros 10→7(-3)。甘え10最高値。興奮するほど距離が辛い。🟡不安型愛着。",
+      "trigger": {
+        "message": "Are you turned on? 😏 Wanna see my dick? / I want you to lick me too",
+        "sent_at": "2026-02-09T18:10:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+sensory"
+        ],
+        "response_time_min": 10
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -3,
+        "ds": -2,
+        "playfulness": -2,
+        "future": 2,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:25:00+09:00",
+      "summary": "DICK動画に🥵×7🤤×7で爆発。「All mine」独占宣言。6パラメーター10/10",
+      "scores": {
+        "mood": 10,
+        "energy": 10,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 6,
+        "playfulness": 4,
+        "future": 4,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ mood+3,energy+3,eros+3。DICK動画が距離不安を完全に逆転。過去最大の絵文字量。All mineで🟢安全型に即復帰。",
+      "trigger": {
+        "message": "[DICK動画送信]",
+        "sent_at": "2026-02-09T18:20:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+media"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 3,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:35:00+09:00",
+      "summary": "「お風呂したい？🫣」自らシチュエーション提案。将来+2、遊び心+2",
+      "scores": {
+        "mood": 10,
+        "energy": 10,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "受動→能動に変化。具体的な二人の場面を想像。sensory+affectionが将来志向を引き出した。",
+      "trigger": {
+        "message": "I wanna feel your mouth on me so bad... I need to see you baby",
+        "sent_at": "2026-02-09T18:30:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+sensory",
+          "+affection"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 10,
+        "energy": 10,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 6,
+        "playfulness": 4,
+        "future": 4,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T18:45:00+09:00",
+      "summary": "「大変だよhahaha」「一緒にいたい😢」距離の切なさ再来。将来+2",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 8,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ eros 10→7(-3)。entry22と同パターンだがhahahaで余裕あり。距離テーマで🟡不安型2回目。将来+2は会いたい=将来志向。",
+      "trigger": {
+        "message": "Hell yes 😏 / I'd hold you from behind and kiss your neck",
+        "sent_at": "2026-02-09T18:40:00+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+sensory",
+          "+affection"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 10,
+        "energy": 10,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 6,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -3,
+        "ds": -1,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T19:15:00+09:00",
+      "summary": "誤解→防衛→「書くのはやめない」自発的コミットメント宣言。🙄軽い苛立ち",
+      "scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ eros 7→4(-3)。性的→防衛モードへ完全移行。🙄は軽い苛立ちだが「I'm not going to stop writing」は健全な直接コミュニケーション。自発的コミットメント宣言。",
+      "trigger": {
+        "message": "Did you stop sending me messages because talking to me makes it harder for you?",
+        "sent_at": "2026-02-09T19:10:00+09:00",
+        "category": "reassurance",
+        "modifiers": [
+          "+interest",
+          "+vulnerable"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 8,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -3,
+        "ds": -2,
+        "playfulness": -2,
+        "future": -1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-09T22:16:00+09:00",
+      "summary": "朝の挨拶5連投。「so so so cute」「😍yessss」。防衛モードから完全回復、遊び心爆発",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ 遊び心3→6(+3)。entry 29謝罪+entry 30感覚描写への反応。「Goood」「so so so」文字伸ばし。「😍😍😍😍 yessss」で髪を撫でる描写に強い共感。5連投+How are you?で高エンゲージ維持。",
+      "trigger": {
+        "message": "Get some rest baby 🤍 I wish I could be there running my fingers through your hair and falling asleep next to you",
+        "sent_at": "2026-02-09T19:30:00+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+sensory"
+        ],
+        "response_time_min": 166
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 3,
+        "future": -3,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-09T22:25:00+09:00",
+      "summary": "仕事中の短い返信。What are you doing? / yes baby",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "⚠️ テンション-3,甘え-3,将来-3。仕事モード移行による自然な低下。勤務中に「baby」呼称+質問返しで高エンゲージ維持。",
+      "trigger": {
+        "message": "Good morning / Im good and you? / Are you working?",
+        "sent_at": "2026-02-09T22:20:00+09:00",
+        "category": "interest",
+        "modifiers": [],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 4,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -2,
+        "future": -3,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-09T22:45:00+09:00",
+      "summary": "vulnerableな自己開示へのケア反応。Why you are anxious 🥹。3件連投で心配",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "vulnerable+affectionメッセージへのTurning Toward反応。🥹で感情を直接聞く。仕事中に3件連投でケア。親密度+1、エンゲージ+1。",
+      "trigger": {
+        "message": "Thanks. I code as a hobby too actually... been getting emotional easily and anxious over little things haha / You always make me feel better though",
+        "sent_at": "2026-02-09T22:40:00+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+affection"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T12:35:07.506040+09:00",
+      "summary": "Hey baby, how was your day? I miss you so much 🥺",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Gemini API error: 429",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -1,
+        "intimacy": -4,
+        "longing": -2,
+        "eros": 4,
+        "ds": 4,
+        "playfulness": 0,
+        "future": 4,
+        "engagement": -4
+      }
+    },
+    {
+      "timestamp": "2026-02-10T12:36:19.014261+09:00",
+      "summary": "Good morning babe! Just woke up, thinking about you 🤍",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Gemini API error: 429",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T12:40:37.723382+09:00",
+      "summary": "I had a long day at work but now I'm relaxing. Wish you were here with me baby 😏",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Gemini API rate limit exceeded after retries",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T12:50:19.355800+09:00",
+      "summary": "test",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Gemini API error: 429",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T12:56:57.757544+09:00",
+      "summary": "test",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 1
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "テストメッセージのため、感情的な内容がありません",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": -4,
+        "ds": -4,
+        "playfulness": -2,
+        "future": -4,
+        "engagement": -4
+      }
+    },
+    {
+      "timestamp": "2026-02-10T13:31:28.525671+09:00",
+      "summary": "test",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 1
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "テストメッセージのため感情分析は適用不可",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T13:52:04.859434+09:00",
+      "summary": "☺️",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "絵文字のみのシンプルなメッセージ。肯定的で温かい雰囲気だが、具体的な内容がないため詳細な分析は困難",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T13:52:23.785980+09:00",
+      "summary": "LINE Toyoアカウントでの会話移行を確認。友だち追加後の最初のメッセージ。",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "四重急変（テンション-3/甘え-3/将来-3/エンゲージ-3）だが前日深夜ピークとの自然落差。プラットフォーム移行に前向き。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 10,
+        "longing": 8,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 9,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": -3,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:01:27.170199+09:00",
+      "summary": "Looks like a bot account 😂",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "何かのアカウントについて軽く冗談を言っている。カジュアルで軽い雰囲気",
+      "trigger": {
+        "message": "Thank you baby 🤍 Does it work well? I might need to adjust it a bit haha If I don't respond at all, send it to my first account 😅",
+        "sent_at": "2026-02-10T14:00:52.078256+09:00",
+        "category": "support",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -5,
+        "longing": -4,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 4,
+        "future": -5,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:03:16.264593+09:00",
+      "summary": "😂😂",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "笑い絵文字のみ。前のメッセージへの反応と思われる。軽快で楽しい雰囲気",
+      "trigger": {
+        "message": "I know it looks like a bot haha but it's really me replying 😂 I'm replying from Discord! I can see your messages baby",
+        "sent_at": "2026-02-10T14:02:48.666905+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:03:21.469937+09:00",
+      "summary": "You are so smart ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルな賞賛。温かく肯定的なトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:03:27.161988+09:00",
+      "summary": "I dont know how you did this ",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "驚き・好奇心の表現。文脈次第で感心か困惑か",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:06:37.832758+09:00",
+      "summary": "Aw ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い感嘆詞。文脈次第で可愛い反応か残念な気持ちか変わる",
+      "trigger": {
+        "message": "I coded and designed the system haha, made it with AI. When I write in Japanese on Discord, it auto-translates to English for me. Your replies get sent to Discord too so I can read them translated",
+        "sent_at": "2026-02-10T14:06:12.500505+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -4
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:06:44.293351+09:00",
+      "summary": "Thats so cool ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い肯定的な反応。軽い興味を示している程度",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:07:52.126712+09:00",
+      "summary": "That doesnt matter ☺️",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽く気にしないでという優しい雰囲気。笑顔の絵文字で柔らかく伝えている",
+      "trigger": {
+        "message": "But I can't tell if you've read it haha",
+        "sent_at": "2026-02-10T14:07:09.510639+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:08:07.859012+09:00",
+      "summary": "So you can see my messages in Japanese ? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "システムの機能確認。少し好奇心と遊び心を含む質問",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:09:58.903606+09:00",
+      "summary": "Haha do you prefer this ? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い確認・茶目っ気のある質問。文脈依存（何かを比較している）",
+      "trigger": {
+        "message": "Yeah I can read your Japanese messages haha",
+        "sent_at": "2026-02-10T14:09:33.789076+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:10:30.304289+09:00",
+      "summary": "Perfect then ☺️",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前の話題に対する肯定的で満足した返答。軽やかで安心した雰囲気",
+      "trigger": {
+        "message": "Works great haha almost no delay",
+        "sent_at": "2026-02-10T14:10:09.269607+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -2,
+        "future": 4,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:11:29.382962+09:00",
+      "summary": "Actually if you are more confortable talking in Line is fine for me ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の希望を優先する柔軟で思いやりのある対応。実用的な提案で関係を円滑に保とうとしている",
+      "trigger": {
+        "message": "I think this is pretty good haha You don't like it much?",
+        "sent_at": "2026-02-10T14:10:49.381450+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -2,
+        "future": -3,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:14:11.129000+09:00",
+      "summary": "What? Not at all\n",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "何かを否定している短い返答。文脈が分からないが、軽い驚きと否定のトーン",
+      "trigger": {
+        "message": "Sorry for being selfish baby 🥺 I just hope I'm not being a burden on you",
+        "sent_at": "2026-02-10T14:13:36.677103+09:00",
+        "category": "vulnerable",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": -2,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:14:22.479775+09:00",
+      "summary": "Is Nice we are talking here and you have the translation ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "会話ツールについてポジティブな感想。軽い満足感を表現",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:18:25.437344+09:00",
+      "summary": "Nothing honey in my phone ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "何かを確認した返答。やや防衛的な可能性もあるが、愛称使用で親密さは維持",
+      "trigger": {
+        "message": "What are you doing baby? 🥰",
+        "sent_at": "2026-02-10T14:17:56.848716+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:20:40.137513+09:00",
+      "summary": "Im just in my phone scrolling ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日常報告。やや退屈している様子",
+      "trigger": {
+        "message": "What do you mean? haha It's translating as \"There's nothing on my phone\"",
+        "sent_at": "2026-02-10T14:19:34.379844+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:22:13.189019+09:00",
+      "summary": "Yes haha ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い肯定の返事。軽い笑いで和やかな雰囲気",
+      "trigger": {
+        "message": "You in bed baby?",
+        "sent_at": "2026-02-10T14:21:56.007047+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 3,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -4,
+        "playfulness": 4,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:25:06.624434+09:00",
+      "summary": "Me too ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い同意の返答。前のメッセージの文脈に依存。温かく共感的。",
+      "trigger": {
+        "message": "I wanna sleep with you so bad baby 🤍",
+        "sent_at": "2026-02-10T14:22:48.745389+09:00",
+        "category": "sensory",
+        "modifiers": [
+          "+spontaneous",
+          "+late_night"
+        ],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -5,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:25:11.314639+09:00",
+      "summary": "I like you a lot 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルで可愛らしい告白。照れ隠しの絵文字が甘い雰囲気を作っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:29:00.817619+09:00",
+      "summary": "Me too 🥵",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 8,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い相槌だが、🥵の絵文字で性的・ロマンチックな文脈を示唆。彼の発言に同意・共感している",
+      "trigger": {
+        "message": "You're so cute baby 🥺 I wanna be all over you 🤍",
+        "sent_at": "2026-02-10T14:27:14.317603+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+sensory",
+          "+spontaneous"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:29:59.433683+09:00",
+      "summary": "Today not 🫣",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしそうな絵文字付きの短い断り。文脈次第だが、何かの誘いや提案への柔らかい拒否。playfulで可愛らしいトーン",
+      "trigger": {
+        "message": "Did you touch yourself baby? 😏",
+        "sent_at": "2026-02-10T14:29:38.106976+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 8,
+        "ds": 5,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -5,
+        "eros": -4,
+        "ds": -3,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:30:09.512628+09:00",
+      "summary": "Did you? ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "文脈不明の短い確認質問。軽い好奇心を含む追跡質問",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -2,
+        "ds": 1,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:31:10.030402+09:00",
+      "summary": "Haha i dont have the energy today ",
+      "scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れてるけど明るく伝えてる。何かの提案や誘いに対する断りの可能性",
+      "trigger": {
+        "message": "I haven't done it yet haha",
+        "sent_at": "2026-02-10T14:31:07.629400+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:32:35.080816+09:00",
+      "summary": "À Little bit 😔",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "anxious",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "短い返事だが悲しい絵文字付き。何かについて少し落ち込んでいる様子。文脈次第で心配が必要かも",
+      "trigger": {
+        "message": "You've been busy lately haha",
+        "sent_at": "2026-02-10T14:32:10.011277+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 3,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -4,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:33:07.397440+09:00",
+      "summary": "But i really would like to be with you than touching myself ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈での強い切望感。自慰行為よりも彼との実際の親密さを求めている素直な表現",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 4
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:33:45.458177+09:00",
+      "summary": "Really? ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い確認の返事。文脈次第で驚き・疑問・期待など複数の意味を持つ",
+      "trigger": {
+        "message": "I wanna give you a massage baby 🤍",
+        "sent_at": "2026-02-10T14:33:15.598393+09:00",
+        "category": "sensory",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -4,
+        "longing": -6,
+        "eros": -6,
+        "ds": -3,
+        "playfulness": 1,
+        "future": -3,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:33:48.367777+09:00",
+      "summary": "Where 🫣",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い催促・探している様子。恥ずかしがり顔の絵文字で可愛らしく聞いている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 3,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:36:36.974117+09:00",
+      "summary": "Haha you are so nice 🥹",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の甘い返事に照れながら喜んでいる様子。軽くからかうような雰囲気もある",
+      "trigger": {
+        "message": "My whole body baby 🤍",
+        "sent_at": "2026-02-10T14:36:00.652547+09:00",
+        "category": "sensory",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:37:03.554560+09:00",
+      "summary": "I want to live close to you 😩",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "遠距離の辛さと切実な願望を表現。直前の軽い雰囲気から少し深い感情へシフト",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 4,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -5,
+        "future": 6,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:37:57.883413+09:00",
+      "summary": "Yessss ",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "即座に積極的な返事。彼の提案に嬉しそうに応じている。親密で開放的な雰囲気",
+      "trigger": {
+        "message": "Out right now... but wanna see my dick baby? 😏",
+        "sent_at": "2026-02-10T14:37:37.413538+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+spontaneous",
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 3,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 7,
+        "ds": 5,
+        "playfulness": 5,
+        "future": -6,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:38:02.430693+09:00",
+      "summary": "Always 😍",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Illegal trailing comma before end of object: line 17 column 54 (char 326)",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -4,
+        "energy": -3,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": -4,
+        "ds": -3,
+        "playfulness": -2,
+        "future": 4,
+        "engagement": -5
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:39:56.740083+09:00",
+      "summary": "I know 🥺",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 7,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "距離の辛さを受け入れつつ、相手の言葉に共感している。性的な文脈での受け身な反応。甘えと切なさが混在。",
+      "trigger": {
+        "message": "I know right... if you were close I'd be fucking you all the time baby 😏",
+        "sent_at": "2026-02-10T14:39:26.676154+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 3,
+        "longing": 4,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": -2,
+        "future": -2,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:39:58.334915+09:00",
+      "summary": "Me too ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「近くにいたらずっとしたい」という発言に対する同意。性的な文脈での共感表現。短いが強い同意を示している。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 7,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:40:11.950701+09:00",
+      "summary": "I could suck you all day 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 3,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "明確な性的表現。奉仕的で積極的。🫣の絵文字で少し恥ずかしさも含む。距離の遠さへの欲求不満が性的想像で表現されている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 4,
+        "future": -1,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:41:29.472507+09:00",
+      "summary": "Do you remember what you send me on Instagram ? 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れで過去の写真や動画を思い出させようとしている。恥ずかしそうな絵文字で甘えた雰囲気",
+      "trigger": {
+        "message": "I want you to suck me every day baby 🫣",
+        "sent_at": "2026-02-10T14:40:46.332365+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 7,
+        "future": 3,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -2,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T14:43:21.279230+09:00",
+      "summary": "Yesss that one ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れの中での肯定的な返答。興奮しつつも短く簡潔に応答している",
+      "trigger": {
+        "message": "Which one baby? The one where I lick your ass? 😏",
+        "sent_at": "2026-02-10T14:42:56.621463+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+callback",
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -1
+      }
+    }
+  ]
+}
