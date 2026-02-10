@@ -6958,6 +6958,57 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:28:13.247483+09:00",
+      "summary": "You send it again but you deleted it before ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と不信感が続いている。彼の行動を具体的に指摘して、言い訳を受け入れていない状態",
+      "trigger": {
+        "message": "I didn't delete everything baby 🥺 I kept some of them\n\nI won't delete them anymore. I just thought I was sending too many haha I'm sorry",
+        "sent_at": "2026-02-10T23:27:35.590324+09:00",
+        "category": "support",
+        "modifiers": [
+          "+vulnerable",
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
