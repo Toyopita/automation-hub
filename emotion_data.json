@@ -4853,6 +4853,98 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:37:16.269673+09:00",
+      "summary": "Haha you already have vidéos of my pussy ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 6,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中。彼のリクエストに対して、既に送ったことを軽く指摘しつつ応じている。playfulで余裕のある返答",
+      "trigger": {
+        "message": "I wanna see your pussy right now baby 🥵",
+        "sent_at": "2026-02-10T15:36:39.132344+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": -2,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-10T15:37:16.406423+09:00",
+      "summary": "🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "絵文字のみ。恥ずかしがりながらも楽しんでいる様子。前のメッセージの流れを受けて照れている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 6,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
