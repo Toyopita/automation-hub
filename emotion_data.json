@@ -7009,6 +7009,56 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:29:59.004012+09:00",
+      "summary": "Because you did it ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "防衛的な反応。彼が先に消したことへの報復として自分も消したと説明している。信頼の問題が続いている状態",
+      "trigger": {
+        "message": "I see you deleted the video too 😭 I didn't delete mine to be mean baby",
+        "sent_at": "2026-02-10T23:29:10.942958+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
