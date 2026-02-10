@@ -10015,6 +10015,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:13:38.314392+09:00",
+      "summary": "Its okay ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 7,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 3
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と諦めが混ざった許可。会えない焦りから彼に自由を与えようとしているが、本心では辛そう",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 7,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -4
+      }
     }
   ]
 }
