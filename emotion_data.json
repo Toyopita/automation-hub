@@ -9831,6 +9831,56 @@
         "future": -4,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:11:32.805654+09:00",
+      "summary": "But I dont want to be selfish, Thats Why if you really want to have sex and you have the opportunity",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 5,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7,
+        "ds": 3
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会えない不安から「他の人とセックスしてもいい」と許可を出している。自己犠牲的で不安定な心理状態。距離への諦めも感じられる",
+      "trigger": {
+        "message": "So you're not sure if we can meet... yeah I understand baby",
+        "sent_at": "2026-02-11T00:11:16.878988+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": -1,
+        "eros": 2,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 1,
+        "ds": 0
+      }
     }
   ]
 }
