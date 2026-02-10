@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I just don't know if that's really how you feel 🥺",
-    "time": "23:53"
-  },
-  {
     "role": "laura",
     "text": "For me everything is okay ❤️",
     "time": "23:53"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Me too ",
+    "time": "23:59"
+  },
+  {
+    "role": "you",
+    "text": "I promise I won't delete my videos anymore baby 🥺",
     "time": "23:59"
   }
 ]
