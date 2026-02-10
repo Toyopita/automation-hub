@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I wouldn't have sent them if I didn't trust you baby, and if that was the case I would've deleted everything",
-    "time": "23:33"
-  },
-  {
     "role": "laura",
     "text": "Its okay if you want to delete",
     "time": "23:33"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "How are you feeling baby? I just wanna make sure you understand I trust you 🥺",
     "time": "23:42"
+  },
+  {
+    "role": "laura",
+    "text": "I understand now ",
+    "time": "23:43"
   }
 ]
