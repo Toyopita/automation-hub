@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "Do you use LINE much?",
-    "time": "19:57"
-  },
-  {
     "role": "laura",
     "text": "No baby ",
     "time": "20:12"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I cant ",
     "time": "22:41"
+  },
+  {
+    "role": "you",
+    "text": "You can still watch while you're working baby 🥵",
+    "time": "22:42"
   }
 ]
