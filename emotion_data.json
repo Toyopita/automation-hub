@@ -4084,6 +4084,48 @@
         "engagement": -2,
         "ds": -4
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:03:58.326176+09:00",
+      "summary": "I cant handle it right now 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の言葉を繰り返して共感を示している。興奮と欲求不満が混ざった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 6,
+        "ds": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": -3,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
