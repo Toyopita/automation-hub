@@ -6227,6 +6227,49 @@
         "engagement": -3,
         "affection": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:41:36.150804+09:00",
+      "summary": "I cant ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 5,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "仕事中で応じられない状況。直前の「sit on you」発言の後なので残念そうなニュアンス",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 5,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7,
+        "affection": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
