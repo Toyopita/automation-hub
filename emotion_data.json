@@ -8931,6 +8931,56 @@
         "future": 3,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:57:14.576194+09:00",
+      "summary": "I’ll send the later okay ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "誤解が解けて安心させようとしている。約束を確認する優しいトーン",
+      "trigger": {
+        "message": "That's why baby... don't say you won't send them 🥺",
+        "sent_at": "2026-02-10T23:56:50.833986+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": -2,
+        "ds": -1,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
