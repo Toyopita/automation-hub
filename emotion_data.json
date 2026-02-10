@@ -5529,6 +5529,56 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-10T16:01:13.528083+09:00",
+      "summary": "You can do whatever you want with me 🫣",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳エラー: Illegal trailing comma before end of object: line 17 column 51 (char 329)",
+      "trigger": {
+        "message": "Aww baby you're so sweet 🫣",
+        "sent_at": "2026-02-10T15:57:43.466853+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 3
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -1,
+        "intimacy": -4,
+        "longing": -2,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 4,
+        "engagement": -3
+      }
     }
   ]
 }
