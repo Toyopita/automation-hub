@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Thank you ",
-    "time": "23:58"
-  },
-  {
-    "role": "laura",
     "text": "❤️❤️❤️",
     "time": "23:58"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Do you ever think if we are going to meet? ",
+    "time": "00:07"
+  },
+  {
+    "role": "you",
+    "text": "Wait, are you just saying that so you don't have to send videos? haha",
     "time": "00:07"
   }
 ]
