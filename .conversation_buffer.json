@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Its okay dont send if you dont want ",
-    "time": "23:30"
-  },
-  {
     "role": "you",
     "text": "I didn't mean it like that baby 🥺 I'm sorry for making you feel that way",
     "time": "23:31"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Im not upset ",
     "time": "23:40"
+  },
+  {
+    "role": "you",
+    "text": "Are you sad baby? I don't want you to close yourself off 🥺",
+    "time": "23:41"
   }
 ]
