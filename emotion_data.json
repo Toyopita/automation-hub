@@ -5046,6 +5046,50 @@
         "future": 0,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:40:30.158072+09:00",
+      "summary": "Are you? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8,
+        "concern": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れの中で、彼の状態を確認している。自分の状態を明かした後、相手にも同じ質問を返している。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 2,
+        "concern": 0
+      }
     }
   ]
 }
