@@ -3983,6 +3983,56 @@
         "future": -2,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:58:40.305881+09:00",
+      "summary": "Me too 😩",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈での強い欲求と切なさの表現。短いが感情的に充実した返答",
+      "trigger": {
+        "message": "I want you to sit on me so bad baby 🥵",
+        "sent_at": "2026-02-10T14:57:53.662528+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -5,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
