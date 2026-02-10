@@ -8612,6 +8612,98 @@
         "future": -4,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:54:43.170662+09:00",
+      "summary": "Oh no baby ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の不安を即座に否定する安心させる返答。親密で優しいトーン",
+      "trigger": {
+        "message": "I got scared I was losing you 🥺",
+        "sent_at": "2026-02-10T23:54:05.205747+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-10T23:54:46.883832+09:00",
+      "summary": "Not happening that ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の不安を否定して安心させようとしている。文法は少し崩れているが意図は明確で愛情的",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 2,
+        "engagement": 1
+      }
     }
   ]
 }
