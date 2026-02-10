@@ -6040,6 +6040,56 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:39:56.449079+09:00",
+      "summary": "Thank you for the vidéo 🥵",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈での感謝。火照った絵文字で興奮を示唆。短いが前向きな反応。",
+      "trigger": {
+        "message": "About to hop in the bath haha\n\nYou're definitely not sleeping 🥺 You work from home?",
+        "sent_at": "2026-02-10T22:30:50.288047+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 9
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 3,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 7,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
