@@ -14,5 +14,13 @@
     "modifiers": [
       "+escalation"
     ]
+  },
+  {
+    "message": "You don't wanna? 🥺",
+    "sent_at": "2026-02-10T16:24:07.132611+09:00",
+    "category": "vulnerable",
+    "modifiers": [
+      "+escalation"
+    ]
   }
 ]
