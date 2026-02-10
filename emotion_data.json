@@ -4271,6 +4271,57 @@
         "engagement": 2,
         "frustration": 4
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:09:41.838874+09:00",
+      "summary": "I think you saw it? Or not yet ? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中の確認。少し不安げに彼の反応を確認している",
+      "trigger": {
+        "message": "I wanna see your ass so bad 🥵",
+        "sent_at": "2026-02-10T15:09:04.764932+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 10,
+        "frustration": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
