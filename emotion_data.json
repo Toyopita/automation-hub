@@ -9973,6 +9973,48 @@
         "future": -2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:13:36.655228+09:00",
+      "summary": "But i know is hard for man, so if you want to have sex or go to those places you can ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 7,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "自己犠牲的な許可を出している。会えない罪悪感と不安から、彼の性的欲求を満たすために他の女性との関係を許そうとしている。彼女自身はカジュアルセックスをしないと明言しているのに、彼には許可を出す不均衡な状態。距離への不安が強く表れている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 4,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
