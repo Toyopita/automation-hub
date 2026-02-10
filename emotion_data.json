@@ -8210,6 +8210,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:51:27.751303+09:00",
+      "summary": "Dont over think too much ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "reassuring/comforting but somewhat distant。彼の不安を落ち着かせようとしているが、やや防衛的・事務的なトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
