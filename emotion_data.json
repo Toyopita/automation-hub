@@ -3622,6 +3622,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:44:32.224181+09:00",
+      "summary": "🥵🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "絵文字のみ。前の会話の流れを受けて興奮している様子。エロティックな文脈での反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
