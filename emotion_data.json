@@ -7571,6 +7571,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:39:07.525896+09:00",
+      "summary": "Not now ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情的に距離を置いている状態。信頼の問題で傷ついており、親密さを避けている。短い返答で会話を終わらせようとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
