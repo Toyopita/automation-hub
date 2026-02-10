@@ -10337,6 +10337,57 @@
         "future": 2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:27:21.058320+09:00",
+      "summary": "But you can do it okay ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 5
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "許可を与える形だが、本心では嫌がっている。不安定な愛着パターンが見える。繰り返しの許可=彼女自身が納得しようとしている",
+      "trigger": {
+        "message": "I don't want just anyone baby, I want you 🤍",
+        "sent_at": "2026-02-11T00:25:47.449996+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+late_night",
+          "+escalation"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": -2,
+        "engagement": -2
+      }
     }
   ]
 }
