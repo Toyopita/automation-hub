@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "Are you upset? 🥺",
-    "time": "23:10"
-  },
-  {
-    "role": "you",
     "text": "Baby, I didn't know it meant that much to you 🤍",
     "time": "23:18"
   },
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "I don't think that baby, I wouldn't have sent them if I didn't trust you",
+    "time": "23:34"
+  },
+  {
+    "role": "laura",
+    "text": "Well ",
     "time": "23:34"
   }
 ]
