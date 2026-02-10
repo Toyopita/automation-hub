@@ -6090,6 +6090,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T22:40:14.533668+09:00",
+      "summary": "I really like Watching you ",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前の動画への反応。性的な文脈での鑑賞欲求を表現。素直で積極的な好意",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
