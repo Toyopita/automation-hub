@@ -9354,6 +9354,48 @@
         "future": 2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:02:56.227406+09:00",
+      "summary": "You can do it ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 1,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "danger",
+      "language_mix": "en",
+      "note": "距離の不安から「他の人とセックスしてもいい」と許可を出している。不安定な心理状態で自己犠牲的な発言。要注意",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 4,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": 0
+      }
     }
   ]
 }
