@@ -10438,6 +10438,48 @@
         "future": 1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-11T00:31:22.092470+09:00",
+      "summary": "I was just saying that if you want you can ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 7,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "許可を繰り返し与えているが、本心では彼に他の女性と関係を持ってほしくない様子。不安定な愛着スタイルが見られる",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 3,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 3
+      }
     }
   ]
 }
