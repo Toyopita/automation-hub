@@ -7294,6 +7294,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:33:41.003880+09:00",
+      "summary": "Maybe you feel that i can share your vídeos? I dont know ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 2,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と傷ついた気持ちを表現。信頼を疑われたと感じて距離を取ろうとしている。関係修復が必要な状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 3
+      }
     }
   ]
 }
