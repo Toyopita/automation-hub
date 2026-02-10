@@ -4372,6 +4372,56 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:18:54.562879+09:00",
+      "summary": "Hahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い笑い声のみ。彼の要求に対して恥ずかしそうに笑って応じている雰囲気。セクシーなやり取りの流れの中での軽い反応",
+      "trigger": {
+        "message": "I wanna see you in sexy thongs so bad 🥵",
+        "sent_at": "2026-02-10T15:18:18.117103+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -3
+      }
     }
   ]
 }
