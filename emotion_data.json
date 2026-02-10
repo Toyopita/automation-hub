@@ -3664,6 +3664,56 @@
         "future": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T14:45:44.782174+09:00",
+      "summary": "I want to do it to you 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前のメッセージで彼が送ったリミング動画への反応。積極的で献身的な性的表現",
+      "trigger": {
+        "message": "I love that so much baby 🥵",
+        "sent_at": "2026-02-10T14:45:18.718292+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 2,
+        "engagement": 3
+      }
     }
   ]
 }
