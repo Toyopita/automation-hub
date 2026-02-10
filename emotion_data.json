@@ -4996,6 +4996,56 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:40:27.521351+09:00",
+      "summary": "À Little bit ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "控えめに答えつつ、遊び心のある返答。少し恥ずかしがりながらも応じている",
+      "trigger": {
+        "message": "I wanna see how turned on you are right now 🥵",
+        "sent_at": "2026-02-10T15:40:03.778605+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -3
+      }
     }
   ]
 }
