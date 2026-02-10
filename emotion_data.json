@@ -8436,6 +8436,48 @@
         "future": 4,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T23:52:58.462812+09:00",
+      "summary": "Follow what baby ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「ついていけない」発言への素直な確認。混乱を解消しようとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": -2,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": -3,
+        "future": -4,
+        "engagement": 2
+      }
     }
   ]
 }
