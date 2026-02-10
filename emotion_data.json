@@ -5327,6 +5327,57 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-10T15:47:51.705939+09:00",
+      "summary": "Oh baby haha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしがりながらも受け入れている反応。彼の要求に対して照れつつ応じる姿勢",
+      "trigger": {
+        "message": "Yeah baby 🥵",
+        "sent_at": "2026-02-10T15:47:15.421402+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
