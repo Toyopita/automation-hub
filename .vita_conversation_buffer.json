@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "working",
-    "time": "2026-02-11 20:08"
-  },
-  {
-    "role": "vita",
     "text": "i’m good thanks minami",
     "time": "2026-02-11 20:09"
   },
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha wait what photos? did i send you some before? i don't even remember doing that 😅\n\nbut thanks though, that's nice of you to say. are you into photography yourself then? you seem interested in it",
     "time": "2026-02-11 23:15"
+  },
+  {
+    "role": "vita",
+    "text": "both selfie and another portrait",
+    "time": "2026-02-11 23:26"
   }
 ]
