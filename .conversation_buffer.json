@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "You can send them here baby 🤍",
-    "time": "08:43"
-  },
-  {
     "role": "laura",
     "text": "Okay ",
     "time": "08:45"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Put me between them baby 🤤",
     "time": "08:56"
+  },
+  {
+    "role": "laura",
+    "text": "Why you share your Line 😂😂",
+    "time": "08:57"
   }
 ]
