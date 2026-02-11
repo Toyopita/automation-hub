@@ -1,16 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "that's how it works",
-    "time": "2026-02-11 20:04"
-  },
-  {
-    "role": "vita",
-    "text": "i see",
-    "time": "2026-02-11 20:04"
-  },
-  {
-    "role": "vita",
     "text": "how are you today?",
     "time": "2026-02-11 20:04"
   },
@@ -147,6 +137,16 @@
   {
     "role": "vita",
     "text": "the photos you took are good and I think you are suitable to be a photographer",
+    "time": "2026-02-11 22:58"
+  },
+  {
+    "role": "vita",
+    "text": "[sticker (pkg:1, id:2)]",
+    "time": "2026-02-11 22:58"
+  },
+  {
+    "role": "vita",
+    "text": "[sticker (pkg:1, id:2)]",
     "time": "2026-02-11 22:58"
   }
 ]
