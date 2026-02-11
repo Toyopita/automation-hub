@@ -1,11 +1,6 @@
 [
   {
     "role": "michelle",
-    "text": "I think your work is very tiring haha",
-    "time": "2026-02-11 19:09"
-  },
-  {
-    "role": "michelle",
     "text": "ohh that's interesting and it seems like you enjoy your work haha",
     "time": "2026-02-11 19:26"
   },
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "oh yes exactly haha, actually what we do is I first learn the dance moves in advance, then after i learn i teach them haha",
     "time": "2026-02-11 21:58"
+  },
+  {
+    "role": "you",
+    "text": "wait so you learn the moves first and then teach the others?? that's actually a lot of responsibility haha\n\nyou must be one of the better dancers then if they trust you to teach everyone",
+    "time": "2026-02-11 22:12"
   }
 ]
