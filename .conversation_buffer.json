@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "You don't want me to go, do you baby?",
-    "time": "00:17"
-  },
-  {
-    "role": "you",
     "text": "Or are you feeling uncertain about where this is going when you think about the future?",
     "time": "00:21"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Yes im going to sleep again ",
     "time": "09:53"
+  },
+  {
+    "role": "you",
+    "text": "It's only 2am there huh. Yeah sleep well baby 🤍",
+    "time": "09:56"
   }
 ]
