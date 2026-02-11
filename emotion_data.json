@@ -11891,6 +11891,56 @@
         "future": 1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:10:23.815889+09:00",
+      "summary": "I dont want to post stories ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短く境界を示している。性的な話題から離れて日常の話に。少し距離を取っている可能性あり",
+      "trigger": {
+        "message": "I haven't seen you on your stories lately baby, kinda miss that haha Did you go to the gym today?",
+        "sent_at": "2026-02-12T01:07:49.849146+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -1,
+        "intimacy": -4,
+        "longing": -5,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": -2,
+        "engagement": -3
+      }
     }
   ]
 }
