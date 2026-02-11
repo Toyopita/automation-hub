@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-11T23:45:13.979409+09:00",
+  "last_updated": "2026-02-12T00:04:48.643356+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -56,7 +56,10 @@
       "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making",
       "Has no specific material standards when dating (doesn't care about wealth or looks)",
       "Primary dating criteria are kindness and respect",
-      "Her past experiences shaped her current dating standards (learning from negative experiences)"
+      "Her past experiences shaped her current dating standards (learning from negative experiences)",
+      "Finds Toyo's dating situation less dramatic than her own - suggesting she considers her rejection experiences notable/intense",
+      "Toyo is single due to work being busy and not meeting interesting people recently",
+      "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)"
     ]
   },
   "personality": {
@@ -70,7 +73,8 @@
       "Has developed clear values-based standards from past relationship experiences",
       "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
       "Frames her standards as deliberately simple and non-materialistic, suggesting intentional reflection on what matters",
-      "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors"
+      "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors",
+      "confidence: Directly asks reciprocal personal question about relationship status without hesitation, showing comfort with vulnerable topics"
     ]
   },
   "communication_style": {
@@ -83,8 +87,8 @@
       "😊"
     ],
     "formality_level": "casual",
-    "humor_style": "self-deprecating with resilient framing - uses 😂 emoji to lighten serious relationship frustrations; treats absurd situations with comedic distance",
-    "response_speed_tendency": "detailed single message when sharing relationship experiences - consolidates multiple examples into one comprehensive response",
+    "humor_style": "uses 'haha' when discussing potentially sensitive topics like singleness, maintaining lightness in vulnerable conversations",
+    "response_speed_tendency": "immediate follow-up questions when discussing relationship topics - asked about Toyo's status in same message after answering his question",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -177,29 +181,12 @@
     "gender_dynamics": 8,
     "dating_values_standards": 9,
     "past_relationship_experiences": 7,
-    "character_vs_materialism": 9
+    "character_vs_materialism": 9,
+    "reciprocal_vulnerability": 9,
+    "relationship_status_comparison": 8,
+    "dating_app_culture": 5
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_genuine_excitement_about_her_background",
-      "engagement_boost": 2.0,
-      "evidence": "Toyo's 'that's sick honestly' and genuine curiosity about dance battles prompted detailed response"
-    },
-    {
-      "pattern": "playful_contrast_observation",
-      "engagement_boost": 1.8,
-      "evidence": "Toyo's humorous comment about cosmetics lady who can dance battle shows he's building a fuller picture of her and finding the contrast amusing/interesting"
-    },
-    {
-      "pattern": "asking_for_participation_details",
-      "engagement_boost": 1.5,
-      "evidence": "Asking 'did you compete or just watch?' gave her opportunity to reveal more active involvement than expected"
-    },
-    {
-      "pattern": "expressing_surprise_at_unusual_details",
-      "engagement_boost": 1.7,
-      "evidence": "Toyo's 'that's wild haha' reaction to PE duration validates her experience as noteworthy and prompts further sharing"
-    },
     {
       "pattern": "asking_specific_follow_up_about_current_activities",
       "engagement_boost": null,
@@ -279,6 +266,26 @@
       "pattern": "acknowledging_personal_growth_from_past",
       "engagement_boost": null,
       "evidence": "Toyo's 'makes sense after what you went through. you know what you want now' recognizes her self-awareness and growth trajectory - response pending"
+    },
+    {
+      "pattern": "humorous_self_deprecation_about_drama",
+      "engagement_boost": 1.9,
+      "evidence": "Toyo's 'your reasons sound way more dramatic than mine 😂' validates her experiences as noteworthy while keeping tone light, prompting her immediate reciprocal question"
+    },
+    {
+      "pattern": "showing_commonality_in_singleness",
+      "engagement_boost": 2.0,
+      "evidence": "Toyo's 'kinda funny we're both in the same boat here' creates shared situation, likely making her feel comfortable that he's not pursuing her aggressively like others"
+    },
+    {
+      "pattern": "balanced_vulnerability_sharing",
+      "engagement_boost": null,
+      "evidence": "Toyo reciprocated relationship status disclosure with his own reasons for being single, creating equal exchange - response pending"
+    },
+    {
+      "pattern": "mentioning_dating_app_fatigue",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'dating apps here are kinda exhausting honestly' shares his own dating frustrations, potentially creating further commonality - response pending"
     }
   ],
   "avoid_patterns": [],
