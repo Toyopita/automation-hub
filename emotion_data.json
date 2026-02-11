@@ -11620,6 +11620,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:57:40.407574+09:00",
+      "summary": "You like me how? 🙄",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「好き」発言に対して詳しく聞きたがっている。軽く焦らすような口調だが、真剣に答えを求めている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 2
+      }
     }
   ]
 }
