@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-11T22:48:56.763048+09:00",
+  "last_updated": "2026-02-11T23:45:13.979409+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -53,7 +53,10 @@
       "Uses mental strategy of not thinking about competition context to reduce pressure during performances",
       "Four different men have told her 'you're lucky I chose you but you rejected me' when she rejected their confessions",
       "Uses humor (😂 emoji) when discussing frustrating romantic experiences, showing emotional resilience",
-      "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making"
+      "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making",
+      "Has no specific material standards when dating (doesn't care about wealth or looks)",
+      "Primary dating criteria are kindness and respect",
+      "Her past experiences shaped her current dating standards (learning from negative experiences)"
     ]
   },
   "personality": {
@@ -64,19 +67,10 @@
     "confidence": 8,
     "warmth": 8,
     "observations": [
-      "Finds Toyo's work interesting and notices his enjoyment of it",
-      "Uses 'haha' frequently as conversation filler/softener",
-      "Self-aware about her job (uses 'haha' when describing it, possibly modest about it)",
-      "observations: ohh that's interesting and it seems like you enjoy your work haha",
-      "confidence: Playfully jokes about being attractive in other countries with humor rather than insecurity; comfortable discussing beauty standards",
-      "humor_appreciation: Responds enthusiastically to Toyo's playful/flirty humor about cosmetics sales lady dancing",
-      "adventurousness: Actively competes in dance competitions currently, not just past participation - shows ongoing willingness to perform publicly",
-      "adventurousness: Participates in both street and formal competitions, showing comfort with various performance contexts",
-      "confidence: Comfortable rejecting pursuers who don't meet her standards; willing to disclose relationship status openly without hesitation",
-      "confidence: Downgraded from 8 to 7 - describes herself as 'not a good dancer' despite active competition participation, showing modest self-assessment",
-      "adventurousness: Confirmed at 9 - competes despite self-perceived skill limitations, prioritizes enjoyment over performance anxiety",
-      "confidence: Upgraded from 7 to 8 - Clearly articulates her standards and doesn't second-guess rejecting multiple men despite social pressure; frames their entitled responses as their problem, not hers",
-      "emotional_expressiveness: Upgraded from 7 to 8 - Willing to share detailed frustrating experiences with specific quotes and emotional context; expresses frustration openly while maintaining humor"
+      "Has developed clear values-based standards from past relationship experiences",
+      "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
+      "Frames her standards as deliberately simple and non-materialistic, suggesting intentional reflection on what matters",
+      "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors"
     ]
   },
   "communication_style": {
@@ -180,24 +174,12 @@
     "self_assessment": 7,
     "local_dating_entitlement": 9,
     "relationship_frustrations": 9,
-    "gender_dynamics": 8
+    "gender_dynamics": 8,
+    "dating_values_standards": 9,
+    "past_relationship_experiences": 7,
+    "character_vs_materialism": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "being_realistic_about_work_challenges",
-      "engagement_boost": 1.4,
-      "evidence": "Toyo's honest 'yeah the work can be rough but it's fine' elicited empathetic response from Michelle"
-    },
-    {
-      "pattern": "reciprocating_music_interest",
-      "engagement_boost": null,
-      "evidence": "Toyo responded positively to hip hop question and asked back - engagement level pending"
-    },
-    {
-      "pattern": "flirty_compliments_with_confidence",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'you're probably attractive in a lot of places' comment - response pending but shows progression to flirtier tone"
-    },
     {
       "pattern": "expressing_genuine_excitement_about_her_background",
       "engagement_boost": 2.0,
@@ -282,6 +264,21 @@
       "pattern": "surprise_at_scale_of_problem",
       "engagement_boost": 1.8,
       "evidence": "Toyo's 'wait four guys said that to you?? 😂' validates that this is an unusual/excessive amount of entitled behavior to deal with"
+    },
+    {
+      "pattern": "validating_her_standards_with_explanation",
+      "engagement_boost": null,
+      "evidence": "Toyo's affirmation that 'kind and respectful sounds basic but it's actually what matters most' validates her values with reasoning - response pending but shows understanding of her priorities"
+    },
+    {
+      "pattern": "contrasting_superficial_vs_meaningful_qualities",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'people get distracted by looks or money or whatever but at the end of the day if someone treats you like shit none of that matters' reinforces her anti-materialistic stance - response pending"
+    },
+    {
+      "pattern": "acknowledging_personal_growth_from_past",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'makes sense after what you went through. you know what you want now' recognizes her self-awareness and growth trajectory - response pending"
     }
   ],
   "avoid_patterns": [],
