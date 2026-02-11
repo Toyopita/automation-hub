@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I dont want to post stories ",
-    "time": "01:10"
-  },
-  {
-    "role": "laura",
     "text": "If you want to see me i can send you pictures ",
     "time": "01:10"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Do you like anime ? ",
     "time": "08:31"
+  },
+  {
+    "role": "you",
+    "text": "Oh right it was before 1am haha",
+    "time": "08:32"
   }
 ]
