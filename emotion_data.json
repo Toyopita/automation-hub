@@ -11941,6 +11941,48 @@
         "future": -2,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:10:34.160877+09:00",
+      "summary": "If you want to see me i can send you pictures ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼のリクエストに対して積極的に応じる姿勢。親密な関係性が伺える。性的な文脈の直後だが、この発言自体は中立的",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      }
     }
   ]
 }
