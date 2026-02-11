@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "But you're feeling a bit overwhelmed baby?",
-    "time": "00:28"
-  },
-  {
     "role": "laura",
     "text": "No ",
     "time": "00:31"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Japanesse is super hard 🙄",
     "time": "22:31"
+  },
+  {
+    "role": "you",
+    "text": "People say it's really hard haha Even native speakers like me struggle with it sometimes",
+    "time": "22:33"
   }
 ]
