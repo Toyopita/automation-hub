@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:32:04.378013+09:00",
+  "last_updated": "2026-02-12T08:32:12.205153+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -117,7 +117,8 @@
       "distract me a lot",
       "an old man stopped me",
       "Of course",
-      "yes of course"
+      "yes of course",
+      "Do you like anime ?"
     ]
   },
   "topic_engagement": {
@@ -191,7 +192,8 @@
     "picture_sharing_commitment": 9.4,
     "being_held_accountable_affectionately": 9.5,
     "demonstrating_reliability": 9.6,
-    "picture_sharing_follow_through": 9.4
+    "picture_sharing_follow_through": 9.4,
+    "anime": 7.5
   },
   "effective_patterns": [
     {
