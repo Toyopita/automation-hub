@@ -13339,6 +13339,101 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:43:11.678201+09:00",
+      "summary": "Where do i send the pictures ",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中。彼女から積極的に応じている状態。実用的な質問だが文脈上は高いエロス値",
+      "trigger": {
+        "message": "Let me see your nipples baby 🤍 I'm gonna tease them so much",
+        "sent_at": "2026-02-12T08:42:49.613844+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:43:16.985408+09:00",
+      "summary": "Here ? Or in the other chat ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 9,
+        "compliance": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "興奮状態で送信先を確認している。素直に応じようとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": -1,
+        "compliance": 3
+      }
     }
   ]
 }
