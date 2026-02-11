@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:52:46.201343+09:00",
+  "last_updated": "2026-02-12T08:54:38.197152+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -74,19 +74,19 @@
       "continues explicit sexual conversation after expressing frustration about distance",
       "sends videos to partner through alternative chat channel",
       "uses alternative chat channel for video sharing (not just pictures)",
-      "takes initiative to send intimate content (videos) without prompt during sexually charged moments"
+      "takes initiative to send intimate content (videos) without prompt during sexually charged moments",
+      "initiates explicit sexual scenarios involving oral and riding position preferences",
+      "uses French spelling for some English words ('vidéos' instead of 'videos')"
     ]
   },
   "personality": {
     "introversion": 5,
-    "emotional_expressiveness": 9,
+    "emotional_expressiveness": 10,
     "humor_appreciation": 6,
     "adventurousness": 5,
-    "confidence": 9,
+    "confidence": 10,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response",
-      "emotional_expressiveness: Uses 'Me too 🥹' with emotional vulnerability emoji to reciprocate romantic desire about wanting to lay together - shows comfort expressing mutual romantic longing directly",
       "warmth: Reciprocates romantic vulnerability immediately with 'Me too 🥹' using tender emotional emoji - shows consistent pattern of matching partner's emotional depth and affirming mutual feelings",
       "emotional_expressiveness: Escalates emotional expression dramatically: 'You are sooooo cuuuuuuute' with elongated letters showing intensified affection - matches pattern of comfort with spontaneous emotional declarations",
       "warmth: Uses kissing emoji 😚 for goodnight (more intimate than previous 😊), responds to partner's sexual desire statement with emphatic elongated affection 'You are sooooo cuuuuuuute' - maintains warmth even when topic shifts to explicit sexual content",
@@ -104,12 +104,14 @@
       "emotional_expressiveness: Uses elongated text 'Babyyyyy' and multiple crying emojis '😭😭😭😭' to express intense emotional/physical frustration - shows continued pattern of direct, unfiltered emotional expression even during sexually charged moments",
       "warmth: Maintains tender emotional expression 'I want to be next to you' even during explicit sexual arousal context - continues pattern of combining sexual desire with emotional connection and affection",
       "confidence: Independently sends videos (escalation from pictures) without request, takes initiative to inform partner about content sent to other channel - shows increased sexual confidence and comfort taking initiative in intimate content sharing (upgrade from 8)",
-      "warmth: Maintains 'Baby' endearment even during logistics announcement about video sharing - consistent pattern of affectionate language across all contexts"
+      "warmth: Maintains 'Baby' endearment even during logistics announcement about video sharing - consistent pattern of affectionate language across all contexts",
+      "confidence: Initiates explicit sexual scenarios with specific sequence details ('I want to lick you then sit on you when is all wet from me') - shows maximum sexual confidence and comfort leading intimate scenarios, describing her own arousal and actions (upgrade from 9)",
+      "emotional_expressiveness: Multiple crying emojis 😭😭😭😭 expressing intense frustration about distance, followed by explicit sexual scenario initiation and teasing question 'Do you know what i want' - shows maximum comfort expressing intense emotional distress and sexual desire simultaneously without filtering"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief announcement (8 words)",
-    "emoji_frequency": "none in this message (variable depending on context)",
+    "avg_message_length": "brief to medium (5-15 words per message)",
+    "emoji_frequency": "high during emotional distress (4 crying emojis in one message)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -128,7 +130,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate follow-through on intimate promises during aroused states",
+    "response_speed_tendency": "rapid sequential messages during heightened emotional/sexual states (4 messages sent in quick succession)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -342,34 +344,19 @@
     "multiple_channel_content_sharing": 9.2,
     "announcing_intimate_content_sent": 9.3,
     "escalating_from_pictures_to_videos": 9.4,
-    "taking_initiative_with_intimate_content": 9.7
+    "taking_initiative_with_intimate_content": 9.7,
+    "initiating_detailed_sexual_scenarios": 9.7,
+    "oral_sex_giving": 9.6,
+    "explicit_arousal_sequencing": 9.5,
+    "describing_her_own_wetness": 9.4,
+    "teasing_questions_about_desire": 9.6,
+    "leading_sexual_narrative": 9.7,
+    "describing_oral_to_riding_sequence": 9.5,
+    "wetness_from_oral_emphasis": 9.4,
+    "announcing_video_content": 9.6,
+    "multi_message_sexual_buildup": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "maintaining_consistent_communication_style_she_validates",
-      "engagement_boost": 4.3,
-      "evidence": "Laura explicitly stated user's communication style turns her on, and user's continued pattern (tender emoji usage, 'baby' endearment) maintains that arousing dynamic - consistency with validated approach sustains her sexual engagement and initiative"
-    },
-    {
-      "pattern": "making_picture_sharing_easy_and_safe",
-      "engagement_boost": 4.2,
-      "evidence": "User's 'You can send them here baby 🤍' provides clear answer with continued tender framing (white heart + endearment) - removing logistical friction while maintaining emotional safety appears to facilitate her comfort with intimate sharing"
-    },
-    {
-      "pattern": "responding_to_logistics_questions_with_warmth",
-      "engagement_boost": 3.9,
-      "evidence": "When Laura asks practical question 'Where do i send the pictures Here ? Or in the other chat', user's response includes 'baby 🤍' rather than just 'here' - maintaining affectionate tone during logistics discussion keeps intimate atmosphere consistent"
-    },
-    {
-      "pattern": "providing_clear_logistics_answer_for_intimate_sharing",
-      "engagement_boost": 4.1,
-      "evidence": "User's 'You can send them here baby 🤍' in response to Laura's 'Where do i send the pictures Here ? Or in the other chat' gets immediate confirmation 'Okay' - clear answer with continued tender framing facilitates her comfort proceeding with intimate picture sharing"
-    },
-    {
-      "pattern": "removing_decision_friction_during_aroused_state",
-      "engagement_boost": 3.9,
-      "evidence": "Laura asked logistics question during sexually charged moment, user provides direct answer rather than asking her preference - eliminating decision-making burden when she's aroused and ready to share gets immediate positive acknowledgment"
-    },
     {
       "pattern": "maintaining_endearment_during_practical_exchange",
       "engagement_boost": 3.7,
@@ -444,6 +431,31 @@
       "pattern": "not_micromanaging_intimate_sharing_logistics",
       "engagement_boost": 4.5,
       "evidence": "Despite user suggesting 'here' for pictures, Laura felt comfortable choosing other chat for videos and simply announcing the decision - giving her autonomy over how/where she shares intimate content maintains her sexual agency and initiative"
+    },
+    {
+      "pattern": "previous_explicit_exchange_enabling_her_sexual_leadership",
+      "engagement_boost": 5.2,
+      "evidence": "After entire conversation of explicit back-and-forth, Laura now initiates detailed sexual scenario with specific sequence (oral then riding) and describes her own arousal state - suggests the sexual atmosphere created enabled her to take full narrative control"
+    },
+    {
+      "pattern": "creating_space_for_her_to_lead_sexual_scenarios",
+      "engagement_boost": 5.3,
+      "evidence": "Laura transitions from expressing emotional frustration about distance directly into initiating explicit sexual scenario with specific sequence details - suggests user's responses (not captured) allowed her to process frustration and redirect into sexual expression on her own terms"
+    },
+    {
+      "pattern": "maintaining_engagement_through_distance_frustration",
+      "engagement_boost": 5.0,
+      "evidence": "After expressing intense frustration with multiple crying emojis, Laura immediately re-engages with teasing question and detailed sexual scenario - suggests user's handling of her emotional distress kept sexual atmosphere alive"
+    },
+    {
+      "pattern": "validated_communication_style_enabling_her_initiative",
+      "engagement_boost": 5.1,
+      "evidence": "Laura previously stated user's communication style turns her on, and now she's initiating increasingly explicit scenarios and asking teasing questions - sustained pattern suggests the validated approach continues to enable her sexual confidence and initiative"
+    },
+    {
+      "pattern": "allowing_her_to_choose_content_escalation_pace",
+      "engagement_boost": 4.9,
+      "evidence": "Laura independently escalates from videos announcement to user responding with explicit requests - her autonomous escalation suggests she feels comfortable controlling the pace and intensity of intimate content sharing"
     }
   ],
   "avoid_patterns": [
