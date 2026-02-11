@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:41:49.384000+09:00",
+  "last_updated": "2026-02-12T08:42:08.334056+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -67,7 +67,6 @@
     "confidence": 5,
     "warmth": 9,
     "observations": [
-      "warmth: Proactively reassures partner about picture commitment with 'Of course im going to send you pictures ❤️' - uses red heart emoji (escalation from previous white hearts) and 'of course' to emphasize reliability and care",
       "warmth: Emphatic reassurance with 'of course' affirming commitment to sending pictures, maintains consistent use of 'baby' endearment, escalates from white heart to red heart ❤️ in previous message showing deepening emotional warmth",
       "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm reliability and commitment - expresses reassurance with enthusiasm rather than just simple confirmation",
       "warmth: Proactively reassures partner with emphatic 'Of course im going to send you pictures ❤️' using red heart emoji (escalation from white hearts), then double-confirms with enthusiastic laughter 'Baby yes of course 😂😂' - shows she values being reliable and cares about partner's reassurance",
@@ -86,12 +85,13 @@
       "emotional_expressiveness: Uses 'Me too 🥹' with emotional vulnerability emoji to reciprocate romantic desire about wanting to lay together - shows comfort expressing mutual romantic longing directly",
       "warmth: Reciprocates romantic vulnerability immediately with 'Me too 🥹' using tender emotional emoji - shows consistent pattern of matching partner's emotional depth and affirming mutual feelings",
       "emotional_expressiveness: Escalates emotional expression dramatically: 'You are sooooo cuuuuuuute' with elongated letters showing intensified affection - matches pattern of comfort with spontaneous emotional declarations",
-      "warmth: Uses kissing emoji 😚 for goodnight (more intimate than previous 😊), responds to partner's sexual desire statement with emphatic elongated affection 'You are sooooo cuuuuuuute' - maintains warmth even when topic shifts to explicit sexual content"
+      "warmth: Uses kissing emoji 😚 for goodnight (more intimate than previous 😊), responds to partner's sexual desire statement with emphatic elongated affection 'You are sooooo cuuuuuuute' - maintains warmth even when topic shifts to explicit sexual content",
+      "emotional_expressiveness: Uses flushed/embarrassed emoji 😳 in response to explicit sexual desire statement about playing with her nipples - shows comfort expressing emotional reactions to sexual content with single expressive emoji rather than verbal response"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (1-4 words per message)",
-    "emoji_frequency": "moderate (1 per message in this sequence)",
+    "avg_message_length": "single emoji (no words)",
+    "emoji_frequency": "single emoji (standalone message)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -105,8 +105,8 @@
       "😚"
     ],
     "formality_level": "casual",
-    "humor_style": "affectionate teasing through elongated cuteness language",
-    "response_speed_tendency": "immediate when emotionally engaged (responded instantly to romantic vulnerability about laying together with 'Me too 🥹', then emphatic cuteness statement)",
+    "humor_style": "not applicable in this exchange",
+    "response_speed_tendency": "immediate response to explicit sexual content with emoji reaction",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -250,24 +250,13 @@
     "receiving_explicit_sexual_desire_statements": 9.1,
     "specific_body_part_focused_desire": 8.8,
     "nipple_play_interest": 8.7,
-    "responding_to_sexual_desire_with_affection": 9.3
+    "responding_to_sexual_desire_with_affection": 9.3,
+    "explicit_sexual_desire_statements": 8.9,
+    "specific_sexual_acts_mentioned": 8.8,
+    "nipple_focused_sexual_attention": 8.9,
+    "receiving_sexual_desire_after_affectionate_response": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_desire_to_see_her",
-      "engagement_boost": 2.5,
-      "evidence": "'I just wanna see your pictures haha 🥺' communicates missing her visually in playful vulnerable way with pleading emoji - frames picture request as emotional desire rather than demand"
-    },
-    {
-      "pattern": "reciprocating_affection_declarations_with_white_hearts",
-      "engagement_boost": 2.8,
-      "evidence": "Laura initiates 'I like you 😊' during bedtime; user responds 'I like you too 🤍' with white heart matching established tender appreciation pattern - reciprocates emotional vulnerability with consistent affectionate framing"
-    },
-    {
-      "pattern": "expressing_gratitude_for_bedtime_wishes",
-      "engagement_boost": 2.4,
-      "evidence": "User opens with 'Thank you baby 🤍 Have a good night' acknowledging her bedtime message and wishes - validates her communication with appreciation before adding own affection"
-    },
     {
       "pattern": "playful_vulnerability_about_shared_experiences",
       "engagement_boost": 2.9,
@@ -352,6 +341,21 @@
       "pattern": "specific_sexual_desire_after_bedtime_picture",
       "engagement_boost": 3.5,
       "evidence": "Laura shared bedtime picture and announced 'Im in bed', user responds with specific body-focused desire - timing after her visual intimate sharing and bedtime context appears to be well-received, gets enthusiastic affectionate response"
+    },
+    {
+      "pattern": "explicit_sexual_desire_after_she_gives_enthusiastic_affectionate_response",
+      "engagement_boost": 3.4,
+      "evidence": "After Laura's elongated affection 'You are sooooo cuuuuuuute', user follows with 'Please baby 🥺🤍' expressing continued desire - gets immediate emoji response 😳 showing she's engaged and processing the sexual content"
+    },
+    {
+      "pattern": "pleading_with_explicit_context",
+      "engagement_boost": 3.3,
+      "evidence": "'Please baby 🥺🤍' uses vulnerable pleading emoji and endearment while referencing previous explicit desire statement - maintains emotional connection while pursuing sexual topic, gets immediate reaction"
+    },
+    {
+      "pattern": "brief_pleading_after_detailed_sexual_desire",
+      "engagement_boost": 3.2,
+      "evidence": "User states explicit desire ('I wanna play with your nipples'), gets affectionate response, then follows with simple 'Please baby 🥺🤍' - this brief emotional plea after detailed statement appears effective at maintaining engagement without overwhelming"
     }
   ],
   "avoid_patterns": [
