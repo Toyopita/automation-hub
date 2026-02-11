@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:03:07.308359+09:00",
+  "last_updated": "2026-02-12T00:03:19.938682+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -54,7 +54,7 @@
       "😆"
     ],
     "formality_level": "very casual",
-    "humor_style": "light emoji-based expression of frustration (uses 🙄 for exasperation)",
+    "humor_style": "playful and teasing - uses rhetorical questions with laughter to show amusement and continue engagement",
     "response_speed_tendency": "varies significantly - slow when working (apologizes for delay), but fast when checking in on partner's wellbeing (time zone concern)",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -65,7 +65,8 @@
       "super hard",
       "No way",
       "Is too late there?",
-      "I love it"
+      "I love it",
+      "Haha yes?"
     ]
   },
   "topic_engagement": {
@@ -82,11 +83,6 @@
     "visual_media_sharing": 8.2
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_workload_empathetically",
-      "engagement_boost": 1.0,
-      "evidence": "User responded 'Yeah you've been working so much' which validated her stressed state about work and Japanese pause"
-    },
     {
       "pattern": "matching_affectionate_tone",
       "engagement_boost": 1.0,
@@ -181,6 +177,11 @@
       "pattern": "direct_sexual_communication",
       "engagement_boost": 1.4,
       "evidence": "User explicitly expressed desire to share intimate content - Laura had already responded positively to the video with enthusiasm, indicating comfort with direct sexual communication in established relationship"
+    },
+    {
+      "pattern": "playful_escalation_of_intimate_topics",
+      "engagement_boost": 1.5,
+      "evidence": "Laura responds to continued intimate conversation with playful rhetorical question 'Haha yes?' showing comfort and amusement with the direction of conversation"
     }
   ],
   "avoid_patterns": [],
