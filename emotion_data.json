@@ -13905,6 +13905,59 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:54:56.996288+09:00",
+      "summary": "Are you at home ? ",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 10,
+        "concern": 6
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中の実務的確認。動画やヌード送信の前に相手が安全な場所（プライベートな環境）にいるか気遣っている。高い性的興奮状態だが、相手への配慮も見せている",
+      "trigger": {
+        "message": "I'd fuck you so good when I ride you baby... You want my spit? Want me to slap that ass? 😏 Show me your pussy right now 🤍",
+        "sent_at": "2026-02-12T08:54:11.769948+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 0,
+        "concern": 1
+      }
     }
   ]
 }
