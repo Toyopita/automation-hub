@@ -13072,6 +13072,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:40:14.502248+09:00",
+      "summary": "You are sooooo cuuuuuuute ",
+      "scores": {
+        "mood": 10,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "文字を伸ばして感情を強調。彼の甘い言葉に対する愛情表現",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 5,
+        "future": -1,
+        "engagement": 2
+      }
     }
   ]
 }
