@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I sleep so early ",
-    "time": "09:04"
-  },
-  {
-    "role": "laura",
     "text": "I do use Instagram but i wanted to delete my account ",
     "time": "09:04"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Someone told me the best way to learn it is to get a boyfriend who's a native haha",
     "time": "23:11"
+  },
+  {
+    "role": "laura",
+    "text": "You think ??",
+    "time": "23:56"
   }
 ]
