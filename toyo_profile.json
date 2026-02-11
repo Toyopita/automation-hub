@@ -1,0 +1,27 @@
+{
+  "name": "Toyo",
+  "basics": {
+    "occupation": "事務職（デスクワーク中心）。たまにエンジニア的な仕事もする",
+    "occupation_en": "Office worker (mostly desk work). Sometimes does engineering-type work too",
+    "origin": "Born and raised in Japan",
+    "location": "Lives in Japan",
+    "timezone": "Asia/Tokyo",
+    "languages": ["Japanese (native)", "English (learning, uses translation tools)"],
+    "age_range": null
+  },
+  "work": {
+    "schedule": "Usually finishes around 6-7pm, but sometimes events run late",
+    "style": "Has big events and ceremonies occasionally. Lots of standing in formal clothes",
+    "feelings": "Likes the work - feels meaningful"
+  },
+  "personality": {
+    "communication_style": "Casual, uses haha, sometimes playful/teasing",
+    "humor": "Light, playful, uses 😏 for flirty moments",
+    "traits": ["Easygoing", "Curious about others", "Confident but not pushy"]
+  },
+  "interests": [],
+  "notes": [
+    "Uses LINE translation tool for English conversations",
+    "Presented this naturally to contacts as a language learning aid"
+  ]
+}
