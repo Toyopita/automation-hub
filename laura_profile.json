@@ -1,13 +1,14 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:10:53.118080+09:00",
+  "last_updated": "2026-02-12T01:11:41.967019+09:00",
   "facts": {
     "age": null,
     "location": null,
     "occupation": null,
     "hobbies": [
-      "reads Japanese books"
+      "reads Japanese books",
+      "goes to the gym"
     ],
     "family": [],
     "languages": [],
@@ -34,7 +35,8 @@
       "comfortable with explicit sexual communication in established relationship",
       "experiences interruptions to intimate conversations due to work",
       "works during late evening/night hours (working around midnight JST)",
-      "willing to share pictures of herself when partner wants to see her"
+      "willing to share pictures of herself when partner wants to see her",
+      "goes to gym later in the day (not morning)"
     ]
   },
   "personality": {
@@ -55,7 +57,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence offering solution",
+    "avg_message_length": "single short sentence",
     "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "🥺",
@@ -67,7 +69,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this message",
-    "response_speed_tendency": "responsive to partner's expressed desires with practical solutions",
+    "response_speed_tendency": "responsive when answering specific questions about daily activities",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -140,7 +142,7 @@
     "direct_sexual_preference_questions": 7.2,
     "instagram_stories": 7.5,
     "partner_daily_activities": 7.8,
-    "gym_routine": 7.2,
+    "gym_routine": 7.4,
     "maintaining_visual_connection": 8.1,
     "noticing_partner_absence": 8.3,
     "visual_connection_maintenance": 9.2,
@@ -149,16 +151,6 @@
     "offering_visual_presence": 9.1
   },
   "effective_patterns": [
-    {
-      "pattern": "building_on_validated_romantic_themes",
-      "engagement_boost": 2.0,
-      "evidence": "After Laura validated 'wanna hold you' with 'Thats cute', user expands to 'wanna sleep beside you' - building on positively received romantic gesture with deeper intimacy creates natural emotional progression"
-    },
-    {
-      "pattern": "framing_physical_closeness_as_comfort_need",
-      "engagement_boost": 1.9,
-      "evidence": "User says 'Honestly I just wanna sleep beside you right now' - framing desire for her presence as genuine emotional need rather than just romantic gesture resonates deeply with Laura ('Oww' response)"
-    },
     {
       "pattern": "expressing_mutual_desire_for_non_sexual_closeness",
       "engagement_boost": 2.3,
@@ -248,6 +240,16 @@
       "pattern": "framing_picture_sharing_as_if_then_offer",
       "engagement_boost": 2.3,
       "evidence": "'If you want to see me i can send you pictures' - conditional phrasing gives partner agency to accept or decline, making offer feel generous rather than presumptuous"
+    },
+    {
+      "pattern": "following_up_on_casual_daily_activity_questions",
+      "engagement_boost": 1.7,
+      "evidence": "After user asked 'Did you go to the gym today?', Laura provides straightforward answer 'I go to the gym later' - shows she responds well to simple questions about her routine"
+    },
+    {
+      "pattern": "asking_about_established_routine_activities",
+      "engagement_boost": 1.6,
+      "evidence": "User's question about gym indicates he knows she has this routine; Laura confirms with specific timing detail 'later' - questions about known activities demonstrate attentiveness and get informative responses"
     }
   ],
   "avoid_patterns": [
