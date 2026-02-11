@@ -10794,6 +10794,56 @@
         "future": 2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T22:31:50.061641+09:00",
+      "summary": "Japanesse is super hard 🙄",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本語学習の愚痴。目を回す絵文字で軽い不満を表現。彼が「難しいよね」と共感してくれたので同意してる感じ",
+      "trigger": {
+        "message": "Good morning baby 🤍 Yeah you've been working so much. Japanese is hard anyway haha",
+        "sent_at": "2026-02-11T22:19:21.587791+09:00",
+        "category": "support",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 12
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -3,
+        "longing": -2,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": 1,
+        "future": -2,
+        "engagement": -3
+      }
     }
   ]
 }
