@@ -12611,6 +12611,56 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:34:25.924300+09:00",
+      "summary": "I like anime but horror anime ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "趣味の話題を共有している。彼の質問に積極的に答えている。",
+      "trigger": {
+        "message": "You went haha that's good baby 🤍\n\nNot really an anime person but I watched Chi the other day. Do you watch a lot?",
+        "sent_at": "2026-02-12T08:33:46.873247+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
