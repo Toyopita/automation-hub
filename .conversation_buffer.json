@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I like you Laura 🤍",
-    "time": "00:57"
-  },
-  {
     "role": "laura",
     "text": "Are you going to sleep? ",
     "time": "00:57"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I take pictures and send you later baby ",
     "time": "01:13"
+  },
+  {
+    "role": "laura",
+    "text": "Im going to the bank and an old man stopped me to say to me i was beautiful 😂😂😂",
+    "time": "01:14"
   }
 ]
