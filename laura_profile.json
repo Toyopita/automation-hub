@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:03:34.137704+09:00",
+  "last_updated": "2026-02-12T00:04:20.117888+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -29,7 +29,8 @@
       "sleeps early",
       "uses Instagram but wants to delete account",
       "finds Japanese very difficult",
-      "watches linguistic content on YouTube"
+      "watches linguistic content on YouTube",
+      "currently working during this conversation time"
     ]
   },
   "personality": {
@@ -67,7 +68,8 @@
       "Is too late there?",
       "I love it",
       "Haha yes?",
-      "You want me to look at you all the Time"
+      "You want me to look at you all the Time",
+      "Im working"
     ]
   },
   "topic_engagement": {
