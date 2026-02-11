@@ -14001,6 +14001,57 @@
         "future": 1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:57:13.788650+09:00",
+      "summary": "Why you share your Line 😂😂",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中に突然の軽いツッコミ。彼がLINEを他のチャットで共有していることへの笑いながらの指摘",
+      "trigger": {
+        "message": "Put me between them baby 🤤",
+        "sent_at": "2026-02-12T08:56:29.422768+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": -3,
+        "longing": -7,
+        "eros": -8,
+        "ds": -5,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": -3
+      }
     }
   ]
 }
