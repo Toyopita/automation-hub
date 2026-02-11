@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:54:38.197152+09:00",
+  "last_updated": "2026-02-12T08:55:06.601542+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -130,13 +130,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "rapid sequential messages during heightened emotional/sexual states (4 messages sent in quick succession)",
+    "response_speed_tendency": "initiates questions about partner's location/status",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Oww",
       "Me too",
       "Thats Lovely really",
       "kinda miss that haha",
@@ -165,7 +164,8 @@
       "In already wet",
       "this is sooo bad",
       "Do you know what i want",
-      "vidéos"
+      "vidéos",
+      "Are you at home ?"
     ]
   },
   "topic_engagement": {
@@ -354,7 +354,9 @@
     "describing_oral_to_riding_sequence": 9.5,
     "wetness_from_oral_emphasis": 9.4,
     "announcing_video_content": 9.6,
-    "multi_message_sexual_buildup": 9.5
+    "multi_message_sexual_buildup": 9.5,
+    "partner_location_awareness": 7.8,
+    "checking_partner_availability": 8.2
   },
   "effective_patterns": [
     {
