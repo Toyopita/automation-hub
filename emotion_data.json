@@ -11662,6 +11662,99 @@
         "future": 2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:59:15.209336+09:00",
+      "summary": "Oww ",
+      "scores": {
+        "mood": 9,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "感動して言葉少なめ。彼の「抱きしめたい」発言に心を打たれている",
+      "trigger": {
+        "message": "The way that makes me wanna hold you haha 🤍",
+        "sent_at": "2026-02-12T00:58:25.128966+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night",
+          "+vulnerable"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -6,
+        "future": -1,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-12T00:59:17.650727+09:00",
+      "summary": "Thats cute ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の甘い言葉に素直に喜んでいる。🥹の絵文字と合わせて感動している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
