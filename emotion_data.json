@@ -10702,6 +10702,56 @@
         "future": -1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-11T20:01:55.857587+09:00",
+      "summary": "Hi baby ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルな挨拶。起きたか戻ってきたところ",
+      "trigger": {
+        "message": "Oh I just thought of something haha You're learning Japanese right?",
+        "sent_at": "2026-02-11T15:48:30.798684+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 253
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 3
+      }
     }
   ]
 }
