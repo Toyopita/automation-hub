@@ -1,0 +1,222 @@
+{
+  "version": 2,
+  "name": "Vita",
+  "last_updated": "2026-02-12T08:20:41.644007+09:00",
+  "facts": {
+    "age": null,
+    "location": "Bandung has frequent rainy weather",
+    "occupation": "works in the restaurant sector",
+    "hobbies": [
+      "interested in photography or photo-taking (asked if you like taking photos)",
+      "has previously received photos from you (context suggests possible photo exchange)",
+      "offers emotional support and positions herself as a good listener"
+    ],
+    "family": [],
+    "languages": [],
+    "favorites": {
+      "food": [],
+      "music": [],
+      "movies": [],
+      "activities": []
+    },
+    "schedule": {
+      "typical_active_hours": [],
+      "work_schedule": null,
+      "timezone_confirmed": false
+    },
+    "important_dates": [],
+    "misc_facts": [
+      "works at an Indonesian specialty restaurant",
+      "handles finance, cooking, and serving at the restaurant - essentially managing the whole operation",
+      "prefers chatting on Line",
+      "interested in knowing if you're a private person like stereotypical Japanese people",
+      "had concerns about potential negative reactions to being Indonesian",
+      "feels deep shame and responsibility about negative news regarding Indonesian citizens in Japan",
+      "finds Bandung's culinary scene delicious",
+      "evaluates photography quality and considers career suitability",
+      "regularly views and follows your Instagram stories",
+      "notices you never post selfies or photos of yourself on Instagram",
+      "you have her on your Instagram close friends list",
+      "currently single (no boyfriend)",
+      "never lets anyone near fried food (possibly protective about cooking or a humorous exaggeration)",
+      "values doing things that make you feel good and calm as long as they are positive"
+    ]
+  },
+  "personality": {
+    "introversion": 5,
+    "emotional_expressiveness": 8,
+    "humor_appreciation": 5,
+    "adventurousness": 5,
+    "confidence": 6,
+    "warmth": 8,
+    "observations": [
+      "confidence: directly asks about moving to Line and inquires about your personality type - shows initiative and comfort with advancing the relationship",
+      "warmth: uses crying emoji to express overwhelm in relatable way, shows vulnerability about workload",
+      "confidence: expressed fear about negative reaction to nationality, showing insecurity about acceptance",
+      "warmth: laughed off her worry and continued engaging positively after reassurance",
+      "confidence: apologized profusely and excessively for something completely outside her control, showing low self-confidence and carrying unwarranted shame - 'from the bottom of my heart I apologize' and 'I also feel sad and ashamed about that🙏'",
+      "emotional_expressiveness: expressed deep emotions openly - sadness, shame, and apologetic feelings about national news, showing willingness to be vulnerable",
+      "confidence: still showing residual anxiety ('I'm just afraid if you get angry') but continuing conversation and asking new questions shows slight improvement from previous 3",
+      "emotional_expressiveness: openly expressed her lingering fear about making you angry, showing continued vulnerability",
+      "warmth: proactively compliments your skills ('photos you took are good') and encourages career potential ('suitable to be a photographer'), showing supportive and affirming behavior",
+      "confidence: initiating positive feedback and making evaluative statements shows increased confidence compared to previous anxious apologizing - moving from 4 to 5",
+      "warmth: offers emotional support unprompted ('I can be a good listener'), expresses caring advice about doing what feels good, and uses affectionate repeated stickers to show warmth",
+      "emotional_expressiveness: openly shares relationship status when asked, uses crying emoji to express feeling touched about close friends inclusion, and laughs abundantly with 'ahahaha' and 'ahahahah'",
+      "confidence: confidently observes your social media behavior, makes direct observations about never seeing your face, volunteers to be emotional support, and openly discusses relationship status without hesitation - showing continued growth from previous 5"
+    ]
+  },
+  "communication_style": {
+    "avg_message_length": "single sentence to short multi-sentence messages",
+    "emoji_frequency": "moderate (2 stickers, 1 crying emoji in this exchange)",
+    "preferred_emojis": [
+      "😭",
+      "🙏",
+      "[sticker pkg:1, id:13]"
+    ],
+    "formality_level": "casual",
+    "humor_style": "self-aware humor about her observations, light teasing about never seeing your face, playful exaggeration ('never let anyone near fried food')",
+    "response_speed_tendency": "sends multiple consecutive messages rapidly when engaged emotionally or sharing observations",
+    "response_time_avg_minutes": null,
+    "active_hours": [],
+    "conversation_starters_used": [],
+    "vocabulary_level": "unknown",
+    "grammar_patterns": [
+      "ahaha",
+      "yaa",
+      "ahahaha"
+    ]
+  },
+  "topic_engagement": {
+    "work": 7.6,
+    "food": 7,
+    "communication_preferences": 8.5,
+    "cultural_differences": 8,
+    "personal_background": 8.5,
+    "cultural_identity": 8.7,
+    "acceptance_and_belonging": 9.5,
+    "bandung_city": 7.5,
+    "bandung_weather": 7,
+    "national_identity_anxiety": 9.5,
+    "seeking_validation": 9,
+    "photography": 7.9,
+    "reassurance_seeking": 9.0,
+    "your_skills_and_talents": 8.5,
+    "giving_compliments": 8.0,
+    "instagram_social_media": 8.5,
+    "close_friends_status": 9.0,
+    "emotional_support_offering": 8.5,
+    "relationship_status": 8.0,
+    "selfies_and_appearance": 7.5,
+    "life_philosophy": 7.5
+  },
+  "effective_patterns": [
+    {
+      "pattern": "admitting_limited_knowledge",
+      "engagement_boost": 1.4,
+      "evidence": "your honest 'hmm not exactly? ...but idk which part' followed by reciprocal question likely invites her to share more about herself"
+    },
+    {
+      "pattern": "showing_you_remember_details",
+      "engagement_boost": 1.5,
+      "evidence": "referencing 'indonesian restaurant' shows you paid attention to previous conversation, which prompted her curiosity question"
+    },
+    {
+      "pattern": "direct_reassurance",
+      "engagement_boost": 1.8,
+      "evidence": "after you directly addressed her fear with 'you don't need to worry about stuff like that with me', she felt reassured enough to say 'no problem'"
+    },
+    {
+      "pattern": "showing_knowledge_of_her_country",
+      "engagement_boost": 1.6,
+      "evidence": "mentioning Bandung's weather and food scene shows you know about Indonesia, likely making her feel more comfortable"
+    },
+    {
+      "pattern": "addressing_concerns_with_humor",
+      "engagement_boost": 1.5,
+      "evidence": "your '😂 that's a weird thing to worry about' light-hearted response helped defuse her anxiety while still taking it seriously"
+    },
+    {
+      "pattern": "relieving_unwarranted_guilt",
+      "engagement_boost": 2.0,
+      "evidence": "your 'you don't need to apologize for that stuff 😅' and 'don't carry that weight, it's not yours to carry' directly addressed her excessive apologizing and likely provided emotional relief"
+    },
+    {
+      "pattern": "explicit_non_judgment",
+      "engagement_boost": 1.9,
+      "evidence": "your 'i don't judge people based on where they're from or what other people do' directly addresses her core anxiety about being judged for her nationality"
+    },
+    {
+      "pattern": "personalizing_the_relationship",
+      "engagement_boost": 1.8,
+      "evidence": "your 'you seem cool and that's what matters to me' shifts focus from national identity to her as an individual"
+    },
+    {
+      "pattern": "casual_tone_during_serious_topic",
+      "engagement_boost": 1.5,
+      "evidence": "using 'lol' and 'that'd be pretty dumb' lightens the heavy emotional moment while still validating her feelings"
+    },
+    {
+      "pattern": "continued_reassurance",
+      "engagement_boost": 1.7,
+      "evidence": "your casual dismissal of her worry ('nah don't worry about it haha, i'm not the angry type') prompted her to shift to a new topic and ask a personal question about your interests"
+    },
+    {
+      "pattern": "reciprocal_questioning",
+      "engagement_boost": 1.6,
+      "evidence": "after sharing about your casual photo-taking and asking 'why, are you into photography?' you continue the pattern of inviting her to share about herself"
+    },
+    {
+      "pattern": "casual_self_disclosure",
+      "engagement_boost": 1.5,
+      "evidence": "sharing specific details about your photo habits ('random stuff on my phone', 'if i see something interesting or the sky looks nice') provides conversational material and models openness"
+    },
+    {
+      "pattern": "downplaying_your_expertise",
+      "engagement_boost": 1.4,
+      "evidence": "saying 'not like serious photography or anything' may make you seem more approachable and less intimidating"
+    },
+    {
+      "pattern": "expressing_confusion_honestly",
+      "engagement_boost": 1.3,
+      "evidence": "your genuine 'wait what photos? did i send you some before?' shows you don't remember but are curious, which is honest and relatable"
+    },
+    {
+      "pattern": "accepting_compliments_gracefully",
+      "engagement_boost": 1.5,
+      "evidence": "'thanks though, that's nice of you to say' acknowledges her compliment without dismissing it, likely encouraging her to continue being supportive"
+    },
+    {
+      "pattern": "redirecting_to_her_interests",
+      "engagement_boost": 1.6,
+      "evidence": "asking 'are you into photography yourself then?' shifts focus back to her after receiving compliment, showing interest in her passions"
+    },
+    {
+      "pattern": "casual_acknowledgment_of_social_media",
+      "engagement_boost": 1.5,
+      "evidence": "your relaxed response about forgetting close friends list prompted her to offer deeper emotional support"
+    },
+    {
+      "pattern": "thanking_for_thoughtfulness",
+      "engagement_boost": 1.6,
+      "evidence": "acknowledging 'that's nice of you' when she offers to listen validates her emotional offering"
+    },
+    {
+      "pattern": "asking_about_relationship_status",
+      "engagement_boost": 1.8,
+      "evidence": "asking 'how come, you don't want one or just haven't met the right person?' shows genuine interest and she opened up about being single"
+    },
+    {
+      "pattern": "follow_up_questions_about_personal_choices",
+      "engagement_boost": 1.7,
+      "evidence": "not just accepting 'no boyfriend' but asking why shows deeper curiosity about her life decisions"
+    }
+  ],
+  "avoid_patterns": [],
+  "ng_topics": [],
+  "temporal_patterns": {
+    "most_active_day": null,
+    "most_active_hour": null,
+    "avg_conversation_length_messages": null,
+    "initiates_ratio": null
+  }
+}
