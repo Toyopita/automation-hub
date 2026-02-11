@@ -11465,6 +11465,58 @@
         "future": 4,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:15:10.440227+09:00",
+      "summary": "Haha did you taste it? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 6,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈で好奇心と遊び心を持って応答している。彼の行為に興味を示しつつ、軽いトーンを保っている。",
+      "trigger": {
+        "message": "I've been edging to taste just a little of my own cum baby 😏 Practicing stopping right before",
+        "sent_at": "2026-02-12T00:14:00.092058+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+spontaneous",
+          "+escalation",
+          "+late_night"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 1,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": 3,
+        "future": -4,
+        "engagement": 4
+      }
     }
   ]
 }
