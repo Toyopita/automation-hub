@@ -1,0 +1,295 @@
+{
+  "version": 2,
+  "name": "Michelle",
+  "last_updated": "2026-02-11T22:48:56.763048+09:00",
+  "facts": {
+    "age": null,
+    "location": "フィリピン（ビーチまで車15分の場所）",
+    "occupation": "Sales lady at cosmetics store in mall",
+    "hobbies": [
+      "Interested in hip hop music",
+      "Participated in dance battles and/or music battles",
+      "Currently competes in dance competitions in local area when available",
+      "Dancing is conditional/event-based rather than regular practice",
+      "School activities were mentally and physically exhausting, suggesting high intensity dance/performance culture",
+      "Competes in both local street competitions and organized events"
+    ],
+    "family": [],
+    "languages": [
+      "English"
+    ],
+    "favorites": {
+      "food": [],
+      "music": [],
+      "movies": [],
+      "activities": [
+        "海/ビーチ（仕事後すぐ行くほど好き）"
+      ]
+    },
+    "schedule": {
+      "typical_active_hours": [],
+      "work_schedule": "日中勤務、夕方前に終了",
+      "timezone_confirmed": false
+    },
+    "important_dates": [],
+    "misc_facts": [
+      "2026-02-11: 仕事終わりにビーチへ（車15分）、水着で過ごしている",
+      "他の男からのDMが多い（1時間で結婚の話をする人もいる）",
+      "Toyoのことは変な人じゃないと好意的に受け取っている",
+      "翻訳ツール使用に理解あり（英語コンテンツ読むのも勧めてくれた）",
+      "LINE移行もスムーズに受け入れた",
+      "好奇心旺盛で相手の生活パターンに興味を持つ",
+      "Works in cosmetics/beauty retail environment",
+      "Beauty standard in Philippines emphasizes natural beauty over makeup",
+      "Feels empathy for Toyo's exhausting work despite not doing it herself",
+      "Attended school that held monthly dance and music battles",
+      "PE class took up almost half of school hours",
+      "Single, not currently in a relationship",
+      "Someone is currently pursuing her but she rejected him for being too arrogant",
+      "Men in Philippines are very direct/forward about romantic interest",
+      "Dislikes arrogance in romantic partners",
+      "Approaches dance competitions with low-pressure mindset - focuses on enjoyment over winning",
+      "Self-describes as 'not a good dancer' despite competing regularly",
+      "Uses mental strategy of not thinking about competition context to reduce pressure during performances",
+      "Four different men have told her 'you're lucky I chose you but you rejected me' when she rejected their confessions",
+      "Uses humor (😂 emoji) when discussing frustrating romantic experiences, showing emotional resilience",
+      "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making"
+    ]
+  },
+  "personality": {
+    "introversion": 3,
+    "emotional_expressiveness": 8,
+    "humor_appreciation": 9,
+    "adventurousness": 9,
+    "confidence": 8,
+    "warmth": 8,
+    "observations": [
+      "Finds Toyo's work interesting and notices his enjoyment of it",
+      "Uses 'haha' frequently as conversation filler/softener",
+      "Self-aware about her job (uses 'haha' when describing it, possibly modest about it)",
+      "observations: ohh that's interesting and it seems like you enjoy your work haha",
+      "confidence: Playfully jokes about being attractive in other countries with humor rather than insecurity; comfortable discussing beauty standards",
+      "humor_appreciation: Responds enthusiastically to Toyo's playful/flirty humor about cosmetics sales lady dancing",
+      "adventurousness: Actively competes in dance competitions currently, not just past participation - shows ongoing willingness to perform publicly",
+      "adventurousness: Participates in both street and formal competitions, showing comfort with various performance contexts",
+      "confidence: Comfortable rejecting pursuers who don't meet her standards; willing to disclose relationship status openly without hesitation",
+      "confidence: Downgraded from 8 to 7 - describes herself as 'not a good dancer' despite active competition participation, showing modest self-assessment",
+      "adventurousness: Confirmed at 9 - competes despite self-perceived skill limitations, prioritizes enjoyment over performance anxiety",
+      "confidence: Upgraded from 7 to 8 - Clearly articulates her standards and doesn't second-guess rejecting multiple men despite social pressure; frames their entitled responses as their problem, not hers",
+      "emotional_expressiveness: Upgraded from 7 to 8 - Willing to share detailed frustrating experiences with specific quotes and emotional context; expresses frustration openly while maintaining humor"
+    ]
+  },
+  "communication_style": {
+    "avg_message_length": "longer when explaining frustrating experiences (3+ sentences with specific examples)",
+    "emoji_frequency": "moderate (1 emoji when discussing emotional topics)",
+    "preferred_emojis": [
+      "😆",
+      "😂",
+      "👌🏻",
+      "😊"
+    ],
+    "formality_level": "casual",
+    "humor_style": "self-deprecating with resilient framing - uses 😂 emoji to lighten serious relationship frustrations; treats absurd situations with comedic distance",
+    "response_speed_tendency": "detailed single message when sharing relationship experiences - consolidates multiple examples into one comprehensive response",
+    "response_time_avg_minutes": null,
+    "active_hours": [],
+    "conversation_starters_used": [],
+    "vocabulary_level": "conversational",
+    "grammar_patterns": [
+      "lowercase heavy",
+      "haha/hehe as filler",
+      "run-on casual sentences",
+      "sick"
+    ]
+  },
+  "topic_engagement": {
+    "beach_outdoor": {
+      "interest": 9,
+      "notes": "自分から話題にする、写真も投稿"
+    },
+    "work": {
+      "interest": 5,
+      "notes": "軽く触れる程度"
+    },
+    "dating_humor": {
+      "interest": 7,
+      "notes": "変なDMの話で盛り上がる"
+    },
+    "work_life_balance": 7,
+    "daily_schedule": 8,
+    "work_discussion": {
+      "interest": 7,
+      "notes": "Reciprocated work talk after Toyo shared his; willing to disclose occupation"
+    },
+    "makeup_skincare": {
+      "interest": null,
+      "notes": "Interest level unclear - Toyo asked but she hasn't responded yet"
+    },
+    "observing_others": {
+      "interest": 8,
+      "notes": "Actively notices and comments on whether Toyo enjoys his work, shows attentiveness"
+    },
+    "beauty_standards": {
+      "interest": 6,
+      "notes": "Willing to discuss but uses 'haha' as deflection, possibly sensitive topic due to social pressure"
+    },
+    "hip_hop_music": {
+      "interest": 7,
+      "notes": "Initiated question about hip hop, suggesting genuine interest"
+    },
+    "empathy_sharing": {
+      "interest": 8,
+      "notes": "Voluntarily expressed understanding about Toyo's work being exhausting"
+    },
+    "compliments_flirting": {
+      "interest": null,
+      "notes": "Toyo gave flirty compliment - response pending, will show how she handles romantic interest"
+    },
+    "dance_performance": {
+      "interest": 8,
+      "notes": "Revealed participation in dance/music battles, suggesting active performance background"
+    },
+    "beauty_standards_continued": {
+      "interest": 7,
+      "notes": "More comfortable discussing now; uses humor to frame insecurities positively rather than dwelling on negatives"
+    },
+    "school_culture": {
+      "interest": 7,
+      "notes": "Willing to share details about school activities/culture when asked"
+    },
+    "dance_competition_current": {
+      "interest": 8,
+      "notes": "Still actively participates when opportunities arise; willing to elaborate on current involvement"
+    },
+    "school_PE_culture": {
+      "interest": 7,
+      "notes": "Shares details about unusual school structure with humor, suggesting comfort discussing educational background"
+    },
+    "dance_competition_details": {
+      "interest": 8,
+      "notes": "Willing to specify types of competitions she participates in, showing comfort discussing her performance activities"
+    },
+    "school_intensity": {
+      "interest": 7,
+      "notes": "Shares candidly about challenging aspects of school with humor, suggesting she's comfortable discussing past experiences"
+    },
+    "relationship_status": 8,
+    "local_dating_culture": 7,
+    "personal_standards": 8,
+    "dance_mindset_philosophy": 8,
+    "self_assessment": 7,
+    "local_dating_entitlement": 9,
+    "relationship_frustrations": 9,
+    "gender_dynamics": 8
+  },
+  "effective_patterns": [
+    {
+      "pattern": "being_realistic_about_work_challenges",
+      "engagement_boost": 1.4,
+      "evidence": "Toyo's honest 'yeah the work can be rough but it's fine' elicited empathetic response from Michelle"
+    },
+    {
+      "pattern": "reciprocating_music_interest",
+      "engagement_boost": null,
+      "evidence": "Toyo responded positively to hip hop question and asked back - engagement level pending"
+    },
+    {
+      "pattern": "flirty_compliments_with_confidence",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'you're probably attractive in a lot of places' comment - response pending but shows progression to flirtier tone"
+    },
+    {
+      "pattern": "expressing_genuine_excitement_about_her_background",
+      "engagement_boost": 2.0,
+      "evidence": "Toyo's 'that's sick honestly' and genuine curiosity about dance battles prompted detailed response"
+    },
+    {
+      "pattern": "playful_contrast_observation",
+      "engagement_boost": 1.8,
+      "evidence": "Toyo's humorous comment about cosmetics lady who can dance battle shows he's building a fuller picture of her and finding the contrast amusing/interesting"
+    },
+    {
+      "pattern": "asking_for_participation_details",
+      "engagement_boost": 1.5,
+      "evidence": "Asking 'did you compete or just watch?' gave her opportunity to reveal more active involvement than expected"
+    },
+    {
+      "pattern": "expressing_surprise_at_unusual_details",
+      "engagement_boost": 1.7,
+      "evidence": "Toyo's 'that's wild haha' reaction to PE duration validates her experience as noteworthy and prompts further sharing"
+    },
+    {
+      "pattern": "asking_specific_follow_up_about_current_activities",
+      "engagement_boost": null,
+      "evidence": "Question about competition types pending response - shows progression from past to present involvement"
+    },
+    {
+      "pattern": "acknowledging_skill_level",
+      "engagement_boost": 1.6,
+      "evidence": "Toyo's 'dancing that much is no joke' validates the difficulty she mentioned, prompting more detailed competition info"
+    },
+    {
+      "pattern": "validating_legitimacy_of_activity",
+      "engagement_boost": 1.7,
+      "evidence": "Toyo's 'that's pretty legit' affirms her competition participation, creating positive reinforcement"
+    },
+    {
+      "pattern": "asking_about_recency_and_frequency",
+      "engagement_boost": null,
+      "evidence": "Questions about last competition and practice frequency pending response - shows deeper interest in current involvement"
+    },
+    {
+      "pattern": "humorous_reality_check_questions",
+      "engagement_boost": null,
+      "evidence": "'or just kinda show up when there's a comp? 😂' uses humor to ask if she's casual vs serious about practice - response pending"
+    },
+    {
+      "pattern": "asking_open_ended_relationship_questions",
+      "engagement_boost": null,
+      "evidence": "Toyo's direct questions about relationship status and intentions ('not really looking or just haven't found the right person yet?') - response pending but question framing shows progression to deeper personal topics"
+    },
+    {
+      "pattern": "validating_her_approach_positively",
+      "engagement_boost": 1.8,
+      "evidence": "Toyo's affirmation 'i like that mindset though' and explanation of why it works prompted her to open up about performance philosophy"
+    },
+    {
+      "pattern": "reframing_modesty_as_strength",
+      "engagement_boost": 1.9,
+      "evidence": "Toyo's 'probably why you do well actually' reframes her self-deprecation into a competitive advantage, showing he sees value in her approach"
+    },
+    {
+      "pattern": "connecting_mindset_to_results",
+      "engagement_boost": 1.7,
+      "evidence": "Linking her low-pressure approach to performance success ('that's kinda the best way to perform') validates her strategy with logic rather than just flattery"
+    },
+    {
+      "pattern": "validating_her_rejection_decisions",
+      "engagement_boost": 2.1,
+      "evidence": "Toyo's 'yeah no wonder you rejected them lmao' validates her judgment, prompting her to share specific number (4) and detailed quotes from men"
+    },
+    {
+      "pattern": "expressing_empathy_for_dating_challenges",
+      "engagement_boost": 1.9,
+      "evidence": "Toyo's 'sounds exhausting dealing with that honestly' acknowledges emotional labor of repeated entitled rejections"
+    },
+    {
+      "pattern": "calling_out_absurd_mentality",
+      "engagement_boost": 2.0,
+      "evidence": "Toyo's paraphrasing 'you should be grateful i even noticed you' shows he understands the entitlement dynamic, creating alliance against that behavior"
+    },
+    {
+      "pattern": "surprise_at_scale_of_problem",
+      "engagement_boost": 1.8,
+      "evidence": "Toyo's 'wait four guys said that to you?? 😂' validates that this is an unusual/excessive amount of entitled behavior to deal with"
+    }
+  ],
+  "avoid_patterns": [],
+  "ng_topics": [],
+  "temporal_patterns": {
+    "most_active_day": null,
+    "most_active_hour": null,
+    "avg_conversation_length_messages": null,
+    "initiates_ratio": null
+  }
+}
