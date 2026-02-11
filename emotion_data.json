@@ -13114,6 +13114,101 @@
         "future": -1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:41:40.707880+09:00",
+      "summary": "Can you do something for me ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前の性的な発言に😳で反応した後、何かを頼もうとしている。文脈的には性的な要求か、または話題転換の可能性",
+      "trigger": {
+        "message": "I wanna play with your nipples so bad baby 🤍",
+        "sent_at": "2026-02-12T08:40:19.396632+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+sensory"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 10,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": -3,
+        "future": 2,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:41:42.138968+09:00",
+      "summary": "Please ",
+      "scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 7,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 9,
+        "flirtatiousness": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的なメッセージに反応して、何かをお願いしようとしている。2回「Please」を送っているので強調されている。submissiveな雰囲気が出ている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 5,
+        "playfulness": -1,
+        "future": -2,
+        "engagement": 1,
+        "flirtatiousness": 1
+      }
     }
   ]
 }
