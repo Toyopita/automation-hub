@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:04:22.503481+09:00",
+  "last_updated": "2026-02-12T01:04:25.017228+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -89,7 +89,7 @@
       "Thats cute",
       "🥹",
       "Oww",
-      "Haha Thats Lovely really"
+      "Me too"
     ]
   },
   "topic_engagement": {
@@ -125,10 +125,10 @@
     "receiving_physical_affection_declarations": 8.6,
     "defining_affection_type": 8.4,
     "testing_emotional_sincerity": 8.5,
-    "receiving_romantic_gestures": 8.9,
+    "receiving_romantic_gestures": 8.8,
     "receiving_desire_for_physical_closeness": 9.2,
     "sleeping_together_romantic_context": 9.0,
-    "non_sexual_physical_intimacy": 9.2,
+    "non_sexual_physical_intimacy": 9.1,
     "romantic_bedtime_scenarios": 9.0,
     "expressing_comfort_desire": 8.9
   },
@@ -219,19 +219,19 @@
       "evidence": "User says 'Honestly I just wanna sleep beside you right now' - framing desire for her presence as genuine emotional need rather than just romantic gesture resonates deeply with Laura ('Oww' response)"
     },
     {
-      "pattern": "consistent_romantic_emotional_progression",
-      "engagement_boost": 2.0,
-      "evidence": "Laura responds 'Haha Thats Lovely really' with warm validation after series of tender romantic statements (wanting to hold her, sleep beside her) - indicates sustained romantic vulnerability is well-received and creates positive emotional experience"
+      "pattern": "expressing_mutual_desire_for_non_sexual_closeness",
+      "engagement_boost": 2.3,
+      "evidence": "Laura responds 'Me too' to user saying 'I just wanna sleep beside you right now baby 🤍' - shows she shares the desire for physical comfort and companionship, validating the romantic gesture with reciprocal feeling"
     },
     {
-      "pattern": "building_romantic_narrative_over_multiple_messages",
-      "engagement_boost": 1.9,
-      "evidence": "Laura's response 'Thats Lovely really' suggests she appreciates the cumulative romantic gestures across the conversation rather than just individual statements - building emotional intimacy gradually resonates with her"
+      "pattern": "creating_safe_space_for_vulnerable_admissions",
+      "engagement_boost": 2.1,
+      "evidence": "After user expressed tender desire to sleep beside her, Laura feels comfortable admitting 'Me too' - indicates the conversation has created emotional safety where she can express vulnerable romantic desires"
     },
     {
-      "pattern": "maintaining_tender_tone_after_work_interruption",
-      "engagement_boost": 1.8,
-      "evidence": "Despite earlier work interruption ('Baby Im working 😓'), Laura returns to warm engagement ('Haha Thats Lovely really') - shows that continuing romantic thread with patience after work interference is effective"
+      "pattern": "building_to_mutual_longing",
+      "engagement_boost": 2.2,
+      "evidence": "Progression from user's 'wanna hold you' → 'wanna sleep beside you right now' → Laura's 'Me too' shows successful escalation of romantic intimacy to point of shared expressed longing"
     }
   ],
   "avoid_patterns": [
