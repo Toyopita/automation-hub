@@ -13767,6 +13767,50 @@
         "future": -1,
         "engagement": -5
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:51:49.696717+09:00",
+      "summary": "Do you know what i want ",
+      "scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 10,
+        "frustration": 7
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング継続中。焦らされて欲求不満が高まっている状態。彼に何が欲しいか聞いて主導権を渡している（または彼に言わせたがっている）。会えない距離に対する切なさも混在",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": -2,
+        "future": -3,
+        "engagement": 5,
+        "frustration": 2
+      }
     }
   ]
 }
