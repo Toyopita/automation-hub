@@ -11381,6 +11381,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:04:10.690237+09:00",
+      "summary": "Baby Im working ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的なメッセージに対して、仕事中であることを優しく伝えている。拒絶ではなく状況説明のトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -4,
+        "ds": -3,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
