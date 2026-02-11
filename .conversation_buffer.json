@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Really? ",
-    "time": "22:35"
-  },
-  {
-    "role": "laura",
     "text": "Is it hard for you? ",
     "time": "22:35"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "I always end up finishing every time haha",
     "time": "00:22"
+  },
+  {
+    "role": "laura",
+    "text": "I think is impossible haha",
+    "time": "00:24"
   }
 ]
