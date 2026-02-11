@@ -12025,6 +12025,57 @@
         "future": 1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:12:58.440339+09:00",
+      "summary": "I like it but Instagram distract me a lot ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "自分の行動を説明している。インスタは好きだけど集中力が削がれるから控えてる様子。彼の質問に素直に答えてる",
+      "trigger": {
+        "message": "I wanna see you baby, you always make me feel better 🤍",
+        "sent_at": "2026-02-12T01:12:06.855745+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night",
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 1,
+        "future": -2,
+        "engagement": 2
+      }
     }
   ]
 }
