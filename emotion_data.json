@@ -12076,6 +12076,48 @@
         "future": -2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:13:08.829151+09:00",
+      "summary": "I take pictures and send you later baby ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 5,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼のリクエストに快く応えている。親密で協力的な態度",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 3,
+        "engagement": 1
+      }
     }
   ]
 }
