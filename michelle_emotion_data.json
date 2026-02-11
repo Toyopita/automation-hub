@@ -482,6 +482,37 @@
         "playfulness": 2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T22:50:15.698379+09:00",
+      "summary": "yes, it's better to be single with freedom in ever",
+      "scores": {
+        "mood": 4,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 3,
+        "playfulness": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "過去の恋愛トラウマを軽く共有。適度な距離感で自己開示している",
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": -3,
+        "engagement": -2
+      }
     }
   ]
 }
