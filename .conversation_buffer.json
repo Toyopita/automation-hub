@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "I got it baby, thank you 🤍 But I like you, so I don't want anyone else",
-    "time": "07:21"
-  },
-  {
-    "role": "you",
     "text": "Good morning babe 🥰 I ended up falling asleep",
     "time": "07:22"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Is it hard for you? ",
     "time": "22:35"
+  },
+  {
+    "role": "you",
+    "text": "It's pretty deep haha I've been reading some Japanese books and watching YouTube videos with linguists",
+    "time": "22:44"
   }
 ]
