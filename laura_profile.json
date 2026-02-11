@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-11T23:57:07.473860+09:00",
+  "last_updated": "2026-02-11T23:57:09.973428+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -29,8 +29,7 @@
       "sleeps early",
       "uses Instagram but wants to delete account",
       "finds Japanese very difficult",
-      "watches linguistic content on YouTube",
-      "apologizes for work-related delays in communication"
+      "watches linguistic content on YouTube"
     ]
   },
   "personality": {
@@ -47,16 +46,16 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short sentence (3 words)",
-    "emoji_frequency": "none in this message",
+    "avg_message_length": "short (1 sentence, 5-10 words)",
+    "emoji_frequency": "moderate to high (multiple emojis when expressing strong emotion)",
     "preferred_emojis": [
       "🥺",
       "🙄",
       "😆"
     ],
-    "formality_level": "casual (uses lowercase, informal phrasing)",
-    "humor_style": "not applicable in this message",
-    "response_speed_tendency": "delayed when working, acknowledges delays apologetically",
+    "formality_level": "very casual",
+    "humor_style": "light emoji-based expression of frustration (uses 🙄 for exasperation)",
+    "response_speed_tendency": "very fast when surprised or intrigued (immediate responses when expressing disbelief or amusement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -65,7 +64,7 @@
       "baby",
       "super hard",
       "No way",
-      "i was working"
+      "Is too late there?"
     ]
   },
   "topic_engagement": {
@@ -75,7 +74,9 @@
     "social_media": 6,
     "linguistics": 7.9,
     "language_learning_methods": 8.5,
-    "dating_advice": 7.5
+    "dating_advice": 7.9,
+    "time_zones": 7.2,
+    "partner_wellbeing": 7.8
   },
   "effective_patterns": [
     {
@@ -147,6 +148,11 @@
       "pattern": "introducing_romantic_angle_playfully",
       "engagement_boost": 1.5,
       "evidence": "Suggestion about getting a native-speaking boyfriend triggered strong positive reaction with multiple laughing emojis and expressions of disbelief ('No way'), indicating comfort with romantic topics introduced humorously"
+    },
+    {
+      "pattern": "continuing_playful_romantic_topic",
+      "engagement_boost": 1.3,
+      "evidence": "User continued the Japanese boyfriend suggestion with 'You think??' - Laura's immediate 'You think ??' response shows she's staying engaged with the playful romantic angle and possibly considering it or playing along"
     }
   ],
   "avoid_patterns": [],
