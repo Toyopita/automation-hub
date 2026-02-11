@@ -13863,6 +13863,48 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:52:20.422475+09:00",
+      "summary": "Baby i send you vidéos in the other chat ",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング中。彼女は積極的に応えて動画を送信。興奮状態で素直に従っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
