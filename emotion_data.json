@@ -11339,6 +11339,48 @@
         "future": -2,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:03:23.492999+09:00",
+      "summary": "You want me to look at you all the Time 😳",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈での反応。驚きと興奮が混ざった反応で、相手の欲求を確認している。軽くからかうようなトーンもある。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
