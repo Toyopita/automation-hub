@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:12:37.007893+09:00",
+  "last_updated": "2026-02-12T01:13:12.211224+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -38,7 +38,9 @@
       "willing to share pictures of herself when partner wants to see her",
       "goes to gym later in the day (not morning)",
       "likes foreplay/buildup before sex ('previous game before having sex')",
-      "deliberately avoids posting Instagram stories"
+      "deliberately avoids posting Instagram stories",
+      "finds Instagram distracting but likes it",
+      "aware of Instagram's distracting effect on her"
     ]
   },
   "personality": {
@@ -99,7 +101,8 @@
       "Oww",
       "Me too",
       "Thats Lovely really",
-      "kinda miss that haha"
+      "kinda miss that haha",
+      "distract me a lot"
     ]
   },
   "topic_engagement": {
@@ -157,19 +160,12 @@
     "instagram_posting_decisions": 6.8,
     "alternative_visual_connection_methods": 9.2,
     "being_told_she_makes_partner_feel_better": 8.9,
-    "emotional_impact_on_partner": 9.0
+    "emotional_impact_on_partner": 9.0,
+    "instagram_distraction": 8.4,
+    "social_media_awareness": 8.2,
+    "self_awareness_about_social_media": 8.3
   },
   "effective_patterns": [
-    {
-      "pattern": "asking_about_specific_routine_activity",
-      "engagement_boost": 1.6,
-      "evidence": "User asks 'Did you go to the gym today?' - shows knowledge of her routine and genuine interest in her daily activities, demonstrates attentiveness to her life patterns"
-    },
-    {
-      "pattern": "using_baby_in_casual_context",
-      "engagement_boost": 1.5,
-      "evidence": "User includes 'baby' in casual question about Instagram stories - maintains affectionate tone while transitioning from intense romantic moment to everyday conversation"
-    },
     {
       "pattern": "combining_missing_her_with_light_humor",
       "engagement_boost": 1.7,
@@ -259,6 +255,16 @@
       "pattern": "responding_to_foreplay_preference_with_emotional_validation",
       "engagement_boost": 2.4,
       "evidence": "Laura shares sexual preference about liking buildup, user responds with emotional statement about her impact on him - doesn't immediately engage sexually but validates emotional connection, creating safe space for intimate sharing"
+    },
+    {
+      "pattern": "asking_about_instagram_posting_behavior",
+      "engagement_boost": 2.2,
+      "evidence": "User's earlier question about Instagram stories led to Laura explaining her relationship with the platform: 'I like it but Instagram distract me a lot' - shows she's willing to share her social media habits and self-awareness about its impact"
+    },
+    {
+      "pattern": "allowing_space_to_explain_social_media_decisions",
+      "engagement_boost": 2.1,
+      "evidence": "Laura provides reasoning for her Instagram story behavior unprompted, revealing both that she likes the platform and recognizes its distracting nature - creates opening for her to share nuanced relationship with technology"
     }
   ],
   "avoid_patterns": [
