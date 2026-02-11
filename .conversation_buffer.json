@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "It's only 2am there huh. Yeah sleep well baby 🤍",
-    "time": "09:56"
-  },
-  {
-    "role": "you",
     "text": "But baby if you delete Instagram, we'd only have LINE to talk",
     "time": "12:24"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Thank you for the vidéo 😳😳",
+    "time": "23:57"
+  },
+  {
+    "role": "laura",
+    "text": "I love it ",
     "time": "23:57"
   }
 ]
