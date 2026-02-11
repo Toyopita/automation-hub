@@ -10844,6 +10844,98 @@
         "future": -2,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-11T22:35:31.764585+09:00",
+      "summary": "Really? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本語でも難しいという話に素直に驚いている。短いけど会話に積極的に反応している",
+      "trigger": {
+        "message": "People say it's really hard haha Even native speakers like me struggle with it sometimes",
+        "sent_at": "2026-02-11T22:33:50.199895+09:00",
+        "category": "support",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-11T22:35:32.733798+09:00",
+      "summary": "Is it hard for you? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本語の難しさについて純粋な興味を示している質問。会話に積極的に参加している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
