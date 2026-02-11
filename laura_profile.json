@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:40:44.968230+09:00",
+  "last_updated": "2026-02-12T08:41:49.384000+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -112,7 +112,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "You want me to look at you all the Time",
       "Im working",
       "😓",
       "all the Time",
@@ -141,7 +140,8 @@
       "makes me used to listen Japanese",
       "I like all kinds of horror",
       "you are so cute",
-      "sooooo cuuuuuuute"
+      "sooooo cuuuuuuute",
+      "Please"
     ]
   },
   "topic_engagement": {
