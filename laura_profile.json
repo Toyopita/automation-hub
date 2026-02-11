@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:13:26.355906+09:00",
+  "last_updated": "2026-02-12T01:15:17.665493+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -38,15 +38,17 @@
       "willing to share pictures of herself when partner wants to see her",
       "goes to gym later in the day (not morning)",
       "likes foreplay/buildup before sex ('previous game before having sex')",
-      "deliberately avoids posting Instagram stories"
+      "deliberately avoids posting Instagram stories",
+      "receives compliments from strangers about her appearance",
+      "goes to the bank in person for banking tasks"
     ]
   },
   "personality": {
     "introversion": 5,
     "emotional_expressiveness": 9,
-    "humor_appreciation": 5,
+    "humor_appreciation": 7,
     "adventurousness": 5,
-    "confidence": 5,
+    "confidence": 7,
     "warmth": 9,
     "observations": [
       "warmth: Uses affectionate term 'baby' as greeting",
@@ -57,7 +59,9 @@
       "warmth: Validates romantic gestures with 'Thats cute' and responds with 🥹 to expressions of desire for physical closeness, showing appreciation for emotional vulnerability",
       "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection",
       "warmth: Proactively offers to send pictures when partner expresses desire to see her: 'If you want to see me i can send you pictures' - shows attentiveness and care for partner's emotional needs",
-      "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone"
+      "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone",
+      "humor_appreciation: Finds humor in unexpected social interaction (old man compliment), uses multiple laughing emojis 😂😂😂 to share amusing real-life moment rather than just stating fact",
+      "confidence: Comfortable sharing story about receiving compliment on appearance without false modesty or discomfort, treats it as funny anecdote rather than bragging or deflecting"
     ]
   },
   "communication_style": {
@@ -72,8 +76,8 @@
       "🥹"
     ],
     "formality_level": "casual",
-    "humor_style": "not applicable in this message",
-    "response_speed_tendency": "rapid sequential responses when discussing intimate topics and daily activities (4 messages in quick succession)",
+    "humor_style": "shares amusing real-life situations, uses humor to recount everyday interactions, finds comedy in unexpected social moments",
+    "response_speed_tendency": "initiates contact to share real-time amusing moments, suggests she thinks of partner when something funny happens during her day",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -99,7 +103,8 @@
       "Oww",
       "Me too",
       "Thats Lovely really",
-      "kinda miss that haha"
+      "kinda miss that haha",
+      "Im going to"
     ]
   },
   "topic_engagement": {
@@ -157,7 +162,11 @@
     "instagram_posting_decisions": 6.8,
     "alternative_visual_connection_methods": 9.2,
     "being_told_she_makes_partner_feel_better": 8.9,
-    "emotional_impact_on_partner": 9.0
+    "emotional_impact_on_partner": 9.0,
+    "sharing_daily_anecdotes": 8.5,
+    "unexpected_social_interactions": 8.3,
+    "receiving_compliments": 7.8,
+    "real_time_life_updates": 8.6
   },
   "effective_patterns": [
     {
