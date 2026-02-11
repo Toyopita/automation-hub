@@ -10612,6 +10612,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T09:05:05.210735+09:00",
+      "summary": "I do use Instagram but i wanted to delete my account ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "朝の会話。インスタについての説明で、普通のトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
