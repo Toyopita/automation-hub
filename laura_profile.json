@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:03:19.938682+09:00",
+  "last_updated": "2026-02-12T00:03:34.137704+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -66,7 +66,8 @@
       "No way",
       "Is too late there?",
       "I love it",
-      "Haha yes?"
+      "Haha yes?",
+      "You want me to look at you all the Time"
     ]
   },
   "topic_engagement": {
@@ -80,19 +81,11 @@
     "time_zones": 7.2,
     "partner_wellbeing": 7.8,
     "intimate_content": 8.5,
-    "visual_media_sharing": 8.2
+    "visual_media_sharing": 8.2,
+    "visual_attention": 8.4,
+    "being_watched": 8.3
   },
   "effective_patterns": [
-    {
-      "pattern": "matching_affectionate_tone",
-      "engagement_boost": 1.0,
-      "evidence": "User mirrored her 'baby' greeting and added affectionate emoji 🤍"
-    },
-    {
-      "pattern": "lightening_pressure_with_humor",
-      "engagement_boost": 0.8,
-      "evidence": "User said 'Japanese is hard anyway haha' to reduce guilt about pausing studies"
-    },
     {
       "pattern": "validating_difficulty_of_challenges",
       "engagement_boost": 0.9,
@@ -182,6 +175,16 @@
       "pattern": "playful_escalation_of_intimate_topics",
       "engagement_boost": 1.5,
       "evidence": "Laura responds to continued intimate conversation with playful rhetorical question 'Haha yes?' showing comfort and amusement with the direction of conversation"
+    },
+    {
+      "pattern": "expressing_desire_for_visual_connection",
+      "engagement_boost": 1.6,
+      "evidence": "Laura responds to intimate video content by acknowledging the implied desire for visual attention with flushed emoji '😳', showing she's engaged with and understanding the deeper meaning"
+    },
+    {
+      "pattern": "creating_mutual_visual_intimacy",
+      "engagement_boost": 1.7,
+      "evidence": "Her message 'You want me to look at you all the Time 😳' suggests she's receptive to and engaged by the concept of ongoing visual connection/attention in the relationship"
     }
   ],
   "avoid_patterns": [],
