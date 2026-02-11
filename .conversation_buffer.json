@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "Why don't you like posting stories baby? I guess Instagram's not your thing haha",
-    "time": "01:11"
-  },
-  {
-    "role": "you",
     "text": "I wanna see you baby, you always make me feel better 🤍",
     "time": "01:12"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Did you sleep well? ",
+    "time": "08:33"
+  },
+  {
+    "role": "you",
+    "text": "You went haha that's good baby 🤍\n\nNot really an anime person but I watched Chi the other day. Do you watch a lot?",
     "time": "08:33"
   }
 ]

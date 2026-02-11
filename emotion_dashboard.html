@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura 感情ダッシュボード</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: 'Segoe UI', -apple-system, sans-serif; padding: clamp(8px, 2vw, 20px); -webkit-text-size-adjust: 100%; }
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: clamp(16px, 3vw, 24px); flex-wrap: wrap; gap: 10px; }
+  .header h1 { font-size: clamp(1.1rem, 2.5vw, 1.5rem); }
+  .header h1 span { color: #cc5de8; }
+  .period-btns { display: flex; gap: clamp(4px, 1vw, 8px); flex-wrap: wrap; }
+  .period-btns button { background: #16163a; border: 1px solid #333; color: #aaa; padding: clamp(6px, 1.2vw, 10px) clamp(6px, 2vw, 14px); border-radius: 6px; cursor: pointer; font-size: clamp(0.75rem, 1.5vw, 0.85rem); min-height: 44px; }
+  .period-btns button.active { background: #cc5de8; color: #fff; border-color: #cc5de8; }
+  .period-btns .refresh-btn { flex: none; width: 44px; background: none; border: 1px solid #555; display: flex; align-items: center; justify-content: center; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(110px, 30vw), 1fr)); gap: clamp(6px, 1.2vw, 12px); margin-bottom: clamp(16px, 3vw, 24px); }
+  .card { background: #16163a; border: 1px solid #222; border-radius: clamp(8px, 1.5vw, 10px); padding: clamp(8px, 1.5vw, 14px); text-align: center; }
+  .card .value { font-size: clamp(1.3rem, 3.5vw, 2rem); font-weight: bold; margin: 4px 0; }
+  .card .label { font-size: clamp(0.65rem, 1.2vw, 0.75rem); color: #888; }
+  .card.status { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .card .emoji { font-size: clamp(1.4rem, 3vw, 1.8rem); }
+  .card .delta { font-size: clamp(0.6rem, 1vw, 0.7rem); }
+  .card .risk-value { font-size: clamp(0.85rem, 1.5vw, 1rem); }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: clamp(12px, 2.5vw, 20px); margin-bottom: clamp(16px, 3vw, 24px); }
+  .chart-box { background: #16163a; border: 1px solid #222; border-radius: clamp(8px, 1.5vw, 10px); padding: clamp(10px, 2.5vw, 20px); }
+  .chart-box h3 { font-size: clamp(0.8rem, 1.5vw, 0.9rem); color: #aaa; margin-bottom: clamp(8px, 1.5vw, 12px); }
+  .chart-box.full { grid-column: 1 / -1; }
+  .chart-box.log-section { margin-bottom: clamp(16px, 3vw, 24px); }
+  .timeline { display: flex; gap: 3px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+  .timeline .dot { width: clamp(14px, 2.5vw, 20px); height: clamp(14px, 2.5vw, 20px); border-radius: clamp(3px, 0.5vw, 4px); }
+  .timeline-note { margin-top: 12px; }
+  .log-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }
+  .log-table { width: 100%; border-collapse: collapse; font-size: clamp(0.7rem, 1.3vw, 0.85rem); min-width: 600px; }
+  .log-table th { text-align: left; color: #888; padding: clamp(4px, 1vw, 8px); border-bottom: 1px solid #333; white-space: nowrap; }
+  .log-table td { padding: clamp(4px, 1vw, 8px); border-bottom: 1px solid #1a1a3a; }
+  .note { color: #888; font-size: clamp(0.7rem, 1.2vw, 0.8rem); margin-top: 4px; }
+  .updated { color: #555; font-size: clamp(0.65rem, 1vw, 0.75rem); text-align: right; margin-top: 16px; }
+  .v-low { color: #4dabf7; } .v-mid { color: #ffd43b; } .v-high { color: #51cf66; } .v-max { color: #ff6b6b; }
+  .risk-none { color: #51cf66; } .risk-minor { color: #ffd43b; } .risk-caution { color: #ff8c42; } .risk-danger { color: #ff6b6b; }
+  .cat-badge { display: inline-block; padding: clamp(1px, 0.3vw, 2px) clamp(5px, 1vw, 8px); border-radius: 10px; font-size: clamp(0.6rem, 1vw, 0.7rem); margin-right: 4px; white-space: nowrap; }
+  .cat-affection { background: #cc5de8; color: #fff; }
+  .cat-interest { background: #4dabf7; color: #fff; }
+  .cat-daily { background: #868e96; color: #fff; }
+  .cat-humor { background: #ffd43b; color: #333; }
+  .cat-sexual { background: #ff6b6b; color: #fff; }
+  .cat-future { background: #20c997; color: #fff; }
+  .cat-support { background: #51cf66; color: #fff; }
+  .cat-spanish { background: #ff8c42; color: #fff; }
+  .cat-cultural { background: #e599f7; color: #333; }
+  .cat-praise { background: #74c0fc; color: #fff; }
+  .cat-vulnerable { background: #845ef7; color: #fff; }
+  .cat-initiative { background: #63e6be; color: #333; }
+  .cat-reassurance { background: #ffa8a8; color: #333; }
+  .cat-sensory { background: #e03131; color: #fff; }
+  .cat-unknown { background: #495057; color: #fff; }
+  .delta-up { color: #51cf66; } .delta-down { color: #ff6b6b; } .delta-flat { color: #555; }
+  .causal-timeline { padding: 12px 0; max-height: 500px; overflow-y: auto; }
+  .tl-row { display: flex; align-items: center; padding: 6px 0; gap: clamp(6px, 1.5vw, 12px); }
+  .tl-time { width: clamp(44px, 10vw, 80px); color: #888; font-size: clamp(0.7rem, 1.2vw, 0.8rem); text-align: right; flex-shrink: 0; }
+  .tl-you { background: #1e3a5f; border-left: 3px solid #4dabf7; padding: clamp(5px, 1vw, 8px) clamp(8px, 1.5vw, 14px); border-radius: 0 8px 8px 0; flex: 1; font-size: clamp(0.75rem, 1.3vw, 0.85rem); color: #8ec8f7; overflow-wrap: break-word; word-break: break-word; }
+  .tl-laura { background: #3a1e4a; border-right: 3px solid #cc5de8; padding: clamp(5px, 1vw, 8px) clamp(8px, 1.5vw, 14px); border-radius: 8px 0 0 8px; flex: 1; font-size: clamp(0.75rem, 1.3vw, 0.85rem); color: #dba8f0; text-align: right; overflow-wrap: break-word; word-break: break-word; }
+  .tl-gap { text-align: center; color: #555; font-size: clamp(0.65rem, 1vw, 0.75rem); padding: 2px 0 2px clamp(50px, 12vw, 92px); }
+  .tl-spontaneous { border-style: dashed !important; opacity: 0.7; }
+  .best-list { list-style: none; }
+  .best-list li { padding: clamp(8px, 1.5vw, 12px); border-bottom: 1px solid #1a1a3a; }
+  .best-list .rank { font-size: clamp(1rem, 2vw, 1.2rem); margin-right: clamp(4px, 0.8vw, 8px); }
+  .best-list .msg { color: #8ec8f7; font-style: italic; font-size: clamp(0.75rem, 1.3vw, inherit); }
+  .best-list .stats { color: #888; font-size: clamp(0.7rem, 1.2vw, 0.8rem); margin-top: 4px; }
+  /* ===== アドバイスセクション ===== */
+  .advice-section { margin-bottom: clamp(16px, 3vw, 24px); }
+  .advice-summary { background: #16163a; border: 1px solid #222; border-radius: 10px; padding: clamp(14px, 2.5vw, 20px); display: flex; align-items: center; gap: clamp(12px, 2.5vw, 20px); margin-bottom: 16px; flex-wrap: wrap; }
+  .advice-health-ring { position: relative; --ring-size: clamp(70px, 12vw, 90px); width: var(--ring-size); height: var(--ring-size); flex-shrink: 0; }
+  .advice-health-ring .ring-bg { width: var(--ring-size); height: var(--ring-size); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .advice-health-ring .ring-value { font-size: clamp(1.3rem, 2.5vw, 1.6rem); font-weight: bold; color: #fff; }
+  .advice-health-ring .ring-label { font-size: clamp(0.55rem, 1vw, 0.65rem); color: #aaa; }
+  .advice-health-ring .ring-inner { --inner-size: calc(var(--ring-size) * 0.733); width: var(--inner-size); height: var(--inner-size); background: #0f0f1a; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .advice-summary-text { flex: 1; min-width: 0; }
+  .advice-summary-text .trend-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; margin-bottom: 6px; }
+  .trend-improving { background: #51cf66; color: #111; }
+  .trend-stable { background: #ffd43b; color: #111; }
+  .trend-declining { background: #ff6b6b; color: #fff; }
+  .advice-summary-text .insight { color: #ccc; font-size: clamp(0.8rem, 1.5vw, 0.9rem); line-height: 1.5; }
+  .advice-cards { display: flex; flex-direction: column; gap: 10px; }
+  .advice-card { background: #16163a; border: 1px solid #222; border-radius: 10px; overflow: hidden; transition: all 0.2s; }
+  .advice-card:hover { border-color: #444; }
+  .advice-card-header { display: flex; align-items: center; gap: 10px; padding: clamp(12px, 1.5vw, 14px) clamp(12px, 2vw, 16px); cursor: pointer; user-select: none; min-height: clamp(44px, 6vw, 48px); }
+  .advice-card-header .adv-icon { font-size: clamp(1rem, 2vw, 1.2rem); flex-shrink: 0; }
+  .advice-card-header .adv-title { flex: 1; font-size: clamp(0.8rem, 1.4vw, 0.9rem); font-weight: 600; }
+  .advice-card-header .adv-priority { padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: bold; }
+  .priority-urgent { background: #ff6b6b; color: #fff; }
+  .priority-important { background: #ffd43b; color: #111; }
+  .priority-info { background: #4dabf7; color: #fff; }
+  .advice-card-header .adv-toggle { color: #555; font-size: 0.8rem; transition: transform 0.2s; }
+  .advice-card-body { display: none; padding: 0 clamp(12px, 2vw, 16px) clamp(12px, 1.5vw, 14px) clamp(12px, 2vw, 16px); font-size: clamp(0.8rem, 1.3vw, 0.85rem); color: #bbb; line-height: 1.6; }
+  .advice-card.open .advice-card-body { display: block; }
+  .advice-card.open .adv-toggle { transform: rotate(180deg); }
+  .advice-evidence { margin-top: 8px; padding: 8px 12px; background: rgba(255,255,255,0.04); border-radius: 6px; font-size: clamp(0.7rem, 1.1vw, 0.8rem); color: #888; }
+  .advice-action { margin-top: 8px; padding: 8px 12px; background: rgba(81,207,102,0.08); border-left: 3px solid #51cf66; border-radius: 0 6px 6px 0; font-size: clamp(0.8rem, 1.3vw, 0.85rem); color: #a0d8a0; }
+  .adv-confidence { padding: 2px 6px; border-radius: 8px; font-size: 0.6rem; margin-left: 4px; }
+  .conf-high { background: #51cf66; color: #111; }
+  .conf-medium { background: #ffd43b; color: #111; }
+  .conf-low { background: #868e96; color: #fff; }
+  .conf-insufficient { background: #495057; color: #aaa; }
+  .advice-stage { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 0.7rem; background: #16163a; border: 1px solid #333; color: #aaa; margin-left: 8px; }
+  .overall-assessment { background: #16163a; border: 1px solid #222; border-radius: 10px; padding: clamp(14px, 2.5vw, 20px); margin-bottom: 16px; }
+  .overall-assessment h3 { font-size: 1rem; color: #cc5de8; margin-bottom: 12px; }
+  .overall-narrative { color: #ddd; font-size: clamp(0.8rem, 1.4vw, 0.9rem); line-height: 1.7; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid #222; }
+  .overall-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: clamp(12px, 2vw, 16px); margin-bottom: 16px; }
+  .overall-col h4 { font-size: 0.85rem; margin-bottom: 8px; }
+  .overall-col h4.strengths-title { color: #51cf66; }
+  .overall-col h4.concerns-title { color: #ff8c42; }
+  .overall-col ul { list-style: none; padding: 0; }
+  .overall-col li { font-size: clamp(0.75rem, 1.2vw, 0.8rem); color: #bbb; padding: 5px 0; padding-left: 16px; position: relative; line-height: 1.5; }
+  .overall-col li::before { position: absolute; left: 0; }
+  .overall-col.strengths li::before { content: '✓'; color: #51cf66; }
+  .overall-col.concerns li::before { content: '!'; color: #ff8c42; font-weight: bold; }
+  .next-actions { margin-top: 4px; }
+  .next-actions h4 { font-size: 0.85rem; color: #4dabf7; margin-bottom: 8px; }
+  .next-action-item { display: flex; align-items: flex-start; gap: clamp(6px, 1vw, 8px); padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: clamp(0.75rem, 1.3vw, 0.82rem); }
+  .next-action-pri { padding: 2px clamp(6px, 1vw, 8px); border-radius: 8px; font-size: clamp(0.6rem, 1vw, 0.65rem); font-weight: bold; flex-shrink: 0; white-space: nowrap; margin-top: 1px; }
+  .pri-最優先 { background: #ff6b6b; color: #fff; }
+  .pri-重要 { background: #ffd43b; color: #111; }
+  .pri-推奨 { background: #4dabf7; color: #fff; }
+  .next-action-text { color: #ccc; flex: 1; }
+  .next-action-reason { color: #666; font-size: 0.75rem; margin-top: 2px; }
+  .overall-outlook { margin-top: 12px; padding: 10px 14px; border-radius: 8px; font-size: clamp(0.8rem, 1.3vw, 0.85rem); }
+  .outlook-excellent { background: rgba(81,207,102,0.1); border-left: 3px solid #51cf66; color: #a0d8a0; }
+  .outlook-good { background: rgba(77,171,247,0.1); border-left: 3px solid #4dabf7; color: #8ec8f7; }
+  .outlook-fair { background: rgba(255,212,59,0.1); border-left: 3px solid #ffd43b; color: #ffe066; }
+  .outlook-concerning { background: rgba(255,107,107,0.1); border-left: 3px solid #ff6b6b; color: #ffa8a8; }
+  .data-reliability { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 0.7rem; margin-left: 8px; }
+  .reliability-high { background: #51cf66; color: #111; }
+  .reliability-medium { background: #ffd43b; color: #111; }
+  .reliability-low { background: #868e96; color: #fff; }
+
+  /* ===== レイアウト変更のみ（流体CSSが全サイズのサイジングをカバー） ===== */
+  @media (max-width: 768px) {
+    .header { flex-direction: column; align-items: flex-start; }
+    .period-btns { width: 100%; }
+    .period-btns button { flex: 1; }
+    .period-btns .refresh-btn { flex: none; width: 44px; }
+    .cards { grid-template-columns: repeat(3, 1fr); }
+    .advice-summary { flex-direction: column; text-align: center; }
+    .advice-health-ring { margin: 0 auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>❤️ <span>Laura</span> 感情ダッシュボード</h1>
+  <div class="period-btns">
+    <button class="active" data-days="7">7日</button>
+    <button data-days="30">30日</button>
+    <button data-days="90">全期間</button>
+    <button class="refresh-btn" onclick="loadData()">🔄</button>
+  </div>
+</div>
+
+<div class="cards" id="scoreCards"></div>
+
+<div class="advice-section" id="adviceSection">
+  <div class="advice-summary" id="adviceSummary"></div>
+  <div class="overall-assessment" id="overallAssessment" style="display:none;"></div>
+  <div class="advice-cards" id="adviceCards"></div>
+</div>
+
+<div class="charts">
+  <div class="chart-box">
+    <h3>現在のスナップショット</h3>
+    <canvas id="radarChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>愛着シグナル タイムライン</h3>
+    <div class="timeline" id="attachmentTimeline"></div>
+    <div class="note timeline-note">🟢安全 🟡不安 🔴回避</div>
+  </div>
+  <div class="chart-box full">
+    <h3>感情トレンド（気分・親密度・甘え・エンゲージメント）</h3>
+    <canvas id="trendChart1"></canvas>
+  </div>
+  <div class="chart-box full">
+    <h3>エロス・M度・遊び心</h3>
+    <canvas id="trendChart2"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>🏆 効果的だったメッセージ TOP5</h3>
+    <ul class="best-list" id="bestMessages"></ul>
+  </div>
+  <div class="chart-box">
+    <h3>📊 カテゴリ別 平均効果</h3>
+    <canvas id="categoryChart"></canvas>
+  </div>
+  <div class="chart-box full">
+    <h3>💬 送信→応答 タイムライン</h3>
+    <div class="causal-timeline" id="causalTimeline"></div>
+  </div>
+</div>
+
+<div class="chart-box full log-section">
+  <h3>📝 メッセージログ</h3>
+  <div class="log-table-wrap">
+  <table class="log-table">
+    <thead><tr><th>時刻</th><th>きっかけ</th><th>要約</th><th>気分</th><th>変化</th><th>愛着</th><th>危険</th><th>言語</th><th>応答</th></tr></thead>
+    <tbody id="logTable"></tbody>
+  </table>
+  </div>
+</div>
+
+<div class="updated" id="lastUpdate"></div>
+
+<script>
+const LABELS = ['気分','テンション','親密度','甘え','エロス','M度','遊び心','将来','エンゲージ'];
+const KEYS = ['mood','energy','intimacy','longing','eros','ds','playfulness','future','engagement'];
+const COLORS = {
+  mood:'#ff6b6b', energy:'#ff8c42', intimacy:'#51cf66', longing:'#ffd43b',
+  eros:'#cc5de8', ds:'#e599f7', playfulness:'#4dabf7', future:'#20c997', engagement:'#74c0fc'
+};
+const ATTACH = {safe:'🟢',anxious:'🟡',avoidant:'🔴'};
+const ATTACH_COLOR = {safe:'#51cf66',anxious:'#ffd43b',avoidant:'#ff6b6b'};
+const RISK_MAP = {none:'なし',minor:'軽微',caution:'警戒',danger:'危険'};
+const LANG_MAP = {en:'🇬🇧',es:'🇪🇸',es_en:'🇪🇸🇬🇧'};
+const CAT_LABELS = {
+  affection:'愛情表現',interest:'関心・質問',daily:'日常共有',humor:'ユーモア',
+  sexual:'性的表現',future:'将来志向',support:'サポート',spanish:'母語(ES)',
+  cultural:'文化的共鳴',praise:'称賛',vulnerable:'脆弱性開示',initiative:'主導的提案',
+  reassurance:'再確認',sensory:'感覚的描写',unknown:'不明'
+};
+const CAT_COLORS = {
+  affection:'#cc5de8',interest:'#4dabf7',daily:'#868e96',humor:'#ffd43b',
+  sexual:'#ff6b6b',future:'#20c997',support:'#51cf66',spanish:'#ff8c42',
+  cultural:'#e599f7',praise:'#74c0fc',vulnerable:'#845ef7',initiative:'#63e6be',
+  reassurance:'#ffa8a8',sensory:'#e03131',unknown:'#495057'
+};
+const RANK_EMOJI = ['🥇','🥈','🥉','4️⃣','5️⃣'];
+
+let radarChart, trendChart1, trendChart2, categoryChart;
+let currentDays = 7;
+
+// モバイル判定: 画面幅に応じたtruncate長を返す
+function mobileTruncLen(desktop, mobile) {
+  return window.innerWidth <= 480 ? mobile : desktop;
+}
+
+// Chart.jsモバイルフォント最適化
+if (window.innerWidth <= 480) {
+  Chart.defaults.font.size = 10;
+} else if (window.innerWidth <= 768) {
+  Chart.defaults.font.size = 11;
+}
+
+document.querySelectorAll('.period-btns button[data-days]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.period-btns .active').classList.remove('active');
+    btn.classList.add('active');
+    currentDays = parseInt(btn.dataset.days);
+    loadData();
+  });
+});
+
+function valClass(v) { return v<=3?'v-low':v<=6?'v-mid':v<=8?'v-high':'v-max'; }
+function riskClass(r) { return 'risk-'+(r||'none'); }
+function deltaStr(d) {
+  if (!d || d===0) return '<span class="delta-flat">→</span>';
+  return d>0 ? `<span class="delta-up">↑${d>1?d:''}</span>` : `<span class="delta-down">↓${Math.abs(d)>1?Math.abs(d):''}</span>`;
+}
+function fmtMin(m) {
+  if (m==null) return '-';
+  if (m<60) return m+'分';
+  const h=Math.floor(m/60), r=m%60;
+  return r?`${h}h${r}m`:`${h}h`;
+}
+function catBadge(cat) {
+  return `<span class="cat-badge cat-${cat||'unknown'}">${CAT_LABELS[cat]||cat||'自発'}</span>`;
+}
+function truncate(s, n) { return s&&s.length>n ? s.slice(0,n)+'…' : s||''; }
+
+function renderCards(entry) {
+  const s = entry.scores;
+  let html = '';
+  KEYS.forEach((k,i) => {
+    const d = entry.score_deltas && entry.score_deltas[k];
+    const dHtml = d!=null ? `<div class="delta">${deltaStr(d)}</div>` : '';
+    html += `<div class="card"><div class="label">${LABELS[i]}</div><div class="value ${valClass(s[k])}">${s[k]}</div>${dHtml}</div>`;
+  });
+  html += `<div class="card status"><div class="label">愛着</div><div class="emoji">${ATTACH[entry.attachment]||'❓'}</div></div>`;
+  html += `<div class="card status"><div class="label">危険信号</div><div class="value risk-value ${riskClass(entry.risk)}">${RISK_MAP[entry.risk]||entry.risk}</div></div>`;
+  html += `<div class="card status"><div class="label">言語</div><div class="emoji">${LANG_MAP[entry.language_mix]||entry.language_mix}</div></div>`;
+  document.getElementById('scoreCards').innerHTML = html;
+}
+
+function renderRadar(entry) {
+  const ctx = document.getElementById('radarChart');
+  const data = KEYS.map(k => entry.scores[k]);
+  const isMobile = window.innerWidth <= 480;
+  const datasets = [{data, borderColor:'#cc5de8', backgroundColor:'rgba(204,93,232,0.15)', borderWidth:2, pointRadius: isMobile ? 3 : 4, pointBackgroundColor:'#cc5de8', label:'現在'}];
+  if (entry.prev_scores) {
+    datasets.push({data:KEYS.map(k=>entry.prev_scores[k]), borderColor:'#555', backgroundColor:'rgba(85,85,85,0.05)', borderWidth:1, pointRadius:2, pointBackgroundColor:'#555', borderDash:[5,3], label:'前回'});
+  }
+  if (radarChart) radarChart.destroy();
+  radarChart = new Chart(ctx, {
+    type:'radar',
+    data:{labels:LABELS, datasets},
+    options:{
+      scales:{r:{min:0,max:10,ticks:{stepSize:2,color:'#555',backdropColor:'transparent'},grid:{color:'rgba(255,255,255,0.08)'},pointLabels:{color:'#ccc',font:{size: isMobile ? 9 : 11}},angleLines:{color:'rgba(255,255,255,0.08)'}}},
+      plugins:{legend:{labels:{color:'#ccc',font:{size: isMobile ? 9 : 10}}}}
+    }
+  });
+}
+
+function renderTrends(entries) {
+  const isMobile = window.innerWidth <= 480;
+  const labels = entries.map(e => {
+    const d = new Date(e.timestamp);
+    return `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+  });
+  const ctx1 = document.getElementById('trendChart1');
+  if (trendChart1) trendChart1.destroy();
+  const sets1 = ['mood','intimacy','longing','engagement'].map(k => ({
+    label: LABELS[KEYS.indexOf(k)], data: entries.map(e=>e.scores[k]),
+    borderColor: COLORS[k], backgroundColor: COLORS[k]+'33', borderWidth: isMobile ? 1.5 : 2, pointRadius: isMobile ? 2 : 3, tension:0.3, fill:false
+  }));
+  trendChart1 = new Chart(ctx1, {
+    type:'line', data:{labels,datasets:sets1},
+    options:{scales:{y:{min:0,max:10,ticks:{color:'#555'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#555',maxRotation:45,maxTicksLimit: isMobile ? 6 : undefined},grid:{display:false}}},plugins:{legend:{labels:{color:'#ccc',font:{size: isMobile ? 9 : 11}}}}}
+  });
+  const ctx2 = document.getElementById('trendChart2');
+  if (trendChart2) trendChart2.destroy();
+  const sets2 = ['eros','ds','playfulness'].map(k => ({
+    label: LABELS[KEYS.indexOf(k)], data: entries.map(e=>e.scores[k]),
+    borderColor: COLORS[k], backgroundColor: COLORS[k]+'33', borderWidth: isMobile ? 1.5 : 2, pointRadius: isMobile ? 2 : 3, tension:0.3, fill:false
+  }));
+  trendChart2 = new Chart(ctx2, {
+    type:'line', data:{labels,datasets:sets2},
+    options:{scales:{y:{min:0,max:10,ticks:{color:'#555'},grid:{color:'rgba(255,255,255,0.05)'}},x:{ticks:{color:'#555',maxRotation:45,maxTicksLimit: isMobile ? 6 : undefined},grid:{display:false}}},plugins:{legend:{labels:{color:'#ccc',font:{size: isMobile ? 9 : 11}}}}}
+  });
+}
+
+function renderTimeline(entries) {
+  const el = document.getElementById('attachmentTimeline');
+  el.innerHTML = entries.map(e =>
+    `<div class="dot" style="background:${ATTACH_COLOR[e.attachment]||'#555'}" title="${e.timestamp}"></div>`
+  ).join('');
+}
+
+function renderCausalTimeline(entries) {
+  const el = document.getElementById('causalTimeline');
+  if (!entries.length) { el.innerHTML = '<div class="note">データなし</div>'; return; }
+  let html = '';
+  entries.slice().reverse().forEach(e => {
+    const d = new Date(e.timestamp);
+    const time = `${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+    const t = e.trigger;
+    if (t && t.sent_at) {
+      const sd = new Date(t.sent_at);
+      const stime = `${sd.getHours()}:${String(sd.getMinutes()).padStart(2,'0')}`;
+      html += `<div class="tl-row"><div class="tl-time">${stime}</div><div class="tl-you">${catBadge(t.category)} ${truncate(t.message, mobileTruncLen(50, 25))}</div></div>`;
+      html += `<div class="tl-gap">⏱ ${fmtMin(t.response_time_min)}</div>`;
+    }
+    const scoreSnip = `mood:${e.scores.mood} inti:${e.scores.intimacy} long:${e.scores.longing}`;
+    const cls = t ? 'tl-laura' : 'tl-laura tl-spontaneous';
+    html += `<div class="tl-row"><div class="tl-time">${time}</div><div class="${cls}">${truncate(e.summary, mobileTruncLen(40, 20))} | ${scoreSnip}</div></div>`;
+  });
+  el.innerHTML = html;
+}
+
+function renderLog(entries) {
+  const tbody = document.getElementById('logTable');
+  tbody.innerHTML = entries.slice().reverse().map(e => {
+    const d = new Date(e.timestamp);
+    const time = `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;
+    const t = e.trigger;
+    const triggerCell = t ? `${catBadge(t.category)}<div class="note">${truncate(t.message,30)}</div>` : '<span style="color:#555;">自発</span>';
+    const moodDelta = e.score_deltas ? deltaStr(e.score_deltas.mood) : '';
+    return `<tr>
+      <td>${time}</td>
+      <td>${triggerCell}</td>
+      <td>${e.summary||''}<div class="note">${e.note||''}</div></td>
+      <td class="${valClass(e.scores.mood)}">${e.scores.mood}</td>
+      <td>${moodDelta}</td>
+      <td>${ATTACH[e.attachment]||'?'}</td>
+      <td class="${riskClass(e.risk)}">${RISK_MAP[e.risk]||e.risk}</td>
+      <td>${LANG_MAP[e.language_mix]||e.language_mix}</td>
+      <td>${t?fmtMin(t.response_time_min):'-'}</td>
+    </tr>`;
+  }).join('');
+}
+
+async function renderBestMessages() {
+  try {
+    const res = await fetch(`/api/emotion/best-messages?days=${currentDays}&limit=5`);
+    const data = await res.json();
+    const el = document.getElementById('bestMessages');
+    if (!data.messages || !data.messages.length) { el.innerHTML = '<li class="note">データなし</li>'; return; }
+    el.innerHTML = data.messages.map((m,i) => {
+      const topDeltas = Object.entries(m.score_deltas||{}).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k,v])=>`${LABELS[KEYS.indexOf(k)]}+${v}`).join(', ');
+      return `<li>
+        <span class="rank">${RANK_EMOJI[i]||''}</span>
+        <span class="msg">"${truncate(m.trigger_message, mobileTruncLen(40, 22))}"</span>
+        ${catBadge(m.category)}
+        <div class="stats">効果: +${m.effect_score} | ${topDeltas} | 応答: ${fmtMin(m.response_time_min)}</div>
+      </li>`;
+    }).join('');
+  } catch(e) { console.error('Best messages error:', e); }
+}
+
+async function renderCategoryStats() {
+  try {
+    const res = await fetch(`/api/emotion/trigger-stats?days=${currentDays}`);
+    const data = await res.json();
+    const cats = data.categories || {};
+    const entries = Object.entries(cats).sort((a,b) => b[1].avg_effect - a[1].avg_effect);
+    if (!entries.length) return;
+    const ctx = document.getElementById('categoryChart');
+    if (categoryChart) categoryChart.destroy();
+    categoryChart = new Chart(ctx, {
+      type:'bar',
+      data:{
+        labels: entries.map(([k]) => CAT_LABELS[k]||k),
+        datasets:[{
+          data: entries.map(([,v]) => v.avg_effect),
+          backgroundColor: entries.map(([k]) => (CAT_COLORS[k]||'#495057')+'99'),
+          borderColor: entries.map(([k]) => CAT_COLORS[k]||'#495057'),
+          borderWidth:1
+        }]
+      },
+      options:{
+        indexAxis:'y',
+        scales:{x:{beginAtZero:true,ticks:{color:'#555'},grid:{color:'rgba(255,255,255,0.05)'}},y:{ticks:{color:'#ccc'},grid:{display:false}}},
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{afterLabel:(c)=>`使用回数: ${entries[c.dataIndex][1].count}`}}
+        }
+      }
+    });
+  } catch(e) { console.error('Category stats error:', e); }
+}
+
+const ADVICE_ICONS = {status:'📊',effective:'✅',warning:'⚠️',action:'💡',timing:'⏰'};
+const PRIORITY_LABELS = {urgent:'緊急',important:'重要',info:'情報'};
+const TREND_LABELS = {improving:'改善中',stable:'安定',declining:'低下中'};
+
+const STAGE_LABELS = {initial:'初期段階',building:'構築期',establishing:'確立期',stable:'安定期'};
+const CONF_LABELS = {high:'高信頼',medium:'中信頼',low:'参考',insufficient:'データ不足'};
+
+function renderAdviceSummary(summary, stage) {
+  const el = document.getElementById('adviceSummary');
+  const h = summary.relationship_health;
+  const pct = Math.round(h * 10);
+  const hue = Math.round(h * 12);
+  const trendCls = 'trend-' + (summary.trend_direction || 'stable');
+  const trendLabel = TREND_LABELS[summary.trend_direction] || '安定';
+  const stageLabel = STAGE_LABELS[stage] || stage || '';
+  el.innerHTML = `
+    <div class="advice-health-ring">
+      <div class="ring-bg" style="background:conic-gradient(hsl(${hue},70%,50%) ${pct}%, #1a1a3a ${pct}%);">
+        <div class="ring-inner">
+          <div class="ring-value">${h}</div>
+          <div class="ring-label">/ 10</div>
+        </div>
+      </div>
+    </div>
+    <div class="advice-summary-text">
+      <span class="trend-badge ${trendCls}">${trendLabel}</span>
+      ${stageLabel ? `<span class="advice-stage">${stageLabel}</span>` : ''}
+      <div class="insight">${summary.key_insight}</div>
+    </div>`;
+}
+
+function renderAdviceCards(items) {
+  const el = document.getElementById('adviceCards');
+  if (!items || !items.length) { el.innerHTML = '<div class="note">アドバイスデータなし</div>'; return; }
+  el.innerHTML = items.map((item, i) => {
+    const icon = ADVICE_ICONS[item.category] || '💬';
+    const priCls = 'priority-' + (item.priority || 'info');
+    const priLabel = PRIORITY_LABELS[item.priority] || '情報';
+    const confCls = 'conf-' + (item.confidence || 'low');
+    const confLabel = CONF_LABELS[item.confidence] || item.confidence || '';
+    // evidence: objectの場合は文字列化
+    let evidenceStr = '';
+    if (item.evidence) {
+      if (typeof item.evidence === 'string') { evidenceStr = item.evidence; }
+      else {
+        const ev = item.evidence;
+        const parts = [];
+        if (ev.metric) parts.push(ev.metric);
+        if (ev.trend) parts.push(ev.trend);
+        if (ev.value != null) parts.push('値: ' + ev.value);
+        if (ev.delta && ev.delta !== 'N/A') parts.push('変化: ' + ev.delta);
+        evidenceStr = parts.join(' | ');
+      }
+    }
+    const actionStr = item.action_suggestion || item.action || '';
+    return `<div class="advice-card" onclick="this.classList.toggle('open')">
+      <div class="advice-card-header">
+        <span class="adv-icon">${icon}</span>
+        <span class="adv-title">${item.title}</span>
+        <span class="adv-priority ${priCls}">${priLabel}</span>
+        ${confLabel ? `<span class="adv-confidence ${confCls}">${confLabel}</span>` : ''}
+        <span class="adv-toggle">▼</span>
+      </div>
+      <div class="advice-card-body">
+        <div>${item.body}</div>
+        ${evidenceStr ? `<div class="advice-evidence">📈 ${evidenceStr}</div>` : ''}
+        ${actionStr ? `<div class="advice-action">💡 ${actionStr}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderOverallAssessment(oa) {
+  const el = document.getElementById('overallAssessment');
+  if (!oa) { el.style.display='none'; return; }
+  el.style.display='block';
+  const relLabel = {high:'高信頼',medium:'中信頼',low:'参考'}[oa.data_reliability] || oa.data_reliability;
+  const relCls = 'reliability-' + (oa.data_reliability || 'low');
+  let html = `<h3>📋 総合評価 <span class="data-reliability ${relCls}">${relLabel}（${oa.data_count}/${oa.min_recommended}件）</span></h3>`;
+  html += `<div class="overall-narrative">${oa.narrative}</div>`;
+  html += '<div class="overall-columns">';
+  // 良い点
+  if (oa.strengths && oa.strengths.length) {
+    html += '<div class="overall-col strengths"><h4 class="strengths-title">良い点</h4><ul>';
+    oa.strengths.forEach(s => html += `<li>${s}</li>`);
+    html += '</ul></div>';
+  }
+  // 改善点
+  if (oa.concerns && oa.concerns.length) {
+    html += '<div class="overall-col concerns"><h4 class="concerns-title">改善点</h4><ul>';
+    oa.concerns.forEach(c => html += `<li>${c}</li>`);
+    html += '</ul></div>';
+  }
+  html += '</div>';
+  // 次にやるべきこと
+  if (oa.next_actions && oa.next_actions.length) {
+    html += '<div class="next-actions"><h4>次にやるべきこと</h4>';
+    oa.next_actions.forEach(a => {
+      const priCls = 'pri-' + (a.priority || '推奨');
+      html += `<div class="next-action-item">
+        <span class="next-action-pri ${priCls}">${a.priority}</span>
+        <div><div class="next-action-text">${a.action}</div>
+        <div class="next-action-reason">${a.reason}</div></div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+  // 見通し
+  if (oa.outlook) {
+    const olCls = 'outlook-' + (oa.outlook_level || 'fair');
+    html += `<div class="overall-outlook ${olCls}">📈 見通し: ${oa.outlook}</div>`;
+  }
+  el.innerHTML = html;
+}
+
+async function loadAdvice() {
+  try {
+    const res = await fetch(`/api/emotion/advice?days=${currentDays}`);
+    if (!res.ok) { document.getElementById('adviceSection').style.display='none'; return; }
+    const data = await res.json();
+    document.getElementById('adviceSection').style.display='block';
+    if (data.summary) renderAdviceSummary(data.summary, data.stage);
+    if (data.overall_assessment) renderOverallAssessment(data.overall_assessment);
+    if (data.advice) renderAdviceCards(data.advice);
+  } catch(e) {
+    console.error('Advice load error:', e);
+    document.getElementById('adviceSection').style.display='none';
+  }
+}
+
+async function loadData() {
+  try {
+    const res = await fetch(`/api/emotion/history?days=${currentDays}`);
+    const data = await res.json();
+    const entries = data.entries || [];
+    if (entries.length === 0) return;
+
+    const latest = entries[entries.length - 1];
+    renderCards(latest);
+    renderRadar(latest);
+    renderTrends(entries);
+    renderTimeline(entries);
+    renderCausalTimeline(entries);
+    renderLog(entries);
+    renderBestMessages();
+    renderCategoryStats();
+    loadAdvice();
+    document.getElementById('lastUpdate').textContent = `最終更新: ${new Date().toLocaleString('ja-JP')}`;
+  } catch(e) { console.error('Load error:', e); }
+}
+
+loadData();
+setInterval(loadData, 30000);
+</script>
+</body>
+</html>

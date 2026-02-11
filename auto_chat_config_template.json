@@ -1,0 +1,43 @@
+{
+  "_comment": "Auto Chat Bot config template. Copy this file and fill in values for a new person.",
+  "_usage": "python3 auto_chat_bot.py --config newperson_config.json",
+
+  "name": "PERSON_NAME_LOWERCASE",
+  "display_name": "Person Display Name",
+  "languages": "English",
+  "background": "Brief description of the person (age, location, context of relationship)",
+  "relationship": "friend",
+  "relationship_tone": "casual and friendly",
+
+  "timezone": "Asia/Manila",
+  "timezone_label": "PHT",
+
+  "port": 8789,
+
+  "env": {
+    "line_channel_secret": "LINE_PERSONNAME_CHANNEL_SECRET",
+    "line_access_token": "LINE_PERSONNAME_ACCESS_TOKEN",
+    "discord_token": "DISCORD_TOKEN_PERSONNAME",
+    "discord_channel_id": "PERSONNAME_DISCORD_CHANNEL_ID"
+  },
+
+  "prompt_incoming_file": null,
+  "prompt_outgoing_file": null,
+
+  "emotion_analysis": true,
+  "translation_candidates": 5,
+
+  "claude_model": "claude-sonnet-4-5-20250929",
+
+  "proactive_messaging": {
+    "enabled": true,
+    "min_hours_silence": 24,
+    "max_hours_silence": 72
+  },
+
+  "stage_overrides": {
+    "min_days_per_stage": 14,
+    "enable_flirty": true,
+    "enable_romantic": true
+  }
+}

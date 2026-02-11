@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "stage": "friends",
+  "stage_history": [
+    {
+      "stage": "friends",
+      "entered": "2026-02-12",
+      "exited": null
+    }
+  ],
+  "started": "2026-02-12",
+  "signals": {
+    "positive": {
+      "total_score": 0,
+      "recent_7d": [],
+      "history": []
+    },
+    "negative": {
+      "total_score": 0,
+      "recent_7d": [],
+      "history": []
+    }
+  },
+  "transition_readiness": {
+    "days_in_stage": 0,
+    "consecutive_positive_days": 0,
+    "last_risk_event": null,
+    "blocked_until": null
+  },
+  "push_pull": {
+    "recent_initiators": [],
+    "your_question_count": 0,
+    "her_question_count": 0,
+    "balance_score": 0.5
+  },
+  "topic_history": [],
+  "total_exchanges": 0,
+  "total_days_active": 0,
+  "notes": []
+}

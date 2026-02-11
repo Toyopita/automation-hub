@@ -1,0 +1,41 @@
+{
+  "name": "michelle",
+  "display_name": "Michelle",
+  "languages": "English",
+  "background": "Woman in her 20s. Friend. Goal: carefully develop into romantic relationship.",
+  "relationship": "friend",
+  "relationship_tone": "casual and warm, gradually becoming closer",
+  "strategy_direction": "She is opening up about past relationships and personal struggles. Gradually deepen the connection by: 1) Validating her feelings and showing empathy, 2) Sharing your own relationship values (freedom, respect, trust), 3) Subtly showing you're different from the men she's described, 4) Personality-based compliments ('I like how you think', 'talking to you is fun'), 5) Do NOT rush or be overtly romantic yet - stay warm and genuine",
+
+  "timezone": "Asia/Manila",
+  "timezone_label": "PHT",
+
+  "port": 8789,
+
+  "env": {
+    "line_channel_secret": "LINE_MICHELLE_CHANNEL_SECRET",
+    "line_access_token": "LINE_MICHELLE_ACCESS_TOKEN",
+    "discord_token": "DISCORD_TOKEN_MICHELLE",
+    "discord_channel_id": "MICHELLE_DISCORD_CHANNEL_ID"
+  },
+
+  "prompt_incoming_file": null,
+  "prompt_outgoing_file": null,
+
+  "emotion_analysis": true,
+  "translation_candidates": 5,
+
+  "claude_model": "claude-sonnet-4-5-20250929",
+
+  "proactive_messaging": {
+    "enabled": true,
+    "min_hours_silence": 24,
+    "max_hours_silence": 72
+  },
+
+  "stage_overrides": {
+    "min_days_per_stage": 14,
+    "enable_flirty": true,
+    "enable_romantic": true
+  }
+}

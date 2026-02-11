@@ -1,0 +1,41 @@
+{
+  "name": "vita",
+  "display_name": "Vita",
+  "languages": "English",
+  "background": "Woman, friend. Goal: carefully develop into romantic relationship.",
+  "relationship": "friend",
+  "relationship_tone": "casual and friendly, gradually becoming closer",
+  "strategy_direction": "She is being very open and emotionally available - calling you a close friend, offering to be a listener. Gradually deepen the connection by: 1) Naturally asking about her love life (boyfriend, relationship status), 2) Showing genuine interest in her feelings and daily life, 3) Personality-based compliments ('you're easy to talk to', 'you're really thoughtful'), 4) Gently building romantic undertones once the door opens, 5) Do NOT rush - stay warm and genuine, let her lead the pace",
+
+  "timezone": "Asia/Manila",
+  "timezone_label": "TZ",
+
+  "port": 8790,
+
+  "env": {
+    "line_channel_secret": "LINE_VITA_CHANNEL_SECRET",
+    "line_access_token": "LINE_VITA_ACCESS_TOKEN",
+    "discord_token": "DISCORD_TOKEN_VITA",
+    "discord_channel_id": "VITA_DISCORD_CHANNEL_ID"
+  },
+
+  "prompt_incoming_file": null,
+  "prompt_outgoing_file": null,
+
+  "emotion_analysis": true,
+  "translation_candidates": 5,
+
+  "claude_model": "claude-sonnet-4-5-20250929",
+
+  "proactive_messaging": {
+    "enabled": true,
+    "min_hours_silence": 24,
+    "max_hours_silence": 72
+  },
+
+  "stage_overrides": {
+    "min_days_per_stage": 14,
+    "enable_flirty": true,
+    "enable_romantic": true
+  }
+}

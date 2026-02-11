@@ -1,0 +1,30 @@
+{
+  "_comment": "LINE Bot 汎用テンプレート設定ファイル。コピーして person_config.json 等にリネームして使う。",
+
+  "name": "person",
+  "display_name": "Person",
+  "languages": "English",
+  "background": "Lives in Country. Speaks English.",
+  "relationship": "friend",
+  "relationship_tone": "casual and friendly",
+
+  "timezone": "Europe/London",
+  "timezone_label": "GMT",
+
+  "port": 8788,
+
+  "env": {
+    "line_channel_secret": "LINE_PERSON_CHANNEL_SECRET",
+    "line_access_token": "LINE_PERSON_ACCESS_TOKEN",
+    "discord_token": "DISCORD_TOKEN_PERSON",
+    "discord_channel_id": "PERSON_DISCORD_CHANNEL_ID"
+  },
+
+  "prompt_incoming_file": null,
+  "prompt_outgoing_file": null,
+
+  "emotion_analysis": true,
+  "translation_candidates": 5,
+
+  "claude_model": "claude-sonnet-4-5-20250929"
+}

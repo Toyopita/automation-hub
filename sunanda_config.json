@@ -1,0 +1,40 @@
+{
+  "name": "sunanda",
+  "display_name": "Sunanda",
+  "languages": "English",
+  "background": "Woman in her 20s. friend. Goal: carefully develop into romantic relationship.",
+  "relationship": "friend",
+  "relationship_tone": "casual and friendly",
+
+  "timezone": "Asia/Bangkok",
+  "timezone_label": "TZ",
+
+  "port": 8792,
+
+  "env": {
+    "line_channel_secret": "LINE_SUNANDA_CHANNEL_SECRET",
+    "line_access_token": "LINE_SUNANDA_ACCESS_TOKEN",
+    "discord_token": "DISCORD_TOKEN_SUNANDA",
+    "discord_channel_id": "SUNANDA_DISCORD_CHANNEL_ID"
+  },
+
+  "prompt_incoming_file": null,
+  "prompt_outgoing_file": null,
+
+  "emotion_analysis": true,
+  "translation_candidates": 5,
+
+  "claude_model": "claude-sonnet-4-5-20250929",
+
+  "proactive_messaging": {
+    "enabled": true,
+    "min_hours_silence": 24,
+    "max_hours_silence": 72
+  },
+
+  "stage_overrides": {
+    "min_days_per_stage": 14,
+    "enable_flirty": true,
+    "enable_romantic": true
+  }
+}
