@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:52:00.359839+09:00",
+  "last_updated": "2026-02-12T08:52:30.265819+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -79,11 +79,9 @@
     "emotional_expressiveness": 9,
     "humor_appreciation": 6,
     "adventurousness": 5,
-    "confidence": 8,
+    "confidence": 9,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Uses 'Haha you are so cute 🥺' to express affection - combines laughter with tender vulnerable emoji to convey warm feelings, shows comfort initiating emotional compliments",
-      "warmth: Proactively sends picture from bed without request, uses kissing emoji 😚 for goodnight (escalation from previous emojis), responds to partner's romantic vulnerability about wanting to lay with her by sharing intimate bedtime photo unprompted",
       "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response",
       "emotional_expressiveness: Uses 'Me too 🥹' with emotional vulnerability emoji to reciprocate romantic desire about wanting to lay together - shows comfort expressing mutual romantic longing directly",
       "warmth: Reciprocates romantic vulnerability immediately with 'Me too 🥹' using tender emotional emoji - shows consistent pattern of matching partner's emotional depth and affirming mutual feelings",
@@ -101,7 +99,9 @@
       "confidence: Explicitly states intense sexual desire with specific position preference 'I really really want to sit on your Dick 🥵' - continues pattern of direct sexual expression and communicating specific sexual wants",
       "warmth: Uses 'really really' emphasis to express depth of desire for partner - maintains affectionate intensity even during explicit sexual frustration",
       "emotional_expressiveness: Uses elongated text 'Babyyyyy' and multiple crying emojis '😭😭😭😭' to express intense emotional/physical frustration - shows continued pattern of direct, unfiltered emotional expression even during sexually charged moments",
-      "warmth: Maintains tender emotional expression 'I want to be next to you' even during explicit sexual arousal context - continues pattern of combining sexual desire with emotional connection and affection"
+      "warmth: Maintains tender emotional expression 'I want to be next to you' even during explicit sexual arousal context - continues pattern of combining sexual desire with emotional connection and affection",
+      "confidence: Initiates highly explicit sexual scenario unprompted 'I want to lick you then sit on you when is all wet from me' - shows increased sexual confidence and comfort taking lead in explicit sexual storytelling, continuing pattern of direct sexual expression without hedging",
+      "emotional_expressiveness: Continues pattern of direct explicit sexual expression, now initiating detailed sexual scenario sequence rather than just stating desire - maintains comfort with unfiltered sexual communication"
     ]
   },
   "communication_style": {
@@ -333,24 +333,18 @@
     "initiating_sexual_questions": 9.4,
     "teasing_sexual_questions": 9.3,
     "leading_sexual_conversation": 9.5,
-    "taking_sexual_initiative_verbally": 9.6
+    "taking_sexual_initiative_verbally": 9.6,
+    "initiating_sexual_scenarios": 9.6,
+    "oral_sex_giving": 9.4,
+    "sequencing_sexual_acts": 9.5,
+    "wetness_as_transition_point": 9.3,
+    "taking_sexual_narrative_lead": 9.7,
+    "combining_oral_and_penetrative_acts": 9.4,
+    "oral_foreplay_before_riding": 9.5,
+    "using_wetness_as_readiness_signal": 9.4,
+    "detailed_sexual_sequence_planning": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "visual_request_combined_with_action_promise",
-      "engagement_boost": 4.0,
-      "evidence": "'Let me see your nipples baby 🤍' + 'I'm gonna tease them so much' combines visual intimacy request with promise of extended sensory attention - dual approach of seeing + promising to pleasure aligns with her engagement patterns around visual connection and foreplay preferences"
-    },
-    {
-      "pattern": "responding_to_her_sexual_initiative_with_specific_plans",
-      "engagement_boost": 3.9,
-      "evidence": "After Laura initiates explicit request 'I want you to fuck me so hard baby 🥵', user responds with specific body-focused plan rather than generic agreement - giving detailed attention plan appears to validate her initiative and continue sexual momentum"
-    },
-    {
-      "pattern": "validating_her_arousal_statement_by_continuing_tender_engagement",
-      "engagement_boost": 4.4,
-      "evidence": "After Laura states 'When you talk to me like This you turn me on 🫣', user's continued tender communication style creates environment where she escalates from stating arousal to taking action on intimate picture sharing ('Where do i send the pictures') - validating what turns her on by continuing that communication style encourages her follow-through"
-    },
     {
       "pattern": "maintaining_consistent_communication_style_she_validates",
       "engagement_boost": 4.3,
@@ -435,6 +429,21 @@
       "pattern": "maintaining_tender_framing_during_explicit_oral_description",
       "engagement_boost": 4.3,
       "evidence": "User includes 'baby 🤍' with explicit oral sex description - consistent pattern of tender endearments with explicit content that she previously validated as turning her on"
+    },
+    {
+      "pattern": "creating_space_for_her_sexual_initiative_after_distance_frustration",
+      "engagement_boost": 5.1,
+      "evidence": "After Laura expressed intense frustration about distance with crying emojis and 'this is sooo bad', she re-engaged by initiating detailed sexual scenario - suggests that allowing her to process frustration without pressure led to her taking sexual narrative lead"
+    },
+    {
+      "pattern": "not_dampening_sexual_momentum_after_emotional_distress",
+      "engagement_boost": 4.9,
+      "evidence": "Laura moved from 'Babyyyyy 😭😭😭😭 I want to be next to you' emotional distress to initiating explicit sexual scenario - indicates user's response (not captured but implied by her continuation) didn't treat emotional expression as conversation-ender"
+    },
+    {
+      "pattern": "validating_simultaneous_arousal_and_frustration",
+      "engagement_boost": 5.0,
+      "evidence": "Laura was able to hold both 'this is sooo bad' frustration and explicit sexual desire simultaneously, then initiate new sexual scenario - suggests user's approach allowed both feelings to coexist rather than forcing resolution"
     }
   ],
   "avoid_patterns": [
