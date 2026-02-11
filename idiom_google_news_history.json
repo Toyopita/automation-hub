@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-12T23:53:55.957298+09:00",
-    "title": "Google Cloud 用 Rust SDK が利用可能に - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3NTakVEOTl6WkwzZmdqVGVOd2V1dFZCT3RlWk9Lb052THJuZTN3OEgwSUZZOGhrT1lWWGJtRWhPYnhWR1hxWEJKbzhBMUtDa0RabElCdDdPWHctemJOLVNtcXhIV2VQcVh1b2VVbVFoVnh4c2t3c1NLWU5vQWduamNVbndGOTY4Ny1kMzgzMDJzTjBTUEtVTDhBS1M1cEg0VWlHZENYRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-13T01:55:09.348450+09:00",
     "title": "画期的な AWS とのコラボレーションで Google Cloud のクロスクラウド ネットワークを拡大 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRHZtNG1HUFVmQXhSYXZRZUlBR1BBUkJPMUFmNTdiYkZOaTZ2VmU2dExJLVZIWFBrdXkzRmFmS1FJMDRHSVBZM1pyV0pId29hUGlad2lTVm15ZkR3TEF4T0lXTTJ6MUdYRmJpamNldWZidVRaVWdOMV9iYVhkeVFQdmtheVpLT05mYWh3MHltS3RwYnMteVhCWmlJdkJyd2JZUWFINkVMYndERkk?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1668,5 +1663,10 @@
     "date": "2026-02-11T22:28:02.869097+09:00",
     "title": "WinRAR の重大な脆弱性 CVE-2025-8088 を悪用する多様な脅威アクター - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZnhEM2p5UWVENUtudVpYU3Z3MjFHQWt6eDg4c25fa2ZJbjE2MDFTZWFoSVFWVHRhaTVJR1RnWWJEeWZTU2JWcTdRbTZqUEhzd0tSdmxIcHc1bHhlYy1FcVB6Qzl3bTg1Q00wMEtER3JMbVpTY0Jla1JWSWNYX0Y2VzczUmZ0YlNfUkh2d3ltbW9VSmJNZFZjQk5saTdYN1E4M0E?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-12T01:29:50.259552+09:00",
+    "title": "一休: Google Cloud 移行でレガシーな開発環境から脱却し、作業効率化とサービス品質の向上、ビジネスの成長を実現 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORXB6TkI3dmx4QnRsX24xaEItYlNMU1ZPc2hnN2NrV2FyZjh4dlBDeHZBS1hPN01wemFOcHU2Sl9SYzh3OXpmOEoxUUJjZDQ1M05uQk9pTUphZXFhNUM5aDBCWG9VSkJhckVob2FJNmpLSmtReU4zRGIxX3VuVmtEdkxHZnBRT2tWUUVFT0k2ZnVndWlzWGZTLWxsZjRWZ2lFOGVHbzVlZ0tLXzF6UjBiQjd2UHhELUVaUjBGODN6QkxKR0NFSXpJd2FNaWlWLXBNWmtUZGJR?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
