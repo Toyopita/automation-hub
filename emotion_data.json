@@ -11204,6 +11204,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-11T23:57:37.617401+09:00",
+      "summary": "Thank you for the vidéo 😳😳",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「vidéo」はフランス語風のスペル。照れている様子（😳😳）。彼が送った動画に対する素直な感謝",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 0
+      }
     }
   ]
 }
