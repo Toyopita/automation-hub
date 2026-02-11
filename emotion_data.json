@@ -13811,6 +13811,58 @@
         "engagement": 5,
         "frustration": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:52:08.412938+09:00",
+      "summary": "I want to lick you then sit on you when is all wet from me ",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "明確で具体的な性的欲求の表現。距離による欲求不満と強い願望が混在",
+      "trigger": {
+        "message": "I wanna taste your dripping wet pussy baby... Show me how it looks right now. I wanna see your nipples too 🤍",
+        "sent_at": "2026-02-12T08:51:57.913671+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 10,
+        "frustration": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
