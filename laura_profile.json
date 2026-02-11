@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:57:21.453309+09:00",
+  "last_updated": "2026-02-12T00:57:45.038739+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -81,7 +81,8 @@
       "did you taste it",
       "is impossible",
       "I think is impossible haha",
-      "Baby Im working"
+      "Baby Im working",
+      "Are you going to sleep?"
     ]
   },
   "topic_engagement": {
@@ -108,22 +109,12 @@
     "shared_sexual_experiences": 8.6,
     "shared_sexual_humor": 8.3,
     "mutual_laughter_about_intimate_topics": 8.5,
-    "partner_sleep_schedule": 7.5,
-    "time_awareness_in_relationship": 7.8,
+    "partner_sleep_schedule": 7.7,
+    "time_awareness_in_relationship": 8.0,
     "expressing_affection_directly": 8.2,
     "receiving_emotional_declarations": 8.4
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_mutual_visual_intimacy",
-      "engagement_boost": 1.7,
-      "evidence": "Her message 'You want me to look at you all the Time 😳' suggests she's receptive to and engaged by the concept of ongoing visual connection/attention in the relationship"
-    },
-    {
-      "pattern": "sharing_explicit_sexual_desires",
-      "engagement_boost": 1.6,
-      "evidence": "User shared explicit sexual practice - Laura had been highly engaged with intimate content up to this point, though work interrupted before she could fully respond"
-    },
     {
       "pattern": "building_on_established_intimate_momentum",
       "engagement_boost": 1.5,
@@ -213,6 +204,16 @@
       "pattern": "timing_affection_after_playful_intimate_moments",
       "engagement_boost": 1.6,
       "evidence": "User expresses 'I like you' after Laura laughed about intimate topic ('I think is impossible haha') - expressing affection when she's in lighthearted mood creates positive association between humor, intimacy, and emotional connection"
+    },
+    {
+      "pattern": "showing_awareness_of_partner_late_hours",
+      "engagement_boost": 1.5,
+      "evidence": "Laura asks 'Are you going to sleep?' after user mentioned it's almost 1am - shows she's tracking his time zone and concerned about his wellbeing despite the intimate conversation"
+    },
+    {
+      "pattern": "balancing_desire_with_practical_concern",
+      "engagement_boost": 1.4,
+      "evidence": "After work interruption and intimate conversation, Laura shifts to checking on his sleep schedule rather than continuing explicit topics - shows maturity and care for his health"
     }
   ],
   "avoid_patterns": [
