@@ -19,7 +19,16 @@
     "humor": "Light, playful, uses 😏 for flirty moments",
     "traits": ["Easygoing", "Curious about others", "Confident but not pushy"]
   },
-  "interests": [],
+  "interests": [
+    "Photography - enjoys taking photos casually",
+    "Uses iPhone 17 Pro for most shots",
+    "Also has DJI OSMO Pocket 3 and OSMO 360 for video/photo"
+  ],
+  "gear": {
+    "phone": "iPhone 17 Pro",
+    "cameras": ["DJI OSMO Pocket 3", "DJI OSMO 360"],
+    "photo_style": "Casual - interesting things, nice skies, random stuff"
+  },
   "notes": [
     "Uses LINE translation tool for English conversations",
     "Presented this naturally to contacts as a language learning aid",
