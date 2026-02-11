@@ -12703,6 +12703,48 @@
         "future": 4,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:35:54.264297+09:00",
+      "summary": "Im going to sleep ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝前の簡潔な挨拶。会話の自然な締めくくり。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": -4,
+        "engagement": -4
+      }
     }
   ]
 }
