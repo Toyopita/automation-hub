@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-11T23:57:09.973428+09:00",
+  "last_updated": "2026-02-11T23:57:46.593621+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -64,7 +64,8 @@
       "baby",
       "super hard",
       "No way",
-      "Is too late there?"
+      "Is too late there?",
+      "vidéo"
     ]
   },
   "topic_engagement": {
@@ -76,7 +77,8 @@
     "language_learning_methods": 8.5,
     "dating_advice": 7.9,
     "time_zones": 7.2,
-    "partner_wellbeing": 7.8
+    "partner_wellbeing": 7.8,
+    "video_sharing": 8.2
   },
   "effective_patterns": [
     {
@@ -153,6 +155,11 @@
       "pattern": "continuing_playful_romantic_topic",
       "engagement_boost": 1.3,
       "evidence": "User continued the Japanese boyfriend suggestion with 'You think??' - Laura's immediate 'You think ??' response shows she's staying engaged with the playful romantic angle and possibly considering it or playing along"
+    },
+    {
+      "pattern": "sharing_video_content",
+      "engagement_boost": 1.7,
+      "evidence": "Laura responded with gratitude and strong emotional reaction (double shocked emoji 😳😳) after receiving video, indicating high appreciation for video content sharing"
     }
   ],
   "avoid_patterns": [],
