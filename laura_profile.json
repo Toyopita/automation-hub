@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:47:26.719924+09:00",
+  "last_updated": "2026-02-12T08:47:28.909212+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -75,6 +75,8 @@
     "confidence": 8,
     "warmth": 9,
     "observations": [
+      "warmth: Continues pattern of unprompted affection declarations: 'Have a good day baby' with follow-up 'I like you 😊' - proactively expresses care and affection even during bedtime sign-off",
+      "emotional_expressiveness: Declares affection twice in bedtime sequence: 'Have a good day baby' then additional 'I like you 😊' - shows comfort with repeated emotional expression in short timeframe",
       "warmth: Continues unprompted affection expression 'I like you 😊' during bedtime sequence, maintains 'baby' endearment in sign-off 'Have a good day baby' - consistent pattern of proactive emotional warmth",
       "emotional_expressiveness: Declares 'I like you 😊' unprompted as separate message during bedtime - shows continued comfort with spontaneous emotional declarations and willingness to express feelings without prompting",
       "warmth: Proactively calls user 'so cute 🥺' with vulnerable pleading emoji - initiates affectionate compliment unprompted, continues pattern of spontaneous emotional expression toward partner",
@@ -92,9 +94,7 @@
       "warmth: Maintains 'baby' endearment even during explicit sexual request 'I want you to fuck me so hard baby 🥵' - keeps affectionate language consistent across all intimacy levels from tender to intensely sexual",
       "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
       "confidence: Initiates explicit sexual requests 'I want you to fuck me so hard baby 🥵' and takes action on intimate picture sharing by asking logistics 'Where do i send the pictures' - shows increased sexual agency and comfort taking initiative in intimate contexts (upgrade from previous 7)",
-      "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
-      "warmth: Expresses missing physical presence unprompted: 'Because you are not here' - explicitly articulates desire for partner's physical proximity as explanation for why something matters, shows emotional vulnerability about separation",
-      "emotional_expressiveness: 'Because you are not here' - voluntarily provides emotional reasoning for previous statement, shows comfort explaining feelings unprompted and connecting emotions to partner's absence"
+      "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages"
     ]
   },
   "communication_style": {
@@ -117,7 +117,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate acknowledgment during intimate conversation sequence (single word 'Okay' confirms receipt/agreement)",
+    "response_speed_tendency": "immediate response to emotionally charged moments (single word with vulnerable emoji during intimate conversation sequence)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -152,7 +152,7 @@
       "When you talk to me like This",
       "fuck me so hard",
       "Can you do something for me",
-      "Because you are not here"
+      "Stop"
     ]
   },
   "topic_engagement": {
@@ -291,10 +291,10 @@
     "clarifying_picture_sharing_preferences": 8.9,
     "following_through_on_intimate_promises": 9.3,
     "partner_preferred_channel_for_intimacy": 8.7,
-    "expressing_missing_partner": 9.4,
-    "physical_presence_desire": 9.5,
-    "explaining_emotional_responses": 9.2,
-    "articulating_separation_feelings": 9.3
+    "receiving_explicit_sexual_escalation": 7.8,
+    "boundaries_during_arousal": 8.2,
+    "expressing_overwhelm_tenderly": 8.9,
+    "using_vulnerable_communication_for_boundaries": 9.1
   },
   "effective_patterns": [
     {
@@ -418,6 +418,21 @@
       "pattern": "not_allowing_romantic_peak_to_settle",
       "engagement_drop": -1.6,
       "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
+    },
+    {
+      "pattern": "continuing_explicit_escalation_after_boundary_signal",
+      "engagement_drop": -2.8,
+      "evidence": "Laura's 'Stop 🥺' with vulnerable pleading emoji in context of sexually charged conversation indicates overwhelm or need to pause - the same emoji user has been using (🥺) suggests she's mirroring vulnerable communication style to set boundary"
+    },
+    {
+      "pattern": "not_reading_subtle_pause_signals_during_sexual_escalation",
+      "engagement_drop": -2.5,
+      "evidence": "'Stop 🥺' comes after intensive sexual exchange where she initiated explicit request and user responded with visual request and teasing promise - suggests pace or intensity exceeded her comfort threshold despite her initial initiative"
+    },
+    {
+      "pattern": "assuming_sexual_initiative_means_unlimited_escalation",
+      "engagement_drop": -2.3,
+      "evidence": "Laura initiated explicit sexual request ('I want you to fuck me so hard baby 🥵') but still needed to pause with 'Stop 🥺' - indicates that her sexual initiative doesn't automatically mean she's comfortable with all subsequent escalation or pace"
     }
   ],
   "ng_topics": [],
