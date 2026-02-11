@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:36:01.203845+09:00",
+  "last_updated": "2026-02-12T08:36:22.370249+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -215,7 +215,9 @@
     "japanese_listening_practice": 8.3,
     "language_immersion_methods": 8.5,
     "bedtime_announcements": 7.2,
-    "maintaining_connection_before_sleep": 7.8
+    "maintaining_connection_before_sleep": 7.8,
+    "partner_wellbeing_wishes": 7.5,
+    "proactive_day_wishes": 7.8
   },
   "effective_patterns": [
     {
