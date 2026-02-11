@@ -11983,6 +11983,48 @@
         "future": 1,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:11:31.310835+09:00",
+      "summary": "I go to the gym later ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い事実的な返答。直前のメッセージで写真を送ると提案した後なので、ジムの予定を伝えているだけで特に感情的な内容はない。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -3,
+        "eros": -3,
+        "ds": -2,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": -3
+      }
     }
   ]
 }
