@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-12T14:40:36.036595+09:00",
-    "title": "カミワダ テル氏、無料のBlenderツール「Blender チェーンジェネレータ」リリース！ ジオメトリノードベース、カーブに沿って自動でチェーン生成 - CGWORLD.jp",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hNndQRm1wZ2ZFdmNZMGtMXzJmOXVRZFRXQlRObEtEVFNYN2F2T2xVLUlHR1h3VTE0aXhkcGV2TGZKN0lsamxPWXRxc3dUSDBLOEhkQjVaaGFnN2JFMUJDT1ZR?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-12T15:41:11.903965+09:00",
     "title": "【早期割引は本日限り!】Blenderユーザー必見「Blender Fes 2025 SS」が3/29（土）・30（日）に開催 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HekN3ZlVlbEpzTU41MDRUcVlrNlFiN1BqTXg2dVFRczgyZnU1RGlWbzROWmVNVWdNeTczR0pjdGRobUlOam9sc1g0a3lobWpSNGpoRWxhY2l3SmZCaDc0Z2UwcjQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -458,5 +453,10 @@
     "date": "2026-02-11T14:05:04.486288+09:00",
     "title": "「Blender 5.0」ベータリリース！ VSEとコンポジターの統合、ジオメトリノードの強化、UV編集効率化、Cycles品質向上、ACESカラーマネジメントへのネイティブ対応など更新多数 - CGWORLD.jp",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oR2RzWXphQXJXVW9IUVFMNGN5cUprTnF6V0o4UTFPNjJSQjBUV182M3NtX2twUEVmYUYyOGtfckxVUUtmVGpWNFctMGZsbkFkLXVMNGxxRmJ4NGJTTmRvOW1sbw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-11T15:05:39.794864+09:00",
+    "title": "マルウェアに感染したBlenderファイルに注意！ 椅子のモデルファイルにPythonスクリプトが埋め込まれ、設定次第で自動実行される危険性あり - CGWORLD.jp",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11TDgyMGlyQnJSUE9SdU0xUU9Qb1ZxMTN6c211X3ZvUkpNOEZ0N0RmSXY3ZW16RTlfQWJvcmxsRlZvTjZPTnh4bndDeWJjUGE2VVZRb0JMSkJsc2d5ZzN3YWZ4Q2l2eHBPeVQ4?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
