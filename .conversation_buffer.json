@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I always end up finishing every time haha",
-    "time": "00:22"
-  },
-  {
     "role": "laura",
     "text": "I think is impossible haha",
     "time": "00:24"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "I go to the gym later ",
+    "time": "01:11"
+  },
+  {
+    "role": "you",
+    "text": "Why don't you like posting stories baby? I guess Instagram's not your thing haha",
     "time": "01:11"
   }
 ]
