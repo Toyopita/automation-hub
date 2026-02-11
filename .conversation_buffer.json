@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Do you like anime ? ",
-    "time": "08:31"
-  },
-  {
     "role": "you",
     "text": "Oh right it was before 1am haha",
     "time": "08:32"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Me too 🥹",
     "time": "08:39"
+  },
+  {
+    "role": "laura",
+    "text": "You are sooooo cuuuuuuute ",
+    "time": "08:40"
   }
 ]
