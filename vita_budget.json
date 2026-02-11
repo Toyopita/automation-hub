@@ -1,9 +1,9 @@
 {
   "month": "2026-02",
-  "monthly_sent": 6,
+  "monthly_sent": 7,
   "daily_log": {
     "2026-02-11": {
-      "sent": 6,
+      "sent": 7,
       "received": 23,
       "budget": 8
     }
