@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:51:24.196277+09:00",
+  "last_updated": "2026-02-12T08:52:00.359839+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -125,13 +125,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate response to emotionally charged moments (single word with vulnerable emoji during intimate conversation sequence)",
+    "response_speed_tendency": "immediate initiation of intimate/sexual topics during engaged moments",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Thats cute",
       "🥹",
       "Oww",
       "Me too",
@@ -160,7 +159,8 @@
       "Stop",
       "sooo bad",
       "In already wet",
-      "this is sooo bad"
+      "this is sooo bad",
+      "Do you know what i want"
     ]
   },
   "topic_engagement": {
@@ -329,7 +329,11 @@
     "wanting_physical_presence_when_aroused": 9.8,
     "elongated_endearments_during_distress": 9.1,
     "multiple_crying_emojis": 8.8,
-    "expressing_bad_feeling_about_distance": 9.5
+    "expressing_bad_feeling_about_distance": 9.5,
+    "initiating_sexual_questions": 9.4,
+    "teasing_sexual_questions": 9.3,
+    "leading_sexual_conversation": 9.5,
+    "taking_sexual_initiative_verbally": 9.6
   },
   "effective_patterns": [
     {
