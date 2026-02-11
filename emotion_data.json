@@ -10752,6 +10752,48 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-11T20:02:22.432343+09:00",
+      "summary": "I made a pause with learning japanesse i have a lot of work 🥺",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "少し申し訳なさそうに説明している。絵文字で可愛く甘えてる雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 1
+      }
     }
   ]
 }
