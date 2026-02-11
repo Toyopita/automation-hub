@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "😆😆😆",
-    "time": "22:45"
-  },
-  {
     "role": "you",
     "text": "Someone told me the best way to learn it is to get a boyfriend who's a native haha",
     "time": "23:11"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Are you going to sleep? ",
+    "time": "00:57"
+  },
+  {
+    "role": "laura",
+    "text": "You like me how? 🙄",
     "time": "00:57"
   }
 ]
