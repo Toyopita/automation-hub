@@ -11797,6 +11797,100 @@
         "future": 3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:04:09.174413+09:00",
+      "summary": "Haha Thats Lovely really ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「一緒に寝たい」という甘い言葉に対して、素直に嬉しがっている様子。温かく肯定的な反応",
+      "trigger": {
+        "message": "Honestly I just wanna sleep beside you right now baby 🤍",
+        "sent_at": "2026-02-12T01:02:30.765194+09:00",
+        "category": "sensory",
+        "modifiers": [
+          "+late_night",
+          "+vulnerable",
+          "+escalation"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": -3,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-12T01:04:09.955313+09:00",
+      "summary": "Me too ",
+      "scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「一緒に寝たい」に対する素直な共感。シンプルだけど温かい返答",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -3,
+        "future": 1,
+        "engagement": 0
+      }
     }
   ]
 }
