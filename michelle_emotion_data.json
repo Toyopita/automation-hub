@@ -1,0 +1,425 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "timestamp": "2026-02-11T18:33:47.660606+09:00",
+      "summary": "can you see it now?",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 3,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "実用的な確認メッセージ。感情的な深さは少なく、タスク志向。",
+      "prev_scores": null,
+      "score_deltas": null
+    },
+    {
+      "timestamp": "2026-02-11T18:50:48.168980+09:00",
+      "summary": "oh good to hear that, is your work until night? ju",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく好奇心を示しつつ、軽い照れや配慮も感じられる健全な関心",
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 3,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:09:33.871236+09:00",
+      "summary": "just curious don't worry I won't seduce you 😂",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 2,
+        "playfulness": 8,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "冗談で境界線を明確化。軽やかだが若干の防衛的ニュアンスあり",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -4,
+        "playfulness": 1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:11:18.364428+09:00",
+      "summary": "I think your work is very tiring haha",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "軽い共感と気遣いを示す。距離感は適度でリラックスした雰囲気",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 2,
+        "playfulness": 8,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": -2,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:27:38.858883+09:00",
+      "summary": "ohh that's interesting and it seems like you enjoy | yes i have a job, I'm a sales lady at the cosmetic",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく友好的。適度な距離感で自己開示しながら相手にも関心を示している",
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": -1,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:39:18.684953+09:00",
+      "summary": "Actually i don't like to use make up i just promot | Ohh okayy got it, what is your work? if you don't ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "自己開示しながら相手への関心も示す、バランスの取れた会話姿勢",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": 1,
+        "engagement": 2
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:45:14.076581+09:00",
+      "summary": "yes, because other people will look down on me bec | ohhh your work can be exhausting i can feel it eve | Do you like hip hop? ",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "共感力が高く、相手の仕事に興味を示している。自然体で会話を楽しんでいる",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": 1,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T19:59:13.681699+09:00",
+      "summary": "ohh okayy, I think makeup is common in China, Kore | that's cool, i also like hiphop since i was 17 yea",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "文化差を説明しつつ共通点を見つけて会話を続ける姿勢。オープンで友好的",
+      "prev_scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": -2,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-11T20:10:50.760881+09:00",
+      "summary": "oh yes, every country has different beauty standar | actually both, we do dance battle and music battle",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 8,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "自己開示しつつユーモアで軽く。会話に積極的で健全な距離感",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 3,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T20:20:46.168199+09:00",
+      "summary": "oh thankyou for that 😁 |  yes every month there is a dance and music battle",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく自己開示的。趣味を楽しそうに共有し、会話に積極的",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 8,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": -1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-11T20:31:34.698553+09:00",
+      "summary": "yes, our PE time lasts almost half the time of sch | i still do dancing in competitions here in our are",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく自然な会話。自分の経験を楽しく共有している健全な状態",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": -1,
+        "playfulness": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T20:44:50.994423+09:00",
+      "summary": "yes, at our school, we are mentally and physically | sometimes local street competition but often more ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "疲労を共有しつつも笑いで包む。健全な自己開示と会話継続意欲",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": 1,
+        "longing": 1,
+        "playfulness": -1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-11T20:57:43.001097+09:00",
+      "summary": "the last time i participated in the competition wa | When there's an upcoming competition, I practice t",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "過去の成功体験を共有し、努力家な一面も見せている。親しみやすい雰囲気",
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 3,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T22:31:42.544750+09:00",
+      "summary": "maybe but for me I'm not a good dancer I just did ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "謙虚で自然体。楽しむことを大切にする健全なマインドセット。",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 1,
+        "engagement": -1
+      }
+    }
+  ]
+}
