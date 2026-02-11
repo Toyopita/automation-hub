@@ -15,5 +15,15 @@
     "modifiers": [
       "+late_night"
     ]
+  },
+  {
+    "message": "I like you Laura 🤍",
+    "sent_at": "2026-02-12T00:57:06.779951+09:00",
+    "category": "affection",
+    "modifiers": [
+      "+late_night",
+      "+vulnerable",
+      "+spontaneous"
+    ]
   }
 ]
