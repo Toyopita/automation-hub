@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:07:00.858528+09:00",
+  "last_updated": "2026-02-12T01:08:07.709046+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -90,7 +90,8 @@
       "🥹",
       "Oww",
       "Me too",
-      "Thats Lovely really"
+      "Thats Lovely really",
+      "kinda miss that haha"
     ]
   },
   "topic_engagement": {
@@ -134,39 +135,14 @@
     "expressing_comfort_desire": 8.9,
     "expressing_mutual_romantic_desire": 9.3,
     "reciprocating_emotional_vulnerability": 9.2,
-    "direct_sexual_preference_questions": 7.2
+    "direct_sexual_preference_questions": 7.2,
+    "instagram_stories": 7.5,
+    "partner_daily_activities": 7.8,
+    "gym_routine": 7.2,
+    "maintaining_visual_connection": 8.1,
+    "noticing_partner_absence": 8.3
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_desire_for_physical_closeness",
-      "engagement_boost": 2.0,
-      "evidence": "Laura responds 'Thats cute' to user saying he wants to hold her - validates the romantic gesture as endearing rather than too forward"
-    },
-    {
-      "pattern": "responding_to_skepticism_with_specific_tender_actions",
-      "engagement_boost": 1.9,
-      "evidence": "After Laura tested sincerity with 'You like me how? 🙄', user's specific answer 'wanna hold you' receives positive validation 'Thats cute' - shows that addressing skepticism with concrete romantic specificity resonates with her"
-    },
-    {
-      "pattern": "maintaining_emotional_vulnerability_after_explicit_exchanges",
-      "engagement_boost": 1.8,
-      "evidence": "Following explicit sexual conversation and Laura's playful skepticism, user's tender romantic statement receives warm acknowledgment 'Thats cute' - indicates she appreciates emotional depth alongside physical attraction"
-    },
-    {
-      "pattern": "creating_space_for_emotional_expression",
-      "engagement_boost": 1.8,
-      "evidence": "Laura sends single 🥹 emoji after receiving romantic validation ('Thats cute') - indicates she feels comfortable expressing vulnerable emotions (touched/moved) through emoji in response to affectionate exchange"
-    },
-    {
-      "pattern": "validating_romantic_gestures_creates_emotional_openness",
-      "engagement_boost": 1.7,
-      "evidence": "After user expressed desire to hold her and received 'Thats cute' validation, Laura follows with vulnerable 🥹 emoji - shows that positive reception of tender statements leads to deeper emotional sharing"
-    },
-    {
-      "pattern": "accepting_emoji_only_emotional_responses",
-      "engagement_boost": 1.6,
-      "evidence": "Laura uses 🥹 alone as complete message after romantic exchange - she trusts the emotional communication is understood without words, indicating high intimacy level where non-verbal expression is sufficient"
-    },
     {
       "pattern": "escalating_physical_affection_specificity",
       "engagement_boost": 2.1,
@@ -236,6 +212,36 @@
       "pattern": "validating_romantic_progression_explicitly",
       "engagement_boost": 2.2,
       "evidence": "Laura's 'Thats Lovely really' comes after series of escalating romantic statements (hold you → sleep beside you → me too) - she acknowledges and validates the emotional journey of the conversation itself"
+    },
+    {
+      "pattern": "transitioning_from_romantic_peak_to_casual_daily_check_in",
+      "engagement_boost": 1.9,
+      "evidence": "After intense romantic exchange ('Me too', 'Thats Lovely really'), user shifts to lighter topic about Instagram stories and gym - allows emotional moment to settle while maintaining connection through casual interest in her daily life"
+    },
+    {
+      "pattern": "expressing_missing_her_through_instagram_stories",
+      "engagement_boost": 1.8,
+      "evidence": "User says 'kinda miss that haha' about not seeing her stories - frames absence of social media posts as missing her presence, showing attention to her digital activity as connection point"
+    },
+    {
+      "pattern": "asking_about_specific_routine_activity",
+      "engagement_boost": 1.6,
+      "evidence": "User asks 'Did you go to the gym today?' - shows knowledge of her routine and genuine interest in her daily activities, demonstrates attentiveness to her life patterns"
+    },
+    {
+      "pattern": "using_baby_in_casual_context",
+      "engagement_boost": 1.5,
+      "evidence": "User includes 'baby' in casual question about Instagram stories - maintains affectionate tone while transitioning from intense romantic moment to everyday conversation"
+    },
+    {
+      "pattern": "combining_missing_her_with_light_humor",
+      "engagement_boost": 1.7,
+      "evidence": "User adds 'haha' after 'kinda miss that' - softens the admission of missing her with playful tone, making vulnerability feel lighter and less pressuring"
+    },
+    {
+      "pattern": "showing_attention_to_her_social_media_presence",
+      "engagement_boost": 1.8,
+      "evidence": "User noticed Laura hasn't posted stories recently - demonstrates he pays attention to her daily social media activity, which shows consistent interest in her life even when not directly communicating"
     }
   ],
   "avoid_patterns": [
