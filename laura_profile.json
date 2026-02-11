@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:17:15.404997+09:00",
+  "last_updated": "2026-02-12T01:17:56.024130+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -43,7 +43,8 @@
       "finds Instagram distracting",
       "has deleted Instagram multiple times due to it interfering with real life",
       "goes to the bank for errands",
-      "receives compliments from elderly men about her appearance"
+      "receives compliments from elderly men about her appearance",
+      "planning to avoid posting Instagram stories for extended period due to distraction concerns"
     ]
   },
   "personality": {
@@ -174,19 +175,11 @@
     "social_media_downsides": 8.6,
     "instagram_distraction": 8.4,
     "deleting_social_media": 8.2,
-    "real_life_vs_digital_balance": 8.7
+    "real_life_vs_digital_balance": 8.7,
+    "instagram_story_posting_decisions": 8.8,
+    "long_term_social_media_boundaries": 8.6
   },
   "effective_patterns": [
-    {
-      "pattern": "responding_to_picture_offer_with_emotional_context",
-      "engagement_boost": 2.7,
-      "evidence": "Instead of just saying 'yes send pictures', user frames desire to see her in terms of emotional benefit 'make me feel better' - validates that seeing her has meaningful positive impact beyond visual pleasure"
-    },
-    {
-      "pattern": "using_white_heart_for_tender_appreciation",
-      "engagement_boost": 2.6,
-      "evidence": "White heart emoji 🤍 used with 'make me feel better' continues established pattern of using this specific emoji for soft, appreciative emotional moments rather than romantic red heart"
-    },
     {
       "pattern": "maintaining_affectionate_address_in_vulnerable_statements",
       "engagement_boost": 2.5,
@@ -276,6 +269,16 @@
       "pattern": "maintaining_white_heart_for_tender_compliments",
       "engagement_boost": 2.3,
       "evidence": "Uses 🤍 with compliment about her beauty/cuteness - continues established pattern of white heart for soft appreciative moments, maintains consistency in emoji emotional vocabulary"
+    },
+    {
+      "pattern": "validating_social_media_boundary_decisions",
+      "engagement_boost": 2.7,
+      "evidence": "Laura's previous context showed she finds Instagram distracting and has deleted it multiple times; this statement about not posting stories 'in a while' indicates she's setting longer-term boundaries - user's prior validation ('Yeah I feel you baby' and sharing parallel experience) likely contributed to her comfort making this commitment"
+    },
+    {
+      "pattern": "creating_space_for_autonomous_decisions",
+      "engagement_boost": 2.5,
+      "evidence": "Laura makes clear autonomous decision about Instagram story boundaries ('so i dont think im posting stories in a while') - suggests user's non-pressuring approach allows her to make and communicate her own choices about social media use"
     }
   ],
   "avoid_patterns": [
