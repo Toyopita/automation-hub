@@ -13958,6 +13958,49 @@
         "engagement": 0,
         "concern": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:55:25.930673+09:00",
+      "summary": "I want to have your Dick between my boobs 🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼女の欲求を直接的に表現。距離を感じながらも積極的にセクスティングに参加している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 10,
+        "concern": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 0
+      }
     }
   ]
 }
