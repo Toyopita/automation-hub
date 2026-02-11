@@ -90,11 +90,6 @@
     "time": "2026-02-11 21:53"
   },
   {
-    "role": "you",
-    "text": "oh btw sorry if my messages sound a bit off sometimes haha, my english isn't great so i use a translation tool and it doesn't always come out right 😅\n\nand yeah i'm from japan! born and raised here",
-    "time": "2026-02-11 21:58"
-  },
-  {
     "role": "vita",
     "text": "I am from Indonesia in the city of Bandung",
     "time": "2026-02-11 22:04"
@@ -108,5 +103,10 @@
     "role": "vita",
     "text": "ahahaha no problem ",
     "time": "2026-02-11 22:06"
+  },
+  {
+    "role": "you",
+    "text": "wait why would i be angry? 😂 that's a weird thing to worry about haha. bandung seems cool, i've heard it's got good weather and food scene there right?\n\nyou don't need to worry about stuff like that with me btw",
+    "time": "2026-02-11 22:10"
   }
 ]
