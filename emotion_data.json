@@ -11517,6 +11517,57 @@
         "future": -4,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:24:13.915128+09:00",
+      "summary": "I think is impossible haha",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な話題に対して軽くからかうような反応。仕事中だが会話を続けている",
+      "trigger": {
+        "message": "I always end up finishing every time haha",
+        "sent_at": "2026-02-12T00:22:26.014370+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+late_night",
+          "+callback"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 6,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": -2,
+        "ds": -3,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
