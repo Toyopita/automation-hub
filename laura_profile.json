@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:45:27.042921+09:00",
+  "last_updated": "2026-02-12T00:57:21.453309+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -109,29 +109,11 @@
     "shared_sexual_humor": 8.3,
     "mutual_laughter_about_intimate_topics": 8.5,
     "partner_sleep_schedule": 7.5,
-    "time_awareness_in_relationship": 7.8
+    "time_awareness_in_relationship": 7.8,
+    "expressing_affection_directly": 8.2,
+    "receiving_emotional_declarations": 8.4
   },
   "effective_patterns": [
-    {
-      "pattern": "sharing_visual_content",
-      "engagement_boost": 1.6,
-      "evidence": "User sent video and Laura responds with strong appreciation 'Thank you for the vidéo 😳😳' and 'I love it' - visual content elicits enthusiastic positive reaction"
-    },
-    {
-      "pattern": "direct_sexual_communication",
-      "engagement_boost": 1.4,
-      "evidence": "User explicitly expressed desire to share intimate content - Laura had already responded positively to the video with enthusiasm, indicating comfort with direct sexual communication in established relationship"
-    },
-    {
-      "pattern": "playful_escalation_of_intimate_topics",
-      "engagement_boost": 1.5,
-      "evidence": "Laura responds to continued intimate conversation with playful rhetorical question 'Haha yes?' showing comfort and amusement with the direction of conversation"
-    },
-    {
-      "pattern": "expressing_desire_for_visual_connection",
-      "engagement_boost": 1.6,
-      "evidence": "Laura responds to intimate video content by acknowledging the implied desire for visual attention with flushed emoji '😳', showing she's engaged with and understanding the deeper meaning"
-    },
     {
       "pattern": "creating_mutual_visual_intimacy",
       "engagement_boost": 1.7,
@@ -211,6 +193,26 @@
       "pattern": "acknowledging_delayed_message_awareness",
       "engagement_boost": 1.3,
       "evidence": "User says 'Oh I just noticed your message haha' showing he respects her work interruption wasn't taken personally and he's catching up naturally"
+    },
+    {
+      "pattern": "expressing_affection_directly",
+      "engagement_boost": 1.6,
+      "evidence": "User says 'I like you Laura 🤍' after Laura had been engaged in intimate conversation and playful exchanges - expressing genuine affection with white heart emoji creates emotional connection beyond physical intimacy"
+    },
+    {
+      "pattern": "balancing_sexual_and_emotional_intimacy",
+      "engagement_boost": 1.7,
+      "evidence": "After extended explicit sexual conversation and shared laughter about intimate topics, user shifts to direct emotional expression 'I like you Laura 🤍' - this creates multi-dimensional connection that values both physical and emotional closeness"
+    },
+    {
+      "pattern": "using_white_heart_for_pure_affection",
+      "engagement_boost": 1.5,
+      "evidence": "User chooses white heart emoji 🤍 (symbolizing pure/innocent love) rather than red heart after explicit sexual exchange - this distinction shows emotional depth and respect alongside physical attraction"
+    },
+    {
+      "pattern": "timing_affection_after_playful_intimate_moments",
+      "engagement_boost": 1.6,
+      "evidence": "User expresses 'I like you' after Laura laughed about intimate topic ('I think is impossible haha') - expressing affection when she's in lighthearted mood creates positive association between humor, intimacy, and emotional connection"
     }
   ],
   "avoid_patterns": [
