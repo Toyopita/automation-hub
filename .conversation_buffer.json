@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "Good morning baby, did you sleep well? haha Why do you wanna delete it though?",
-    "time": "09:45"
-  },
-  {
     "role": "laura",
     "text": "Yes im going to sleep again ",
     "time": "09:53"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Sorry i was working ",
+    "time": "23:56"
+  },
+  {
+    "role": "laura",
+    "text": "Is too late there? ",
     "time": "23:56"
   }
 ]
