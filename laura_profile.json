@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:04:37.561327+09:00",
+  "last_updated": "2026-02-12T00:14:18.627872+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -30,7 +30,9 @@
       "uses Instagram but wants to delete account",
       "finds Japanese very difficult",
       "watches linguistic content on YouTube",
-      "currently working during this conversation time"
+      "currently working during this conversation time",
+      "comfortable with explicit sexual communication in established relationship",
+      "experiences interruptions to intimate conversations due to work"
     ]
   },
   "personality": {
@@ -43,20 +45,23 @@
     "observations": [
       "warmth: Uses affectionate term 'baby' as greeting",
       "emotional_expressiveness: Comfortable expressing affection directly in opening message",
-      "emotional_expressiveness: Uses pleading emoji (🥺) to express feeling overwhelmed about work situation"
+      "emotional_expressiveness: Uses pleading emoji (🥺) to express feeling overwhelmed about work situation",
+      "emotional_expressiveness: Uses flushed emoji 😳 repeatedly to express excitement/arousal in intimate context, then immediately switches to apologetic tone with 😓 when work interrupts, showing range of emotional expression"
     ]
   },
   "communication_style": {
     "avg_message_length": "short (1 sentence, 5-10 words)",
-    "emoji_frequency": "moderate to high (multiple emojis when expressing strong emotion)",
+    "emoji_frequency": "high (1-2 per message even in brief messages)",
     "preferred_emojis": [
       "🥺",
       "🙄",
-      "😆"
+      "😆",
+      "😳",
+      "😓"
     ],
     "formality_level": "very casual",
     "humor_style": "playful and teasing - uses rhetorical questions with laughter to show amusement and continue engagement",
-    "response_speed_tendency": "varies significantly - slow when working (apologizes for delay), but fast when checking in on partner's wellbeing (time zone concern)",
+    "response_speed_tendency": "interrupted by work - was engaged in intimate conversation then had to pause, indicating work takes priority over personal conversations during work hours",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -70,7 +75,8 @@
       "Haha yes?",
       "You want me to look at you all the Time",
       "Im working",
-      "😓"
+      "😓",
+      "all the Time"
     ]
   },
   "topic_engagement": {
@@ -86,24 +92,12 @@
     "intimate_content": 8.5,
     "visual_media_sharing": 8.2,
     "visual_attention": 8.4,
-    "being_watched": 8.3
+    "being_watched": 8.3,
+    "explicit_sexual_content": 8.6,
+    "mutual_sexual_exploration": 8.4,
+    "visual_sexual_attention": 8.7
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_difficulty_of_challenges",
-      "engagement_boost": 0.9,
-      "evidence": "User previously said 'Japanese is hard anyway haha' and she continues discussing the difficulty, showing openness to having her struggles validated"
-    },
-    {
-      "pattern": "normalizing_difficulty_without_dismissing",
-      "engagement_boost": 1.1,
-      "evidence": "User said 'Even native speakers like me struggle with it sometimes' - this validates her struggle by showing even natives find Japanese hard, continuing the conversation naturally"
-    },
-    {
-      "pattern": "sharing_personal_struggle_with_same_topic",
-      "engagement_boost": 0.9,
-      "evidence": "User revealed being a native Japanese speaker who also struggles, creating relatability and reducing pressure on Laura's learning challenges"
-    },
     {
       "pattern": "sharing_personal_vulnerability_about_same_struggle",
       "engagement_boost": 1.2,
@@ -188,9 +182,30 @@
       "pattern": "creating_mutual_visual_intimacy",
       "engagement_boost": 1.7,
       "evidence": "Her message 'You want me to look at you all the Time 😳' suggests she's receptive to and engaged by the concept of ongoing visual connection/attention in the relationship"
+    },
+    {
+      "pattern": "sharing_explicit_sexual_desires",
+      "engagement_boost": 1.6,
+      "evidence": "User shared explicit sexual practice - Laura had been highly engaged with intimate content up to this point, though work interrupted before she could fully respond"
+    },
+    {
+      "pattern": "building_on_established_intimate_momentum",
+      "engagement_boost": 1.5,
+      "evidence": "After previous positive responses to intimate video, continuing explicit conversation maintained engagement ('I love it', playful responses) before work interruption"
+    },
+    {
+      "pattern": "creating_ongoing_visual_desire_dynamic",
+      "engagement_boost": 1.8,
+      "evidence": "Laura's message 'You want me to look at you all the Time 😳' shows she's engaged with and receptive to the concept of sustained visual/sexual attention in the relationship"
     }
   ],
-  "avoid_patterns": [],
+  "avoid_patterns": [
+    {
+      "pattern": "continuing_intimate_conversation_during_work_hours",
+      "engagement_drop": -0.8,
+      "evidence": "Laura had to interrupt with 'Baby Im working 😓' - while she was engaged, timing creates conflict with her work responsibilities"
+    }
+  ],
   "ng_topics": [],
   "temporal_patterns": {
     "most_active_day": null,
