@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "good morning baby 🙂 I know you're not posting stories anymore, but send me your pictures like you promised 🤍",
-    "time": "08:29"
-  },
-  {
     "role": "laura",
     "text": "Hello ",
     "time": "08:30"
@@ -97,6 +92,11 @@
   {
     "role": "you",
     "text": "Yeah, sleep well baby 🤍 I just wanna see your pictures haha 🥺",
+    "time": "08:36"
+  },
+  {
+    "role": "laura",
+    "text": "I like all kinds of horror hahaha ",
     "time": "08:36"
   }
 ]
