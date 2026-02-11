@@ -13485,6 +13485,102 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:47:10.195545+09:00",
+      "summary": "Stop 🥺",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 9,
+        "overwhelm": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "興奮しすぎて恥ずかしい/我慢できない状態。「やめないで」の意味も含む甘えた拒絶",
+      "trigger": {
+        "message": "I'd tease your nipples until your hips start moving baby... then I'd touch your wet pussy slowly 🤍 I wanna lick you while you're dripping for me 🤤",
+        "sent_at": "2026-02-12T08:46:45.204948+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+sensory"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 2,
+        "overwhelm": 4
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:47:15.340804+09:00",
+      "summary": "Because you are not here ",
+      "scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れを止めたい理由の説明。遠距離の寂しさと欲求不満が表れている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 8,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 9,
+        "overwhelm": 9
+      },
+      "score_deltas": {
+        "mood": -4,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 2,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 0
+      }
     }
   ]
 }
