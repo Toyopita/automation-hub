@@ -11568,6 +11568,58 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T00:57:34.720628+09:00",
+      "summary": "Are you going to sleep? ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が「好き」と言った直後の確認。会話を続けたい気持ちと、彼の状態を気遣う両方が感じられる",
+      "trigger": {
+        "message": "I like you Laura 🤍",
+        "sent_at": "2026-02-12T00:57:06.779951+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night",
+          "+vulnerable",
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": -6,
+        "ds": -3,
+        "playfulness": -7,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
