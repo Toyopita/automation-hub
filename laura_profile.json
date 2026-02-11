@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:52:30.265819+09:00",
+  "last_updated": "2026-02-12T08:52:36.772585+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -71,7 +71,13 @@
       "experiences physical arousal during explicit sexual conversations with partner",
       "expresses frustration about physical distance during aroused states intensely",
       "uses crying emojis to express intense emotional/physical frustration",
-      "continues explicit sexual conversation after expressing frustration about distance"
+      "continues explicit sexual conversation after expressing frustration about distance",
+      "experiences physical arousal (wetness) during explicit sexual conversations with partner",
+      "describes intense distance frustration during aroused states as 'sooo bad'",
+      "expresses desire for physical presence when sexually aroused",
+      "uses multiple crying emojis (4) to express intense sexual/emotional frustration",
+      "asks partner rhetorical questions during intense arousal ('Do you know what i want')",
+      "uses elongated 'Babyyyyy' during emotional distress about distance"
     ]
   },
   "personality": {
@@ -79,7 +85,7 @@
     "emotional_expressiveness": 9,
     "humor_appreciation": 6,
     "adventurousness": 5,
-    "confidence": 9,
+    "confidence": 8,
     "warmth": 9,
     "observations": [
       "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response",
@@ -100,13 +106,13 @@
       "warmth: Uses 'really really' emphasis to express depth of desire for partner - maintains affectionate intensity even during explicit sexual frustration",
       "emotional_expressiveness: Uses elongated text 'Babyyyyy' and multiple crying emojis '😭😭😭😭' to express intense emotional/physical frustration - shows continued pattern of direct, unfiltered emotional expression even during sexually charged moments",
       "warmth: Maintains tender emotional expression 'I want to be next to you' even during explicit sexual arousal context - continues pattern of combining sexual desire with emotional connection and affection",
-      "confidence: Initiates highly explicit sexual scenario unprompted 'I want to lick you then sit on you when is all wet from me' - shows increased sexual confidence and comfort taking lead in explicit sexual storytelling, continuing pattern of direct sexual expression without hedging",
-      "emotional_expressiveness: Continues pattern of direct explicit sexual expression, now initiating detailed sexual scenario sequence rather than just stating desire - maintains comfort with unfiltered sexual communication"
+      "emotional_expressiveness: Maintains consistent high emotional expressiveness: explicitly states physical arousal state 'In already wet 🫣', uses elongated endearment 'Babyyyyy', multiple crying emojis '😭😭😭😭', and descriptive emotional language 'this is sooo bad' - shows continued pattern of direct, unfiltered emotional and physical state expression",
+      "warmth: Maintains affectionate endearment 'Babyyyyy' even during intense emotional/sexual frustration, expresses desire for physical closeness 'I want to be next to you' - continues pattern of combining sexual desire with emotional connection"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief to moderate (3-8 words, except elongated emotional expressions)",
-    "emoji_frequency": "very high (2-4 per message in intense emotional moments)",
+    "avg_message_length": "brief (2-7 words) during intense emotional/sexual moments",
+    "emoji_frequency": "very high (multiple per message during intense emotional moments)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -125,13 +131,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate initiation of intimate/sexual topics during engaged moments",
+    "response_speed_tendency": "rapid consecutive messages (5 messages in quick succession) during intense emotional/sexual arousal states",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "🥹",
       "Oww",
       "Me too",
       "Thats Lovely really",
@@ -160,7 +165,8 @@
       "sooo bad",
       "In already wet",
       "this is sooo bad",
-      "Do you know what i want"
+      "Do you know what i want",
+      "Babyyyyy"
     ]
   },
   "topic_engagement": {
@@ -330,41 +336,14 @@
     "elongated_endearments_during_distress": 9.1,
     "multiple_crying_emojis": 8.8,
     "expressing_bad_feeling_about_distance": 9.5,
-    "initiating_sexual_questions": 9.4,
-    "teasing_sexual_questions": 9.3,
-    "leading_sexual_conversation": 9.5,
-    "taking_sexual_initiative_verbally": 9.6,
-    "initiating_sexual_scenarios": 9.6,
-    "oral_sex_giving": 9.4,
-    "sequencing_sexual_acts": 9.5,
-    "wetness_as_transition_point": 9.3,
-    "taking_sexual_narrative_lead": 9.7,
-    "combining_oral_and_penetrative_acts": 9.4,
-    "oral_foreplay_before_riding": 9.5,
-    "using_wetness_as_readiness_signal": 9.4,
-    "detailed_sexual_sequence_planning": 9.6
+    "rhetorical_questions_during_arousal": 8.6,
+    "receiving_explicit_visual_requests_during_arousal": 8.8,
+    "dripping_wet_descriptions": 8.7,
+    "multiple_body_part_requests": 8.9,
+    "nipple_visual_requests": 8.8,
+    "pussy_visual_requests_when_wet": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "maintaining_consistent_communication_style_she_validates",
-      "engagement_boost": 4.3,
-      "evidence": "Laura explicitly stated user's communication style turns her on, and user's continued pattern (tender emoji usage, 'baby' endearment) maintains that arousing dynamic - consistency with validated approach sustains her sexual engagement and initiative"
-    },
-    {
-      "pattern": "making_picture_sharing_easy_and_safe",
-      "engagement_boost": 4.2,
-      "evidence": "User's 'You can send them here baby 🤍' provides clear answer with continued tender framing (white heart + endearment) - removing logistical friction while maintaining emotional safety appears to facilitate her comfort with intimate sharing"
-    },
-    {
-      "pattern": "responding_to_logistics_questions_with_warmth",
-      "engagement_boost": 3.9,
-      "evidence": "When Laura asks practical question 'Where do i send the pictures Here ? Or in the other chat', user's response includes 'baby 🤍' rather than just 'here' - maintaining affectionate tone during logistics discussion keeps intimate atmosphere consistent"
-    },
-    {
-      "pattern": "providing_clear_logistics_answer_for_intimate_sharing",
-      "engagement_boost": 4.1,
-      "evidence": "User's 'You can send them here baby 🤍' in response to Laura's 'Where do i send the pictures Here ? Or in the other chat' gets immediate confirmation 'Okay' - clear answer with continued tender framing facilitates her comfort proceeding with intimate picture sharing"
-    },
     {
       "pattern": "removing_decision_friction_during_aroused_state",
       "engagement_boost": 3.9,
@@ -431,19 +410,39 @@
       "evidence": "User includes 'baby 🤍' with explicit oral sex description - consistent pattern of tender endearments with explicit content that she previously validated as turning her on"
     },
     {
-      "pattern": "creating_space_for_her_sexual_initiative_after_distance_frustration",
-      "engagement_boost": 5.1,
-      "evidence": "After Laura expressed intense frustration about distance with crying emojis and 'this is sooo bad', she re-engaged by initiating detailed sexual scenario - suggests that allowing her to process frustration without pressure led to her taking sexual narrative lead"
+      "pattern": "responding_to_expressed_arousal_with_tasting_desire",
+      "engagement_boost": 4.7,
+      "evidence": "After Laura states 'In already wet 🫣', user responds with 'I wanna taste your dripping wet pussy baby' - acknowledging her physical arousal state with specific sensory desire (tasting) validates her wetness disclosure and maintains sexual engagement"
     },
     {
-      "pattern": "not_dampening_sexual_momentum_after_emotional_distress",
+      "pattern": "combining_oral_desire_with_visual_request",
+      "engagement_boost": 4.5,
+      "evidence": "User combines 'I wanna taste your dripping wet pussy' with 'Show me how it looks right now' - dual approach of expressing desire to pleasure her orally while requesting visual confirmation creates both validation and engagement opportunity"
+    },
+    {
+      "pattern": "multiple_body_part_requests_in_single_message",
+      "engagement_boost": 4.3,
+      "evidence": "'Show me how it looks right now. I wanna see your nipples too 🤍' requests multiple visual elements (wet pussy + nipples) - comprehensive request may provide options for what she's comfortable sharing in aroused state"
+    },
+    {
+      "pattern": "mirroring_her_arousal_intensity_with_explicit_language",
+      "engagement_boost": 4.6,
+      "evidence": "After Laura's intense emotional sequence expressing wetness and frustration, user matches with explicit sensory language 'dripping wet pussy' - matching her intensity level appears to validate her arousal state"
+    },
+    {
+      "pattern": "maintaining_tender_framing_during_explicit_visual_request",
+      "engagement_boost": 4.4,
+      "evidence": "User includes 'baby 🤍' with explicit visual request for wet pussy and nipples - consistent pattern of tender endearments (baby + white heart) with explicit sexual content that she previously validated as turning her on"
+    },
+    {
+      "pattern": "acknowledging_her_wetness_as_desirable",
+      "engagement_boost": 4.8,
+      "evidence": "'I wanna taste your dripping wet pussy' frames her arousal state as something partner desires to experience - validating her physical arousal as attractive/desirable rather than just acknowledging it"
+    },
+    {
+      "pattern": "responding_to_distance_frustration_with_connection_offer",
       "engagement_boost": 4.9,
-      "evidence": "Laura moved from 'Babyyyyy 😭😭😭😭 I want to be next to you' emotional distress to initiating explicit sexual scenario - indicates user's response (not captured but implied by her continuation) didn't treat emotional expression as conversation-ender"
-    },
-    {
-      "pattern": "validating_simultaneous_arousal_and_frustration",
-      "engagement_boost": 5.0,
-      "evidence": "Laura was able to hold both 'this is sooo bad' frustration and explicit sexual desire simultaneously, then initiate new sexual scenario - suggests user's approach allowed both feelings to coexist rather than forcing resolution"
+      "evidence": "After Laura expresses 'I want to be next to you 😭😭😭😭', user offers visual connection ('Show me') as alternative to physical presence - providing way to bridge distance during her expressed frustration and arousal"
     }
   ],
   "avoid_patterns": [
