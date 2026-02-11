@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:32:52.428818+09:00",
+  "last_updated": "2026-02-12T08:33:25.376390+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -197,7 +197,9 @@
     "being_held_accountable_affectionately": 9.5,
     "demonstrating_reliability": 9.6,
     "picture_sharing_follow_through": 9.4,
-    "anime": 7.5
+    "anime": 7.5,
+    "partner_sleep_quality": 7.8,
+    "morning_check_ins": 8.2
   },
   "effective_patterns": [
     {
