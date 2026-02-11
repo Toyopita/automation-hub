@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:04:20.117888+09:00",
+  "last_updated": "2026-02-12T00:04:37.561327+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -69,7 +69,8 @@
       "I love it",
       "Haha yes?",
       "You want me to look at you all the Time",
-      "Im working"
+      "Im working",
+      "😓"
     ]
   },
   "topic_engagement": {
