@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Is it hard for you? ",
-    "time": "22:35"
-  },
-  {
     "role": "you",
     "text": "It's pretty deep haha I've been reading some Japanese books and watching YouTube videos with linguists",
     "time": "22:44"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I think is impossible haha",
     "time": "00:24"
+  },
+  {
+    "role": "you",
+    "text": "I know right 😂",
+    "time": "00:42"
   }
 ]
