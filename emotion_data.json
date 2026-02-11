@@ -12887,6 +12887,56 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:38:29.076471+09:00",
+      "summary": "Haha you are so cute 🥺",
+      "scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「一緒なら見るかも」という発言に対する愛情表現。🥺で甘い気持ちを示している",
+      "trigger": {
+        "message": "Thank you baby 🤍 Have a good night\n\nI like you too 🤍\n\nMaybe I'd watch it if it's with you 🥺🤍",
+        "sent_at": "2026-02-12T08:37:34.748541+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+vulnerable"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
