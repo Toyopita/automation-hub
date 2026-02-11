@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:22:42.512022+09:00",
+  "last_updated": "2026-02-12T00:24:21.279942+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -60,7 +60,7 @@
       "😓"
     ],
     "formality_level": "very casual",
-    "humor_style": "playful and curious - uses rhetorical questions with laughter to express amusement and explore shared experiences",
+    "humor_style": "self-deprecating humor about abilities - laughs at perceived impossibility of challenging tasks",
     "response_speed_tendency": "engaged quickly in intimate conversation until work interruption - returns to conversation after work pause to continue playful intimate discussion",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -77,7 +77,8 @@
       "Im working",
       "😓",
       "all the Time",
-      "did you taste it"
+      "did you taste it",
+      "is impossible"
     ]
   },
   "topic_engagement": {
