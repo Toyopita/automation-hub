@@ -12745,6 +12745,98 @@
         "future": -4,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:36:14.301456+09:00",
+      "summary": "Have a good day baby ",
+      "scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝前の挨拶。温かいが簡潔な別れのメッセージ",
+      "trigger": {
+        "message": "Yeah I slept pretty well baby, just went to bed a little late haha 🤍 Sleep well 🤍\n\nHorror huh, I'm not really into horror haha The sounds get to me 😂\n\nThat's cool though, I heard shows and anime are good for learning languages",
+        "sent_at": "2026-02-12T08:35:59.201123+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:36:14.806138+09:00",
+      "summary": "I like you 😊",
+      "scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝前の素直な気持ちの表現。シンプルだが好意を明確に伝えている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      }
     }
   ]
 }
