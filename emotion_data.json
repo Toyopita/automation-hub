@@ -13252,6 +13252,50 @@
         "future": 4,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:42:06.382023+09:00",
+      "summary": "I want you to fuck me so hard baby 🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 10,
+        "vulnerability": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクスティング。強い欲求表現で、前の「Can you do something for me / Please」からの流れで懇願のニュアンスが強い",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": -1,
+        "future": -4,
+        "engagement": 5,
+        "vulnerability": 3
+      }
     }
   ]
 }
