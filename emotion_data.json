@@ -10570,6 +10570,48 @@
         "future": 0,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-11T09:04:15.845233+09:00",
+      "summary": "I sleep so early ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "自分の睡眠パターンについて軽く説明している。前の深い会話から日常モードに戻った朝の挨拶",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
