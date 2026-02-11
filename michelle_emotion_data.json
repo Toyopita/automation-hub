@@ -544,6 +544,37 @@
         "playfulness": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-11T23:40:01.228021+09:00",
+      "summary": "yes and because of my past i dont have any standar",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 3,
+        "playfulness": 4,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "過去の経験を率直に共有し、自分の価値観を素直に伝えている健全な状態",
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 2,
+        "playfulness": 4,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": -1
+      }
     }
   ]
 }
