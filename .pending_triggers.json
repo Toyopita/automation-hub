@@ -12,5 +12,13 @@
     "sent_at": "2026-02-11T12:24:18.988471+09:00",
     "category": "daily",
     "modifiers": []
+  },
+  {
+    "message": "You wanna taste it? 😏",
+    "sent_at": "2026-02-11T13:31:50.870132+09:00",
+    "category": "sexual",
+    "modifiers": [
+      "+escalation"
+    ]
   }
 ]
