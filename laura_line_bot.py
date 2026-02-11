@@ -849,6 +849,14 @@ async def handle_line_text_message(event: dict):
     embed.add_field(name="🇯🇵 日本語訳", value=analysis["translation"], inline=False)
 
     await channel.send(embed=embed)
+    # ProfileLearner: 受信メッセージからも学習（返信前でも事実抽出）
+    try:
+        asyncio.create_task(
+            profile_learner.learn_from_exchange([text], "", LAURA_CONFIG)
+        )
+    except Exception as pe:
+        logger.warning(f"Profile learning error (incoming): {pe}")
+
     logger.info(f"Forwarded to Discord: {text[:50]}...")
 
 
