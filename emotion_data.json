@@ -13632,6 +13632,48 @@
         "future": -1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:50:45.276982+09:00",
+      "summary": "Babyyyyy this is sooo bad ",
+      "scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "興奮しすぎて困ってる様子。「bad」は「良すぎて困る」という意味で使用",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 10,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
