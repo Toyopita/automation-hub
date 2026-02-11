@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "stage": "friends",
+  "stage_history": [
+    {
+      "stage": "friends",
+      "entered": "2026-02-11",
+      "exited": null
+    }
+  ],
+  "started": "2026-02-11",
+  "signals": {
+    "positive": {
+      "total_score": 4,
+      "recent_7d": [
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 8",
+          "timestamp": "2026-02-11T21:41:33.655737+09:00",
+          "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "shares_personal_info",
+          "weight": 3,
+          "evidence": "High intimacy score: 7",
+          "timestamp": "2026-02-11T21:41:33.655737+09:00",
+          "date": "2026-02-11"
+        }
+      ],
+      "history": [
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 8",
+          "timestamp": "2026-02-11T21:41:33.655737+09:00",
+          "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "shares_personal_info",
+          "weight": 3,
+          "evidence": "High intimacy score: 7",
+          "timestamp": "2026-02-11T21:41:33.655737+09:00",
+          "date": "2026-02-11"
+        }
+      ]
+    },
+    "negative": {
+      "total_score": 0,
+      "recent_7d": [],
+      "history": []
+    }
+  },
+  "transition_readiness": {
+    "days_in_stage": 8,
+    "consecutive_positive_days": 6,
+    "last_risk_event": null,
+    "blocked_until": null
+  },
+  "push_pull": {
+    "recent_initiators": [],
+    "your_question_count": 0,
+    "her_question_count": 0,
+    "balance_score": 0.5
+  },
+  "topic_history": [],
+  "total_exchanges": 8,
+  "total_days_active": 0,
+  "notes": []
+}
