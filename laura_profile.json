@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:30:56.614758+09:00",
+  "last_updated": "2026-02-12T08:31:22.438069+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -66,12 +66,13 @@
       "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone",
       "warmth: Proactively offers to send pictures when partner wants to see her, commits to specific action 'I take pictures and send you later baby', maintains 'baby' endearment consistently",
       "warmth: Maintains 'baby' endearment consistently across practical messages, commits to future action of sending pictures 'I take pictures and send you later baby' - shows sustained affectionate communication even in logistical contexts",
-      "humor_appreciation: Uses multiple laughing emojis 😂😂😂 to share amusing anecdote about old man compliment - frames unexpected social interaction as funny and lighthearted rather than uncomfortable"
+      "humor_appreciation: Uses multiple laughing emojis 😂😂😂 to share amusing anecdote about old man compliment - frames unexpected social interaction as funny and lighthearted rather than uncomfortable",
+      "warmth: Proactively reassures partner about picture commitment with 'Of course im going to send you pictures ❤️' - uses red heart emoji (escalation from previous white hearts) and 'of course' to emphasize reliability and care"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short sentence per message, sends multiple messages in rapid sequence",
-    "emoji_frequency": "variable - none in logistical statements, multiple (😂😂😂) when sharing amusing anecdotes",
+    "avg_message_length": "single sentence",
+    "emoji_frequency": "single significant emoji (red heart) to emphasize reassurance",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -79,11 +80,12 @@
       "😳",
       "😓",
       "🥹",
-      "😂"
+      "😂",
+      "❤️"
     ],
     "formality_level": "casual",
-    "humor_style": "shares amusing real-life anecdotes with self-aware lightheartedness, uses laughing emojis to frame unexpected social interactions as funny rather than uncomfortable",
-    "response_speed_tendency": "rapid sequential responses when sharing updates (4 messages in quick succession about gym, Instagram, pictures, bank), then gap before responding to morning greeting with picture request",
+    "humor_style": "not applicable to this message",
+    "response_speed_tendency": "responsive to follow-up on prior commitment",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -111,7 +113,8 @@
       "Thats Lovely really",
       "kinda miss that haha",
       "distract me a lot",
-      "an old man stopped me"
+      "an old man stopped me",
+      "Of course"
     ]
   },
   "topic_engagement": {
@@ -180,24 +183,11 @@
     "long_term_social_media_boundaries": 8.6,
     "picture_requests": 7.5,
     "morning_greetings": 7.0,
-    "accountability_on_promises": 6.5
+    "accountability_on_promises": 7.6,
+    "reassuring_partner": 9.3,
+    "picture_sharing_commitment": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "responding_to_foreplay_preference_with_emotional_validation",
-      "engagement_boost": 2.4,
-      "evidence": "Laura shares sexual preference about liking buildup, user responds with emotional statement about her impact on him - doesn't immediately engage sexually but validates emotional connection, creating safe space for intimate sharing"
-    },
-    {
-      "pattern": "accepting_picture_offer_with_emotional_framing",
-      "engagement_boost": 2.8,
-      "evidence": "After user expressed wanting to see her because she makes him feel better, Laura commits to action: 'I take pictures and send you later baby' - shows high responsiveness when visual desire is framed as emotional need rather than just physical want"
-    },
-    {
-      "pattern": "framing_visual_desire_as_comfort_need",
-      "engagement_boost": 2.9,
-      "evidence": "User's approach of 'I wanna see you baby you always make me feel better 🤍' resulted in Laura's concrete commitment to send pictures later - connecting visual connection to emotional wellbeing motivates action-oriented response"
-    },
     {
       "pattern": "making_concrete_future_commitment",
       "engagement_boost": 2.7,
@@ -282,6 +272,21 @@
       "pattern": "using_white_heart_for_picture_requests",
       "engagement_boost": 2.3,
       "evidence": "Includes 🤍 with picture reminder - frames request as tender emotional connection rather than demand, consistent with established white heart usage for soft appreciative moments"
+    },
+    {
+      "pattern": "gentle_accountability_with_affection",
+      "engagement_boost": 3.1,
+      "evidence": "User's prior message 'send me your pictures like you promised 🤍' resulted in Laura's emphatic reassurance 'Of course im going to send you pictures ❤️' with red heart escalation - gentle reminder framed affectionately elicits strong positive commitment"
+    },
+    {
+      "pattern": "treating_her_promises_seriously",
+      "engagement_boost": 2.8,
+      "evidence": "Following up on her stated commitment ('I take pictures and send you later baby') shows he values her word - her 'Of course' response indicates appreciation that he takes her commitments seriously"
+    },
+    {
+      "pattern": "creating_space_for_reliability_demonstration",
+      "engagement_boost": 2.9,
+      "evidence": "By referencing 'like you promised', user gives Laura opportunity to affirm reliability - her emphatic 'Of course' with red heart shows she values being seen as dependable"
     }
   ],
   "avoid_patterns": [
