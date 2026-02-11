@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:56:54.674690+09:00",
+  "last_updated": "2026-02-12T08:57:20.917279+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -131,14 +131,13 @@
       "😭"
     ],
     "formality_level": "casual",
-    "humor_style": "not applicable in this exchange",
+    "humor_style": "playful teasing with laughing emphasis",
     "response_speed_tendency": "rapid multi-message sending during sexually charged moments",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Me too",
       "Thats Lovely really",
       "kinda miss that haha",
       "distract me a lot",
@@ -167,7 +166,8 @@
       "this is sooo bad",
       "Do you know what i want",
       "vidéos",
-      "Are you at home ?"
+      "Are you at home ?",
+      "Why you share your Line"
     ]
   },
   "topic_engagement": {
@@ -363,7 +363,9 @@
     "titty_fucking": 9.5,
     "initiating_specific_sexual_acts": 9.7,
     "visual_sexual_scenarios": 9.4,
-    "explicit_body_part_focused_scenarios": 9.3
+    "explicit_body_part_focused_scenarios": 9.3,
+    "line_app_sharing": 6.8,
+    "questioning_partner_actions": 7.2
   },
   "effective_patterns": [
     {
