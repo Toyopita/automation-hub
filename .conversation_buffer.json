@@ -1,11 +1,6 @@
 [
   {
     "role": "you",
-    "text": "Good morning babe 🥰 I ended up falling asleep",
-    "time": "07:22"
-  },
-  {
-    "role": "you",
     "text": "You don't use Instagram much baby?",
     "time": "08:04"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "It's pretty deep haha I've been reading some Japanese books and watching YouTube videos with linguists",
     "time": "22:44"
+  },
+  {
+    "role": "laura",
+    "text": "Whaaat ",
+    "time": "22:45"
   }
 ]
