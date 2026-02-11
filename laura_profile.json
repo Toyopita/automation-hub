@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:13:12.211224+09:00",
+  "last_updated": "2026-02-12T01:13:26.355906+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -38,9 +38,7 @@
       "willing to share pictures of herself when partner wants to see her",
       "goes to gym later in the day (not morning)",
       "likes foreplay/buildup before sex ('previous game before having sex')",
-      "deliberately avoids posting Instagram stories",
-      "finds Instagram distracting but likes it",
-      "aware of Instagram's distracting effect on her"
+      "deliberately avoids posting Instagram stories"
     ]
   },
   "personality": {
@@ -101,8 +99,7 @@
       "Oww",
       "Me too",
       "Thats Lovely really",
-      "kinda miss that haha",
-      "distract me a lot"
+      "kinda miss that haha"
     ]
   },
   "topic_engagement": {
@@ -160,22 +157,9 @@
     "instagram_posting_decisions": 6.8,
     "alternative_visual_connection_methods": 9.2,
     "being_told_she_makes_partner_feel_better": 8.9,
-    "emotional_impact_on_partner": 9.0,
-    "instagram_distraction": 8.4,
-    "social_media_awareness": 8.2,
-    "self_awareness_about_social_media": 8.3
+    "emotional_impact_on_partner": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "combining_missing_her_with_light_humor",
-      "engagement_boost": 1.7,
-      "evidence": "User adds 'haha' after 'kinda miss that' - softens the admission of missing her with playful tone, making vulnerability feel lighter and less pressuring"
-    },
-    {
-      "pattern": "showing_attention_to_her_social_media_presence",
-      "engagement_boost": 1.8,
-      "evidence": "User noticed Laura hasn't posted stories recently - demonstrates he pays attention to her daily social media activity, which shows consistent interest in her life even when not directly communicating"
-    },
     {
       "pattern": "expressing_missing_seeing_her",
       "engagement_boost": 2.6,
@@ -257,14 +241,24 @@
       "evidence": "Laura shares sexual preference about liking buildup, user responds with emotional statement about her impact on him - doesn't immediately engage sexually but validates emotional connection, creating safe space for intimate sharing"
     },
     {
-      "pattern": "asking_about_instagram_posting_behavior",
-      "engagement_boost": 2.2,
-      "evidence": "User's earlier question about Instagram stories led to Laura explaining her relationship with the platform: 'I like it but Instagram distract me a lot' - shows she's willing to share her social media habits and self-awareness about its impact"
+      "pattern": "accepting_picture_offer_with_emotional_framing",
+      "engagement_boost": 2.8,
+      "evidence": "After user expressed wanting to see her because she makes him feel better, Laura commits to action: 'I take pictures and send you later baby' - shows high responsiveness when visual desire is framed as emotional need rather than just physical want"
     },
     {
-      "pattern": "allowing_space_to_explain_social_media_decisions",
-      "engagement_boost": 2.1,
-      "evidence": "Laura provides reasoning for her Instagram story behavior unprompted, revealing both that she likes the platform and recognizes its distracting nature - creates opening for her to share nuanced relationship with technology"
+      "pattern": "framing_visual_desire_as_comfort_need",
+      "engagement_boost": 2.9,
+      "evidence": "User's approach of 'I wanna see you baby you always make me feel better 🤍' resulted in Laura's concrete commitment to send pictures later - connecting visual connection to emotional wellbeing motivates action-oriented response"
+    },
+    {
+      "pattern": "making_concrete_future_commitment",
+      "engagement_boost": 2.7,
+      "evidence": "Laura's response includes specific future action 'send you later' rather than vague agreement - indicates high engagement when she commits to specific follow-through with timeline"
+    },
+    {
+      "pattern": "maintaining_endearment_in_action_statements",
+      "engagement_boost": 2.5,
+      "evidence": "Laura includes 'baby' even in logistical statement about sending pictures later - shows she maintains affectionate tone even when discussing practical actions, indicating comfort and warmth in relationship"
     }
   ],
   "avoid_patterns": [
