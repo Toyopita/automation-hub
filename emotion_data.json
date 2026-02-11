@@ -10480,6 +10480,54 @@
         "future": 1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-11T09:04:06.180358+09:00",
+      "summary": "Hi my love ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "朝の挨拶。前夜の重い会話を経て、明るく普通のトーンで再接続しようとしている",
+      "trigger": {
+        "message": "You don't use Instagram much baby?",
+        "sent_at": "2026-02-11T08:04:03.614324+09:00",
+        "category": "interest",
+        "modifiers": [],
+        "response_time_min": 60
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 7,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -2,
+        "ds": -4,
+        "playfulness": 0,
+        "future": -4,
+        "engagement": 0
+      }
     }
   ]
 }
