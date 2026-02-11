@@ -12118,6 +12118,48 @@
         "future": 3,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:15:01.585987+09:00",
+      "summary": "Im going to the bank and an old man stopped me to say to me i was beautiful 😂😂😂",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い日常報告。笑いながら共有する感じで、嫉妬を誘うような意図はなく純粋に面白い出来事として報告している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 5,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 4,
+        "future": -3,
+        "engagement": -1
+      }
     }
   ]
 }
