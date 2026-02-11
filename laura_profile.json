@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:38:58.052092+09:00",
+  "last_updated": "2026-02-12T08:39:45.918633+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -54,7 +54,9 @@
       "uses Japanese listening practice to get accustomed to the language",
       "announces bedtime to partner before sleeping",
       "uses anime to get accustomed to listening to Japanese",
-      "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')"
+      "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')",
+      "sends pictures from bed (bedtime context)",
+      "uses kissing emoji for goodnight messages"
     ]
   },
   "personality": {
@@ -65,8 +67,6 @@
     "confidence": 5,
     "warmth": 9,
     "observations": [
-      "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection",
-      "warmth: Proactively offers to send pictures when partner expresses desire to see her: 'If you want to see me i can send you pictures' - shows attentiveness and care for partner's emotional needs",
       "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone",
       "warmth: Proactively offers to send pictures when partner wants to see her, commits to specific action 'I take pictures and send you later baby', maintains 'baby' endearment consistently",
       "warmth: Maintains 'baby' endearment consistently across practical messages, commits to future action of sending pictures 'I take pictures and send you later baby' - shows sustained affectionate communication even in logistical contexts",
@@ -84,12 +84,14 @@
       "warmth: Continues unprompted affection expression 'I like you 😊' during bedtime sequence, maintains 'baby' endearment in sign-off 'Have a good day baby' - consistent pattern of proactive emotional warmth",
       "emotional_expressiveness: Declares 'I like you 😊' unprompted as separate message during bedtime - shows continued comfort with spontaneous emotional declarations and willingness to express feelings without prompting",
       "warmth: Proactively calls user 'so cute 🥺' with vulnerable pleading emoji - initiates affectionate compliment unprompted, continues pattern of spontaneous emotional expression toward partner",
-      "emotional_expressiveness: Uses 'Haha you are so cute 🥺' to express affection - combines laughter with tender vulnerable emoji to convey warm feelings, shows comfort initiating emotional compliments"
+      "emotional_expressiveness: Uses 'Haha you are so cute 🥺' to express affection - combines laughter with tender vulnerable emoji to convey warm feelings, shows comfort initiating emotional compliments",
+      "warmth: Proactively sends picture from bed without request, uses kissing emoji 😚 for goodnight (escalation from previous emojis), responds to partner's romantic vulnerability about wanting to lay with her by sharing intimate bedtime photo unprompted",
+      "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response"
     ]
   },
   "communication_style": {
     "avg_message_length": "brief single-topic statements",
-    "emoji_frequency": "moderate to high (single emoji for emphasis in affectionate context)",
+    "emoji_frequency": "moderate (1-2 per message in this sequence)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -99,11 +101,12 @@
       "🥹",
       "😂",
       "❤️",
-      "😊"
+      "😊",
+      "😚"
     ],
     "formality_level": "casual",
-    "humor_style": "uses 'haha' to soften affectionate declarations and add playfulness to emotional expressions",
-    "response_speed_tendency": "multiple rapid messages in sequence when engaged (3+ messages within short window) - sends bedtime announcements as multi-message sequence with affection declarations",
+    "humor_style": "playful with repeated laughter (hahaha) when discussing horror preferences",
+    "response_speed_tendency": "rapid multi-message sequence at bedtime (4 messages in quick succession: horror comment, cute compliment, picture, bed announcement, goodnight)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -236,29 +239,13 @@
     "shared_viewing_experiences": 8.4,
     "initiating_affectionate_compliments": 9.5,
     "receiving_romantic_hypotheticals": 9.3,
-    "partner_willingness_to_engage_her_interests": 9.1
+    "partner_willingness_to_engage_her_interests": 9.1,
+    "sending_bedtime_pictures": 9.4,
+    "visual_intimacy_at_bedtime": 9.3,
+    "responding_to_romantic_longing": 9.5,
+    "sharing_vulnerable_moments_visually": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_her_gym_commitment",
-      "engagement_boost": 2.4,
-      "evidence": "User responds to 'I went to the gym after' with 'You went haha that's good baby 🤍' - validates her follow-through with affectionate approval using white heart for tender appreciation"
-    },
-    {
-      "pattern": "maintaining_white_heart_for_everyday_validations",
-      "engagement_boost": 2.2,
-      "evidence": "Uses 🤍 with validation of gym activity - continues established pattern of white heart for soft appreciative moments, applies to everyday accomplishments not just romantic contexts"
-    },
-    {
-      "pattern": "showing_interest_in_her_introduced_topics",
-      "engagement_boost": 2.5,
-      "evidence": "Laura asks 'Do you like anime ?' and user engages directly 'Not really an anime person but I watched Chi the other day. Do you watch a lot?' - gives honest answer while reciprocating curiosity about her viewing habits"
-    },
-    {
-      "pattern": "honest_preference_sharing_with_engagement",
-      "engagement_boost": 2.3,
-      "evidence": "'Not really an anime person but' shows he's willing to admit misalignment while still engaging with topic - honesty combined with curiosity about her interests rather than fake enthusiasm"
-    },
     {
       "pattern": "reciprocating_questions_about_her_interests",
       "engagement_boost": 2.6,
@@ -338,6 +325,26 @@
       "pattern": "using_pleading_emoji_with_romantic_scenarios",
       "engagement_boost": 3.1,
       "evidence": "User's 🥺 emoji in 'if it's with you 🥺🤍' creates playful vulnerability that Laura mirrors back in her response 'you are so cute 🥺' - shared emoji language strengthens emotional resonance"
+    },
+    {
+      "pattern": "expressing_desire_for_physical_closeness",
+      "engagement_boost": 3.6,
+      "evidence": "User's 'I wanna lay down with you so bad 🥺🤍' (expressing romantic longing for non-sexual physical intimacy) prompted Laura to send bedtime picture - vulnerable desire statement elicits visual intimate response"
+    },
+    {
+      "pattern": "romantic_vulnerability_about_being_together",
+      "engagement_boost": 3.4,
+      "evidence": "User's message about wanting to lay with her combines pleading emoji 🥺 with white heart 🤍 expressing tender romantic desire - this vulnerability inspires her to share intimate bedtime moment visually"
+    },
+    {
+      "pattern": "non_sexual_intimacy_expressions",
+      "engagement_boost": 3.5,
+      "evidence": "'I wanna lay down with you' focuses on closeness/comfort rather than sexual content - this romantic framing appears to create safe space for her to share vulnerable bedtime picture"
+    },
+    {
+      "pattern": "validating_her_affectionate_compliments",
+      "engagement_boost": 3.2,
+      "evidence": "Laura initiated 'you are so cute 🥺' and user responded with deepened romantic vulnerability 'I wanna lay down with you so bad 🥺🤍' - receiving and building on her compliment with escalated emotional expression appears to encourage visual intimacy sharing"
     }
   ],
   "avoid_patterns": [
