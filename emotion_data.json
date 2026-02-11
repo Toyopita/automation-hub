@@ -10936,6 +10936,98 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-11T22:45:19.134913+09:00",
+      "summary": "Whaaat ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "驚きと興味を示す短いリアクション。彼が言語学の動画を見ていることに対する素直な反応",
+      "trigger": {
+        "message": "It's pretty deep haha I've been reading some Japanese books and watching YouTube videos with linguists",
+        "sent_at": "2026-02-11T22:44:54.121177+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-11T22:45:20.108452+09:00",
+      "summary": "No way ",
+      "scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "驚きと興味を示す軽いリアクション。会話に積極的に反応している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
