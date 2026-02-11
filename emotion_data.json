@@ -12937,6 +12937,90 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:38:40.280047+09:00",
+      "summary": "Im in bed ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "画像と一緒に送信。就寝前の報告的なメッセージ。親密さを感じさせる日常共有",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": -4,
+        "future": 0,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:38:44.169365+09:00",
+      "summary": "Good night 😚",
+      "scores": {
+        "mood": 8,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "ベッドの写真を送った後の就寝前の挨拶。キスの絵文字付きで親密さを表現している。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
