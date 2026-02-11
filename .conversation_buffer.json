@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I do use Instagram but i wanted to delete my account ",
-    "time": "09:04"
-  },
-  {
     "role": "you",
     "text": "Good morning baby, did you sleep well? haha Why do you wanna delete it though?",
     "time": "09:45"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "You think ??",
+    "time": "23:56"
+  },
+  {
+    "role": "laura",
+    "text": "Sorry i was working ",
     "time": "23:56"
   }
 ]
