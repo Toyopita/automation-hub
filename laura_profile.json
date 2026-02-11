@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:36:31.466826+09:00",
+  "last_updated": "2026-02-12T08:36:56.723315+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -50,7 +50,8 @@
       "goes to gym after work (late evening/night, not before 1am)",
       "interested in whether partner likes anime",
       "uses Japanese listening practice to get accustomed to the language",
-      "announces bedtime to partner before sleeping"
+      "announces bedtime to partner before sleeping",
+      "likes all kinds of horror"
     ]
   },
   "personality": {
@@ -98,7 +99,7 @@
       "😊"
     ],
     "formality_level": "casual",
-    "humor_style": "emphatic laughter to convey reliability and warmth",
+    "humor_style": "emphatic laughter to convey reliability and warmth, playful lightness when sharing preferences",
     "response_speed_tendency": "sends unprompted affectionate declarations between practical updates - spontaneous emotional expression",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -220,19 +221,11 @@
     "bedtime_announcements": 7.2,
     "maintaining_connection_before_sleep": 7.8,
     "expressing_affection_unprompted": 9.4,
-    "direct_emotional_declarations_initiated_by_her": 9.6
+    "direct_emotional_declarations_initiated_by_her": 9.6,
+    "horror_genre": 8.4,
+    "entertainment_preferences": 8.2
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_social_media_boundary_decisions",
-      "engagement_boost": 2.7,
-      "evidence": "Laura's previous context showed she finds Instagram distracting and has deleted it multiple times; this statement about not posting stories 'in a while' indicates she's setting longer-term boundaries - user's prior validation ('Yeah I feel you baby' and sharing parallel experience) likely contributed to her comfort making this commitment"
-    },
-    {
-      "pattern": "creating_space_for_autonomous_decisions",
-      "engagement_boost": 2.5,
-      "evidence": "Laura makes clear autonomous decision about Instagram story boundaries ('so i dont think im posting stories in a while') - suggests user's non-pressuring approach allows her to make and communicate her own choices about social media use"
-    },
     {
       "pattern": "referencing_her_stated_decisions_with_understanding",
       "engagement_boost": 2.2,
@@ -322,6 +315,16 @@
       "pattern": "consistent_affectionate_validation_builds_initiation",
       "engagement_boost": 3.2,
       "evidence": "User's recent messages included validation ('that's good baby 🤍'), honest engagement with her topics, and reciprocal curiosity - this consistent warmth appears to encourage Laura to initiate emotional declarations rather than only responding to them"
+    },
+    {
+      "pattern": "asking_about_her_entertainment_preferences",
+      "engagement_boost": 2.4,
+      "evidence": "Laura provides enthusiastic response 'I like all kinds of horror hahaha' with laughter indicating comfort and willingness to share - follows pattern of user engaging with her interests (previously anime) which she responds to positively"
+    },
+    {
+      "pattern": "creating_space_for_genre_preference_sharing",
+      "engagement_boost": 2.2,
+      "evidence": "Question about horror preferences allows Laura to express broad taste 'all kinds' - she responds with inclusive statement rather than narrow answer, suggesting comfort in sharing preferences"
     }
   ],
   "avoid_patterns": [
