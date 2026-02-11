@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "yes i have a job, I'm a sales lady at the cosmetics store in the mall haha",
-    "time": "2026-02-11 19:26"
-  },
-  {
     "role": "you",
     "text": "oh nice! cosmetics store huh\n\nbet you get to try all the products haha. do you actually like makeup and skincare stuff or is it just the job?\n\nalso yeah i do enjoy the work, it's exhausting sometimes but like... there's always something happening. never boring at least",
     "time": "2026-02-11 19:34"
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "I don't have a bf, and the guys here are strict forward if they like the girl they will tell the girl immediately no matter what the girl is. someone is pursuing me here but i rejected him because he is too arrogant ",
     "time": "2026-02-11 22:34"
+  },
+  {
+    "role": "you",
+    "text": "oh interesting, so guys here are pretty direct huh\n\nhaha yeah arrogant guys are the worst. like there's confidence and then there's just... too much\n\nso you're single then? not really looking or just haven't found the right person yet?",
+    "time": "2026-02-11 22:39"
   }
 ]
