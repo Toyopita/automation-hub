@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I think is impossible haha",
-    "time": "00:24"
-  },
-  {
     "role": "you",
     "text": "I know right 😂",
     "time": "00:42"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Why don't you like posting stories baby? I guess Instagram's not your thing haha",
     "time": "01:11"
+  },
+  {
+    "role": "you",
+    "text": "I wanna see you baby, you always make me feel better 🤍",
+    "time": "01:12"
   }
 ]
