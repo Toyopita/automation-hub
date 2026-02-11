@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:39:45.918633+09:00",
+  "last_updated": "2026-02-12T08:40:08.329259+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -67,8 +67,6 @@
     "confidence": 5,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone",
-      "warmth: Proactively offers to send pictures when partner wants to see her, commits to specific action 'I take pictures and send you later baby', maintains 'baby' endearment consistently",
       "warmth: Maintains 'baby' endearment consistently across practical messages, commits to future action of sending pictures 'I take pictures and send you later baby' - shows sustained affectionate communication even in logistical contexts",
       "humor_appreciation: Uses multiple laughing emojis 😂😂😂 to share amusing anecdote about old man compliment - frames unexpected social interaction as funny and lighthearted rather than uncomfortable",
       "warmth: Proactively reassures partner about picture commitment with 'Of course im going to send you pictures ❤️' - uses red heart emoji (escalation from previous white hearts) and 'of course' to emphasize reliability and care",
@@ -86,7 +84,9 @@
       "warmth: Proactively calls user 'so cute 🥺' with vulnerable pleading emoji - initiates affectionate compliment unprompted, continues pattern of spontaneous emotional expression toward partner",
       "emotional_expressiveness: Uses 'Haha you are so cute 🥺' to express affection - combines laughter with tender vulnerable emoji to convey warm feelings, shows comfort initiating emotional compliments",
       "warmth: Proactively sends picture from bed without request, uses kissing emoji 😚 for goodnight (escalation from previous emojis), responds to partner's romantic vulnerability about wanting to lay with her by sharing intimate bedtime photo unprompted",
-      "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response"
+      "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response",
+      "emotional_expressiveness: Uses 'Me too 🥹' with emotional vulnerability emoji to reciprocate romantic desire about wanting to lay together - shows comfort expressing mutual romantic longing directly",
+      "warmth: Reciprocates romantic vulnerability immediately with 'Me too 🥹' using tender emotional emoji - shows consistent pattern of matching partner's emotional depth and affirming mutual feelings"
     ]
   },
   "communication_style": {
@@ -106,7 +106,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful with repeated laughter (hahaha) when discussing horror preferences",
-    "response_speed_tendency": "rapid multi-message sequence at bedtime (4 messages in quick succession: horror comment, cute compliment, picture, bed announcement, goodnight)",
+    "response_speed_tendency": "immediate when emotionally engaged (reciprocated romantic vulnerability 'Me too 🥹' right after partner's 'I wanna lay down with you so bad')",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -243,24 +243,12 @@
     "sending_bedtime_pictures": 9.4,
     "visual_intimacy_at_bedtime": 9.3,
     "responding_to_romantic_longing": 9.5,
-    "sharing_vulnerable_moments_visually": 9.4
+    "sharing_vulnerable_moments_visually": 9.4,
+    "receiving_romantic_longing": 9.5,
+    "reciprocating_desire_for_physical_closeness": 9.6,
+    "mutual_desire_for_non_sexual_intimacy": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "reciprocating_questions_about_her_interests",
-      "engagement_boost": 2.6,
-      "evidence": "After answering her anime question, user asks 'Do you watch a lot?' - shows genuine curiosity about her interests even when not personally invested in topic"
-    },
-    {
-      "pattern": "creating_emotional_safety_for_spontaneous_declarations",
-      "engagement_boost": 3.4,
-      "evidence": "Laura initiates unprompted 'I like you 😊' after recent pattern of user validating her gym commitment, maintaining gentle accountability, and showing interest in her topics - suggests accumulated emotional safety enables spontaneous affection expression"
-    },
-    {
-      "pattern": "consistent_affectionate_validation_builds_initiation",
-      "engagement_boost": 3.2,
-      "evidence": "User's recent messages included validation ('that's good baby 🤍'), honest engagement with her topics, and reciprocal curiosity - this consistent warmth appears to encourage Laura to initiate emotional declarations rather than only responding to them"
-    },
     {
       "pattern": "honest_engagement_with_her_interests",
       "engagement_boost": 2.8,
@@ -345,6 +333,21 @@
       "pattern": "validating_her_affectionate_compliments",
       "engagement_boost": 3.2,
       "evidence": "Laura initiated 'you are so cute 🥺' and user responded with deepened romantic vulnerability 'I wanna lay down with you so bad 🥺🤍' - receiving and building on her compliment with escalated emotional expression appears to encourage visual intimacy sharing"
+    },
+    {
+      "pattern": "expressing_non_sexual_physical_longing",
+      "engagement_boost": 3.7,
+      "evidence": "User's 'I wanna lay down with you so bad 🥺🤍' prompted immediate reciprocation 'Me too 🥹' - expressing romantic physical desire (not sexual) creates space for her to affirm mutual feelings"
+    },
+    {
+      "pattern": "using_vulnerable_emoji_with_romantic_desire",
+      "engagement_boost": 3.5,
+      "evidence": "User's pleading emoji 🥺 in romantic context gets mirrored with her emotional 🥹 emoji - vulnerability language encourages emotional reciprocation"
+    },
+    {
+      "pattern": "creating_space_for_mutual_romantic_affirmation",
+      "engagement_boost": 3.6,
+      "evidence": "User's statement of desire allows Laura to simply affirm 'Me too' rather than having to initiate - making it easy for her to reciprocate feelings increases likelihood of emotional engagement"
     }
   ],
   "avoid_patterns": [
