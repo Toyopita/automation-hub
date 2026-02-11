@@ -12837,6 +12837,56 @@
         "future": 1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:36:45.590122+09:00",
+      "summary": "I like all kinds of horror hahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼がホラー苦手と言ったのに対して、自分は全然平気というギャップを楽しそうに伝えている。軽いトーン",
+      "trigger": {
+        "message": "Yeah, sleep well baby 🤍 I just wanna see your pictures haha 🥺",
+        "sent_at": "2026-02-12T08:36:36.329974+09:00",
+        "category": "interest",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
