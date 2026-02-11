@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:57:51.416462+09:00",
+  "last_updated": "2026-02-12T00:58:43.479402+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -61,8 +61,8 @@
       "😓"
     ],
     "formality_level": "very casual",
-    "humor_style": "playful skepticism with eye-roll emoji - uses humor to test sincerity of emotional statements",
-    "response_speed_tendency": "maintains mental engagement with conversation threads even during work - returns to previous intimate topics after interruptions",
+    "humor_style": "uses playful skepticism with eye-roll emoji to test sincerity of emotional declarations",
+    "response_speed_tendency": "returns to conversation threads after work interruptions, indicating mental engagement even when busy",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -114,34 +114,13 @@
     "expressing_affection_directly": 8.2,
     "receiving_emotional_declarations": 8.4,
     "defining_relationship_feelings": 8.3,
-    "clarifying_emotional_intentions": 8.5
+    "clarifying_emotional_intentions": 8.5,
+    "receiving_physical_affection_declarations": 8.6,
+    "defining_affection_type": 8.4,
+    "testing_emotional_sincerity": 8.5,
+    "receiving_romantic_gestures": 8.7
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_mutual_visual_intimacy",
-      "engagement_boost": 1.7,
-      "evidence": "Her message 'You want me to look at you all the Time 😳' suggests she's receptive to and engaged by the concept of ongoing visual connection/attention in the relationship"
-    },
-    {
-      "pattern": "sharing_explicit_sexual_desires",
-      "engagement_boost": 1.6,
-      "evidence": "User shared explicit sexual practice - Laura had been highly engaged with intimate content up to this point, though work interrupted before she could fully respond"
-    },
-    {
-      "pattern": "building_on_established_intimate_momentum",
-      "engagement_boost": 1.5,
-      "evidence": "After previous positive responses to intimate video, continuing explicit conversation maintained engagement ('I love it', playful responses) before work interruption"
-    },
-    {
-      "pattern": "creating_ongoing_visual_desire_dynamic",
-      "engagement_boost": 1.8,
-      "evidence": "Laura's message 'You want me to look at you all the Time 😳' shows she's engaged with and receptive to the concept of sustained visual/sexual attention in the relationship"
-    },
-    {
-      "pattern": "referencing_shared_intimate_experiences",
-      "engagement_boost": 1.6,
-      "evidence": "Laura asks 'Haha did you taste it?' in playful manner, suggesting she's recalling and engaging with a shared intimate experience with humor and curiosity"
-    },
     {
       "pattern": "playful_callback_to_previous_intimate_moment",
       "engagement_boost": 1.5,
@@ -216,6 +195,31 @@
       "pattern": "timing_affection_after_playful_intimate_moments",
       "engagement_boost": 1.6,
       "evidence": "User expresses 'I like you' after Laura laughed about intimate topic ('I think is impossible haha') - expressing affection when she's in lighthearted mood creates positive association between humor, intimacy, and emotional connection"
+    },
+    {
+      "pattern": "expressing_physical_affection_desire",
+      "engagement_boost": 1.8,
+      "evidence": "User responded to 'You like me how? 🙄' with 'The way that makes me wanna hold you haha 🤍' - expressing desire for physical closeness/holding creates romantic connection beyond just sexual or emotional attraction"
+    },
+    {
+      "pattern": "clarifying_affection_as_protective_romantic",
+      "engagement_boost": 1.7,
+      "evidence": "Laura's skeptical question 'You like me how? 🙄' prompted user to specify type of affection as 'wanna hold you' - this clarifies romantic/protective dimension rather than just sexual or casual liking"
+    },
+    {
+      "pattern": "responding_to_skepticism_with_tender_specificity",
+      "engagement_boost": 1.9,
+      "evidence": "When Laura tests sincerity with 🙄 emoji, user responds with specific tender gesture 'hold you' rather than generic answer - this addresses her skepticism with concrete romantic action"
+    },
+    {
+      "pattern": "balancing_playfulness_with_romantic_sincerity",
+      "engagement_boost": 1.6,
+      "evidence": "User includes 'haha' while expressing desire to hold her, maintaining lighthearted tone while still being sincere and romantic - balances vulnerability with comfort"
+    },
+    {
+      "pattern": "consistent_white_heart_usage_for_pure_affection",
+      "engagement_boost": 1.5,
+      "evidence": "User again uses 🤍 white heart when expressing romantic/tender feelings (wanting to hold her), creating consistent symbolic language for non-sexual affection"
     }
   ],
   "avoid_patterns": [
