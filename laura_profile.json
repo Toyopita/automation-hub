@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:31:22.438069+09:00",
+  "last_updated": "2026-02-12T08:31:57.740322+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -44,7 +44,8 @@
       "has deleted Instagram multiple times due to it interfering with real life",
       "goes to the bank for errands",
       "receives compliments from elderly men about her appearance",
-      "planning to avoid posting Instagram stories for extended period due to distraction concerns"
+      "planning to avoid posting Instagram stories for extended period due to distraction concerns",
+      "goes to gym in the afternoon/evening (confirmed timing)"
     ]
   },
   "personality": {
@@ -71,7 +72,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence",
+    "avg_message_length": "short fragment (incomplete sentence)",
     "emoji_frequency": "single significant emoji (red heart) to emphasize reassurance",
     "preferred_emojis": [
       "🥺",
@@ -85,7 +86,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable to this message",
-    "response_speed_tendency": "responsive to follow-up on prior commitment",
+    "response_speed_tendency": "providing update on activity completion",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -185,7 +186,8 @@
     "morning_greetings": 7.0,
     "accountability_on_promises": 7.6,
     "reassuring_partner": 9.3,
-    "picture_sharing_commitment": 9.4
+    "picture_sharing_commitment": 9.4,
+    "gym_routine_timing": 8.2
   },
   "effective_patterns": [
     {
