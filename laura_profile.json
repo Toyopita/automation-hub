@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:14:18.627872+09:00",
+  "last_updated": "2026-02-12T00:15:20.474972+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -60,7 +60,7 @@
       "😓"
     ],
     "formality_level": "very casual",
-    "humor_style": "playful and teasing - uses rhetorical questions with laughter to show amusement and continue engagement",
+    "humor_style": "playful and curious - uses rhetorical questions with laughter to express amusement and explore shared experiences",
     "response_speed_tendency": "interrupted by work - was engaged in intimate conversation then had to pause, indicating work takes priority over personal conversations during work hours",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -95,19 +95,11 @@
     "being_watched": 8.3,
     "explicit_sexual_content": 8.6,
     "mutual_sexual_exploration": 8.4,
-    "visual_sexual_attention": 8.7
+    "visual_sexual_attention": 8.7,
+    "shared_experiences": 8.2,
+    "food_experiences": 7.8
   },
   "effective_patterns": [
-    {
-      "pattern": "sharing_personal_vulnerability_about_same_struggle",
-      "engagement_boost": 1.2,
-      "evidence": "After user revealed struggling with Japanese as a native speaker, Laura immediately asks 'Is it hard for you?' showing she's engaged and wants to explore this shared difficulty further"
-    },
-    {
-      "pattern": "revealing_unexpected_depth_on_shared_topic",
-      "engagement_boost": 1.5,
-      "evidence": "User mentioned reading Japanese books and watching linguist videos - Laura immediately responds with 'Really?' and asks follow-up question, showing heightened interest when discovering shared topic has more depth than expected"
-    },
     {
       "pattern": "intellectualizing_shared_struggle",
       "engagement_boost": 1.3,
@@ -197,6 +189,16 @@
       "pattern": "creating_ongoing_visual_desire_dynamic",
       "engagement_boost": 1.8,
       "evidence": "Laura's message 'You want me to look at you all the Time 😳' shows she's engaged with and receptive to the concept of sustained visual/sexual attention in the relationship"
+    },
+    {
+      "pattern": "referencing_shared_intimate_experiences",
+      "engagement_boost": 1.6,
+      "evidence": "Laura asks 'Haha did you taste it?' in playful manner, suggesting she's recalling and engaging with a shared intimate experience with humor and curiosity"
+    },
+    {
+      "pattern": "playful_callback_to_previous_intimate_moment",
+      "engagement_boost": 1.5,
+      "evidence": "The laughing tone 'Haha' combined with personal question 'did you taste it?' shows comfort revisiting intimate topics with lighthearted curiosity"
     }
   ],
   "avoid_patterns": [
