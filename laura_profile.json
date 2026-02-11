@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:10:36.632797+09:00",
+  "last_updated": "2026-02-12T01:10:53.118080+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -34,7 +34,7 @@
       "comfortable with explicit sexual communication in established relationship",
       "experiences interruptions to intimate conversations due to work",
       "works during late evening/night hours (working around midnight JST)",
-      "doesn't want to post Instagram stories (currently avoiding social media posting)"
+      "willing to share pictures of herself when partner wants to see her"
     ]
   },
   "personality": {
@@ -50,12 +50,13 @@
       "emotional_expressiveness: Uses pleading emoji (🥺) to express feeling overwhelmed about work situation",
       "emotional_expressiveness: Uses flushed emoji 😳 repeatedly to express excitement/arousal in intimate context, then immediately switches to apologetic tone with 😓 when work interrupts, showing range of emotional expression",
       "emotional_expressiveness: Uses vulnerable 🥹 emoji to express being touched by romantic gestures, responds with 'Oww' and 'Thats cute' to tender statements, showing increased comfort with expressing softer emotions",
-      "warmth: Validates romantic gestures with 'Thats cute' and responds with 🥹 to expressions of desire for physical closeness, showing appreciation for emotional vulnerability"
+      "warmth: Validates romantic gestures with 'Thats cute' and responds with 🥹 to expressions of desire for physical closeness, showing appreciation for emotional vulnerability",
+      "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very short (1-3 words)",
-    "emoji_frequency": "high (1 per message)",
+    "avg_message_length": "single sentence offering solution",
+    "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -64,9 +65,9 @@
       "😓",
       "🥹"
     ],
-    "formality_level": "very casual",
-    "humor_style": "playful skepticism with testing questions",
-    "response_speed_tendency": "fast when emotionally engaged in romantic/intimate context, then switches to explicit sexual topic",
+    "formality_level": "casual",
+    "humor_style": "not applicable in this message",
+    "response_speed_tendency": "responsive to partner's expressed desires with practical solutions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -92,8 +93,7 @@
       "Oww",
       "Me too",
       "Thats Lovely really",
-      "kinda miss that haha",
-      "I dont want to post stories"
+      "kinda miss that haha"
     ]
   },
   "topic_engagement": {
@@ -138,39 +138,17 @@
     "expressing_mutual_romantic_desire": 9.3,
     "reciprocating_emotional_vulnerability": 9.2,
     "direct_sexual_preference_questions": 7.2,
-    "instagram_stories": 6.2,
+    "instagram_stories": 7.5,
     "partner_daily_activities": 7.8,
     "gym_routine": 7.2,
     "maintaining_visual_connection": 8.1,
     "noticing_partner_absence": 8.3,
-    "social_media_posting": 3.8
+    "visual_connection_maintenance": 9.2,
+    "sharing_pictures_of_herself": 9.0,
+    "responding_to_missing_her": 8.8,
+    "offering_visual_presence": 9.1
   },
   "effective_patterns": [
-    {
-      "pattern": "escalating_physical_affection_specificity",
-      "engagement_boost": 2.1,
-      "evidence": "After 'wanna hold you' received positive response, user escalates to 'wanna sleep beside you' - Laura responds with 'Oww' showing she's moved by the progression of tender romantic gestures"
-    },
-    {
-      "pattern": "expressing_desire_for_sleeping_together_non_sexually",
-      "engagement_boost": 2.2,
-      "evidence": "User says 'I just wanna sleep beside you right now baby 🤍' - focuses on companionship and comfort rather than sexual context, which prompts Laura's tender 'Oww' reaction"
-    },
-    {
-      "pattern": "using_right_now_for_immediacy",
-      "engagement_boost": 1.9,
-      "evidence": "Adding 'right now' to 'wanna sleep beside you' creates sense of genuine longing in the present moment, making the romantic gesture feel more sincere and urgent"
-    },
-    {
-      "pattern": "combining_baby_with_tender_statements",
-      "engagement_boost": 1.8,
-      "evidence": "User includes 'baby' in 'wanna sleep beside you right now baby 🤍' - pairing affectionate term with vulnerable romantic desire creates layered emotional intimacy"
-    },
-    {
-      "pattern": "maintaining_white_heart_consistency_for_pure_romance",
-      "engagement_boost": 1.7,
-      "evidence": "User continues using 🤍 white heart with romantic non-sexual statements about sleeping together, creating consistent symbolic language for tender affection separate from sexual attraction"
-    },
     {
       "pattern": "building_on_validated_romantic_themes",
       "engagement_boost": 2.0,
@@ -245,6 +223,31 @@
       "pattern": "showing_attention_to_her_social_media_presence",
       "engagement_boost": 1.8,
       "evidence": "User noticed Laura hasn't posted stories recently - demonstrates he pays attention to her daily social media activity, which shows consistent interest in her life even when not directly communicating"
+    },
+    {
+      "pattern": "expressing_missing_seeing_her",
+      "engagement_boost": 2.6,
+      "evidence": "After user mentioned missing her Instagram stories, Laura immediately offers solution 'If you want to see me i can send you pictures' - shows she's highly responsive to expressions of wanting to see her"
+    },
+    {
+      "pattern": "showing_attentiveness_to_partner_desires",
+      "engagement_boost": 2.5,
+      "evidence": "Laura picks up on implicit desire from 'kinda miss that' comment about stories and proactively offers pictures - demonstrates she's tuned into his needs and willing to fulfill them"
+    },
+    {
+      "pattern": "offering_practical_solutions_to_emotional_needs",
+      "engagement_boost": 2.4,
+      "evidence": "When user expresses missing visual connection through stories, Laura doesn't just acknowledge but offers direct solution 'i can send you pictures' - action-oriented response to emotional expression"
+    },
+    {
+      "pattern": "maintaining_visual_presence_in_relationship",
+      "engagement_boost": 2.7,
+      "evidence": "Laura volunteers to share pictures when partner indicates he misses seeing her - shows she values being visually present for him and understands importance of visual connection in their relationship"
+    },
+    {
+      "pattern": "framing_picture_sharing_as_if_then_offer",
+      "engagement_boost": 2.3,
+      "evidence": "'If you want to see me i can send you pictures' - conditional phrasing gives partner agency to accept or decline, making offer feel generous rather than presumptuous"
     }
   ],
   "avoid_patterns": [
@@ -267,16 +270,6 @@
       "pattern": "not_allowing_romantic_peak_to_settle",
       "engagement_drop": -1.6,
       "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
-    },
-    {
-      "pattern": "asking_about_instagram_stories_when_avoiding_posting",
-      "engagement_drop": -1.5,
-      "evidence": "User mentioned 'kinda miss that haha' about not seeing her stories, Laura responds with clear statement 'I dont want to post stories' - indicates she's intentionally not posting and discussing it may feel like pressure"
-    },
-    {
-      "pattern": "expressing_missing_her_social_media_activity",
-      "engagement_drop": -1.3,
-      "evidence": "User's 'kinda miss that haha' about her stories met with firm boundary statement 'I dont want to post stories' - she's clarifying she doesn't want to post rather than explaining why she hasn't, suggesting the topic itself is unwelcome"
     }
   ],
   "ng_topics": [],
