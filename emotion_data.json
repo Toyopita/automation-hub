@@ -13296,6 +13296,49 @@
         "engagement": 5,
         "vulnerability": 3
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:42:26.361296+09:00",
+      "summary": "When you talk to me like This you turn me on 🫣",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "明確な性的興奮の表現。恥ずかしさと興奮が混ざった状態で、彼の言葉に反応している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 10,
+        "vulnerability": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
