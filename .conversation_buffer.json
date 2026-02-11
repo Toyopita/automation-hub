@@ -1,15 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Im going to the bank and an old man stopped me to say to me i was beautiful 😂😂😂",
-    "time": "01:14"
-  },
-  {
-    "role": "you",
-    "text": "Yeah I feel you baby haha I deleted mine a couple times. Gets in the way of real life",
-    "time": "01:15"
-  },
-  {
     "role": "you",
     "text": "He's got good taste haha You're so beautiful and cute baby 🤍",
     "time": "01:16"
@@ -98,5 +88,15 @@
     "role": "laura",
     "text": "Im going to sleep ",
     "time": "08:35"
+  },
+  {
+    "role": "you",
+    "text": "Yeah I slept pretty well baby, just went to bed a little late haha 🤍 Sleep well 🤍\n\nHorror huh, I'm not really into horror haha The sounds get to me 😂\n\nThat's cool though, I heard shows and anime are good for learning languages",
+    "time": "08:35"
+  },
+  {
+    "role": "laura",
+    "text": "Have a good day baby ",
+    "time": "08:36"
   }
 ]
