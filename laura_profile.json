@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:47:20.043037+09:00",
+  "last_updated": "2026-02-12T08:47:26.719924+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -75,8 +75,6 @@
     "confidence": 8,
     "warmth": 9,
     "observations": [
-      "warmth: Continues pattern of unprompted affection declarations: 'Have a good day baby' with follow-up 'I like you 😊' - proactively expresses care and affection even during bedtime sign-off",
-      "emotional_expressiveness: Declares affection twice in bedtime sequence: 'Have a good day baby' then additional 'I like you 😊' - shows comfort with repeated emotional expression in short timeframe",
       "warmth: Continues unprompted affection expression 'I like you 😊' during bedtime sequence, maintains 'baby' endearment in sign-off 'Have a good day baby' - consistent pattern of proactive emotional warmth",
       "emotional_expressiveness: Declares 'I like you 😊' unprompted as separate message during bedtime - shows continued comfort with spontaneous emotional declarations and willingness to express feelings without prompting",
       "warmth: Proactively calls user 'so cute 🥺' with vulnerable pleading emoji - initiates affectionate compliment unprompted, continues pattern of spontaneous emotional expression toward partner",
@@ -94,7 +92,9 @@
       "warmth: Maintains 'baby' endearment even during explicit sexual request 'I want you to fuck me so hard baby 🥵' - keeps affectionate language consistent across all intimacy levels from tender to intensely sexual",
       "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
       "confidence: Initiates explicit sexual requests 'I want you to fuck me so hard baby 🥵' and takes action on intimate picture sharing by asking logistics 'Where do i send the pictures' - shows increased sexual agency and comfort taking initiative in intimate contexts (upgrade from previous 7)",
-      "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages"
+      "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
+      "warmth: Expresses missing physical presence unprompted: 'Because you are not here' - explicitly articulates desire for partner's physical proximity as explanation for why something matters, shows emotional vulnerability about separation",
+      "emotional_expressiveness: 'Because you are not here' - voluntarily provides emotional reasoning for previous statement, shows comfort explaining feelings unprompted and connecting emotions to partner's absence"
     ]
   },
   "communication_style": {
@@ -117,13 +117,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate acknowledgment during explicit sexual escalation (single word 'Okay' confirms logistics/agreement)",
+    "response_speed_tendency": "immediate acknowledgment during intimate conversation sequence (single word 'Okay' confirms receipt/agreement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "is impossible",
       "I think is impossible haha",
       "Baby Im working",
       "You like me how?",
@@ -152,7 +151,8 @@
       "turn me on",
       "When you talk to me like This",
       "fuck me so hard",
-      "Can you do something for me"
+      "Can you do something for me",
+      "Because you are not here"
     ]
   },
   "topic_engagement": {
@@ -291,18 +291,62 @@
     "clarifying_picture_sharing_preferences": 8.9,
     "following_through_on_intimate_promises": 9.3,
     "partner_preferred_channel_for_intimacy": 8.7,
-    "receiving_detailed_foreplay_descriptions": 9.4,
-    "oral_sex_promises": 9.3,
-    "receiving_arousal_focused_attention": 9.5,
-    "teasing_to_arousal_escalation": 9.4,
-    "explicit_pussy_focused_attention": 9.2,
-    "receiving_detailed_sexual_sequences": 9.3,
-    "partner_expressing_desire_to_pleasure_her": 9.6,
-    "wetness_acknowledgment": 9.1,
-    "licking_oral_sex": 9.2,
-    "extended_foreplay_promises": 9.4
+    "expressing_missing_partner": 9.4,
+    "physical_presence_desire": 9.5,
+    "explaining_emotional_responses": 9.2,
+    "articulating_separation_feelings": 9.3
   },
   "effective_patterns": [
+    {
+      "pattern": "specific_sexual_desire_after_bedtime_picture",
+      "engagement_boost": 3.5,
+      "evidence": "Laura shared bedtime picture and announced 'Im in bed', user responds with specific body-focused desire - timing after her visual intimate sharing and bedtime context appears to be well-received, gets enthusiastic affectionate response"
+    },
+    {
+      "pattern": "explicit_sexual_desire_after_she_gives_enthusiastic_affectionate_response",
+      "engagement_boost": 3.4,
+      "evidence": "After Laura's elongated affection 'You are sooooo cuuuuuuute', user follows with 'Please baby 🥺🤍' expressing continued desire - gets immediate emoji response 😳 showing she's engaged and processing the sexual content"
+    },
+    {
+      "pattern": "pleading_with_explicit_context",
+      "engagement_boost": 3.3,
+      "evidence": "'Please baby 🥺🤍' uses vulnerable pleading emoji and endearment while referencing previous explicit desire statement - maintains emotional connection while pursuing sexual topic, gets immediate reaction"
+    },
+    {
+      "pattern": "brief_pleading_after_detailed_sexual_desire",
+      "engagement_boost": 3.2,
+      "evidence": "User states explicit desire ('I wanna play with your nipples'), gets affectionate response, then follows with simple 'Please baby 🥺🤍' - this brief emotional plea after detailed statement appears effective at maintaining engagement without overwhelming"
+    },
+    {
+      "pattern": "persistent_tender_explicit_desire_after_affectionate_response",
+      "engagement_boost": 4.2,
+      "evidence": "User's 'Please baby 🥺🤍' (following 'I wanna play with your nipples so bad') after Laura's enthusiastic 'You are sooooo cuuuuuuute' prompts explicit arousal validation 'When you talk to me like This you turn me on 🫣' - continuing explicit desire with tender vulnerable framing gets verbal sexual affirmation"
+    },
+    {
+      "pattern": "combining_pleading_vulnerability_with_sexual_context",
+      "engagement_boost": 4.0,
+      "evidence": "'Please baby 🥺🤍' in context of nipple play desire elicits her explicit statement of arousal - vulnerable pleading emoji + endearment + white heart while pursuing sexual topic creates communication style she finds arousing"
+    },
+    {
+      "pattern": "maintaining_tender_emotional_tone_during_explicit_escalation",
+      "engagement_boost": 3.9,
+      "evidence": "User's pattern of white heart 🤍 + vulnerable emoji 🥺 + 'baby' throughout explicit content ('I wanna play with your nipples so bad baby 🤍' → 'Please baby 🥺🤍') creates communication style she explicitly validates as turning her on"
+    },
+    {
+      "pattern": "brief_pleading_continuation_of_explicit_desire",
+      "engagement_boost": 3.8,
+      "evidence": "After detailed sexual desire statement, user's simple 'Please baby 🥺🤍' maintains request without overwhelming - this restrained follow-up appears to be part of communication style she finds arousing ('When you talk to me like This')"
+    },
+    {
+      "pattern": "expressing_explicit_arousal_validation",
+      "engagement_boost": 4.5,
+      "evidence": "User's 'Please baby 🥺🤍' in explicit sexual context prompted Laura to not only validate arousal ('you turn me on 🫣') but escalate to initiating her own explicit sexual request sequence ('Can you do something for me Please I want you to fuck me so hard baby 🥵') - validating communication style that arouses her leads to her taking initiative"
+    },
+    {
+      "pattern": "maintaining_tender_vulnerable_tone_during_explicit_content",
+      "engagement_boost": 4.3,
+      "evidence": "User's consistent pattern of 🥺🤍 + 'baby' during explicit nipple play desire created communication style she explicitly stated turns her on, which then inspired her to initiate intense sexual request - tender framing of explicit content creates safe space for her sexual agency"
+    },
     {
       "pattern": "specific_body_focused_attention_promises",
       "engagement_boost": 4.1,
@@ -352,56 +396,6 @@
       "pattern": "maintaining_endearment_during_practical_exchange",
       "engagement_boost": 3.7,
       "evidence": "'You can send them here baby 🤍' keeps affectionate tone ('baby' + white heart) even during logistics discussion - consistent emotional warmth during practical question appears to maintain intimate atmosphere, gets confirmation response"
-    },
-    {
-      "pattern": "simple_confirmation_of_intimate_logistics",
-      "engagement_boost": 4.0,
-      "evidence": "User's clear answer 'You can send them here baby 🤍' to Laura's channel question gets immediate 'Okay' - removing friction during sexually charged moment with simple answer facilitates her comfort proceeding"
-    },
-    {
-      "pattern": "detailed_foreplay_sequence_after_her_explicit_request",
-      "engagement_boost": 4.8,
-      "evidence": "After Laura's intense 'I want you to fuck me so hard baby 🥵' and her logistical setup for picture sharing, user responds with detailed escalation sequence (nipple teasing → hips moving → touching wet pussy → oral) - providing detailed foreplay plan despite her request for hard sex honors her stated preference for 'previous game before having sex'"
-    },
-    {
-      "pattern": "responding_to_hard_sex_request_with_slow_buildup",
-      "engagement_boost": 4.6,
-      "evidence": "Laura explicitly requested 'fuck me so hard' but user's response focuses on gradual escalation ('tease your nipples until your hips start moving' → 'touch your wet pussy slowly' → licking) - choosing slow sensory buildup over immediate intensity aligns with her foreplay preference and appears well-received"
-    },
-    {
-      "pattern": "acknowledging_her_arousal_state_in_sexual_description",
-      "engagement_boost": 4.5,
-      "evidence": "'while you're dripping for me' acknowledges her wetness/arousal as part of sexual scenario - validating her turned-on state that she explicitly declared ('you turn me on 🫣') by incorporating it into foreplay description"
-    },
-    {
-      "pattern": "multi_sensory_foreplay_description",
-      "engagement_boost": 4.4,
-      "evidence": "User's sequence includes touch (teasing nipples), observation (hips moving), touch progression (wet pussy), and taste (licking) - layering multiple sensory elements creates detailed foreplay scenario that aligns with her preference for buildup"
-    },
-    {
-      "pattern": "describing_her_physical_responses_in_scenario",
-      "engagement_boost": 4.3,
-      "evidence": "'until your hips start moving' and 'while you're dripping for me' describe her body's reactions during foreplay - including her arousal responses in scenario rather than just his actions creates more immersive experience"
-    },
-    {
-      "pattern": "oral_sex_promise_with_arousal_context",
-      "engagement_boost": 4.7,
-      "evidence": "'I wanna lick you while you're dripping for me 🤤' combines oral sex promise with acknowledgment of her peak arousal state - expressing desire to perform oral when she's most turned on appears highly engaging based on her previous responses to this communication style"
-    },
-    {
-      "pattern": "gradual_escalation_from_nipples_to_pussy",
-      "engagement_boost": 4.5,
-      "evidence": "Sequence progresses from nipple teasing → observing her arousal response → touching pussy → oral sex - anatomical progression from secondary to primary erogenous zones mirrors natural arousal escalation and honors foreplay preference"
-    },
-    {
-      "pattern": "using_dripping_wet_arousal_language",
-      "engagement_boost": 4.2,
-      "evidence": "'wet pussy' and 'dripping for me' uses explicit wetness language after she stated she's turned on - mirroring her arousal state with vivid physical descriptors appears to maintain sexual momentum"
-    },
-    {
-      "pattern": "expressing_desire_to_pleasure_her_orally",
-      "engagement_boost": 4.6,
-      "evidence": "'I wanna lick you while you're dripping for me 🤤' focuses on his desire to give her pleasure through oral sex - expressing want to pleasure her (rather than just what he'll do to her) appears engaging based on communication style she validated as arousing"
     }
   ],
   "avoid_patterns": [
