@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:15:17.665493+09:00",
+  "last_updated": "2026-02-12T01:15:38.404082+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -40,15 +40,16 @@
       "likes foreplay/buildup before sex ('previous game before having sex')",
       "deliberately avoids posting Instagram stories",
       "receives compliments from strangers about her appearance",
-      "goes to the bank in person for banking tasks"
+      "finds Instagram distracting",
+      "has deleted Instagram multiple times due to it interfering with real life"
     ]
   },
   "personality": {
     "introversion": 5,
     "emotional_expressiveness": 9,
-    "humor_appreciation": 7,
+    "humor_appreciation": 5,
     "adventurousness": 5,
-    "confidence": 7,
+    "confidence": 5,
     "warmth": 9,
     "observations": [
       "warmth: Uses affectionate term 'baby' as greeting",
@@ -60,24 +61,24 @@
       "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection",
       "warmth: Proactively offers to send pictures when partner expresses desire to see her: 'If you want to see me i can send you pictures' - shows attentiveness and care for partner's emotional needs",
       "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone",
-      "humor_appreciation: Finds humor in unexpected social interaction (old man compliment), uses multiple laughing emojis 😂😂😂 to share amusing real-life moment rather than just stating fact",
-      "confidence: Comfortable sharing story about receiving compliment on appearance without false modesty or discomfort, treats it as funny anecdote rather than bragging or deflecting"
+      "warmth: Proactively offers to send pictures when partner wants to see her, commits to specific action 'I take pictures and send you later baby', maintains 'baby' endearment consistently"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short sentence",
-    "emoji_frequency": "none in this message",
+    "avg_message_length": "single short sentence per message, sends multiple messages in sequence",
+    "emoji_frequency": "variable - none in casual statements, multiple when sharing amusing anecdotes (😂😂😂)",
     "preferred_emojis": [
       "🥺",
       "🙄",
       "😆",
       "😳",
       "😓",
-      "🥹"
+      "🥹",
+      "😂"
     ],
     "formality_level": "casual",
-    "humor_style": "shares amusing real-life situations, uses humor to recount everyday interactions, finds comedy in unexpected social moments",
-    "response_speed_tendency": "initiates contact to share real-time amusing moments, suggests she thinks of partner when something funny happens during her day",
+    "humor_style": "shares amusing real-life anecdotes with self-aware lightheartedness, uses laughing emojis to frame unexpected social interactions as funny rather than uncomfortable",
+    "response_speed_tendency": "rapid sequential responses when discussing plans and daily activities (4 messages in quick succession about pictures, gym, Instagram)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -104,7 +105,8 @@
       "Me too",
       "Thats Lovely really",
       "kinda miss that haha",
-      "Im going to"
+      "distract me a lot",
+      "an old man stopped me"
     ]
   },
   "topic_engagement": {
@@ -163,32 +165,14 @@
     "alternative_visual_connection_methods": 9.2,
     "being_told_she_makes_partner_feel_better": 8.9,
     "emotional_impact_on_partner": 9.0,
-    "sharing_daily_anecdotes": 8.5,
-    "unexpected_social_interactions": 8.3,
-    "receiving_compliments": 7.8,
-    "real_time_life_updates": 8.6
+    "sharing_amusing_anecdotes": 8.5,
+    "receiving_street_compliments": 7.8,
+    "social_media_downsides": 8.6,
+    "instagram_distraction": 8.4,
+    "deleting_social_media": 8.2,
+    "real_life_vs_digital_balance": 8.7
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_missing_seeing_her",
-      "engagement_boost": 2.6,
-      "evidence": "After user mentioned missing her Instagram stories, Laura immediately offers solution 'If you want to see me i can send you pictures' - shows she's highly responsive to expressions of wanting to see her"
-    },
-    {
-      "pattern": "showing_attentiveness_to_partner_desires",
-      "engagement_boost": 2.5,
-      "evidence": "Laura picks up on implicit desire from 'kinda miss that' comment about stories and proactively offers pictures - demonstrates she's tuned into his needs and willing to fulfill them"
-    },
-    {
-      "pattern": "offering_practical_solutions_to_emotional_needs",
-      "engagement_boost": 2.4,
-      "evidence": "When user expresses missing visual connection through stories, Laura doesn't just acknowledge but offers direct solution 'i can send you pictures' - action-oriented response to emotional expression"
-    },
-    {
-      "pattern": "maintaining_visual_presence_in_relationship",
-      "engagement_boost": 2.7,
-      "evidence": "Laura volunteers to share pictures when partner indicates he misses seeing her - shows she values being visually present for him and understands importance of visual connection in their relationship"
-    },
     {
       "pattern": "framing_picture_sharing_as_if_then_offer",
       "engagement_boost": 2.3,
@@ -268,6 +252,26 @@
       "pattern": "maintaining_endearment_in_action_statements",
       "engagement_boost": 2.5,
       "evidence": "Laura includes 'baby' even in logistical statement about sending pictures later - shows she maintains affectionate tone even when discussing practical actions, indicating comfort and warmth in relationship"
+    },
+    {
+      "pattern": "validating_her_social_media_concerns",
+      "engagement_boost": 2.4,
+      "evidence": "User responds to Laura's Instagram distraction comment with validation 'Yeah I feel you baby' and shares own experience deleting it - creates mutual understanding around social media challenges"
+    },
+    {
+      "pattern": "sharing_parallel_experiences",
+      "engagement_boost": 2.6,
+      "evidence": "'I deleted mine a couple times' mirrors Laura's struggle with Instagram - showing he has similar relationship with social media validates her feelings and creates common ground"
+    },
+    {
+      "pattern": "framing_agreement_philosophically",
+      "engagement_boost": 2.5,
+      "evidence": "User elevates shared Instagram frustration to broader principle 'Gets in the way of real life' - shows he understands deeper issue beyond just distraction, aligns on values about digital vs real world"
+    },
+    {
+      "pattern": "maintaining_endearment_in_validation_statements",
+      "engagement_boost": 2.3,
+      "evidence": "Includes 'baby' in validation response 'Yeah I feel you baby haha' - keeps affectionate tone while discussing shared frustrations, maintains relationship warmth in everyday topics"
     }
   ],
   "avoid_patterns": [
