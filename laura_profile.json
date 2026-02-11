@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:42:08.334056+09:00",
+  "last_updated": "2026-02-12T08:42:26.749524+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -56,19 +56,18 @@
       "uses anime to get accustomed to listening to Japanese",
       "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')",
       "sends pictures from bed (bedtime context)",
-      "uses kissing emoji for goodnight messages"
+      "uses kissing emoji for goodnight messages",
+      "expresses explicit sexual desire directly and proactively"
     ]
   },
   "personality": {
     "introversion": 5,
-    "emotional_expressiveness": 9,
+    "emotional_expressiveness": 10,
     "humor_appreciation": 6,
     "adventurousness": 5,
-    "confidence": 5,
+    "confidence": 8,
     "warmth": 9,
     "observations": [
-      "warmth: Emphatic reassurance with 'of course' affirming commitment to sending pictures, maintains consistent use of 'baby' endearment, escalates from white heart to red heart ❤️ in previous message showing deepening emotional warmth",
-      "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm reliability and commitment - expresses reassurance with enthusiasm rather than just simple confirmation",
       "warmth: Proactively reassures partner with emphatic 'Of course im going to send you pictures ❤️' using red heart emoji (escalation from white hearts), then double-confirms with enthusiastic laughter 'Baby yes of course 😂😂' - shows she values being reliable and cares about partner's reassurance",
       "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm commitment - expresses reassurance with enthusiasm rather than simple confirmation, escalated from white to red heart ❤️ showing emotional intensification",
       "warmth: Continues emphatic reassurance with laughter 'Baby yes of course 😂😂', proactively shares daily activities unprompted 'I went to the gym after', asks caring follow-up about partner's sleep quality 'Did you sleep well?', maintains 'baby' endearment consistently",
@@ -86,12 +85,14 @@
       "warmth: Reciprocates romantic vulnerability immediately with 'Me too 🥹' using tender emotional emoji - shows consistent pattern of matching partner's emotional depth and affirming mutual feelings",
       "emotional_expressiveness: Escalates emotional expression dramatically: 'You are sooooo cuuuuuuute' with elongated letters showing intensified affection - matches pattern of comfort with spontaneous emotional declarations",
       "warmth: Uses kissing emoji 😚 for goodnight (more intimate than previous 😊), responds to partner's sexual desire statement with emphatic elongated affection 'You are sooooo cuuuuuuute' - maintains warmth even when topic shifts to explicit sexual content",
-      "emotional_expressiveness: Uses flushed/embarrassed emoji 😳 in response to explicit sexual desire statement about playing with her nipples - shows comfort expressing emotional reactions to sexual content with single expressive emoji rather than verbal response"
+      "emotional_expressiveness: Escalates to explicit sexual desire statement 'I want you to fuck me so hard baby 🥵' - demonstrates extremely high comfort with direct emotional and sexual expression, initiating rather than responding",
+      "warmth: Maintains 'baby' endearment even in explicit sexual context 'I want you to fuck me so hard baby 🥵' - consistent tender language across all intimacy levels",
+      "confidence: Proactively initiates explicit sexual desire statement without prompting - shows high confidence in expressing wants directly and vulnerability in sexual context"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single emoji (no words)",
-    "emoji_frequency": "single emoji (standalone message)",
+    "avg_message_length": "very brief (1-4 words per message)",
+    "emoji_frequency": "moderate (1 per message in explicit context)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -102,17 +103,17 @@
       "😂",
       "❤️",
       "😊",
-      "😚"
+      "😚",
+      "🥵"
     ],
-    "formality_level": "casual",
-    "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "immediate response to explicit sexual content with emoji reaction",
+    "formality_level": "casual with explicit directness",
+    "humor_style": "affectionate teasing through elongated cuteness language",
+    "response_speed_tendency": "immediate when sexually engaged (proactively initiated explicit desire statement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Im working",
       "😓",
       "all the Time",
       "did you taste it",
@@ -141,7 +142,8 @@
       "I like all kinds of horror",
       "you are so cute",
       "sooooo cuuuuuuute",
-      "Please"
+      "Please",
+      "fuck me so hard"
     ]
   },
   "topic_engagement": {
@@ -251,10 +253,10 @@
     "specific_body_part_focused_desire": 8.8,
     "nipple_play_interest": 8.7,
     "responding_to_sexual_desire_with_affection": 9.3,
-    "explicit_sexual_desire_statements": 8.9,
-    "specific_sexual_acts_mentioned": 8.8,
-    "nipple_focused_sexual_attention": 8.9,
-    "receiving_sexual_desire_after_affectionate_response": 9.0
+    "initiating_explicit_sexual_desire": 9.4,
+    "expressing_intensity_preferences": 9.2,
+    "rough_sex_interest": 9.1,
+    "proactive_sexual_communication": 9.5
   },
   "effective_patterns": [
     {
@@ -343,19 +345,19 @@
       "evidence": "Laura shared bedtime picture and announced 'Im in bed', user responds with specific body-focused desire - timing after her visual intimate sharing and bedtime context appears to be well-received, gets enthusiastic affectionate response"
     },
     {
-      "pattern": "explicit_sexual_desire_after_she_gives_enthusiastic_affectionate_response",
-      "engagement_boost": 3.4,
-      "evidence": "After Laura's elongated affection 'You are sooooo cuuuuuuute', user follows with 'Please baby 🥺🤍' expressing continued desire - gets immediate emoji response 😳 showing she's engaged and processing the sexual content"
+      "pattern": "expressing_specific_sexual_desire_with_tender_framing",
+      "engagement_boost": 3.9,
+      "evidence": "User's 'I wanna play with your nipples so bad baby 🤍' prompted enthusiastic affection 'You are sooooo cuuuuuuute', which appears to have created safe space for Laura to escalate with her own explicit desire 'I want you to fuck me so hard baby 🥵' - maintaining tenderness (using 'baby') while being sexually explicit encourages her proactive sexual expression"
     },
     {
-      "pattern": "pleading_with_explicit_context",
-      "engagement_boost": 3.3,
-      "evidence": "'Please baby 🥺🤍' uses vulnerable pleading emoji and endearment while referencing previous explicit desire statement - maintains emotional connection while pursuing sexual topic, gets immediate reaction"
+      "pattern": "creating_space_for_her_sexual_agency",
+      "engagement_boost": 4.0,
+      "evidence": "After user expressed specific desire, Laura initiated her own explicit sexual want statement - pattern suggests that expressing desire creates reciprocal space for her to voice her own desires proactively rather than just responding"
     },
     {
-      "pattern": "brief_pleading_after_detailed_sexual_desire",
-      "engagement_boost": 3.2,
-      "evidence": "User states explicit desire ('I wanna play with your nipples'), gets affectionate response, then follows with simple 'Please baby 🥺🤍' - this brief emotional plea after detailed statement appears effective at maintaining engagement without overwhelming"
+      "pattern": "building_sexual_tension_gradually",
+      "engagement_boost": 3.8,
+      "evidence": "Progression from romantic longing ('lay down with you') to specific desire ('play with your nipples') to her explicit initiation ('fuck me so hard') shows successful escalation - gradual building allows her comfort to increase and eventually initiate"
     }
   ],
   "avoid_patterns": [
