@@ -1,15 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "😊",
-    "time": "08:30"
-  },
-  {
-    "role": "laura",
-    "text": "Of course im going to send you pictures ❤️",
-    "time": "08:30"
-  },
-  {
     "role": "you",
     "text": "You done with work baby?",
     "time": "08:31"
@@ -97,6 +87,16 @@
   {
     "role": "laura",
     "text": "Haha you are so cute 🥺",
+    "time": "08:38"
+  },
+  {
+    "role": "laura",
+    "text": "[画像]",
+    "time": "08:38"
+  },
+  {
+    "role": "laura",
+    "text": "Im in bed ",
     "time": "08:38"
   }
 ]
