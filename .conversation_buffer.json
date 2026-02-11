@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Baby yes of course 😂😂",
-    "time": "08:31"
-  },
-  {
-    "role": "laura",
     "text": "I went to the gym after ",
     "time": "08:31"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Good night 😚",
     "time": "08:38"
+  },
+  {
+    "role": "you",
+    "text": "I wanna lay down with you so bad 🥺🤍",
+    "time": "08:39"
   }
 ]
