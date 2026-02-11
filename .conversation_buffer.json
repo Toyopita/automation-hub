@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "People say it's really hard haha Even native speakers like me struggle with it sometimes",
-    "time": "22:33"
-  },
-  {
     "role": "laura",
     "text": "Really? ",
     "time": "22:35"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Haha did you taste it? ",
     "time": "00:15"
+  },
+  {
+    "role": "you",
+    "text": "I always end up finishing every time haha",
+    "time": "00:22"
   }
 ]
