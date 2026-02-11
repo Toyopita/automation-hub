@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:36:22.370249+09:00",
+  "last_updated": "2026-02-12T08:36:31.466826+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -78,7 +78,9 @@
       "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm reliability and commitment - expresses reassurance with enthusiasm rather than just simple confirmation",
       "warmth: Proactively reassures partner with emphatic 'Of course im going to send you pictures ❤️' using red heart emoji (escalation from white hearts), then double-confirms with enthusiastic laughter 'Baby yes of course 😂😂' - shows she values being reliable and cares about partner's reassurance",
       "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm commitment - expresses reassurance with enthusiasm rather than simple confirmation, escalated from white to red heart ❤️ showing emotional intensification",
-      "warmth: Continues emphatic reassurance with laughter 'Baby yes of course 😂😂', proactively shares daily activities unprompted 'I went to the gym after', asks caring follow-up about partner's sleep quality 'Did you sleep well?', maintains 'baby' endearment consistently"
+      "warmth: Continues emphatic reassurance with laughter 'Baby yes of course 😂😂', proactively shares daily activities unprompted 'I went to the gym after', asks caring follow-up about partner's sleep quality 'Did you sleep well?', maintains 'baby' endearment consistently",
+      "emotional_expressiveness: Direct emotional declaration 'I like you 😊' with happy emoji - openly expresses positive feelings about partner without prompting or buildup",
+      "warmth: Proactively declares affection 'I like you 😊' unprompted - shows consistent pattern of expressing warm feelings toward partner"
     ]
   },
   "communication_style": {
@@ -97,7 +99,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "emphatic laughter to convey reliability and warmth",
-    "response_speed_tendency": "sends multiple sequential messages in quick succession covering different topics - activity update, interest check, current status, partner check-in",
+    "response_speed_tendency": "sends unprompted affectionate declarations between practical updates - spontaneous emotional expression",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -131,7 +133,8 @@
       "Do you like anime ?",
       "I went to the gym after",
       "now in drinking tea",
-      "Did you sleep well?"
+      "Did you sleep well?",
+      "I like you"
     ]
   },
   "topic_engagement": {
@@ -216,20 +219,10 @@
     "language_immersion_methods": 8.5,
     "bedtime_announcements": 7.2,
     "maintaining_connection_before_sleep": 7.8,
-    "partner_wellbeing_wishes": 7.5,
-    "proactive_day_wishes": 7.8
+    "expressing_affection_unprompted": 9.4,
+    "direct_emotional_declarations_initiated_by_her": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "combining_multiple_compliment_types",
-      "engagement_boost": 2.5,
-      "evidence": "'You're so beautiful and cute baby' uses both physical attractiveness ('beautiful') and personality warmth ('cute') - multidimensional appreciation rather than single-aspect compliment"
-    },
-    {
-      "pattern": "maintaining_white_heart_for_tender_compliments",
-      "engagement_boost": 2.3,
-      "evidence": "Uses 🤍 with compliment about her beauty/cuteness - continues established pattern of white heart for soft appreciative moments, maintains consistency in emoji emotional vocabulary"
-    },
     {
       "pattern": "validating_social_media_boundary_decisions",
       "engagement_boost": 2.7,
@@ -319,6 +312,16 @@
       "pattern": "reciprocating_questions_about_her_interests",
       "engagement_boost": 2.6,
       "evidence": "After answering her anime question, user asks 'Do you watch a lot?' - shows genuine curiosity about her interests even when not personally invested in topic"
+    },
+    {
+      "pattern": "creating_emotional_safety_for_spontaneous_declarations",
+      "engagement_boost": 3.4,
+      "evidence": "Laura initiates unprompted 'I like you 😊' after recent pattern of user validating her gym commitment, maintaining gentle accountability, and showing interest in her topics - suggests accumulated emotional safety enables spontaneous affection expression"
+    },
+    {
+      "pattern": "consistent_affectionate_validation_builds_initiation",
+      "engagement_boost": 3.2,
+      "evidence": "User's recent messages included validation ('that's good baby 🤍'), honest engagement with her topics, and reciprocal curiosity - this consistent warmth appears to encourage Laura to initiate emotional declarations rather than only responding to them"
     }
   ],
   "avoid_patterns": [
