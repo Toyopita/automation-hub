@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:57:20.917279+09:00",
+  "last_updated": "2026-02-12T08:58:02.783769+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -78,7 +78,9 @@
       "initiates explicit sexual scenarios involving oral and riding position preferences",
       "uses French spelling for some English words ('vidéos' instead of 'videos')",
       "interested in breast play/titty fucking",
-      "asks about partner's location/availability during intimate moments"
+      "asks about partner's location/availability during intimate moments",
+      "questions partner's actions/decisions (asked why partner shared Line app)",
+      "uses French language influence in English (uses 'vidéos' instead of 'videos')"
     ]
   },
   "personality": {
@@ -365,29 +367,21 @@
     "visual_sexual_scenarios": 9.4,
     "explicit_body_part_focused_scenarios": 9.3,
     "line_app_sharing": 6.8,
-    "questioning_partner_actions": 7.2
+    "questioning_partner_actions": 7.2,
+    "oral_sex_giving_detailed_scenarios": 9.7,
+    "riding_after_oral_sequence": 9.6,
+    "describing_wetness_caused_by_her_actions": 9.5,
+    "video_content_sharing_announcement": 9.5,
+    "partner_location_during_intimate_moments": 8.3,
+    "checking_partner_home_status": 8.1,
+    "breast_focused_sexual_scenarios": 9.6,
+    "titty_fucking_explicit": 9.5,
+    "questioning_partner_line_sharing": 6.5,
+    "reacting_to_partner_actions_with_laughter": 7.8,
+    "responding_to_visual_requests_with_continued_initiative": 9.4,
+    "multiple_sexual_scenarios_in_sequence": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "pause_signals_revealing_deeper_desire",
-      "engagement_boost": 5.0,
-      "evidence": "Laura's 'Stop 🥺' followed by explanation shows her boundary was frustration-based not discomfort-based - she then initiated even more explicit sexual content, indicating the pause was about processing intensity not ending engagement"
-    },
-    {
-      "pattern": "detailed_sensory_foreplay_descriptions",
-      "engagement_boost": 4.2,
-      "evidence": "User's detailed description of light touches, teasing, and oral attention follows her explicit position desire - providing detailed sensory buildup scenarios aligns with her stated preference for 'previous game before having sex'"
-    },
-    {
-      "pattern": "focusing_on_her_pleasure_and_arousal",
-      "engagement_boost": 4.3,
-      "evidence": "User's description centers entirely on building her arousal ('not touching your pussy no matter how much you want it', 'until you're soaking wet', 'lick all that wetness') - prioritizing her pleasure and arousal state aligns with foreplay preference pattern"
-    },
-    {
-      "pattern": "teasing_and_delayed_gratification_themes",
-      "engagement_boost": 4.1,
-      "evidence": "'not touching your pussy no matter how much you want it' and 'Just slow touches over your lingerie' emphasizes buildup and teasing - creates anticipation matching her preference for extended foreplay/buildup"
-    },
     {
       "pattern": "validating_her_explicit_position_preference",
       "engagement_boost": 4.4,
@@ -467,6 +461,26 @@
       "pattern": "maintaining_hot_emoji_consistency_for_intense_desire",
       "engagement_boost": 4.2,
       "evidence": "Laura consistently uses 🥵 emoji for high-intensity sexual desire statements across multiple messages - recognizing this emoji as her signal for peak arousal/desire allows appropriate matching of intensity"
+    },
+    {
+      "pattern": "explicit_visual_requests_maintaining_sexual_atmosphere",
+      "engagement_boost": 4.8,
+      "evidence": "After user's explicit request for visual content 'I wanna see that dripping pussy so bad... and your beautiful ass baby 😏', Laura had just sent multiple sexual scenario proposals - user's explicit visual desire statement maintains sexual energy and validates her initiative"
+    },
+    {
+      "pattern": "matching_her_explicit_language_level",
+      "engagement_boost": 4.6,
+      "evidence": "User uses explicit anatomical language 'dripping pussy' and 'ass' matching Laura's established comfort with explicit terms like 'Dick between my boobs' - language matching maintains consistency of sexual atmosphere"
+    },
+    {
+      "pattern": "appreciating_multiple_body_parts_in_visual_requests",
+      "engagement_boost": 4.4,
+      "evidence": "User requests both pussy and ass view, while Laura had just proposed breast play - showing interest in multiple aspects of her body rather than fixating on single area appears to align with her diverse sexual scenario proposals"
+    },
+    {
+      "pattern": "allowing_space_between_her_rapid_fire_scenarios",
+      "engagement_boost": 5.0,
+      "evidence": "Laura sent 5 messages in sequence covering oral-to-riding scenario, video announcement, location check, breast play proposal, and Line question - user appears to have given her space to fully express multiple thoughts before responding, enabling her sexual narrative control"
     }
   ],
   "avoid_patterns": [
