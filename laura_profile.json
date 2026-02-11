@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:58:43.479402+09:00",
+  "last_updated": "2026-02-12T00:59:31.380050+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -82,7 +82,8 @@
       "is impossible",
       "I think is impossible haha",
       "Baby Im working",
-      "You like me how?"
+      "You like me how?",
+      "Oww"
     ]
   },
   "topic_engagement": {
@@ -121,21 +122,6 @@
     "receiving_romantic_gestures": 8.7
   },
   "effective_patterns": [
-    {
-      "pattern": "playful_callback_to_previous_intimate_moment",
-      "engagement_boost": 1.5,
-      "evidence": "The laughing tone 'Haha' combined with personal question 'did you taste it?' shows comfort revisiting intimate topics with lighthearted curiosity"
-    },
-    {
-      "pattern": "sharing_explicit_personal_intimate_details",
-      "engagement_boost": 1.7,
-      "evidence": "User revealed explicit sexual practice ('I always end up finishing') - Laura had initiated playful callback with 'Haha did you taste it?' showing she's comfortable exploring these topics with curiosity and humor"
-    },
-    {
-      "pattern": "responding_honestly_to_intimate_questions",
-      "engagement_boost": 1.6,
-      "evidence": "Laura asked playful question about intimate experience and user responded directly - this creates mutual comfort with explicit sexual communication"
-    },
     {
       "pattern": "treating_intimate_topics_with_lighthearted_curiosity",
       "engagement_boost": 1.8,
@@ -220,6 +206,21 @@
       "pattern": "consistent_white_heart_usage_for_pure_affection",
       "engagement_boost": 1.5,
       "evidence": "User again uses 🤍 white heart when expressing romantic/tender feelings (wanting to hold her), creating consistent symbolic language for non-sexual affection"
+    },
+    {
+      "pattern": "expressing_desire_to_hold_partner",
+      "engagement_boost": 1.8,
+      "evidence": "After user said 'The way that makes me wanna hold you haha 🤍', Laura responded with 'Oww' - an affectionate exclamation showing she was touched by the romantic gesture"
+    },
+    {
+      "pattern": "clarifying_romantic_physical_affection",
+      "engagement_boost": 1.9,
+      "evidence": "User's response about wanting to hold her (rather than just sexual interest) elicited warm 'Oww' reaction - shows she values romantic/tender expressions of affection"
+    },
+    {
+      "pattern": "responding_specifically_to_skeptical_testing",
+      "engagement_boost": 2.0,
+      "evidence": "Laura's skeptical 'You like me how? 🙄' was answered with specific romantic gesture ('wanna hold you'), which resulted in touched 'Oww' response - shows that passing her sincerity tests with concrete tender answers creates strong positive emotional response"
     }
   ],
   "avoid_patterns": [
