@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:55:46.007990+09:00",
+  "last_updated": "2026-02-12T08:56:54.674690+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -77,7 +77,8 @@
       "takes initiative to send intimate content (videos) without prompt during sexually charged moments",
       "initiates explicit sexual scenarios involving oral and riding position preferences",
       "uses French spelling for some English words ('vidéos' instead of 'videos')",
-      "interested in breast play/titty fucking"
+      "interested in breast play/titty fucking",
+      "asks about partner's location/availability during intimate moments"
     ]
   },
   "personality": {
@@ -88,8 +89,6 @@
     "confidence": 10,
     "warmth": 9,
     "observations": [
-      "warmth: Uses kissing emoji 😚 for goodnight (more intimate than previous 😊), responds to partner's sexual desire statement with emphatic elongated affection 'You are sooooo cuuuuuuute' - maintains warmth even when topic shifts to explicit sexual content",
-      "emotional_expressiveness: Uses flushed/embarrassed emoji 😳 in response to explicit sexual desire statement about playing with her nipples - shows comfort expressing emotional reactions to sexual content with single expressive emoji rather than verbal response",
       "emotional_expressiveness: Explicitly states arousal 'you turn me on 🫣' in response to partner's communication - directly verbalizes sexual feelings rather than just emoji reactions, shows continued comfort with open sexual expression",
       "warmth: Frames arousal as response to partner's words ('When you talk to me like This') - validates partner's communication style by connecting it to her desire, maintains warm affirming tone even with explicit sexual content",
       "emotional_expressiveness: Initiates explicit sexual request sequence unprompted: polite setup 'Can you do something for me Please' followed by direct intense desire statement 'I want you to fuck me so hard baby 🥵' - shows comfort escalating from request to explicit sexual expression rapidly",
@@ -107,12 +106,14 @@
       "confidence: Initiates explicit sexual scenarios with specific sequence details ('I want to lick you then sit on you when is all wet from me') - shows maximum sexual confidence and comfort leading intimate scenarios, describing her own arousal and actions (upgrade from 9)",
       "emotional_expressiveness: Multiple crying emojis 😭😭😭😭 expressing intense frustration about distance, followed by explicit sexual scenario initiation and teasing question 'Do you know what i want' - shows maximum comfort expressing intense emotional distress and sexual desire simultaneously without filtering",
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
+      "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
+      "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief (8-10 words)",
-    "emoji_frequency": "high during explicit sexual content (1 per message)",
+    "avg_message_length": "brief to moderate (5-15 words per message)",
+    "emoji_frequency": "high during explicit sexual content (1 per sexually explicit message)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -131,7 +132,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
-    "response_speed_tendency": "continues explicit sexual conversation flow",
+    "response_speed_tendency": "rapid multi-message sending during sexually charged moments",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
