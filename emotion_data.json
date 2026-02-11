@@ -12160,6 +12160,57 @@
         "future": -3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T01:17:41.218855+09:00",
+      "summary": "Yes à lot, so i dont think im posting stories in a while ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "Instagramから少し距離を置く意思を伝えている。彼のために写真を送ると約束した後の補足説明",
+      "trigger": {
+        "message": "He's got good taste haha You're so beautiful and cute baby 🤍",
+        "sent_at": "2026-02-12T01:16:51.921617+09:00",
+        "category": "praise",
+        "modifiers": [
+          "+callback",
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -4,
+        "future": 4,
+        "engagement": 0
+      }
     }
   ]
 }
