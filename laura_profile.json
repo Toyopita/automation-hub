@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:08:07.709046+09:00",
+  "last_updated": "2026-02-12T01:10:36.632797+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -33,7 +33,8 @@
       "currently working during this conversation time",
       "comfortable with explicit sexual communication in established relationship",
       "experiences interruptions to intimate conversations due to work",
-      "works during late evening/night hours (working around midnight JST)"
+      "works during late evening/night hours (working around midnight JST)",
+      "doesn't want to post Instagram stories (currently avoiding social media posting)"
     ]
   },
   "personality": {
@@ -91,7 +92,8 @@
       "Oww",
       "Me too",
       "Thats Lovely really",
-      "kinda miss that haha"
+      "kinda miss that haha",
+      "I dont want to post stories"
     ]
   },
   "topic_engagement": {
@@ -136,11 +138,12 @@
     "expressing_mutual_romantic_desire": 9.3,
     "reciprocating_emotional_vulnerability": 9.2,
     "direct_sexual_preference_questions": 7.2,
-    "instagram_stories": 7.5,
+    "instagram_stories": 6.2,
     "partner_daily_activities": 7.8,
     "gym_routine": 7.2,
     "maintaining_visual_connection": 8.1,
-    "noticing_partner_absence": 8.3
+    "noticing_partner_absence": 8.3,
+    "social_media_posting": 3.8
   },
   "effective_patterns": [
     {
@@ -264,6 +267,16 @@
       "pattern": "not_allowing_romantic_peak_to_settle",
       "engagement_drop": -1.6,
       "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
+    },
+    {
+      "pattern": "asking_about_instagram_stories_when_avoiding_posting",
+      "engagement_drop": -1.5,
+      "evidence": "User mentioned 'kinda miss that haha' about not seeing her stories, Laura responds with clear statement 'I dont want to post stories' - indicates she's intentionally not posting and discussing it may feel like pressure"
+    },
+    {
+      "pattern": "expressing_missing_her_social_media_activity",
+      "engagement_drop": -1.3,
+      "evidence": "User's 'kinda miss that haha' about her stories met with firm boundary statement 'I dont want to post stories' - she's clarifying she doesn't want to post rather than explaining why she hasn't, suggesting the topic itself is unwelcome"
     }
   ],
   "ng_topics": [],
