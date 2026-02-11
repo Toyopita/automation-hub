@@ -13716,6 +13716,57 @@
         "future": 5,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:51:12.234789+09:00",
+      "summary": "😭😭😭😭",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "3回リトライ失敗: translation was empty or same as original",
+      "trigger": {
+        "message": "I'd lick your pussy until I've had enough baby, then give your clit all my attention 🤤🤍",
+        "sent_at": "2026-02-12T08:50:58.157820+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+sensory"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -4,
+        "longing": -5,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": 2,
+        "future": -1,
+        "engagement": -5
+      }
     }
   ]
 }
