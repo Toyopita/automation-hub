@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:34:46.392313+09:00",
+  "last_updated": "2026-02-12T08:36:01.203845+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -49,7 +49,8 @@
       "planning to avoid posting Instagram stories for extended period due to distraction concerns",
       "goes to gym after work (late evening/night, not before 1am)",
       "interested in whether partner likes anime",
-      "uses Japanese listening practice to get accustomed to the language"
+      "uses Japanese listening practice to get accustomed to the language",
+      "announces bedtime to partner before sleeping"
     ]
   },
   "personality": {
@@ -212,7 +213,9 @@
     "tea_drinking": 6.5,
     "sharing_bedtime_routine": 7.6,
     "japanese_listening_practice": 8.3,
-    "language_immersion_methods": 8.5
+    "language_immersion_methods": 8.5,
+    "bedtime_announcements": 7.2,
+    "maintaining_connection_before_sleep": 7.8
   },
   "effective_patterns": [
     {
