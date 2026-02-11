@@ -420,6 +420,37 @@
         "playfulness": 1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-11T22:36:16.356968+09:00",
+      "summary": "I don't have a bf, and the guys here are strict fo",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 4,
+        "playfulness": 4,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "恋愛状況を自発的に共有。オープンで適度な距離感。",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 0,
+        "playfulness": -3,
+        "engagement": 1
+      }
     }
   ]
 }
