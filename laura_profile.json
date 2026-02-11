@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T00:42:52.155657+09:00",
+  "last_updated": "2026-02-12T00:45:27.042921+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -32,7 +32,8 @@
       "watches linguistic content on YouTube",
       "currently working during this conversation time",
       "comfortable with explicit sexual communication in established relationship",
-      "experiences interruptions to intimate conversations due to work"
+      "experiences interruptions to intimate conversations due to work",
+      "works during late evening/night hours (working around midnight JST)"
     ]
   },
   "personality": {
@@ -61,7 +62,7 @@
     ],
     "formality_level": "very casual",
     "humor_style": "self-deprecating humor about abilities - laughs at perceived impossibility of challenging tasks",
-    "response_speed_tendency": "returns to intimate conversations after work interruptions - maintains mental engagement with conversation thread even when paused",
+    "response_speed_tendency": "maintains mental engagement with conversation threads even during work - returns to previous intimate topics after interruptions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -79,7 +80,8 @@
       "all the Time",
       "did you taste it",
       "is impossible",
-      "I think is impossible haha"
+      "I think is impossible haha",
+      "Baby Im working"
     ]
   },
   "topic_engagement": {
@@ -105,19 +107,11 @@
     "discussing_intimate_practices": 8.5,
     "shared_sexual_experiences": 8.6,
     "shared_sexual_humor": 8.3,
-    "mutual_laughter_about_intimate_topics": 8.5
+    "mutual_laughter_about_intimate_topics": 8.5,
+    "partner_sleep_schedule": 7.5,
+    "time_awareness_in_relationship": 7.8
   },
   "effective_patterns": [
-    {
-      "pattern": "escalating_to_intimate_content",
-      "engagement_boost": 1.8,
-      "evidence": "User shared intimate video content - Laura responds with multiple surprised emojis '😳😳' and enthusiastic 'I love it', showing positive reception to escalation of intimacy"
-    },
-    {
-      "pattern": "showing_consideration_during_busy_periods",
-      "engagement_boost": 1.1,
-      "evidence": "Laura apologizes for being at work and asks 'Is too late there?' - showing she appreciates partner considering her schedule and wants to ensure she's not disrupting his"
-    },
     {
       "pattern": "sharing_visual_content",
       "engagement_boost": 1.6,
@@ -207,6 +201,16 @@
       "pattern": "finding_humor_in_sexual_extremes",
       "engagement_boost": 1.5,
       "evidence": "Laura's reaction 'I think is impossible haha' to explicit sexual practice shows she processes intense intimate information with humor rather than judgment, and user matching with laughter maintains comfortable dynamic"
+    },
+    {
+      "pattern": "providing_time_context_during_intimate_moments",
+      "engagement_boost": 1.4,
+      "evidence": "User shares 'It's getting late, almost 1am here' after Laura had to pause for work - provides context that shows consideration for the interrupted conversation timing"
+    },
+    {
+      "pattern": "acknowledging_delayed_message_awareness",
+      "engagement_boost": 1.3,
+      "evidence": "User says 'Oh I just noticed your message haha' showing he respects her work interruption wasn't taken personally and he's catching up naturally"
     }
   ],
   "avoid_patterns": [
