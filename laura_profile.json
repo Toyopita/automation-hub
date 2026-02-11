@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:17:56.024130+09:00",
+  "last_updated": "2026-02-12T08:29:22.532954+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -83,7 +83,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "shares amusing real-life anecdotes with self-aware lightheartedness, uses laughing emojis to frame unexpected social interactions as funny rather than uncomfortable",
-    "response_speed_tendency": "rapid sequential responses when discussing plans and daily activities (4 messages in quick succession about pictures, gym, Instagram, then bank errand)",
+    "response_speed_tendency": "rapid sequential responses when sharing updates (4 messages in quick succession about gym, Instagram, pictures, bank), then gap before responding to morning greeting with picture request",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -177,34 +177,12 @@
     "deleting_social_media": 8.2,
     "real_life_vs_digital_balance": 8.7,
     "instagram_story_posting_decisions": 8.8,
-    "long_term_social_media_boundaries": 8.6
+    "long_term_social_media_boundaries": 8.6,
+    "picture_requests": 7.5,
+    "morning_greetings": 7.0,
+    "accountability_on_promises": 6.5
   },
   "effective_patterns": [
-    {
-      "pattern": "maintaining_affectionate_address_in_vulnerable_statements",
-      "engagement_boost": 2.5,
-      "evidence": "Includes 'baby' in 'I wanna see you baby' - keeps intimate term of endearment even when expressing vulnerable desire and emotional need"
-    },
-    {
-      "pattern": "framing_wanting_to_see_her_as_emotional_need",
-      "engagement_boost": 2.9,
-      "evidence": "User connects visual desire to emotional wellbeing: 'I wanna see you' → 'you always make me feel better' - positions seeing her as form of emotional comfort rather than just physical attraction"
-    },
-    {
-      "pattern": "validating_her_positive_impact_consistently",
-      "engagement_boost": 2.7,
-      "evidence": "'you always make me feel better' uses 'always' to emphasize consistent positive effect she has - acknowledges pattern of emotional support and comfort she provides"
-    },
-    {
-      "pattern": "accepting_picture_offer_with_gratitude_framing",
-      "engagement_boost": 2.6,
-      "evidence": "After Laura offers to send pictures, user responds with statement that implicitly accepts while expressing why it matters ('make me feel better') - shows appreciation for her willingness rather than just taking offer"
-    },
-    {
-      "pattern": "asking_about_sexual_preferences_after_romantic_moment_settled",
-      "engagement_boost": 2.1,
-      "evidence": "Previous conversation showed user asking about sexual preferences immediately after romantic peak caused no response; this time Laura answers 'I like the previous game before having sex haha' - allowing transition time between emotional contexts improves engagement"
-    },
     {
       "pattern": "responding_to_foreplay_preference_with_emotional_validation",
       "engagement_boost": 2.4,
@@ -279,6 +257,31 @@
       "pattern": "creating_space_for_autonomous_decisions",
       "engagement_boost": 2.5,
       "evidence": "Laura makes clear autonomous decision about Instagram story boundaries ('so i dont think im posting stories in a while') - suggests user's non-pressuring approach allows her to make and communicate her own choices about social media use"
+    },
+    {
+      "pattern": "referencing_her_stated_decisions_with_understanding",
+      "engagement_boost": 2.2,
+      "evidence": "User acknowledges her Instagram story boundary decision with 'I know you're not posting stories anymore' - shows he listened and respects her autonomous choice about social media"
+    },
+    {
+      "pattern": "gentle_accountability_on_promises",
+      "engagement_boost": 2.4,
+      "evidence": "'send me your pictures like you promised 🤍' reminds of her commitment ('I take pictures and send you later baby') in affectionate way with white heart - holds her to stated intention without pressure"
+    },
+    {
+      "pattern": "separating_social_media_boundaries_from_private_sharing",
+      "engagement_boost": 2.5,
+      "evidence": "User explicitly acknowledges she's not posting stories publicly while still requesting private pictures - shows understanding that her Instagram boundary doesn't mean reduced visual connection with him personally"
+    },
+    {
+      "pattern": "maintaining_morning_greeting_ritual",
+      "engagement_boost": 2.0,
+      "evidence": "'good morning baby 🙂' continues established greeting pattern - maintains relationship consistency and affectionate framing"
+    },
+    {
+      "pattern": "using_white_heart_for_picture_requests",
+      "engagement_boost": 2.3,
+      "evidence": "Includes 🤍 with picture reminder - frames request as tender emotional connection rather than demand, consistent with established white heart usage for soft appreciative moments"
     }
   ],
   "avoid_patterns": [
