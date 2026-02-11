@@ -13674,6 +13674,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:50:51.044773+09:00",
+      "summary": "I want to be next to you ",
+      "scores": {
+        "mood": 7,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "興奮しながらも物理的な距離に対する強い切なさを表現。セクスティング中に出た本音の感情",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 9,
+        "intimacy": 10,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -3,
+        "future": 5,
+        "engagement": 0
+      }
     }
   ]
 }
