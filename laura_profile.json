@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "name": "Laura",
+  "last_updated": "2026-02-11T23:57:01.738781+09:00",
+  "facts": {
+    "age": null,
+    "location": null,
+    "occupation": null,
+    "hobbies": [
+      "reads Japanese books"
+    ],
+    "family": [],
+    "languages": [],
+    "favorites": {
+      "food": [],
+      "music": [],
+      "movies": [],
+      "activities": []
+    },
+    "schedule": {
+      "typical_active_hours": [],
+      "work_schedule": null,
+      "timezone_confirmed": false
+    },
+    "important_dates": [],
+    "misc_facts": [
+      "learning Japanese (currently paused)",
+      "currently experiencing high workload",
+      "sleeps early",
+      "uses Instagram but wants to delete account",
+      "finds Japanese very difficult",
+      "watches linguistic content on YouTube"
+    ]
+  },
+  "personality": {
+    "introversion": 5,
+    "emotional_expressiveness": 8,
+    "humor_appreciation": 5,
+    "adventurousness": 5,
+    "confidence": 5,
+    "warmth": 8,
+    "observations": [
+      "warmth: Uses affectionate term 'baby' as greeting",
+      "emotional_expressiveness: Comfortable expressing affection directly in opening message",
+      "emotional_expressiveness: Uses pleading emoji (🥺) to express feeling overwhelmed about work situation"
+    ]
+  },
+  "communication_style": {
+    "avg_message_length": "short (1 sentence, 5-10 words)",
+    "emoji_frequency": "moderate to high (multiple emojis when expressing strong emotion)",
+    "preferred_emojis": [
+      "🥺",
+      "🙄",
+      "😆"
+    ],
+    "formality_level": "very casual",
+    "humor_style": "light emoji-based expression of frustration (uses 🙄 for exasperation)",
+    "response_speed_tendency": "very fast when surprised or intrigued (immediate responses when expressing disbelief or amusement)",
+    "response_time_avg_minutes": null,
+    "active_hours": [],
+    "conversation_starters_used": [],
+    "vocabulary_level": "unknown",
+    "grammar_patterns": [
+      "baby",
+      "super hard",
+      "No way"
+    ]
+  },
+  "topic_engagement": {
+    "language_learning": 8.1,
+    "work": 5,
+    "sleep_schedule": 6,
+    "social_media": 6,
+    "linguistics": 7.9,
+    "language_learning_methods": 8.5,
+    "dating_advice": 7.9
+  },
+  "effective_patterns": [
+    {
+      "pattern": "acknowledging_workload_empathetically",
+      "engagement_boost": 1.0,
+      "evidence": "User responded 'Yeah you've been working so much' which validated her stressed state about work and Japanese pause"
+    },
+    {
+      "pattern": "matching_affectionate_tone",
+      "engagement_boost": 1.0,
+      "evidence": "User mirrored her 'baby' greeting and added affectionate emoji 🤍"
+    },
+    {
+      "pattern": "lightening_pressure_with_humor",
+      "engagement_boost": 0.8,
+      "evidence": "User said 'Japanese is hard anyway haha' to reduce guilt about pausing studies"
+    },
+    {
+      "pattern": "validating_difficulty_of_challenges",
+      "engagement_boost": 0.9,
+      "evidence": "User previously said 'Japanese is hard anyway haha' and she continues discussing the difficulty, showing openness to having her struggles validated"
+    },
+    {
+      "pattern": "normalizing_difficulty_without_dismissing",
+      "engagement_boost": 1.1,
+      "evidence": "User said 'Even native speakers like me struggle with it sometimes' - this validates her struggle by showing even natives find Japanese hard, continuing the conversation naturally"
+    },
+    {
+      "pattern": "sharing_personal_struggle_with_same_topic",
+      "engagement_boost": 0.9,
+      "evidence": "User revealed being a native Japanese speaker who also struggles, creating relatability and reducing pressure on Laura's learning challenges"
+    },
+    {
+      "pattern": "sharing_personal_vulnerability_about_same_struggle",
+      "engagement_boost": 1.2,
+      "evidence": "After user revealed struggling with Japanese as a native speaker, Laura immediately asks 'Is it hard for you?' showing she's engaged and wants to explore this shared difficulty further"
+    },
+    {
+      "pattern": "revealing_unexpected_depth_on_shared_topic",
+      "engagement_boost": 1.5,
+      "evidence": "User mentioned reading Japanese books and watching linguist videos - Laura immediately responds with 'Really?' and asks follow-up question, showing heightened interest when discovering shared topic has more depth than expected"
+    },
+    {
+      "pattern": "intellectualizing_shared_struggle",
+      "engagement_boost": 1.3,
+      "evidence": "Instead of just commiserating about Japanese being hard, user elevated conversation to discuss linguistic study - Laura's immediate curious response ('Is it hard for you?') suggests engagement increases when conversations add intellectual dimension"
+    },
+    {
+      "pattern": "revealing_counter_intuitive_personal_facts",
+      "engagement_boost": 1.8,
+      "evidence": "User revealed being a native Japanese speaker who also struggles with Japanese and watches linguistic content - Laura responds with strong disbelief 'No way', indicating high surprise and continued interest in this unexpected revelation"
+    },
+    {
+      "pattern": "building_on_surprising_revelations",
+      "engagement_boost": 1.4,
+      "evidence": "After user revealed counter-intuitive fact about being native Japanese speaker who struggles, Laura responds with multiple laughing emojis showing strong positive engagement with the unexpected nature of the revelation"
+    },
+    {
+      "pattern": "humorous_unconventional_advice",
+      "engagement_boost": 1.6,
+      "evidence": "User suggested getting a Japanese boyfriend to learn language - Laura's reaction shows amusement and strong engagement with playful/unexpected suggestions"
+    },
+    {
+      "pattern": "reframing_struggle_as_opportunity",
+      "engagement_boost": 1.4,
+      "evidence": "User turned conversation about language difficulty into lighthearted dating advice, which elicited positive emotional response (repeated laughing emojis)"
+    },
+    {
+      "pattern": "introducing_romantic_angle_playfully",
+      "engagement_boost": 1.5,
+      "evidence": "Suggestion about getting a native-speaking boyfriend triggered strong positive reaction with multiple laughing emojis and expressions of disbelief ('No way'), indicating comfort with romantic topics introduced humorously"
+    },
+    {
+      "pattern": "continuing_playful_romantic_topic",
+      "engagement_boost": 1.3,
+      "evidence": "User continued the Japanese boyfriend suggestion with 'You think??' - Laura's immediate 'You think ??' response shows she's staying engaged with the playful romantic angle and possibly considering it or playing along"
+    }
+  ],
+  "avoid_patterns": [],
+  "ng_topics": [],
+  "temporal_patterns": {
+    "most_active_day": null,
+    "most_active_hour": null,
+    "avg_conversation_length_messages": null,
+    "initiates_ratio": null
+  }
+}
