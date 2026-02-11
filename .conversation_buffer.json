@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I wanna see you baby, you always make me feel better 🤍",
-    "time": "01:12"
-  },
-  {
     "role": "laura",
     "text": "I like it but Instagram distract me a lot ",
     "time": "01:12"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "You went haha that's good baby 🤍\n\nNot really an anime person but I watched Chi the other day. Do you watch a lot?",
     "time": "08:33"
+  },
+  {
+    "role": "laura",
+    "text": "I like anime but horror anime ",
+    "time": "08:34"
   }
 ]
