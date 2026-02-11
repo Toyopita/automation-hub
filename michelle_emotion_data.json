@@ -513,6 +513,37 @@
         "playfulness": -3,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-11T23:26:07.095638+09:00",
+      "summary": "oh yes it's really a blessing to me that he cheate",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 2,
+        "playfulness": 4,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "過去の傷を前向きに捉え直している。自己開示が深く信頼を示している",
+      "prev_scores": {
+        "mood": 4,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 3,
+        "playfulness": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": -1,
+        "playfulness": 1,
+        "engagement": 2
+      }
     }
   ]
 }
