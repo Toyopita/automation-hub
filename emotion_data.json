@@ -13021,6 +13021,57 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:39:50.287498+09:00",
+      "summary": "Me too 🥹",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「一緒に横になりたい」に対する共感の返答。絵文字で切なさを表現している",
+      "trigger": {
+        "message": "I wanna lay down with you so bad 🥺🤍",
+        "sent_at": "2026-02-12T08:39:20.472085+09:00",
+        "category": "sensory",
+        "modifiers": [
+          "+spontaneous",
+          "+callback"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 3,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -3,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
