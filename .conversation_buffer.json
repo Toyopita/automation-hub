@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I dont know because i like you a lot ",
-    "time": "00:24"
-  },
-  {
-    "role": "laura",
     "text": "But i know you have needs 🙄",
     "time": "00:24"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "You wanna taste it? 😏",
     "time": "13:31"
+  },
+  {
+    "role": "you",
+    "text": "Oh I just thought of something haha You're learning Japanese right?",
+    "time": "15:48"
   }
 ]
