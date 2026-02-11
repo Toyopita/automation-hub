@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T01:12:23.217247+09:00",
+  "last_updated": "2026-02-12T01:12:37.007893+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -37,8 +37,8 @@
       "works during late evening/night hours (working around midnight JST)",
       "willing to share pictures of herself when partner wants to see her",
       "goes to gym later in the day (not morning)",
-      "likes foreplay/build-up before sex (refers to it as 'the previous game')",
-      "doesn't want to post Instagram stories (not just considering deletion, actively avoiding posting)"
+      "likes foreplay/buildup before sex ('previous game before having sex')",
+      "deliberately avoids posting Instagram stories"
     ]
   },
   "personality": {
@@ -56,7 +56,8 @@
       "emotional_expressiveness: Uses vulnerable 🥹 emoji to express being touched by romantic gestures, responds with 'Oww' and 'Thats cute' to tender statements, showing increased comfort with expressing softer emotions",
       "warmth: Validates romantic gestures with 'Thats cute' and responds with 🥹 to expressions of desire for physical closeness, showing appreciation for emotional vulnerability",
       "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection",
-      "warmth: Proactively offers alternative ('If you want to see me i can send you pictures') when explaining she doesn't post stories, showing consideration for partner's desire to see her even while setting boundary about social media"
+      "warmth: Proactively offers to send pictures when partner expresses desire to see her: 'If you want to see me i can send you pictures' - shows attentiveness and care for partner's emotional needs",
+      "emotional_expressiveness: Uses 'haha' to soften vulnerable sexual preference admission 'I like the previous game before having sex haha' - comfortable expressing intimate preferences with light playful tone"
     ]
   },
   "communication_style": {
@@ -72,7 +73,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this message",
-    "response_speed_tendency": "responsive when answering specific questions about daily activities",
+    "response_speed_tendency": "rapid sequential responses when discussing intimate topics and daily activities (4 messages in quick succession)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -152,19 +153,13 @@
     "sharing_pictures_of_herself": 9.0,
     "responding_to_missing_her": 8.8,
     "offering_visual_presence": 9.1,
-    "sexual_foreplay_preferences": 8.9,
-    "sexual_build_up": 9.1,
-    "pre_sex_activities": 8.8,
-    "instagram_story_posting": 4.2,
-    "social_media_boundaries": 6.8,
-    "explaining_social_media_choices": 5.5
+    "sexual_preferences_foreplay": 8.7,
+    "instagram_posting_decisions": 6.8,
+    "alternative_visual_connection_methods": 9.2,
+    "being_told_she_makes_partner_feel_better": 8.9,
+    "emotional_impact_on_partner": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_missing_her_through_instagram_stories",
-      "engagement_boost": 1.8,
-      "evidence": "User says 'kinda miss that haha' about not seeing her stories - frames absence of social media posts as missing her presence, showing attention to her digital activity as connection point"
-    },
     {
       "pattern": "asking_about_specific_routine_activity",
       "engagement_boost": 1.6,
@@ -221,44 +216,49 @@
       "evidence": "User's question about gym indicates he knows she has this routine; Laura confirms with specific timing detail 'later' - questions about known activities demonstrate attentiveness and get informative responses"
     },
     {
-      "pattern": "transitioning_from_explicit_to_general_sexual_preferences",
-      "engagement_boost": 2.1,
-      "evidence": "After asking about domination preferences, Laura responds with 'I like the previous game before having sex haha' - she reframes from specific sexual mechanics to broader preference about foreplay, suggesting she's comfortable discussing general sexual preferences but may prefer less explicit framing"
-    },
-    {
-      "pattern": "asking_about_general_intimacy_preferences",
-      "engagement_boost": 2.2,
-      "evidence": "Laura voluntarily shares 'I like the previous game before having sex haha' - she engages positively when sexual conversation focuses on overall experience/preference rather than specific acts"
-    },
-    {
-      "pattern": "using_playful_euphemisms_for_sexual_topics",
-      "engagement_boost": 1.9,
-      "evidence": "Laura refers to foreplay as 'the previous game' with 'haha' - shows she's comfortable with sexual discussion but prefers lighter, more playful language over clinical or extremely explicit terms"
-    },
-    {
-      "pattern": "offering_alternative_when_setting_boundary",
+      "pattern": "expressing_how_she_affects_you_emotionally",
       "engagement_boost": 2.8,
-      "evidence": "After stating 'I dont want to post stories', Laura immediately offers 'If you want to see me i can send you pictures' - she combines boundary-setting with solution, maintaining connection while establishing limits"
+      "evidence": "User says 'you always make me feel better 🤍' - expresses concrete emotional impact she has on him, framing her presence as source of comfort and wellbeing"
     },
     {
-      "pattern": "validating_partner_needs_while_explaining_boundaries",
+      "pattern": "responding_to_picture_offer_with_emotional_context",
       "engagement_boost": 2.7,
-      "evidence": "'If you want to see me i can send you pictures' acknowledges his desire to see her (which he expressed through missing stories) while explaining her social media boundary - shows emotional intelligence in boundary-setting"
+      "evidence": "Instead of just saying 'yes send pictures', user frames desire to see her in terms of emotional benefit 'make me feel better' - validates that seeing her has meaningful positive impact beyond visual pleasure"
     },
     {
-      "pattern": "asking_about_her_reasoning_for_choices",
-      "engagement_boost": 1.8,
-      "evidence": "User asks 'Why don't you like posting stories baby?' after Laura stated 'I dont want to post stories' - shows genuine curiosity about her perspective rather than just accepting surface statement, demonstrates interest in understanding her"
+      "pattern": "using_white_heart_for_tender_appreciation",
+      "engagement_boost": 2.6,
+      "evidence": "White heart emoji 🤍 used with 'make me feel better' continues established pattern of using this specific emoji for soft, appreciative emotional moments rather than romantic red heart"
     },
     {
-      "pattern": "making_light_observations_about_preferences",
-      "engagement_boost": 1.6,
-      "evidence": "User adds 'I guess Instagram's not your thing haha' - offers interpretation with humor rather than pressing for explanation, gives her easy way to agree or clarify without feeling interrogated"
+      "pattern": "maintaining_affectionate_address_in_vulnerable_statements",
+      "engagement_boost": 2.5,
+      "evidence": "Includes 'baby' in 'I wanna see you baby' - keeps intimate term of endearment even when expressing vulnerable desire and emotional need"
     },
     {
-      "pattern": "following_up_on_boundary_statements_with_curiosity",
-      "engagement_boost": 1.7,
-      "evidence": "After Laura says she doesn't want to post stories, user asks why rather than just accepting or trying to change her mind - shows respect for her choice while wanting to understand her better"
+      "pattern": "framing_wanting_to_see_her_as_emotional_need",
+      "engagement_boost": 2.9,
+      "evidence": "User connects visual desire to emotional wellbeing: 'I wanna see you' → 'you always make me feel better' - positions seeing her as form of emotional comfort rather than just physical attraction"
+    },
+    {
+      "pattern": "validating_her_positive_impact_consistently",
+      "engagement_boost": 2.7,
+      "evidence": "'you always make me feel better' uses 'always' to emphasize consistent positive effect she has - acknowledges pattern of emotional support and comfort she provides"
+    },
+    {
+      "pattern": "accepting_picture_offer_with_gratitude_framing",
+      "engagement_boost": 2.6,
+      "evidence": "After Laura offers to send pictures, user responds with statement that implicitly accepts while expressing why it matters ('make me feel better') - shows appreciation for her willingness rather than just taking offer"
+    },
+    {
+      "pattern": "asking_about_sexual_preferences_after_romantic_moment_settled",
+      "engagement_boost": 2.1,
+      "evidence": "Previous conversation showed user asking about sexual preferences immediately after romantic peak caused no response; this time Laura answers 'I like the previous game before having sex haha' - allowing transition time between emotional contexts improves engagement"
+    },
+    {
+      "pattern": "responding_to_foreplay_preference_with_emotional_validation",
+      "engagement_boost": 2.4,
+      "evidence": "Laura shares sexual preference about liking buildup, user responds with emotional statement about her impact on him - doesn't immediately engage sexually but validates emotional connection, creating safe space for intimate sharing"
     }
   ],
   "avoid_patterns": [
@@ -281,11 +281,6 @@
       "pattern": "not_allowing_romantic_peak_to_settle",
       "engagement_drop": -1.6,
       "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
-    },
-    {
-      "pattern": "asking_specific_domination_preferences_immediately_after_romantic_peak",
-      "engagement_drop": -1.9,
-      "evidence": "User's question 'What kind of vibe do you like before sex baby? Do you wanna be dominated from the start or... 😏' came right after 'Thats Lovely really' romantic moment - Laura's response 'I like the previous game before having sex haha' reframes away from the domination question to general foreplay preference, suggesting she found the specific question too direct or poorly timed"
     }
   ],
   "ng_topics": [],
