@@ -12477,6 +12477,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:32:05.170214+09:00",
+      "summary": "Do you like anime ? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "カジュアルな質問で会話のトピックを変えている。彼の趣味を知りたがっている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 2
+      }
     }
   ]
 }
