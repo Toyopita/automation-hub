@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:32:12.205153+09:00",
+  "last_updated": "2026-02-12T08:32:52.428818+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -44,7 +44,8 @@
       "has deleted Instagram multiple times due to it interfering with real life",
       "goes to the bank for errands",
       "receives compliments from elderly men about her appearance",
-      "planning to avoid posting Instagram stories for extended period due to distraction concerns"
+      "planning to avoid posting Instagram stories for extended period due to distraction concerns",
+      "goes to gym after work (late evening/night, not before 1am)"
     ]
   },
   "personality": {
@@ -69,7 +70,9 @@
       "humor_appreciation: Uses multiple laughing emojis 😂😂😂 to share amusing anecdote about old man compliment - frames unexpected social interaction as funny and lighthearted rather than uncomfortable",
       "warmth: Proactively reassures partner about picture commitment with 'Of course im going to send you pictures ❤️' - uses red heart emoji (escalation from previous white hearts) and 'of course' to emphasize reliability and care",
       "warmth: Emphatic reassurance with 'of course' affirming commitment to sending pictures, maintains consistent use of 'baby' endearment, escalates from white heart to red heart ❤️ in previous message showing deepening emotional warmth",
-      "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm reliability and commitment - expresses reassurance with enthusiasm rather than just simple confirmation"
+      "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm reliability and commitment - expresses reassurance with enthusiasm rather than just simple confirmation",
+      "warmth: Proactively reassures partner with emphatic 'Of course im going to send you pictures ❤️' using red heart emoji (escalation from white hearts), then double-confirms with enthusiastic laughter 'Baby yes of course 😂😂' - shows she values being reliable and cares about partner's reassurance",
+      "emotional_expressiveness: Uses triple laughing emoji 😂😂 with emphatic 'yes of course' to strongly affirm commitment - expresses reassurance with enthusiasm rather than simple confirmation, escalated from white to red heart ❤️ showing emotional intensification"
     ]
   },
   "communication_style": {
@@ -83,7 +86,8 @@
       "😓",
       "🥹",
       "😂",
-      "❤️"
+      "❤️",
+      "😊"
     ],
     "formality_level": "casual",
     "humor_style": "lighthearted emphasis on reliability - uses laughter to convey enthusiasm about keeping promises",
