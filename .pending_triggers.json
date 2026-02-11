@@ -20,5 +20,13 @@
     "modifiers": [
       "+escalation"
     ]
+  },
+  {
+    "message": "Oh I just thought of something haha You're learning Japanese right?",
+    "sent_at": "2026-02-11T15:48:30.798684+09:00",
+    "category": "daily",
+    "modifiers": [
+      "+spontaneous"
+    ]
   }
 ]
