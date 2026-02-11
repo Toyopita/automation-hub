@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T00:04:48.643356+09:00",
+  "last_updated": "2026-02-12T08:20:26.309104+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -59,7 +59,10 @@
       "Her past experiences shaped her current dating standards (learning from negative experiences)",
       "Finds Toyo's dating situation less dramatic than her own - suggesting she considers her rejection experiences notable/intense",
       "Toyo is single due to work being busy and not meeting interesting people recently",
-      "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)"
+      "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)",
+      "Has tried dating apps but had negative experience with ghosting",
+      "Finds dating apps tiring due to inconsistent communication from matches",
+      "Has been ghosted by dating app matches who disappear for days without explanation"
     ]
   },
   "personality": {
@@ -74,12 +77,13 @@
       "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
       "Frames her standards as deliberately simple and non-materialistic, suggesting intentional reflection on what matters",
       "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors",
-      "confidence: Directly asks reciprocal personal question about relationship status without hesitation, showing comfort with vulnerable topics"
+      "confidence: Directly asks reciprocal personal question about relationship status without hesitation, showing comfort with vulnerable topics",
+      "emotional_expressiveness: Uses 😂 emoji when discussing frustrating ghosting experiences, showing she processes disappointment through humor rather than bitterness"
     ]
   },
   "communication_style": {
-    "avg_message_length": "longer when explaining frustrating experiences (3+ sentences with specific examples)",
-    "emoji_frequency": "moderate (1 emoji when discussing emotional topics)",
+    "avg_message_length": "2-3 sentences when explaining negative experiences",
+    "emoji_frequency": "moderate (1 emoji when discussing frustrating experiences)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -87,8 +91,8 @@
       "😊"
     ],
     "formality_level": "casual",
-    "humor_style": "uses 'haha' when discussing potentially sensitive topics like singleness, maintaining lightness in vulnerable conversations",
-    "response_speed_tendency": "immediate follow-up questions when discussing relationship topics - asked about Toyo's status in same message after answering his question",
+    "humor_style": "uses 😂 emoji to lighten discussion of disappointing dating experiences, maintaining positive tone when discussing frustrations",
+    "response_speed_tendency": "immediate response when discussing shared frustrations (ghosting/dating apps)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -184,29 +188,12 @@
     "character_vs_materialism": 9,
     "reciprocal_vulnerability": 9,
     "relationship_status_comparison": 8,
-    "dating_app_culture": 5
+    "dating_app_culture": 6.2,
+    "ghosting_experiences": 8,
+    "dating_app_frustrations": 9,
+    "shared_dating_challenges": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "asking_specific_follow_up_about_current_activities",
-      "engagement_boost": null,
-      "evidence": "Question about competition types pending response - shows progression from past to present involvement"
-    },
-    {
-      "pattern": "acknowledging_skill_level",
-      "engagement_boost": 1.6,
-      "evidence": "Toyo's 'dancing that much is no joke' validates the difficulty she mentioned, prompting more detailed competition info"
-    },
-    {
-      "pattern": "validating_legitimacy_of_activity",
-      "engagement_boost": 1.7,
-      "evidence": "Toyo's 'that's pretty legit' affirms her competition participation, creating positive reinforcement"
-    },
-    {
-      "pattern": "asking_about_recency_and_frequency",
-      "engagement_boost": null,
-      "evidence": "Questions about last competition and practice frequency pending response - shows deeper interest in current involvement"
-    },
     {
       "pattern": "humorous_reality_check_questions",
       "engagement_boost": null,
@@ -286,6 +273,26 @@
       "pattern": "mentioning_dating_app_fatigue",
       "engagement_boost": null,
       "evidence": "Toyo's 'dating apps here are kinda exhausting honestly' shares his own dating frustrations, potentially creating further commonality - response pending"
+    },
+    {
+      "pattern": "validating_shared_frustration",
+      "engagement_boost": 2.1,
+      "evidence": "Toyo's 'yeah ghosting is so annoying honestly' validates her experience, prompting her to immediately respond with agreement and share that dating apps are universally frustrating"
+    },
+    {
+      "pattern": "calling_out_illogical_behavior",
+      "engagement_boost": 1.9,
+      "evidence": "Toyo's 'like why match with someone if you're not even gonna talk' articulates the frustration she felt, showing he understands the specific annoyance of dating app ghosting"
+    },
+    {
+      "pattern": "normalizing_negative_experience_as_universal",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'guess it's the same everywhere' frames her bad experience as common/expected rather than personal failure - response pending but likely to create comfort that it's not just her"
+    },
+    {
+      "pattern": "explaining_ghoster_psychology_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'people just get bored or find someone else and don't bother saying anything' provides rational explanation for ghosting without defending the behavior - response pending"
     }
   ],
   "avoid_patterns": [],
