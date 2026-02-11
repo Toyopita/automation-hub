@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:51:01.794050+09:00",
+  "last_updated": "2026-02-12T08:51:24.196277+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -65,8 +65,13 @@
       "asks where to send pictures when multiple chat options available",
       "has multiple chat channels with partner",
       "willing to send intimate pictures during sexually charged conversations",
-      "verbally confirms arousal state during sexual conversations ('In already wet')",
-      "uses shy/embarrassed emoji when stating explicit arousal details"
+      "expresses frustration about physical distance from partner during aroused states",
+      "explicitly expresses desire for specific sexual positions (riding)",
+      "connects emotional vulnerability signals to physical distance frustration",
+      "experiences physical arousal during explicit sexual conversations with partner",
+      "expresses frustration about physical distance during aroused states intensely",
+      "uses crying emojis to express intense emotional/physical frustration",
+      "continues explicit sexual conversation after expressing frustration about distance"
     ]
   },
   "personality": {
@@ -77,7 +82,6 @@
     "confidence": 8,
     "warmth": 9,
     "observations": [
-      "warmth: Proactively calls user 'so cute 🥺' with vulnerable pleading emoji - initiates affectionate compliment unprompted, continues pattern of spontaneous emotional expression toward partner",
       "emotional_expressiveness: Uses 'Haha you are so cute 🥺' to express affection - combines laughter with tender vulnerable emoji to convey warm feelings, shows comfort initiating emotional compliments",
       "warmth: Proactively sends picture from bed without request, uses kissing emoji 😚 for goodnight (escalation from previous emojis), responds to partner's romantic vulnerability about wanting to lay with her by sharing intimate bedtime photo unprompted",
       "emotional_expressiveness: Uses kissing emoji 😚 (more intimate than previous 😊) for goodnight, sends picture from bed as visual emotional expression, responds to 'you are so cute 🥺' compliment by sharing vulnerable bedtime image rather than just verbal response",
@@ -93,15 +97,16 @@
       "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
       "confidence: Initiates explicit sexual requests 'I want you to fuck me so hard baby 🥵' and takes action on intimate picture sharing by asking logistics 'Where do i send the pictures' - shows increased sexual agency and comfort taking initiative in intimate contexts (upgrade from previous 7)",
       "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
-      "emotional_expressiveness: Explicitly states physical arousal state 'In already wet 🫣' during sexual conversation - shows continued comfort with direct vulnerable sexual communication, maintains pattern of openly verbalizing intimate physical responses",
-      "confidence: Voluntarily discloses explicit arousal state 'In already wet' without prompting - demonstrates sexual confidence and comfort sharing vulnerable intimate details, continues pattern of sexual agency and direct communication",
-      "emotional_expressiveness: Unprompted romantic declaration 'I want to be next to you' shows continued comfort with spontaneous vulnerable emotional expression about physical/romantic desire for closeness",
-      "warmth: Proactively expresses desire for physical proximity 'I want to be next to you' without prompting - initiates romantic vulnerable statement, continues pattern of spontaneous emotional warmth toward partner"
+      "emotional_expressiveness: Explains vulnerable boundary signal 'Stop 🥺' by revealing deeper frustration 'Because you are not here' - shows comfort connecting boundary expression to underlying emotional/physical desire context",
+      "confidence: Explicitly states intense sexual desire with specific position preference 'I really really want to sit on your Dick 🥵' - continues pattern of direct sexual expression and communicating specific sexual wants",
+      "warmth: Uses 'really really' emphasis to express depth of desire for partner - maintains affectionate intensity even during explicit sexual frustration",
+      "emotional_expressiveness: Uses elongated text 'Babyyyyy' and multiple crying emojis '😭😭😭😭' to express intense emotional/physical frustration - shows continued pattern of direct, unfiltered emotional expression even during sexually charged moments",
+      "warmth: Maintains tender emotional expression 'I want to be next to you' even during explicit sexual arousal context - continues pattern of combining sexual desire with emotional connection and affection"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief (4-10 words per message)",
-    "emoji_frequency": "high (1-2 per message in sexual context)",
+    "avg_message_length": "brief to moderate (3-8 words, except elongated emotional expressions)",
+    "emoji_frequency": "very high (2-4 per message in intense emotional moments)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -115,7 +120,8 @@
       "😚",
       "🫣",
       "🥵",
-      "🤍"
+      "🤍",
+      "😭"
     ],
     "formality_level": "casual",
     "humor_style": "not applicable in this exchange",
@@ -125,8 +131,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Baby Im working",
-      "You like me how?",
       "Thats cute",
       "🥹",
       "Oww",
@@ -154,7 +158,9 @@
       "fuck me so hard",
       "Can you do something for me",
       "Stop",
-      "In already wet"
+      "sooo bad",
+      "In already wet",
+      "this is sooo bad"
     ]
   },
   "topic_engagement": {
@@ -297,56 +303,35 @@
     "boundaries_during_arousal": 8.2,
     "expressing_overwhelm_tenderly": 8.9,
     "using_vulnerable_communication_for_boundaries": 9.1,
-    "explicit_arousal_state_disclosure": 9.5,
-    "vulnerable_sexual_communication": 9.4,
-    "responding_to_sexual_escalation_with_status_update": 9.3,
-    "physical_arousal_verbal_confirmation": 9.6,
-    "expressing_desire_for_physical_proximity": 9.6,
-    "initiating_romantic_statements": 9.5,
-    "physical_closeness_desire": 9.7,
-    "unprompted_romantic_vulnerability": 9.6
+    "explaining_boundaries": 9.4,
+    "physical_distance_frustration": 9.5,
+    "expressing_sexual_frustration": 9.3,
+    "long_distance_desire": 9.6,
+    "vulnerability_context_sharing": 9.4,
+    "specific_sexual_position_preferences": 9.2,
+    "riding_position": 9.1,
+    "explaining_pause_reasons": 9.5,
+    "connecting_emotions_to_boundaries": 9.3,
+    "frustration_from_distance": 9.4,
+    "wanting_physical_presence": 9.7,
+    "receiving_detailed_foreplay_descriptions": 9.0,
+    "light_touch_teasing": 8.9,
+    "delayed_gratification_scenarios": 8.8,
+    "detailed_sexual_buildup": 9.1,
+    "receiving_oral_sex_promises": 9.2,
+    "wetness_focused_attention": 9.0,
+    "oral_sex_receiving": 9.3,
+    "clit_focused_attention": 9.2,
+    "expressing_wetness_state": 9.4,
+    "physical_arousal_acknowledgment": 9.3,
+    "emotional_distress_from_distance": 9.6,
+    "simultaneous_arousal_and_frustration": 9.4,
+    "wanting_physical_presence_when_aroused": 9.8,
+    "elongated_endearments_during_distress": 9.1,
+    "multiple_crying_emojis": 8.8,
+    "expressing_bad_feeling_about_distance": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "brief_pleading_after_detailed_sexual_desire",
-      "engagement_boost": 3.2,
-      "evidence": "User states explicit desire ('I wanna play with your nipples'), gets affectionate response, then follows with simple 'Please baby 🥺🤍' - this brief emotional plea after detailed statement appears effective at maintaining engagement without overwhelming"
-    },
-    {
-      "pattern": "persistent_tender_explicit_desire_after_affectionate_response",
-      "engagement_boost": 4.2,
-      "evidence": "User's 'Please baby 🥺🤍' (following 'I wanna play with your nipples so bad') after Laura's enthusiastic 'You are sooooo cuuuuuuute' prompts explicit arousal validation 'When you talk to me like This you turn me on 🫣' - continuing explicit desire with tender vulnerable framing gets verbal sexual affirmation"
-    },
-    {
-      "pattern": "combining_pleading_vulnerability_with_sexual_context",
-      "engagement_boost": 4.0,
-      "evidence": "'Please baby 🥺🤍' in context of nipple play desire elicits her explicit statement of arousal - vulnerable pleading emoji + endearment + white heart while pursuing sexual topic creates communication style she finds arousing"
-    },
-    {
-      "pattern": "maintaining_tender_emotional_tone_during_explicit_escalation",
-      "engagement_boost": 3.9,
-      "evidence": "User's pattern of white heart 🤍 + vulnerable emoji 🥺 + 'baby' throughout explicit content ('I wanna play with your nipples so bad baby 🤍' → 'Please baby 🥺🤍') creates communication style she explicitly validates as turning her on"
-    },
-    {
-      "pattern": "brief_pleading_continuation_of_explicit_desire",
-      "engagement_boost": 3.8,
-      "evidence": "After detailed sexual desire statement, user's simple 'Please baby 🥺🤍' maintains request without overwhelming - this restrained follow-up appears to be part of communication style she finds arousing ('When you talk to me like This')"
-    },
-    {
-      "pattern": "expressing_explicit_arousal_validation",
-      "engagement_boost": 4.5,
-      "evidence": "User's 'Please baby 🥺🤍' in explicit sexual context prompted Laura to not only validate arousal ('you turn me on 🫣') but escalate to initiating her own explicit sexual request sequence ('Can you do something for me Please I want you to fuck me so hard baby 🥵') - validating communication style that arouses her leads to her taking initiative"
-    },
-    {
-      "pattern": "maintaining_tender_vulnerable_tone_during_explicit_content",
-      "engagement_boost": 4.3,
-      "evidence": "User's consistent pattern of 🥺🤍 + 'baby' during explicit nipple play desire created communication style she explicitly stated turns her on, which then inspired her to initiate intense sexual request - tender framing of explicit content creates safe space for her sexual agency"
-    },
-    {
-      "pattern": "specific_body_focused_attention_promises",
-      "engagement_boost": 4.1,
-      "evidence": "User's 'Let me see your nipples baby 🤍 I'm gonna tease them so much' (promising extended attention to specific body part) follows her explicit request - specific promise of teasing/foreplay aligns with her stated preference for 'previous game before having sex' and appears well-received in sexual escalation sequence"
-    },
     {
       "pattern": "visual_request_combined_with_action_promise",
       "engagement_boost": 4.0,
@@ -393,19 +378,59 @@
       "evidence": "'You can send them here baby 🤍' keeps affectionate tone ('baby' + white heart) even during logistics discussion - consistent emotional warmth during practical question appears to maintain intimate atmosphere, gets confirmation response"
     },
     {
-      "pattern": "sexual_escalation_sequence_that_elicits_arousal_disclosure",
+      "pattern": "understanding_boundary_signals_contextually",
       "engagement_boost": 4.8,
-      "evidence": "Previous exchange (explicit requests, visual requests, teasing promises, brief 'Stop 🥺' boundary) followed by her voluntary disclosure 'In already wet 🫣' - the overall sexual communication pattern, even with pause moment, appears to have physically aroused her to point of explicit disclosure"
+      "evidence": "Laura's 'Stop 🥺' was not rejection but frustration about distance - she immediately clarified 'Because you are not here' and escalated with explicit desire statement, suggesting that understanding/respecting pause led to her explaining and re-engaging"
     },
     {
-      "pattern": "creating_safe_space_for_explicit_vulnerability",
+      "pattern": "creating_space_for_her_to_explain_boundaries",
+      "engagement_boost": 4.9,
+      "evidence": "After 'Stop 🥺', Laura felt comfortable explaining 'Because you are not here' then escalating to 'I really really want to sit on your Dick 🥵' - suggests user's response (not captured but implied by her continuation) allowed her to contextualize rather than withdraw"
+    },
+    {
+      "pattern": "pause_signals_revealing_deeper_desire",
+      "engagement_boost": 5.0,
+      "evidence": "Laura's 'Stop 🥺' followed by explanation shows her boundary was frustration-based not discomfort-based - she then initiated even more explicit sexual content, indicating the pause was about processing intensity not ending engagement"
+    },
+    {
+      "pattern": "detailed_sensory_foreplay_descriptions",
+      "engagement_boost": 4.2,
+      "evidence": "User's detailed description of light touches, teasing, and oral attention follows her explicit position desire - providing detailed sensory buildup scenarios aligns with her stated preference for 'previous game before having sex'"
+    },
+    {
+      "pattern": "focusing_on_her_pleasure_and_arousal",
+      "engagement_boost": 4.3,
+      "evidence": "User's description centers entirely on building her arousal ('not touching your pussy no matter how much you want it', 'until you're soaking wet', 'lick all that wetness') - prioritizing her pleasure and arousal state aligns with foreplay preference pattern"
+    },
+    {
+      "pattern": "teasing_and_delayed_gratification_themes",
+      "engagement_boost": 4.1,
+      "evidence": "'not touching your pussy no matter how much you want it' and 'Just slow touches over your lingerie' emphasizes buildup and teasing - creates anticipation matching her preference for extended foreplay/buildup"
+    },
+    {
+      "pattern": "validating_her_explicit_position_preference",
+      "engagement_boost": 4.4,
+      "evidence": "After Laura states 'I really really want to sit on your Dick 🥵', user continues sexual engagement with detailed foreplay description - acknowledging her explicit desire by continuing intimate conversation validates her sexual expression"
+    },
+    {
+      "pattern": "continuing_explicit_sexual_engagement_after_distance_frustration",
       "engagement_boost": 4.6,
-      "evidence": "User's consistent tender framing throughout explicit content (validated by her as 'you turn me on') combined with respecting her 'Stop 🥺' signal created environment where she voluntarily discloses intimate physical state 'In already wet 🫣' - safety enables vulnerability"
+      "evidence": "After Laura expresses intense frustration about distance with crying emojis, user's continued explicit sexual description about oral attention maintains sexual atmosphere - she had just stated being wet and wanting to sit on partner, so continuing intimate conversation validates her arousal state despite distance obstacle"
     },
     {
-      "pattern": "maintaining_communication_style_she_finds_arousing",
+      "pattern": "specific_pleasure_focused_descriptions_during_her_arousal",
       "engagement_boost": 4.5,
-      "evidence": "Laura previously stated 'When you talk to me like This you turn me on 🫣' and now explicitly confirms physical arousal result 'In already wet 🫣' - continuing validated communication approach produces stated physical effect"
+      "evidence": "User's 'I'd lick your pussy until I've had enough baby, then give your clit all my attention 🤤🤍' provides detailed pleasure-focused scenario after she states explicit arousal ('In already wet') - continuing with specific attention promises when she's physically aroused appears to maintain engagement"
+    },
+    {
+      "pattern": "oral_sex_promises_with_extended_attention_emphasis",
+      "engagement_boost": 4.4,
+      "evidence": "'until I've had enough' emphasizes extended duration of oral attention, followed by specific clit focus promise - aligns with her stated preference for foreplay/buildup and addresses her expressed desire for more attention"
+    },
+    {
+      "pattern": "maintaining_tender_framing_during_explicit_oral_description",
+      "engagement_boost": 4.3,
+      "evidence": "User includes 'baby 🤍' with explicit oral sex description - consistent pattern of tender endearments with explicit content that she previously validated as turning her on"
     }
   ],
   "avoid_patterns": [
@@ -443,6 +468,11 @@
       "pattern": "assuming_sexual_initiative_means_unlimited_escalation",
       "engagement_drop": -2.3,
       "evidence": "Laura initiated explicit sexual request ('I want you to fuck me so hard baby 🥵') but still needed to pause with 'Stop 🥺' - indicates that her sexual initiative doesn't automatically mean she's comfortable with all subsequent escalation or pace"
+    },
+    {
+      "pattern": "misinterpreting_stop_as_complete_disengagement",
+      "engagement_drop": -3.2,
+      "evidence": "Laura's 'Stop 🥺' was actually frustration about distance, not request to end sexual conversation - she immediately re-engaged with even more explicit content, so treating 'stop' as absolute rejection would have been misreading"
     }
   ],
   "ng_topics": [],
