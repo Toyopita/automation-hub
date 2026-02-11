@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:38:02.422229+09:00",
+  "last_updated": "2026-02-12T08:38:52.785619+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -103,13 +103,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "emphatic laughter to convey reliability and warmth",
-    "response_speed_tendency": "multiple rapid messages in sequence when engaged (3+ messages within short window) - sends bedtime announcements as multi-message sequence with affection declarations",
+    "response_speed_tendency": "multiple rapid messages in sequence when engaged (3+ messages within short window) - sends bedtime announcements as multi-message sequence with affection declarations, single message for final sign-off",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I love it",
       "Haha yes?",
       "You want me to look at you all the Time",
       "Im working",
@@ -138,7 +137,8 @@
       "horror anime",
       "makes me used to",
       "makes me used to listen Japanese",
-      "I like all kinds of horror"
+      "I like all kinds of horror",
+      "Good night"
     ]
   },
   "topic_engagement": {
@@ -233,7 +233,9 @@
     "horror_content_general": 8.5,
     "receiving_mutual_affection_declarations": 9.2,
     "watching_shows_together_hypothetically": 8.6,
-    "shared_viewing_experiences": 8.4
+    "shared_viewing_experiences": 8.4,
+    "bedtime_farewells": 7.5,
+    "affectionate_sign_offs": 8.8
   },
   "effective_patterns": [
     {
