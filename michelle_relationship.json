@@ -11,7 +11,7 @@
   "started": "2026-02-11",
   "signals": {
     "positive": {
-      "total_score": 5,
+      "total_score": 9,
       "recent_7d": [
         {
           "signal_type": "positive",
@@ -35,6 +35,22 @@
           "weight": 3,
           "evidence": "High intimacy score: 7",
           "timestamp": "2026-02-11T22:39:39.388673+09:00",
+          "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 9",
+          "timestamp": "2026-02-11T22:48:56.767064+09:00",
+          "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "shares_personal_info",
+          "weight": 3,
+          "evidence": "High intimacy score: 7",
+          "timestamp": "2026-02-11T22:48:56.767064+09:00",
           "date": "2026-02-11"
         }
       ],
@@ -62,6 +78,22 @@
           "evidence": "High intimacy score: 7",
           "timestamp": "2026-02-11T22:39:39.388673+09:00",
           "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 9",
+          "timestamp": "2026-02-11T22:48:56.767064+09:00",
+          "date": "2026-02-11"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "shares_personal_info",
+          "weight": 3,
+          "evidence": "High intimacy score: 7",
+          "timestamp": "2026-02-11T22:48:56.767064+09:00",
+          "date": "2026-02-11"
         }
       ]
     },
@@ -72,8 +104,8 @@
     }
   },
   "transition_readiness": {
-    "days_in_stage": 8,
-    "consecutive_positive_days": 5,
+    "days_in_stage": 9,
+    "consecutive_positive_days": 6,
     "last_risk_event": null,
     "blocked_until": null
   },
@@ -84,7 +116,7 @@
     "balance_score": 0.5
   },
   "topic_history": [],
-  "total_exchanges": 8,
+  "total_exchanges": 9,
   "total_days_active": 0,
   "notes": []
 }
