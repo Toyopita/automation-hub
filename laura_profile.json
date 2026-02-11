@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:34:11.778413+09:00",
+  "last_updated": "2026-02-12T08:34:41.375736+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -48,7 +48,8 @@
       "receives compliments from elderly men about her appearance",
       "planning to avoid posting Instagram stories for extended period due to distraction concerns",
       "goes to gym after work (late evening/night, not before 1am)",
-      "interested in whether partner likes anime"
+      "interested in whether partner likes anime",
+      "likes horror anime"
     ]
   },
   "personality": {
@@ -204,29 +205,15 @@
     "being_held_accountable_affectionately": 9.5,
     "demonstrating_reliability": 9.6,
     "picture_sharing_follow_through": 9.4,
-    "anime": 7.5,
+    "anime": 7.9,
     "partner_sleep_quality": 7.8,
     "morning_check_ins": 8.2,
     "gym_routine_updates": 7.4,
     "tea_drinking": 6.5,
-    "sharing_bedtime_routine": 7.6
+    "sharing_bedtime_routine": 7.6,
+    "horror_anime": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "combining_multiple_compliment_types",
-      "engagement_boost": 2.5,
-      "evidence": "'You're so beautiful and cute baby' uses both physical attractiveness ('beautiful') and personality warmth ('cute') - multidimensional appreciation rather than single-aspect compliment"
-    },
-    {
-      "pattern": "maintaining_white_heart_for_tender_compliments",
-      "engagement_boost": 2.3,
-      "evidence": "Uses 🤍 with compliment about her beauty/cuteness - continues established pattern of white heart for soft appreciative moments, maintains consistency in emoji emotional vocabulary"
-    },
-    {
-      "pattern": "validating_social_media_boundary_decisions",
-      "engagement_boost": 2.7,
-      "evidence": "Laura's previous context showed she finds Instagram distracting and has deleted it multiple times; this statement about not posting stories 'in a while' indicates she's setting longer-term boundaries - user's prior validation ('Yeah I feel you baby' and sharing parallel experience) likely contributed to her comfort making this commitment"
-    },
     {
       "pattern": "creating_space_for_autonomous_decisions",
       "engagement_boost": 2.5,
@@ -311,6 +298,21 @@
       "pattern": "reciprocating_questions_about_her_interests",
       "engagement_boost": 2.6,
       "evidence": "After answering her anime question, user asks 'Do you watch a lot?' - shows genuine curiosity about her interests even when not personally invested in topic"
+    },
+    {
+      "pattern": "honest_preference_sharing_creates_reciprocal_disclosure",
+      "engagement_boost": 2.8,
+      "evidence": "User's honest 'Not really an anime person but I watched Chi the other day. Do you watch a lot?' led to Laura sharing specific preference 'I like anime but horror anime' - authenticity about non-alignment while showing curiosity elicits more detailed sharing"
+    },
+    {
+      "pattern": "asking_about_quantity_of_interest_leads_to_quality_disclosure",
+      "engagement_boost": 2.5,
+      "evidence": "'Do you watch a lot?' prompted Laura to specify not just that she watches but what specific type 'horror anime' - open question about frequency/amount leads to deeper preference sharing"
+    },
+    {
+      "pattern": "engaging_with_her_introduced_topics_encourages_elaboration",
+      "engagement_boost": 2.6,
+      "evidence": "Laura initiated anime topic with 'Do you like anime ?', user engaged despite not being fan, she then shared specific genre preference - showing interest in her topics even without shared enthusiasm creates space for her to elaborate"
     }
   ],
   "avoid_patterns": [
