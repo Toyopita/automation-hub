@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:36:59.178658+09:00",
+  "last_updated": "2026-02-12T08:38:02.422229+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -11,7 +11,8 @@
       "goes to the gym",
       "went to gym (confirmed active session)",
       "drinks tea",
-      "likes horror anime specifically"
+      "likes horror anime specifically",
+      "likes all kinds of horror (not just horror anime)"
     ],
     "family": [],
     "languages": [],
@@ -52,7 +53,8 @@
       "interested in whether partner likes anime",
       "uses Japanese listening practice to get accustomed to the language",
       "announces bedtime to partner before sleeping",
-      "uses anime to get accustomed to listening to Japanese"
+      "uses anime to get accustomed to listening to Japanese",
+      "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')"
     ]
   },
   "personality": {
@@ -63,8 +65,6 @@
     "confidence": 5,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Uses pleading emoji (🥺) to express feeling overwhelmed about work situation",
-      "emotional_expressiveness: Uses flushed emoji 😳 repeatedly to express excitement/arousal in intimate context, then immediately switches to apologetic tone with 😓 when work interrupts, showing range of emotional expression",
       "emotional_expressiveness: Uses vulnerable 🥹 emoji to express being touched by romantic gestures, responds with 'Oww' and 'Thats cute' to tender statements, showing increased comfort with expressing softer emotions",
       "warmth: Validates romantic gestures with 'Thats cute' and responds with 🥹 to expressions of desire for physical closeness, showing appreciation for emotional vulnerability",
       "warmth: Proactively offers to send pictures when partner expresses wanting to see her, showing attentiveness to his desires and willingness to maintain visual connection",
@@ -82,7 +82,9 @@
       "emotional_expressiveness: Direct emotional declaration 'I like you 😊' with happy emoji - openly expresses positive feelings about partner without prompting or buildup",
       "warmth: Proactively declares affection 'I like you 😊' unprompted - shows consistent pattern of expressing warm feelings toward partner",
       "warmth: Continues pattern of unprompted affection declarations: 'Have a good day baby' with follow-up 'I like you 😊' - proactively expresses care and affection even during bedtime sign-off",
-      "emotional_expressiveness: Declares affection twice in bedtime sequence: 'Have a good day baby' then additional 'I like you 😊' - shows comfort with repeated emotional expression in short timeframe"
+      "emotional_expressiveness: Declares affection twice in bedtime sequence: 'Have a good day baby' then additional 'I like you 😊' - shows comfort with repeated emotional expression in short timeframe",
+      "warmth: Continues unprompted affection expression 'I like you 😊' during bedtime sequence, maintains 'baby' endearment in sign-off 'Have a good day baby' - consistent pattern of proactive emotional warmth",
+      "emotional_expressiveness: Declares 'I like you 😊' unprompted as separate message during bedtime - shows continued comfort with spontaneous emotional declarations and willingness to express feelings without prompting"
     ]
   },
   "communication_style": {
@@ -107,8 +109,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "No way",
-      "Is too late there?",
       "I love it",
       "Haha yes?",
       "You want me to look at you all the Time",
@@ -136,7 +136,9 @@
       "Did you sleep well?",
       "I like you",
       "horror anime",
-      "makes me used to"
+      "makes me used to",
+      "makes me used to listen Japanese",
+      "I like all kinds of horror"
     ]
   },
   "topic_engagement": {
@@ -227,34 +229,13 @@
     "anime_for_language_learning": 8.8,
     "bedtime_rituals": 7.8,
     "expressing_affection_at_bedtime": 9.4,
-    "saying_goodbye_before_sleep": 8.0
+    "saying_goodbye_before_sleep": 8.0,
+    "horror_content_general": 8.5,
+    "receiving_mutual_affection_declarations": 9.2,
+    "watching_shows_together_hypothetically": 8.6,
+    "shared_viewing_experiences": 8.4
   },
   "effective_patterns": [
-    {
-      "pattern": "maintaining_morning_greeting_ritual",
-      "engagement_boost": 2.0,
-      "evidence": "'good morning baby 🙂' continues established greeting pattern - maintains relationship consistency and affectionate framing"
-    },
-    {
-      "pattern": "using_white_heart_for_picture_requests",
-      "engagement_boost": 2.3,
-      "evidence": "Includes 🤍 with picture reminder - frames request as tender emotional connection rather than demand, consistent with established white heart usage for soft appreciative moments"
-    },
-    {
-      "pattern": "gentle_accountability_with_affection",
-      "engagement_boost": 3.1,
-      "evidence": "User's prior message 'send me your pictures like you promised 🤍' resulted in Laura's emphatic reassurance 'Of course im going to send you pictures ❤️' with red heart escalation - gentle reminder framed affectionately elicits strong positive commitment"
-    },
-    {
-      "pattern": "treating_her_promises_seriously",
-      "engagement_boost": 2.8,
-      "evidence": "Following up on her stated commitment ('I take pictures and send you later baby') shows he values her word - her 'Of course' response indicates appreciation that he takes her commitments seriously"
-    },
-    {
-      "pattern": "creating_space_for_reliability_demonstration",
-      "engagement_boost": 2.9,
-      "evidence": "By referencing 'like you promised', user gives Laura opportunity to affirm reliability - her emphatic 'Of course' with red heart shows she values being seen as dependable"
-    },
     {
       "pattern": "affectionate_accountability_creates_enthusiastic_affirmation",
       "engagement_boost": 3.2,
@@ -329,6 +310,31 @@
       "pattern": "expressing_desire_to_see_her",
       "engagement_boost": 2.5,
       "evidence": "'I just wanna see your pictures haha 🥺' communicates missing her visually in playful vulnerable way with pleading emoji - frames picture request as emotional desire rather than demand"
+    },
+    {
+      "pattern": "reciprocating_affection_declarations_with_white_hearts",
+      "engagement_boost": 2.8,
+      "evidence": "Laura initiates 'I like you 😊' during bedtime; user responds 'I like you too 🤍' with white heart matching established tender appreciation pattern - reciprocates emotional vulnerability with consistent affectionate framing"
+    },
+    {
+      "pattern": "expressing_gratitude_for_bedtime_wishes",
+      "engagement_boost": 2.4,
+      "evidence": "User opens with 'Thank you baby 🤍 Have a good night' acknowledging her bedtime message and wishes - validates her communication with appreciation before adding own affection"
+    },
+    {
+      "pattern": "playful_vulnerability_about_shared_experiences",
+      "engagement_boost": 2.9,
+      "evidence": "After Laura mentions horror anime, user offers 'Maybe I'd watch it if it's with you 🥺🤍' - combines pleading emoji with romantic premise of doing activity together, frames her interest as incentive for his engagement"
+    },
+    {
+      "pattern": "creating_hypothetical_shared_future_scenarios",
+      "engagement_boost": 3.1,
+      "evidence": "'Maybe I'd watch it if it's with you 🥺🤍' suggests future together-activity even for topic he previously stated disinterest in ('Not really an anime person') - romantic framing of potential shared experience"
+    },
+    {
+      "pattern": "using_her_interests_as_romantic_connection_point",
+      "engagement_boost": 3.0,
+      "evidence": "User transforms anime (which he's 'not really' into) into romantic scenario by adding 'if it's with you' - reframes her hobby as potential bonding experience rather than just showing polite interest"
     }
   ],
   "avoid_patterns": [
