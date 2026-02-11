@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "I don't want just anyone baby, I want you 🤍",
-    "time": "00:25"
-  },
-  {
     "role": "laura",
     "text": "But you can do it okay ",
     "time": "00:27"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I made a pause with learning japanesse i have a lot of work 🥺",
     "time": "20:02"
+  },
+  {
+    "role": "you",
+    "text": "Good morning baby 🤍 Yeah you've been working so much. Japanese is hard anyway haha",
+    "time": "22:19"
   }
 ]
