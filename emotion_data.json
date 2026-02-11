@@ -12211,6 +12211,98 @@
         "future": 4,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T08:30:44.491137+09:00",
+      "summary": "Hello ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルな挨拶返し。彼が写真をリクエストした直後なので、次のメッセージ待ちか忙しい可能性",
+      "trigger": {
+        "message": "good morning baby 🙂 I know you're not posting stories anymore, but send me your pictures like you promised 🤍",
+        "sent_at": "2026-02-12T08:29:03.350258+09:00",
+        "category": "daily",
+        "modifiers": [
+          "+callback"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": -4,
+        "longing": -3,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": -3,
+        "future": -5,
+        "engagement": -5
+      }
+    },
+    {
+      "timestamp": "2026-02-12T08:30:50.303383+09:00",
+      "summary": "I was going to write to you ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼からのメッセージに対して積極的に応答。タイミングが重なったことを伝える軽い返信",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 5
+      }
     }
   ]
 }
