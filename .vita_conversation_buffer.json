@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "the photos you took are good and I think you are suitable to be a photographer",
-    "time": "2026-02-11 22:58"
-  },
-  {
-    "role": "vita",
     "text": "[sticker (pkg:1, id:2)]",
     "time": "2026-02-11 22:58"
   },
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh damn that looks really good haha, what kind of restaurant is it? looks pretty fancy",
     "time": "2026-02-12 13:57"
+  },
+  {
+    "role": "vita",
+    "text": "tahu telur and pecel",
+    "time": "2026-02-12 15:54"
   }
 ]
