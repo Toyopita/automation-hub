@@ -1062,10 +1062,12 @@ class AutoChatBot:
 
                 profile = self.profile_learner.load_profile(self.name, self.display_name)
                 rel = self.stage_manager.load_relationship(self.name, self.display_name)
+                pace = self.budget.get_pace_level()
                 budget_info = {
                     'daily_remaining': self.budget.get_daily_remaining(),
                     'monthly_remaining': self.budget.get_monthly_remaining(),
-                    'can_send': self.budget.can_send(),
+                    'can_send': self.budget.can_send() and pace in ('normal', 'moderate'),
+                    'pace_level': pace,
                 }
 
                 result = await self.proactive_scheduler.check_and_initiate(
