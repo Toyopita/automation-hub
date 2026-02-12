@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:49:17.044938+09:00",
+  "last_updated": "2026-02-12T09:50:37.718264+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -134,7 +134,9 @@
       "proposes using translator for future in-person communication despite language barrier",
       "partner suggests translator as solution for language barrier in hypothetical meeting",
       "uses 'Shit' as exclamation in standalone messages",
-      "clarifies partner's Japanese comprehension level (confirming partner doesn't understand Japanese)"
+      "clarifies partner's Japanese comprehension level (confirming partner doesn't understand Japanese)",
+      "uses multiple standalone exclamations when frustrated or surprised ('Shit' repeated)",
+      "expresses surprise or confusion through repeated exclamations before elaborating"
     ]
   },
   "personality": {
@@ -145,8 +147,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Uses double shy emoji 🫣🫣 after partner's explicit sexual response to her possessive declarations - continues pattern of direct emotional/physical expression through emojis even when potentially feeling bashful about partner's aroused reaction to her jealousy",
-      "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)",
       "emotional_expressiveness: Independently expresses intense sexual arousal with double fire emojis 'Baby you Make me sooo horny 🥵🥵🥵' - continues pattern of direct, unfiltered expression of sexual/emotional state without prompting. Maintains maximum rating for immediate transparent communication of vulnerable feeling (being extremely turned on).",
       "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating.",
       "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny 🥵🥵🥵' and immediately follows with logistics about sending pictures 'Mon going to send you a lot later okay' - shows confidence to both express intense sexual desire AND simultaneously set clear boundaries about timing without apologizing or hedging",
@@ -164,12 +164,14 @@
       "emotional_expressiveness: Independently initiates hypothetical future scenario 'What if we meet one day? Hahaha how are you going to talk?' - continues pattern of direct, transparent expression including vulnerable future-oriented thinking without filtering or hesitation",
       "warmth: Frames language barrier concern playfully with laughter 'Hahaha how are you going to talk?' rather than as serious obstacle - maintains maximum warmth by approaching potential relationship challenge with humor and lightness",
       "confidence: Independently introduces hypothetical in-person meeting scenario without hesitation or hedging 'What if we meet one day?' - shows continued confidence to raise future-oriented relationship topics without waiting for partner to initiate",
-      "humor_appreciation: Responds with double 'Hahaha' to her own hypothetical question about communication barrier, then exclaims 'Shit' - showing appreciation for absurdity of language barrier situation. Increases from 6 to 7 as she initiates and finds humor in practical relationship obstacles."
+      "humor_appreciation: Responds with double 'Hahaha' to her own hypothetical question about communication barrier, then exclaims 'Shit' - showing appreciation for absurdity of language barrier situation. Increases from 6 to 7 as she initiates and finds humor in practical relationship obstacles.",
+      "emotional_expressiveness: Expresses frustration through exclamations ('Shit'), concern through follow-up questions ('Nothing ?'), and clarification attempts ('I mean you really dont understand anything ?') - maintains pattern of direct, unfiltered emotional communication including impatience and confusion",
+      "warmth: Responds warmly to partner's apology with immediate forgiveness and deflection - no cold shoulder or prolonged frustration. Maintains maximum warmth rating through quick emotional recovery"
     ]
   },
   "communication_style": {
     "avg_message_length": "brief questions or exclamations (3-12 words)",
-    "emoji_frequency": "minimal in this exchange (1 emoji across 6 messages)",
+    "emoji_frequency": "minimal in this exchange (no emojis in 5 messages)",
     "preferred_emojis": [
       "😆",
       "😳",
@@ -572,29 +574,12 @@
     "partner_japanese_comprehension": 9.3,
     "clarifying_language_barriers": 9.1,
     "verifying_partner_understanding": 9.2,
-    "double_checking_comprehension_limits": 9.0
+    "double_checking_comprehension_limits": 9.0,
+    "waiting_for_responses": 6.5,
+    "receiving_apologies": 8.8,
+    "partner_responsiveness": 7.8
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_practical_logistics_questions",
-      "engagement_boost": 5.5,
-      "evidence": "Laura feels comfortable asking practical clarifying question 'If i send Audios you dont understand anything?' about whether audio format will work - suggests conversation environment enables her to verify logistics before committing to content delivery method"
-    },
-    {
-      "pattern": "not_assuming_comprehension_creates_verification_questions",
-      "engagement_boost": 5.4,
-      "evidence": "Laura independently checks whether partner can understand Japanese audio before sending - indicates she feels empowered to verify practical constraints rather than making assumptions about what partner can process"
-    },
-    {
-      "pattern": "validating_desire_for_content_despite_comprehension_limits",
-      "engagement_boost": 6.2,
-      "evidence": "After Laura's practical concern 'If i send Audios you dont understand anything?', user's response 'I probably won't understand but I wanna hear it baby 🥺' acknowledges limitation while emphasizing emotional desire to hear her voice - validates that connection transcends full comprehension"
-    },
-    {
-      "pattern": "using_vulnerable_emoji_to_express_desire_for_connection",
-      "engagement_boost": 5.9,
-      "evidence": "User's pleading emoji 🥺 in 'I wanna hear it baby 🥺' mirrors Laura's frequent use of same emoji for vulnerable requests - creates emotional resonance by showing desire for her voice despite language barrier"
-    },
     {
       "pattern": "acknowledging_practical_constraints_without_letting_them_block_connection",
       "engagement_boost": 6.0,
@@ -674,6 +659,26 @@
       "pattern": "using_endearment_with_disappointing_answer",
       "engagement_boost": 5.9,
       "evidence": "'I really can't baby 🥲' includes 'baby' endearment even when delivering answer that confirms language barrier - maintains warmth and affection while being honest about limitation"
+    },
+    {
+      "pattern": "apologizing_with_vulnerable_emoji_after_delayed_response",
+      "engagement_boost": 6.3,
+      "evidence": "After Laura's visible frustration sequence ('Shit', 'Nothing ?', clarifying question, laughter, repeated 'Shit'), user's 'I'm sorry baby 🥺' with pleading emoji acknowledges the delay and shows remorse - validates her impatience without making excuses"
+    },
+    {
+      "pattern": "using_endearment_with_apology",
+      "engagement_boost": 6.1,
+      "evidence": "'I'm sorry baby 🥺' includes affectionate term with apology - maintains warmth and connection while acknowledging mistake of leaving her waiting"
+    },
+    {
+      "pattern": "matching_vulnerable_emoji_tone_when_apologizing",
+      "engagement_boost": 5.9,
+      "evidence": "User's 🥺 emoji shows genuine remorse and vulnerability about delayed response - mirrors emotional tone Laura has used for vulnerable requests throughout relationship"
+    },
+    {
+      "pattern": "simple_direct_apology_without_over_explaining",
+      "engagement_boost": 6.0,
+      "evidence": "'I'm sorry baby 🥺' is concise acknowledgment without defensive justifications - allows her frustration to be validated without turning apology into lengthy explanation"
     }
   ],
   "avoid_patterns": [
