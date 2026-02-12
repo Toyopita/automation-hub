@@ -520,5 +520,23 @@
     ],
     "emotional_tone": "casual, friendly, lighthearted",
     "unresolved": "Vita said she'd let YOU know about something later (context unclear from this segment)"
+  },
+  {
+    "id": 30,
+    "timestamp_start": "2026-02-12 12:58",
+    "timestamp_end": "2026-02-12 15:55",
+    "summary": "Vita shared photos of Indonesian food (tahu telur and pecel). YOU complimented how good it looked and asked if it was a fancy restaurant. Vita clarified it was actually a simple, not fancy restaurant.",
+    "topics": [
+      "Indonesian food",
+      "restaurant",
+      "tahu telur",
+      "pecel"
+    ],
+    "key_facts_learned": [
+      "Vita eats at simple/casual Indonesian restaurants",
+      "Vita is familiar with tahu telur and pecel dishes"
+    ],
+    "emotional_tone": "casual, friendly, lighthearted",
+    "unresolved": null
   }
 ]
