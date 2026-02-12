@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:37:09.849050+09:00",
+  "last_updated": "2026-02-12T09:43:51.143426+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -118,7 +118,8 @@
       "commits to sending pictures the next day when unable to send immediately",
       "requests partner to send Japanese audio messages",
       "initiates requests for Japanese language practice content from partner",
-      "uses pleading emoji when making Japanese practice requests"
+      "uses pleading emoji when making Japanese practice requests",
+      "asks about partner's English comprehension (possibly context-dependent question)"
     ]
   },
   "personality": {
@@ -179,7 +180,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Can you do something for me",
       "Stop",
       "sooo bad",
       "In already wet",
@@ -208,7 +208,8 @@
       "trained a lot",
       "Okay",
       "Love you bye",
-      "Send me an audio talking in Japanese"
+      "Send me an audio talking in Japanese",
+      "Do you understand English?"
     ]
   },
   "topic_engagement": {
@@ -530,7 +531,8 @@
     "requesting_language_practice_content": 9.3,
     "audio_messages_for_learning": 9.2,
     "partner_speaking_japanese": 9.5,
-    "hearing_partner_in_japanese": 9.4
+    "hearing_partner_in_japanese": 9.4,
+    "language_comprehension_checking": 7.5
   },
   "effective_patterns": [
     {
