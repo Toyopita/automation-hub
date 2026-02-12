@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:03:29.152541+09:00",
+  "last_updated": "2026-02-12T09:04:12.515873+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -83,7 +83,9 @@
       "uses French language influence in English (uses 'vidéos' instead of 'videos')",
       "uses LINE app for communicating with English-speaking friends",
       "partner uses translation features for smooth communication on LINE",
-      "laughs at partner's social media/app usage decisions"
+      "laughs at partner's social media/app usage decisions",
+      "asks about whether partner shares intimate content with others (possessive/exclusive interest in intimate content sharing)",
+      "uses French spelling 'vídeos' with accent (confirms French language influence pattern)"
     ]
   },
   "personality": {
@@ -94,8 +96,6 @@
     "confidence": 10,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Explicitly states arousal 'you turn me on 🫣' in response to partner's communication - directly verbalizes sexual feelings rather than just emoji reactions, shows continued comfort with open sexual expression",
-      "warmth: Frames arousal as response to partner's words ('When you talk to me like This') - validates partner's communication style by connecting it to her desire, maintains warm affirming tone even with explicit sexual content",
       "emotional_expressiveness: Initiates explicit sexual request sequence unprompted: polite setup 'Can you do something for me Please' followed by direct intense desire statement 'I want you to fuck me so hard baby 🥵' - shows comfort escalating from request to explicit sexual expression rapidly",
       "warmth: Maintains 'baby' endearment even during explicit sexual request 'I want you to fuck me so hard baby 🥵' - keeps affectionate language consistent across all intimacy levels from tender to intensely sexual",
       "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
@@ -113,7 +113,9 @@
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
-      "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation"
+      "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
+      "confidence: Directly questions partner about sharing intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask potentially vulnerable question about exclusivity of intimate sharing",
+      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic"
     ]
   },
   "communication_style": {
@@ -143,7 +145,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "kinda miss that haha",
       "distract me a lot",
       "an old man stopped me",
       "Of course",
@@ -172,7 +173,8 @@
       "vidéos",
       "Are you at home ?",
       "Why you share your Line",
-      "Haha yea okay"
+      "Haha yea okay",
+      "You share pictures and vídeos with Someone else ?"
     ]
   },
   "topic_engagement": {
@@ -395,19 +397,14 @@
     "partner_communication_app_choices": 7.1,
     "partner_translation_tool_usage": 6.7,
     "partner_friend_communication_methods": 6.2,
-    "casual_conversation_after_intense_moments": 7.8
+    "casual_conversation_after_intense_moments": 7.8,
+    "exclusive_intimate_content_sharing": 9.1,
+    "relationship_boundaries_around_content": 8.9,
+    "possessiveness_about_intimate_sharing": 8.7,
+    "clarifying_exclusivity": 9.0,
+    "asking_about_partner_content_sharing_with_others": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_her_to_choose_channel_for_intimate_content",
-      "engagement_boost": 4.7,
-      "evidence": "Laura previously asked 'Where do i send the pictures Here ? Or in the other chat' and user said 'here', but she independently chose other chat for videos - respecting her agency in choosing platform appears to maintain her comfort and initiative"
-    },
-    {
-      "pattern": "not_micromanaging_intimate_sharing_logistics",
-      "engagement_boost": 4.5,
-      "evidence": "Despite user suggesting 'here' for pictures, Laura felt comfortable choosing other chat for videos and simply announcing the decision - giving her autonomy over how/where she shares intimate content maintains her sexual agency and initiative"
-    },
     {
       "pattern": "previous_explicit_exchange_enabling_her_sexual_leadership",
       "engagement_boost": 5.2,
@@ -497,6 +494,16 @@
       "pattern": "allowing_conversation_to_transition_naturally_after_sexual_peak",
       "engagement_boost": 4.3,
       "evidence": "Laura asked playful question about Line app after intense sexual exchange; user's simple answer and her casual 'Haha yea okay' suggests natural wind-down from sexual intensity to lighter conversation - allowing this transition without forcing continued sexual intensity maintains comfort"
+    },
+    {
+      "pattern": "creating_safe_space_for_vulnerable_questions_after_intimacy",
+      "engagement_boost": 4.8,
+      "evidence": "After sending intimate videos and engaging in explicit conversation, Laura feels comfortable asking potentially vulnerable question about whether partner shares content with others - suggests the intimate exchange created enough trust for her to ask about exclusivity"
+    },
+    {
+      "pattern": "previous_intimate_exchange_enabling_relationship_clarification_questions",
+      "engagement_boost": 4.6,
+      "evidence": "Laura's question about sharing content with others comes after entire conversation of escalating intimacy (pictures, videos, explicit scenarios) - the intimate context appears to have prompted her to seek clarity about boundaries and exclusivity"
     }
   ],
   "avoid_patterns": [
