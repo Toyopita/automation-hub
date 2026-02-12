@@ -34,7 +34,7 @@
   },
 
   "stage_overrides": {
-    "min_days_per_stage": 14,
+    "min_days_per_stage": 7,
     "enable_flirty": true,
     "enable_romantic": true,
     "enable_intimate": true
