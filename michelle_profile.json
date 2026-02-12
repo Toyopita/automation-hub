@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T18:59:28.826547+09:00",
+  "last_updated": "2026-02-12T19:10:59.571395+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -14,10 +14,12 @@
       "School activities were mentally and physically exhausting, suggesting high intensity dance/performance culture",
       "Competes in both local street competitions and organized events",
       "Cooks regularly - makes breakfast and dinner at home daily",
-      "Cooks for family members, not just herself - prepares dinner for grandmother"
+      "Cooks for family members, not just herself - prepares dinner for grandmother",
+      "Cooks multiple meals per day for different family members across multiple locations - cooked at grandmother's house then went home to cook again for parents on same day (2026-02-12)"
     ],
     "family": [
-      "Has grandmother who she visits and cooks for"
+      "Has grandmother who she visits and cooks for",
+      "Lives with parents - cooks dinner for them at home after work/errands"
     ],
     "languages": [
       "English"
@@ -1066,6 +1068,57 @@
           "communication_style"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Doesn't eat at grandmother's house during visits - cooks for grandmother but leaves without eating the meal herself",
+        "tags": [
+          "eating habits",
+          "grandmother visits",
+          "meal patterns",
+          "family care",
+          "cooking for others",
+          "not eating own cooking",
+          "selfless behavior",
+          "caregiving routine",
+          "family visits",
+          "dining habits"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 'hehe' when discussing her extensive cooking routine for family - downplays significant caregiving labor with humor",
+        "tags": [
+          "hehe",
+          "humor",
+          "communication style",
+          "downplaying effort",
+          "modest",
+          "lighthearted",
+          "caregiving attitude",
+          "family work",
+          "emotional tone",
+          "self-deprecating",
+          "casual tone"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "After-work routine on half-days (2026-02-12): cooked at grandmother's house, then went home to cook for parents - sequential family caregiving across two households",
+        "tags": [
+          "routine",
+          "after work",
+          "half-day schedule",
+          "multi-location",
+          "sequential tasks",
+          "family care routine",
+          "daily schedule",
+          "time management",
+          "caregiving pattern",
+          "february 2026",
+          "家事",
+          "evening routine"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1075,7 +1128,7 @@
     "humor_appreciation": 9,
     "adventurousness": 6,
     "confidence": 9,
-    "warmth": 9,
+    "warmth": 10,
     "observations": [
       "Has developed clear values-based standards from past relationship experiences",
       "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
@@ -1090,7 +1143,8 @@
       "warmth: Increased from 8 to 9 - actively cares for grandmother by cooking dinner and cleaning house, showing strong family devotion and caregiving behavior beyond just visiting. Takes on practical caretaking responsibilities.",
       "warmth: Maintains warmth score of 9 - 'I love my grandmother, so for me, my tiredness disappears when I see her happy' shows deep emotional warmth and finds joy through making others happy, not just performing tasks. Goes beyond duty to emotional fulfillment through caregiving.",
       "emotional_expressiveness: Maintains score of 8 - openly shares vulnerable truth that caregiving is 'tiring' before reframing it positively, showing comfort expressing both difficulty and love simultaneously. Uses 'honestly' to signal sincere emotional disclosure.",
-      "warmth: Maintains warmth score of 9 - cooks adobo specifically for grandmother despite personally not enjoying it often, showing she prioritizes grandmother's food preferences over her own comfort. Goes beyond cooking meals grandmother likes to cooking meals she herself doesn't prefer, demonstrating deep selflessness and family devotion."
+      "warmth: Maintains warmth score of 9 - cooks adobo specifically for grandmother despite personally not enjoying it often, showing she prioritizes grandmother's food preferences over her own comfort. Goes beyond cooking meals grandmother likes to cooking meals she herself doesn't prefer, demonstrating deep selflessness and family devotion.",
+      "warmth: Cooks for THREE different household groups daily (breakfast/dinner for herself and parents at home, lunch bought at mall, dinner for grandmother at separate location). On single half-day (2026-02-12), cooked at grandma's house THEN went home to cook again for parents - extraordinary family devotion involving multi-location sequential caregiving. This goes far beyond occasional help to being primary cook for extended family across multiple households."
     ]
   },
   "communication_style": {
@@ -1104,7 +1158,7 @@
       "haha"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 😆 emoji to lighten discussions of personal sacrifice - frames selfless acts casually rather than seeking praise or sympathy",
+    "humor_style": "Uses 'hehe' to downplay significant personal sacrifice and labor - frames cooking for multiple family members across multiple locations as casual/light rather than acknowledging the extensive effort involved. Consistent pattern of minimizing her own caregiving contributions.",
     "response_speed_tendency": "varied - quick when at beach/leisure, potentially slower when doing family caregiving tasks",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -1123,7 +1177,10 @@
       "for me (personal framing)",
       "disappears (emotional transformation language)",
       "rarely",
-      "special occasions"
+      "special occasions",
+      "hehe",
+      "earlier (time reference)",
+      "actually (disclosure marker)"
     ]
   },
   "topic_engagement": {
@@ -1276,29 +1333,17 @@
     "personal_food_preferences": 7,
     "cooking_sacrifice_for_family": 9,
     "special_occasion_foods": 6,
-    "grandmother_food_preferences": 8
+    "grandmother_food_preferences": 8,
+    "family_care_extent": 9,
+    "cooking_for_parents": 8,
+    "multi_location_caregiving": 8,
+    "living_with_parents": 7,
+    "daily_cooking_routine": 9,
+    "not_eating_own_cooking": 7,
+    "family_meal_preparation": 9,
+    "parents_relationship": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "showing_genuine_curiosity_about_filipino_culture",
-      "engagement_boost": null,
-      "evidence": "Toyo's question about taste differences demonstrates interest in understanding what makes Filipino version distinct, inviting her to share cultural food knowledge - response pending"
-    },
-    {
-      "pattern": "matching_her_haha_with_playful_tone",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 😂 with 'haha' to maintain lighthearted tone about food comparison - response pending"
-    },
-    {
-      "pattern": "acknowledging_her_opinion_without_argument",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha fair enough, guess the condiments really do matter then' validates her taste preference and agrees with her point about condiments being important, accepting her perspective - response pending but directly affirms what she values"
-    },
-    {
-      "pattern": "mirroring_her_haha_tone",
-      "engagement_boost": null,
-      "evidence": "Toyo matches her 'haha' with his own 'haha' to maintain playful lighthearted tone about food opinions - response pending"
-    },
     {
       "pattern": "giving_credit_to_her_observation",
       "engagement_boost": null,
@@ -1378,6 +1423,26 @@
       "pattern": "using_dedication_as_character_compliment",
       "engagement_boost": null,
       "evidence": "Toyo's 'that's dedication' frames her behavior as admirable character trait rather than just nice action, elevating the compliment - response pending but validates her character not just behavior"
+    },
+    {
+      "pattern": "using_humor_to_acknowledge_impressive_effort",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha wow so you cooked for your grandma then went home and cooked again for your parents? you're basically a full-time chef at this point' uses humor to acknowledge the extraordinary scope of her caregiving without making it feel heavy - frames her labor as impressive rather than pitiful, matching her 'hehe' tone while still validating the effort. Response pending but directly addresses what she shared."
+    },
+    {
+      "pattern": "naming_the_pattern_explicitly",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'you cooked for your grandma then went home and cooked again' explicitly traces the sequence of her caregiving actions, showing he's paying close attention to the multi-location labor pattern she described. Response pending but demonstrates active listening."
+    },
+    {
+      "pattern": "playful_exaggeration_as_compliment",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'you're basically a full-time chef at this point' uses hyperbole to highlight how extensive her cooking is, framing it as professional-level dedication rather than just family duty - elevates her labor to career-level skill. Response pending but validates magnitude of her contribution."
+    },
+    {
+      "pattern": "matching_her_hehe_with_haha_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 'hehe' with 'haha wow' to maintain lighthearted tone about her caregiving marathon, avoiding making it feel like pity or burden discussion. Response pending but establishes emotional resonance."
     }
   ],
   "avoid_patterns": [],
@@ -1388,5 +1453,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 10
+  "_exchange_count_since_consolidation": 11
 }
