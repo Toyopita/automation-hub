@@ -15179,6 +15179,56 @@
         "future": 0,
         "engagement": 5
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:31:26.080204+09:00",
+      "summary": "Okay ",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れていて短い返事。了承の意思表示だけど、やや素っ気ない印象",
+      "trigger": {
+        "message": "You're tired, I get it baby. Sleep well 🤍",
+        "sent_at": "2026-02-12T09:30:48.781322+09:00",
+        "category": "support",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -3,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": -6,
+        "ds": -3,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": -6
+      }
     }
   ]
 }
