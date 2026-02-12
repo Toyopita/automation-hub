@@ -1182,6 +1182,9 @@ IMPORTANT: This conversation is ALREADY happening on LINE. You are already chatt
 - Push-Pull balance: {push_pull_status}
 {strategy_direction}
 
+=== PROFILE GATHERING (weave naturally into conversation) ===
+{profile_gathering}
+
 === THINGS YOU REMEMBER ABOUT HER ===
 {relevant_facts}
 
