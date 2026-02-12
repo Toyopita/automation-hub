@@ -2063,9 +2063,15 @@ Return JSON:
                            reverse=True)[:5]
         interests = ', '.join(t[0] for t in top_topics) if top_topics else 'unknown'
 
-        # Recent events from facts
+        # Recent events from facts (handle both str and dict formats)
         misc_facts = profile.get('facts', {}).get('misc_facts', [])
-        recent_events = ', '.join(misc_facts[-3:]) if misc_facts else 'none known'
+        recent_texts = []
+        for f in misc_facts[-3:]:
+            if isinstance(f, dict):
+                recent_texts.append(f.get('text', ''))
+            elif isinstance(f, str):
+                recent_texts.append(f)
+        recent_events = ', '.join(recent_texts) if recent_texts else 'none known'
 
         prompt = self.INITIATION_PROMPT.format(
             display_name=display_name,
