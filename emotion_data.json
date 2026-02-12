@@ -16528,6 +16528,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:17:05.572513+09:00",
+      "summary": "You never Forget lol ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が性的な約束を覚えていることを軽くからかっている。面白がっている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
