@@ -16242,6 +16242,57 @@
         "future": 0,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:29:53.328275+09:00",
+      "summary": "You are aleays like This ? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽くからかうような質問。彼の性的な発言に対して驚きつつも楽しんでいる雰囲気。タイポあり(aleays→always)",
+      "trigger": {
+        "message": "My bad haha I meant my dick is so hard for you 😏",
+        "sent_at": "2026-02-12T18:24:40.264103+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+spontaneous",
+          "+escalation"
+        ],
+        "response_time_min": 5
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
