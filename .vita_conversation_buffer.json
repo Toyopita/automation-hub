@@ -5,11 +5,6 @@
     "time": "2026-02-12 12:58"
   },
   {
-    "role": "vita",
-    "text": "[image]",
-    "time": "2026-02-12 12:58"
-  },
-  {
     "role": "you",
     "text": "oh damn that looks really good haha, what kind of restaurant is it? looks pretty fancy",
     "time": "2026-02-12 13:57"
@@ -147,6 +142,11 @@
   {
     "role": "vita",
     "text": "aaa i see",
+    "time": "2026-02-12 23:12"
+  },
+  {
+    "role": "vita",
+    "text": "Where do you like to go on your days off?",
     "time": "2026-02-12 23:12"
   }
 ]
