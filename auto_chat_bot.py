@@ -929,6 +929,7 @@ class AutoChatBot:
                     if msg["type"] == "text":
                         text = msg["text"]
                         bot.logger.info(f"LINE received: {text[:50]}...")
+                        asyncio.create_task(bot.notify_incoming_raw(text))
                         bot.queue_message(text)
                     elif msg["type"] in ("image", "video"):
                         label = "image" if msg["type"] == "image" else "video"
