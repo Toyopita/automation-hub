@@ -1,15 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Hahaha ",
-    "time": "09:46"
-  },
-  {
-    "role": "laura",
-    "text": "Shit ",
-    "time": "09:46"
-  },
-  {
     "role": "you",
     "text": "I don't understand, but I think we can use a translator haha 😳",
     "time": "09:46"
@@ -98,5 +88,15 @@
     "role": "you",
     "text": "Good haha 🤍 I bet you're all hard again today 😏",
     "time": "18:18"
+  },
+  {
+    "role": "laura",
+    "text": "Me ? ",
+    "time": "18:19"
+  },
+  {
+    "role": "laura",
+    "text": "Hahaha ",
+    "time": "18:19"
   }
 ]
