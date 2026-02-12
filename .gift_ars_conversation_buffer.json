@@ -43,5 +43,10 @@
     "role": "you",
     "text": "yeah! born and raised here. Thailand, that's cool - which part?",
     "time": "2026-02-12 11:52"
+  },
+  {
+    "role": "gift_ars",
+    "text": "I'm live in Bangkok.",
+    "time": "2026-02-12 12:40"
   }
 ]
