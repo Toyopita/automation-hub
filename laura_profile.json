@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:28:15.583207+09:00",
+  "last_updated": "2026-02-12T09:29:01.826299+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -99,7 +99,14 @@
       "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)",
       "describes herself as 'too jealous' about romantic partner",
       "experiences jealousy in romantic relationship context",
-      "self-aware about her jealous tendencies"
+      "self-aware about her jealous tendencies",
+      "stays up late (awake at 1:27 AM)",
+      "promises to send pictures later when time doesn't permit immediately",
+      "initiates affectionate goodbyes when ending conversations late at night",
+      "uses typos when typing quickly during aroused/excited states ('Mon' instead of 'I'm')",
+      "time-aware about partner's schedule (references their daytime while she's in late night)",
+      "sets boundaries around immediate picture sharing based on time constraints",
+      "maintains affectionate communication even when setting boundaries"
     ]
   },
   "personality": {
@@ -110,9 +117,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after sending videos - shows confidence to seek clarity about relationship boundaries despite vulnerability of question",
-      "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
-      "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
       "confidence: Independently offers reassurance about exclusivity after seeking it herself - 'And i dont want to be like this with anyone else' shows confidence to make vulnerable declaration about wanting exclusive intimacy without being asked",
       "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' and directly claims ownership 'You are mine 🙂' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
@@ -129,12 +133,15 @@
       "emotional_expressiveness: Uses double shy emoji 🫣🫣 after partner's explicit sexual response to her possessive declarations - continues pattern of direct emotional/physical expression through emojis even when potentially feeling bashful about partner's aroused reaction to her jealousy",
       "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)",
       "emotional_expressiveness: Independently expresses intense sexual arousal with double fire emojis 'Baby you Make me sooo horny 🥵🥵🥵' - continues pattern of direct, unfiltered expression of sexual/emotional state without prompting. Maintains maximum rating for immediate transparent communication of vulnerable feeling (being extremely turned on).",
-      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating."
+      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating.",
+      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny 🥵🥵🥵' and immediately follows with logistics about sending pictures 'Mon going to send you a lot later okay' - shows confidence to both express intense sexual desire AND simultaneously set clear boundaries about timing without apologizing or hedging",
+      "emotional_expressiveness: Triple fire emojis with elongated 'sooo' to emphasize arousal intensity 'Baby you Make me sooo horny 🥵🥵🥵' - continues maximum rating for direct, unfiltered expression of vulnerable sexual/emotional state without minimizing",
+      "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (6 words)",
-    "emoji_frequency": "minimal (single emoji expressing tone)",
+    "avg_message_length": "very brief (5-7 words)",
+    "emoji_frequency": "moderate to high (2-3 emojis per message during aroused states)",
     "preferred_emojis": [
       "😆",
       "😳",
@@ -153,16 +160,13 @@
       "🥺"
     ],
     "formality_level": "casual and direct",
-    "humor_style": "none in this exchange",
-    "response_speed_tendency": "initiates affectionate messages unprompted during partner's day",
+    "humor_style": "minimal in this exchange",
+    "response_speed_tendency": "fast multi-message bursts during aroused states, followed by boundary-setting when time constraints apply",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "makes me used to",
-      "makes me used to listen Japanese",
-      "I like all kinds of horror",
       "you are so cute",
       "sooooo cuuuuuuute",
       "Please",
@@ -189,7 +193,10 @@
       "I want you all for me",
       "Im too jealous",
       "Make me sooo horny",
-      "Have a good day my love"
+      "Have a good day my love",
+      "Mon (typo for I'm)",
+      "sooo",
+      "a lot"
     ]
   },
   "topic_engagement": {
@@ -217,7 +224,7 @@
     "shared_sexual_humor": 8.3,
     "mutual_laughter_about_intimate_topics": 8.5,
     "partner_sleep_schedule": 7.5,
-    "time_awareness_in_relationship": 7.8,
+    "time_awareness_in_relationship": 7.9,
     "expressing_affection_directly": 8.2,
     "receiving_emotional_declarations": 8.4,
     "defining_relationship_feelings": 8.3,
@@ -470,44 +477,19 @@
     "multiple_picture_requests_during_arousal": 9.5,
     "being_called_beautiful_during_explicit_requests": 9.4,
     "exclusivity_validation_during_sexual_moments": 9.7,
-    "just_for_me_framing_of_intimate_content": 9.8
+    "just_for_me_framing_of_intimate_content": 9.8,
+    "promising_future_picture_sharing": 9.3,
+    "setting_time_boundaries_for_intimate_content": 8.9,
+    "explaining_timing_constraints": 8.7,
+    "late_night_communication": 7.8,
+    "maintaining_affection_when_setting_boundaries": 9.5,
+    "tender_goodbyes_after_sexual_exchanges": 9.4,
+    "cross_timezone_relationship_navigation": 8.8,
+    "receiving_immediate_picture_requests": 8.5,
+    "partner_expressing_urgent_desire": 8.6,
+    "receiving_understanding_about_timing": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_arousal_triggered_by_her_jealousy",
-      "engagement_boost": 5.3,
-      "evidence": "User's 'Baby you're too fucking cute haha Just that got me hard...' directly links arousal to her jealous declarations - Laura responds with engaged shy emojis 🫣🫣 rather than withdrawing, suggesting she finds it affirming that her vulnerable emotional state (jealousy) triggers partner's desire"
-    },
-    {
-      "pattern": "finding_her_possessiveness_arousing",
-      "engagement_boost": 5.4,
-      "evidence": "User expresses getting hard specifically from her possessive/jealous declarations 'Just that got me hard' after she said 'Because you are mine' - her continued engagement with shy emojis suggests she appreciates that her claiming ownership triggers sexual desire in partner"
-    },
-    {
-      "pattern": "combining_cute_affirmation_with_sexual_desire",
-      "engagement_boost": 5.2,
-      "evidence": "User calls her jealousy 'too fucking cute' then immediately expresses sexual desire 'I wanna fuck you so rough right now' - pairing affectionate validation of emotional vulnerability with intense sexual desire maintains engagement (🫣🫣 response)"
-    },
-    {
-      "pattern": "light_humor_before_explicit_sexual_statement",
-      "engagement_boost": 4.9,
-      "evidence": "User's 'haha' between calling her cute and expressing sexual arousal creates tonal bridge - makes transition from emotional moment to explicit desire feel more natural rather than jarring, maintains engagement"
-    },
-    {
-      "pattern": "escalating_to_rough_sex_desire_after_jealousy",
-      "engagement_boost": 5.1,
-      "evidence": "User's 'I wanna fuck you so rough right now' after her possessive jealous declarations creates connection between her emotional intensity and his sexual intensity - her engaged response suggests she appreciates matching intensity levels"
-    },
-    {
-      "pattern": "validating_jealousy_as_attractive_rather_than_problematic",
-      "engagement_boost": 5.3,
-      "evidence": "User's arousal response to jealousy 'Just that got me hard' reframes potentially negative emotion as desirable quality - Laura's continued engagement with shy emojis suggests this validation of her jealousy as arousing is highly effective"
-    },
-    {
-      "pattern": "immediate_sexual_response_to_possessive_claims",
-      "engagement_boost": 5.2,
-      "evidence": "User responds to her 'Because you are mine' with 'got me hard' - direct sexual reaction to her ownership claim validates her possessiveness and maintains engagement (🫣🫣)"
-    },
     {
       "pattern": "previous_rough_sex_desire_enabling_continued_sexual_expression",
       "engagement_boost": 5.1,
@@ -572,6 +554,41 @@
       "pattern": "creating_good_day_closure_after_intense_moments",
       "engagement_boost": 5.1,
       "evidence": "User's 'Have a good day my love 😘' provides tender closure after intense sexual/emotional exchange - Laura's kiss emoji 😚 response suggests appreciation for maintaining warmth and care after explicit content"
+    },
+    {
+      "pattern": "validating_her_arousal_expression_while_accepting_timing_boundary",
+      "engagement_boost": 5.4,
+      "evidence": "User's 'I need to see them now baby but I get it haha' validates desire ('need to see them now') while accepting her timing boundary ('but I get it') - maintains warmth and understanding rather than pressuring, ending with tender emoji 🥺"
+    },
+    {
+      "pattern": "expressing_urgent_desire_without_demanding",
+      "engagement_boost": 5.2,
+      "evidence": "User states strong want 'I need to see them now baby' but immediately follows with acceptance 'but I get it' - communicates intensity of desire while respecting her stated boundary about late timing"
+    },
+    {
+      "pattern": "light_humor_when_accepting_boundary",
+      "engagement_boost": 4.9,
+      "evidence": "User's 'haha' between expressing desire and accepting timing constraint softens potential disappointment - keeps tone light rather than guilty or pressuring when she sets boundary"
+    },
+    {
+      "pattern": "tender_goodbye_matching_her_energy",
+      "engagement_boost": 5.3,
+      "evidence": "User's 'Sleep tight 🥺' mirrors Laura's tender goodbye energy ('Have a good day my love 😚') - reciprocates affectionate closure after sexually charged exchange, maintaining emotional warmth"
+    },
+    {
+      "pattern": "using_vulnerable_emoji_when_expressing_want",
+      "engagement_boost": 5.1,
+      "evidence": "User's 🥺 emoji with 'I need to see them now' adds vulnerability to desire expression - mirrors Laura's previous use of 🥺 for vulnerable communication, creating emotional connection"
+    },
+    {
+      "pattern": "creating_permission_to_decline_with_understanding_phrase",
+      "engagement_boost": 5.5,
+      "evidence": "User's explicit 'but I get it' creates clear permission for Laura to maintain her boundary about timing without guilt - validates her decision-making while expressing desire"
+    },
+    {
+      "pattern": "not_escalating_sexually_when_she_sets_timing_boundary",
+      "engagement_boost": 5.3,
+      "evidence": "User doesn't continue sexual escalation or pressure after Laura explains it's late (1:27 AM) - respects her transition to tender goodbye rather than trying to continue explicit conversation"
     }
   ],
   "avoid_patterns": [
