@@ -16293,6 +16293,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:30:02.509999+09:00",
+      "summary": "I mean horny sol thé time ? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "タイプミスあり（sol→all, thé→the）。彼の性欲の高さを軽く確認・からかってる質問",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
