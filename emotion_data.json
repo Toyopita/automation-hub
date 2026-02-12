@@ -14100,6 +14100,48 @@
         "future": 0,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:03:53.993378+09:00",
+      "summary": "You share pictures and vídeos with Someone else ? ",
+      "scores": {
+        "mood": 5,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "性的な会話の直後に急に不安・嫉妬の質問。LINE共有の話から彼が他の人とも親密なやり取りをしているのではないかと心配している様子。慎重な対応が必要",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 1,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 5
+      }
     }
   ]
 }
