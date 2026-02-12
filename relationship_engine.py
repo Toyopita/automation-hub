@@ -1950,7 +1950,7 @@ class TimingController:
         recent = conversation_buffer[-6:]
         other_msgs = [m for m in recent if m.get('role') != 'you']
         if len(other_msgs) >= 3:
-            return 0.5  # Active conversation
+            return 0.7  # Active conversation
         return 1.0
 
     def _response_time_match(self, her_avg_minutes: float | None,
