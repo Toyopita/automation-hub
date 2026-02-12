@@ -500,5 +500,43 @@
     ],
     "emotional_tone": "Relaxed, friendly, casual banter",
     "unresolved": "Michelle asked about YOUR usual lunch time but didn't receive an answer yet"
+  },
+  {
+    "id": 26,
+    "timestamp_start": "2026-02-12 11:27",
+    "timestamp_end": "2026-02-12 12:16",
+    "summary": "Casual conversation about food preferences where Michelle confirmed she loves ramen with rice, especially when tired. She prefers real ramen from shops over instant. Conversation shifted to lunch timing, with you mentioning you usually eat around 12-12:30.",
+    "topics": [
+      "food",
+      "ramen",
+      "daily routine",
+      "lunch timing"
+    ],
+    "key_facts_learned": [
+      "Michelle's go-to comfort food is ramen with rice when tired",
+      "She prefers real ramen from shops over instant",
+      "She was asking about lunch timing (possibly hungry or planning to meet)"
+    ],
+    "emotional_tone": "light, playful, casual banter",
+    "unresolved": "Michelle asked about lunch timing but didn't clarify why - may have been considering meeting up or just curious"
+  },
+  {
+    "id": 27,
+    "timestamp_start": "2026-02-12 11:44",
+    "timestamp_end": "2026-02-12 12:25",
+    "summary": "Casual conversation about meal preferences and lunch timing. Discussed ramen and rice combo, with Michelle mentioning she prefers real ramen from shops over instant. Shared lunch schedules - YOU eats around 12-12:30pm, Michelle has her break at 1pm.",
+    "topics": [
+      "food",
+      "ramen",
+      "lunch schedules",
+      "work breaks",
+      "daily routine"
+    ],
+    "key_facts_learned": [
+      "Michelle prefers real ramen from shops over instant",
+      "Michelle's lunch break is at 1pm"
+    ],
+    "emotional_tone": "light, playful, casual banter",
+    "unresolved": null
   }
 ]
