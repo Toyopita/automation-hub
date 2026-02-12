@@ -243,5 +243,24 @@
     ],
     "emotional_tone": "supportive, clarifying, lighthearted",
     "unresolved": null
+  },
+  {
+    "id": 14,
+    "timestamp_start": "2026-02-11 23:38",
+    "timestamp_end": "2026-02-12 08:20",
+    "summary": "Vita clarified she was referring to your Instagram stories and shared she doesn't have a boyfriend and keeps people away from her food. The conversation had a lighthearted tone with you asking follow-up questions about her relationship status.",
+    "topics": [
+      "instagram stories",
+      "relationships",
+      "personal boundaries",
+      "food"
+    ],
+    "key_facts_learned": [
+      "Vita is single and doesn't have a boyfriend",
+      "Vita is protective about her food and doesn't let people near it",
+      "Vita can see your Instagram close friends stories"
+    ],
+    "emotional_tone": "casual, friendly, slightly playful",
+    "unresolved": "Your question about why she doesn't have a boyfriend (whether by choice or circumstance) remains unanswered"
   }
 ]
