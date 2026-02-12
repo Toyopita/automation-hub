@@ -1,11 +1,6 @@
 [
   {
     "role": "michelle",
-    "text": "haha yeah, it's really a solid combo 😂 sometimes i go for instant ramen, but more often i get the real stuff from a shop. \n",
-    "time": "2026-02-12 11:52"
-  },
-  {
-    "role": "michelle",
     "text": "what time did you usually go for lunch ",
     "time": "2026-02-12 11:53"
   },
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "yes, but it's okay because cooking is one of my hobbies haha",
     "time": "2026-02-12 19:15"
+  },
+  {
+    "role": "you",
+    "text": "wait you're sending bikini pics? haha okay now I'm curious",
+    "time": "2026-02-12 19:22"
   }
 ]
