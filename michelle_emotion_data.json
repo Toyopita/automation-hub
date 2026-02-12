@@ -668,6 +668,37 @@
         "playfulness": -2,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T10:29:17.738931+09:00",
+      "summary": "yes, I just go with the flow, when someone chats, ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "リラックスした態度で、自然な関係構築を好む。受容的で柔軟性が高い",
+      "prev_scores": {
+        "mood": 4,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
