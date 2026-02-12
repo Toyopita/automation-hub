@@ -1,10 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "I'm just curious and do you know where I come from?",
-    "time": "2026-02-11 21:47"
-  },
-  {
     "role": "you",
     "text": "hmm not exactly? i mean you said indonesian restaurant so i'm guessing indonesia maybe? but idk which part or anything like that haha. where are you from?",
     "time": "2026-02-11 21:53"
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "morningg",
     "time": "2026-02-12 09:48"
+  },
+  {
+    "role": "vita",
+    "text": "Yes, God hasn't brought us together yet",
+    "time": "2026-02-12 09:49"
   }
 ]
