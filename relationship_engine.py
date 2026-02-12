@@ -1324,7 +1324,8 @@ AUTHENTICITY RULES (always active):
                      strategy: StrategyDecision, emotion: dict,
                      budget: dict, conversation_history: list[dict],
                      messages: list[str],
-                     detection_result: dict = None) -> str:
+                     detection_result: dict = None,
+                     episode_memory: str = "") -> str:
         """Build the full prompt for Claude response generation.
 
         Args:
@@ -1337,11 +1338,13 @@ AUTHENTICITY RULES (always active):
             conversation_history: List of conversation buffer entries.
             messages: List of incoming message strings.
             detection_result: Bot detection analysis result (optional).
+            episode_memory: Pre-formatted episode memory string.
 
         Returns:
             Complete prompt string.
         """
         display_name = config.get('display_name', config.get('name', 'Unknown'))
+        name = config.get('name', 'unknown').lower()
 
         # 1. Base persona
         base_persona = self._build_base_persona(config)
@@ -1385,6 +1388,14 @@ AUTHENTICITY RULES (always active):
         # 13. Profile gathering directive
         profile_gathering = self._profile_gathering_directive(profile, stage)
 
+        # 14. Episode memory (load if not provided)
+        if not episode_memory:
+            try:
+                from episode_memory import format_episodes_for_prompt
+                episode_memory = format_episodes_for_prompt(name)
+            except Exception:
+                episode_memory = "(No past episodes)"
+
         prompt = self.RESPONSE_TEMPLATE.format(
             display_name=display_name,
             base_persona=base_persona,
@@ -1405,6 +1416,7 @@ AUTHENTICITY RULES (always active):
             emotion_section=emotion_section,
             daily_remaining=budget.get('daily_remaining', '?'),
             monthly_remaining=budget.get('monthly_remaining', '?'),
+            episode_memory=episode_memory,
             conversation_history=history_text,
             messages=messages_text,
             detection_addon=detection_addon,
