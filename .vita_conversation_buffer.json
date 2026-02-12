@@ -1,10 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "[sticker (pkg:1, id:10)]",
-    "time": "2026-02-12 15:55"
-  },
-  {
     "role": "you",
     "text": "oh nice, indonesian food right? looks really good though haha. what do you do there, cooking or serving or both?",
     "time": "2026-02-12 16:01"
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "xixixixi",
     "time": "2026-02-12 23:47"
+  },
+  {
+    "role": "you",
+    "text": "oh nice haha. btw random thought, but you seem like you take really good care of yourself. do you like... have a type? like what kind of guy do you usually go for?",
+    "time": "2026-02-13 00:06"
   }
 ]
