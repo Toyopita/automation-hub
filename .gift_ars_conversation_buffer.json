@@ -48,5 +48,15 @@
     "role": "gift_ars",
     "text": "I'm live in Bangkok.",
     "time": "2026-02-12 12:40"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Thailand is in a very bad situation right now. Corruption is rampant and difficult to solve.",
+    "time": "2026-02-12 12:40"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Which city are you in?",
+    "time": "2026-02-12 12:41"
   }
 ]
