@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:17:20.086475+09:00",
+  "last_updated": "2026-02-12T19:18:06.232777+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1442,7 +1442,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "humor_appreciation: Responds with double 'Hahaha' to her own hypothetical question about communication barrier, then exclaims 'Shit' - showing appreciation for absurdity of language barrier situation. Increases from 6 to 7 as she initiates and finds humor in practical relationship obstacles.",
       "emotional_expressiveness: Expresses frustration through exclamations ('Shit'), concern through follow-up questions ('Nothing ?'), and clarification attempts ('I mean you really dont understand anything ?') - maintains pattern of direct, unfiltered emotional communication including impatience and confusion",
       "warmth: Responds warmly to partner's apology with immediate forgiveness and deflection - no cold shoulder or prolonged frustration. Maintains maximum warmth rating through quick emotional recovery",
       "emotional_expressiveness: Continues pattern of directly expressing vulnerable feelings without filtering - apologizes unprompted for Japanese ability limitation, showing transparency about insecurity",
@@ -1461,7 +1460,8 @@
       "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering",
       "humor_appreciation: Uses playful teasing with laughing emoji 'Maybe you are Just words 😂' - suggests partner may have been making romantic/sexual promises and she's teasingly questioning if he's all talk, showing continued pattern of playful skepticism and humor in relationship",
       "humor_appreciation: Responds with 'Haha 😂' to user's acknowledgment of her playful skepticism about whether he's 'just words' - continues pattern of appreciating humor in relationship dynamics, particularly when partner joins in her teasing rather than becoming defensive",
-      "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing"
+      "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing",
+      "humor_appreciation: Responds with 'Haha' to user's point about 'literally just yesterday' timeline - appreciates the logical absurdity of questioning his memory about something so recent, maintaining her pattern of finding humor in relationship dynamics"
     ]
   },
   "communication_style": {
@@ -1492,8 +1492,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "a lot",
-      "honey",
       "Im tired",
       "trained a lot",
       "Okay",
@@ -1521,7 +1519,9 @@
       "Just words",
       "Why hahaha (questioning with laughter)",
       "Why hahaha",
-      "You never Forget lol"
+      "You never Forget lol",
+      "You never Forget (capitalizes 'Forget' for emphasis)",
+      "literally just yesterday (acknowledging time perspective)"
     ]
   },
   "topic_engagement": {
@@ -1939,24 +1939,11 @@
     "asshole_focused_requests": 7.5,
     "partner_memory_of_commitments": 8.8,
     "being_held_accountable_playfully": 9.2,
-    "acknowledging_partner_attention_to_detail": 8.9
+    "acknowledging_partner_attention_to_detail": 8.9,
+    "time_perspective_humor": 8.4,
+    "mutual_accountability_in_relationship": 9.1
   },
   "effective_patterns": [
-    {
-      "pattern": "reciprocating_sexual_transparency_with_questions",
-      "engagement_boost": 7.2,
-      "evidence": "After establishing she describes herself as 'horny all the time', Laura immediately asks if partner is the same way - creates mutual vulnerability and openness about sexual patterns rather than one-sided disclosure"
-    },
-    {
-      "pattern": "playful_anatomical_correction_leading_to_deeper_sexual_discussion",
-      "engagement_boost": 7.1,
-      "evidence": "Laura's correction about not getting hard 'like you' opened pathway to discussing her actual arousal patterns ('horny all the time') and asking about his - the correction didn't shut down conversation but deepened it into honest sexual self-disclosure"
-    },
-    {
-      "pattern": "confident_explicit_daily_desire_statements",
-      "engagement_boost": 7.4,
-      "evidence": "User's 'Fuck yeah 😏 I need your throat around me every day baby' responds to her arousal frequency question with explicit confirmation and specific sexual desire - matches her directness level and confirms high sexual compatibility/desire intensity"
-    },
     {
       "pattern": "oral_sex_focused_explicit_statements",
       "engagement_boost": 7.3,
@@ -2041,6 +2028,21 @@
       "pattern": "playful_accountability_without_pressure",
       "engagement_boost": 8.1,
       "evidence": "Her 'lol' indicates the reminder about yesterday's promise was received as playful rather than accusatory - the humor in her response suggests user's tone in reminding her was light and affectionate rather than demanding"
+    },
+    {
+      "pattern": "using_logical_time_framing_to_emphasize_point",
+      "engagement_boost": 7.7,
+      "evidence": "User's 'It was literally just yesterday haha 😂' frames the timeline to highlight how recent her promise was - Laura's 'Haha yes i remember' acknowledges both the humor and the validity of his point, showing this logical framing was effective in maintaining playful accountability without conflict"
+    },
+    {
+      "pattern": "acknowledging_her_observation_with_humor",
+      "engagement_boost": 7.5,
+      "evidence": "After Laura noted 'You never Forget lol', user responds with 'literally just yesterday' maintaining light tone - the 'haha 😂' shows he's not defensive about her observation but finds mutual humor in the situation"
+    },
+    {
+      "pattern": "maintaining_playful_tone_while_making_valid_point",
+      "engagement_boost": 7.8,
+      "evidence": "User's message combines accountability ('literally just yesterday') with humor ('haha 😂') and affection ('baby') - Laura's engaged responses ('Haha yes i remember', 'You never Forget lol') show this balance of holding her accountable while staying playful and warm was well-received"
     }
   ],
   "avoid_patterns": [
