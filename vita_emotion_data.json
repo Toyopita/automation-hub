@@ -730,6 +730,37 @@
         "playfulness": 3,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-12T20:13:22.112209+09:00",
+      "summary": "june",
+      "scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": 1,
+        "engagement": 1
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "単語のみ、文脈不明。通常の呼びかけか確認メッセージ",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -2,
+        "playfulness": -5,
+        "engagement": -3
+      }
     }
   ]
 }
