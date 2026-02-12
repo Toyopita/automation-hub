@@ -1133,6 +1133,37 @@
         "playfulness": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:17:06.119165+09:00",
+      "summary": "oh when I went to the beach last time haha, i had  | yes, but it's okay because cooking is one of my ho",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 6,
+        "playfulness": 8,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく親しみやすい。ビーチ写真の提案は信頼と好意の表れ",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 1
+      }
     }
   ]
 }
