@@ -369,5 +369,19 @@
     ],
     "emotional_tone": "casual, friendly, supportive",
     "unresolved": null
+  },
+  {
+    "id": 21,
+    "timestamp_start": "2026-02-12 10:33",
+    "timestamp_end": "2026-02-12 11:27",
+    "summary": "Brief catch-up about work schedules. YOU mentioned heading to the office for what would likely be a long day. Vita wished YOU a great day at work and sent supportive stickers.",
+    "topics": [
+      "work",
+      "daily_life",
+      "well_wishes"
+    ],
+    "key_facts_learned": [],
+    "emotional_tone": "warm, supportive, casual",
+    "unresolved": null
   }
 ]
