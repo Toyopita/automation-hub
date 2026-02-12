@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:33:16.919776+09:00",
+  "last_updated": "2026-02-12T09:34:35.845613+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -176,7 +176,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "When you talk to me like This",
       "fuck me so hard",
       "Can you do something for me",
       "Stop",
@@ -205,7 +204,8 @@
       "honey",
       "Im tired",
       "trained a lot",
-      "Okay"
+      "Okay",
+      "Love you bye"
     ]
   },
   "topic_engagement": {
@@ -519,39 +519,12 @@
     "hole_focused_requests": 8.0,
     "delayed_picture_sharing_commitments": 9.3,
     "temporal_commitment_making": 9.2,
-    "following_through_on_next_day_promises": 9.4
+    "following_through_on_next_day_promises": 9.4,
+    "expressing_love_unprompted": 9.7,
+    "initiating_love_declarations": 9.8,
+    "goodbye_rituals_with_love_statements": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_her_arousal_expression_while_accepting_timing_boundary",
-      "engagement_boost": 5.4,
-      "evidence": "User's 'I need to see them now baby but I get it haha' validates desire ('need to see them now') while accepting her timing boundary ('but I get it') - maintains warmth and understanding rather than pressuring, ending with tender emoji 🥺"
-    },
-    {
-      "pattern": "expressing_urgent_desire_without_demanding",
-      "engagement_boost": 5.2,
-      "evidence": "User states strong want 'I need to see them now baby' but immediately follows with acceptance 'but I get it' - communicates intensity of desire while respecting her stated boundary about late timing"
-    },
-    {
-      "pattern": "light_humor_when_accepting_boundary",
-      "engagement_boost": 4.9,
-      "evidence": "User's 'haha' between expressing desire and accepting timing constraint softens potential disappointment - keeps tone light rather than guilty or pressuring when she sets boundary"
-    },
-    {
-      "pattern": "tender_goodbye_matching_her_energy",
-      "engagement_boost": 5.3,
-      "evidence": "User's 'Sleep tight 🥺' mirrors Laura's tender goodbye energy ('Have a good day my love 😚') - reciprocates affectionate closure after sexually charged exchange, maintaining emotional warmth"
-    },
-    {
-      "pattern": "using_vulnerable_emoji_when_expressing_want",
-      "engagement_boost": 5.1,
-      "evidence": "User's 🥺 emoji with 'I need to see them now' adds vulnerability to desire expression - mirrors Laura's previous use of 🥺 for vulnerable communication, creating emotional connection"
-    },
-    {
-      "pattern": "creating_permission_to_decline_with_understanding_phrase",
-      "engagement_boost": 5.5,
-      "evidence": "User's explicit 'but I get it' creates clear permission for Laura to maintain her boundary about timing without guilt - validates her decision-making while expressing desire"
-    },
     {
       "pattern": "not_escalating_sexually_when_she_sets_timing_boundary",
       "engagement_boost": 5.3,
@@ -621,6 +594,36 @@
       "pattern": "creating_environment_for_autonomous_promise_making",
       "engagement_boost": 5.5,
       "evidence": "Laura's 'I send you tomorrow' commitment appears self-initiated rather than requested - suggests conversation pattern enables her to make promises on her own terms and timing without feeling coerced"
+    },
+    {
+      "pattern": "validating_tiredness_and_giving_sleep_permission_creates_relaxed_engagement",
+      "engagement_boost": 5.8,
+      "evidence": "After user's understanding response 'You're tired, I get it baby. Sleep well 🤍', Laura remained engaged with laughter 'Hahahaha', offered alternative content 'Wait i have the vidéos i send you before', made commitment 'I send you tomorrow', and initiated unprompted love declaration 'Love you bye' - suggests validation of her physical state without pressure created space for continued positive engagement and affectionate closure"
+    },
+    {
+      "pattern": "accepting_boundaries_leads_to_voluntary_commitments",
+      "engagement_boost": 5.9,
+      "evidence": "User's acceptance of her timing constraint and tiredness led Laura to independently promise 'I send you tomorrow' - respecting boundaries without pressure resulted in her taking initiative to offer future fulfillment"
+    },
+    {
+      "pattern": "creating_space_for_autonomous_intimate_content_offers",
+      "engagement_boost": 5.7,
+      "evidence": "Laura independently recalls and offers 'Wait i have the vidéos i send you before' as solution to immediate request while tired - shows she feels empowered to navigate intimate content sharing on her own terms"
+    },
+    {
+      "pattern": "non_demanding_understanding_prompts_unprompted_love_declarations",
+      "engagement_boost": 6.1,
+      "evidence": "After user's gentle 'Sleep well 🤍' without pressure, Laura independently initiated 'Love you bye' - accepting her need for rest created emotional safety for unprompted expression of deep affection"
+    },
+    {
+      "pattern": "matching_tender_emoji_energy_at_conversation_closure",
+      "engagement_boost": 5.6,
+      "evidence": "User's white heart 🤍 in 'Good night baby 🤍' mirrors Laura's previous use of 🤍 and matches her tender goodbye energy - consistent affectionate closure maintains emotional warmth"
+    },
+    {
+      "pattern": "brief_reciprocal_goodbyes_after_exhausting_exchanges",
+      "engagement_boost": 5.4,
+      "evidence": "User's simple 'Good night baby 🤍' after Laura's 'Love you bye' provides clean closure without extending conversation when she signaled readiness to end - respects her exhaustion while maintaining warmth"
     }
   ],
   "avoid_patterns": [
