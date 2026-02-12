@@ -1221,6 +1221,7 @@ IMPORTANT: This conversation is ALREADY happening on LINE. You are already chatt
 - Escalation level: {escalation_level}
 - Push-Pull balance: {push_pull_status}
 {strategy_direction}
+{topic_steering}
 
 === PROFILE GATHERING (weave naturally into conversation) ===
 {profile_gathering}
