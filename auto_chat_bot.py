@@ -821,8 +821,25 @@ class AutoChatBot:
 
             self.stage_manager.update_daily_counters(self.name, self.config, emotion)
 
+            # --- Profile consolidation trigger (every 20 exchanges) ---
+            try:
+                count = increment_exchange_count(self.name)
+                if count >= 20 and should_consolidate(self.name):
+                    self.logger.info(f"Triggering profile consolidation (exchange count: {count})")
+                    asyncio.create_task(self._run_consolidation())
+            except Exception as e:
+                self.logger.warning(f"Consolidation check failed (non-fatal): {e}")
+
         except Exception as e:
             self.logger.error(f"Post-response processing error (non-fatal): {e}")
+
+    async def _run_consolidation(self):
+        """Run profile consolidation asynchronously."""
+        try:
+            stats = await consolidate_profile(self.name, model=self.claude_model)
+            self.logger.info(f"Profile consolidation complete: {stats}")
+        except Exception as e:
+            self.logger.error(f"Profile consolidation failed (non-fatal): {e}")
 
     async def _log_stage_transition(self, old_stage: str, new_stage: str):
         now = datetime.now(JST)
