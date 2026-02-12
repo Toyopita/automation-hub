@@ -677,5 +677,20 @@
     ],
     "emotional_tone": "playful, casual, caring",
     "unresolved": null
+  },
+  {
+    "id": 39,
+    "timestamp_start": "2026-02-12 16:14",
+    "timestamp_end": "2026-02-12 16:57",
+    "summary": "Vita checked in to see if you had come home from work yet. You mentioned you're still at the office with about an hour to go. Vita wished you to be careful on your way home.",
+    "topics": [
+      "work",
+      "check-in",
+      "safety",
+      "daily routine"
+    ],
+    "key_facts_learned": [],
+    "emotional_tone": "caring and thoughtful",
+    "unresolved": null
   }
 ]
