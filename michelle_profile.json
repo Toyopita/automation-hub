@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T13:28:31.543382+09:00",
+  "last_updated": "2026-02-12T14:51:26.805801+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -707,6 +707,57 @@
           "work break optimization"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Often eats at Jollibee for lunch at the mall",
+        "tags": [
+          "jollibee",
+          "fast food",
+          "lunch",
+          "mall dining",
+          "filipino food",
+          "restaurant",
+          "food preferences",
+          "work lunch",
+          "quick meals",
+          "philippines",
+          "dining habits"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Sometimes eats at McDonald's for lunch at the mall",
+        "tags": [
+          "mcdonalds",
+          "fast food",
+          "lunch",
+          "mall dining",
+          "restaurant",
+          "food preferences",
+          "work lunch",
+          "quick meals",
+          "american food",
+          "dining habits",
+          "convenience"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Prefers Jollibee over McDonald's for mall lunch - suggests cultural food preference for Filipino fast food chain",
+        "tags": [
+          "jollibee preference",
+          "filipino culture",
+          "food loyalty",
+          "cultural identity",
+          "local brands",
+          "fast food hierarchy",
+          "taste preferences",
+          "national pride",
+          "philippines",
+          "brand preference",
+          "cultural connection"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -742,7 +793,7 @@
     ],
     "formality_level": "casual - lowercase, 'haha' filler, conversational flow",
     "humor_style": "uses 'haha' to keep casual tone when discussing routine/practical topics, maintains lighthearted approach even when discussing constraints like short work breaks",
-    "response_speed_tendency": "quick response when discussing comfortable everyday topics like food and daily routine",
+    "response_speed_tendency": "quick response when discussing familiar everyday topics like food routine and cultural preferences",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -875,24 +926,13 @@
     "daily_routine_specifics": 8,
     "meal_planning_practical": 8,
     "work_break_details": 7,
-    "mall_dining": 5
+    "mall_dining": 5,
+    "filipino_food_culture": 7,
+    "jollibee": 7,
+    "fast_food_preferences": 6,
+    "cultural_food_identity": 6
   },
   "effective_patterns": [
-    {
-      "pattern": "emphasizing_naturalness_over_force",
-      "engagement_boost": 1.8,
-      "evidence": "Toyo's 'just let things happen naturally instead of forcing it' mirrors and reinforces her stated philosophy, showing alignment with her values"
-    },
-    {
-      "pattern": "using_humor_to_show_alignment",
-      "engagement_boost": 1.7,
-      "evidence": "Toyo's 'haha yeah' creates relaxed tone while affirming her approach, making validation feel casual rather than overly serious"
-    },
-    {
-      "pattern": "specific_example_of_red_flag_behavior",
-      "engagement_boost": 2.0,
-      "evidence": "Toyo's quote 'i feel like i've known you forever after two messages' provides concrete example of the behavior Michelle described, showing he understands the specific type of weird chat she's referring to"
-    },
     {
       "pattern": "labeling_behavior_as_red_flag",
       "engagement_boost": 1.9,
@@ -977,6 +1017,21 @@
       "pattern": "matching_her_haha_tone",
       "engagement_boost": null,
       "evidence": "Toyo mirrors her 'haha' to maintain casual lighthearted tone about routine logistics - response pending"
+    },
+    {
+      "pattern": "casual_cultural_familiarity_without_visiting",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'i've heard about that place actually haha. never been though since we don't have it here' shows cultural awareness of Jollibee while admitting he hasn't experienced it, creating opportunity for her to explain/share her experience - response pending"
+    },
+    {
+      "pattern": "acknowledging_cultural_difference_geography",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'we don't have it here' establishes geographic/cultural difference casually, potentially inviting her to share what makes Jollibee special from Filipino perspective - response pending"
+    },
+    {
+      "pattern": "showing_interest_in_philippine_culture",
+      "engagement_boost": null,
+      "evidence": "Toyo's acknowledgment of hearing about Jollibee demonstrates he's aware of Filipino cultural icons, showing cross-cultural interest - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -987,5 +1042,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 3
+  "_exchange_count_since_consolidation": 4
 }
