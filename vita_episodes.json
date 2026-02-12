@@ -207,5 +207,23 @@
     ],
     "emotional_tone": "supportive, light-hearted, friendly",
     "unresolved": null
+  },
+  {
+    "id": 12,
+    "timestamp_start": "2026-02-11 23:38",
+    "timestamp_end": "2026-02-11 23:55",
+    "summary": "Vita offered emotional support, expressing willingness to listen if needed. She clarified personal boundaries, mentioning she doesn't have a boyfriend and keeps people away from fried food. She encouraged positive activities that bring calm and good feelings.",
+    "topics": [
+      "emotional support",
+      "personal boundaries",
+      "relationship status",
+      "self-care advice"
+    ],
+    "key_facts_learned": [
+      "Vita doesn't have a boyfriend",
+      "Vita has boundaries around fried food and doesn't let people near it"
+    ],
+    "emotional_tone": "supportive, caring, boundary-setting",
+    "unresolved": null
   }
 ]
