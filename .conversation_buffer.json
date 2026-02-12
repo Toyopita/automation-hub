@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Send me an audio talking in Japanese 🥺",
-    "time": "09:36"
-  },
-  {
-    "role": "laura",
     "text": "Do you understand English? ",
     "time": "09:43"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Well im going to sleep now ",
     "time": "09:53"
+  },
+  {
+    "role": "you",
+    "text": "Yeah, thanks for the video baby 🤍 Sleep like we're sleeping together haha I'd gently stroke your hair and kiss your forehead",
+    "time": "09:54"
   }
 ]
