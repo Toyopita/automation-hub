@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T12:16:56.411209+09:00",
+  "last_updated": "2026-02-12T12:37:17.965924+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -590,6 +590,38 @@
           "simple meals"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Lunch break at work is at 1pm",
+        "tags": [
+          "work schedule",
+          "lunch break",
+          "break time",
+          "1pm",
+          "afternoon",
+          "meal timing",
+          "work routine",
+          "daily schedule",
+          "職場",
+          "休憩時間"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Usually eats lunch at 1pm during work break",
+        "tags": [
+          "lunch",
+          "eating habits",
+          "1pm",
+          "meal schedule",
+          "work break",
+          "food timing",
+          "daily routine",
+          "昼食",
+          "ランチ",
+          "routine"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -614,7 +646,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single run-on sentence when expressing firm personal boundaries",
+    "avg_message_length": "single sentence with casual justification/explanation",
     "emoji_frequency": "moderate (2 emojis in single message)",
     "preferred_emojis": [
       "😆",
@@ -624,7 +656,7 @@
     ],
     "formality_level": "casual - lowercase, no punctuation",
     "humor_style": "self-aware and lighthearted about personal habits - uses 😂 when sharing potentially embarrassing or unhealthy eating patterns, showing she doesn't take herself too seriously",
-    "response_speed_tendency": "immediate response after Toyo validated her boundary-setting approach in previous exchange; maintains quick engagement when discussing personal preferences and comfort topics like food",
+    "response_speed_tendency": "immediate response when discussing daily schedule/routine topics - maintains quick engagement with comfortable subjects like food and work timing",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -743,19 +775,12 @@
     "self_protective_dating_strategies": 9,
     "comfort_food": 8,
     "personal_eating_habits": 8,
-    "food_preferences": 8
+    "food_preferences": 8,
+    "work_schedule_details": 8,
+    "meal_timing": 8,
+    "daily_routine": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "balanced_vulnerability_sharing",
-      "engagement_boost": null,
-      "evidence": "Toyo reciprocated relationship status disclosure with his own reasons for being single, creating equal exchange - response pending"
-    },
-    {
-      "pattern": "mentioning_dating_app_fatigue",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'dating apps here are kinda exhausting honestly' shares his own dating frustrations, potentially creating further commonality - response pending"
-    },
     {
       "pattern": "validating_shared_frustration",
       "engagement_boost": 2.1,
@@ -845,6 +870,16 @@
       "pattern": "casual_mirroring_with_haha",
       "engagement_boost": null,
       "evidence": "Toyo's 'haha' mirrors her 😂 emoji, matching her lighthearted tone about the food combo - response pending but creates tonal alignment"
+    },
+    {
+      "pattern": "observing_unusual_timing_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'that's pretty late lunch though haha' comments on her 1pm lunch in casual observational tone - response pending but shows attention to details she shared"
+    },
+    {
+      "pattern": "empathizing_with_physical_consequence",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'you must get pretty hungry by then' shows empathy for what late lunch means physically, connecting to her experience - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -854,5 +889,6 @@
     "most_active_hour": null,
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
-  }
+  },
+  "_exchange_count_since_consolidation": 1
 }
