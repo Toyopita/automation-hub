@@ -6,11 +6,6 @@
   },
   {
     "role": "vita",
-    "text": "[sticker (pkg:1, id:138)]",
-    "time": "2026-02-12 11:27"
-  },
-  {
-    "role": "vita",
     "text": "today i go to work",
     "time": "2026-02-12 11:28"
   },
@@ -147,6 +142,11 @@
   {
     "role": "vita",
     "text": "still a long time",
+    "time": "2026-02-12 22:01"
+  },
+  {
+    "role": "vita",
+    "text": "jogging and me time",
     "time": "2026-02-12 22:01"
   }
 ]
