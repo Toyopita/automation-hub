@@ -47,6 +47,7 @@ from relationship_engine import (
     BotDetectionFilter, _call_claude_json,
 )
 from episode_memory import compress_to_episode, format_episodes_for_prompt
+from profile_consolidator import should_consolidate, consolidate_profile, increment_exchange_count
 from chat_logger import log_message, log_media, log_system
 
 # ============================================================
