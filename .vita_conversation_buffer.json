@@ -1,10 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "food ? Sorry incorrectly typed",
-    "time": "2026-02-12 00:32"
-  },
-  {
     "role": "you",
     "text": "oh wait you're talking about my ig stories haha, yeah i forget who i put on close friends honestly 😅\n\nthanks for offering to listen though, that's nice of you. and no boyfriend huh? how come, you don't want one or just haven't met the right person?",
     "time": "2026-02-12 08:20"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha glad you liked hearing that. you really do handle a lot there though",
     "time": "2026-02-12 19:06"
+  },
+  {
+    "role": "vita",
+    "text": "can i ask?",
+    "time": "2026-02-12 19:17"
   }
 ]
