@@ -573,5 +573,23 @@
     ],
     "emotional_tone": "casual, playful, lighthearted",
     "unresolved": null
+  },
+  {
+    "id": 33,
+    "timestamp_start": "2026-02-12 15:54",
+    "timestamp_end": "2026-02-12 16:01",
+    "summary": "Vita shared that she had tahu telur and pecel at a simple, non-fancy restaurant. You asked if it was Indonesian food and inquired whether she works there cooking or serving.",
+    "topics": [
+      "Indonesian food",
+      "restaurant",
+      "tahu telur",
+      "pecel"
+    ],
+    "key_facts_learned": [
+      "Vita ate at a simple restaurant (not fancy)",
+      "She had tahu telur and pecel"
+    ],
+    "emotional_tone": "casual, friendly, light-hearted",
+    "unresolved": "Vita hasn't answered whether she works at the restaurant and what role she has there"
   }
 ]
