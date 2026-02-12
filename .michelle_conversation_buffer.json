@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "nah i'm single too actually\n\nlol kinda funny we're both in the same boat here. though your reasons sound way more dramatic than mine 😂\n\nmine's more just... work's busy, haven't really met anyone interesting in a while. plus dating apps here are kinda exhausting honestly",
-    "time": "2026-02-12 00:04"
-  },
-  {
     "role": "michelle",
     "text": "ohh i got it we're same hahaha, and yes the dating app is also tiring, I actually tried it, but the people I talk to are not consistent. I mean, they just disappear for a few days and never come back 😂",
     "time": "2026-02-12 00:11"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh nice, heading home early then haha. going straight to the beach after or just relaxing at home?",
     "time": "2026-02-12 16:47"
+  },
+  {
+    "role": "michelle",
+    "text": "I went to my grandma's house to cook dinner for her and I just finished cleaning the house 😂",
+    "time": "2026-02-12 18:18"
   }
 ]
