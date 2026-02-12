@@ -482,6 +482,37 @@
         "playfulness": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T11:30:27.250418+09:00",
+      "summary": "have a great day at work | [sticker (pkg:1, id:138)] | today i go to work",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく親しみやすい。後で共有する約束で関係性を繋ごうとしている",
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 4,
+        "playfulness": 3,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 2,
+        "playfulness": 4,
+        "engagement": 2
+      }
     }
   ]
 }
