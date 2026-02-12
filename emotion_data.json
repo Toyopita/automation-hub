@@ -15925,6 +15925,48 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:53:17.339723+09:00",
+      "summary": "Well im going to sleep now ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "会話を終える自然な挨拶。言語の壁について話した後だが特に感情的ではなく、普通に終わろうとしている。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
