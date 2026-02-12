@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "😂😂😂 ",
-    "time": "09:50"
-  },
-  {
-    "role": "laura",
     "text": "Im not good at Japanese sorry ",
     "time": "09:50"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Maybe you are Just words 😂",
     "time": "19:05"
+  },
+  {
+    "role": "you",
+    "text": "Haha 😂",
+    "time": "19:09"
   }
 ]
