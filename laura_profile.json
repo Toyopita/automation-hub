@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:47:39.987640+09:00",
+  "last_updated": "2026-02-12T09:48:37.766814+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -189,7 +189,7 @@
     ],
     "formality_level": "casual with mild profanity",
     "humor_style": "laughs at hypothetical relationship obstacles and absurd scenarios (language barrier), uses repeated laughter to emphasize amusement",
-    "response_speed_tendency": "sends brief follow-up questions when expecting response ('Nothing ?')",
+    "response_speed_tendency": "sends multiple follow-up messages when expecting response ('Nothing ?'), shows impatience/concern when partner doesn't respond quickly to her questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -576,21 +576,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "not_ending_conversation_abruptly_after_boundary_acceptance",
-      "engagement_boost": 5.7,
-      "evidence": "After user accepted her timing constraint with 'Sleep well 🤍', Laura continued with commitment 'I send you tomorrow' and unprompted love declaration 'Love you bye' - giving her space to end on her own terms enabled affectionate multi-message closure rather than abrupt exit"
-    },
-    {
-      "pattern": "creating_space_for_language_practice_requests",
-      "engagement_boost": 5.8,
-      "evidence": "Laura independently requests 'Send me an audio talking in Japanese 🥺' after goodbye exchange - suggests conversation environment enables her to spontaneously request language learning content from partner even during conversation closure"
-    },
-    {
-      "pattern": "playful_teasing_about_language_comprehension",
-      "engagement_boost": 5.5,
-      "evidence": "Laura's 'Do you understand English?' followed by user's playful response 'I kinda don't understand English haha 😂' creates lighthearted language-focused banter - mutual playfulness about linguistic abilities maintains warmth"
-    },
-    {
       "pattern": "creating_space_for_practical_logistics_questions",
       "engagement_boost": 5.5,
       "evidence": "Laura feels comfortable asking practical clarifying question 'If i send Audios you dont understand anything?' about whether audio format will work - suggests conversation environment enables her to verify logistics before committing to content delivery method"
@@ -674,6 +659,21 @@
       "pattern": "allowing_her_to_verify_practical_constraints_thoroughly",
       "engagement_boost": 5.8,
       "evidence": "Laura's second comprehension verification 'I mean you really dont understand anything ?' shows she feels empowered to ask follow-up questions until satisfied with clarity - conversation environment enables her to be thorough about understanding limitations rather than accepting first answer"
+    },
+    {
+      "pattern": "honest_direct_answer_about_language_limitations",
+      "engagement_boost": 6.0,
+      "evidence": "Laura asked clarifying question 'I mean you really dont understand anything ?' and user gave direct honest answer 'I really can't baby 🥲' - confirming limitation directly while maintaining tender tone (baby + vulnerable emoji) validates her need for clarity without defensive hedging"
+    },
+    {
+      "pattern": "matching_vulnerable_emoji_when_admitting_limitations",
+      "engagement_boost": 5.8,
+      "evidence": "User's 🥲 emoji mirrors emotional tone when admitting inability to understand Japanese - shows vulnerability about limitation rather than treating it as casual fact, maintaining emotional connection despite disappointing answer"
+    },
+    {
+      "pattern": "using_endearment_with_disappointing_answer",
+      "engagement_boost": 5.9,
+      "evidence": "'I really can't baby 🥲' includes 'baby' endearment even when delivering answer that confirms language barrier - maintains warmth and affection while being honest about limitation"
     }
   ],
   "avoid_patterns": [
@@ -721,6 +721,16 @@
       "pattern": "leaving_her_question_unanswered",
       "engagement_drop": -2.1,
       "evidence": "Laura follows up with 'Nothing ?' suggesting partner hasn't responded to her previous question, indicating she's waiting for engagement"
+    },
+    {
+      "pattern": "leaving_questions_unanswered_creates_follow_up_anxiety",
+      "engagement_drop": -2.3,
+      "evidence": "Laura sent multiple messages ('Hahaha', 'Shit', 'Nothing ?', 'I mean you really dont understand anything ?') before receiving response - delay in answering her comprehension question created visible impatience/concern"
+    },
+    {
+      "pattern": "not_responding_promptly_to_clarifying_questions",
+      "engagement_drop": -2.5,
+      "evidence": "Laura's 'Nothing ?' indicates she was waiting for response to her practical question about partner's Japanese comprehension - when she asks logistics questions, she expects timely answers to plan accordingly"
     }
   ],
   "ng_topics": [],
