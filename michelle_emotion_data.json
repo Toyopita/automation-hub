@@ -823,6 +823,37 @@
         "playfulness": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T12:26:45.709547+09:00",
+      "summary": "ohh okayy i see haha, no  i usually eat lunch at 1",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく説明的。軽い笑いで親しみやすさを出している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "playfulness": -1,
+        "engagement": -1
+      }
     }
   ]
 }
