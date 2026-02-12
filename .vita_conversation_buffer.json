@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "thanks haha, you too\n\nooh nice, what kind of place do you work at again? and yeah send me the menu if it's something good 😄",
-    "time": "2026-02-12 11:38"
-  },
-  {
     "role": "vita",
     "text": "ahahaha okay, i'll let you know later",
     "time": "2026-02-12 11:57"
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "how about u?",
     "time": "2026-02-12 22:29"
+  },
+  {
+    "role": "you",
+    "text": "oh jogging on your days off, nice. i don't really have a routine like that haha, i should probably start one. mostly just walk around the neighborhood when i feel like it",
+    "time": "2026-02-12 22:38"
   }
 ]
