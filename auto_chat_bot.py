@@ -1320,7 +1320,51 @@ class MessageBudget:
         self._save()
 
     def can_send(self) -> bool:
-        return self.get_daily_remaining() > 0 and self.get_monthly_remaining() > 0
+        return self.get_monthly_remaining() > 0
+
+    def get_pace_level(self) -> str:
+        """Calculate pace level based on remaining budget / remaining days.
+
+        Returns one of: 'normal', 'moderate', 'busy', 'critical', 'hard_stop'
+        """
+        self._check_month_reset()
+        remaining = self.get_monthly_remaining()
+        if remaining <= 0:
+            return 'hard_stop'
+
+        now = datetime.now(JST)
+        days_in_month = calendar.monthrange(now.year, now.month)[1]
+        remaining_days = max(1, days_in_month - now.day + 1)
+        pace_ratio = remaining / remaining_days
+
+        if pace_ratio >= 7:
+            return 'normal'
+        elif pace_ratio >= 4:
+            return 'moderate'
+        elif pace_ratio >= 2:
+            return 'busy'
+        else:
+            return 'critical'
+
+    def get_pace_directive(self) -> str:
+        """Get prompt directive text based on current pace level."""
+        level = self.get_pace_level()
+        if level == 'normal':
+            return ""
+        elif level == 'moderate':
+            return ("PACE NOTE: You've been chatting a lot recently. Keep responses a bit shorter than usual. "
+                    "No need to ask follow-up questions every time.")
+        elif level == 'busy':
+            return ("PACE NOTE: You're having a busy week at work. You still enjoy talking to her but:\n"
+                    "- Keep messages SHORT (1-2 sentences max)\n"
+                    "- Don't always reply to farewell/reaction messages\n"
+                    '- Mention being busy naturally if it fits ("sorry been swamped at work")')
+        elif level == 'critical':
+            return ("PACE NOTE: Extremely busy period at work. Only respond to direct questions or emotional messages. "
+                    "Keep responses to ONE short sentence. Don't initiate new topics. "
+                    'If she says something like "okay" or "goodnight", stay silent or send a brief emoji.')
+        else:  # hard_stop
+            return "PACE NOTE: Do not send any message. Budget exhausted for this month."
 
 
 # ============================================================
