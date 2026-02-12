@@ -14732,6 +14732,49 @@
         "engagement": 3,
         "compatibility": 5
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:24:03.624244+09:00",
+      "summary": "Baby you Make me sooo horny 🥵🥵🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "強い性的興奮と独占欲を表現。嫉妬から始まった会話が性的な方向へ発展。彼への欲求と反応を率直に伝えている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8,
+        "compatibility": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": 2
+      }
     }
   ]
 }
