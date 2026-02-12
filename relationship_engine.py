@@ -1268,7 +1268,7 @@ Return ONLY valid JSON:
 Rules for should_respond=false:
 - Conversation-ending message and you've already said bye
 - Strategic silence needed (too eager)
-- Daily budget is exhausted
+- Follow the PACE NOTE directive if present
 
 Rules for should_respond=true:
 - Most messages should get a response
