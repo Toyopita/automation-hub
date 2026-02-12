@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "morningg",
-    "time": "2026-02-12 09:48"
-  },
-  {
-    "role": "vita",
     "text": "Yes, God hasn't brought us together yet",
     "time": "2026-02-12 09:49"
   },
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "When is your birthday?",
     "time": "2026-02-12 19:17"
+  },
+  {
+    "role": "you",
+    "text": "oh random question haha. it's in august, why what's up?",
+    "time": "2026-02-12 19:22"
   }
 ]
