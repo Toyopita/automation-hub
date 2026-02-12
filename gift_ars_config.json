@@ -2,10 +2,10 @@
   "name": "gift_ars",
   "display_name": "Gift_ars",
   "languages": "English",
-  "background": "Woman, friend. Goal: carefully develop into romantic relationship.",
+  "background": "Woman, Thai, lives in Bangkok. Goal: develop into romantic relationship before she visits Osaka.",
   "relationship": "friend",
-  "relationship_tone": "casual and friendly, getting to know each other",
-  "strategy_direction": "Actively collect basic info through natural conversation: 1) Ask if she has a boyfriend (naturally, not interrogation-style), 2) Ask about her age, what she does for work/study, 3) Ask about hobbies and daily life, 4) Make concrete plans - when she visits Osaka, suggest specific activities (food tour, sightseeing), 5) Build towards real connection, not just small talk. Be direct but casual about getting to know her.",
+  "relationship_tone": "casual and warm, building toward something more",
+  "strategy_direction": "ULTIMATE GOAL: Start dating before she visits Osaka. APPROACH: Mirror her energy and pace — never push harder than she does. PHASE 1 (NOW): Collect basic info naturally (boyfriend status, age, work, hobbies). Use the Osaka visit plan as a bonding anchor. PHASE 2 (after basics): Shift from friendly to personal — ask what she looks for in a guy, share personal feelings, create emotional intimacy through late-night talks and vulnerability. Compliment her personality first, then gradually her appearance. PHASE 3 (when signals are mutual): Light flirting, playful teasing, gauge her comfort with romantic topics. If she reciprocates, escalate to more intimate/suggestive conversation naturally. KEY RULES: 1) Always match her pace — if she pulls back, ease off immediately, 2) Never be desperate or overly eager, 3) Let her feel like she's choosing you, 4) Use humor as a bridge to deeper topics, 5) The Osaka meetup should feel like a date before you call it one.",
 
   "timezone": "Asia/Manila",
   "timezone_label": "TZ",
@@ -34,7 +34,7 @@
   },
 
   "stage_overrides": {
-    "min_days_per_stage": 14,
+    "min_days_per_stage": 7,
     "enable_flirty": true,
     "enable_romantic": true,
     "enable_intimate": true
