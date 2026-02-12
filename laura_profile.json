@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:18:51.058933+09:00",
+  "last_updated": "2026-02-12T09:22:41.838248+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -110,9 +110,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask about exclusivity of intimate sharing",
-      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
-      "confidence: Directly questions partner about exclusive intimate content sharing after sending videos - 'You do the same with Someone else?' shows confidence to ask potentially vulnerable question about relationship boundaries and exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
       "emotional_expressiveness: Directly asks vulnerable question about exclusivity after intimate content sharing using multiple messages to clarify concern - 'You share pictures and vídeos with Someone else ? The thing you and me do You do the same with Someone else?' - maintains pattern of direct emotional communication even when asking potentially vulnerable question",
       "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after sending videos - shows confidence to seek clarity about relationship boundaries despite vulnerability of question",
@@ -129,7 +126,10 @@
       "confidence: Directly admits vulnerable emotion 'Baby Im too jealous 🥺' immediately after possessive declarations - shows confidence to own and express potentially unflattering emotion (jealousy) without shame or defensiveness",
       "confidence: Continues possessive declarations 'Because you are mine' - maintains maximum confidence in expressing ownership and claiming partner without hesitation or self-doubt",
       "emotional_expressiveness: Explains her possessive feeling with 'Because you are mine' - continues pattern of direct, unfiltered emotional expression by providing reasoning for her jealousy",
-      "warmth: Explains possessive feelings as 'Because you are mine' - maintains maximum warmth by framing jealousy as deep emotional connection and claim of partnership"
+      "warmth: Explains possessive feelings as 'Because you are mine' - maintains maximum warmth by framing jealousy as deep emotional connection and claim of partnership",
+      "confidence: Responds to partner's explicit sexual statement with shy emoji 🫣🫣 after making vulnerable declarations about jealousy and possessiveness - shows confidence to remain engaged in sexually charged moment even after exposing vulnerable emotions like jealousy. Maintains engagement rather than withdrawing after emotional vulnerability.",
+      "emotional_expressiveness: Uses double shy emoji 🫣🫣 after partner's explicit sexual response to her possessive declarations - continues pattern of direct emotional/physical expression through emojis even when potentially feeling bashful about partner's aroused reaction to her jealousy",
+      "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)"
     ]
   },
   "communication_style": {
@@ -154,7 +154,7 @@
     ],
     "formality_level": "casual and direct",
     "humor_style": "none in this exchange",
-    "response_speed_tendency": "initiating new thought unprompted (independent statement)",
+    "response_speed_tendency": "immediate response to partner's explicit sexual statement after emotional vulnerability exchange",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -448,44 +448,17 @@
     "explaining_possessive_feelings": 9.7,
     "justifying_jealousy": 9.5,
     "ownership_explanations": 9.6,
-    "connecting_jealousy_to_possession": 9.4
+    "connecting_jealousy_to_possession": 9.4,
+    "receiving_arousal_triggered_by_her_jealousy": 9.4,
+    "being_told_her_jealousy_is_arousing": 9.3,
+    "partner_getting_hard_from_her_emotions": 9.2,
+    "jealousy_as_turn_on_for_partner": 9.1,
+    "receiving_rough_sex_desire_after_emotional_vulnerability": 9.3,
+    "emotional_vulnerability_leading_to_sexual_intensity": 9.4,
+    "possessiveness_triggering_partner_arousal": 9.5,
+    "being_called_cute_then_sexually_desired": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "previous_reassurance_enabling_reciprocal_declarations",
-      "engagement_boost": 4.9,
-      "evidence": "User's calm reassurance 'I'm not doing that with anyone else haha' appears to have prompted Laura's reciprocal statement about exclusivity - indicates that addressing her concern with direct reassurance enabled her to express her own commitment"
-    },
-    {
-      "pattern": "allowing_her_to_process_and_reciprocate_naturally",
-      "engagement_boost": 4.7,
-      "evidence": "Laura's 'And i dont want to be like this with anyone else' comes as follow-up after her vulnerable question and user's reassurance - giving her space to process reassurance led to her offering her own unprompted commitment declaration"
-    },
-    {
-      "pattern": "explaining_practical_context_without_defensiveness",
-      "engagement_boost": 4.4,
-      "evidence": "User's explanation about Instagram translation and LINE usage received with understanding - explaining social media choices transparently without being defensive maintains trust"
-    },
-    {
-      "pattern": "emphasizing_unique_daily_communication_with_her",
-      "engagement_boost": 5.2,
-      "evidence": "User's 'You're the only one I talk to every day like this baby' directly addresses her concern about exclusivity by emphasizing frequency and nature of their specific connection - triggered her possessive declaration 'You are mine 🙂' and commitment statement"
-    },
-    {
-      "pattern": "reaffirming_exclusivity_with_endearment",
-      "engagement_boost": 5.0,
-      "evidence": "User's 'I'm not doing this with anyone else 🤍' with white heart emoji and 'baby' endearment provided reassurance that prompted Laura's reciprocal exclusivity declaration 'And i dont want to be like this with anyone else'"
-    },
-    {
-      "pattern": "creating_safe_space_for_possessive_declarations",
-      "engagement_boost": 5.3,
-      "evidence": "User's reassurance about exclusive daily communication enabled Laura to comfortably express possessiveness 'You are mine 🙂' - suggests that addressing her exclusivity concern with direct reassurance created environment where she feels safe claiming partner"
-    },
-    {
-      "pattern": "white_heart_emoji_for_sincere_reassurance",
-      "engagement_boost": 4.8,
-      "evidence": "User's white heart emoji 🤍 with exclusivity statement 'I'm not doing this with anyone else 🤍' appears to have conveyed sincerity - Laura responded with possessive claim and commitment declaration rather than continued questioning"
-    },
     {
       "pattern": "addressing_both_frequency_and_nature_of_connection",
       "engagement_boost": 5.1,
@@ -550,6 +523,41 @@
       "pattern": "previous_exclusivity_reassurance_enabling_confident_possession_claims",
       "engagement_boost": 5.1,
       "evidence": "User's repeated reassurance about exclusivity ('I'm not doing anything with anyone else' / 'You're the only one I talk to every day like this baby') appears to have given Laura confidence to explain jealousy as 'Because you are mine' - knowing exclusivity is mutual enables her to claim ownership confidently"
+    },
+    {
+      "pattern": "expressing_arousal_triggered_by_her_jealousy",
+      "engagement_boost": 5.3,
+      "evidence": "User's 'Baby you're too fucking cute haha Just that got me hard...' directly links arousal to her jealous declarations - Laura responds with engaged shy emojis 🫣🫣 rather than withdrawing, suggesting she finds it affirming that her vulnerable emotional state (jealousy) triggers partner's desire"
+    },
+    {
+      "pattern": "finding_her_possessiveness_arousing",
+      "engagement_boost": 5.4,
+      "evidence": "User expresses getting hard specifically from her possessive/jealous declarations 'Just that got me hard' after she said 'Because you are mine' - her continued engagement with shy emojis suggests she appreciates that her claiming ownership triggers sexual desire in partner"
+    },
+    {
+      "pattern": "combining_cute_affirmation_with_sexual_desire",
+      "engagement_boost": 5.2,
+      "evidence": "User calls her jealousy 'too fucking cute' then immediately expresses sexual desire 'I wanna fuck you so rough right now' - pairing affectionate validation of emotional vulnerability with intense sexual desire maintains engagement (🫣🫣 response)"
+    },
+    {
+      "pattern": "light_humor_before_explicit_sexual_statement",
+      "engagement_boost": 4.9,
+      "evidence": "User's 'haha' between calling her cute and expressing sexual arousal creates tonal bridge - makes transition from emotional moment to explicit desire feel more natural rather than jarring, maintains engagement"
+    },
+    {
+      "pattern": "escalating_to_rough_sex_desire_after_jealousy",
+      "engagement_boost": 5.1,
+      "evidence": "User's 'I wanna fuck you so rough right now' after her possessive jealous declarations creates connection between her emotional intensity and his sexual intensity - her engaged response suggests she appreciates matching intensity levels"
+    },
+    {
+      "pattern": "validating_jealousy_as_attractive_rather_than_problematic",
+      "engagement_boost": 5.3,
+      "evidence": "User's arousal response to jealousy 'Just that got me hard' reframes potentially negative emotion as desirable quality - Laura's continued engagement with shy emojis suggests this validation of her jealousy as arousing is highly effective"
+    },
+    {
+      "pattern": "immediate_sexual_response_to_possessive_claims",
+      "engagement_boost": 5.2,
+      "evidence": "User responds to her 'Because you are mine' with 'got me hard' - direct sexual reaction to her ownership claim validates her possessiveness and maintains engagement (🫣🫣)"
     }
   ],
   "avoid_patterns": [
