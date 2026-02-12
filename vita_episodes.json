@@ -451,5 +451,40 @@
     ],
     "emotional_tone": "casual, friendly, playful",
     "unresolved": "Vita promised to share the menu later and answer what kind of place she works at"
+  },
+  {
+    "id": 26,
+    "timestamp_start": "2026-02-12 11:28",
+    "timestamp_end": "2026-02-12 12:58",
+    "summary": "Vita mentioned she was going to work and promised to share the menu with you later. She followed through by sending an image of the menu a couple hours later. You expressed interest in knowing more about her workplace.",
+    "topics": [
+      "work",
+      "food",
+      "menu",
+      "daily_life"
+    ],
+    "key_facts_learned": [
+      "Vita works at a place that has a menu (likely a restaurant/café)"
+    ],
+    "emotional_tone": "casual, friendly, playful",
+    "unresolved": "You asked what kind of place she works at, but she hasn't answered yet. The menu image was shared but not discussed."
+  },
+  {
+    "id": 27,
+    "timestamp_start": "2026-02-12 11:28",
+    "timestamp_end": "2026-02-12 12:58",
+    "summary": "Vita promised to share a menu from her workplace later. After some friendly back-and-forth, she followed through and sent two images of what appears to be the menu. The conversation had a casual, playful tone with light teasing about whether the food would be good.",
+    "topics": [
+      "food",
+      "workplace",
+      "menu",
+      "casual chat"
+    ],
+    "key_facts_learned": [
+      "Vita works at a place with a menu (likely a restaurant/café)",
+      "She follows through on promises (sent the menu as promised)"
+    ],
+    "emotional_tone": "playful, friendly, casual",
+    "unresolved": "The nature of her workplace wasn't fully clarified (you asked what kind of place but she didn't directly answer before sending the menu images)"
   }
 ]
