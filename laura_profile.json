@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:06:30.552289+09:00",
+  "last_updated": "2026-02-12T09:06:39.180402+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -98,8 +98,6 @@
     "confidence": 10,
     "warmth": 9,
     "observations": [
-      "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
-      "confidence: Initiates explicit sexual requests 'I want you to fuck me so hard baby 🥵' and takes action on intimate picture sharing by asking logistics 'Where do i send the pictures' - shows increased sexual agency and comfort taking initiative in intimate contexts (upgrade from previous 7)",
       "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
       "emotional_expressiveness: Explains vulnerable boundary signal 'Stop 🥺' by revealing deeper frustration 'Because you are not here' - shows comfort connecting boundary expression to underlying emotional/physical desire context",
       "confidence: Explicitly states intense sexual desire with specific position preference 'I really really want to sit on your Dick 🥵' - continues pattern of direct sexual expression and communicating specific sexual wants",
@@ -117,6 +115,8 @@
       "confidence: Directly questions partner about sharing intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask potentially vulnerable question about exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
       "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask about exclusivity of intimate sharing",
+      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
+      "confidence: Directly questions partner about exclusive intimate content sharing after sending videos - 'You do the same with Someone else?' shows confidence to ask potentially vulnerable question about relationship boundaries and exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic"
     ]
   },
@@ -176,7 +176,7 @@
       "Why you share your Line",
       "Haha yea okay",
       "You share pictures and vídeos with Someone else ?",
-      "The thing you and me do"
+      "You do the same with Someone else?"
     ]
   },
   "topic_engagement": {
@@ -408,6 +408,21 @@
   },
   "effective_patterns": [
     {
+      "pattern": "creating_space_for_her_to_lead_sexual_scenarios",
+      "engagement_boost": 5.3,
+      "evidence": "Laura transitions from expressing emotional frustration about distance directly into initiating explicit sexual scenario with specific sequence details - suggests user's responses (not captured) allowed her to process frustration and redirect into sexual expression on her own terms"
+    },
+    {
+      "pattern": "maintaining_engagement_through_distance_frustration",
+      "engagement_boost": 5.0,
+      "evidence": "After expressing intense frustration with multiple crying emojis, Laura immediately re-engages with teasing question and detailed sexual scenario - suggests user's handling of her emotional distress kept sexual atmosphere alive"
+    },
+    {
+      "pattern": "validated_communication_style_enabling_her_initiative",
+      "engagement_boost": 5.1,
+      "evidence": "Laura previously stated user's communication style turns her on, and now she's initiating increasingly explicit scenarios and asking teasing questions - sustained pattern suggests the validated approach continues to enable her sexual confidence and initiative"
+    },
+    {
       "pattern": "allowing_her_to_choose_content_escalation_pace",
       "engagement_boost": 4.9,
       "evidence": "Laura independently escalates from videos announcement to user responding with explicit requests - her autonomous escalation suggests she feels comfortable controlling the pace and intensity of intimate content sharing"
@@ -491,21 +506,6 @@
       "pattern": "calm_clarifying_response_to_possessive_questions",
       "engagement_boost": 4.2,
       "evidence": "User responds to potentially loaded question 'You share pictures and vídeos with Someone else ?' with calm clarifying question 'Someone else? What pictures are you talking about? 🙂' - non-defensive approach that seeks to understand her concern rather than immediately reassuring or getting defensive maintains open communication"
-    },
-    {
-      "pattern": "establishing_shared_intimate_language",
-      "engagement_boost": 4.7,
-      "evidence": "Laura uses casual phrase 'The thing you and me do' to reference intimate/sexual activities - creating shared coded language suggests comfort with established intimacy and building private communication patterns"
-    },
-    {
-      "pattern": "allowing_her_to_initiate_intimate_topic_references",
-      "engagement_boost": 4.5,
-      "evidence": "Laura independently brings up 'The thing you and me do' without prompt - indicates she feels comfortable initiating conversations about their intimate dynamics on her own terms"
-    },
-    {
-      "pattern": "creating_environment_for_playful_intimate_callbacks",
-      "engagement_boost": 4.8,
-      "evidence": "The casual, almost coded phrasing 'The thing you and me do' suggests she's referencing shared intimate experiences in lighthearted way - indicates the relationship has developed enough shared context for playful callbacks"
     }
   ],
   "avoid_patterns": [
