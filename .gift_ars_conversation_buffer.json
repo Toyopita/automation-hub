@@ -58,5 +58,10 @@
     "role": "gift_ars",
     "text": "Which city are you in?",
     "time": "2026-02-12 12:41"
+  },
+  {
+    "role": "you",
+    "text": "I'm in Tokyo. yeah I've been reading about the situation there, sounds really tough honestly. how does it affect your day-to-day?",
+    "time": "2026-02-12 12:47"
   }
 ]
