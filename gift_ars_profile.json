@@ -125,7 +125,7 @@
     {
       "pattern": "reciprocal_location_sharing",
       "engagement_boost": 1.4,
-      "evidence": "after you shared Tokyo location, immediately asked follow-up 'Which city are you in?'"
+      "evidence": "after you shared Osaka location, immediately asked follow-up 'Which city are you in?'"
     },
     {
       "pattern": "showing_empathy_for_concerns",
