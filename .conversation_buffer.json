@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "Yeah I know baby but you say later and then sometimes you forget haha",
-    "time": "09:30"
-  },
-  {
     "role": "laura",
     "text": "I talk to you when i wake up ",
     "time": "09:30"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "I don't understand, but I think we can use a translator haha 😳",
     "time": "09:46"
+  },
+  {
+    "role": "laura",
+    "text": "Nothing ? ",
+    "time": "09:47"
   }
 ]
