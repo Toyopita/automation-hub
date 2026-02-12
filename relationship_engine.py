@@ -1473,6 +1473,8 @@ AUTHENTICITY RULES (always active):
                 lines.append(f"- Origin: {b['origin']}")
             if b.get('location'):
                 lines.append(f"- Location: {b['location']}")
+            if b.get('birthday_month'):
+                lines.append(f"- Birthday: {b['birthday_month']}")
             if b.get('occupation_en'):
                 lines.append(f"- Job: {b['occupation_en']}")
             w = data.get('work', {})
