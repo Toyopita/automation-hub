@@ -48,6 +48,37 @@
         "playfulness": -1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T12:28:02.465193+09:00",
+      "summary": "Nothing just stay home and clean ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": 1,
+        "engagement": 2
+      },
+      "attachment": "avoidant",
+      "risk": "minor",
+      "note": "短く淡白な返答。距離を取っているか、あまり乗り気でない様子",
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -2,
+        "playfulness": -1,
+        "engagement": -1
+      }
     }
   ]
 }
