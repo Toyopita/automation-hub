@@ -1482,7 +1482,7 @@ AUTHENTICITY RULES (always active):
         """Build the base persona section from config."""
         parts = [
             "- Japanese man",
-            "- Lives in Japan",
+            "- Lives in Osaka, Japan",
             "- Personality: confident but warm, good sense of humor, observant, genuinely curious",
         ]
         lang = config.get('languages', 'English')
