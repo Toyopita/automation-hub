@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T11:45:09.543871+09:00",
+  "last_updated": "2026-02-12T12:16:56.411209+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -33,48 +33,564 @@
     },
     "important_dates": [],
     "misc_facts": [
-      "2026-02-11: 仕事終わりにビーチへ（車15分）、水着で過ごしている",
-      "他の男からのDMが多い（1時間で結婚の話をする人もいる）",
-      "Toyoのことは変な人じゃないと好意的に受け取っている",
-      "翻訳ツール使用に理解あり（英語コンテンツ読むのも勧めてくれた）",
-      "LINE移行もスムーズに受け入れた",
-      "好奇心旺盛で相手の生活パターンに興味を持つ",
-      "Works in cosmetics/beauty retail environment",
-      "Beauty standard in Philippines emphasizes natural beauty over makeup",
-      "Feels empathy for Toyo's exhausting work despite not doing it herself",
-      "Attended school that held monthly dance and music battles",
-      "PE class took up almost half of school hours",
-      "Single, not currently in a relationship",
-      "Someone is currently pursuing her but she rejected him for being too arrogant",
-      "Men in Philippines are very direct/forward about romantic interest",
-      "Dislikes arrogance in romantic partners",
-      "Approaches dance competitions with low-pressure mindset - focuses on enjoyment over winning",
-      "Self-describes as 'not a good dancer' despite competing regularly",
-      "Uses mental strategy of not thinking about competition context to reduce pressure during performances",
-      "Four different men have told her 'you're lucky I chose you but you rejected me' when she rejected their confessions",
-      "Uses humor (😂 emoji) when discussing frustrating romantic experiences, showing emotional resilience",
-      "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making",
-      "Has no specific material standards when dating (doesn't care about wealth or looks)",
-      "Primary dating criteria are kindness and respect",
-      "Her past experiences shaped her current dating standards (learning from negative experiences)",
-      "Finds Toyo's dating situation less dramatic than her own - suggesting she considers her rejection experiences notable/intense",
-      "Toyo is single due to work being busy and not meeting interesting people recently",
-      "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)",
-      "Has tried dating apps but had negative experience with ghosting",
-      "Finds dating apps tiring due to inconsistent communication from matches",
-      "Has been ghosted by dating app matches who disappear for days without explanation",
-      "Gave up on dating apps - only responds to people who initiate chat with her, doesn't actively browse or initiate on apps",
-      "Takes passive approach to dating - waits for interesting people to come to her rather than actively seeking",
-      "Believes dating app ghosting is a widespread problem, not isolated to her experience",
-      "Takes 'go with the flow' approach to relationships - doesn't force connections, lets comfort build naturally over time through conversation",
-      "Prioritizes mutual comfort as foundation before progressing relationship - waits for natural comfort to develop through conversation rather than rushing",
-      "Prefers organic relationship development over forced/rushed connections - aligns with her passive dating app approach of not actively pursuing",
-      "Has selective response strategy - intentionally ignores messages from people who come on too strong romantically ('chat weirdly')",
-      "Receives confessions of love from strangers very quickly/frequently ('fall in love so quickly it's almost unreal')",
-      "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying",
-      "Has developed clear strategy to identify and avoid red flag behavior in dating - actively walks away when detecting red flags",
-      "Uses cost-benefit analysis framing for relationships - views engaging with incompatible people as 'waste of time', suggesting efficiency-minded approach to dating",
-      "Go-to comfort food is ramen with rice, especially when tired"
+      {
+        "text": "2026-02-11: 仕事終わりにビーチへ（車15分）、水着で過ごしている",
+        "tags": [
+          "beach",
+          "after work",
+          "leisure",
+          "swimwear",
+          "coastal living",
+          "relaxation",
+          "短い通勤",
+          "february 2026",
+          "lifestyle",
+          "proximity to ocean"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "他の男からのDMが多い（1時間で結婚の話をする人もいる）",
+        "tags": [
+          "direct messages",
+          "online dating",
+          "unwanted attention",
+          "fast-paced courtship",
+          "marriage proposals",
+          "aggressive suitors",
+          "dating pressure",
+          "spam messages"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Toyoのことは変な人じゃないと好意的に受け取っている",
+        "tags": [
+          "toyo",
+          "positive impression",
+          "trust",
+          "favorable perception",
+          "genuine person",
+          "character assessment",
+          "好意的"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "翻訳ツール使用に理解あり（英語コンテンツ読むのも勧めてくれた）",
+        "tags": [
+          "translation tools",
+          "language barrier",
+          "understanding",
+          "english content",
+          "multilingual communication",
+          "翻訳ツール",
+          "accommodation",
+          "supportive"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "LINE移行もスムーズに受け入れた",
+        "tags": [
+          "line",
+          "messaging app",
+          "platform migration",
+          "communication transition",
+          "flexibility",
+          "adaptability",
+          "smooth transition"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "好奇心旺盛で相手の生活パターンに興味を持つ",
+        "tags": [
+          "curiosity",
+          "inquisitive",
+          "interest in others",
+          "lifestyle questions",
+          "好奇心",
+          "engagement",
+          "conversation skills"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Works in cosmetics/beauty retail environment",
+        "tags": [
+          "cosmetics",
+          "beauty",
+          "retail",
+          "sales",
+          "customer service",
+          "化粧品",
+          "店舗",
+          "work environment"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Beauty standard in Philippines emphasizes natural beauty over makeup",
+        "tags": [
+          "philippines",
+          "beauty standards",
+          "natural beauty",
+          "makeup culture",
+          "cultural norms",
+          "フィリピン",
+          "aesthetic preferences"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Feels empathy for Toyo's exhausting work despite not doing it herself",
+        "tags": [
+          "empathy",
+          "emotional intelligence",
+          "understanding",
+          "compassion",
+          "work-life balance",
+          "共感",
+          "supportive personality"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Attended school that held monthly dance and music battles",
+        "tags": [
+          "school",
+          "dance battles",
+          "music competitions",
+          "extracurricular",
+          "performance culture",
+          "monthly events",
+          "競争",
+          "philippines education"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "PE class took up almost half of school hours",
+        "tags": [
+          "physical education",
+          "pe class",
+          "school curriculum",
+          "体育",
+          "active lifestyle",
+          "exercise",
+          "education system"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Single, not currently in a relationship",
+        "tags": [
+          "single",
+          "relationship status",
+          "独身",
+          "available",
+          "not dating",
+          "unmarried"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Someone is currently pursuing her but she rejected him for being too arrogant",
+        "tags": [
+          "rejection",
+          "arrogance",
+          "suitor",
+          "dating",
+          "拒否",
+          "incompatibility",
+          "red flags",
+          "current pursuit"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Men in Philippines are very direct/forward about romantic interest",
+        "tags": [
+          "philippines",
+          "dating culture",
+          "directness",
+          "romantic advances",
+          "cultural differences",
+          "forward behavior",
+          "courtship norms"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Dislikes arrogance in romantic partners",
+        "tags": [
+          "arrogance",
+          "dealbreaker",
+          "dating preferences",
+          "傲慢",
+          "humility",
+          "relationship values",
+          "turnoffs"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Approaches dance competitions with low-pressure mindset - focuses on enjoyment over winning",
+        "tags": [
+          "dance",
+          "competition",
+          "mindset",
+          "low pressure",
+          "enjoyment",
+          "performance psychology",
+          "stress management",
+          "relaxed approach"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Self-describes as 'not a good dancer' despite competing regularly",
+        "tags": [
+          "self-perception",
+          "dance",
+          "humility",
+          "imposter syndrome",
+          "self-deprecation",
+          "modest",
+          "regular participation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses mental strategy of not thinking about competition context to reduce pressure during performances",
+        "tags": [
+          "mental strategy",
+          "performance anxiety",
+          "coping mechanism",
+          "mindfulness",
+          "pressure management",
+          "psychological tactics",
+          "competition psychology"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Four different men have told her 'you're lucky I chose you but you rejected me' when she rejected their confessions",
+        "tags": [
+          "entitlement",
+          "rejection",
+          "male entitlement",
+          "dating experiences",
+          "arrogance",
+          "four men",
+          "entitled behavior",
+          "toxic masculinity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses humor (😂 emoji) when discussing frustrating romantic experiences, showing emotional resilience",
+        "tags": [
+          "humor",
+          "emotional resilience",
+          "coping strategy",
+          "positive attitude",
+          "レジリエンス",
+          "laughter",
+          "mental strength"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Frames rejection situations as men's entitlement problem rather than self-doubt about her decision-making",
+        "tags": [
+          "self-confidence",
+          "boundary setting",
+          "victim blaming avoidance",
+          "empowerment",
+          "rejection handling",
+          "emotional maturity",
+          "external attribution"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Has no specific material standards when dating (doesn't care about wealth or looks)",
+        "tags": [
+          "dating standards",
+          "non-materialistic",
+          "wealth indifference",
+          "appearance indifference",
+          "values-based dating",
+          "inner qualities",
+          "superficiality rejection"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Primary dating criteria are kindness and respect",
+        "tags": [
+          "kindness",
+          "respect",
+          "dating criteria",
+          "relationship values",
+          "優しさ",
+          "尊重",
+          "character priorities",
+          "core values"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Her past experiences shaped her current dating standards (learning from negative experiences)",
+        "tags": [
+          "personal growth",
+          "learning from experience",
+          "past relationships",
+          "evolved standards",
+          "self-development",
+          "experience-based wisdom",
+          "dating evolution"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Finds Toyo's dating situation less dramatic than her own - suggesting she considers her rejection experiences notable/intense",
+        "tags": [
+          "comparison",
+          "dating drama",
+          "intensity",
+          "rejection experiences",
+          "perspective",
+          "relative assessment",
+          "notable experiences"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Toyo is single due to work being busy and not meeting interesting people recently",
+        "tags": [
+          "toyo",
+          "single",
+          "busy work",
+          "忙しい",
+          "dating challenges",
+          "limited social circle",
+          "work-life balance"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)",
+        "tags": [
+          "toyo",
+          "dating apps",
+          "exhaustion",
+          "疲れる",
+          "online dating fatigue",
+          "burnout",
+          "app fatigue"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Has tried dating apps but had negative experience with ghosting",
+        "tags": [
+          "dating apps",
+          "ghosting",
+          "negative experience",
+          "ゴースティング",
+          "disappointment",
+          "communication breakdown"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Finds dating apps tiring due to inconsistent communication from matches",
+        "tags": [
+          "dating apps",
+          "inconsistent communication",
+          "tiring",
+          "疲れる",
+          "unreliable matches",
+          "frustration"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Has been ghosted by dating app matches who disappear for days without explanation",
+        "tags": [
+          "ghosting",
+          "disappearing",
+          "dating apps",
+          "days without contact",
+          "inconsistency",
+          "flaky behavior",
+          "communication gap"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Gave up on dating apps - only responds to people who initiate chat with her, doesn't actively browse or initiate on apps",
+        "tags": [
+          "gave up",
+          "dating apps",
+          "passive approach",
+          "reactive strategy",
+          "諦め",
+          "minimal effort",
+          "selective engagement"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Takes passive approach to dating - waits for interesting people to come to her rather than actively seeking",
+        "tags": [
+          "passive dating",
+          "wait and see",
+          "non-pursuit",
+          "reactive approach",
+          "patience",
+          "letting opportunities come",
+          "low effort strategy"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Believes dating app ghosting is a widespread problem, not isolated to her experience",
+        "tags": [
+          "ghosting",
+          "widespread problem",
+          "common issue",
+          "systemic problem",
+          "dating app culture",
+          "normalized behavior",
+          "universal experience"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Takes 'go with the flow' approach to relationships - doesn't force connections, lets comfort build naturally over time through conversation",
+        "tags": [
+          "go with the flow",
+          "natural progression",
+          "no forcing",
+          "organic development",
+          "patience",
+          "relationship philosophy",
+          "流れに任せる"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Prioritizes mutual comfort as foundation before progressing relationship - waits for natural comfort to develop through conversation rather than rushing",
+        "tags": [
+          "mutual comfort",
+          "foundation building",
+          "conversation-based bonding",
+          "comfort priority",
+          "gradual development",
+          "trust building",
+          "安心感"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Prefers organic relationship development over forced/rushed connections - aligns with her passive dating app approach of not actively pursuing",
+        "tags": [
+          "organic relationships",
+          "natural development",
+          "anti-rushing",
+          "authentic connection",
+          "patience",
+          "non-forced",
+          "genuine bonding"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Has selective response strategy - intentionally ignores messages from people who come on too strong romantically ('chat weirdly')",
+        "tags": [
+          "selective response",
+          "ignoring messages",
+          "filtering strategy",
+          "boundary enforcement",
+          "red flag detection",
+          "protective behavior",
+          "intentional ghosting"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Receives confessions of love from strangers very quickly/frequently ('fall in love so quickly it's almost unreal')",
+        "tags": [
+          "quick confessions",
+          "love bombing",
+          "stranger declarations",
+          "unrealistic speed",
+          "frequent occurrence",
+          "premature intimacy",
+          "instant love claims"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying",
+        "tags": [
+          "humor",
+          "haha",
+          "笑い",
+          "coping mechanism",
+          "lightheartedness",
+          "frustration management",
+          "emotional regulation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Has developed clear strategy to identify and avoid red flag behavior in dating - actively walks away when detecting red flags",
+        "tags": [
+          "red flags",
+          "detection strategy",
+          "walking away",
+          "boundary setting",
+          "self-protection",
+          "dating wisdom",
+          "avoidance strategy",
+          "warning signs"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses cost-benefit analysis framing for relationships - views engaging with incompatible people as 'waste of time', suggesting efficiency-minded approach to dating",
+        "tags": [
+          "cost-benefit analysis",
+          "efficiency",
+          "time management",
+          "waste of time",
+          "pragmatic dating",
+          "rational approach",
+          "resource optimization",
+          "strategic thinking"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Go-to comfort food is ramen with rice, especially when tired",
+        "tags": [
+          "comfort food",
+          "ramen",
+          "rice",
+          "tired",
+          "疲れた時",
+          "ラーメン",
+          "food preferences",
+          "carbohydrates",
+          "simple meals"
+        ],
+        "added": "2026-02-12"
+      }
     ]
   },
   "personality": {
