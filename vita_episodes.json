@@ -225,5 +225,23 @@
     ],
     "emotional_tone": "supportive, caring, boundary-setting",
     "unresolved": null
+  },
+  {
+    "id": 13,
+    "timestamp_start": "2026-02-11 23:38",
+    "timestamp_end": "2026-02-12 00:32",
+    "summary": "Vita sent repeated stickers, then clarified she doesn't have a boyfriend and doesn't let anyone near fried food. She offered supportive advice to do whatever feels good and calm as long as it's positive, then corrected a typo about 'food'.",
+    "topics": [
+      "relationships",
+      "boundaries",
+      "self-care advice",
+      "food"
+    ],
+    "key_facts_learned": [
+      "Vita doesn't have a boyfriend",
+      "Vita has strong boundaries about fried food and who gets near it"
+    ],
+    "emotional_tone": "supportive, clarifying, lighthearted",
+    "unresolved": null
   }
 ]
