@@ -269,6 +269,7 @@ Rules:
 - Only include facts you are confident about (confidence >= 0.5)
 - Do not repeat facts already in the profile
 - If no new information, return empty arrays/objects
+- For each new_fact, include a "tags" array with 5-10 topic tags. Include synonyms, related terms, and broader categories. Example: a fact about "works at Indonesian restaurant" should have tags like ["work", "job", "occupation", "restaurant", "Indonesian", "food", "service", "employment", "hospitality", "cuisine"]
 - For humor_style: describe how she uses humor (e.g. sarcastic, playful, dry, self-deprecating, meme-based, or "rarely uses humor")
 - For response_speed_tendency: note if she replies fast/slow and under what conditions
 - For ng_topics: topics where she showed discomfort, disengagement, or negative reaction
