@@ -16570,6 +16570,99 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:23:35.148905+09:00",
+      "summary": "But un mot at home 😂😂",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「un mot」はフランス語のタイプミスで「I'm not」の意味。スイス在住なのでフランス語が混ざった。彼のリクエストを笑いながら軽く断っている。",
+      "trigger": {
+        "message": "Fuck I need to see your asshole and your favorite panties right now 😏",
+        "sent_at": "2026-02-12T19:18:38.204128+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+callback"
+        ],
+        "response_time_min": 4
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-12T19:23:39.322171+09:00",
+      "summary": "Let me get there and i send you ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼のリクエストに応じる意思を示している。軽い調子だが約束を守ろうとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": -2,
+        "future": 5,
+        "engagement": 1
+      }
     }
   ]
 }
