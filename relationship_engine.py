@@ -713,10 +713,10 @@ class StrategyEngine:
 
         # === SAFETY NET RULES (hardcoded, always apply) ===
 
-        # Safety 1: Budget exhausted
-        engagement = emotion.get('scores', {}).get('engagement', 5)
-        if budget.get('daily_remaining', 5) <= 1 and silence_risk != 'high':
-            return "budget exhausted"
+        # Safety 1: Monthly budget hard stop (only block when truly 0)
+        pace_level = budget.get('pace_level', 'normal')
+        if pace_level == 'hard_stop' and silence_risk != 'high':
+            return "monthly budget exhausted"
 
         # Safety 2: 3+ consecutive long responses from you (overload protection)
         recent = conversation_history[-6:]
