@@ -555,5 +555,23 @@
     ],
     "emotional_tone": "casual, friendly, light-hearted",
     "unresolved": null
+  },
+  {
+    "id": 32,
+    "timestamp_start": "2026-02-12 13:57",
+    "timestamp_end": "2026-02-12 15:55",
+    "summary": "YOU asked about a restaurant that looked fancy in what was presumably a photo Vita shared. Vita clarified it was a simple Indonesian restaurant serving tahu telur and pecel, not fancy at all, and sent playful stickers.",
+    "topics": [
+      "food",
+      "Indonesian cuisine",
+      "restaurants",
+      "casual chat"
+    ],
+    "key_facts_learned": [
+      "Vita eats at simple/casual restaurants",
+      "Vita is familiar with Indonesian dishes like tahu telur and pecel"
+    ],
+    "emotional_tone": "casual, playful, lighthearted",
+    "unresolved": null
   }
 ]
