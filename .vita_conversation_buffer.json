@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "have a great day at work",
-    "time": "2026-02-12 11:27"
-  },
-  {
-    "role": "vita",
     "text": "[sticker (pkg:1, id:138)]",
     "time": "2026-02-12 11:27"
   },
@@ -150,8 +145,8 @@
     "time": "2026-02-12 20:24"
   },
   {
-    "role": "you",
-    "text": "btw what do you do when you're not working? like any hobbies or stuff you're into?",
-    "time": "2026-02-12 20:28"
+    "role": "vita",
+    "text": "still a long time",
+    "time": "2026-02-12 22:01"
   }
 ]
