@@ -503,5 +503,22 @@
     ],
     "emotional_tone": "friendly, casual, appreciative",
     "unresolved": "Vita hasn't answered what kind of restaurant it is yet"
+  },
+  {
+    "id": 29,
+    "timestamp_start": "2026-02-12 11:57",
+    "timestamp_end": "2026-02-12 15:54",
+    "summary": "Vita shared photos of food (tahu telur and pecel - Indonesian dishes). YOU complimented how good it looked and asked about the restaurant type, thinking it looked fancy. Vita clarified the specific dishes being shown.",
+    "topics": [
+      "food",
+      "Indonesian cuisine",
+      "photos",
+      "dining"
+    ],
+    "key_facts_learned": [
+      "Vita eats/enjoys Indonesian food like tahu telur and pecel"
+    ],
+    "emotional_tone": "casual, friendly, lighthearted",
+    "unresolved": "Vita said she'd let YOU know about something later (context unclear from this segment)"
   }
 ]
