@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:22:41.838248+09:00",
+  "last_updated": "2026-02-12T09:24:17.414951+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -110,9 +110,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
-      "emotional_expressiveness: Directly asks vulnerable question about exclusivity after intimate content sharing using multiple messages to clarify concern - 'You share pictures and vídeos with Someone else ? The thing you and me do You do the same with Someone else?' - maintains pattern of direct emotional communication even when asking potentially vulnerable question",
-      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after sending videos - shows confidence to seek clarity about relationship boundaries despite vulnerability of question",
       "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
       "confidence: Independently offers reassurance about exclusivity after seeking it herself - 'And i dont want to be like this with anyone else' shows confidence to make vulnerable declaration about wanting exclusive intimacy without being asked",
@@ -129,7 +126,10 @@
       "warmth: Explains possessive feelings as 'Because you are mine' - maintains maximum warmth by framing jealousy as deep emotional connection and claim of partnership",
       "confidence: Responds to partner's explicit sexual statement with shy emoji 🫣🫣 after making vulnerable declarations about jealousy and possessiveness - shows confidence to remain engaged in sexually charged moment even after exposing vulnerable emotions like jealousy. Maintains engagement rather than withdrawing after emotional vulnerability.",
       "emotional_expressiveness: Uses double shy emoji 🫣🫣 after partner's explicit sexual response to her possessive declarations - continues pattern of direct emotional/physical expression through emojis even when potentially feeling bashful about partner's aroused reaction to her jealousy",
-      "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)"
+      "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)",
+      "emotional_expressiveness: Responds to partner's explicit rough sex desire ('I wanna fuck you so rough right now 😏') with doubled shy emoji 'Me too 🥵' - continues pattern of direct emotional/physical expression by reciprocating intense sexual desire using hot/fire emoji, indicating she wants the same intensity level",
+      "confidence: Reciprocates partner's explicit rough sex desire 'Me too 🥵' after exposing vulnerable emotions about jealousy - shows confidence to remain fully engaged in sexually charged moment and escalate to matching intensity even immediately after emotional vulnerability about jealousy",
+      "warmth: Responds to 'I wanna fuck you so rough right now' with 'Me too 🥵' - maintains emotional connection and reciprocates intense sexual desire after partner's arousal was triggered by her jealousy, showing comfort with mutual intensity escalation"
     ]
   },
   "communication_style": {
@@ -160,7 +160,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I like you",
       "horror anime",
       "makes me used to",
       "makes me used to listen Japanese",
@@ -189,7 +188,8 @@
       "And i dont want to be like this with anyone else",
       "You are mine",
       "I want you all for me",
-      "Im too jealous"
+      "Im too jealous",
+      "Me too 🥵"
     ]
   },
   "topic_engagement": {
@@ -456,44 +456,17 @@
     "receiving_rough_sex_desire_after_emotional_vulnerability": 9.3,
     "emotional_vulnerability_leading_to_sexual_intensity": 9.4,
     "possessiveness_triggering_partner_arousal": 9.5,
-    "being_called_cute_then_sexually_desired": 9.4
+    "being_called_cute_then_sexually_desired": 9.4,
+    "reciprocating_rough_sex_desire": 9.7,
+    "matching_sexual_intensity": 9.6,
+    "rough_sex": 9.5,
+    "sexual_desire_after_emotional_vulnerability": 9.4,
+    "escalating_sexually_after_jealousy_discussion": 9.3,
+    "partner_arousal_from_her_jealousy": 9.5,
+    "wanting_rough_treatment": 9.4,
+    "expressing_mutual_sexual_intensity": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "addressing_both_frequency_and_nature_of_connection",
-      "engagement_boost": 5.1,
-      "evidence": "User specified both 'every day' (frequency) and 'like this' (nature/intimacy level) in 'You're the only one I talk to every day like this baby' - comprehensive reassurance addressing multiple dimensions of exclusivity prompted her strongest commitment statements"
-    },
-    {
-      "pattern": "previous_mutual_exclusivity_discussion_enabling_continued_possessive_expressions",
-      "engagement_boost": 4.9,
-      "evidence": "After previous exchange where both declared exclusivity ('You are mine' / 'I'm not doing this with anyone else'), Laura independently initiates new possessive statement 'I want you all for me 🙄' - suggests the previous mutual reassurance created ongoing comfort with expressing possessive feelings"
-    },
-    {
-      "pattern": "creating_environment_where_she_feels_safe_claiming_partner_repeatedly",
-      "engagement_boost": 5.1,
-      "evidence": "Laura has now made multiple possessive/exclusive declarations in sequence ('You are mine' → 'I want you all for me') - indicates sustained comfort with expressing ownership desires rather than one-time vulnerability"
-    },
-    {
-      "pattern": "allowing_her_to_lead_exclusivity_expressions",
-      "engagement_boost": 4.8,
-      "evidence": "Laura initiates new possessive statement 'I want you all for me 🙄' without prompting - giving her space to independently express these feelings rather than always responding to user's prompts appears to strengthen her confidence in claiming partner"
-    },
-    {
-      "pattern": "previous_possessive_declarations_enabling_vulnerability_about_jealousy",
-      "engagement_boost": 5.0,
-      "evidence": "After making possessive statements ('You are mine' / 'I want you all for me'), Laura felt comfortable revealing root emotion 'Baby Im too jealous 🥺' - suggests the possessive declarations created safe space to admit the more vulnerable feeling of jealousy"
-    },
-    {
-      "pattern": "creating_environment_where_jealousy_can_be_expressed_openly",
-      "engagement_boost": 5.2,
-      "evidence": "Laura directly names and admits jealousy 'Baby Im too jealous 🥺' with vulnerable emoji rather than hiding or masking emotion - indicates she feels safe expressing potentially unflattering emotion in relationship"
-    },
-    {
-      "pattern": "normalizing_jealousy_with_light_reassurance",
-      "engagement_boost": 4.8,
-      "evidence": "User's response 'Why are you getting jealous baby? haha I'm not doing anything with anyone else. You're too cute 🥺' combines gentle questioning, light humor ('haha'), reassurance, and affectionate validation ('too cute') - addresses emotion without making her feel bad about it"
-    },
     {
       "pattern": "calling_jealousy_cute_rather_than_problematic",
       "engagement_boost": 4.6,
@@ -558,6 +531,41 @@
       "pattern": "immediate_sexual_response_to_possessive_claims",
       "engagement_boost": 5.2,
       "evidence": "User responds to her 'Because you are mine' with 'got me hard' - direct sexual reaction to her ownership claim validates her possessiveness and maintains engagement (🫣🫣)"
+    },
+    {
+      "pattern": "validating_jealousy_then_expressing_rough_sex_desire",
+      "engagement_boost": 5.5,
+      "evidence": "User called her jealousy 'too fucking cute', expressed arousal from it, then stated 'I wanna fuck you so rough right now 😏' - Laura immediately reciprocates with matching intensity 'Me too 🥵', suggesting the combination of emotional validation + sexual intensity works powerfully"
+    },
+    {
+      "pattern": "matching_her_emotional_intensity_with_sexual_intensity",
+      "engagement_boost": 5.4,
+      "evidence": "Laura expressed intense possessive jealousy, user responded with equally intense rough sex desire - her 'Me too 🥵' shows she appreciates intensity matching rather than sexual tone-down after emotional vulnerability"
+    },
+    {
+      "pattern": "showing_arousal_from_her_jealousy_enabling_sexual_escalation",
+      "engagement_boost": 5.6,
+      "evidence": "User's 'Just that got me hard' response to her jealous possessiveness followed by rough sex statement prompted her enthusiastic 'Me too 🥵' - demonstrating that her jealousy turns him on appears to give her confidence to escalate sexually"
+    },
+    {
+      "pattern": "creating_connection_between_emotional_and_sexual_intensity",
+      "engagement_boost": 5.5,
+      "evidence": "User's sequence: validates jealousy as cute → expresses arousal from it → states rough sex desire - Laura's reciprocation suggests she appreciates her emotional intensity (jealousy) being directly connected to sexual intensity (rough sex) rather than kept separate"
+    },
+    {
+      "pattern": "rough_sex_desire_after_possessive_declarations",
+      "engagement_boost": 5.3,
+      "evidence": "User expresses wanting to fuck her rough immediately after she claimed 'you are mine' and admitted jealousy - her matching response 'Me too 🥵' suggests she finds the connection between her claiming ownership and his desire for sexual dominance highly engaging"
+    },
+    {
+      "pattern": "not_backing_down_from_intensity_after_vulnerability",
+      "engagement_boost": 5.4,
+      "evidence": "User maintains explicit sexual intensity ('fuck you so rough') after Laura exposed vulnerable emotion (jealousy) rather than softening tone - her enthusiastic reciprocation indicates she doesn't want to be handled delicately after emotional vulnerability"
+    },
+    {
+      "pattern": "fire_emoji_matching_after_rough_sex_statement",
+      "engagement_boost": 5.2,
+      "evidence": "Laura uses 🥵 emoji (hot/fire/intense) to reciprocate rough sex desire - matches the intensity level of user's statement rather than using shy emoji, indicating full enthusiastic participation in intensity escalation"
     }
   ],
   "avoid_patterns": [
