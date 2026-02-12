@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:47:13.425639+09:00",
+  "last_updated": "2026-02-12T09:47:24.060816+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -188,13 +188,12 @@
     ],
     "formality_level": "casual with mild profanity",
     "humor_style": "laughs at hypothetical relationship obstacles and absurd scenarios (language barrier), uses repeated laughter to emphasize amusement",
-    "response_speed_tendency": "rapid-fire sequential messages when exploring hypothetical scenarios (4 messages in quick succession about meeting/language barrier)",
+    "response_speed_tendency": "sends brief follow-up questions when expecting response ('Nothing ?')",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "In already wet",
       "this is sooo bad",
       "Do you know what i want",
       "vidéos",
@@ -223,7 +222,8 @@
       "Send me an audio talking in Japanese",
       "Do you understand English?",
       "I send you tomorrow",
-      "Shit"
+      "Shit",
+      "Nothing ?"
     ]
   },
   "topic_engagement": {
@@ -711,6 +711,11 @@
       "pattern": "misinterpreting_stop_as_complete_disengagement",
       "engagement_drop": -3.2,
       "evidence": "Laura's 'Stop 🥺' was actually frustration about distance, not request to end sexual conversation - she immediately re-engaged with even more explicit content, so treating 'stop' as absolute rejection would have been misreading"
+    },
+    {
+      "pattern": "leaving_her_question_unanswered",
+      "engagement_drop": -2.1,
+      "evidence": "Laura follows up with 'Nothing ?' suggesting partner hasn't responded to her previous question, indicating she's waiting for engagement"
     }
   ],
   "ng_topics": [],
