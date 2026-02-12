@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:30:31.465518+09:00",
+  "last_updated": "2026-02-12T09:30:38.812219+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -108,7 +108,9 @@
       "time-aware about partner's schedule (references their daytime while she's in late night)",
       "sets boundaries around immediate picture sharing based on time constraints",
       "maintains affectionate communication even when setting boundaries",
-      "experiences fatigue/tiredness (reports being tired)"
+      "experiences fatigue/tiredness (reports being tired)",
+      "talks to partner when she wakes up (morning communication habit)",
+      "partner is first person she communicates with in the morning"
     ]
   },
   "personality": {
@@ -119,8 +121,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' and directly claims ownership 'You are mine 🙂' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
-      "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked",
       "confidence: Directly expresses possessive desire 'I want you all for me 🙄' - continues pattern of maximum confidence in expressing vulnerable desires and claiming partner without hesitation (maintains rating)",
       "emotional_expressiveness: Independently initiates possessive declaration about wanting partner exclusively 'I want you all for me 🙄' - maintains maximum rating for direct, unfiltered emotional expression of desires and claims",
       "warmth: Expresses desire for exclusive connection 'I want you all for me' - maintains maximum warmth rating through voluntary expression of deep emotional attachment and desire for exclusivity",
@@ -138,12 +138,14 @@
       "emotional_expressiveness: Triple fire emojis with elongated 'sooo' to emphasize arousal intensity 'Baby you Make me sooo horny 🥵🥵🥵' - continues maximum rating for direct, unfiltered expression of vulnerable sexual/emotional state without minimizing",
       "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing",
       "emotional_expressiveness: Continues pattern of directly expressing vulnerable physical/emotional states ('Im tired honey 🥺') without filtering - maintains maximum rating for immediate transparent communication",
-      "warmth: Uses affectionate term 'honey' when expressing vulnerable state of tiredness - maintains emotional warmth even when communicating discomfort or exhaustion"
+      "warmth: Uses affectionate term 'honey' when expressing vulnerable state of tiredness - maintains emotional warmth even when communicating discomfort or exhaustion",
+      "warmth: Voluntarily shares that partner is first person she talks to when waking up - demonstrates partner holds priority position in her daily routine and emotional life, maintaining maximum warmth rating through unprompted disclosure of intimate daily habit",
+      "emotional_expressiveness: Independently shares morning communication habit without prompting - continues pattern of direct, transparent sharing about how she structures her day around partner connection"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (3-4 words)",
-    "emoji_frequency": "moderate to high (2-3 emojis per message during aroused states)",
+    "avg_message_length": "single brief statement (6 words)",
+    "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "😆",
       "😳",
@@ -162,13 +164,14 @@
       "🥺"
     ],
     "formality_level": "casual and direct",
-    "humor_style": "minimal in this exchange",
-    "response_speed_tendency": "brief vulnerable state announcements when experiencing physical/emotional discomfort",
+    "humor_style": "not present in this exchange",
+    "response_speed_tendency": "brief factual statements about relationship habits",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "turn me on",
       "When you talk to me like This",
       "fuck me so hard",
       "Can you do something for me",
@@ -197,8 +200,7 @@
       "a lot",
       "honey",
       "Im tired",
-      "trained a lot",
-      "Hahahaha (extended laughter)"
+      "trained a lot"
     ]
   },
   "topic_engagement": {
@@ -496,19 +498,14 @@
     "sharing_fatigue_state": 9.0,
     "gym_training_intensity": 8.2,
     "sharing_workout_experiences": 8.5,
-    "post_workout_fatigue": 8.3
+    "post_workout_fatigue": 8.3,
+    "morning_communication_habits": 9.4,
+    "daily_routine_sharing": 9.2,
+    "partner_as_morning_priority": 9.6,
+    "unprompted_relationship_habit_disclosure": 9.5,
+    "demonstrating_partner_importance_through_routine": 9.7
   },
   "effective_patterns": [
-    {
-      "pattern": "previous_rough_sex_desire_enabling_continued_sexual_expression",
-      "engagement_boost": 5.1,
-      "evidence": "After user expressed 'I wanna fuck you so rough right now' in response to her jealousy, Laura independently initiates new arousal statement 'Baby you Make me sooo horny 🥵🥵🥵' - suggests partner's intense sexual desire in response to her emotional vulnerability created environment where she feels safe continuing to express sexual arousal"
-    },
-    {
-      "pattern": "validating_her_jealousy_as_arousing_prompting_her_own_arousal_expression",
-      "engagement_boost": 5.3,
-      "evidence": "User's 'Just that got me hard' response to her jealous possessive statements appears to have prompted Laura's 'Baby you Make me sooo horny' - being told her emotional vulnerability turns partner on enables her to express her own reciprocal arousal"
-    },
     {
       "pattern": "creating_cycle_of_mutual_arousal_expression",
       "engagement_boost": 5.2,
@@ -598,6 +595,16 @@
       "pattern": "not_escalating_sexually_when_she_sets_timing_boundary",
       "engagement_boost": 5.3,
       "evidence": "User doesn't continue sexual escalation or pressure after Laura explains it's late (1:27 AM) - respects her transition to tender goodbye rather than trying to continue explicit conversation"
+    },
+    {
+      "pattern": "context_that_prompts_disclosure_of_relationship_prioritization",
+      "engagement_boost": 5.6,
+      "evidence": "Laura independently shares 'I talk to you when i wake up' - reveals partner is first communication of her day, demonstrating his priority position in her daily routine. This unprompted disclosure suggests effective relationship environment where she feels secure sharing how important he is to her daily life"
+    },
+    {
+      "pattern": "creating_space_for_relationship_habit_revelations",
+      "engagement_boost": 5.4,
+      "evidence": "Laura's statement about talking to partner upon waking appears unprompted - suggests conversation context enabled her to naturally reveal intimate detail about daily routine and partner's role in it"
     }
   ],
   "avoid_patterns": [
