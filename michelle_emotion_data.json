@@ -885,6 +885,37 @@
         "playfulness": 1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T13:20:55.971676+09:00",
+      "summary": "I cook, I always eat for breakfast and dinner, but",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "日常をオープンに共有。軽い笑いで親しみやすい雰囲気",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": 1
+      }
     }
   ]
 }
