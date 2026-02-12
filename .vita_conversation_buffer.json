@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "today i go to work",
-    "time": "2026-02-12 11:28"
-  },
-  {
-    "role": "vita",
     "text": "I will share the menu with you later😉",
     "time": "2026-02-12 11:28"
   },
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh nice, you go jogging at night? or you mean like that's your plan for later?",
     "time": "2026-02-12 22:24"
+  },
+  {
+    "role": "vita",
+    "text": "later on holiday",
+    "time": "2026-02-12 22:29"
   }
 ]
