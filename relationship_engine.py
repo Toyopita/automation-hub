@@ -936,6 +936,17 @@ class StageManager:
             return stage, None  # Already at max stage
 
         next_stage = self.STAGES[stage_idx + 1]
+
+        # Config gate: check enable_flirty/romantic/intimate
+        overrides = config.get('stage_overrides', {})
+        stage_gates = {
+            "flirty": overrides.get("enable_flirty", True),
+            "romantic": overrides.get("enable_romantic", True),
+            "intimate": overrides.get("enable_intimate", False),
+        }
+        if not stage_gates.get(next_stage, True):
+            return stage, None
+
         transition_key = f"{stage}->{next_stage}"
         thresholds = self.TRANSITION_THRESHOLDS.get(transition_key)
         if not thresholds:
