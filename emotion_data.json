@@ -14775,6 +14775,99 @@
         "future": -1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:27:25.642690+09:00",
+      "summary": "Mon going to send you a lot later okay ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「Mon」は「I'm」の打ち間違い。彼の要求に応じて写真を送ると約束している。素直で従順な返答",
+      "trigger": {
+        "message": "Show me how horny you get just for me baby. I wanna see so many pictures of your beautiful body 😏 I'm gonna use them later to jerk off",
+        "sent_at": "2026-02-12T09:26:08.718230+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+media"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 6,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-12T09:27:27.682289+09:00",
+      "summary": "Is late 1:27 am ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "エロいやり取りの最中だが、今は時間が遅いから後で送ると説明している。約束は守る姿勢。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
