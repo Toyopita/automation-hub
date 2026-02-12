@@ -1102,6 +1102,37 @@
         "playfulness": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:05:02.943888+09:00",
+      "summary": "Actually, after I cooked at grandma's house earlie",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく日常を共有。親孝行エピソードで好印象を与えたい意図が見える",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
