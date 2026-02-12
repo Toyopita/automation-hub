@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:09:39.785821+09:00",
+  "last_updated": "2026-02-12T19:10:13.420170+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1399,6 +1399,38 @@
           "sexual patterns"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "uses French autocorrect/keyboard that interferes with English typing (changes 'always' to 'aleays', 'so' to 'sol', 'the' to 'thé')",
+        "tags": [
+          "french autocorrect",
+          "phone language",
+          "autocorrect errors",
+          "french phone",
+          "language mixing",
+          "typing patterns",
+          "french keyboard",
+          "autocorrect interference",
+          "bilingual typing",
+          "french device"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses playful skepticism to test partner's sincerity about romantic/sexual promises",
+        "tags": [
+          "playful skepticism",
+          "testing sincerity",
+          "promise questioning",
+          "relationship testing",
+          "trust building",
+          "accountability",
+          "action vs words",
+          "sincerity check",
+          "teasing doubt",
+          "partner validation"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1460,7 +1492,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Make me sooo horny",
       "Have a good day my love",
       "Mon (typo for I'm)",
       "sooo",
@@ -1489,7 +1520,8 @@
       "aleays (typo for 'always')",
       "sol (French autocorrect for 'so')",
       "thé (French autocorrect for 'the')",
-      "Just words (skeptical framing)"
+      "Just words (skeptical framing)",
+      "Just words"
     ]
   },
   "topic_engagement": {
@@ -1798,8 +1830,8 @@
     "recalling_previous_intimate_content_sent": 9.5,
     "referencing_past_video_sharing": 9.4,
     "offering_previously_sent_content_as_alternative": 9.3,
-    "receiving_explicit_anal_requests": 8.2,
-    "anal_related_content": 8.1,
+    "receiving_explicit_anal_requests": 8.0,
+    "anal_related_content": 7.9,
     "hole_focused_requests": 8.0,
     "delayed_picture_sharing_commitments": 9.3,
     "temporal_commitment_making": 9.3,
@@ -1903,7 +1935,8 @@
     "explicit_oral_desire_statements": 9.5,
     "receiving_promises_vs_actions": 8.2,
     "testing_partner_sincerity": 8.4,
-    "playful_skepticism_about_commitments": 8.3
+    "playful_skepticism_about_commitments": 8.3,
+    "asshole_focused_requests": 7.5
   },
   "effective_patterns": [
     {
@@ -2072,6 +2105,11 @@
       "pattern": "making_promises_without_follow_through",
       "engagement_drop": -2.4,
       "evidence": "Laura's 'Maybe you are Just words 😂' suggests partner may have made statements or promises she's questioning - indicates she values action over verbal commitments and may become skeptical if there's pattern of unfulfilled promises"
+    },
+    {
+      "pattern": "making_anal_requests_immediately_after_playful_skepticism",
+      "engagement_drop": -1.8,
+      "evidence": "Laura's 'Maybe you are Just words 😂' questioned whether partner backs up statements with action - immediately following with explicit anal request 'I wanna see your asshole baby 😏' doesn't address her skepticism and continues pattern of promises/requests without demonstrating follow-through she's testing for"
     }
   ],
   "ng_topics": [],
