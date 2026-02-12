@@ -16385,6 +16385,48 @@
         "engagement": -5,
         "ds": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:05:34.751057+09:00",
+      "summary": "Maybe you are Just words 😂",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的な発言に対して軽くからかっている。「口だけ番長」的なニュアンスで挑発的かつ遊び心のあるツッコミ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3,
+        "ds": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 2,
+        "ds": -1,
+        "playfulness": 4,
+        "future": 0,
+        "engagement": 5
+      }
     }
   ]
 }
