@@ -738,7 +738,7 @@ class Signal:
 class StageManager:
     """Track and transition relationship stages based on accumulated signals."""
 
-    STAGES = ["friends", "close_friends", "flirty", "romantic"]
+    STAGES = ["friends", "close_friends", "flirty", "romantic", "intimate"]
 
     POSITIVE_SIGNALS = {
         "initiates_conversation": 2,
@@ -792,6 +792,12 @@ class StageManager:
             "mutual_attraction": True,
             "min_longing_avg_7d": 6.0,
             "meeting_discussion": True,
+        },
+        "romantic->intimate": {
+            "min_days": 14,
+            "min_positive_score": 120,
+            "min_intimacy_avg_7d": 7.0,
+            "no_recent_risk": True,
         },
     }
 
