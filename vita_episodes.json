@@ -69,5 +69,68 @@
     ],
     "emotional_tone": "Positive, playful, friendly",
     "unresolved": "Vita hasn't answered whether she's into photography herself"
+  },
+  {
+    "id": 5,
+    "timestamp_start": "2026-02-11 22:58",
+    "timestamp_end": "2026-02-11 23:27",
+    "summary": "Vita clarified that she was referring to selfie and portrait photos YOU had sent before. She explained she follows YOU on Instagram and sees stories of photos YOU takes, but noted YOU never posts photos of yourself. This was the first time Vita has seen what YOU looks like.",
+    "topics": [
+      "photos",
+      "selfies",
+      "Instagram",
+      "social media",
+      "first impressions"
+    ],
+    "key_facts_learned": [
+      "Vita follows YOU on Instagram",
+      "Vita regularly sees YOU's Instagram stories with photos",
+      "This was Vita's first time seeing what YOU looks like",
+      "YOU had previously sent Vita a selfie and another portrait"
+    ],
+    "emotional_tone": "lighthearted, casual, playful",
+    "unresolved": null
+  },
+  {
+    "id": 6,
+    "timestamp_start": "2026-02-11 23:15",
+    "timestamp_end": "2026-02-11 23:37",
+    "summary": "Vita clarified that YOU had sent her both a selfie and portrait photo before. She mentioned she often sees YOU's Instagram stories but noted YOU never posts photos of yourself, and expressed surprise/emotion that YOU includes her as a close friend on Instagram.",
+    "topics": [
+      "photos",
+      "Instagram",
+      "self-portraits",
+      "social media",
+      "friendship"
+    ],
+    "key_facts_learned": [
+      "Vita follows YOU's Instagram stories regularly",
+      "Vita is on YOU's Instagram close friends list",
+      "Vita had never seen photos of YOU before receiving the selfie and portrait",
+      "Vita observes that YOU typically photographs everything except yourself"
+    ],
+    "emotional_tone": "playful, lighthearted, touched/appreciative",
+    "unresolved": null
+  },
+  {
+    "id": 7,
+    "timestamp_start": "2026-02-11 22:58",
+    "timestamp_end": "2026-02-11 23:37",
+    "summary": "Vita clarified that she's seen both a selfie and portrait photo that YOU sent before, but noted that YOU rarely posts self-photos on Instagram stories despite being active with photography content. She mentioned YOU has her on close friends list and seems touched by that inclusion.",
+    "topics": [
+      "photography",
+      "Instagram",
+      "self-image",
+      "social media sharing",
+      "close friends"
+    ],
+    "key_facts_learned": [
+      "Vita follows YOU's Instagram stories regularly",
+      "Vita is on YOU's Instagram close friends list",
+      "Vita had never seen what YOU looked like before receiving those photos",
+      "Vita notices YOU posts photography content frequently but rarely includes self-portraits"
+    ],
+    "emotional_tone": "playful, slightly vulnerable, appreciative",
+    "unresolved": null
   }
 ]
