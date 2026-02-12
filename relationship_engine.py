@@ -1444,6 +1444,7 @@ AUTHENTICITY RULES (always active):
             emotion_section=emotion_section,
             daily_remaining=budget.get('daily_remaining', '?'),
             monthly_remaining=budget.get('monthly_remaining', '?'),
+            pace_directive=budget.get('pace_directive', ''),
             episode_memory=episode_memory,
             conversation_history=history_text,
             messages=messages_text,
