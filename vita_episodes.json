@@ -434,5 +434,22 @@
     ],
     "emotional_tone": "playful, friendly, casual",
     "unresolved": "Vita promised to share the menu later; you asked what kind of place she works at (unanswered)"
+  },
+  {
+    "id": 25,
+    "timestamp_start": "2026-02-12 11:27",
+    "timestamp_end": "2026-02-12 11:57",
+    "summary": "Vita shared that she's going to work today and promised to share the menu with you later. You asked what kind of place she works at and expressed interest in seeing the menu if it's good. She confirmed she'll send it later.",
+    "topics": [
+      "work",
+      "food",
+      "daily_life",
+      "menu"
+    ],
+    "key_facts_learned": [
+      "Vita has a job where there's a menu (likely restaurant/café work)"
+    ],
+    "emotional_tone": "casual, friendly, playful",
+    "unresolved": "Vita promised to share the menu later and answer what kind of place she works at"
   }
 ]
