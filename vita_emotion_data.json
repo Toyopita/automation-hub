@@ -544,6 +544,37 @@
         "playfulness": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T15:56:55.708951+09:00",
+      "summary": "tahu telur and pecel | simple restaurant, not fancy | [sticker (pkg:1, id:10)]",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "食事の情報を共有。親しみやすく自然な会話",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": -1,
+        "engagement": 2
+      }
     }
   ]
 }
