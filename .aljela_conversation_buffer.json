@@ -1,0 +1,17 @@
+[
+  {
+    "role": "aljela",
+    "text": "Hi ",
+    "time": "2026-02-12 11:01"
+  },
+  {
+    "role": "you",
+    "text": "hey! how's it going?",
+    "time": "2026-02-12 11:12"
+  },
+  {
+    "role": "aljela",
+    "text": "Everything is good ",
+    "time": "2026-02-12 11:27"
+  }
+]
