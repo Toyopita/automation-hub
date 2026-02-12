@@ -16335,6 +16335,56 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:05:17.489008+09:00",
+      "summary": "Haha ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3,
+        "ds": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的なメッセージに対する軽い反応。完全に乗り気ではないが、拒絶もしていない中立的な笑い",
+      "trigger": {
+        "message": "Fuck yeah 😏 I need your throat around me every day baby",
+        "sent_at": "2026-02-12T18:41:26.559748+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 23
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": -3,
+        "longing": -1,
+        "eros": -3,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": -5,
+        "ds": 0
+      }
     }
   ]
 }
