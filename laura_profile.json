@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:27:52.045531+09:00",
+  "last_updated": "2026-02-12T09:28:15.583207+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -474,21 +474,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_space_for_emotional_explanation",
-      "engagement_boost": 5.0,
-      "evidence": "After Laura admitted 'Baby Im too jealous 🥺' and user responded with gentle questioning and reassurance, she felt comfortable explaining root cause 'Because you are mine' - giving her space to process and explain rather than immediately dismissing emotion enabled deeper vulnerability"
-    },
-    {
-      "pattern": "normalizing_jealousy_prompting_explanation",
-      "engagement_boost": 4.8,
-      "evidence": "User's gentle 'Why are you getting jealous baby?' with light humor and reassurance appears to have prompted Laura to explain reasoning 'Because you are mine' - asking why without judgment creates opening for her to articulate emotional logic"
-    },
-    {
-      "pattern": "previous_exclusivity_reassurance_enabling_confident_possession_claims",
-      "engagement_boost": 5.1,
-      "evidence": "User's repeated reassurance about exclusivity ('I'm not doing anything with anyone else' / 'You're the only one I talk to every day like this baby') appears to have given Laura confidence to explain jealousy as 'Because you are mine' - knowing exclusivity is mutual enables her to claim ownership confidently"
-    },
-    {
       "pattern": "expressing_arousal_triggered_by_her_jealousy",
       "engagement_boost": 5.3,
       "evidence": "User's 'Baby you're too fucking cute haha Just that got me hard...' directly links arousal to her jealous declarations - Laura responds with engaged shy emojis 🫣🫣 rather than withdrawing, suggesting she finds it affirming that her vulnerable emotional state (jealousy) triggers partner's desire"
@@ -572,6 +557,21 @@
       "pattern": "future_sexual_intent_with_her_content",
       "engagement_boost": 5.2,
       "evidence": "User's 'I'm gonna use them later to jerk off' communicates that her pictures will continue to arouse him beyond this conversation - suggests sustained sexual desire rather than momentary interest"
+    },
+    {
+      "pattern": "positive_reception_to_exclusive_intimate_content_framing",
+      "engagement_boost": 5.5,
+      "evidence": "After user's 'Show me how horny you get just for me baby' with emphasis on exclusivity and stated masturbation intent, Laura responds with affectionate kiss emoji 😚 - suggests she positively received the exclusive framing of intimate content request"
+    },
+    {
+      "pattern": "kiss_emoji_as_affirmative_response_to_intimate_requests",
+      "engagement_boost": 5.3,
+      "evidence": "Laura's 😚 emoji appears to function as warm affirmative acknowledgment of user's explicit picture request and masturbation intent - kiss emoji suggests comfort and affection in response to sexual request"
+    },
+    {
+      "pattern": "creating_good_day_closure_after_intense_moments",
+      "engagement_boost": 5.1,
+      "evidence": "User's 'Have a good day my love 😘' provides tender closure after intense sexual/emotional exchange - Laura's kiss emoji 😚 response suggests appreciation for maintaining warmth and care after explicit content"
     }
   ],
   "avoid_patterns": [
