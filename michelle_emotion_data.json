@@ -947,6 +947,37 @@
         "playfulness": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T16:01:59.979947+09:00",
+      "summary": "yes for me, jollibee's gravy and ketchup are tasti",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "軽快で親しみやすい食べ物の好みシェア。リラックスした雰囲気",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": 1,
+        "engagement": 0
+      }
     }
   ]
 }
