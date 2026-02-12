@@ -1,0 +1,255 @@
+[
+  {
+    "id": 1,
+    "timestamp_start": "2026-02-11 21:50",
+    "timestamp_end": "2026-02-11 22:39",
+    "summary": "Discussed Michelle's dance competition win last December where she reused graduation choreography. She teaches dances to others after learning them first. Conversation shifted to dating—she's single, rejected a guy for being too arrogant, and noted that guys there are very direct about their interest.",
+    "topics": [
+      "dance competition",
+      "choreography",
+      "teaching dance",
+      "dating culture",
+      "being single",
+      "rejection"
+    ],
+    "key_facts_learned": [
+      "Won a dance competition last December",
+      "Learns dances first then teaches them to others",
+      "Doesn't consider herself a good dancer, just enjoys it without pressure",
+      "Currently single, not interested in dating",
+      "Recently rejected someone for being arrogant",
+      "Local guys are very direct/forward when pursuing women"
+    ],
+    "emotional_tone": "Light-hearted, casual, honest",
+    "unresolved": "Question about whether she's not looking or just hasn't found the right person yet—conversation appears to have ended before her response"
+  },
+  {
+    "id": 2,
+    "timestamp_start": "2026-02-11 21:58",
+    "timestamp_end": "2026-02-11 22:42",
+    "summary": "Michelle explained her dance teaching process - she learns moves first then teaches them. Conversation shifted to dating life: she's single and frustrated with local men's arrogance. Four guys have told her she's 'lucky they chose her' after she rejected them, which she finds absurd.",
+    "topics": [
+      "dancing",
+      "teaching",
+      "dating",
+      "local culture",
+      "rejection",
+      "arrogance"
+    ],
+    "key_facts_learned": [
+      "Michelle is currently single",
+      "She's being pursued by someone but rejected him for being arrogant",
+      "Local men are very direct about their interest",
+      "She's experienced arrogant responses from four different men after rejecting them",
+      "She doesn't like the attitude of men in her area"
+    ],
+    "emotional_tone": "Lighthearted frustration, humorous annoyance",
+    "unresolved": null
+  },
+  {
+    "id": 3,
+    "timestamp_start": "2026-02-11 22:30",
+    "timestamp_end": "2026-02-11 22:43",
+    "summary": "Michelle explained her approach to dancing - she doesn't see herself as a good dancer but enjoys it without pressure. She's single and discussed the dating culture where she lives, where men are very direct and often arrogant, with four men telling her she was 'lucky they chose her' after she rejected them.",
+    "topics": [
+      "dancing",
+      "dating_culture",
+      "relationship_status",
+      "local_men",
+      "rejection_experiences"
+    ],
+    "key_facts_learned": [
+      "Michelle is currently single",
+      "Men in her area are typically very direct and forward with romantic interest",
+      "She's been pursued by multiple men (at least four) who reacted arrogantly to rejection",
+      "Someone is currently pursuing her but she rejected him for being too arrogant",
+      "She doesn't like the attitude of most men in her area"
+    ],
+    "emotional_tone": "lighthearted, humorous, slightly frustrated",
+    "unresolved": null
+  },
+  {
+    "id": 4,
+    "timestamp_start": "2026-02-11 22:34",
+    "timestamp_end": "2026-02-11 22:48",
+    "summary": "Michelle shared she's single and explained the dating culture where she lives - guys are very direct and forward. She's rejected four different men who all had arrogant attitudes, responding to rejection with entitled comments like 'you're lucky I chose you.' She finds the local dating scene exhausting.",
+    "topics": [
+      "dating culture",
+      "rejection experiences",
+      "relationship status",
+      "cultural differences"
+    ],
+    "key_facts_learned": [
+      "Michelle is single and not currently dating",
+      "She lives somewhere where men are very direct/forward about their interest",
+      "She's rejected four men who all reacted with arrogant entitlement",
+      "She finds the local men's attitudes off-putting"
+    ],
+    "emotional_tone": "lighthearted frustration, amused exasperation",
+    "unresolved": null
+  },
+  {
+    "id": 5,
+    "timestamp_start": "2026-02-11 22:39",
+    "timestamp_end": "2026-02-11 22:48",
+    "summary": "Michelle opened up about why she's single - she's had bad experiences with arrogant men in her area who react poorly to rejection (four guys told her she was 'lucky' they chose her). She also revealed her last relationship was controlling, with her ex being very strict and forbidding many things she wanted to do. YOU was sympathetic and agreed those rejection responses were wild.",
+    "topics": [
+      "dating culture",
+      "past relationship",
+      "arrogant men",
+      "being single by choice",
+      "controlling ex"
+    ],
+    "key_facts_learned": [
+      "Michelle is single by choice due to negative experiences with local men's attitudes",
+      "Four men have told her she was 'lucky' they chose her after she rejected them",
+      "Her last relationship was controlling - her ex was very strict and forbade almost everything she did",
+      "She values freedom and prefers being single to dealing with that dynamic again"
+    ],
+    "emotional_tone": "candid, slightly frustrated but humorous",
+    "unresolved": null
+  },
+  {
+    "id": 6,
+    "timestamp_start": "2026-02-11 22:42",
+    "timestamp_end": "2026-02-11 23:14",
+    "summary": "Michelle explained why she's single - she's faced arrogant men (four!) who said she was 'lucky' they chose her when she rejected them. She also opened up about her last relationship being very controlling and restrictive, which is why she now values her freedom so much.",
+    "topics": [
+      "dating culture",
+      "past relationship trauma",
+      "personal boundaries",
+      "controlling ex",
+      "valuing freedom"
+    ],
+    "key_facts_learned": [
+      "Four men told her she was 'lucky' they chose her after she rejected them",
+      "Her last relationship was very controlling - almost everything she did was forbidden or considered wrong",
+      "She values freedom now specifically because of that controlling past relationship"
+    ],
+    "emotional_tone": "candid, reflective, relieved to be free",
+    "unresolved": null
+  },
+  {
+    "id": 7,
+    "timestamp_start": "2026-02-11 22:43",
+    "timestamp_end": "2026-02-11 23:24",
+    "summary": "Michelle opened up about her past controlling relationship where almost everything she did was forbidden. She revealed it ended when he cheated, which she now sees as a blessing that helped her wake up and leave, though she admits she used to struggle letting go in relationships.",
+    "topics": [
+      "past relationships",
+      "controlling behavior",
+      "cheating",
+      "personal growth",
+      "freedom"
+    ],
+    "key_facts_learned": [
+      "Michelle's last relationship was very controlling - partner was strict and forbade almost everything she did",
+      "The relationship ended when he cheated on her",
+      "She views the cheating as a blessing because it woke her up to leave",
+      "She describes herself as someone who has trouble letting go and holds on to things when it comes to love",
+      "This past experience is why she now values her freedom and prefers being single"
+    ],
+    "emotional_tone": "Reflective, relieved, self-aware",
+    "unresolved": null
+  },
+  {
+    "id": 8,
+    "timestamp_start": "2026-02-11 22:48",
+    "timestamp_end": "2026-02-11 23:38",
+    "summary": "Michelle shared details about her past controlling relationship where her ex was very strict and forbade almost everything she did. She explained she's grateful he cheated because it helped her wake up and leave, though she admits she used to struggle with letting go. She revealed her current dating standards: doesn't care about wealth or looks, just wants someone kind and respectful.",
+    "topics": [
+      "past_relationship",
+      "controlling_ex",
+      "personal_growth",
+      "dating_standards",
+      "freedom"
+    ],
+    "key_facts_learned": [
+      "Her ex was very controlling and strict, forbade almost everything she did",
+      "He cheated on her, which prompted her to finally leave",
+      "She used to struggle with letting go in relationships",
+      "Her only dating standards now are kindness and respect - doesn't care about wealth or looks"
+    ],
+    "emotional_tone": "Reflective, grateful, resilient",
+    "unresolved": null
+  },
+  {
+    "id": 9,
+    "timestamp_start": "2026-02-11 22:48",
+    "timestamp_end": "2026-02-11 23:44",
+    "summary": "Michelle opened up about her past controlling relationship where her ex was very strict and forbade almost everything she did. She shared that his cheating was actually a 'blessing' that woke her up and gave her the strength to leave, though she admits she used to struggle letting go. Now her only dating standards are kindness and respect—looks and money don't matter after what she's been through.",
+    "topics": [
+      "past relationship trauma",
+      "controlling ex-partner",
+      "personal growth",
+      "dating standards",
+      "self-worth"
+    ],
+    "key_facts_learned": [
+      "Her ex-boyfriend was extremely controlling and strict, forbidding most things she did",
+      "He cheated on her, which became the catalyst for her to leave",
+      "She describes herself as having been 'stupid when it comes to love' and struggles to let go of relationships",
+      "Her only dating standards now are kindness and respect—appearance and wealth don't matter to her"
+    ],
+    "emotional_tone": "Reflective, healed, self-aware",
+    "unresolved": null
+  },
+  {
+    "id": 10,
+    "timestamp_start": "2026-02-11 23:14",
+    "timestamp_end": "2026-02-11 23:50",
+    "summary": "Continued discussing Michelle's past controlling relationship. She explained that his cheating was actually a blessing because it helped her finally leave, though she usually struggles to let go. She shared that her past has shaped her dating standards - she doesn't care about wealth or looks anymore, only wants kindness and respect. She then asked if YOU are in a relationship.",
+    "topics": [
+      "past_relationships",
+      "personal_growth",
+      "dating_standards",
+      "relationship_values"
+    ],
+    "key_facts_learned": [
+      "Michelle admits she's 'stupid when it comes to love' and struggles to let go of relationships",
+      "Her ex's cheating was what finally got her to leave the controlling relationship",
+      "She has no standards about wealth or physical appearance in dating - only cares about kindness and respect",
+      "This lack of material standards is directly because of her past experiences"
+    ],
+    "emotional_tone": "reflective, relieved, hopeful",
+    "unresolved": "Michelle asked if YOU are in a relationship - question not yet answered"
+  },
+  {
+    "id": 11,
+    "timestamp_start": "2026-02-11 23:24",
+    "timestamp_end": "2026-02-12 00:04",
+    "summary": "Michelle explained her dating philosophy shaped by past trauma - she values kindness and respect over looks or money after learning from being cheated on. She asked about your relationship status, and you shared you're also single, citing busy work and exhausting dating apps rather than dramatic past relationships.",
+    "topics": [
+      "dating standards",
+      "relationship status",
+      "past relationships",
+      "personal values"
+    ],
+    "key_facts_learned": [
+      "Michelle has no standards regarding wealth or looks when dating - only wants kind and respectful partners",
+      "The cheating was actually a blessing because it helped her wake up and leave quickly, which was hard for her since she tends to hold on to things",
+      "Michelle is currently single"
+    ],
+    "emotional_tone": "candid, lighthearted, mutually vulnerable",
+    "unresolved": null
+  },
+  {
+    "id": 12,
+    "timestamp_start": "2026-02-11 23:38",
+    "timestamp_end": "2026-02-12 00:11",
+    "summary": "Michelle shared her dating standards—kind and respectful partners matter most to her, not looks or money, shaped by her past experiences. Both revealed they're single, finding dating apps exhausting; Michelle noted people on apps often ghost after a few days.",
+    "topics": [
+      "dating standards",
+      "relationship status",
+      "dating apps",
+      "ghosting",
+      "past experiences"
+    ],
+    "key_facts_learned": [
+      "Michelle is currently single",
+      "Michelle has tried dating apps but found people inconsistent and prone to ghosting",
+      "Michelle's dating standards (kind and respectful) stem from her past experiences"
+    ],
+    "emotional_tone": "lighthearted, relatable, mutually understanding",
+    "unresolved": null
+  }
+]
