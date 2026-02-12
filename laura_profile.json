@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:55:24.290654+09:00",
+  "last_updated": "2026-02-12T12:18:04.727618+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -31,120 +31,1279 @@
     },
     "important_dates": [],
     "misc_facts": [
-      "learning Japanese (currently paused)",
-      "currently experiencing high workload",
-      "sleeps early",
-      "uses Instagram but wants to delete account",
-      "finds Japanese very difficult",
-      "watches linguistic content on YouTube",
-      "currently working during this conversation time",
-      "comfortable with explicit sexual communication in established relationship",
-      "experiences interruptions to intimate conversations due to work",
-      "works during late evening/night hours (working around midnight JST)",
-      "willing to share pictures of herself when partner wants to see her",
-      "goes to gym later in the day (not morning)",
-      "likes foreplay/buildup before sex ('previous game before having sex')",
-      "deliberately avoids posting Instagram stories",
-      "receives compliments from strangers about her appearance",
-      "finds Instagram distracting",
-      "has deleted Instagram multiple times due to it interfering with real life",
-      "goes to the bank for errands",
-      "receives compliments from elderly men about her appearance",
-      "planning to avoid posting Instagram stories for extended period due to distraction concerns",
-      "goes to gym after work (late evening/night, not before 1am)",
-      "interested in whether partner likes anime",
-      "uses Japanese listening practice to get accustomed to the language",
-      "announces bedtime to partner before sleeping",
-      "uses anime to get accustomed to listening to Japanese",
-      "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')",
-      "sends pictures from bed (bedtime context)",
-      "uses kissing emoji for goodnight messages",
-      "verbally expresses being turned on by partner's communication style",
-      "comfortable explicitly stating arousal to partner",
-      "explicitly requests sexual activity from partner ('fuck me so hard')",
-      "initiates explicit sexual requests during aroused state",
-      "uses fire/hot emoji 🥵 when expressing intense sexual desire",
-      "asks where to send pictures when multiple chat options available",
-      "has multiple chat channels with partner",
-      "willing to send intimate pictures during sexually charged conversations",
-      "expresses frustration about physical distance from partner during aroused states",
-      "explicitly expresses desire for specific sexual positions (riding)",
-      "connects emotional vulnerability signals to physical distance frustration",
-      "experiences physical arousal during explicit sexual conversations with partner",
-      "expresses frustration about physical distance during aroused states intensely",
-      "uses crying emojis to express intense emotional/physical frustration",
-      "continues explicit sexual conversation after expressing frustration about distance",
-      "sends videos to partner through alternative chat channel",
-      "uses alternative chat channel for video sharing (not just pictures)",
-      "takes initiative to send intimate content (videos) without prompt during sexually charged moments",
-      "initiates explicit sexual scenarios involving oral and riding position preferences",
-      "uses French spelling for some English words ('vidéos' instead of 'videos')",
-      "interested in breast play/titty fucking",
-      "asks about partner's location/availability during intimate moments",
-      "questions partner's actions/decisions (asked why partner shared Line app)",
-      "uses French language influence in English (uses 'vidéos' instead of 'videos')",
-      "uses LINE app for communicating with English-speaking friends",
-      "partner uses translation features for smooth communication on LINE",
-      "laughs at partner's social media/app usage decisions",
-      "asks about whether partner shares intimate content with others (possessive/exclusive interest in intimate content sharing)",
-      "uses French spelling 'vídeos' with accent (confirms French language influence pattern)",
-      "sensitive about exclusivity of intimate content sharing with partner",
-      "asks clarifying questions when feeling uncertain about relationship boundaries",
-      "concerned about exclusivity of intimate content sharing with partner",
-      "seeks reassurance about relationship exclusivity after intimate exchanges",
-      "wants exclusive intimate relationship with partner (explicitly states not wanting same intimacy with anyone else)",
-      "possessive about romantic/intimate relationship with partner ('You are mine')",
-      "explicitly declares desire for exclusive intimate relationship ('I dont want to be like this with anyone else')",
-      "uses smile emoji with possessive statements",
-      "explains her vulnerable questions are motivated by claiming partner as hers",
-      "explicitly expresses desire for exclusive romantic/intimate relationship with partner ('I want you all for me')",
-      "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)",
-      "describes herself as 'too jealous' about romantic partner",
-      "experiences jealousy in romantic relationship context",
-      "self-aware about her jealous tendencies",
-      "stays up late (awake at 1:27 AM)",
-      "promises to send pictures later when time doesn't permit immediately",
-      "initiates affectionate goodbyes when ending conversations late at night",
-      "uses typos when typing quickly during aroused/excited states ('Mon' instead of 'I'm')",
-      "time-aware about partner's schedule (references their daytime while she's in late night)",
-      "sets boundaries around immediate picture sharing based on time constraints",
-      "maintains affectionate communication even when setting boundaries",
-      "experiences fatigue/tiredness (reports being tired)",
-      "talks to partner when she wakes up (morning communication habit)",
-      "partner is first person she communicates with in the morning",
-      "mentions videos sent previously (has sent videos to partner before)",
-      "has sent videos to partner before (references previous video content)",
-      "keeps/remembers previously sent intimate content",
-      "commits to sending pictures the next day when unable to send immediately",
-      "requests partner to send Japanese audio messages",
-      "initiates requests for Japanese language practice content from partner",
-      "uses pleading emoji when making Japanese practice requests",
-      "asks about partner's English comprehension (possibly context-dependent question)",
-      "initiates unprompted love declarations during goodbyes",
-      "requests Japanese audio messages from partner for language practice",
-      "confirms partner doesn't fully understand English (playful context)",
-      "makes time-specific commitments for picture sharing (tomorrow)",
-      "concerned partner may not understand her Japanese audio messages",
-      "willing to send audio messages in Japanese despite uncertainty about comprehension",
-      "checks partner's comprehension capabilities before sending content",
-      "concerned about language barrier in hypothetical future in-person meeting",
-      "anticipates communication challenges from partner's limited English comprehension",
-      "finds humor in future in-person meeting language barrier scenario",
-      "considers hypothetical in-person meeting scenario with partner",
-      "proposes using translator for future in-person communication despite language barrier",
-      "partner suggests translator as solution for language barrier in hypothetical meeting",
-      "uses 'Shit' as exclamation in standalone messages",
-      "clarifies partner's Japanese comprehension level (confirming partner doesn't understand Japanese)",
-      "uses multiple standalone exclamations when frustrated or surprised ('Shit' repeated)",
-      "expresses surprise or confusion through repeated exclamations before elaborating",
-      "self-conscious about Japanese language ability (apologizes for not being good at Japanese)",
-      "apologizes for language limitations",
-      "acknowledges Japanese is difficult and feels comfortable admitting limitation to partner",
-      "uses laughter to diffuse potentially awkward moments about language barriers",
-      "finds humor in shared language learning struggles with partner",
-      "announces bedtime to partner as part of routine",
-      "maintains emotional warmth even when tired and preparing for bed",
-      "expresses gratitude for video content shared"
+      {
+        "text": "learning Japanese (currently paused)",
+        "tags": [
+          "japanese language",
+          "language learning",
+          "paused goals",
+          "education",
+          "study",
+          "hiatus",
+          "self-improvement"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "currently experiencing high workload",
+        "tags": [
+          "busy",
+          "overworked",
+          "high workload",
+          "work stress",
+          "time pressure",
+          "professional demands"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "sleeps early",
+        "tags": [
+          "sleep schedule",
+          "early bedtime",
+          "sleep habits",
+          "rest",
+          "circadian rhythm",
+          "bedtime routine"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses Instagram but wants to delete account",
+        "tags": [
+          "instagram",
+          "social media",
+          "account deletion",
+          "digital detox",
+          "platform usage",
+          "app management"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds Japanese very difficult",
+        "tags": [
+          "japanese difficulty",
+          "language barriers",
+          "learning challenges",
+          "complex language",
+          "study struggles"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "watches linguistic content on YouTube",
+        "tags": [
+          "youtube",
+          "linguistics",
+          "educational content",
+          "video consumption",
+          "language content",
+          "online learning"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "currently working during this conversation time",
+        "tags": [
+          "working",
+          "multitasking",
+          "availability",
+          "busy",
+          "professional time",
+          "work hours"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "comfortable with explicit sexual communication in established relationship",
+        "tags": [
+          "sexual communication",
+          "intimacy",
+          "relationship comfort",
+          "explicit talk",
+          "sexual openness",
+          "established relationship"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "experiences interruptions to intimate conversations due to work",
+        "tags": [
+          "work interruptions",
+          "intimacy disruption",
+          "conversation breaks",
+          "professional interference",
+          "multitasking challenges"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "works during late evening/night hours (working around midnight JST)",
+        "tags": [
+          "night shift",
+          "late hours",
+          "midnight work",
+          "evening schedule",
+          "unconventional hours",
+          "night worker"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "willing to share pictures of herself when partner wants to see her",
+        "tags": [
+          "picture sharing",
+          "photo exchange",
+          "visual intimacy",
+          "partner requests",
+          "image sending",
+          "relationship sharing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "goes to gym later in the day (not morning)",
+        "tags": [
+          "gym",
+          "evening exercise",
+          "fitness schedule",
+          "workout timing",
+          "afternoon gym",
+          "fitness routine"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "likes foreplay/buildup before sex ('previous game before having sex')",
+        "tags": [
+          "foreplay",
+          "sexual buildup",
+          "intimacy preferences",
+          "sexual pacing",
+          "sexual preferences",
+          "arousal"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "deliberately avoids posting Instagram stories",
+        "tags": [
+          "instagram stories",
+          "social media avoidance",
+          "posting habits",
+          "digital boundaries",
+          "story posting"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "receives compliments from strangers about her appearance",
+        "tags": [
+          "compliments",
+          "appearance",
+          "attractiveness",
+          "stranger attention",
+          "physical beauty",
+          "external validation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds Instagram distracting",
+        "tags": [
+          "distraction",
+          "instagram impact",
+          "attention fragmentation",
+          "focus issues",
+          "digital distraction"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "has deleted Instagram multiple times due to it interfering with real life",
+        "tags": [
+          "instagram deletion",
+          "real life interference",
+          "social media impact",
+          "repeated deletion",
+          "digital detox"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "goes to the bank for errands",
+        "tags": [
+          "bank",
+          "errands",
+          "financial tasks",
+          "banking",
+          "administrative tasks",
+          "daily chores"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "receives compliments from elderly men about her appearance",
+        "tags": [
+          "elderly admirers",
+          "compliments",
+          "appearance validation",
+          "older men",
+          "public attention",
+          "stranger remarks"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "planning to avoid posting Instagram stories for extended period due to distraction concerns",
+        "tags": [
+          "instagram avoidance",
+          "story posting ban",
+          "distraction prevention",
+          "social media boundaries",
+          "digital discipline"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "goes to gym after work (late evening/night, not before 1am)",
+        "tags": [
+          "gym schedule",
+          "late workout",
+          "post-work exercise",
+          "night gym",
+          "evening fitness",
+          "workout timing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "interested in whether partner likes anime",
+        "tags": [
+          "anime interest",
+          "partner preferences",
+          "shared interests",
+          "conversation topics",
+          "anime"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses Japanese listening practice to get accustomed to the language",
+        "tags": [
+          "listening practice",
+          "japanese immersion",
+          "audio learning",
+          "language exposure",
+          "listening comprehension"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "announces bedtime to partner before sleeping",
+        "tags": [
+          "bedtime announcement",
+          "goodnight routine",
+          "sleep communication",
+          "partner notification",
+          "bedtime habits"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses anime to get accustomed to listening to Japanese",
+        "tags": [
+          "anime",
+          "japanese practice",
+          "listening immersion",
+          "language learning tool",
+          "media consumption"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses anime specifically for Japanese listening practice ('makes me used to listen Japanese')",
+        "tags": [
+          "anime listening",
+          "japanese exposure",
+          "language immersion",
+          "listening training",
+          "comprehension practice"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "sends pictures from bed (bedtime context)",
+        "tags": [
+          "bedtime pictures",
+          "intimate photos",
+          "nighttime sharing",
+          "bed context",
+          "personal photos"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses kissing emoji for goodnight messages",
+        "tags": [
+          "kissing emoji",
+          "goodnight messages",
+          "affection symbols",
+          "emoji use",
+          "romantic gestures"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "verbally expresses being turned on by partner's communication style",
+        "tags": [
+          "arousal expression",
+          "turned on",
+          "sexual excitement",
+          "verbal arousal",
+          "partner communication"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "comfortable explicitly stating arousal to partner",
+        "tags": [
+          "arousal statements",
+          "sexual comfort",
+          "explicit sharing",
+          "intimacy openness",
+          "desire expression"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "explicitly requests sexual activity from partner ('fuck me so hard')",
+        "tags": [
+          "sexual requests",
+          "explicit desire",
+          "rough sex",
+          "intensity preference",
+          "sexual initiation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "initiates explicit sexual requests during aroused state",
+        "tags": [
+          "aroused initiation",
+          "sexual requests",
+          "desire expression",
+          "explicit communication",
+          "sexual agency"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses fire/hot emoji 🥵 when expressing intense sexual desire",
+        "tags": [
+          "fire emoji",
+          "sexual emoji",
+          "arousal symbols",
+          "hot emoji",
+          "intense desire",
+          "emoji communication"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks where to send pictures when multiple chat options available",
+        "tags": [
+          "chat options",
+          "multiple platforms",
+          "picture destination",
+          "communication channels",
+          "platform choice"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "has multiple chat channels with partner",
+        "tags": [
+          "multiple chats",
+          "communication platforms",
+          "chat channels",
+          "messaging apps",
+          "multi-platform"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "willing to send intimate pictures during sexually charged conversations",
+        "tags": [
+          "intimate pictures",
+          "sexual content",
+          "aroused sharing",
+          "photo exchange",
+          "intimate photos"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "expresses frustration about physical distance from partner during aroused states",
+        "tags": [
+          "distance frustration",
+          "physical separation",
+          "long distance",
+          "arousal frustration",
+          "geographical barrier"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "explicitly expresses desire for specific sexual positions (riding)",
+        "tags": [
+          "riding position",
+          "sexual positions",
+          "position preference",
+          "intimacy desires",
+          "sexual specifics"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "connects emotional vulnerability signals to physical distance frustration",
+        "tags": [
+          "emotional vulnerability",
+          "distance frustration",
+          "physical separation",
+          "emotional expression",
+          "relationship distance"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "experiences physical arousal during explicit sexual conversations with partner",
+        "tags": [
+          "physical arousal",
+          "sexual conversation",
+          "bodily response",
+          "excitement",
+          "intimate chat"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "expresses frustration about physical distance during aroused states intensely",
+        "tags": [
+          "intense frustration",
+          "distance pain",
+          "separation anxiety",
+          "arousal frustration",
+          "emotional intensity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses crying emojis to express intense emotional/physical frustration",
+        "tags": [
+          "crying emoji",
+          "frustration emoji",
+          "emotional expression",
+          "emoji use",
+          "intense feelings"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "continues explicit sexual conversation after expressing frustration about distance",
+        "tags": [
+          "continued intimacy",
+          "sexual conversation",
+          "persistent desire",
+          "ongoing explicit chat",
+          "sexual dialogue"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "sends videos to partner through alternative chat channel",
+        "tags": [
+          "video sharing",
+          "alternative chat",
+          "content sending",
+          "video exchange",
+          "platform switching"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses alternative chat channel for video sharing (not just pictures)",
+        "tags": [
+          "video channel",
+          "alternative platform",
+          "video sharing",
+          "multimedia exchange",
+          "communication channel"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "takes initiative to send intimate content (videos) without prompt during sexually charged moments",
+        "tags": [
+          "initiative",
+          "unprompted sharing",
+          "intimate videos",
+          "proactive sending",
+          "sexual spontaneity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "initiates explicit sexual scenarios involving oral and riding position preferences",
+        "tags": [
+          "sexual scenarios",
+          "oral sex",
+          "riding position",
+          "explicit preferences",
+          "sexual initiation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses French spelling for some English words ('vidéos' instead of 'videos')",
+        "tags": [
+          "french spelling",
+          "language influence",
+          "bilingual",
+          "french accent",
+          "spelling variation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "interested in breast play/titty fucking",
+        "tags": [
+          "breast play",
+          "titty fucking",
+          "sexual interests",
+          "chest focus",
+          "sexual preferences"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks about partner's location/availability during intimate moments",
+        "tags": [
+          "partner location",
+          "availability check",
+          "intimate timing",
+          "presence inquiry",
+          "location question"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "questions partner's actions/decisions (asked why partner shared Line app)",
+        "tags": [
+          "questioning decisions",
+          "partner inquiry",
+          "app sharing",
+          "curiosity",
+          "relationship questions"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses French language influence in English (uses 'vidéos' instead of 'videos')",
+        "tags": [
+          "french influence",
+          "bilingual writing",
+          "language mixing",
+          "french spelling",
+          "multilingual"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses LINE app for communicating with English-speaking friends",
+        "tags": [
+          "line app",
+          "messaging platform",
+          "english friends",
+          "communication tool",
+          "app usage"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "partner uses translation features for smooth communication on LINE",
+        "tags": [
+          "translation features",
+          "line translation",
+          "communication bridge",
+          "language tools",
+          "smooth communication"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "laughs at partner's social media/app usage decisions",
+        "tags": [
+          "laughter",
+          "partner teasing",
+          "social media humor",
+          "app decisions",
+          "playful response"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks about whether partner shares intimate content with others (possessive/exclusive interest in intimate content sharing)",
+        "tags": [
+          "possessive interest",
+          "exclusivity concern",
+          "intimate content",
+          "relationship boundaries",
+          "jealous inquiry"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses French spelling 'vídeos' with accent (confirms French language influence pattern)",
+        "tags": [
+          "french accent mark",
+          "bilingual spelling",
+          "language pattern",
+          "french influence",
+          "accented writing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "sensitive about exclusivity of intimate content sharing with partner",
+        "tags": [
+          "exclusivity sensitivity",
+          "intimate boundaries",
+          "content sharing concern",
+          "relationship possessiveness",
+          "partner exclusivity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks clarifying questions when feeling uncertain about relationship boundaries",
+        "tags": [
+          "boundary questions",
+          "relationship uncertainty",
+          "clarification seeking",
+          "communication needs",
+          "relationship security"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "concerned about exclusivity of intimate content sharing with partner",
+        "tags": [
+          "exclusivity concern",
+          "intimate sharing",
+          "relationship boundaries",
+          "partner exclusivity",
+          "content privacy"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "seeks reassurance about relationship exclusivity after intimate exchanges",
+        "tags": [
+          "reassurance seeking",
+          "relationship security",
+          "post-intimacy needs",
+          "exclusivity confirmation",
+          "emotional needs"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "wants exclusive intimate relationship with partner (explicitly states not wanting same intimacy with anyone else)",
+        "tags": [
+          "exclusive intimacy",
+          "monogamous desire",
+          "partner commitment",
+          "relationship exclusivity",
+          "intimate exclusivity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "possessive about romantic/intimate relationship with partner ('You are mine')",
+        "tags": [
+          "possessiveness",
+          "romantic claim",
+          "relationship ownership",
+          "partner possession",
+          "exclusive bond"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "explicitly declares desire for exclusive intimate relationship ('I dont want to be like this with anyone else')",
+        "tags": [
+          "exclusive desire",
+          "relationship uniqueness",
+          "intimate exclusivity",
+          "partner commitment",
+          "monogamous intent"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses smile emoji with possessive statements",
+        "tags": [
+          "smile emoji",
+          "possessive communication",
+          "emoji expression",
+          "playful possessiveness",
+          "emotional symbols"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "explains her vulnerable questions are motivated by claiming partner as hers",
+        "tags": [
+          "vulnerability explanation",
+          "possessive motivation",
+          "partner claiming",
+          "emotional transparency",
+          "relationship reasoning"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "explicitly expresses desire for exclusive romantic/intimate relationship with partner ('I want you all for me')",
+        "tags": [
+          "exclusive relationship",
+          "possessive desire",
+          "romantic exclusivity",
+          "partner ownership",
+          "relationship commitment"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)",
+        "tags": [
+          "rolling eyes emoji",
+          "playful exasperation",
+          "possessive tone",
+          "emoji communication",
+          "emotional nuance"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "describes herself as 'too jealous' about romantic partner",
+        "tags": [
+          "self-described jealous",
+          "jealousy awareness",
+          "possessive nature",
+          "relationship trait",
+          "emotional intensity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "experiences jealousy in romantic relationship context",
+        "tags": [
+          "jealousy",
+          "romantic insecurity",
+          "possessive feelings",
+          "relationship emotions",
+          "partner jealousy"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "self-aware about her jealous tendencies",
+        "tags": [
+          "self-awareness",
+          "jealousy recognition",
+          "emotional intelligence",
+          "trait acknowledgment",
+          "personal insight"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "stays up late (awake at 1:27 AM)",
+        "tags": [
+          "late night",
+          "night owl",
+          "sleep schedule",
+          "late hours",
+          "nocturnal",
+          "1am awake"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "promises to send pictures later when time doesn't permit immediately",
+        "tags": [
+          "deferred sharing",
+          "picture promise",
+          "time constraints",
+          "delayed sending",
+          "future commitment"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "initiates affectionate goodbyes when ending conversations late at night",
+        "tags": [
+          "affectionate goodbye",
+          "late night farewell",
+          "conversation ending",
+          "nighttime closure",
+          "warm departure"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses typos when typing quickly during aroused/excited states ('Mon' instead of 'I'm')",
+        "tags": [
+          "typos",
+          "quick typing",
+          "aroused typing",
+          "typing errors",
+          "excited mistakes"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "time-aware about partner's schedule (references their daytime while she's in late night)",
+        "tags": [
+          "time zone awareness",
+          "schedule consciousness",
+          "partner timing",
+          "timezone consideration",
+          "time sensitivity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "sets boundaries around immediate picture sharing based on time constraints",
+        "tags": [
+          "time boundaries",
+          "delayed sharing",
+          "constraint communication",
+          "boundary setting",
+          "timing limits"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "maintains affectionate communication even when setting boundaries",
+        "tags": [
+          "affectionate boundaries",
+          "warm limits",
+          "gentle refusal",
+          "caring communication",
+          "boundary warmth"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "experiences fatigue/tiredness (reports being tired)",
+        "tags": [
+          "fatigue",
+          "tiredness",
+          "exhaustion",
+          "energy depletion",
+          "sleepiness",
+          "worn out"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "talks to partner when she wakes up (morning communication habit)",
+        "tags": [
+          "morning routine",
+          "wake up communication",
+          "first contact",
+          "morning habit",
+          "daily ritual"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "partner is first person she communicates with in the morning",
+        "tags": [
+          "priority communication",
+          "morning partner",
+          "first person",
+          "relationship priority",
+          "morning routine"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "mentions videos sent previously (has sent videos to partner before)",
+        "tags": [
+          "previous videos",
+          "past content",
+          "video history",
+          "prior sharing",
+          "content reference"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "has sent videos to partner before (references previous video content)",
+        "tags": [
+          "video history",
+          "past sharing",
+          "previous content",
+          "intimate videos",
+          "prior exchange"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "keeps/remembers previously sent intimate content",
+        "tags": [
+          "content memory",
+          "saved content",
+          "intimate archive",
+          "remembering sharing",
+          "content retention"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "commits to sending pictures the next day when unable to send immediately",
+        "tags": [
+          "next day promise",
+          "picture commitment",
+          "delayed sharing",
+          "future sending",
+          "tomorrow plan"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "requests partner to send Japanese audio messages",
+        "tags": [
+          "japanese audio",
+          "voice messages",
+          "language practice request",
+          "audio learning",
+          "partner recording"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "initiates requests for Japanese language practice content from partner",
+        "tags": [
+          "practice requests",
+          "japanese content",
+          "learning initiative",
+          "language help",
+          "study requests"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses pleading emoji when making Japanese practice requests",
+        "tags": [
+          "pleading emoji",
+          "request emphasis",
+          "cute asking",
+          "emoji persuasion",
+          "playful request"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks about partner's English comprehension (possibly context-dependent question)",
+        "tags": [
+          "english comprehension",
+          "language ability",
+          "understanding check",
+          "communication inquiry",
+          "language question"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "initiates unprompted love declarations during goodbyes",
+        "tags": [
+          "unprompted affection",
+          "love declaration",
+          "spontaneous emotion",
+          "goodbye love",
+          "affection initiative"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "requests Japanese audio messages from partner for language practice",
+        "tags": [
+          "japanese audio request",
+          "voice practice",
+          "language learning",
+          "audio messages",
+          "practice material"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "confirms partner doesn't fully understand English (playful context)",
+        "tags": [
+          "english limitation",
+          "language barrier",
+          "comprehension acknowledgment",
+          "playful confirmation",
+          "communication gap"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "makes time-specific commitments for picture sharing (tomorrow)",
+        "tags": [
+          "time commitment",
+          "tomorrow promise",
+          "specific timing",
+          "future plan",
+          "scheduled sharing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "concerned partner may not understand her Japanese audio messages",
+        "tags": [
+          "comprehension concern",
+          "japanese understanding",
+          "language barrier worry",
+          "communication anxiety",
+          "understanding doubt"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "willing to send audio messages in Japanese despite uncertainty about comprehension",
+        "tags": [
+          "language uncertainty",
+          "willing sharing",
+          "comprehension risk",
+          "communication attempt",
+          "uncertain exchange"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "checks partner's comprehension capabilities before sending content",
+        "tags": [
+          "comprehension check",
+          "ability verification",
+          "pre-sending inquiry",
+          "understanding confirmation",
+          "language assessment"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "concerned about language barrier in hypothetical future in-person meeting",
+        "tags": [
+          "meeting concern",
+          "future barrier",
+          "in-person worry",
+          "communication challenge",
+          "language obstacle"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "anticipates communication challenges from partner's limited English comprehension",
+        "tags": [
+          "anticipated difficulty",
+          "meeting challenge",
+          "language limitation",
+          "future communication",
+          "barrier awareness"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds humor in future in-person meeting language barrier scenario",
+        "tags": [
+          "language humor",
+          "barrier comedy",
+          "meeting laughter",
+          "communication joke",
+          "funny situation"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "considers hypothetical in-person meeting scenario with partner",
+        "tags": [
+          "hypothetical meeting",
+          "future scenario",
+          "in-person thought",
+          "meeting imagination",
+          "relationship future"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "proposes using translator for future in-person communication despite language barrier",
+        "tags": [
+          "translator solution",
+          "communication tool",
+          "language bridge",
+          "meeting plan",
+          "barrier solution"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "partner suggests translator as solution for language barrier in hypothetical meeting",
+        "tags": [
+          "partner suggestion",
+          "translator idea",
+          "communication solution",
+          "language tool",
+          "barrier workaround"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses 'Shit' as exclamation in standalone messages",
+        "tags": [
+          "profanity",
+          "shit exclamation",
+          "cursing",
+          "strong language",
+          "standalone swearing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "clarifies partner's Japanese comprehension level (confirming partner doesn't understand Japanese)",
+        "tags": [
+          "language clarification",
+          "japanese comprehension",
+          "ability confirmation",
+          "understanding level",
+          "communication clarity"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses multiple standalone exclamations when frustrated or surprised ('Shit' repeated)",
+        "tags": [
+          "repeated exclamations",
+          "frustration expression",
+          "surprise reaction",
+          "multiple swearing",
+          "emotional emphasis"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "expresses surprise or confusion through repeated exclamations before elaborating",
+        "tags": [
+          "exclamation pattern",
+          "surprise communication",
+          "confusion expression",
+          "pre-elaboration reaction",
+          "emotional processing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "self-conscious about Japanese language ability (apologizes for not being good at Japanese)",
+        "tags": [
+          "language insecurity",
+          "japanese apology",
+          "ability consciousness",
+          "skill limitation",
+          "learning humility"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "apologizes for language limitations",
+        "tags": [
+          "apologizing",
+          "limitation acknowledgment",
+          "language apology",
+          "self-deprecation",
+          "humble admission"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "acknowledges Japanese is difficult and feels comfortable admitting limitation to partner",
+        "tags": [
+          "difficulty acknowledgment",
+          "comfortable admission",
+          "language struggle",
+          "partner openness",
+          "limitation sharing"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses laughter to diffuse potentially awkward moments about language barriers",
+        "tags": [
+          "humor deflection",
+          "awkward diffusion",
+          "language laughter",
+          "barrier humor",
+          "tension relief"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds humor in shared language learning struggles with partner",
+        "tags": [
+          "shared struggle",
+          "learning humor",
+          "mutual difficulty",
+          "language bonding",
+          "common challenge"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "announces bedtime to partner as part of routine",
+        "tags": [
+          "bedtime routine",
+          "sleep announcement",
+          "nighttime ritual",
+          "partner notification",
+          "goodbye routine"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "maintains emotional warmth even when tired and preparing for bed",
+        "tags": [
+          "tired warmth",
+          "bedtime affection",
+          "exhausted kindness",
+          "emotional maintenance",
+          "sleepy love"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "expresses gratitude for video content shared",
+        "tags": [
+          "gratitude expression",
+          "video appreciation",
+          "content thanks",
+          "thankfulness",
+          "appreciative response"
+        ],
+        "added": "2026-02-12"
+      }
     ]
   },
   "personality": {
