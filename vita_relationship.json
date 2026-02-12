@@ -66,14 +66,32 @@
       ]
     },
     "negative": {
-      "total_score": 0,
-      "recent_7d": [],
-      "history": []
+      "total_score": -2,
+      "recent_7d": [
+        {
+          "signal_type": "negative",
+          "signal_name": "short_one_word_responses",
+          "weight": -2,
+          "evidence": "Low engagement score: 1",
+          "timestamp": "2026-02-12T20:24:34.317389+09:00",
+          "date": "2026-02-12"
+        }
+      ],
+      "history": [
+        {
+          "signal_type": "negative",
+          "signal_name": "short_one_word_responses",
+          "weight": -2,
+          "evidence": "Low engagement score: 1",
+          "timestamp": "2026-02-12T20:24:34.317389+09:00",
+          "date": "2026-02-12"
+        }
+      ]
     }
   },
   "transition_readiness": {
-    "days_in_stage": 17,
-    "consecutive_positive_days": 8,
+    "days_in_stage": 18,
+    "consecutive_positive_days": 9,
     "last_risk_event": null,
     "blocked_until": null
   },
@@ -84,7 +102,7 @@
     "balance_score": 0.5
   },
   "topic_history": [],
-  "total_exchanges": 17,
+  "total_exchanges": 18,
   "total_days_active": 0,
   "notes": []
 }
