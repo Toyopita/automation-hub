@@ -591,5 +591,39 @@
     ],
     "emotional_tone": "casual, friendly, light-hearted",
     "unresolved": "Vita hasn't answered whether she works at the restaurant and what role she has there"
+  },
+  {
+    "id": 34,
+    "timestamp_start": "2026-02-12 15:55",
+    "timestamp_end": "2026-02-12 16:14",
+    "summary": "Casual conversation about Vita's work at what appears to be an Indonesian restaurant. YOU asked about her role there, and Vita confirmed she handles multiple responsibilities including cooking, serving, and finance department work.",
+    "topics": [
+      "work",
+      "indonesian restaurant",
+      "job responsibilities"
+    ],
+    "key_facts_learned": [
+      "Vita works at an Indonesian restaurant doing cooking, serving, and finance work"
+    ],
+    "emotional_tone": "casual, friendly, light",
+    "unresolved": null
+  },
+  {
+    "id": 35,
+    "timestamp_start": "2026-02-12 15:55",
+    "timestamp_end": "2026-02-12 16:14",
+    "summary": "Vita described her workplace as a simple, not fancy Indonesian restaurant. When asked about her role, she revealed she handles multiple responsibilities including both cooking and serving customers, as well as managing the finance department.",
+    "topics": [
+      "work",
+      "restaurant",
+      "job responsibilities",
+      "Indonesian food"
+    ],
+    "key_facts_learned": [
+      "Works at a simple Indonesian restaurant",
+      "Has multiple roles: cooking, serving, and finance management"
+    ],
+    "emotional_tone": "casual, matter-of-fact, friendly",
+    "unresolved": null
   }
 ]
