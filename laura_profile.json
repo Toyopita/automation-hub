@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T08:58:02.783769+09:00",
+  "last_updated": "2026-02-12T09:00:25.735338+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -80,7 +80,10 @@
       "interested in breast play/titty fucking",
       "asks about partner's location/availability during intimate moments",
       "questions partner's actions/decisions (asked why partner shared Line app)",
-      "uses French language influence in English (uses 'vidéos' instead of 'videos')"
+      "uses French language influence in English (uses 'vidéos' instead of 'videos')",
+      "uses LINE app for communicating with English-speaking friends",
+      "partner uses translation features for smooth communication on LINE",
+      "laughs at partner's social media/app usage decisions"
     ]
   },
   "personality": {
@@ -379,24 +382,21 @@
     "questioning_partner_line_sharing": 6.5,
     "reacting_to_partner_actions_with_laughter": 7.8,
     "responding_to_visual_requests_with_continued_initiative": 9.4,
-    "multiple_sexual_scenarios_in_sequence": 9.6
+    "multiple_sexual_scenarios_in_sequence": 9.6,
+    "oral_to_riding_sexual_sequence": 9.7,
+    "describing_wetness_from_her_oral": 9.5,
+    "video_sharing_announcement": 9.5,
+    "partner_home_location_during_intimate_moments": 8.2,
+    "breast_focused_explicit_scenarios": 9.6,
+    "titty_fucking_desire": 9.5,
+    "questioning_partner_line_app_sharing": 6.8,
+    "laughing_at_partner_social_media_decisions": 7.9,
+    "partner_instagram_story_content": 7.2,
+    "partner_communication_app_choices": 7.0,
+    "partner_translation_tool_usage": 6.5,
+    "partner_friend_communication_methods": 6.2
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_her_explicit_position_preference",
-      "engagement_boost": 4.4,
-      "evidence": "After Laura states 'I really really want to sit on your Dick 🥵', user continues sexual engagement with detailed foreplay description - acknowledging her explicit desire by continuing intimate conversation validates her sexual expression"
-    },
-    {
-      "pattern": "continuing_explicit_sexual_engagement_after_distance_frustration",
-      "engagement_boost": 4.6,
-      "evidence": "After Laura expresses intense frustration about distance with crying emojis, user's continued explicit sexual description about oral attention maintains sexual atmosphere - she had just stated being wet and wanting to sit on partner, so continuing intimate conversation validates her arousal state despite distance obstacle"
-    },
-    {
-      "pattern": "specific_pleasure_focused_descriptions_during_her_arousal",
-      "engagement_boost": 4.5,
-      "evidence": "User's 'I'd lick your pussy until I've had enough baby, then give your clit all my attention 🤤🤍' provides detailed pleasure-focused scenario after she states explicit arousal ('In already wet') - continuing with specific attention promises when she's physically aroused appears to maintain engagement"
-    },
     {
       "pattern": "oral_sex_promises_with_extended_attention_emphasis",
       "engagement_boost": 4.4,
@@ -481,6 +481,21 @@
       "pattern": "allowing_space_between_her_rapid_fire_scenarios",
       "engagement_boost": 5.0,
       "evidence": "Laura sent 5 messages in sequence covering oral-to-riding scenario, video announcement, location check, breast play proposal, and Line question - user appears to have given her space to fully express multiple thoughts before responding, enabling her sexual narrative control"
+    },
+    {
+      "pattern": "casual_explanation_of_app_usage_without_defensiveness",
+      "engagement_boost": 3.8,
+      "evidence": "User responds to Laura's laughing question about Line sharing with simple practical explanation 'It's just easier to talk with friends in English on LINE. I can translate stuff smoothly here' - straightforward answer without over-explaining maintains casual tone"
+    },
+    {
+      "pattern": "acknowledging_her_observation_before_explaining",
+      "engagement_boost": 3.5,
+      "evidence": "User starts with 'Oh the Instagram story thing? haha' before explaining - acknowledges what she's referring to and matches her lighthearted emoji usage with 'haha', creating conversational flow"
+    },
+    {
+      "pattern": "not_disrupting_sexual_atmosphere_with_overly_serious_explanation",
+      "engagement_boost": 4.2,
+      "evidence": "After Laura's sequence of explicit sexual messages and videos, her Line question with laughing emojis appears playful - user's brief practical explanation doesn't kill sexual energy by being too lengthy or serious"
     }
   ],
   "avoid_patterns": [
