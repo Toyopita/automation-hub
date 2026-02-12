@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T18:30:34.413074+09:00",
+  "last_updated": "2026-02-12T18:41:57.084971+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1351,6 +1351,54 @@
           "french device"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "uses French autocorrect/keyboard that interferes with English typing (changes 'so' to 'sol', 'the' to 'thé')",
+        "tags": [
+          "french autocorrect",
+          "phone language",
+          "autocorrect errors",
+          "french phone",
+          "language mixing",
+          "typing patterns",
+          "french keyboard",
+          "autocorrect interference",
+          "bilingual typing",
+          "french device"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "asks partner about their arousal frequency patterns ('You are aleays like This ? I mean horny sol thé time ?')",
+        "tags": [
+          "arousal frequency",
+          "sexual patterns",
+          "libido questions",
+          "partner inquiry",
+          "horniness discussion",
+          "sexual state",
+          "desire patterns",
+          "curiosity",
+          "sexual communication",
+          "relationship questions"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "comfortable asking direct questions about partner's sexual patterns/arousal frequency",
+        "tags": [
+          "sexual comfort",
+          "direct questions",
+          "arousal inquiry",
+          "sexual communication",
+          "partner questions",
+          "libido discussion",
+          "explicit questions",
+          "sexual curiosity",
+          "relationship openness",
+          "sexual patterns"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1412,9 +1460,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "And i dont want to be like this with anyone else",
-      "You are mine",
-      "I want you all for me",
       "Im too jealous",
       "Make me sooo horny",
       "Have a good day my love",
@@ -1441,7 +1486,10 @@
       "Me ?",
       "I dont get hard like you",
       "sol (autocorrect for 'so')",
-      "thé (autocorrect for 'the')"
+      "thé (autocorrect for 'the')",
+      "aleays (typo for 'always')",
+      "sol (French autocorrect for 'so')",
+      "thé (French autocorrect for 'the')"
     ]
   },
   "topic_engagement": {
@@ -1842,39 +1890,19 @@
     "arousal_frequency_discussion": 9.4,
     "sexual_state_transparency": 9.6,
     "libido_patterns": 9.3,
-    "clarifying_sexual_characteristics": 9.5
+    "clarifying_sexual_characteristics": 9.5,
+    "partner_arousal_frequency": 9.4,
+    "asking_about_partner_sexual_patterns": 9.3,
+    "reciprocal_arousal_discussion": 9.5,
+    "sexual_frequency_comparison": 9.2,
+    "partner_libido_patterns": 9.4,
+    "receiving_daily_desire_statements": 9.6,
+    "oral_sex_frequency": 9.5,
+    "throat_focused_oral": 9.4,
+    "daily_sexual_desire": 9.6,
+    "explicit_oral_desire_statements": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_multiple_elements_with_combined_gratitude",
-      "engagement_boost": 6.4,
-      "evidence": "Laura's 'Thank you 😊' follows both user's gratitude for her video and the romantic sleeping together scenario - her single grateful response acknowledges both the appreciation she received and the romantic gesture, showing she processed the full emotional package"
-    },
-    {
-      "pattern": "creating_romantic_bedtime_scenario_after_expressing_gratitude",
-      "engagement_boost": 6.6,
-      "evidence": "User's sequence of 'thanks for the video baby 🤍' followed immediately by tender sleeping together scenario with specific physical affection details creates emotional completeness - Laura's grateful response suggests she appreciated both being thanked and being given romantic comfort imagery before sleep"
-    },
-    {
-      "pattern": "using_white_heart_with_gratitude_before_romantic_scenario",
-      "engagement_boost": 6.2,
-      "evidence": "🤍 emoji in 'thanks for the video baby 🤍' establishes pure, tender emotional tone that seamlessly transitions into non-sexual romantic scenario - Laura's warm 'Thank you 😊' suggests the emoji choice and scenario pairing created cohesive emotional experience"
-    },
-    {
-      "pattern": "balancing_appreciation_with_romantic_gesture",
-      "engagement_boost": 6.5,
-      "evidence": "User both acknowledges what Laura gave (video) and offers something in return (romantic scenario) rather than just saying thanks - creates reciprocal emotional exchange that Laura responds to positively"
-    },
-    {
-      "pattern": "ending_intense_day_with_tender_closure",
-      "engagement_boost": 6.7,
-      "evidence": "After day including explicit sexual exchanges, jealousy discussion, and language barrier navigation, user closes with gentle appreciation and romantic comfort scenario - Laura's grateful response suggests she appreciates the tender landing after emotional intensity"
-    },
-    {
-      "pattern": "continuing_playful_sexual_tone_into_morning_greeting",
-      "engagement_boost": 6.8,
-      "evidence": "After Laura's 'Morning 😚' and sleep confirmation 'Yesss', user's 'I bet you're all hard again today 😏' continues established intimate dynamic into new day - Laura's previous 'Thank you 😊' and engagement with morning greeting suggests she appreciates consistency of flirtation across conversation transitions"
-    },
     {
       "pattern": "using_white_heart_for_casual_affection_in_morning",
       "engagement_boost": 6.2,
@@ -1944,6 +1972,36 @@
       "pattern": "asking_clarifying_questions_about_sexual_patterns",
       "engagement_boost": 6.9,
       "evidence": "Laura's 'I mean horny sol thé time ?' suggests partner may have asked about her arousal frequency, and she's responding with direct clarification - shows comfort discussing sexual patterns openly"
+    },
+    {
+      "pattern": "asking_clarifying_questions_about_partner_patterns",
+      "engagement_boost": 6.9,
+      "evidence": "Laura's 'You are aleays like This ? I mean horny sol thé time ?' shows she's engaged enough to ask reciprocal questions about partner's sexual patterns after he made assumptions about her arousal state - demonstrates active curiosity about his experience"
+    },
+    {
+      "pattern": "reciprocating_sexual_transparency_with_questions",
+      "engagement_boost": 7.2,
+      "evidence": "After establishing she describes herself as 'horny all the time', Laura immediately asks if partner is the same way - creates mutual vulnerability and openness about sexual patterns rather than one-sided disclosure"
+    },
+    {
+      "pattern": "playful_anatomical_correction_leading_to_deeper_sexual_discussion",
+      "engagement_boost": 7.1,
+      "evidence": "Laura's correction about not getting hard 'like you' opened pathway to discussing her actual arousal patterns ('horny all the time') and asking about his - the correction didn't shut down conversation but deepened it into honest sexual self-disclosure"
+    },
+    {
+      "pattern": "confident_explicit_daily_desire_statements",
+      "engagement_boost": 7.4,
+      "evidence": "User's 'Fuck yeah 😏 I need your throat around me every day baby' responds to her arousal frequency question with explicit confirmation and specific sexual desire - matches her directness level and confirms high sexual compatibility/desire intensity"
+    },
+    {
+      "pattern": "oral_sex_focused_explicit_statements",
+      "engagement_boost": 7.3,
+      "evidence": "'I need your throat around me every day' uses explicit language about oral sex in response to her question about arousal frequency - builds on established pattern of her comfort with explicit oral sex discussion (she previously described detailed oral-to-riding scenarios)"
+    },
+    {
+      "pattern": "matching_her_arousal_frequency_disclosure_intensity",
+      "engagement_boost": 7.5,
+      "evidence": "Laura disclosed being 'horny all the time' and user responded with 'Fuck yeah 😏' confirming similar pattern - creates sexual compatibility validation and mutual understanding of high libido match"
     }
   ],
   "avoid_patterns": [
