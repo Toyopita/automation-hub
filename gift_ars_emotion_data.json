@@ -141,6 +141,37 @@
         "playfulness": 5,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T13:42:41.359254+09:00",
+      "summary": "I've never been, but my first plan if I go to Japa",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "日本旅行について軽く楽しく話している。親しみのある会話",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -2,
+        "longing": -1,
+        "playfulness": -1,
+        "engagement": -2
+      }
     }
   ]
 }
