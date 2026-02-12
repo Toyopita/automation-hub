@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:24:29.817792+09:00",
+  "last_updated": "2026-02-12T20:10:19.748024+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1526,6 +1526,55 @@
           "venting"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "does not always work from home (works from office some days)",
+        "tags": [
+          "work location",
+          "office work",
+          "hybrid work",
+          "workplace",
+          "commute",
+          "work schedule",
+          "professional setting",
+          "office",
+          "work environment",
+          "not remote",
+          "in-person work"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "has French keyboard on her device",
+        "tags": [
+          "french keyboard",
+          "phone settings",
+          "device settings",
+          "typing",
+          "technology",
+          "french language",
+          "autocorrect",
+          "keyboard layout",
+          "bilingual device",
+          "writing tools"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "actively traveling to location during this conversation (not yet at destination)",
+        "tags": [
+          "in transit",
+          "traveling",
+          "commuting",
+          "moving",
+          "destination",
+          "journey",
+          "on the way",
+          "transportation",
+          "mobility",
+          "location change"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -2044,19 +2093,21 @@
     "french_keyboard_interference": 8.8,
     "explaining_typing_errors": 9.2,
     "technology_frustrations": 8.3,
-    "autocorrect_complaints": 8.6
+    "autocorrect_complaints": 8.6,
+    "work_location": 8.5,
+    "commuting": 8.2,
+    "technology_challenges": 8.8,
+    "french_keyboard_frustration": 9.0,
+    "keyboard_settings": 8.6,
+    "location_updates": 8.4,
+    "explaining_delays": 9.2,
+    "justifying_timing_constraints": 9.1,
+    "office_vs_home_work": 7.8,
+    "workplace_location_clarification": 8.3,
+    "travel_status": 8.1,
+    "in_transit_communication": 8.4
   },
   "effective_patterns": [
-    {
-      "pattern": "oral_sex_focused_explicit_statements",
-      "engagement_boost": 7.3,
-      "evidence": "'I need your throat around me every day' uses explicit language about oral sex in response to her question about arousal frequency - builds on established pattern of her comfort with explicit oral sex discussion (she previously described detailed oral-to-riding scenarios)"
-    },
-    {
-      "pattern": "matching_her_arousal_frequency_disclosure_intensity",
-      "engagement_boost": 7.5,
-      "evidence": "Laura disclosed being 'horny all the time' and user responded with 'Fuck yeah 😏' confirming similar pattern - creates sexual compatibility validation and mutual understanding of high libido match"
-    },
     {
       "pattern": "playful_acknowledgment_of_anatomical_correction",
       "engagement_boost": 7.1,
@@ -2146,6 +2197,16 @@
       "pattern": "maintaining_playful_tone_while_making_valid_point",
       "engagement_boost": 7.8,
       "evidence": "User's message combines accountability ('literally just yesterday') with humor ('haha 😂') and affection ('baby') - Laura's engaged responses ('Haha yes i remember', 'You never Forget lol') show this balance of holding her accountable while staying playful and warm was well-received"
+    },
+    {
+      "pattern": "making_assumptions_about_work_location_playfully",
+      "engagement_boost": 7.2,
+      "evidence": "User's 'You're at the office? haha I thought you were always working from home baby' shows he's been tracking her work patterns and making playful assumptions - her correction 'Im not at home' followed by explanation suggests she's comfortable with his attention to her routines and willing to clarify"
+    },
+    {
+      "pattern": "asking_about_location_with_humor_rather_than_interrogation",
+      "engagement_boost": 7.4,
+      "evidence": "The 'haha' and 'baby' soften what could be a surveillance-feeling question about her whereabouts - makes it playful curiosity rather than controlling inquiry, which fits established pattern of her appreciating affectionate attention"
     }
   ],
   "avoid_patterns": [
