@@ -15045,6 +15045,98 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:30:19.952234+09:00",
+      "summary": "I talk to you when i wake up ",
+      "scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れているが約束を守ろうとしている。前のメッセージと重複（おやすみの流れ）",
+      "trigger": {
+        "message": "Yeah I know baby but you say later and then sometimes you forget haha",
+        "sent_at": "2026-02-12T09:30:05.399969+09:00",
+        "category": "vulnerable",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 2,
+        "ds": -2,
+        "playfulness": -2,
+        "future": 4,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-12T09:30:25.270244+09:00",
+      "summary": "Hahahaha ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 4,
+        "ds": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の「忘れちゃう時もあるよね」発言に対して、軽く笑って受け流している。疲れてるけど機嫌は悪くない雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -2,
+        "playfulness": 6,
+        "future": -4,
+        "engagement": -1,
+        "ds": -1
+      }
     }
   ]
 }
