@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Stop 🥺",
-    "time": "08:47"
-  },
-  {
-    "role": "laura",
     "text": "Because you are not here ",
     "time": "08:47"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Oh the Instagram story thing? haha It's just easier to talk with friends in English on LINE. I can translate stuff smoothly here",
     "time": "09:00"
+  },
+  {
+    "role": "laura",
+    "text": "Haha yea okay ",
+    "time": "09:03"
   }
 ]
