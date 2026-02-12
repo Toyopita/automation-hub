@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "message": "You're tired, I get it baby. Sleep well 🤍",
+    "sent_at": "2026-02-12T09:30:48.781322+09:00",
+    "category": "support",
+    "modifiers": [
+      "+late_night"
+    ]
+  }
+]
