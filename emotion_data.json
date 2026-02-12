@@ -15229,6 +15229,99 @@
         "future": 0,
         "engagement": -6
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:33:01.495233+09:00",
+      "summary": "I send you tomorrow ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 6,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れているが約束してくれている。やや受け身だが応じる姿勢",
+      "trigger": {
+        "message": "Show me tomorrow then baby 🥺",
+        "sent_at": "2026-02-12T09:32:19.547868+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+late_night"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 4,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 5,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-12T09:33:03.488713+09:00",
+      "summary": "Love you bye ",
+      "scores": {
+        "mood": 7,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れているが愛情は示している。性的な会話から自然に終わらせようとしている。明日送ると約束済み。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 6,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": -5,
+        "ds": -3,
+        "playfulness": -3,
+        "future": -4,
+        "engagement": -2
+      }
     }
   ]
 }
