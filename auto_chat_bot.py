@@ -504,14 +504,14 @@ class AutoChatBot:
                 emotion_data.get("attachment", "safe"),
                 emotion_data.get("risk", "none")
             )
-            fields.append(("感情分析", f"```\n{emotion_bars}\n{att_risk}\n```", False))
+            fields.append(("📊 感情分析", f"```\n{emotion_bars}\n{att_risk}\n```", False))
             if emotion_data.get("note"):
-                fields.append(("補足", emotion_data["note"], False))
+                fields.append(("📝 補足", emotion_data["note"], False))
             risk = emotion_data.get("risk", "none")
             if risk in ("caution", "danger"):
-                warning = "注意: " if risk == "caution" else "危険: "
+                warning = "⚠️ 注意: " if risk == "caution" else "🚨 危険: "
                 warning += "感情的に繊細な状態です"
-                fields.append(("リスク警告", warning, False))
+                fields.append(("🔔 リスク警告", warning, False))
             score_deltas = emotion_data.get("score_deltas")
             if score_deltas:
                 delta_parts = []
@@ -943,7 +943,7 @@ class AutoChatBot:
         now = datetime.now(JST)
         now_remote = now.astimezone(self.person_tz)
         time_str = f"{now.strftime('%H:%M')} JST / {now_remote.strftime('%H:%M')} {self.tz_label}"
-        embed = Embed(title=f"IN {self.display_name} [{time_str}]", color=0xe91e63)
+        embed = Embed(title=f"📩 {self.display_name} ［{time_str}］", color=0xcc5de8)
 
         if size_mb > 8:
             embed.add_field(name=f"[{emoji_icon}] {label}", value=f"Too large: {size_mb:.1f}MB > 8MB", inline=False)
