@@ -15322,6 +15322,56 @@
         "future": -4,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:36:59.676180+09:00",
+      "summary": "Send me an audio talking in Japanese 🥺",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "寝る前に彼の声が聞きたい甘えたリクエスト。性的な流れから離れて素直な欲求を表現している",
+      "trigger": {
+        "message": "Good night baby 🤍",
+        "sent_at": "2026-02-12T09:34:14.099018+09:00",
+        "category": "affection",
+        "modifiers": [
+          "+late_night"
+        ],
+        "response_time_min": 2
+      },
+      "prev_scores": {
+        "mood": 7,
+        "energy": 3,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 3,
+        "intimacy": 0,
+        "longing": 3,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": 4
+      }
     }
   ]
 }
