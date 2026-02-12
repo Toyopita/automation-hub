@@ -15137,6 +15137,48 @@
         "engagement": -1,
         "ds": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:30:37.855937+09:00",
+      "summary": "Wait i have the vidéos i send you before ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れていると言いつつも、彼の要求に応えようとする姿勢。以前の動画を探して送ろうとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 4,
+        "ds": 3
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 5
+      }
     }
   ]
 }
