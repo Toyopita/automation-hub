@@ -372,6 +372,7 @@ class AutoChatBot:
         budget_info = {
             'daily_remaining': self.budget.get_daily_remaining(),
             'monthly_remaining': self.budget.get_monthly_remaining(),
+            'pace_directive': self.budget.get_pace_directive(),
         }
 
         prompt = self.persona_adapter.build_prompt(
