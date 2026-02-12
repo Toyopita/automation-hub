@@ -1605,6 +1605,7 @@ class TimingController:
         "close_friends": 1.0,
         "flirty": 0.8,
         "romantic": 0.7,
+        "intimate": 0.6,
     }
 
     def calculate_delay(self, stage: str, profile: dict, emotion: dict,
