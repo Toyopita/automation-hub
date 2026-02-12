@@ -1316,28 +1316,47 @@ Messages to analyze:
 {messages}"""
 
 
+SCORE_LABELS_JA = {
+    "mood": "気分　　　",
+    "energy": "テンション",
+    "intimacy": "親密度　　",
+    "longing": "甘え　　　",
+    "playfulness": "遊び心　　",
+    "engagement": "エンゲージ",
+}
+
+DELTA_LABELS_JA = {
+    "mood": "気分",
+    "energy": "テンション",
+    "intimacy": "親密度",
+    "longing": "甘え",
+    "playfulness": "遊び心",
+    "engagement": "エンゲージ",
+}
+
+
 def format_emotion_bars(scores: dict) -> str:
     labels = [
-        ("mood", "mood      "),
-        ("energy", "energy    "),
-        ("intimacy", "intimacy  "),
-        ("longing", "longing   "),
-        ("playfulness", "playful   "),
-        ("engagement", "engage    "),
+        ("mood", "気分　　　"),
+        ("energy", "テンション"),
+        ("intimacy", "親密度　　"),
+        ("longing", "甘え　　　"),
+        ("playfulness", "遊び心　　"),
+        ("engagement", "エンゲージ"),
     ]
     lines = []
     for key, label in labels:
         val = scores.get(key, 5)
-        bar = "=" * val + "-" * (10 - val)
-        lines.append(f"{label} [{bar}] {val}")
+        bar = "█" * val + "░" * (10 - val)
+        lines.append(f"{label} {bar} {val}")
     return "\n".join(lines)
 
 
 def format_attachment_risk(attachment: str, risk: str) -> str:
-    att_map = {"safe": "SAFE", "anxious": "ANXIOUS", "avoidant": "AVOIDANT"}
-    risk_map = {"none": "none", "minor": "minor", "caution": "CAUTION", "danger": "DANGER"}
-    return (f"attachment: {att_map.get(attachment, attachment)}  "
-            f"risk: {risk_map.get(risk, risk)}")
+    att_map = {"safe": "🟢安全", "anxious": "🟡不安", "avoidant": "🔴回避"}
+    risk_map = {"none": "なし", "minor": "軽微", "caution": "⚠️ 警戒", "danger": "🚨 危険"}
+    return (f"愛着: {att_map.get(attachment, attachment)}  "
+            f"危険信号: {risk_map.get(risk, risk)}")
 
 
 # ============================================================
