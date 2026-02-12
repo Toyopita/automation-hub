@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "I want you all for me 🙄",
-    "time": "09:13"
-  },
-  {
     "role": "you",
     "text": "Why are you getting jealous baby? haha I'm not doing anything with anyone else. You're too cute 🥺",
     "time": "09:17"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "You're tired, I get it baby. Sleep well 🤍",
     "time": "09:30"
+  },
+  {
+    "role": "laura",
+    "text": "Okay ",
+    "time": "09:31"
   }
 ]
