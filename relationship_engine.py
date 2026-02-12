@@ -1885,6 +1885,7 @@ class MultiPersonBudget:
         "close_friends": 1.5,
         "flirty": 2.0,
         "romantic": 2.5,
+        "intimate": 3.0,
     }
 
     def __init__(self, monthly_limit: int = 200, reserve: int = 15):
