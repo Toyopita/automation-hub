@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "haha yeah that's a good approach honestly, just let things happen naturally instead of forcing it",
-    "time": "2026-02-12 10:35"
-  },
-  {
     "role": "michelle",
     "text": "yes, but sometimes when someone chats with me weirdly I don't reply, i mean, they fall in love so quickly it's almost unreal haha",
     "time": "2026-02-12 10:41"
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "Honestly, it's tiring but I love my grandmother, so for me, my tiredness disappears when I see her happy haha",
     "time": "2026-02-12 18:38"
+  },
+  {
+    "role": "you",
+    "text": "that's really sweet, honestly. adobo sounds good too, i've heard of it but never tried it haha",
+    "time": "2026-02-12 18:45"
   }
 ]
