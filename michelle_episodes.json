@@ -251,5 +251,25 @@
     ],
     "emotional_tone": "lighthearted, relatable, mutually understanding",
     "unresolved": null
+  },
+  {
+    "id": 13,
+    "timestamp_start": "2026-02-11 23:44",
+    "timestamp_end": "2026-02-12 08:19",
+    "summary": "YOU and Michelle bonded over both being single and shared frustrations about dating apps. They discussed Michelle's relationship standards (kind and respectful partner after past experiences) and commiserated about ghosting culture being exhausting and universal.",
+    "topics": [
+      "dating",
+      "relationships",
+      "being_single",
+      "dating_apps",
+      "ghosting"
+    ],
+    "key_facts_learned": [
+      "Michelle is currently single",
+      "Michelle has tried dating apps but found them tiring",
+      "Michelle experiences people ghosting her on dating apps - they disappear for days and never return"
+    ],
+    "emotional_tone": "casual, humorous, relatable",
+    "unresolved": null
   }
 ]
