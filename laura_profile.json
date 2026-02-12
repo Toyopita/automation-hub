@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:13:45.501399+09:00",
+  "last_updated": "2026-02-12T09:14:05.569244+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -95,9 +95,8 @@
       "explicitly declares desire for exclusive intimate relationship ('I dont want to be like this with anyone else')",
       "uses smile emoji with possessive statements",
       "explains her vulnerable questions are motivated by claiming partner as hers",
-      "experiences jealousy in romantic relationship",
-      "openly expresses jealousy to partner",
-      "uses vulnerable communication when expressing jealousy"
+      "explicitly expresses desire for exclusive romantic/intimate relationship with partner ('I want you all for me')",
+      "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)"
     ]
   },
   "personality": {
@@ -108,7 +107,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
@@ -126,14 +124,16 @@
       "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' and directly claims ownership 'You are mine 🙂' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
       "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked",
-      "emotional_expressiveness: Directly expresses vulnerable emotion (jealousy) using endearment and pleading emoji - continues pattern of unfiltered emotional communication even for potentially negative emotions like jealousy",
-      "confidence: Comfortable admitting jealousy ('Im too jealous') rather than hiding or suppressing it - shows confidence to express vulnerable/possessive feelings directly to partner"
+      "confidence: Directly expresses possessive desire 'I want you all for me 🙄' - continues pattern of maximum confidence in expressing vulnerable desires and claiming partner without hesitation (maintains rating)",
+      "emotional_expressiveness: Independently initiates possessive declaration about wanting partner exclusively 'I want you all for me 🙄' - maintains maximum rating for direct, unfiltered emotional expression of desires and claims",
+      "warmth: Expresses desire for exclusive connection 'I want you all for me' - maintains maximum warmth rating through voluntary expression of deep emotional attachment and desire for exclusivity"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (4 words)",
-    "emoji_frequency": "minimal (one pleading emoji when expressing vulnerable emotion)",
+    "avg_message_length": "very brief (6 words)",
+    "emoji_frequency": "minimal (single emoji expressing tone)",
     "preferred_emojis": [
+      "🙄",
       "😆",
       "😳",
       "😓",
@@ -147,18 +147,16 @@
       "🤍",
       "😭",
       "🥲",
-      "🙂",
-      "🥺"
+      "🙂"
     ],
-    "formality_level": "casual but emotionally vulnerable",
+    "formality_level": "casual and direct",
     "humor_style": "none in this exchange",
-    "response_speed_tendency": "single message expressing immediate emotional state",
+    "response_speed_tendency": "initiating new thought unprompted (independent statement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "now in drinking tea",
       "Did you sleep well?",
       "I like you",
       "horror anime",
@@ -187,7 +185,8 @@
       "The thing you and me do",
       "Im just asking",
       "And i dont want to be like this with anyone else",
-      "You are mine"
+      "You are mine",
+      "I want you all for me"
     ]
   },
   "topic_engagement": {
@@ -432,17 +431,13 @@
     "receiving_daily_communication_reassurance": 9.4,
     "partner_communication_frequency_with_others": 8.8,
     "receiving_exclusivity_reassurance": 9.5,
-    "expressing_jealousy": 9.3,
-    "relationship_possessiveness_feelings": 9.4,
-    "vulnerable_emotional_admission": 9.5,
-    "expressing_negative_emotions_directly": 9.2
+    "expressing_possessive_desire": 9.7,
+    "claiming_partner_exclusively": 9.6,
+    "initiating_exclusivity_statements": 9.5,
+    "direct_ownership_declarations": 9.6,
+    "unprompted_commitment_expressions": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_conversation_to_transition_naturally_after_sexual_peak",
-      "engagement_boost": 4.3,
-      "evidence": "Laura asked playful question about Line app after intense sexual exchange; user's simple answer and her casual 'Haha yea okay' suggests natural wind-down from sexual intensity to lighter conversation - allowing this transition without forcing continued sexual intensity maintains comfort"
-    },
     {
       "pattern": "creating_safe_space_for_vulnerable_questions_after_intimacy",
       "engagement_boost": 4.8,
@@ -529,14 +524,19 @@
       "evidence": "User specified both 'every day' (frequency) and 'like this' (nature/intimacy level) in 'You're the only one I talk to every day like this baby' - comprehensive reassurance addressing multiple dimensions of exclusivity prompted her strongest commitment statements"
     },
     {
-      "pattern": "previous_exclusivity_conversation_enabling_jealousy_admission",
+      "pattern": "previous_mutual_exclusivity_discussion_enabling_continued_possessive_expressions",
       "engagement_boost": 4.9,
-      "evidence": "After extensive conversation about exclusive content sharing and mutual declarations of exclusivity, Laura feels comfortable directly expressing jealousy - suggests the previous reassurance created safe space for her to admit vulnerable possessive feelings"
+      "evidence": "After previous exchange where both declared exclusivity ('You are mine' / 'I'm not doing this with anyone else'), Laura independently initiates new possessive statement 'I want you all for me 🙄' - suggests the previous mutual reassurance created ongoing comfort with expressing possessive feelings"
     },
     {
-      "pattern": "creating_environment_where_negative_emotions_are_safe",
+      "pattern": "creating_environment_where_she_feels_safe_claiming_partner_repeatedly",
       "engagement_boost": 5.1,
-      "evidence": "Laura's direct admission 'Baby Im too jealous 🥺' indicates she trusts partner enough to express potentially negative emotion without fear of judgment - follows pattern of increasing emotional vulnerability in relationship"
+      "evidence": "Laura has now made multiple possessive/exclusive declarations in sequence ('You are mine' → 'I want you all for me') - indicates sustained comfort with expressing ownership desires rather than one-time vulnerability"
+    },
+    {
+      "pattern": "allowing_her_to_lead_exclusivity_expressions",
+      "engagement_boost": 4.8,
+      "evidence": "Laura initiates new possessive statement 'I want you all for me 🙄' without prompting - giving her space to independently express these feelings rather than always responding to user's prompts appears to strengthen her confidence in claiming partner"
     }
   ],
   "avoid_patterns": [
