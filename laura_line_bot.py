@@ -436,10 +436,36 @@ def format_emotion_bars(scores: dict) -> str:
 
 def format_attachment_risk(attachment: str, risk: str, language_mix: str) -> str:
     att_map = {"safe": "🟢安全", "anxious": "🟡不安", "avoidant": "🔴回避"}
+    risk_map = {"none": "なし", "minor": "軽微", "caution": "⚠️ 警戒", "danger": "🚨 危険"}
     lang_map = {"en": "🇬🇧", "es": "🇪🇸", "es_en": "🇪🇸🇬🇧"}
     return (f"愛着: {att_map.get(attachment, attachment)}  "
-            f"危険信号: {risk}  "
+            f"危険信号: {risk_map.get(risk, risk)}  "
             f"言語: {lang_map.get(language_mix, language_mix)}")
+
+
+# カテゴリ・修飾タグの日本語マッピング（ダッシュボードと統一）
+CAT_LABELS = {
+    "affection": "💜愛情表現", "interest": "💙関心・質問", "daily": "⬜日常共有",
+    "humor": "💛ユーモア", "sexual": "❤️性的表現", "future": "💚将来志向",
+    "support": "💚サポート", "spanish": "🧡母語(ES)", "cultural": "💜文化的共鳴",
+    "praise": "💙称賛", "vulnerable": "💜脆弱性開示", "initiative": "💚主導的提案",
+    "reassurance": "🩷再確認", "sensory": "❤️感覚的描写",
+}
+
+MODIFIER_LABELS = {
+    "+spontaneous": "⚡自発的",
+    "+callback": "🔁共有記憶",
+    "+escalation": "📈エスカレ",
+    "+media": "📎メディア付",
+    "+late_night": "🌙深夜",
+}
+
+
+def format_trigger_category(category: str, modifiers: list) -> str:
+    """トリガーのカテゴリと修飾タグを日本語で整形"""
+    cat_ja = CAT_LABELS.get(category, category)
+    mods_ja = " ".join(MODIFIER_LABELS.get(m, m) for m in modifiers) if modifiers else ""
+    return f"{cat_ja} {mods_ja}".strip()
 
 
 # ============================================================
