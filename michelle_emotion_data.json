@@ -854,6 +854,37 @@
         "playfulness": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T12:54:45.356113+09:00",
+      "summary": "yes, that's why before I leave the house I make su",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "軽い共感を求める日常会話。気楽で健全なコミュニケーション",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "playfulness": 1,
+        "engagement": 0
+      }
     }
   ]
 }
