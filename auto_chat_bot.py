@@ -208,12 +208,33 @@ class AutoChatBot:
     def add_message(self, role: str, text: str):
         """role: person名 or 'you'"""
         now = datetime.now(JST)
+
+        # Check if buffer is about to overflow — compress oldest messages to episode
+        if len(self.conversation_buffer) >= self.conversation_buffer.maxlen - 1:
+            oldest_5 = list(self.conversation_buffer)[:5]
+            if oldest_5:
+                asyncio.create_task(self._compress_oldest_to_episode(oldest_5))
+
         self.conversation_buffer.append({
             "role": role,
             "text": text,
             "time": now.strftime('%Y-%m-%d %H:%M')
         })
         self._save_conversation_buffer()
+
+    async def _compress_oldest_to_episode(self, messages: list[dict]):
+        """Compress old messages into an episode before they're lost from the buffer."""
+        try:
+            episode = await compress_to_episode(
+                messages=messages,
+                name=self.name,
+                display_name=self.display_name,
+                model=self.claude_model,
+            )
+            if episode:
+                self.logger.info(f"Episode {episode.get('id')} created: {episode.get('summary', '')[:60]}...")
+        except Exception as e:
+            self.logger.error(f"Episode compression failed (non-fatal): {e}")
 
     def get_conversation_history(self) -> str:
         if not self.conversation_buffer:
