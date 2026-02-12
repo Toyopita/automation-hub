@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:31:17.086293+09:00",
+  "last_updated": "2026-02-12T09:31:33.997377+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -167,13 +167,12 @@
     ],
     "formality_level": "casual and direct",
     "humor_style": "not present in this exchange",
-    "response_speed_tendency": "multiple rapid messages in sequence when explaining or sharing multiple thoughts",
+    "response_speed_tendency": "brief acknowledgments when confirming or accepting information",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "turn me on",
       "When you talk to me like This",
       "fuck me so hard",
       "Can you do something for me",
@@ -202,7 +201,8 @@
       "a lot",
       "honey",
       "Im tired",
-      "trained a lot"
+      "trained a lot",
+      "Okay"
     ]
   },
   "topic_engagement": {
