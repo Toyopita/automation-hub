@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T11:38:42.322182+09:00",
+  "last_updated": "2026-02-12T12:16:12.190820+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -26,26 +26,312 @@
     },
     "important_dates": [],
     "misc_facts": [
-      "works at an Indonesian specialty restaurant",
-      "handles finance, cooking, and serving at the restaurant - essentially managing the whole operation",
-      "prefers chatting on Line",
-      "interested in knowing if you're a private person like stereotypical Japanese people",
-      "had concerns about potential negative reactions to being Indonesian",
-      "feels deep shame and responsibility about negative news regarding Indonesian citizens in Japan",
-      "finds Bandung's culinary scene delicious",
-      "evaluates photography quality and considers career suitability",
-      "regularly views and follows your Instagram stories",
-      "notices you never post selfies or photos of yourself on Instagram",
-      "you have her on your Instagram close friends list",
-      "currently single (no boyfriend)",
-      "never lets anyone near fried food (possibly protective about cooking or a humorous exaggeration)",
-      "values doing things that make you feel good and calm as long as they are positive",
-      "believes in divine timing for relationships - waiting for God to bring the right person",
-      "open to having a relationship but not actively seeking one",
-      "has a spiritual or religious perspective on relationships",
-      "works today and user is also working today - both have work schedules that sometimes overlap",
-      "shares menu items from her restaurant with you - indicates pride in her work and desire to share her world",
-      "working today (same day as you) - confirms overlapping work schedules"
+      {
+        "text": "works at an Indonesian specialty restaurant",
+        "tags": [
+          "employment",
+          "restaurant",
+          "indonesian cuisine",
+          "food service",
+          "hospitality",
+          "culinary",
+          "ethnic food",
+          "workplace",
+          "job",
+          "career"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "handles finance, cooking, and serving at the restaurant - essentially managing the whole operation",
+        "tags": [
+          "management",
+          "multitasking",
+          "operations",
+          "finance",
+          "cooking",
+          "serving",
+          "responsibilities",
+          "restaurant management",
+          "entrepreneurship",
+          "business operations"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "prefers chatting on Line",
+        "tags": [
+          "line app",
+          "messaging",
+          "communication preference",
+          "chat",
+          "social media",
+          "instant messaging",
+          "contact method",
+          "digital communication"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "interested in knowing if you're a private person like stereotypical Japanese people",
+        "tags": [
+          "privacy",
+          "personality",
+          "cultural stereotypes",
+          "japanese culture",
+          "personal boundaries",
+          "introversion",
+          "reserved behavior",
+          "cultural curiosity",
+          "social norms"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "had concerns about potential negative reactions to being Indonesian",
+        "tags": [
+          "anxiety",
+          "prejudice",
+          "discrimination",
+          "nationality",
+          "indonesian identity",
+          "social acceptance",
+          "fear of judgment",
+          "xenophobia",
+          "ethnic concerns",
+          "worries"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "feels deep shame and responsibility about negative news regarding Indonesian citizens in Japan",
+        "tags": [
+          "shame",
+          "responsibility",
+          "guilt",
+          "national identity",
+          "reputation",
+          "collective responsibility",
+          "news impact",
+          "indonesian diaspora",
+          "cultural burden",
+          "social conscience"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds Bandung's culinary scene delicious",
+        "tags": [
+          "bandung",
+          "food",
+          "cuisine",
+          "culinary appreciation",
+          "taste",
+          "indonesian city",
+          "gastronomy",
+          "dining",
+          "food culture",
+          "delicious"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "evaluates photography quality and considers career suitability",
+        "tags": [
+          "photography",
+          "quality assessment",
+          "career evaluation",
+          "professional judgment",
+          "skill assessment",
+          "career fit",
+          "visual arts",
+          "creative work",
+          "job suitability"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "regularly views and follows your Instagram stories",
+        "tags": [
+          "instagram",
+          "social media engagement",
+          "stories",
+          "following",
+          "online interaction",
+          "viewer",
+          "social media habits",
+          "digital presence",
+          "consistent engagement"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "notices you never post selfies or photos of yourself on Instagram",
+        "tags": [
+          "no selfies",
+          "privacy",
+          "photography style",
+          "self-presentation",
+          "anonymous presence",
+          "personal boundaries",
+          "content choice",
+          "social media behavior",
+          "self-consciousness"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "you have her on your Instagram close friends list",
+        "tags": [
+          "close friends",
+          "instagram feature",
+          "inner circle",
+          "trusted connection",
+          "special access",
+          "social media intimacy",
+          "selected audience",
+          "friendship tier",
+          "exclusive content"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "currently single (no boyfriend)",
+        "tags": [
+          "single",
+          "relationship status",
+          "available",
+          "not dating",
+          "unattached",
+          "romantic availability",
+          "no partner",
+          "dating status"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "never lets anyone near fried food (possibly protective about cooking or a humorous exaggeration)",
+        "tags": [
+          "protective",
+          "cooking boundaries",
+          "kitchen rules",
+          "fried food",
+          "humor",
+          "possessive",
+          "work territory",
+          "culinary pride",
+          "professional standards",
+          "exaggeration"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "values doing things that make you feel good and calm as long as they are positive",
+        "tags": [
+          "wellbeing",
+          "positivity",
+          "self-care",
+          "mental health",
+          "peace",
+          "calm",
+          "values",
+          "life philosophy",
+          "emotional health",
+          "positive living"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "believes in divine timing for relationships - waiting for God to bring the right person",
+        "tags": [
+          "faith",
+          "divine timing",
+          "god",
+          "patience",
+          "destiny",
+          "spiritual beliefs",
+          "religious perspective",
+          "trust",
+          "waiting",
+          "providence"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "open to having a relationship but not actively seeking one",
+        "tags": [
+          "relationship openness",
+          "not seeking",
+          "passive approach",
+          "receptive",
+          "casual attitude",
+          "dating philosophy",
+          "romantic stance",
+          "open but patient",
+          "non-urgent"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "has a spiritual or religious perspective on relationships",
+        "tags": [
+          "spirituality",
+          "religion",
+          "faith-based",
+          "religious views",
+          "spiritual perspective",
+          "belief system",
+          "god-centered",
+          "religious values"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "works today and user is also working today - both have work schedules that sometimes overlap",
+        "tags": [
+          "work schedule",
+          "overlapping schedules",
+          "both working",
+          "schedule alignment",
+          "timing",
+          "availability",
+          "work day",
+          "shared circumstance",
+          "parallel schedules"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "shares menu items from her restaurant with you - indicates pride in her work and desire to share her world",
+        "tags": [
+          "sharing",
+          "menu items",
+          "pride",
+          "work sharing",
+          "restaurant food",
+          "connection building",
+          "generosity",
+          "personal world",
+          "food sharing",
+          "professional pride"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "working today (same day as you) - confirms overlapping work schedules",
+        "tags": [
+          "working today",
+          "current schedule",
+          "same day work",
+          "schedule overlap",
+          "availability",
+          "work commitment",
+          "busy",
+          "employed",
+          "schedule confirmation"
+        ],
+        "added": "2026-02-12"
+      }
     ]
   },
   "personality": {
