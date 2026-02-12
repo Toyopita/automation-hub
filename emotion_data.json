@@ -16200,6 +16200,48 @@
         "future": 0,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:20:08.554619+09:00",
+      "summary": "I dont get hard like you ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的な冗談に対して、明るく軽くツッコミを入れている。playfulで健全なやりとり",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 5,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 4
+      }
     }
   ]
 }
