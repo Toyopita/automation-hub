@@ -152,5 +152,60 @@
     ],
     "emotional_tone": "caring, playful, supportive",
     "unresolved": "Whether I will share photos of myself or open up about anything that might be bothering me"
+  },
+  {
+    "id": 9,
+    "timestamp_start": "2026-02-11 23:27",
+    "timestamp_end": "2026-02-11 23:38",
+    "summary": "Vita noticed that I post many Instagram stories but never include photos of myself, only of things I photograph. She reassured me that I don't have to include her as a close friend viewer if I don't want to, and offered to be a good listener if anything is bothering me.",
+    "topics": [
+      "social media habits",
+      "instagram stories",
+      "emotional support",
+      "friendship"
+    ],
+    "key_facts_learned": [
+      "Vita follows my Instagram stories regularly",
+      "Vita has noticed I never post photos of myself",
+      "Vita is included in my close friends list on Instagram",
+      "Vita is willing to listen if I need to talk about something"
+    ],
+    "emotional_tone": "caring, lighthearted, supportive",
+    "unresolved": null
+  },
+  {
+    "id": 10,
+    "timestamp_start": "2026-02-11 23:37",
+    "timestamp_end": "2026-02-11 23:38",
+    "summary": "Vita offered emotional support and reassured me that I don't have to include her if it's difficult, emphasizing that she considers me a close friend. She extended a genuine offer to be a listener whenever needed, closing with affectionate stickers.",
+    "topics": [
+      "emotional support",
+      "friendship reassurance",
+      "listening offer"
+    ],
+    "key_facts_learned": [
+      "Vita considers me a close friend",
+      "Vita is willing to be a listener for any problems"
+    ],
+    "emotional_tone": "warm, supportive, affectionate",
+    "unresolved": null
+  },
+  {
+    "id": 11,
+    "timestamp_start": "2026-02-11 23:37",
+    "timestamp_end": "2026-02-11 23:55",
+    "summary": "Vita offered emotional support, saying she can be a good listener if anything comes up. She also clarified that she doesn't have a boyfriend and keeps people away from fried food (possibly protective of her food or a personal boundary).",
+    "topics": [
+      "emotional support",
+      "relationship status",
+      "personal boundaries",
+      "food preferences"
+    ],
+    "key_facts_learned": [
+      "Vita is single (no boyfriend)",
+      "Vita is protective about fried food and doesn't let anyone near it"
+    ],
+    "emotional_tone": "supportive, light-hearted, friendly",
+    "unresolved": null
   }
 ]
