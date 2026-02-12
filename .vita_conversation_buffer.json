@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "tahu telur and pecel",
-    "time": "2026-02-12 15:54"
-  },
-  {
-    "role": "vita",
     "text": "simple restaurant, not fancy",
     "time": "2026-02-12 15:55"
   },
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "just walking around the area around the house and doing routines like most girls",
     "time": "2026-02-12 23:26"
+  },
+  {
+    "role": "you",
+    "text": "haha what kind of routines? now i'm curious what counts as 'most girls' routines",
+    "time": "2026-02-12 23:38"
   }
 ]
