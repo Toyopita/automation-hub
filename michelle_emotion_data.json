@@ -1071,6 +1071,37 @@
         "playfulness": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:52:55.380497+09:00",
+      "summary": "oh yes. actually, adobo is popular here in the phi",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "文化共有と個人的好みを明るく伝えている。バランスの取れた会話",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "playfulness": 0,
+        "engagement": -1
+      }
     }
   ]
 }
