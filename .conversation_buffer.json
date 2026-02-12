@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Morning 😚",
-    "time": "16:03"
-  },
-  {
     "role": "you",
     "text": "Good morning baby 🥰 Did you sleep well?",
     "time": "16:06"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "You never Forget lol ",
     "time": "19:16"
+  },
+  {
+    "role": "you",
+    "text": "It was literally just yesterday haha 😂 How could I forget baby",
+    "time": "19:17"
   }
 ]
