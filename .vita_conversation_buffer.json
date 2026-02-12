@@ -1,10 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "ahahaha no problem ",
-    "time": "2026-02-11 22:06"
-  },
-  {
     "role": "you",
     "text": "wait why would i be angry? 😂 that's a weird thing to worry about haha. bandung seems cool, i've heard it's got good weather and food scene there right?\n\nyou don't need to worry about stuff like that with me btw",
     "time": "2026-02-11 22:10"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "yeah heading to the office soon actually. probably gonna be a long day haha. you working today too or is it your day off?",
     "time": "2026-02-12 10:45"
+  },
+  {
+    "role": "vita",
+    "text": "have a great day at work",
+    "time": "2026-02-12 11:27"
   }
 ]
