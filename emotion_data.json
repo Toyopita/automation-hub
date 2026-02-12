@@ -14450,6 +14450,50 @@
         "future": 3,
         "engagement": 5
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:08:57.667449+09:00",
+      "summary": "And i dont want to be like this with anyone else ",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 7,
+        "engagement": 9,
+        "possessiveness": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安から来る独占欲の表明。「あなただけ」というコミットメントの確認を求めている。reassuranceが必要なサイン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 4,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": -4,
+        "playfulness": -4,
+        "future": 3,
+        "engagement": 1,
+        "possessiveness": 4
+      }
     }
   ]
 }
