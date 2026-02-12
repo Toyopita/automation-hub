@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "Actually, I'm afraid you'll be angry if I come from Indonesia.",
-    "time": "2026-02-11 22:05"
-  },
-  {
-    "role": "vita",
     "text": "ahahaha no problem ",
     "time": "2026-02-11 22:06"
   },
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "yeah that's how it is, btw are you working today?",
     "time": "2026-02-12 10:33"
+  },
+  {
+    "role": "you",
+    "text": "yeah heading to the office soon actually. probably gonna be a long day haha. you working today too or is it your day off?",
+    "time": "2026-02-12 10:45"
   }
 ]
