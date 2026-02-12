@@ -14052,6 +14052,54 @@
         "future": -1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:03:13.543996+09:00",
+      "summary": "Haha yea okay ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い肯定。エロい流れから少し冷めた感じ。LINEのことで少し気になった様子だが、納得して受け入れている。短い返事なので深く考えすぎない方がいい",
+      "trigger": {
+        "message": "Oh the Instagram story thing? haha It's just easier to talk with friends in English on LINE. I can translate stuff smoothly here",
+        "sent_at": "2026-02-12T09:00:03.953329+09:00",
+        "category": "daily",
+        "modifiers": [],
+        "response_time_min": 3
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -3,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -5,
+        "future": 0,
+        "engagement": -4
+      }
     }
   ]
 }
