@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Gift_ars",
-  "last_updated": "2026-02-12T11:53:08.817015+09:00",
+  "last_updated": "2026-02-12T12:16:20.044583+09:00",
   "facts": {
     "age": null,
     "location": "from Thailand",
@@ -22,8 +22,38 @@
     },
     "important_dates": [],
     "misc_facts": [
-      "consistently positive and upbeat",
-      "knows or assumes you are from Japan"
+      {
+        "text": "consistently positive and upbeat",
+        "tags": [
+          "positive",
+          "upbeat",
+          "optimistic",
+          "cheerful",
+          "enthusiastic",
+          "bright",
+          "sunny disposition",
+          "happy",
+          "energetic",
+          "buoyant"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "knows or assumes you are from Japan",
+        "tags": [
+          "japan",
+          "japanese",
+          "from japan",
+          "nationality",
+          "geographic origin",
+          "cultural background",
+          "asian",
+          "east asian",
+          "japanese user",
+          "japan-based"
+        ],
+        "added": "2026-02-12"
+      }
     ]
   },
   "personality": {
