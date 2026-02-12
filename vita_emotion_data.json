@@ -513,6 +513,37 @@
         "playfulness": 4,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T11:58:36.002406+09:00",
+      "summary": "ahahaha okay, i'll let you know later",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "軽快で協力的。やや距離を保ちつつ好意的な返答",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -3,
+        "playfulness": -1,
+        "engagement": -2
+      }
     }
   ]
 }
