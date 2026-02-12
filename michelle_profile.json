@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T14:51:26.805801+09:00",
+  "last_updated": "2026-02-12T15:32:07.163987+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -758,6 +758,76 @@
           "cultural connection"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Jollibee is Filipino version of McDonald's with different taste profile - notably different gravy and ketchup compared to McDonald's",
+        "tags": [
+          "jollibee",
+          "mcdonalds",
+          "filipino food",
+          "fast food",
+          "comparison",
+          "cultural food",
+          "taste differences",
+          "gravy",
+          "ketchup",
+          "philippines",
+          "local cuisine",
+          "food knowledge",
+          "condiments"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses humor when explaining that Jollibee isn't dramatically different from McDonald's - downplays differences to just gravy and ketchup taste with 😂 emoji",
+        "tags": [
+          "humor",
+          "self-deprecating",
+          "cultural food",
+          "downplaying",
+          "modest",
+          "😂",
+          "realistic expectations",
+          "honest",
+          "not overhyping",
+          "grounded perspective",
+          "food honesty"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Doesn't overhype Filipino cultural items - gives realistic assessment that Jollibee is similar to McDonald's rather than claiming it's dramatically superior",
+        "tags": [
+          "realism",
+          "honesty",
+          "cultural perspective",
+          "not nationalist",
+          "balanced view",
+          "modest",
+          "grounded",
+          "realistic expectations",
+          "no exaggeration",
+          "truthful",
+          "practical mindset"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Focuses on condiments (gravy and ketchup) as key differentiators for fast food taste - suggests attention to flavor details",
+        "tags": [
+          "taste sensitivity",
+          "condiments",
+          "flavor details",
+          "food awareness",
+          "gravy",
+          "ketchup",
+          "taste differences",
+          "palate",
+          "food observation",
+          "culinary attention",
+          "specific taste preferences"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -791,9 +861,9 @@
       "😊",
       "haha"
     ],
-    "formality_level": "casual - lowercase, 'haha' filler, conversational flow",
-    "humor_style": "uses 'haha' to keep casual tone when discussing routine/practical topics, maintains lighthearted approach even when discussing constraints like short work breaks",
-    "response_speed_tendency": "quick response when discussing familiar everyday topics like food routine and cultural preferences",
+    "formality_level": "casual - lowercase, 'oh yes' casual confirmation, 😂 emoji",
+    "humor_style": "self-deprecating and realistic - uses 😂 when downplaying cultural differences or admitting something isn't as special as it might seem, shows grounded perspective without excessive nationalism",
+    "response_speed_tendency": "quick response when discussing familiar cultural topics like local food chains",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -805,7 +875,8 @@
       "sick",
       "red flagging",
       "walk away",
-      "carb loading"
+      "carb loading",
+      "mcdo (abbreviation for McDonald's)"
     ]
   },
   "topic_engagement": {
@@ -930,24 +1001,14 @@
     "filipino_food_culture": 7,
     "jollibee": 7,
     "fast_food_preferences": 6,
-    "cultural_food_identity": 6
+    "cultural_food_identity": 6,
+    "jollibee_taste_differences": 7,
+    "filipino_vs_international_food": 7,
+    "condiment_preferences": 6,
+    "food_taste_details": 7,
+    "cultural_food_comparison": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "labeling_behavior_as_red_flag",
-      "engagement_boost": 1.9,
-      "evidence": "Toyo's 'instant red flag honestly' validates her decision to ignore such messages, affirming her boundary-setting as wise rather than harsh"
-    },
-    {
-      "pattern": "showing_familiarity_with_love_bombing_tactics",
-      "engagement_boost": 1.8,
-      "evidence": "Toyo's 'haha yeah i know the type' demonstrates he's encountered similar behavior, creating shared understanding of this dating frustration"
-    },
-    {
-      "pattern": "affirming_her_decision_making_as_smart",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'yeah smart move' validates her red flag avoidance strategy as wise rather than harsh - response pending but directly affirms her judgment"
-    },
     {
       "pattern": "philosophical_agreement_about_time_value",
       "engagement_boost": null,
@@ -1032,6 +1093,21 @@
       "pattern": "showing_interest_in_philippine_culture",
       "engagement_boost": null,
       "evidence": "Toyo's acknowledgment of hearing about Jollibee demonstrates he's aware of Filipino cultural icons, showing cross-cultural interest - response pending"
+    },
+    {
+      "pattern": "asking_about_taste_differences_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha the gravy and ketchup make that much of a difference?' follows up on her specific mention of condiments with playful curiosity, showing attention to details she shared - response pending but creates opportunity for her to elaborate on taste preferences"
+    },
+    {
+      "pattern": "showing_genuine_curiosity_about_filipino_culture",
+      "engagement_boost": null,
+      "evidence": "Toyo's question about taste differences demonstrates interest in understanding what makes Filipino version distinct, inviting her to share cultural food knowledge - response pending"
+    },
+    {
+      "pattern": "matching_her_haha_with_playful_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 😂 with 'haha' to maintain lighthearted tone about food comparison - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -1042,5 +1118,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 4
+  "_exchange_count_since_consolidation": 5
 }
