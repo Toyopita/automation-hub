@@ -1217,6 +1217,9 @@ IMPORTANT: This conversation is ALREADY happening on LINE. You are already chatt
 Daily remaining: {daily_remaining}
 Monthly remaining: {monthly_remaining}
 
+=== PAST EPISODES (older context) ===
+{episode_memory}
+
 === CONVERSATION HISTORY (last 30 messages) ===
 {conversation_history}
 
