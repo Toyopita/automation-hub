@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Well im going to sleep now ",
-    "time": "09:53"
-  },
-  {
     "role": "you",
     "text": "Yeah, thanks for the video baby 🤍 Sleep like we're sleeping together haha I'd gently stroke your hair and kiss your forehead",
     "time": "09:54"
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "You said you'd show me yesterday baby 😏",
     "time": "19:12"
+  },
+  {
+    "role": "laura",
+    "text": "Haha yes i remember ",
+    "time": "19:16"
   }
 ]
