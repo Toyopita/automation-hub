@@ -761,6 +761,37 @@
         "playfulness": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T11:29:28.118940+09:00",
+      "summary": "actually ramen with rice is really my go-to, espec",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "リラックスした自己開示。親しみやすく自然な会話姿勢",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
