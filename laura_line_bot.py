@@ -848,22 +848,25 @@ async def handle_line_text_message(event: dict):
         logger.error(f"Discord channel {LAURA_CHANNEL_ID} not found")
         return
 
-    # コンテキスト情報
+    # コンテキスト情報（日本語化）
     context = ""
     if trigger:
+        cat_display = format_trigger_category(
+            trigger.get('category', ''),
+            trigger.get('modifiers', [])
+        )
         context = (
-            f"**きっかけ（YOU → Laura）:** "
-            f"[{trigger.get('sent_at', '')[:16]} 送信 | "
-            f"応答: {trigger.get('response_time_min', '?')}分]\n"
+            f"**💬 きっかけ（YOU → Laura）**\n"
+            f"📤 {trigger.get('sent_at', '')[:16]} 送信 ｜ ⏱️ 応答 {trigger.get('response_time_min', '?')}分\n"
             f"> {trigger.get('message', '')}\n"
-            f"> カテゴリ: {trigger.get('category', '')} "
-            f"{' '.join(trigger.get('modifiers', []))}"
+            f"🏷️ {cat_display}"
         )
     else:
-        context = "**きっかけ:** Laura自発メッセージ"
+        context = "**💬 きっかけ:** Laura自発メッセージ 💌"
 
-    embed = Embed(title=f"📩 Laura [{time_str}]", color=0xe91e63)
+    embed = Embed(title=f"📩 Laura ［{time_str}］", color=0xcc5de8)
     embed.add_field(name="🇬🇧 原文", value=f"> {text}", inline=False)
+    embed.add_field(name="🇯🇵 日本語訳", value=analysis["translation"], inline=False)
     embed.add_field(
         name="📊 感情分析",
         value=f"```\n{emotion_bars}\n{att_risk}\n```",
@@ -872,7 +875,6 @@ async def handle_line_text_message(event: dict):
     if analysis.get("note"):
         embed.add_field(name="📝 補足", value=analysis["note"], inline=False)
     embed.add_field(name="🔗 コンテキスト", value=context, inline=False)
-    embed.add_field(name="🇯🇵 日本語訳", value=analysis["translation"], inline=False)
 
     await channel.send(embed=embed)
     # ProfileLearner: 受信メッセージからも学習（返信前でも事実抽出）
