@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "yes exactly haha, and you, are you in a relationship?",
-    "time": "2026-02-11 23:50"
-  },
-  {
     "role": "you",
     "text": "nah i'm single too actually\n\nlol kinda funny we're both in the same boat here. though your reasons sound way more dramatic than mine 😂\n\nmine's more just... work's busy, haven't really met anyone interesting in a while. plus dating apps here are kinda exhausting honestly",
     "time": "2026-02-12 00:04"
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "yea yea, i'm on my way home now i'm only at work for half a day today haha",
     "time": "2026-02-12 16:23"
+  },
+  {
+    "role": "you",
+    "text": "oh nice, heading home early then haha. going straight to the beach after or just relaxing at home?",
+    "time": "2026-02-12 16:47"
   }
 ]
