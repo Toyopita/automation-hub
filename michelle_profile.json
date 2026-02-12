@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T16:20:48.745383+09:00",
+  "last_updated": "2026-02-12T16:47:54.335310+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -863,6 +863,40 @@
           "acknowledgment"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Has half-day work schedule sometimes (not always full-time hours)",
+        "tags": [
+          "work",
+          "schedule",
+          "half-day",
+          "flexible hours",
+          "part-time",
+          "work hours",
+          "mall job",
+          "cosmetics store",
+          "varied schedule",
+          "work-life balance",
+          "today"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Goes home directly after work on half-days (as of 2026-02-12)",
+        "tags": [
+          "routine",
+          "commute",
+          "going home",
+          "after work",
+          "half-day",
+          "travel",
+          "work-life transition",
+          "february 2026",
+          "current activity",
+          "movement",
+          "location change"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -896,9 +930,9 @@
       "😊",
       "haha"
     ],
-    "formality_level": "casual - lowercase, 'oh yes' casual confirmation, 😂 emoji",
+    "formality_level": "casual - uses 'yea yea' repetition for emphasis, 'haha' as sentence closer",
     "humor_style": "self-deprecating and realistic - uses 😂 when downplaying cultural differences or admitting something isn't as special as it might seem, shows grounded perspective without excessive nationalism",
-    "response_speed_tendency": "quick response when defending/explaining personal food preferences",
+    "response_speed_tendency": "quick response when discussing immediate activities/current location",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1044,29 +1078,13 @@
     "cultural_food_comparison": 8,
     "taste_preferences": 8,
     "condiment_discussion": 7,
-    "defending_food_choices": 7
+    "defending_food_choices": 7,
+    "current_activity_sharing": 8,
+    "work_schedule_flexibility": 7,
+    "commute_discussion": 6,
+    "immediate_plans": 5
   },
   "effective_patterns": [
-    {
-      "pattern": "following_up_with_specific_food_detail_question",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'do you go for instant ramen or the real stuff from a shop?' shows genuine interest in her eating habits and creates opportunity for her to share more details - response pending"
-    },
-    {
-      "pattern": "casual_mirroring_with_haha",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha' mirrors her 😂 emoji, matching her lighthearted tone about the food combo - response pending but creates tonal alignment"
-    },
-    {
-      "pattern": "observing_unusual_timing_casually",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'that's pretty late lunch though haha' comments on her 1pm lunch in casual observational tone - response pending but shows attention to details she shared"
-    },
-    {
-      "pattern": "empathizing_with_physical_consequence",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'you must get pretty hungry by then' shows empathy for what late lunch means physically, connecting to her experience - response pending"
-    },
     {
       "pattern": "playful_observation_with_haha",
       "engagement_boost": null,
@@ -1146,6 +1164,26 @@
       "pattern": "giving_credit_to_her_observation",
       "engagement_boost": null,
       "evidence": "Toyo's 'guess the condiments really do matter then' frames her earlier point about gravy/ketchup differences as insightful, validating her attention to flavor details - response pending"
+    },
+    {
+      "pattern": "acknowledging_unexpected_detail_positively",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'oh nice, heading home early then haha' validates her half-day as positive without asking why (which might feel intrusive) - response pending"
+    },
+    {
+      "pattern": "offering_two_relatable_options_for_plans",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'going straight to the beach after or just relaxing at home?' references her known beach love while also offering low-key home option, showing he remembers her interests without pressuring - response pending"
+    },
+    {
+      "pattern": "matching_her_casual_tone_with_haha",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 'haha' to maintain lighthearted tone about leaving work early - response pending"
+    },
+    {
+      "pattern": "asking_about_immediate_plans_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's question about beach vs home creates natural continuation about her afternoon without feeling interrogative - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -1156,5 +1194,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 6
+  "_exchange_count_since_consolidation": 7
 }
