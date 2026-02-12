@@ -1,10 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "I will share the menu with you later😉",
-    "time": "2026-02-12 11:28"
-  },
-  {
     "role": "you",
     "text": "thanks haha, you too\n\nooh nice, what kind of place do you work at again? and yeah send me the menu if it's something good 😄",
     "time": "2026-02-12 11:38"
@@ -147,6 +142,11 @@
   {
     "role": "vita",
     "text": "later on holiday",
+    "time": "2026-02-12 22:29"
+  },
+  {
+    "role": "vita",
+    "text": "how about u?",
     "time": "2026-02-12 22:29"
   }
 ]
