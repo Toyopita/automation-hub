@@ -16663,6 +16663,48 @@
         "future": 5,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:23:48.402342+09:00",
+      "summary": "Im not at home ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前のメッセージの繰り返し。彼の要求に応える意思はあるが、今は物理的に無理と説明している状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -2,
+        "ds": -3,
+        "playfulness": -1,
+        "future": -3,
+        "engagement": -1
+      }
     }
   ]
 }
