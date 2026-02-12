@@ -648,6 +648,7 @@ class AutoChatBot:
                 'daily_remaining': self.budget.get_daily_remaining(),
                 'monthly_remaining': self.budget.get_monthly_remaining(),
                 'can_send': self.budget.can_send(),
+                'pace_level': self.budget.get_pace_level(),
             }
             reply_decision = emotion.get('reply_decision', {})
             strategy_decision = self.strategy_engine.decide(
