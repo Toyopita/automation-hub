@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:34:35.845613+09:00",
+  "last_updated": "2026-02-12T09:37:09.849050+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -115,7 +115,10 @@
       "mentions videos sent previously (has sent videos to partner before)",
       "has sent videos to partner before (references previous video content)",
       "keeps/remembers previously sent intimate content",
-      "commits to sending pictures the next day when unable to send immediately"
+      "commits to sending pictures the next day when unable to send immediately",
+      "requests partner to send Japanese audio messages",
+      "initiates requests for Japanese language practice content from partner",
+      "uses pleading emoji when making Japanese practice requests"
     ]
   },
   "personality": {
@@ -176,7 +179,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "fuck me so hard",
       "Can you do something for me",
       "Stop",
       "sooo bad",
@@ -205,7 +207,8 @@
       "Im tired",
       "trained a lot",
       "Okay",
-      "Love you bye"
+      "Love you bye",
+      "Send me an audio talking in Japanese"
     ]
   },
   "topic_engagement": {
@@ -522,7 +525,12 @@
     "following_through_on_next_day_promises": 9.4,
     "expressing_love_unprompted": 9.7,
     "initiating_love_declarations": 9.8,
-    "goodbye_rituals_with_love_statements": 9.6
+    "goodbye_rituals_with_love_statements": 9.6,
+    "japanese_audio_practice": 9.4,
+    "requesting_language_practice_content": 9.3,
+    "audio_messages_for_learning": 9.2,
+    "partner_speaking_japanese": 9.5,
+    "hearing_partner_in_japanese": 9.4
   },
   "effective_patterns": [
     {
