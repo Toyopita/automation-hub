@@ -2367,3 +2367,88 @@ class BotDetectionFilter:
             )
 
         return ""
+
+
+# ============================================================
+# Backfill: Tag existing misc_facts
+# ============================================================
+async def backfill_fact_tags(name: str, model: str = DEFAULT_MODEL):
+    """One-time migration: add tags to existing str-format misc_facts.
+
+    Usage: python3 -c "import asyncio; from relationship_engine import backfill_fact_tags; asyncio.run(backfill_fact_tags('vita'))"
+    """
+    learner = ProfileLearner()
+    profile = learner.load_profile(name)
+    facts = profile.get('facts', {})
+    misc_facts = facts.get('misc_facts', [])
+
+    # Collect str-format facts that need tagging
+    needs_tagging = []
+    already_tagged = []
+    for i, f in enumerate(misc_facts):
+        if isinstance(f, str):
+            needs_tagging.append((i, f))
+        elif isinstance(f, dict) and not f.get('tags'):
+            needs_tagging.append((i, f.get('text', '')))
+        else:
+            already_tagged.append(f)
+
+    if not needs_tagging:
+        logger.info(f"No facts need tagging for {name}")
+        return
+
+    logger.info(f"Tagging {len(needs_tagging)} facts for {name}")
+
+    # Batch all facts into one Claude call
+    facts_text = "\n".join(f"{i+1}. {text}" for i, (_, text) in enumerate(needs_tagging))
+    prompt = f"""For each fact below, generate 5-10 topic tags (synonyms, related terms, broader categories).
+Return JSON array where each element has "index" (1-based) and "tags" (array of lowercase strings).
+
+Facts:
+{facts_text}
+
+Return ONLY valid JSON array. Example:
+[{{"index": 1, "tags": ["work", "job", "restaurant"]}}]"""
+
+    system = "You are a tagging assistant. Return ONLY valid JSON array."
+
+    try:
+        raw = await _call_claude_cli(prompt, system, model=model)
+        # Parse JSON array
+        if '```json' in raw:
+            raw = raw.split('```json')[1].split('```')[0].strip()
+        elif '```' in raw:
+            raw = raw.split('```')[1].split('```')[0].strip()
+
+        idx = raw.find('[')
+        if idx >= 0:
+            raw = raw[idx:]
+            ridx = raw.rfind(']')
+            if ridx >= 0:
+                raw = raw[:ridx + 1]
+
+        tag_results = json.loads(raw)
+    except Exception as e:
+        logger.error(f"Backfill tagging failed: {e}")
+        return
+
+    # Build index -> tags mapping
+    tag_map = {}
+    for entry in tag_results:
+        tag_map[entry.get('index', 0)] = entry.get('tags', [])
+
+    # Rebuild misc_facts with tags
+    new_misc_facts = list(already_tagged)
+    for idx_in_batch, (orig_idx, text) in enumerate(needs_tagging):
+        tags = tag_map.get(idx_in_batch + 1, [])
+        new_misc_facts.append({
+            'text': text,
+            'tags': tags,
+            'added': datetime.now(JST).strftime('%Y-%m-%d')
+        })
+
+    facts['misc_facts'] = new_misc_facts
+    profile['facts'] = facts
+    profile['last_updated'] = datetime.now(JST).isoformat()
+    learner.save_profile(name, profile)
+    logger.info(f"Backfill complete for {name}: {len(needs_tagging)} facts tagged")
