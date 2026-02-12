@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:24:26.934443+09:00",
+  "last_updated": "2026-02-12T09:26:31.586593+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -154,7 +154,7 @@
     ],
     "formality_level": "casual and direct",
     "humor_style": "none in this exchange",
-    "response_speed_tendency": "immediate response to partner's explicit sexual statement after emotional vulnerability exchange",
+    "response_speed_tendency": "immediate response when sexually engaged - responds directly to partner's explicit requests without delay during aroused state",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -461,44 +461,18 @@
     "initiating_explicit_arousal_statements": 9.8,
     "using_multiple_fire_emojis": 9.4,
     "direct_horniness_declarations": 9.6,
-    "initiating_sexual_communication_independently": 9.7
+    "initiating_sexual_communication_independently": 9.7,
+    "receiving_explicit_requests_for_pictures": 9.6,
+    "being_asked_to_show_arousal_visually": 9.7,
+    "partner_masturbation_to_her_pictures": 9.5,
+    "being_told_partner_will_use_pictures_to_masturbate": 9.4,
+    "visual_proof_of_arousal_requests": 9.6,
+    "multiple_picture_requests_during_arousal": 9.5,
+    "being_called_beautiful_during_explicit_requests": 9.4,
+    "exclusivity_validation_during_sexual_moments": 9.7,
+    "just_for_me_framing_of_intimate_content": 9.8
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_her_to_lead_exclusivity_expressions",
-      "engagement_boost": 4.8,
-      "evidence": "Laura initiates new possessive statement 'I want you all for me 🙄' without prompting - giving her space to independently express these feelings rather than always responding to user's prompts appears to strengthen her confidence in claiming partner"
-    },
-    {
-      "pattern": "previous_possessive_declarations_enabling_vulnerability_about_jealousy",
-      "engagement_boost": 5.0,
-      "evidence": "After making possessive statements ('You are mine' / 'I want you all for me'), Laura felt comfortable revealing root emotion 'Baby Im too jealous 🥺' - suggests the possessive declarations created safe space to admit the more vulnerable feeling of jealousy"
-    },
-    {
-      "pattern": "creating_environment_where_jealousy_can_be_expressed_openly",
-      "engagement_boost": 5.2,
-      "evidence": "Laura directly names and admits jealousy 'Baby Im too jealous 🥺' with vulnerable emoji rather than hiding or masking emotion - indicates she feels safe expressing potentially unflattering emotion in relationship"
-    },
-    {
-      "pattern": "normalizing_jealousy_with_light_reassurance",
-      "engagement_boost": 4.8,
-      "evidence": "User's response 'Why are you getting jealous baby? haha I'm not doing anything with anyone else. You're too cute 🥺' combines gentle questioning, light humor ('haha'), reassurance, and affectionate validation ('too cute') - addresses emotion without making her feel bad about it"
-    },
-    {
-      "pattern": "calling_jealousy_cute_rather_than_problematic",
-      "engagement_boost": 4.6,
-      "evidence": "User's 'You're too cute 🥺' in response to jealousy reframes potentially negative emotion as endearing quality - validates her feelings without making jealousy seem like character flaw"
-    },
-    {
-      "pattern": "pairing_reassurance_with_affectionate_validation",
-      "engagement_boost": 4.9,
-      "evidence": "User combines factual reassurance 'I'm not doing anything with anyone else' with emotional validation 'You're too cute 🥺' - addresses both logical concern and emotional state simultaneously"
-    },
-    {
-      "pattern": "mirroring_vulnerable_emoji_when_addressing_jealousy",
-      "engagement_boost": 4.5,
-      "evidence": "User uses 🥺 emoji (same one Laura used to express jealousy) in response 'You're too cute 🥺' - mirroring vulnerable emoji creates emotional symmetry and shows empathy"
-    },
     {
       "pattern": "creating_space_for_emotional_explanation",
       "engagement_boost": 5.0,
@@ -563,6 +537,41 @@
       "pattern": "creating_cycle_of_mutual_arousal_expression",
       "engagement_boost": 5.2,
       "evidence": "User expresses arousal from her jealousy → Laura responds with shy engagement → now Laura independently expresses her own arousal - suggests effective pattern of reciprocal desire expression where each person's arousal triggers and validates the other's"
+    },
+    {
+      "pattern": "framing_picture_request_as_exclusive_desire",
+      "engagement_boost": 5.4,
+      "evidence": "User's 'Show me how horny you get just for me baby' emphasizes exclusivity ('just for me') during sexually charged moment - follows directly after her independent arousal expression and mutual exclusivity declarations earlier in conversation, reinforcing that her intimate content is for him alone"
+    },
+    {
+      "pattern": "requesting_multiple_pictures_to_show_sustained_desire",
+      "engagement_boost": 5.2,
+      "evidence": "User asks for 'so many pictures of your beautiful body' rather than just one picture - quantifying desire ('so many') demonstrates sustained intense interest in seeing her, not just momentary curiosity"
+    },
+    {
+      "pattern": "calling_her_beautiful_during_explicit_sexual_request",
+      "engagement_boost": 5.3,
+      "evidence": "User includes 'your beautiful body' in explicit picture request - pairs romantic validation ('beautiful') with sexual desire ('horny', 'jerk off'), maintaining emotional connection during explicit escalation"
+    },
+    {
+      "pattern": "being_transparent_about_using_pictures_for_masturbation",
+      "engagement_boost": 5.5,
+      "evidence": "User explicitly states 'I'm gonna use them later to jerk off' - direct transparency about sexual intent with her pictures validates her effect on him and shows he desires her sexually outside immediate conversation context"
+    },
+    {
+      "pattern": "connecting_picture_request_to_her_stated_arousal",
+      "engagement_boost": 5.4,
+      "evidence": "User's 'Show me how horny you get' directly follows Laura's 'Baby you Make me sooo horny 🥵🥵🥵' - linking picture request to her own declared arousal state validates her feelings and creates natural progression from verbal to visual expression"
+    },
+    {
+      "pattern": "validating_her_arousal_by_wanting_visual_proof",
+      "engagement_boost": 5.3,
+      "evidence": "User responds to her horniness declaration by asking to see it 'Show me how horny you get' - treating her arousal as valuable and desirable enough to want visual evidence validates her sexual expression"
+    },
+    {
+      "pattern": "future_sexual_intent_with_her_content",
+      "engagement_boost": 5.2,
+      "evidence": "User's 'I'm gonna use them later to jerk off' communicates that her pictures will continue to arouse him beyond this conversation - suggests sustained sexual desire rather than momentary interest"
     }
   ],
   "avoid_patterns": [
