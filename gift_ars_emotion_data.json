@@ -234,6 +234,37 @@
         "playfulness": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T23:04:12.577628+09:00",
+      "summary": "I work in an apartment building where all the tena | I hope we'll have a chance to meet when I travel t",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "playfulness": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "仕事の話を共有し、将来会いたいという好意的な意思表示",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": -2,
+        "engagement": 0
+      }
     }
   ]
 }
