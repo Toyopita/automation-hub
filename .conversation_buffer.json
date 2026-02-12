@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Hahahaha ",
-    "time": "09:30"
-  },
-  {
-    "role": "laura",
     "text": "Wait i have the vidéos i send you before ",
     "time": "09:30"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I mean you really dont understand anything ? ",
     "time": "09:47"
+  },
+  {
+    "role": "you",
+    "text": "I really can't baby 🥲",
+    "time": "09:48"
   }
 ]
