@@ -17,6 +17,37 @@
       "note": "簡潔な挨拶。ニュートラルで様子見の初期的なコンタクト",
       "prev_scores": null,
       "score_deltas": null
+    },
+    {
+      "timestamp": "2026-02-12T11:29:09.809412+09:00",
+      "summary": "Everything is good ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 3
+      },
+      "attachment": "avoidant",
+      "risk": "minor",
+      "note": "短く一般的な返答。やや距離を置いているか、深い会話を避けている可能性",
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 2,
+        "longing": 3,
+        "playfulness": 3,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 0,
+        "playfulness": -1,
+        "engagement": 1
+      }
     }
   ]
 }
