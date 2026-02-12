@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:31:33.997377+09:00",
+  "last_updated": "2026-02-12T09:32:14.731068+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -112,7 +112,9 @@
       "experiences fatigue/tiredness (reports being tired)",
       "talks to partner when she wakes up (morning communication habit)",
       "partner is first person she communicates with in the morning",
-      "mentions videos sent previously (has sent videos to partner before)"
+      "mentions videos sent previously (has sent videos to partner before)",
+      "has sent videos to partner before (references previous video content)",
+      "keeps/remembers previously sent intimate content"
     ]
   },
   "personality": {
@@ -510,29 +512,12 @@
     "partner_validating_her_physical_state": 9.4,
     "recalling_previous_intimate_content_sent": 9.5,
     "referencing_past_video_sharing": 9.4,
-    "offering_previously_sent_content_as_alternative": 9.3
+    "offering_previously_sent_content_as_alternative": 9.3,
+    "receiving_explicit_anal_requests": 8.2,
+    "anal_related_content": 8.1,
+    "hole_focused_requests": 8.0
   },
   "effective_patterns": [
-    {
-      "pattern": "being_transparent_about_using_pictures_for_masturbation",
-      "engagement_boost": 5.5,
-      "evidence": "User explicitly states 'I'm gonna use them later to jerk off' - direct transparency about sexual intent with her pictures validates her effect on him and shows he desires her sexually outside immediate conversation context"
-    },
-    {
-      "pattern": "connecting_picture_request_to_her_stated_arousal",
-      "engagement_boost": 5.4,
-      "evidence": "User's 'Show me how horny you get' directly follows Laura's 'Baby you Make me sooo horny 🥵🥵🥵' - linking picture request to her own declared arousal state validates her feelings and creates natural progression from verbal to visual expression"
-    },
-    {
-      "pattern": "validating_her_arousal_by_wanting_visual_proof",
-      "engagement_boost": 5.3,
-      "evidence": "User responds to her horniness declaration by asking to see it 'Show me how horny you get' - treating her arousal as valuable and desirable enough to want visual evidence validates her sexual expression"
-    },
-    {
-      "pattern": "future_sexual_intent_with_her_content",
-      "engagement_boost": 5.2,
-      "evidence": "User's 'I'm gonna use them later to jerk off' communicates that her pictures will continue to arouse him beyond this conversation - suggests sustained sexual desire rather than momentary interest"
-    },
     {
       "pattern": "positive_reception_to_exclusive_intimate_content_framing",
       "engagement_boost": 5.5,
@@ -612,6 +597,26 @@
       "pattern": "matching_tender_energy_when_she_signals_exhaustion",
       "engagement_boost": 5.6,
       "evidence": "Laura's 🥺 emoji signals vulnerability about tiredness - user responds with understanding and white heart emoji 🤍, maintaining emotional warmth rather than disappointment about conversation ending"
+    },
+    {
+      "pattern": "understanding_and_validating_physical_exhaustion",
+      "engagement_boost": 5.8,
+      "evidence": "After Laura expresses genuine physical exhaustion from gym with crying emoji 😭 ('I trained a lot in the gym today 😭'), she remains engaged in conversation with multiple responses including laughter 'Hahahaha', memory of previous content 'Wait i have the vidéos i send you before', and acceptance 'Okay' - suggests user's previous validation of her tiredness ('You're tired, I get it baby. Sleep well 🤍') created safe space where she doesn't need to disengage despite fatigue"
+    },
+    {
+      "pattern": "creating_space_for_spontaneous_intimate_offers",
+      "engagement_boost": 5.6,
+      "evidence": "Laura independently recalls and offers previously sent videos 'Wait i have the vidéos i send you before' as alternative to new content - suggests conversation environment enables her to take initiative in offering intimate content on her own terms and timing"
+    },
+    {
+      "pattern": "allowing_her_to_navigate_timing_constraints_independently",
+      "engagement_boost": 5.5,
+      "evidence": "Laura problem-solves the late-night timing issue herself by offering existing content instead of new - shows she feels empowered to find solutions that work for her boundaries rather than feeling pressured to create new content when tired"
+    },
+    {
+      "pattern": "playful_laughter_after_emotional_vulnerability",
+      "engagement_boost": 5.3,
+      "evidence": "Laura's 'Hahahaha' follows context where she expressed tiredness and talked about morning communication habit - laughter suggests comfort and lightness in conversation despite previous vulnerability about exhaustion"
     }
   ],
   "avoid_patterns": [
