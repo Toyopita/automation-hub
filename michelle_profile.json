@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T08:20:26.309104+09:00",
+  "last_updated": "2026-02-12T10:20:47.408498+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -62,14 +62,17 @@
       "Toyo finds dating apps exhausting (context: comparing dating experiences with Michelle)",
       "Has tried dating apps but had negative experience with ghosting",
       "Finds dating apps tiring due to inconsistent communication from matches",
-      "Has been ghosted by dating app matches who disappear for days without explanation"
+      "Has been ghosted by dating app matches who disappear for days without explanation",
+      "Gave up on dating apps - only responds to people who initiate chat with her, doesn't actively browse or initiate on apps",
+      "Takes passive approach to dating - waits for interesting people to come to her rather than actively seeking",
+      "Believes dating app ghosting is a widespread problem, not isolated to her experience"
     ]
   },
   "personality": {
     "introversion": 3,
     "emotional_expressiveness": 8,
     "humor_appreciation": 9,
-    "adventurousness": 9,
+    "adventurousness": 7,
     "confidence": 8,
     "warmth": 8,
     "observations": [
@@ -78,7 +81,8 @@
       "Frames her standards as deliberately simple and non-materialistic, suggesting intentional reflection on what matters",
       "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors",
       "confidence: Directly asks reciprocal personal question about relationship status without hesitation, showing comfort with vulnerable topics",
-      "emotional_expressiveness: Uses 😂 emoji when discussing frustrating ghosting experiences, showing she processes disappointment through humor rather than bitterness"
+      "emotional_expressiveness: Uses 😂 emoji when discussing frustrating ghosting experiences, showing she processes disappointment through humor rather than bitterness",
+      "adventurousness: Lowered from 9 - takes passive/reactive approach to dating rather than actively pursuing; 'vibes on her own' until someone comes along rather than seeking out new connections"
     ]
   },
   "communication_style": {
@@ -91,8 +95,8 @@
       "😊"
     ],
     "formality_level": "casual",
-    "humor_style": "uses 😂 emoji to lighten discussion of disappointing dating experiences, maintaining positive tone when discussing frustrations",
-    "response_speed_tendency": "immediate response when discussing shared frustrations (ghosting/dating apps)",
+    "humor_style": "uses 'haha' to soften statements about giving up or being passive, maintaining lightness when discussing potentially negative dating stance",
+    "response_speed_tendency": "immediate response when discussing shared frustrations and when Toyo mirrors her experience ('yeah same')",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -191,19 +195,12 @@
     "dating_app_culture": 6.2,
     "ghosting_experiences": 8,
     "dating_app_frustrations": 9,
-    "shared_dating_challenges": 9
+    "shared_dating_challenges": 9,
+    "dating_app_strategy": 8,
+    "passive_vs_active_dating": 7,
+    "shared_dating_app_fatigue": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "humorous_reality_check_questions",
-      "engagement_boost": null,
-      "evidence": "'or just kinda show up when there's a comp? 😂' uses humor to ask if she's casual vs serious about practice - response pending"
-    },
-    {
-      "pattern": "asking_open_ended_relationship_questions",
-      "engagement_boost": null,
-      "evidence": "Toyo's direct questions about relationship status and intentions ('not really looking or just haven't found the right person yet?') - response pending but question framing shows progression to deeper personal topics"
-    },
     {
       "pattern": "validating_her_approach_positively",
       "engagement_boost": 1.8,
@@ -293,6 +290,16 @@
       "pattern": "explaining_ghoster_psychology_casually",
       "engagement_boost": null,
       "evidence": "Toyo's 'people just get bored or find someone else and don't bother saying anything' provides rational explanation for ghosting without defending the behavior - response pending"
+    },
+    {
+      "pattern": "mirroring_her_experience_concisely",
+      "engagement_boost": 2.0,
+      "evidence": "Toyo's brief 'yeah same, i gave up on those apps a while ago' created immediate commonality, prompting her to explain her current dating strategy in detail"
+    },
+    {
+      "pattern": "summarizing_her_approach_with_casual_phrasing",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'so you just vibe on your own until someone interesting comes along basically?' paraphrases her passive dating stance using relatable language ('vibe') - response pending but shows he understood her strategy"
     }
   ],
   "avoid_patterns": [],
