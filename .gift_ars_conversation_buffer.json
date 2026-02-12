@@ -61,7 +61,12 @@
   },
   {
     "role": "you",
-    "text": "I'm in Osaka. yeah I've been reading about the situation there, sounds really tough honestly. how does it affect your day-to-day?",
+    "text": "I'm in Tokyo. yeah I've been reading about the situation there, sounds really tough honestly. how does it affect your day-to-day?",
     "time": "2026-02-12 12:47"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Yesss, It's okay ",
+    "time": "2026-02-12 13:10"
   }
 ]
