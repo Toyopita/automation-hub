@@ -15875,6 +15875,56 @@
         "future": 1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:53:01.725219+09:00",
+      "summary": "I know ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い返答。会話の流れを受け入れている感じ。少し考え込んでいるかも",
+      "trigger": {
+        "message": "We're chatting like this though, so no problem for me haha",
+        "sent_at": "2026-02-12T09:52:08.732832+09:00",
+        "category": "support",
+        "modifiers": [
+          "+reassurance"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
