@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T23:39:16.972120+09:00",
+  "last_updated": "2026-02-13T00:07:16.076698+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -502,6 +502,27 @@
           "self-categorization"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "does facial and body care as part of her self-care routine on days off",
+        "tags": [
+          "self-care",
+          "beauty",
+          "skincare",
+          "body care",
+          "facial",
+          "personal care",
+          "grooming",
+          "wellness",
+          "health",
+          "hygiene",
+          "beauty routine",
+          "spa",
+          "pampering",
+          "feminine routine",
+          "day off activities"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -513,9 +534,6 @@
     "confidence": 8,
     "warmth": 8,
     "observations": [
-      "confidence: comfortably asks about your work schedule after philosophical discussion about relationships, showing she can navigate different conversation depths naturally",
-      "warmth: sends well-wishes unprompted 'have a great day at work' with supportive sticker, proactively shares plans to send menu, uses playful winking emoji showing care and desire to connect",
-      "emotional_expressiveness: uses sticker to reinforce emotional sentiment, adds winking emoji to create anticipation and playfulness about sharing menu",
       "confidence: proactively sent menu photos as promised without hesitation or apology, showing increased comfort and follow-through - progression from previous anxiety about acceptance",
       "warmth: continues pattern of wanting to share her world with you through menu photos, laughing warmly with 'ahahaha' before sending images",
       "warmth: uses affectionate repeated stickers after correcting misconception about restaurant being fancy, showing she's comfortable being playful even when clarifying",
@@ -532,11 +550,14 @@
       "warmth: continues to show genuine interest in your daily life and activities by asking 'Where do you like to go on your days off?' - maintains caring, engaged communication pattern",
       "confidence: comfortably asks follow-up questions about your routines and lifestyle, showing continued confidence in deepening the conversation naturally",
       "warmth: continues to engage openly with your curiosity about her daily life, showing willingness to share personal routine details - 'just walking around the area around the house and doing routines like most girls'",
-      "confidence: comfortably shares her daily routines without hesitation or self-consciousness, showing continued confidence in the relationship"
+      "confidence: comfortably shares her daily routines without hesitation or self-consciousness, showing continued confidence in the relationship",
+      "warmth: uses playful repeated laughter 'xixixixi' showing comfort and positive emotional expression when discussing personal care routines",
+      "emotional_expressiveness: continues to express emotions openly through repeated laughter sounds 'xixixixi' when sharing personal activities, showing she's comfortable being expressive about her self-care habits",
+      "confidence: comfortably shares personal self-care details like facial and body care without hesitation, showing continued confidence in opening up about intimate personal routines"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very short - 1-2 brief acknowledgments followed by single question",
+    "avg_message_length": "very short - 1-3 words per message",
     "emoji_frequency": "none in this exchange",
     "preferred_emojis": [
       "😭",
@@ -547,8 +568,8 @@
       "[sticker pkg:1, id:10]"
     ],
     "formality_level": "casual",
-    "humor_style": "not evident in this exchange",
-    "response_speed_tendency": "engaged and responsive to follow-up questions about her lifestyle",
+    "humor_style": "playful and lighthearted, uses repeated syllables for laughter to express amusement about personal care routines",
+    "response_speed_tendency": "engaged and responsive to follow-up questions about lifestyle and self-care, willing to elaborate on personal habits",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -560,7 +581,8 @@
       "morningg (playful elongation)",
       "btw",
       "i hearing that",
-      "aaa"
+      "aaa",
+      "xixixixi (playful laughter variation)"
     ]
   },
   "topic_engagement": {
@@ -635,24 +657,19 @@
     "walking_routines": 8.0,
     "feminine_activities": 7.5,
     "neighborhood_exploration": 8.0,
-    "daily_routines_detailed": 8.5
+    "daily_routines_detailed": 8.5,
+    "self_care_routines": 9.0,
+    "beauty_routines": 8.5,
+    "facial_care": 8.5,
+    "body_care": 8.5,
+    "personal_care_habits": 9.0,
+    "feminine_self_care": 8.5,
+    "day_off_activities_detailed": 9.0,
+    "relationship_preferences": 7.0,
+    "dating_type": 7.0,
+    "attraction_patterns": 7.0
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_her_capabilities_with_humor",
-      "engagement_boost": 1.9,
-      "evidence": "your 'oh wow you basically run the whole place haha, that's impressive' recognition of her skills prompted her to continue engaging and ask caring question about your schedule"
-    },
-    {
-      "pattern": "complimenting_with_observation",
-      "engagement_boost": 1.8,
-      "evidence": "noting 'that's impressive' validates her hard work and multitasking abilities, making her feel appreciated"
-    },
-    {
-      "pattern": "sharing_detailed_work_status",
-      "engagement_boost": 1.7,
-      "evidence": "providing specific timeline 'probably another hour or so' gives her concrete information about your day and shows transparency"
-    },
     {
       "pattern": "acknowledging_her_hard_work_multiple_times",
       "engagement_boost": 2.0,
@@ -737,6 +754,21 @@
       "pattern": "asking_for_clarification_on_vague_statements",
       "engagement_boost": 1.7,
       "evidence": "when she mentioned 'routines like most girls', your follow-up asking what that means shows genuine interest in understanding her perspective and invites deeper elaboration"
+    },
+    {
+      "pattern": "acknowledging_positive_traits_with_compliment",
+      "engagement_boost": 1.7,
+      "evidence": "your observation 'you seem like you take really good care of yourself' prompted her to immediately elaborate with 'facial and body care' showing the compliment encouraged her to share specific self-care practices"
+    },
+    {
+      "pattern": "casual_transition_to_deeper_topic",
+      "engagement_boost": 1.6,
+      "evidence": "using 'btw random thought' to smoothly pivot from self-care discussion to asking about relationship preferences shows you're comfortable moving between topics naturally"
+    },
+    {
+      "pattern": "observational_compliment_before_personal_question",
+      "engagement_boost": 1.8,
+      "evidence": "complimenting her self-care habits before asking about dating preferences creates positive context and shows you notice and appreciate her lifestyle choices"
     }
   ],
   "avoid_patterns": [],
@@ -747,5 +779,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 10
+  "_exchange_count_since_consolidation": 11
 }
