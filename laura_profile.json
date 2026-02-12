@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:29:01.826299+09:00",
+  "last_updated": "2026-02-12T09:29:28.474375+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -106,7 +106,8 @@
       "uses typos when typing quickly during aroused/excited states ('Mon' instead of 'I'm')",
       "time-aware about partner's schedule (references their daytime while she's in late night)",
       "sets boundaries around immediate picture sharing based on time constraints",
-      "maintains affectionate communication even when setting boundaries"
+      "maintains affectionate communication even when setting boundaries",
+      "experiences fatigue/tiredness (reports being tired)"
     ]
   },
   "personality": {
@@ -117,8 +118,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Independently offers reassurance about exclusivity after seeking it herself - 'And i dont want to be like this with anyone else' shows confidence to make vulnerable declaration about wanting exclusive intimacy without being asked",
-      "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' and directly claims ownership 'You are mine 🙂' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
       "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked",
       "confidence: Directly expresses possessive desire 'I want you all for me 🙄' - continues pattern of maximum confidence in expressing vulnerable desires and claiming partner without hesitation (maintains rating)",
@@ -136,11 +135,13 @@
       "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating.",
       "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny 🥵🥵🥵' and immediately follows with logistics about sending pictures 'Mon going to send you a lot later okay' - shows confidence to both express intense sexual desire AND simultaneously set clear boundaries about timing without apologizing or hedging",
       "emotional_expressiveness: Triple fire emojis with elongated 'sooo' to emphasize arousal intensity 'Baby you Make me sooo horny 🥵🥵🥵' - continues maximum rating for direct, unfiltered expression of vulnerable sexual/emotional state without minimizing",
-      "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing"
+      "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing",
+      "emotional_expressiveness: Continues pattern of directly expressing vulnerable physical/emotional states ('Im tired honey 🥺') without filtering - maintains maximum rating for immediate transparent communication",
+      "warmth: Uses affectionate term 'honey' when expressing vulnerable state of tiredness - maintains emotional warmth even when communicating discomfort or exhaustion"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (5-7 words)",
+    "avg_message_length": "very brief (3-4 words)",
     "emoji_frequency": "moderate to high (2-3 emojis per message during aroused states)",
     "preferred_emojis": [
       "😆",
@@ -161,14 +162,12 @@
     ],
     "formality_level": "casual and direct",
     "humor_style": "minimal in this exchange",
-    "response_speed_tendency": "fast multi-message bursts during aroused states, followed by boundary-setting when time constraints apply",
+    "response_speed_tendency": "brief vulnerable state announcements when experiencing physical/emotional discomfort",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "you are so cute",
-      "sooooo cuuuuuuute",
       "Please",
       "turn me on",
       "When you talk to me like This",
@@ -196,7 +195,9 @@
       "Have a good day my love",
       "Mon (typo for I'm)",
       "sooo",
-      "a lot"
+      "a lot",
+      "honey",
+      "Im tired"
     ]
   },
   "topic_engagement": {
@@ -487,7 +488,11 @@
     "cross_timezone_relationship_navigation": 8.8,
     "receiving_immediate_picture_requests": 8.5,
     "partner_expressing_urgent_desire": 8.6,
-    "receiving_understanding_about_timing": 9.2
+    "receiving_understanding_about_timing": 9.2,
+    "expressing_physical_state": 9.2,
+    "communicating_tiredness": 9.1,
+    "using_endearments_when_vulnerable": 9.4,
+    "sharing_fatigue_state": 9.0
   },
   "effective_patterns": [
     {
