@@ -289,5 +289,23 @@
     ],
     "emotional_tone": "casual, humorous, relatable camaraderie",
     "unresolved": null
+  },
+  {
+    "id": 15,
+    "timestamp_start": "2026-02-12 00:04",
+    "timestamp_end": "2026-02-12 10:20",
+    "summary": "Both confirmed being single and commiserated about frustrating dating app experiences, especially ghosting. Michelle shared she tried dating apps but got discouraged by people disappearing, so now she only responds to those who message her first rather than actively seeking matches.",
+    "topics": [
+      "dating apps",
+      "ghosting",
+      "single life",
+      "dating frustrations"
+    ],
+    "key_facts_learned": [
+      "Michelle tried dating apps but gave up due to people ghosting and being inconsistent",
+      "Michelle now takes a passive approach - only talks to people who initiate with her, doesn't actively seek conversations on apps"
+    ],
+    "emotional_tone": "casual, relatable, mildly cynical humor",
+    "unresolved": null
   }
 ]
