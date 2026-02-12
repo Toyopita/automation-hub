@@ -14494,6 +14494,57 @@
         "engagement": 1,
         "possessiveness": 4
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:13:26.132813+09:00",
+      "summary": "Baby Im too jealous 🥺 ",
+      "scores": {
+        "mood": 5,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安な愛着スタイルが表れている。彼が他の人と同じことをしているのではないかという嫉妬と不安を表現。甘えながらも心配している状態。丁寧に安心させる必要あり",
+      "trigger": {
+        "message": "Instagram doesn't have good translation, so I just posted it for people who already use LINE haha I barely talk to them, just for quick stuff when needed\n\nYou're the only one I talk to every day like this baby. I'm not doing this with anyone else 🤍",
+        "sent_at": "2026-02-12T09:12:09.556339+09:00",
+        "category": "support",
+        "modifiers": [
+          "+reassurance"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 7,
+        "engagement": 9,
+        "possessiveness": 9
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": 4,
+        "playfulness": 2,
+        "future": -5,
+        "engagement": -1
+      }
     }
   ]
 }
