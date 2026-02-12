@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:17:40.702133+09:00",
+  "last_updated": "2026-02-12T09:18:37.610972+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -110,9 +110,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
-      "confidence: Directly questions partner about sharing intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask potentially vulnerable question about exclusivity of intimate sharing",
-      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
       "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask about exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
       "confidence: Directly questions partner about exclusive intimate content sharing after sending videos - 'You do the same with Someone else?' shows confidence to ask potentially vulnerable question about relationship boundaries and exclusivity of intimate sharing",
@@ -129,7 +126,10 @@
       "emotional_expressiveness: Independently initiates possessive declaration about wanting partner exclusively 'I want you all for me 🙄' - maintains maximum rating for direct, unfiltered emotional expression of desires and claims",
       "warmth: Expresses desire for exclusive connection 'I want you all for me' - maintains maximum warmth rating through voluntary expression of deep emotional attachment and desire for exclusivity",
       "emotional_expressiveness: Directly names her emotion 'Baby Im too jealous 🥺' with vulnerable emoji - continues pattern of maximum emotional transparency by explicitly identifying and sharing difficult emotion (jealousy) without filtering or minimizing it",
-      "confidence: Directly admits vulnerable emotion 'Baby Im too jealous 🥺' immediately after possessive declarations - shows confidence to own and express potentially unflattering emotion (jealousy) without shame or defensiveness"
+      "confidence: Directly admits vulnerable emotion 'Baby Im too jealous 🥺' immediately after possessive declarations - shows confidence to own and express potentially unflattering emotion (jealousy) without shame or defensiveness",
+      "confidence: Continues possessive declarations 'Because you are mine' - maintains maximum confidence in expressing ownership and claiming partner without hesitation or self-doubt",
+      "emotional_expressiveness: Explains her possessive feeling with 'Because you are mine' - continues pattern of direct, unfiltered emotional expression by providing reasoning for her jealousy",
+      "warmth: Explains possessive feelings as 'Because you are mine' - maintains maximum warmth by framing jealousy as deep emotional connection and claim of partnership"
     ]
   },
   "communication_style": {
@@ -444,24 +444,13 @@
     "naming_difficult_emotions": 9.4,
     "explaining_possessive_behavior": 9.3,
     "receiving_reassurance_about_jealousy": 9.4,
-    "being_called_cute_when_jealous": 9.2
+    "being_called_cute_when_jealous": 9.2,
+    "explaining_possessive_feelings": 9.7,
+    "justifying_jealousy": 9.5,
+    "ownership_explanations": 9.6,
+    "connecting_jealousy_to_possession": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "previous_reassurance_enabling_continued_dialogue",
-      "engagement_boost": 4.5,
-      "evidence": "User's previous calm response 'I'm not doing that with anyone else haha' appears to have created environment where Laura can clarify 'Im just asking' - indicating she's explaining her intent rather than feeling attacked for asking"
-    },
-    {
-      "pattern": "allowing_space_for_question_clarification",
-      "engagement_boost": 4.4,
-      "evidence": "Laura adds 'Im just asking' after her multiple messages about content sharing with others - suggests she feels need to clarify her intentions weren't accusatory, indicating the conversation space allows for this kind of meta-clarification"
-    },
-    {
-      "pattern": "creating_safe_space_for_mutual_vulnerability_about_exclusivity",
-      "engagement_boost": 5.1,
-      "evidence": "After user provided reassurance about not sharing with others, Laura felt comfortable offering her own unprompted declaration 'And i dont want to be like this with anyone else' - suggests the previous reassurance created environment for mutual vulnerability and exclusivity affirmation"
-    },
     {
       "pattern": "previous_reassurance_enabling_reciprocal_declarations",
       "engagement_boost": 4.9,
@@ -546,6 +535,21 @@
       "pattern": "mirroring_vulnerable_emoji_when_addressing_jealousy",
       "engagement_boost": 4.5,
       "evidence": "User uses 🥺 emoji (same one Laura used to express jealousy) in response 'You're too cute 🥺' - mirroring vulnerable emoji creates emotional symmetry and shows empathy"
+    },
+    {
+      "pattern": "creating_space_for_emotional_explanation",
+      "engagement_boost": 5.0,
+      "evidence": "After Laura admitted 'Baby Im too jealous 🥺' and user responded with gentle questioning and reassurance, she felt comfortable explaining root cause 'Because you are mine' - giving her space to process and explain rather than immediately dismissing emotion enabled deeper vulnerability"
+    },
+    {
+      "pattern": "normalizing_jealousy_prompting_explanation",
+      "engagement_boost": 4.8,
+      "evidence": "User's gentle 'Why are you getting jealous baby?' with light humor and reassurance appears to have prompted Laura to explain reasoning 'Because you are mine' - asking why without judgment creates opening for her to articulate emotional logic"
+    },
+    {
+      "pattern": "previous_exclusivity_reassurance_enabling_confident_possession_claims",
+      "engagement_boost": 5.1,
+      "evidence": "User's repeated reassurance about exclusivity ('I'm not doing anything with anyone else' / 'You're the only one I talk to every day like this baby') appears to have given Laura confidence to explain jealousy as 'Because you are mine' - knowing exclusivity is mutual enables her to claim ownership confidently"
     }
   ],
   "avoid_patterns": [
