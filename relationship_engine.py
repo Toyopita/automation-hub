@@ -567,6 +567,12 @@ class StrategyEngine:
             "frequency_range": (3, 6),
             "escalation_base": 0.7,
         },
+        "intimate": {
+            "topics": "Desires, fantasies, sensory descriptions, physical longing, boundaries",
+            "tone": "Confident, seductive, tender, intensely personal",
+            "frequency_range": (3, 6),
+            "escalation_base": 0.8,
+        },
     }
 
     def __init__(self):
