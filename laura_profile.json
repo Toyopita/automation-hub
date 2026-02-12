@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:23:47.724581+09:00",
+  "last_updated": "2026-02-12T19:23:58.015885+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1462,6 +1462,22 @@
           "french device"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "not at home during conversation (at another location)",
+        "tags": [
+          "location",
+          "not home",
+          "away",
+          "out",
+          "elsewhere",
+          "current location",
+          "whereabouts",
+          "temporary location",
+          "outside home",
+          "mobility"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1972,7 +1988,10 @@
     "being_held_accountable_playfully": 9.2,
     "acknowledging_partner_attention_to_detail": 8.9,
     "time_perspective_humor": 8.4,
-    "mutual_accountability_in_relationship": 9.1
+    "mutual_accountability_in_relationship": 9.1,
+    "location_sharing": 8.5,
+    "whereabouts_disclosure": 8.4,
+    "current_status_updates": 8.3
   },
   "effective_patterns": [
     {
