@@ -625,5 +625,23 @@
     ],
     "emotional_tone": "casual, matter-of-fact, friendly",
     "unresolved": null
+  },
+  {
+    "id": 36,
+    "timestamp_start": "2026-02-12 15:55",
+    "timestamp_end": "2026-02-12 16:14",
+    "summary": "Discussed Vita's work at what appears to be an Indonesian food establishment. She clarified that she handles multiple roles including both cooking and serving, plus manages the finance department.",
+    "topics": [
+      "work",
+      "Indonesian food",
+      "job responsibilities",
+      "restaurant"
+    ],
+    "key_facts_learned": [
+      "Vita works at an Indonesian food place",
+      "She handles cooking, serving, and finance department duties"
+    ],
+    "emotional_tone": "casual, friendly, light-hearted",
+    "unresolved": null
   }
 ]
