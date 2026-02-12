@@ -699,40 +699,26 @@ class StrategyEngine:
 
     def _should_stay_silent(self, push_pull: dict, budget: dict,
                             emotion: dict, conversation_history: list[dict],
-                            stage: str = 'friends') -> bool:
-        """Evaluate the 5 strategic silence rules."""
-        early_stage = stage in ('friends', 'close_friends')
+                            stage: str = 'friends',
+                            reply_decision: dict = None) -> str | None:
+        """Context-aware silence evaluation.
 
-        # OVERRIDE: Never go silent when engagement is high (>= 7)
+        Returns None if should respond, or a reason string if should stay silent.
+        Uses LLM's reply_decision (silence_risk) as primary signal,
+        with hardcoded safety-net rules for budget/overload protection.
+        """
+        rd = reply_decision or {}
+        silence_risk = rd.get('silence_risk', 'medium')
+        reasoning = rd.get('reasoning', '')
+
+        # === SAFETY NET RULES (hardcoded, always apply) ===
+
+        # Safety 1: Budget exhausted
         engagement = emotion.get('scores', {}).get('engagement', 5)
-        if engagement >= 7:
-            return False
+        if budget.get('daily_remaining', 5) <= 1 and silence_risk != 'high':
+            return "budget exhausted"
 
-        # Rule 1: Conversation-ending message (applies to all stages)
-        if conversation_history:
-            last_msg = conversation_history[-1]
-            if last_msg.get('role') != 'you':
-                text_lower = last_msg.get('text', '').lower()
-                endings = ['bye', 'goodnight', 'good night', 'gn', 'nighty', 'ttyl',
-                           'gotta go', 'talk later', 'see you', 'oyasumi', 'night night']
-                if any(e in text_lower for e in endings):
-                    return True
-
-        # Rule 2: Push-Pull ratio too high (relaxed for early stages)
-        pp_threshold = 0.8 if early_stage else 0.7
-        if push_pull['ratio'] > pp_threshold:
-            return True
-
-        # Rule 3: Daily budget at 1 remaining (skip if high engagement)
-        engagement = emotion.get('scores', {}).get('engagement', 5)
-        if budget.get('daily_remaining', 5) <= 1 and engagement < 7:
-            return True
-
-        # Rule 4: Random silence on low-engagement (SKIP for early stages)
-        if not early_stage and engagement <= 4 and random.random() < 0.10:
-            return True
-
-        # Rule 5: 3+ consecutive long responses from you
+        # Safety 2: 3+ consecutive long responses from you (overload protection)
         recent = conversation_history[-6:]
         consecutive_long = 0
         for m in reversed(recent):
@@ -740,10 +726,37 @@ class StrategyEngine:
                 consecutive_long += 1
             else:
                 break
-        if consecutive_long >= 3:
-            return True
+        if consecutive_long >= 3 and silence_risk != 'high':
+            return "3+ consecutive long responses"
 
-        return False
+        # Safety 3: Push-Pull ratio extreme (0.85+) — unless silence_risk is high
+        if push_pull['ratio'] > 0.85 and silence_risk != 'high':
+            return f"push-pull ratio too high ({push_pull['ratio']:.2f})"
+
+        # === CONTEXT-AWARE DECISION (LLM-driven) ===
+
+        # silence_risk="high" → always respond (unanswered question, ignored emotions)
+        if silence_risk == 'high':
+            return None
+
+        # silence_risk="medium" → respond (daily sharing, casual update — reply expected)
+        if silence_risk == 'medium':
+            return None
+
+        # silence_risk="low" → stage-dependent
+        if silence_risk == 'low':
+            if stage in ('friends', 'close_friends'):
+                # Early stages: still respond to build relationship
+                return None
+            else:
+                # Later stages: silence is OK (conversation winding down)
+                return f"low silence_risk ({reasoning})"
+
+        # silence_risk="none" → silence preferred (farewell, conversation ended)
+        if silence_risk == 'none':
+            return f"silence preferred ({reasoning})"
+
+        return None
 
 
 # ============================================================
