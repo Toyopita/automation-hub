@@ -1,16 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "[sticker (pkg:1, id:2)]",
-    "time": "2026-02-11 22:58"
-  },
-  {
-    "role": "you",
-    "text": "haha wait what photos? did i send you some before? i don't even remember doing that 😅\n\nbut thanks though, that's nice of you to say. are you into photography yourself then? you seem interested in it",
-    "time": "2026-02-11 23:15"
-  },
-  {
-    "role": "vita",
     "text": "both selfie and another portrait",
     "time": "2026-02-11 23:26"
   },
@@ -147,6 +137,16 @@
   {
     "role": "vita",
     "text": "simple restaurant, not fancy",
+    "time": "2026-02-12 15:55"
+  },
+  {
+    "role": "vita",
+    "text": "[sticker (pkg:1, id:10)]",
+    "time": "2026-02-12 15:55"
+  },
+  {
+    "role": "vita",
+    "text": "[sticker (pkg:1, id:10)]",
     "time": "2026-02-12 15:55"
   }
 ]
