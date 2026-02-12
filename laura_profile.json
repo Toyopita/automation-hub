@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T20:10:19.748024+09:00",
+  "last_updated": "2026-02-12T21:35:10.351643+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1636,7 +1636,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "trained a lot",
       "Okay",
       "Love you bye",
       "Send me an audio talking in Japanese",
@@ -1665,7 +1664,8 @@
       "You never Forget lol",
       "You never Forget (capitalizes 'Forget' for emphasis)",
       "literally just yesterday (acknowledging time perspective)",
-      "un mot (French autocorrect for 'I'm not')"
+      "un mot (French autocorrect for 'I'm not')",
+      "No baby"
     ]
   },
   "topic_engagement": {
