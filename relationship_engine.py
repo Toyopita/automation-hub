@@ -1514,49 +1514,103 @@ AUTHENTICITY RULES (always active):
             return f"Good balance ({your}/{total} messages are yours)."
 
     def _extract_relevant_facts(self, profile: dict, messages: list[str]) -> str:
-        """Extract facts relevant to the current message context."""
+        """Extract facts relevant to the current message context using tag-based matching."""
         facts = profile.get('facts', {})
-        all_facts = []
 
-        # Collect all facts
-        for key in ('hobbies', 'family', 'misc_facts', 'important_dates'):
-            items = facts.get(key, [])
-            if items:
-                all_facts.extend(items)
+        # --- Build scored fact list ---
+        # Each entry: (display_text, tags_set, is_core)
+        scored_facts: list[tuple[str, set, bool]] = []
 
+        # Core facts (always high priority)
+        core_texts = []
+        if facts.get('occupation'):
+            core_texts.append(f"occupation: {facts['occupation']}")
+        if facts.get('location'):
+            core_texts.append(f"location: {facts['location']}")
+        if facts.get('age'):
+            core_texts.append(f"age: {facts['age']}")
+        for ct in core_texts:
+            scored_facts.append((ct, set(ct.lower().split()), True))
+
+        # misc_facts (dict or str format)
+        for item in facts.get('misc_facts', []):
+            if isinstance(item, dict):
+                text = item.get('text', '')
+                tags = set(t.lower() for t in item.get('tags', []))
+                # Also add words from the text itself as fallback tags
+                tags.update(w.lower() for w in text.split() if len(w) > 3)
+                scored_facts.append((text, tags, False))
+            elif isinstance(item, str):
+                # Legacy str format: use word-based matching
+                tags = set(w.lower() for w in item.split() if len(w) > 3)
+                scored_facts.append((item, tags, False))
+
+        # hobbies, family, important_dates (str lists)
+        for key in ('hobbies', 'family', 'important_dates'):
+            for item in facts.get(key, []):
+                text = str(item)
+                tags = set(w.lower() for w in text.split() if len(w) > 3)
+                scored_facts.append((text, tags, False))
+
+        # favorites
         favorites = facts.get('favorites', {})
         for cat, items in favorites.items():
             for item in items:
-                all_facts.append(f"{cat}: {item}")
+                text = f"{cat}: {item}"
+                tags = set(w.lower() for w in text.split() if len(w) > 3)
+                tags.add(cat.lower())
+                scored_facts.append((text, tags, False))
 
-        if facts.get('occupation'):
-            all_facts.append(f"occupation: {facts['occupation']}")
-
+        # schedule
         schedule = facts.get('schedule', {})
         if schedule.get('work_schedule'):
-            all_facts.append(f"work schedule: {schedule['work_schedule']}")
+            text = f"work schedule: {schedule['work_schedule']}"
+            tags = set(w.lower() for w in text.split() if len(w) > 3)
+            tags.update(['work', 'schedule', 'time'])
+            scored_facts.append((text, tags, False))
 
-        if not all_facts:
+        if not scored_facts:
             return "Still learning about her."
 
-        # Simple keyword matching to find relevant facts
+        # --- Extract message words for matching ---
         messages_lower = ' '.join(messages).lower()
-        relevant = []
-        for fact in all_facts:
-            # Check if any word in the fact appears in the messages
-            words = fact.lower().split()
-            if any(w in messages_lower for w in words if len(w) > 3):
-                relevant.append(f"- {fact}")
+        # Tokenize: split on whitespace and common punctuation
+        msg_words = set(
+            w.strip('.,!?;:()[]{}"\'-')
+            for w in messages_lower.split()
+            if len(w.strip('.,!?;:()[]{}"\'-')) > 2
+        )
 
-        if relevant:
-            return "\n".join(relevant[:10])
+        # --- Score each fact by tag intersection ---
+        results: list[tuple[str, int, bool]] = []
+        for display_text, tags, is_core in scored_facts:
+            if not tags:
+                overlap = 0
+            else:
+                overlap = len(tags & msg_words)
+            results.append((display_text, overlap, is_core))
 
-        # If no keyword match, return a random subset of known facts
-        if len(all_facts) > 5:
-            sample = random.sample(all_facts, 5)
-        else:
-            sample = all_facts
-        return "\n".join(f"- {f}" for f in sample)
+        # --- Build output ---
+        # Always include core facts
+        output_lines = [f"- {text}" for text, _, is_core in results if is_core]
+
+        # Sort non-core by overlap score descending
+        non_core = [(text, score) for text, score, is_core in results if not is_core]
+        non_core.sort(key=lambda x: x[1], reverse=True)
+
+        # Take top matches (overlap > 0), up to 10 total
+        matched = [f"- {text}" for text, score in non_core if score > 0]
+        remaining_slots = 10 - len(output_lines)
+        output_lines.extend(matched[:remaining_slots])
+
+        # If we still have room and few matches, add random unmatched facts
+        if len(output_lines) < 5:
+            unmatched = [text for text, score in non_core if score == 0]
+            fill_count = min(5 - len(output_lines), len(unmatched))
+            if fill_count > 0:
+                output_lines.extend(f"- {f}" for f in random.sample(unmatched, fill_count))
+
+        return "\n".join(output_lines) if output_lines else "Still learning about her."
 
     def _summarize_communication_style(self, profile: dict) -> str:
         comm = profile.get('communication_style', {})
