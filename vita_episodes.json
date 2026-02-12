@@ -643,5 +643,39 @@
     ],
     "emotional_tone": "casual, friendly, light-hearted",
     "unresolved": null
+  },
+  {
+    "id": 37,
+    "timestamp_start": "2026-02-12 16:01",
+    "timestamp_end": "2026-02-12 16:14",
+    "summary": "Discussed Vita's restaurant work serving Indonesian food. She revealed she handles multiple roles including cooking, serving, and finance department work. She asked if YOU had come home from work yet.",
+    "topics": [
+      "work",
+      "restaurant",
+      "indonesian_food",
+      "daily_life"
+    ],
+    "key_facts_learned": [
+      "Vita works at a restaurant doing cooking, serving, and finance",
+      "The restaurant serves Indonesian food"
+    ],
+    "emotional_tone": "casual, friendly, light-hearted",
+    "unresolved": "Vita's question about whether YOU came home from work wasn't answered"
+  },
+  {
+    "id": 38,
+    "timestamp_start": "2026-02-12 16:14",
+    "timestamp_end": "2026-02-12 16:53",
+    "summary": "Vita mentioned managing both departments plus finance, using playful stickers to express herself. She asked if I had come home from work yet, and I acknowledged her impressive workload while letting her know I was still at the office with about an hour left.",
+    "topics": [
+      "work responsibilities",
+      "daily check-in",
+      "work schedule"
+    ],
+    "key_facts_learned": [
+      "Vita has management responsibilities over multiple departments including finance"
+    ],
+    "emotional_tone": "playful, casual, caring",
+    "unresolved": null
   }
 ]
