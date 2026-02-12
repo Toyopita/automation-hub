@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "yeah ghosting is so annoying honestly. like why match with someone if you're not even gonna talk haha\n\nguess it's the same everywhere, people just get bored or find someone else and don't bother saying anything",
-    "time": "2026-02-12 08:19"
-  },
-  {
     "role": "michelle",
     "text": "yes, so many people in the dating apps are like this.  that's why i gave up finding someone on any app, all i talk to are the people who chat with me but if no one chats i dont talk to anyone haha",
     "time": "2026-02-12 10:06"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh that's really sweet of you, taking care of your grandma like that. you're a good granddaughter haha",
     "time": "2026-02-12 18:23"
+  },
+  {
+    "role": "michelle",
+    "text": "yes I do this to her every day since I don't want my grandma to get tired, she should just relax all the time haha",
+    "time": "2026-02-12 18:25"
   }
 ]
