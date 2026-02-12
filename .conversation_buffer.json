@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "If i send Audios you dont understand anything? ",
-    "time": "09:44"
-  },
-  {
-    "role": "laura",
     "text": "What if we meet one day? Hahaha how are you going to talk? ",
     "time": "09:45"
   },
@@ -98,5 +93,10 @@
     "role": "you",
     "text": "Good morning baby 🥰 Did you sleep well?",
     "time": "16:06"
+  },
+  {
+    "role": "laura",
+    "text": "Yesss ",
+    "time": "16:17"
   }
 ]
