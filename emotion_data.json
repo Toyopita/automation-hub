@@ -16427,6 +16427,56 @@
         "future": 0,
         "engagement": 5
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:11:46.878683+09:00",
+      "summary": "Why hahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼のエロい要求に対して笑いながら軽く聞き返している。拒否ではなく、遊び心のある反応",
+      "trigger": {
+        "message": "I wanna see your asshole baby 😏",
+        "sent_at": "2026-02-12T19:09:47.631347+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
