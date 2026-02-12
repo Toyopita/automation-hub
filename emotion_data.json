@@ -15464,6 +15464,50 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:45:44.392477+09:00",
+      "summary": "What if we meet one day? Hahaha how are you going to talk? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 9,
+        "future": 7,
+        "engagement": 9,
+        "overall_threat": 3
+      },
+      "attachment": "safe",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "軽い言語の壁を冗談にしてるけど、実際に会うことを想像してる。親密さと少しの不安が混ざった遊び心のあるトーン。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 6,
+        "future": 5,
+        "engagement": 2,
+        "overall_threat": -2
+      }
     }
   ]
 }
