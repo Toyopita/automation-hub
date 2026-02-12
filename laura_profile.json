@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:51:04.842019+09:00",
+  "last_updated": "2026-02-12T09:51:24.076110+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -136,7 +136,9 @@
       "uses 'Shit' as exclamation in standalone messages",
       "clarifies partner's Japanese comprehension level (confirming partner doesn't understand Japanese)",
       "uses multiple standalone exclamations when frustrated or surprised ('Shit' repeated)",
-      "expresses surprise or confusion through repeated exclamations before elaborating"
+      "expresses surprise or confusion through repeated exclamations before elaborating",
+      "self-conscious about Japanese language ability (apologizes for not being good at Japanese)",
+      "apologizes for language limitations"
     ]
   },
   "personality": {
@@ -147,8 +149,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Independently expresses intense sexual arousal with double fire emojis 'Baby you Make me sooo horny 🥵🥵🥵' - continues pattern of direct, unfiltered expression of sexual/emotional state without prompting. Maintains maximum rating for immediate transparent communication of vulnerable feeling (being extremely turned on).",
-      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating.",
       "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny 🥵🥵🥵' and immediately follows with logistics about sending pictures 'Mon going to send you a lot later okay' - shows confidence to both express intense sexual desire AND simultaneously set clear boundaries about timing without apologizing or hedging",
       "emotional_expressiveness: Triple fire emojis with elongated 'sooo' to emphasize arousal intensity 'Baby you Make me sooo horny 🥵🥵🥵' - continues maximum rating for direct, unfiltered expression of vulnerable sexual/emotional state without minimizing",
       "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing",
@@ -166,7 +166,9 @@
       "confidence: Independently introduces hypothetical in-person meeting scenario without hesitation or hedging 'What if we meet one day?' - shows continued confidence to raise future-oriented relationship topics without waiting for partner to initiate",
       "humor_appreciation: Responds with double 'Hahaha' to her own hypothetical question about communication barrier, then exclaims 'Shit' - showing appreciation for absurdity of language barrier situation. Increases from 6 to 7 as she initiates and finds humor in practical relationship obstacles.",
       "emotional_expressiveness: Expresses frustration through exclamations ('Shit'), concern through follow-up questions ('Nothing ?'), and clarification attempts ('I mean you really dont understand anything ?') - maintains pattern of direct, unfiltered emotional communication including impatience and confusion",
-      "warmth: Responds warmly to partner's apology with immediate forgiveness and deflection - no cold shoulder or prolonged frustration. Maintains maximum warmth rating through quick emotional recovery"
+      "warmth: Responds warmly to partner's apology with immediate forgiveness and deflection - no cold shoulder or prolonged frustration. Maintains maximum warmth rating through quick emotional recovery",
+      "emotional_expressiveness: Continues pattern of directly expressing vulnerable feelings without filtering - apologizes unprompted for Japanese ability limitation, showing transparency about insecurity",
+      "confidence: Comfortable admitting limitation ('Im not good at Japanese') without excessive hedging or defensiveness - states fact clearly while apologizing shows confidence to be vulnerable about skill gaps"
     ]
   },
   "communication_style": {
@@ -191,14 +193,12 @@
     ],
     "formality_level": "casual with mild profanity",
     "humor_style": "laughs at hypothetical relationship obstacles and absurd scenarios (language barrier), uses repeated laughter to emphasize amusement, finds humor in partner's social media/app decisions",
-    "response_speed_tendency": "sends multiple follow-up messages when expecting response ('Nothing ?'), shows impatience/concern when partner doesn't respond quickly to her questions",
+    "response_speed_tendency": "responds to partner's apology quickly with explanation of her own limitation",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Do you know what i want",
-      "vidéos",
       "Are you at home ?",
       "Why you share your Line",
       "Haha yea okay",
@@ -226,7 +226,9 @@
       "I send you tomorrow",
       "Shit",
       "Nothing ?",
-      "I mean"
+      "I mean",
+      "Im not good at",
+      "sorry"
     ]
   },
   "topic_engagement": {
@@ -577,24 +579,14 @@
     "double_checking_comprehension_limits": 9.0,
     "waiting_for_responses": 6.5,
     "receiving_apologies": 8.8,
-    "partner_responsiveness": 7.8
+    "partner_responsiveness": 7.8,
+    "japanese_language_ability": 8.8,
+    "self_disclosure_about_limitations": 9.2,
+    "receiving_apologies_about_comprehension": 8.9,
+    "explaining_her_japanese_level": 8.7,
+    "apologizing_for_language_barriers": 8.5
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_practical_constraints_without_letting_them_block_connection",
-      "engagement_boost": 6.0,
-      "evidence": "User's 'I probably won't understand but I wanna hear it baby' directly addresses her comprehension concern while reframing priority from understanding words to experiencing her voice - shifts focus from obstacle to emotional connection value"
-    },
-    {
-      "pattern": "creating_space_for_hypothetical_future_scenarios",
-      "engagement_boost": 6.3,
-      "evidence": "Laura independently introduces in-person meeting hypothetical 'What if we meet one day? Hahaha how are you going to talk?' - suggests conversation environment enables her to playfully explore future relationship scenarios without fear of being dismissed or having expectations managed"
-    },
-    {
-      "pattern": "allowing_her_to_address_relationship_obstacles_with_humor",
-      "engagement_boost": 5.8,
-      "evidence": "Laura frames language barrier concern with laughter 'Hahaha how are you going to talk?' - indicates she feels safe raising practical relationship challenges in lighthearted way rather than needing to be serious or worried about them"
-    },
     {
       "pattern": "addressing_comprehension_barriers_with_emotional_desire",
       "engagement_boost": 6.1,
@@ -679,6 +671,21 @@
       "pattern": "simple_direct_apology_without_over_explaining",
       "engagement_boost": 6.0,
       "evidence": "'I'm sorry baby 🥺' is concise acknowledgment without defensive justifications - allows her frustration to be validated without turning apology into lengthy explanation"
+    },
+    {
+      "pattern": "creating_space_for_mutual_language_limitation_disclosure",
+      "engagement_boost": 6.2,
+      "evidence": "After user's apology about not understanding Japanese ('I'm sorry baby 🥺'), Laura immediately reciprocates with her own limitation disclosure ('Im not good at Japanese sorry') - suggests she feels safe admitting her own language gaps when partner admits theirs first, creating mutual vulnerability space"
+    },
+    {
+      "pattern": "apologizing_first_creates_reciprocal_vulnerability",
+      "engagement_boost": 6.0,
+      "evidence": "User's 'I'm sorry baby 🥺' about comprehension limitation is met with Laura's matching apology about her Japanese ability - modeling vulnerability through apologizing for limitation invites her to share her own insecurities"
+    },
+    {
+      "pattern": "normalizing_language_learning_struggles",
+      "engagement_boost": 5.9,
+      "evidence": "Laura feels comfortable stating 'Im not good at Japanese sorry' without defensive justification - conversation environment allows her to admit skill gaps plainly"
     }
   ],
   "avoid_patterns": [
