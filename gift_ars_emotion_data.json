@@ -172,6 +172,37 @@
         "playfulness": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T16:10:22.477560+09:00",
+      "summary": "I just wanted to try traveling to Japan since I wo | But from what I've researched now, Osaka itself is",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "日本旅行への関心を共有。観光客の多さに少し困惑している様子",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 0,
+        "playfulness": -1,
+        "engagement": 3
+      }
     }
   ]
 }
