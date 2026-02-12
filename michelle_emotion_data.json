@@ -916,6 +916,37 @@
         "playfulness": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T14:57:10.430706+09:00",
+      "summary": "oh yes, but this is just a Filipino version of mcd",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "軽快で親しみやすいトーン。文化的な話題を共有している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "playfulness": 0,
+        "engagement": -1
+      }
     }
   ]
 }
