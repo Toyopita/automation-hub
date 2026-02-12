@@ -647,12 +647,14 @@ class AutoChatBot:
             'monthly_remaining': self.budget.get_monthly_remaining(),
             'can_send': self.budget.can_send(),
         }
+        reply_decision = emotion.get('reply_decision', {})
         strategy_decision = self.strategy_engine.decide(
             stage=stage,
             profile=profile,
             emotion=emotion,
             budget=budget_info,
             conversation_history=list(self.conversation_buffer),
+            reply_decision=reply_decision,
         )
         self.logger.info(f"Strategy: respond={strategy_decision.should_respond}, "
                     f"tone={strategy_decision.tone_directive[:50]}, "
