@@ -694,14 +694,17 @@ class StrategyEngine:
         }
 
     def _should_stay_silent(self, push_pull: dict, budget: dict,
-                            emotion: dict, conversation_history: list[dict]) -> bool:
+                            emotion: dict, conversation_history: list[dict],
+                            stage: str = 'friends') -> bool:
         """Evaluate the 5 strategic silence rules."""
+        early_stage = stage in ('friends', 'close_friends')
+
         # OVERRIDE: Never go silent when engagement is high (>= 7)
         engagement = emotion.get('scores', {}).get('engagement', 5)
         if engagement >= 7:
             return False
 
-        # Rule 1: Conversation-ending message
+        # Rule 1: Conversation-ending message (applies to all stages)
         if conversation_history:
             last_msg = conversation_history[-1]
             if last_msg.get('role') != 'you':
@@ -711,8 +714,9 @@ class StrategyEngine:
                 if any(e in text_lower for e in endings):
                     return True
 
-        # Rule 2: Push-Pull ratio too high
-        if push_pull['ratio'] > 0.7:
+        # Rule 2: Push-Pull ratio too high (relaxed for early stages)
+        pp_threshold = 0.8 if early_stage else 0.7
+        if push_pull['ratio'] > pp_threshold:
             return True
 
         # Rule 3: Daily budget at 1 remaining (skip if high engagement)
@@ -720,8 +724,8 @@ class StrategyEngine:
         if budget.get('daily_remaining', 5) <= 1 and engagement < 7:
             return True
 
-        # Rule 4: Random 10% silence on low-engagement
-        if engagement <= 4 and random.random() < 0.10:
+        # Rule 4: Random silence on low-engagement (SKIP for early stages)
+        if not early_stage and engagement <= 4 and random.random() < 0.10:
             return True
 
         # Rule 5: 3+ consecutive long responses from you
