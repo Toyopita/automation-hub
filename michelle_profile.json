@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T16:47:54.335310+09:00",
+  "last_updated": "2026-02-12T18:24:06.786538+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -13,9 +13,12 @@
       "Dancing is conditional/event-based rather than regular practice",
       "School activities were mentally and physically exhausting, suggesting high intensity dance/performance culture",
       "Competes in both local street competitions and organized events",
-      "Cooks regularly - makes breakfast and dinner at home daily"
+      "Cooks regularly - makes breakfast and dinner at home daily",
+      "Cooks for family members, not just herself - prepares dinner for grandmother"
     ],
-    "family": [],
+    "family": [
+      "Has grandmother who she visits and cooks for"
+    ],
     "languages": [
       "English"
     ],
@@ -897,6 +900,61 @@
           "location change"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Cleans grandmother's house during visits - takes on household chores for family",
+        "tags": [
+          "cleaning",
+          "housework",
+          "family_care",
+          "chores",
+          "grandmother",
+          "家事",
+          "掃除",
+          "caregiving",
+          "domestic_work",
+          "helping_family",
+          "household_tasks",
+          "responsibility",
+          "family_support"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 😂 emoji when discussing caregiving tasks, suggesting she finds humor or lightheartedness in family responsibilities rather than viewing them as burdensome",
+        "tags": [
+          "humor",
+          "😂",
+          "family_care",
+          "attitude",
+          "positive_outlook",
+          "lighthearted",
+          "cleaning",
+          "caregiving",
+          "emotional_tone",
+          "not_complaining",
+          "cheerful",
+          "family_responsibilities"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Spends after-work time visiting and caring for grandmother (on half-day 2026-02-12, went to grandma's house instead of going straight home)",
+        "tags": [
+          "family_time",
+          "after_work",
+          "grandmother",
+          "routine",
+          "family_priority",
+          "time_allocation",
+          "caregiving",
+          "february_2026",
+          "schedule",
+          "家族優先",
+          "visiting_family",
+          "work_life_balance"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -906,7 +964,7 @@
     "humor_appreciation": 9,
     "adventurousness": 6,
     "confidence": 9,
-    "warmth": 8,
+    "warmth": 9,
     "observations": [
       "Has developed clear values-based standards from past relationship experiences",
       "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
@@ -917,12 +975,13 @@
       "adventurousness: Lowered from 9 - takes passive/reactive approach to dating rather than actively pursuing; 'vibes on her own' until someone comes along rather than seeking out new connections",
       "adventurousness: Further confirmation of passive/flow-based approach across both dating apps AND general relationship philosophy - consistent pattern of not forcing or rushing, waiting for natural development. Lowered from 7 to 6.",
       "confidence: Has clear boundaries - actively chooses not to respond to people who chat 'weirdly', showing self-assuredness in ignoring unwanted attention rather than feeling obligated to reply",
-      "confidence: Increased from 8 to 9 - explicitly states she 'walks away' from red flags without hesitation or second-guessing, showing strong decisiveness and self-trust in her judgment. Uses 'waste of time' framing, indicating she values her time and doesn't tolerate poor treatment."
+      "confidence: Increased from 8 to 9 - explicitly states she 'walks away' from red flags without hesitation or second-guessing, showing strong decisiveness and self-trust in her judgment. Uses 'waste of time' framing, indicating she values her time and doesn't tolerate poor treatment.",
+      "warmth: Increased from 8 to 9 - actively cares for grandmother by cooking dinner and cleaning house, showing strong family devotion and caregiving behavior beyond just visiting. Takes on practical caretaking responsibilities."
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence with casual explanation",
-    "emoji_frequency": "low (1 emoji per message in recent exchange)",
+    "emoji_frequency": "low-moderate (1 emoji per message typically, used for tone)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -930,9 +989,9 @@
       "😊",
       "haha"
     ],
-    "formality_level": "casual - uses 'yea yea' repetition for emphasis, 'haha' as sentence closer",
-    "humor_style": "self-deprecating and realistic - uses 😂 when downplaying cultural differences or admitting something isn't as special as it might seem, shows grounded perspective without excessive nationalism",
-    "response_speed_tendency": "quick response when discussing immediate activities/current location",
+    "formality_level": "casual",
+    "humor_style": "self-deprecating, lighthearted about responsibilities - uses 😂 when discussing tasks that could be tiring (cleaning, caregiving) to frame them positively",
+    "response_speed_tendency": "varied - quick when at beach/leisure, potentially slower when doing family caregiving tasks",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1082,29 +1141,14 @@
     "current_activity_sharing": 8,
     "work_schedule_flexibility": 7,
     "commute_discussion": 6,
-    "immediate_plans": 5
+    "immediate_plans": 5,
+    "family_care": 8,
+    "grandmother_relationship": 9,
+    "cooking_for_family": 8,
+    "housework_cleaning": 7,
+    "after_work_activities": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "playful_observation_with_haha",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha smart, basically carb loading before work' mirrors her humor style and validates her eating strategy as clever - response pending but matches her tone"
-    },
-    {
-      "pattern": "validating_her_strategy_as_smart",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'smart' affirms her pre-work eating routine as intelligent planning rather than just necessity - response pending"
-    },
-    {
-      "pattern": "adding_relatable_sports_reference",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'carb loading' reference frames her eating strategy using athletic terminology, making routine behavior sound more intentional/strategic - response pending"
-    },
-    {
-      "pattern": "following_up_with_breakfast_detail_questions",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'do you cook or just like eat a big breakfast?' creates two potential conversation paths (cooking habits OR breakfast size/type) - response pending but shows continued interest in her food routine"
-    },
     {
       "pattern": "acknowledging_time_constraint_casually",
       "engagement_boost": null,
@@ -1184,6 +1228,26 @@
       "pattern": "asking_about_immediate_plans_casually",
       "engagement_boost": null,
       "evidence": "Toyo's question about beach vs home creates natural continuation about her afternoon without feeling interrogative - response pending"
+    },
+    {
+      "pattern": "acknowledging_caregiving_as_sweet_kind",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'oh that's really sweet of you, taking care of your grandma like that. you're a good granddaughter haha' validates her caregiving behavior positively and affirms her character - response pending but directly praises her family devotion"
+    },
+    {
+      "pattern": "using_family_role_affirmation",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'you're a good granddaughter' explicitly names and validates her family role, showing appreciation for her caregiving - response pending"
+    },
+    {
+      "pattern": "matching_her_lighthearted_tone_with_haha",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 😂 with 'haha' to maintain warm but not overly serious tone about family care - response pending"
+    },
+    {
+      "pattern": "recognizing_effort_without_making_it_seem_burdensome",
+      "engagement_boost": null,
+      "evidence": "Toyo frames it as 'sweet' rather than 'hard work' or 'tiring', matching her lighthearted 😂 approach to caregiving - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -1194,5 +1258,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 7
+  "_exchange_count_since_consolidation": 8
 }
