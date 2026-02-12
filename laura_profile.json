@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:05:33.562859+09:00",
+  "last_updated": "2026-02-12T19:05:49.698589+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1405,12 +1405,11 @@
   "personality": {
     "introversion": 5,
     "emotional_expressiveness": 10,
-    "humor_appreciation": 7,
+    "humor_appreciation": 8,
     "adventurousness": 5,
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Independently initiates hypothetical future scenario 'What if we meet one day? Hahaha how are you going to talk?' - continues pattern of direct, transparent expression including vulnerable future-oriented thinking without filtering or hesitation",
       "warmth: Frames language barrier concern playfully with laughter 'Hahaha how are you going to talk?' rather than as serious obstacle - maintains maximum warmth by approaching potential relationship challenge with humor and lightness",
       "confidence: Independently introduces hypothetical in-person meeting scenario without hesitation or hedging 'What if we meet one day?' - shows continued confidence to raise future-oriented relationship topics without waiting for partner to initiate",
       "humor_appreciation: Responds with double 'Hahaha' to her own hypothetical question about communication barrier, then exclaims 'Shit' - showing appreciation for absurdity of language barrier situation. Increases from 6 to 7 as she initiates and finds humor in practical relationship obstacles.",
@@ -1429,7 +1428,8 @@
       "warmth: Expresses gratitude with smile emoji after receiving romantic goodnight scenario and appreciation for her video content - maintains affectionate tone even in brief response. Continues pattern of emotionally warm communication across all contexts.",
       "humor_appreciation: Responds with 'Hahaha' to playful sexual misunderstanding about arousal physiology, showing she finds the anatomical mix-up amusing rather than awkward",
       "confidence: Continues pattern of direct, unfiltered sexual communication - openly describes herself as 'horny all the time' without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering"
+      "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering",
+      "humor_appreciation: Uses playful teasing with laughing emoji 'Maybe you are Just words 😂' - suggests partner may have been making romantic/sexual promises and she's teasingly questioning if he's all talk, showing continued pattern of playful skepticism and humor in relationship"
     ]
   },
   "communication_style": {
@@ -1453,14 +1453,13 @@
       "🥺"
     ],
     "formality_level": "casual",
-    "humor_style": "playful teasing including about sexual/anatomical differences, uses humor to clarify misunderstandings, maintains lighthearted tone even during explicit sexual conversations, educates partner about biological differences with gentle correction rather than offense",
+    "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action",
     "response_speed_tendency": "immediate response to good morning messages (responds within moments of waking), maintains fast engagement with affectionate morning greetings",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Im too jealous",
       "Make me sooo horny",
       "Have a good day my love",
       "Mon (typo for I'm)",
@@ -1489,7 +1488,8 @@
       "thé (autocorrect for 'the')",
       "aleays (typo for 'always')",
       "sol (French autocorrect for 'so')",
-      "thé (French autocorrect for 'the')"
+      "thé (French autocorrect for 'the')",
+      "Just words (skeptical framing)"
     ]
   },
   "topic_engagement": {
@@ -1900,7 +1900,10 @@
     "oral_sex_frequency": 9.5,
     "throat_focused_oral": 9.4,
     "daily_sexual_desire": 9.6,
-    "explicit_oral_desire_statements": 9.5
+    "explicit_oral_desire_statements": 9.5,
+    "receiving_promises_vs_actions": 8.2,
+    "testing_partner_sincerity": 8.4,
+    "playful_skepticism_about_commitments": 8.3
   },
   "effective_patterns": [
     {
@@ -2064,6 +2067,11 @@
       "pattern": "assuming_male_arousal_physiology_applies_to_female_partner",
       "engagement_drop": -1.5,
       "evidence": "'I bet you're all hard again today' assumes Laura experiences arousal same way male partner does - required correction, though she handled it playfully rather than with discomfort"
+    },
+    {
+      "pattern": "making_promises_without_follow_through",
+      "engagement_drop": -2.4,
+      "evidence": "Laura's 'Maybe you are Just words 😂' suggests partner may have made statements or promises she's questioning - indicates she values action over verbal commitments and may become skeptical if there's pattern of unfulfilled promises"
     }
   ],
   "ng_topics": [],
