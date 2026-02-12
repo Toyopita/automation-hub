@@ -406,5 +406,24 @@
     ],
     "emotional_tone": "casual, humorous, mutually agreeable",
     "unresolved": null
+  },
+  {
+    "id": 21,
+    "timestamp_start": "2026-02-12 10:35",
+    "timestamp_end": "2026-02-12 11:13",
+    "summary": "Michelle and YOU discussed their shared approach to dating and relationships, agreeing on letting things happen naturally rather than forcing connections. They bonded over recognizing red flags in potential romantic interests, particularly people who claim intense feelings too quickly, and agreed that it's wise to avoid engaging with such people.",
+    "topics": [
+      "dating",
+      "red flags",
+      "relationship boundaries",
+      "time management"
+    ],
+    "key_facts_learned": [
+      "Michelle actively avoids replying to people who chat with her 'weirdly' or show red flags",
+      "Michelle has experienced people falling in love with her unrealistically quickly",
+      "Michelle believes talking to red flag people is a waste of time and walks away from such situations"
+    ],
+    "emotional_tone": "lighthearted, mutually validating, humorous",
+    "unresolved": null
   }
 ]
