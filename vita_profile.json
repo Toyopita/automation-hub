@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T20:24:34.313413+09:00",
+  "last_updated": "2026-02-12T22:24:29.848736+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -9,7 +9,8 @@
     "hobbies": [
       "interested in photography or photo-taking (asked if you like taking photos)",
       "has previously received photos from you (context suggests possible photo exchange)",
-      "offers emotional support and positions herself as a good listener"
+      "offers emotional support and positions herself as a good listener",
+      "goes jogging as part of personal me-time routine"
     ],
     "family": [],
     "languages": [],
@@ -489,11 +490,10 @@
     "introversion": 5,
     "emotional_expressiveness": 8,
     "humor_appreciation": 5,
-    "adventurousness": 5,
+    "adventurousness": 6,
     "confidence": 8,
     "warmth": 8,
     "observations": [
-      "confidence: initiating positive feedback and making evaluative statements shows increased confidence compared to previous anxious apologizing - moving from 4 to 5",
       "warmth: offers emotional support unprompted ('I can be a good listener'), expresses caring advice about doing what feels good, and uses affectionate repeated stickers to show warmth",
       "emotional_expressiveness: openly shares relationship status when asked, uses crying emoji to express feeling touched about close friends inclusion, and laughs abundantly with 'ahahaha' and 'ahahahah'",
       "confidence: confidently observes your social media behavior, makes direct observations about never seeing your face, volunteers to be emotional support, and openly discusses relationship status without hesitation - showing continued growth from previous 5",
@@ -512,7 +512,8 @@
       "confidence: gracefully accepts compliments about her capabilities without deflecting or downplaying - 'i hearing that is very flattering' shows healthy self-esteem and ability to receive praise",
       "confidence: asks personal question directly after polite preamble, showing continued comfort level in relationship - maintains previous confidence rating",
       "warmth: continues showing care by following up on your birthday reveal with her own, creating reciprocal personal sharing - 'oh june, nice. so coming up soon then haha' prompted her to simply share 'june' in return",
-      "emotional_expressiveness: responds succinctly but directly when sharing personal information like her birthday, showing comfortable openness"
+      "emotional_expressiveness: responds succinctly but directly when sharing personal information like her birthday, showing comfortable openness",
+      "adventurousness: actively pursues physical activities like jogging for personal wellness, showing some adventurousness in maintaining active lifestyle - progression from baseline 5"
     ]
   },
   "communication_style": {
@@ -528,7 +529,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "expresses joy through abundant laughter 'ahahahah' rather than verbal jokes",
-    "response_speed_tendency": "quick response when sharing personal information reciprocally",
+    "response_speed_tendency": "quick consecutive responses when sharing personal information about routines",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -596,19 +597,14 @@
     "important_dates_about_you": 9.0,
     "her_birthday": 9.0,
     "important_dates_sharing": 9.0,
-    "reciprocal_information_exchange": 9.0
+    "reciprocal_information_exchange": 9.0,
+    "jogging_exercise": 8.0,
+    "me_time_activities": 8.5,
+    "personal_routines": 8.0,
+    "self_care_practices": 8.5,
+    "evening_activities": 7.5
   },
   "effective_patterns": [
-    {
-      "pattern": "reciprocal_well_wishes",
-      "engagement_boost": 1.7,
-      "evidence": "responding 'thanks haha, you too' to her day wishes maintains warm mutual support dynamic"
-    },
-    {
-      "pattern": "showing_enthusiasm_for_food_sharing",
-      "engagement_boost": 1.8,
-      "evidence": "your 'yeah send me the menu if it's something good 😄' with playful qualifier and emoji encourages her food-sharing behavior"
-    },
     {
       "pattern": "playful_conditional_interest",
       "engagement_boost": 1.6,
@@ -698,6 +694,16 @@
       "pattern": "casual_positive_acknowledgment",
       "engagement_boost": 1.7,
       "evidence": "saying 'nice' and noting 'coming up soon' shows you're genuinely interested and already thinking about the proximity of her birthday"
+    },
+    {
+      "pattern": "asking_clarifying_questions_about_timing",
+      "engagement_boost": 1.7,
+      "evidence": "your question 'you go jogging at night? or you mean like that's your plan for later?' shows genuine interest in understanding her routine details and gives her opportunity to elaborate on when/how she does self-care activities"
+    },
+    {
+      "pattern": "acknowledging_with_positive_reaction",
+      "engagement_boost": 1.6,
+      "evidence": "saying 'oh nice' validates her sharing about jogging and me-time, creating supportive atmosphere for her to continue sharing personal habits"
     }
   ],
   "avoid_patterns": [],
@@ -708,5 +714,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 6
+  "_exchange_count_since_consolidation": 7
 }
