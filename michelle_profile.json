@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T15:32:07.163987+09:00",
+  "last_updated": "2026-02-12T16:20:48.745383+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -828,6 +828,41 @@
           "specific taste preferences"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Believes Jollibee's condiments (gravy and ketchup) taste better than McDonald's",
+        "tags": [
+          "taste preference",
+          "jollibee",
+          "mcdonalds",
+          "condiments",
+          "gravy",
+          "ketchup",
+          "fast food",
+          "filipino food",
+          "personal taste",
+          "food opinions",
+          "flavor preference",
+          "comparison",
+          "mcdo"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Confirms personal taste preferences matter to her - uses 'for me' qualifier showing awareness that taste is subjective",
+        "tags": [
+          "subjective opinion",
+          "self-awareness",
+          "personal preference",
+          "individual taste",
+          "perspective",
+          "qualified statements",
+          "nuanced thinking",
+          "respectful disagreement",
+          "open-minded",
+          "acknowledgment"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -863,7 +898,7 @@
     ],
     "formality_level": "casual - lowercase, 'oh yes' casual confirmation, 😂 emoji",
     "humor_style": "self-deprecating and realistic - uses 😂 when downplaying cultural differences or admitting something isn't as special as it might seem, shows grounded perspective without excessive nationalism",
-    "response_speed_tendency": "quick response when discussing familiar cultural topics like local food chains",
+    "response_speed_tendency": "quick response when defending/explaining personal food preferences",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1006,24 +1041,12 @@
     "filipino_vs_international_food": 7,
     "condiment_preferences": 6,
     "food_taste_details": 7,
-    "cultural_food_comparison": 8
+    "cultural_food_comparison": 8,
+    "taste_preferences": 8,
+    "condiment_discussion": 7,
+    "defending_food_choices": 7
   },
   "effective_patterns": [
-    {
-      "pattern": "philosophical_agreement_about_time_value",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'life's too short to waste on people who don't get it' mirrors her 'waste of time' framing using similar philosophy, showing alignment with her values-based approach to dating - response pending"
-    },
-    {
-      "pattern": "casual_validation_without_over_praising",
-      "engagement_boost": null,
-      "evidence": "Toyo's brief 'haha yeah smart move' keeps tone light while affirming her boundaries, avoiding overly serious or dramatic validation that might feel condescending - response pending"
-    },
-    {
-      "pattern": "acknowledging_food_combo_as_valid",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'that's a solid combo honestly' validates her unconventional food pairing without judgment - response pending but directly affirms her comfort food choice"
-    },
     {
       "pattern": "following_up_with_specific_food_detail_question",
       "engagement_boost": null,
@@ -1108,6 +1131,21 @@
       "pattern": "matching_her_haha_with_playful_tone",
       "engagement_boost": null,
       "evidence": "Toyo mirrors her 😂 with 'haha' to maintain lighthearted tone about food comparison - response pending"
+    },
+    {
+      "pattern": "acknowledging_her_opinion_without_argument",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha fair enough, guess the condiments really do matter then' validates her taste preference and agrees with her point about condiments being important, accepting her perspective - response pending but directly affirms what she values"
+    },
+    {
+      "pattern": "mirroring_her_haha_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo matches her 'haha' with his own 'haha' to maintain playful lighthearted tone about food opinions - response pending"
+    },
+    {
+      "pattern": "giving_credit_to_her_observation",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'guess the condiments really do matter then' frames her earlier point about gravy/ketchup differences as insightful, validating her attention to flavor details - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -1118,5 +1156,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 5
+  "_exchange_count_since_consolidation": 6
 }
