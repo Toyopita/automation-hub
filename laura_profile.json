@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:06:05.445298+09:00",
+  "last_updated": "2026-02-12T09:06:30.552289+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -147,7 +147,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "distract me a lot",
       "an old man stopped me",
       "Of course",
       "yes of course",
@@ -176,7 +175,8 @@
       "Are you at home ?",
       "Why you share your Line",
       "Haha yea okay",
-      "You share pictures and vídeos with Someone else ?"
+      "You share pictures and vídeos with Someone else ?",
+      "The thing you and me do"
     ]
   },
   "topic_engagement": {
@@ -408,21 +408,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_space_for_her_to_lead_sexual_scenarios",
-      "engagement_boost": 5.3,
-      "evidence": "Laura transitions from expressing emotional frustration about distance directly into initiating explicit sexual scenario with specific sequence details - suggests user's responses (not captured) allowed her to process frustration and redirect into sexual expression on her own terms"
-    },
-    {
-      "pattern": "maintaining_engagement_through_distance_frustration",
-      "engagement_boost": 5.0,
-      "evidence": "After expressing intense frustration with multiple crying emojis, Laura immediately re-engages with teasing question and detailed sexual scenario - suggests user's handling of her emotional distress kept sexual atmosphere alive"
-    },
-    {
-      "pattern": "validated_communication_style_enabling_her_initiative",
-      "engagement_boost": 5.1,
-      "evidence": "Laura previously stated user's communication style turns her on, and now she's initiating increasingly explicit scenarios and asking teasing questions - sustained pattern suggests the validated approach continues to enable her sexual confidence and initiative"
-    },
-    {
       "pattern": "allowing_her_to_choose_content_escalation_pace",
       "engagement_boost": 4.9,
       "evidence": "Laura independently escalates from videos announcement to user responding with explicit requests - her autonomous escalation suggests she feels comfortable controlling the pace and intensity of intimate content sharing"
@@ -506,6 +491,21 @@
       "pattern": "calm_clarifying_response_to_possessive_questions",
       "engagement_boost": 4.2,
       "evidence": "User responds to potentially loaded question 'You share pictures and vídeos with Someone else ?' with calm clarifying question 'Someone else? What pictures are you talking about? 🙂' - non-defensive approach that seeks to understand her concern rather than immediately reassuring or getting defensive maintains open communication"
+    },
+    {
+      "pattern": "establishing_shared_intimate_language",
+      "engagement_boost": 4.7,
+      "evidence": "Laura uses casual phrase 'The thing you and me do' to reference intimate/sexual activities - creating shared coded language suggests comfort with established intimacy and building private communication patterns"
+    },
+    {
+      "pattern": "allowing_her_to_initiate_intimate_topic_references",
+      "engagement_boost": 4.5,
+      "evidence": "Laura independently brings up 'The thing you and me do' without prompt - indicates she feels comfortable initiating conversations about their intimate dynamics on her own terms"
+    },
+    {
+      "pattern": "creating_environment_for_playful_intimate_callbacks",
+      "engagement_boost": 4.8,
+      "evidence": "The casual, almost coded phrasing 'The thing you and me do' suggests she's referencing shared intimate experiences in lighthearted way - indicates the relationship has developed enough shared context for playful callbacks"
     }
   ],
   "avoid_patterns": [
