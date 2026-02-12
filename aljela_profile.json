@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Suraya",
-  "last_updated": "2026-02-12T11:12:54.623460+09:00",
+  "last_updated": "2026-02-12T12:22:03.918553+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -21,24 +21,42 @@
       "timezone_confirmed": false
     },
     "important_dates": [],
-    "misc_facts": []
+    "misc_facts": [
+      {
+        "text": "reported feeling good when asked",
+        "tags": [
+          "wellbeing",
+          "mood",
+          "status",
+          "positive",
+          "feeling",
+          "emotional_state",
+          "health",
+          "general_status"
+        ],
+        "added": "2026-02-12"
+      }
+    ]
   },
   "personality": {
     "introversion": 5,
-    "emotional_expressiveness": 5,
+    "emotional_expressiveness": 4,
     "humor_appreciation": 5,
     "adventurousness": 5,
     "confidence": 5,
-    "warmth": 5,
-    "observations": []
+    "warmth": 6,
+    "observations": [
+      "warmth: responds positively to check-ins with affirmative statement",
+      "emotional_expressiveness: brief, matter-of-fact response without elaboration or emotional details"
+    ]
   },
   "communication_style": {
-    "avg_message_length": "1 word (very brief greeting)",
-    "emoji_frequency": "unknown",
+    "avg_message_length": "3 words (brief, concise)",
+    "emoji_frequency": "none observed in this exchange",
     "preferred_emojis": [],
     "formality_level": "casual",
-    "humor_style": null,
-    "response_speed_tendency": "insufficient data - only one message observed",
+    "humor_style": "not observed in this exchange",
+    "response_speed_tendency": "insufficient data from this exchange alone",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -46,7 +64,13 @@
     "grammar_patterns": []
   },
   "topic_engagement": {},
-  "effective_patterns": [],
+  "effective_patterns": [
+    {
+      "pattern": "open_ended_followup_questions",
+      "engagement_boost": 0.5,
+      "evidence": "asking 'what've you been up to today?' after status response invites elaboration"
+    }
+  ],
   "avoid_patterns": [],
   "ng_topics": [],
   "temporal_patterns": {
@@ -54,5 +78,6 @@
     "most_active_hour": null,
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
-  }
+  },
+  "_exchange_count_since_consolidation": 1
 }
