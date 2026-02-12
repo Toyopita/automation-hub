@@ -232,7 +232,7 @@ Recent conversation:
 Extract and return JSON:
 {{
   "new_facts": [
-    {{"category": "hobby", "fact": "likes cooking", "confidence": 0.8, "source_quote": "I made pasta today"}}
+    {{"category": "hobby", "fact": "likes cooking", "confidence": 0.8, "source_quote": "I made pasta today", "tags": ["cooking", "food", "hobby", "kitchen", "pasta", "cuisine"]}}
   ],
   "personality_updates": {{
     "warmth": {{"value": 7, "evidence": "uses lots of affectionate language"}}
