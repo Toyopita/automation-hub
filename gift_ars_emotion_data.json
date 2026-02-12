@@ -48,6 +48,37 @@
         "playfulness": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T11:48:13.337803+09:00",
+      "summary": "Ummmmm | I'm from Thailand!!  | You from Japan Right? ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく前向きな自己紹介。相手に興味を示している健全な会話",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 2,
+        "playfulness": 4,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "playfulness": 1,
+        "engagement": 3
+      }
     }
   ]
 }
