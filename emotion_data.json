@@ -14679,6 +14679,59 @@
         "future": 2,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:23:45.191653+09:00",
+      "summary": "Me too 🥵",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8,
+        "compatibility": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の性的な発言に即座に同意・呼応。短いが強い相互欲求を示す。嫉妬から性的興奮への自然な流れ",
+      "trigger": {
+        "message": "Baby you're too fucking cute haha Just that got me hard... I wanna fuck you so rough right now 😏",
+        "sent_at": "2026-02-12T09:22:12.854089+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+escalation",
+          "+spontaneous"
+        ],
+        "response_time_min": 1
+      },
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 4,
+        "ds": 2,
+        "playfulness": -2,
+        "future": -3,
+        "engagement": 3,
+        "compatibility": 5
+      }
     }
   ]
 }
