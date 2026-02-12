@@ -575,6 +575,37 @@
         "playfulness": -1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-12T16:16:14.052884+09:00",
+      "summary": "both of them and the finance department too | [sticker (pkg:1, id:9)] | Have you come home from work?",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "会話を続けたい意欲があり、相手の状況を気にかけている",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 2,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
