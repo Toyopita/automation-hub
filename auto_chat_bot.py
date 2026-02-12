@@ -656,9 +656,11 @@ class AutoChatBot:
             conversation_history=list(self.conversation_buffer),
             reply_decision=reply_decision,
         )
+        rd_log = f", silence_risk={reply_decision.get('silence_risk', 'N/A')}" if reply_decision else ""
         self.logger.info(f"Strategy: respond={strategy_decision.should_respond}, "
                     f"tone={strategy_decision.tone_directive[:50]}, "
-                    f"escalation={strategy_decision.escalation_level:.1f}")
+                    f"escalation={strategy_decision.escalation_level:.1f}"
+                    f"{rd_log}")
 
         # 4. 日本語翻訳
         translation = ""
