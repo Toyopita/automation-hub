@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:19:01.611151+09:00",
+  "last_updated": "2026-02-12T19:23:47.724581+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1431,6 +1431,37 @@
           "partner validation"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "not currently at home (at some other location)",
+        "tags": [
+          "location",
+          "not home",
+          "away",
+          "out",
+          "elsewhere",
+          "current location",
+          "whereabouts",
+          "temporary location",
+          "outside home"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses French autocorrect that creates typos in English messages ('un mot' likely autocorrect)",
+        "tags": [
+          "french autocorrect",
+          "typing errors",
+          "french phone",
+          "language mixing",
+          "autocorrect interference",
+          "bilingual typing",
+          "french keyboard",
+          "typos",
+          "phone settings",
+          "french device"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1492,7 +1523,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Im tired",
       "trained a lot",
       "Okay",
       "Love you bye",
@@ -1521,7 +1551,8 @@
       "Why hahaha",
       "You never Forget lol",
       "You never Forget (capitalizes 'Forget' for emphasis)",
-      "literally just yesterday (acknowledging time perspective)"
+      "literally just yesterday (acknowledging time perspective)",
+      "un mot (French autocorrect for 'I'm not')"
     ]
   },
   "topic_engagement": {
