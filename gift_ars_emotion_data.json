@@ -203,6 +203,37 @@
         "playfulness": -1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-12T20:40:11.601141+09:00",
+      "summary": "I work as a receptionist in an apartment building  | I've been trying to read various information about",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "日本への興味を共有し、旅行計画を相談している前向きな状態",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": -1
+      }
     }
   ]
 }
