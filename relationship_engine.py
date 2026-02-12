@@ -1417,6 +1417,9 @@ AUTHENTICITY RULES (always active):
         # 13. Profile gathering directive
         profile_gathering = self._profile_gathering_directive(profile, stage)
 
+        # 13.5 Topic steering directive
+        topic_steering = self._topic_steering_directive(conversation_history, config)
+
         # 14. Episode memory (load if not provided)
         if not episode_memory:
             try:
@@ -1437,6 +1440,7 @@ AUTHENTICITY RULES (always active):
             escalation_level=f"{strategy.escalation_level:.1f} (0.0=pull back, 1.0=advance)",
             push_pull_status=pp_status,
             strategy_direction=config.get('strategy_direction', ''),
+            topic_steering=topic_steering,
             profile_gathering=profile_gathering,
             relevant_facts=relevant_facts,
             communication_style_summary=comm_summary,
