@@ -486,5 +486,22 @@
     ],
     "emotional_tone": "playful, friendly, casual",
     "unresolved": "The nature of her workplace wasn't fully clarified (you asked what kind of place but she didn't directly answer before sending the menu images)"
+  },
+  {
+    "id": 28,
+    "timestamp_start": "2026-02-12 11:38",
+    "timestamp_end": "2026-02-12 13:57",
+    "summary": "Casual conversation about Vita's workplace and lunch. She promised to send menu photos and followed through by sharing two images of what appears to be a fancy restaurant menu. YOU expressed interest in the food and asked about the type of restaurant.",
+    "topics": [
+      "food",
+      "work",
+      "restaurant",
+      "lunch"
+    ],
+    "key_facts_learned": [
+      "Vita works at or near a fancy-looking restaurant"
+    ],
+    "emotional_tone": "friendly, casual, appreciative",
+    "unresolved": "Vita hasn't answered what kind of restaurant it is yet"
   }
 ]
