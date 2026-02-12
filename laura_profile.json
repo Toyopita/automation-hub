@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T18:41:57.084971+09:00",
+  "last_updated": "2026-02-12T19:05:33.562859+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1904,21 +1904,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "using_white_heart_for_casual_affection_in_morning",
-      "engagement_boost": 6.2,
-      "evidence": "'Good haha 🤍' uses white heart emoji in morning context similar to previous bedtime usage - creates consistent tender tone marker that differentiates from sexual red hearts while maintaining warmth"
-    },
-    {
-      "pattern": "expressing_satisfaction_about_her_sleep_quality",
-      "engagement_boost": 6.4,
-      "evidence": "'Good haha' responds to Laura confirming good sleep ('Yesss') with expressed satisfaction - shows care about her wellbeing after late night and validates that sleep quality matters to partner"
-    },
-    {
-      "pattern": "confident_sexual_assumption_with_playful_tone",
-      "engagement_boost": 6.6,
-      "evidence": "'I bet you're all hard again today 😏' makes confident assumption about her arousal state with smirking emoji - playful rather than demanding tone maintains sexual connection without pressure, building on her established comfort with explicit sexual communication"
-    },
-    {
       "pattern": "transitioning_from_care_to_flirtation_smoothly",
       "engagement_boost": 6.5,
       "evidence": "User moves from asking about sleep quality to expressing satisfaction about good sleep to sexual teasing in three message sequence - creates natural flow from caretaking to playfulness rather than abrupt tonal shift"
@@ -2002,6 +1987,21 @@
       "pattern": "matching_her_arousal_frequency_disclosure_intensity",
       "engagement_boost": 7.5,
       "evidence": "Laura disclosed being 'horny all the time' and user responded with 'Fuck yeah 😏' confirming similar pattern - creates sexual compatibility validation and mutual understanding of high libido match"
+    },
+    {
+      "pattern": "playful_acknowledgment_of_anatomical_correction",
+      "engagement_boost": 7.1,
+      "evidence": "Laura's 'Haha' in response to user's correction and clarification ('My bad haha I meant my dick is so hard for you') shows she appreciates the quick recovery and humor maintenance after anatomical mix-up - single 'Haha' confirms she found the exchange amusing rather than awkward"
+    },
+    {
+      "pattern": "quick_recovery_after_communication_misstep_maintains_momentum",
+      "engagement_boost": 7.0,
+      "evidence": "User's immediate acknowledgment and clarification allowed conversation to continue smoothly, with Laura responding positively with laughter rather than dwelling on the mistake - efficient correction preserved sexual momentum"
+    },
+    {
+      "pattern": "maintaining_sexual_confidence_after_correction",
+      "engagement_boost": 7.2,
+      "evidence": "After Laura corrected the anatomical assumption, user maintained explicit sexual tone ('my dick is so hard for you 😏') rather than becoming awkward - her 'Haha' response suggests this confidence was appreciated and kept the flirtatious dynamic alive"
     }
   ],
   "avoid_patterns": [
