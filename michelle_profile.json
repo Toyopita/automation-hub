@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T18:24:06.786538+09:00",
+  "last_updated": "2026-02-12T18:45:55.002912+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -955,6 +955,80 @@
           "work_life_balance"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Cooks adobo (Filipino pork dish with soy sauce and vinegar) for her grandmother",
+        "tags": [
+          "adobo",
+          "filipino_cuisine",
+          "cooking",
+          "pork",
+          "soy_sauce",
+          "vinegar",
+          "traditional_food",
+          "grandma",
+          "family_cooking",
+          "cultural_food",
+          "home_cooking",
+          "filipino_dish",
+          "meat_dish",
+          "asian_cuisine"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Tiredness from caregiving disappears when she sees her grandmother happy - finds joy and meaning in making grandmother happy",
+        "tags": [
+          "emotional_reward",
+          "caregiving_motivation",
+          "family_love",
+          "grandmother_bond",
+          "selfless",
+          "joy_through_others",
+          "emotional_fulfillment",
+          "love_language",
+          "fatigue_management",
+          "happiness",
+          "meaning",
+          "purpose",
+          "family_devotion",
+          "emotional_energy"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Acknowledges caregiving is tiring but reframes it positively through love - shows emotional maturity and honest self-awareness",
+        "tags": [
+          "emotional_maturity",
+          "honest",
+          "self_awareness",
+          "reframing",
+          "positive_mindset",
+          "acknowledging_difficulty",
+          "resilience",
+          "love_motivation",
+          "mature_perspective",
+          "authentic",
+          "balanced_view",
+          "emotional_intelligence"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 'honestly' as discourse marker when sharing vulnerable or sincere feelings about caregiving",
+        "tags": [
+          "communication_style",
+          "honesty",
+          "vulnerability",
+          "sincerity",
+          "discourse_marker",
+          "authentic_sharing",
+          "emotional_openness",
+          "genuine",
+          "transparent",
+          "speaking_pattern"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -976,7 +1050,9 @@
       "adventurousness: Further confirmation of passive/flow-based approach across both dating apps AND general relationship philosophy - consistent pattern of not forcing or rushing, waiting for natural development. Lowered from 7 to 6.",
       "confidence: Has clear boundaries - actively chooses not to respond to people who chat 'weirdly', showing self-assuredness in ignoring unwanted attention rather than feeling obligated to reply",
       "confidence: Increased from 8 to 9 - explicitly states she 'walks away' from red flags without hesitation or second-guessing, showing strong decisiveness and self-trust in her judgment. Uses 'waste of time' framing, indicating she values her time and doesn't tolerate poor treatment.",
-      "warmth: Increased from 8 to 9 - actively cares for grandmother by cooking dinner and cleaning house, showing strong family devotion and caregiving behavior beyond just visiting. Takes on practical caretaking responsibilities."
+      "warmth: Increased from 8 to 9 - actively cares for grandmother by cooking dinner and cleaning house, showing strong family devotion and caregiving behavior beyond just visiting. Takes on practical caretaking responsibilities.",
+      "warmth: Maintains warmth score of 9 - 'I love my grandmother, so for me, my tiredness disappears when I see her happy' shows deep emotional warmth and finds joy through making others happy, not just performing tasks. Goes beyond duty to emotional fulfillment through caregiving.",
+      "emotional_expressiveness: Maintains score of 8 - openly shares vulnerable truth that caregiving is 'tiring' before reframing it positively, showing comfort expressing both difficulty and love simultaneously. Uses 'honestly' to signal sincere emotional disclosure."
     ]
   },
   "communication_style": {
@@ -990,7 +1066,7 @@
       "haha"
     ],
     "formality_level": "casual",
-    "humor_style": "self-deprecating, lighthearted about responsibilities - uses 😂 when discussing tasks that could be tiring (cleaning, caregiving) to frame them positively",
+    "humor_style": "Uses 'haha' to soften vulnerable emotional disclosures about family love and caregiving fatigue - humor as emotional buffer for sincere feelings",
     "response_speed_tendency": "varied - quick when at beach/leisure, potentially slower when doing family caregiving tasks",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -1004,7 +1080,10 @@
       "red flagging",
       "walk away",
       "carb loading",
-      "mcdo (abbreviation for McDonald's)"
+      "mcdo (abbreviation for McDonald's)",
+      "honestly (as sincerity marker)",
+      "for me (personal framing)",
+      "disappears (emotional transformation language)"
     ]
   },
   "topic_engagement": {
@@ -1146,24 +1225,16 @@
     "grandmother_relationship": 9,
     "cooking_for_family": 8,
     "housework_cleaning": 7,
-    "after_work_activities": 8
+    "after_work_activities": 8,
+    "adobo_filipino_cuisine": 7,
+    "cooking_traditional_dishes": 8,
+    "grandmother_happiness": 9,
+    "emotional_rewards_of_caregiving": 9,
+    "love_as_motivation": 9,
+    "fatigue_vs_fulfillment": 8,
+    "family_devotion_depth": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_time_constraint_casually",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'ahh makes sense, 30 minutes isn't much time to do anything haha' validates the constraint she mentioned, showing understanding - response pending"
-    },
-    {
-      "pattern": "following_up_with_specific_food_question",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'what do you usually get at the mall?' creates natural continuation focusing on her actual food choices rather than dwelling on time constraint - response pending"
-    },
-    {
-      "pattern": "matching_her_haha_tone",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 'haha' to maintain casual lighthearted tone about routine logistics - response pending"
-    },
     {
       "pattern": "casual_cultural_familiarity_without_visiting",
       "engagement_boost": null,
@@ -1248,6 +1319,21 @@
       "pattern": "recognizing_effort_without_making_it_seem_burdensome",
       "engagement_boost": null,
       "evidence": "Toyo frames it as 'sweet' rather than 'hard work' or 'tiring', matching her lighthearted 😂 approach to caregiving - response pending"
+    },
+    {
+      "pattern": "validating_her_effort_as_sweet",
+      "engagement_boost": null,
+      "evidence": "Toyo's previous message 'that's really sweet, honestly' validated her caregiving warmly - she responded by opening up MORE about the emotional complexity (tiredness + love + joy), suggesting the validation encouraged deeper sharing"
+    },
+    {
+      "pattern": "showing_interest_in_cultural_food_without_pretending_knowledge",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'adobo sounds good too, i've heard of it but never tried it haha' shows respectful curiosity about Filipino cuisine without fake expertise - creates space for her to be cultural teacher if she wants"
+    },
+    {
+      "pattern": "matching_her_honest_emotional_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo used 'honestly' to mirror her sincere disclosure style, creating emotional resonance - response pending but establishes matching vulnerability level"
     }
   ],
   "avoid_patterns": [],
@@ -1258,5 +1344,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 8
+  "_exchange_count_since_consolidation": 9
 }
