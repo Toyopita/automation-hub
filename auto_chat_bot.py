@@ -1331,7 +1331,12 @@ Return ONLY valid JSON (no markdown, no code blocks, no explanation):
   }},
   "attachment": "safe|anxious|avoidant",
   "risk": "none|minor|caution|danger",
-  "note": "Brief observation about emotional state (Japanese, max 50 chars)"
+  "note": "Brief observation about emotional state (Japanese, max 50 chars)",
+  "reply_decision": {{
+    "message_type": "question|emotional_sharing|daily_sharing|reaction|farewell|other",
+    "silence_risk": "high|medium|low|none",
+    "reasoning": "Why reply is or isn't needed (English, max 30 chars)"
+  }}
 }}
 
 Scoring guide:
@@ -1352,6 +1357,20 @@ Attachment style:
 - safe: Comfortable, balanced communication
 - anxious: Seeking validation, frequent messaging, worry about responses
 - avoidant: Short replies, deflecting deep topics, pulling away
+
+Reply decision guide:
+- message_type: What kind of message is this?
+  - question: Direct question requiring an answer
+  - emotional_sharing: Sharing feelings, venting, seeking empathy
+  - daily_sharing: Sharing daily activities, updates, small talk
+  - reaction: Short reactions like "haha", "ok", "nice", emoji-only
+  - farewell: Goodbye, goodnight, talk later
+  - other: Anything else
+- silence_risk: What happens if we DON'T reply?
+  - high: Ignoring would damage the relationship (unanswered question, ignored emotions, ignored bid for connection)
+  - medium: Reply is expected but silence won't cause damage (daily sharing, casual update)
+  - low: Silence is natural here (mutual reactions exchanged, conversation winding down)
+  - none: Silence is preferred (after goodbye, conversation clearly ended)
 
 Messages to analyze:
 {messages}"""
