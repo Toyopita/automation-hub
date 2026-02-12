@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "oh nice, indonesian food right? looks really good though haha. what do you do there, cooking or serving or both?",
-    "time": "2026-02-12 16:01"
-  },
-  {
     "role": "vita",
     "text": "both of them and the finance department too",
     "time": "2026-02-12 16:14"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh nice haha. btw random thought, but you seem like you take really good care of yourself. do you like... have a type? like what kind of guy do you usually go for?",
     "time": "2026-02-13 00:06"
+  },
+  {
+    "role": "vita",
+    "text": "When it comes to types, everyone has one. I like guys who are neat and look like they have clean outfits.",
+    "time": "2026-02-13 00:10"
   }
 ]
