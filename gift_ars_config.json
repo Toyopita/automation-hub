@@ -4,7 +4,8 @@
   "languages": "English",
   "background": "Woman, friend. Goal: carefully develop into romantic relationship.",
   "relationship": "friend",
-  "relationship_tone": "casual and friendly",
+  "relationship_tone": "casual and friendly, getting to know each other",
+  "strategy_direction": "Actively collect basic info through natural conversation: 1) Ask if she has a boyfriend (naturally, not interrogation-style), 2) Ask about her age, what she does for work/study, 3) Ask about hobbies and daily life, 4) Make concrete plans - when she visits Osaka, suggest specific activities (food tour, sightseeing), 5) Build towards real connection, not just small talk. Be direct but casual about getting to know her.",
 
   "timezone": "Asia/Manila",
   "timezone_label": "TZ",
