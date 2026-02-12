@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T16:07:18.317819+09:00",
+  "last_updated": "2026-02-12T16:17:27.619598+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1358,13 +1358,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "self-deprecating about language abilities, finds humor in relationship obstacles and mutual incompetence, uses extended laughter and emojis to emphasize amusement",
-    "response_speed_tendency": "rapid response to good morning messages (immediate engagement with morning greetings from partner)",
+    "response_speed_tendency": "immediate enthusiastic confirmation responses (multi-letter extension 'Yesss' suggests excited agreement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "You do the same with Someone else?",
       "🥲",
       "The thing you and me do",
       "Im just asking",
@@ -1393,7 +1392,8 @@
       "Hahahha (extended laughter)",
       "Shit (standalone exclamation)",
       "I know",
-      "Well"
+      "Well",
+      "Yesss"
     ]
   },
   "topic_engagement": {
@@ -1776,11 +1776,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "simple_direct_apology_without_over_explaining",
-      "engagement_boost": 6.0,
-      "evidence": "'I'm sorry baby 🥺' is concise acknowledgment without defensive justifications - allows her frustration to be validated without turning apology into lengthy explanation"
-    },
-    {
       "pattern": "creating_space_for_mutual_language_limitation_disclosure",
       "engagement_boost": 6.2,
       "evidence": "After user's apology about not understanding Japanese ('I'm sorry baby 🥺'), Laura immediately reciprocates with her own limitation disclosure ('Im not good at Japanese sorry') - suggests she feels safe admitting her own language gaps when partner admits theirs first, creating mutual vulnerability space"
@@ -1874,6 +1869,11 @@
       "pattern": "matching_emoji_affection_level_in_greeting",
       "engagement_boost": 6.1,
       "evidence": "Laura's kissing emoji 😚 is matched with user's smiling face with hearts 🥰 - both warm affectionate emojis maintain emotional tone consistency in morning exchange"
+    },
+    {
+      "pattern": "asking_about_sleep_quality_shows_sustained_care",
+      "engagement_boost": 6.7,
+      "evidence": "'Yesss' with extended 's' letters shows enthusiastic positive response to sleep quality question, indicating she appreciates partner's continued interest in her wellbeing after late night"
     }
   ],
   "avoid_patterns": [
