@@ -1931,17 +1931,17 @@ class TimingController:
         if 0 <= hour < 7:
             return -1  # Sleep
         elif 7 <= hour < 9:
-            return random.randint(15, 45) * 60
+            return random.randint(20, 50) * 60
         elif 9 <= hour < 12:
-            return random.randint(8, 35) * 60
+            return random.randint(15, 40) * 60
         elif 12 <= hour < 13:
-            return random.randint(3, 15) * 60
+            return random.randint(5, 15) * 60
         elif 13 <= hour < 18:
-            return random.randint(8, 35) * 60
+            return random.randint(15, 40) * 60
         elif 18 <= hour < 22:
-            return random.randint(2, 12) * 60
+            return random.randint(5, 15) * 60
         else:  # 22-24
-            return random.randint(5, 20) * 60
+            return random.randint(8, 25) * 60
 
     def _momentum_factor(self, conversation_buffer: list[dict]) -> float:
         """Faster responses when conversation is active."""
