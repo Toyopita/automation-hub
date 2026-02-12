@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "timestamp": "2026-02-12T11:03:25.539785+09:00",
+      "summary": "Hi ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 2,
+        "longing": 3,
+        "playfulness": 3,
+        "engagement": 2
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "簡潔な挨拶。ニュートラルで様子見の初期的なコンタクト",
+      "prev_scores": null,
+      "score_deltas": null
+    }
+  ]
+}
