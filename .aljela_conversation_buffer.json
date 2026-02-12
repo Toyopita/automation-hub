@@ -13,5 +13,10 @@
     "role": "aljela",
     "text": "Everything is good ",
     "time": "2026-02-12 11:27"
+  },
+  {
+    "role": "you",
+    "text": "nice! what've you been up to today?",
+    "time": "2026-02-12 12:21"
   }
 ]
