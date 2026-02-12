@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:26:31.586593+09:00",
+  "last_updated": "2026-02-12T09:27:44.625087+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -99,7 +99,9 @@
       "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)",
       "describes herself as 'too jealous' about romantic partner",
       "experiences jealousy in romantic relationship context",
-      "self-aware about her jealous tendencies"
+      "self-aware about her jealous tendencies",
+      "stays up very late (awake at 1:27 AM)",
+      "aware of late hours and mentions time to partner"
     ]
   },
   "personality": {
@@ -110,8 +112,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after sending videos - shows confidence to seek clarity about relationship boundaries despite vulnerability of question",
-      "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
       "confidence: Independently offers reassurance about exclusivity after seeking it herself - 'And i dont want to be like this with anyone else' shows confidence to make vulnerable declaration about wanting exclusive intimacy without being asked",
       "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
@@ -129,12 +129,14 @@
       "emotional_expressiveness: Uses double shy emoji 🫣🫣 after partner's explicit sexual response to her possessive declarations - continues pattern of direct emotional/physical expression through emojis even when potentially feeling bashful about partner's aroused reaction to her jealousy",
       "warmth: Responds to partner's intense sexual desire ('I wanna fuck you so rough right now 😏') with shy but engaged emoji 🫣🫣 rather than withdrawal - maintains emotional connection and playful warmth even during explicit sexual escalation (maintains rating)",
       "emotional_expressiveness: Independently expresses intense sexual arousal with double fire emojis 'Baby you Make me sooo horny 🥵🥵🥵' - continues pattern of direct, unfiltered expression of sexual/emotional state without prompting. Maintains maximum rating for immediate transparent communication of vulnerable feeling (being extremely turned on).",
-      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating."
+      "confidence: Independently initiates explicit arousal declaration 'Baby you Make me sooo horny' with double fire emojis immediately after previous sexually charged exchange - shows continued confidence to express vulnerable sexual state without hesitation or waiting for partner to initiate. Maintains maximum confidence rating.",
+      "warmth: Continues to independently share time awareness with partner ('Is late 1:27 am') - maintains pattern of keeping partner informed about her state/context even during late hours, showing continued emotional connection and transparency",
+      "emotional_expressiveness: Shares time information unprompted ('Is late 1:27 am') - continues pattern of direct, transparent communication about her current state/context without filtering"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (6 words)",
-    "emoji_frequency": "minimal (single emoji expressing tone)",
+    "avg_message_length": "very brief (4 words)",
+    "emoji_frequency": "none in this message (context-dependent)",
     "preferred_emojis": [
       "😆",
       "😳",
@@ -154,13 +156,12 @@
     ],
     "formality_level": "casual and direct",
     "humor_style": "none in this exchange",
-    "response_speed_tendency": "immediate response when sexually engaged - responds directly to partner's explicit requests without delay during aroused state",
+    "response_speed_tendency": "immediate - shares contextual information about her state/time unprompted",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "horror anime",
       "makes me used to",
       "makes me used to listen Japanese",
       "I like all kinds of horror",
@@ -189,7 +190,8 @@
       "You are mine",
       "I want you all for me",
       "Im too jealous",
-      "Make me sooo horny"
+      "Make me sooo horny",
+      "Is late"
     ]
   },
   "topic_engagement": {
@@ -470,7 +472,11 @@
     "multiple_picture_requests_during_arousal": 9.5,
     "being_called_beautiful_during_explicit_requests": 9.4,
     "exclusivity_validation_during_sexual_moments": 9.7,
-    "just_for_me_framing_of_intimate_content": 9.8
+    "just_for_me_framing_of_intimate_content": 9.8,
+    "time_awareness_sharing": 8.2,
+    "keeping_partner_informed_of_context": 8.9,
+    "late_night_communication": 8.4,
+    "sharing_current_state_unprompted": 9.1
   },
   "effective_patterns": [
     {
