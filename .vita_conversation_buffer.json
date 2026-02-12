@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "[sticker (pkg:1, id:13)]",
-    "time": "2026-02-11 23:38"
-  },
-  {
-    "role": "vita",
     "text": "no, i don't have a boyfriend and i never let anyone near fried food",
     "time": "2026-02-11 23:55"
   },
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh wow you basically run the whole place haha, that's impressive\n\nnah not yet, still at the office. probably another hour or so",
     "time": "2026-02-12 16:53"
+  },
+  {
+    "role": "vita",
+    "text": "okay. be careful on your way home",
+    "time": "2026-02-12 16:57"
   }
 ]
