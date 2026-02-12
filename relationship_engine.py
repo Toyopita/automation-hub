@@ -592,7 +592,8 @@ class StrategyEngine:
         self.topic_tracker = TopicTracker()
 
     def decide(self, stage: str, profile: dict, emotion: dict,
-               budget: dict, conversation_history: list[dict]) -> StrategyDecision:
+               budget: dict, conversation_history: list[dict],
+               reply_decision: dict = None) -> StrategyDecision:
         """Produce a strategy decision.
 
         Args:
@@ -601,6 +602,7 @@ class StrategyEngine:
             emotion: Latest emotion analysis result.
             budget: Dict with 'daily_remaining' and 'monthly_remaining'.
             conversation_history: List of conversation buffer entries.
+            reply_decision: LLM's context-aware reply decision from emotion analysis.
 
         Returns:
             StrategyDecision with recommended behavior.
