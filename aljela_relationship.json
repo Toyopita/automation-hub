@@ -22,7 +22,7 @@
     }
   },
   "transition_readiness": {
-    "days_in_stage": 1,
+    "days_in_stage": 2,
     "consecutive_positive_days": 0,
     "last_risk_event": null,
     "blocked_until": null
@@ -34,7 +34,7 @@
     "balance_score": 0.5
   },
   "topic_history": [],
-  "total_exchanges": 1,
+  "total_exchanges": 2,
   "total_days_active": 0,
   "notes": []
 }
