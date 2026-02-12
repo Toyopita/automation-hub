@@ -383,5 +383,21 @@
     "key_facts_learned": [],
     "emotional_tone": "warm, supportive, casual",
     "unresolved": null
+  },
+  {
+    "id": 22,
+    "timestamp_start": "2026-02-12 10:45",
+    "timestamp_end": "2026-02-12 11:28",
+    "summary": "Brief morning exchange where YOU mentioned heading to the office for what would likely be a long day. Vita wished them a great day at work with supportive stickers and confirmed she was also working today.",
+    "topics": [
+      "work",
+      "morning greeting",
+      "daily routine"
+    ],
+    "key_facts_learned": [
+      "Vita is working today"
+    ],
+    "emotional_tone": "friendly, supportive, casual",
+    "unresolved": null
   }
 ]
