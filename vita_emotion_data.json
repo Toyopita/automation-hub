@@ -916,6 +916,37 @@
         "playfulness": 3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T00:11:52.348376+09:00",
+      "summary": "When it comes to types, everyone has one. I like g | and you?",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "好みを共有し相手の好みも知りたがっている。相互理解を求める姿勢",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": -2,
+        "engagement": 2
+      }
     }
   ]
 }
