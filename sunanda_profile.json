@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "name": "Sunanda",
+  "last_updated": "2026-02-12T16:51:37.001255+09:00",
+  "facts": {
+    "age": null,
+    "location": null,
+    "occupation": null,
+    "hobbies": [],
+    "family": [],
+    "languages": [],
+    "favorites": {
+      "food": [],
+      "music": [],
+      "movies": [],
+      "activities": []
+    },
+    "schedule": {
+      "typical_active_hours": [],
+      "work_schedule": null,
+      "timezone_confirmed": false
+    },
+    "important_dates": [],
+    "misc_facts": []
+  },
+  "personality": {
+    "introversion": 5,
+    "emotional_expressiveness": 5,
+    "humor_appreciation": 5,
+    "adventurousness": 5,
+    "confidence": 5,
+    "warmth": 5,
+    "observations": []
+  },
+  "communication_style": {
+    "avg_message_length": "very short (1-2 words)",
+    "emoji_frequency": "unknown",
+    "preferred_emojis": [],
+    "formality_level": "casual",
+    "humor_style": null,
+    "response_speed_tendency": "immediate (under 1 min)",
+    "response_time_avg_minutes": null,
+    "active_hours": [],
+    "conversation_starters_used": [],
+    "vocabulary_level": "unknown",
+    "grammar_patterns": []
+  },
+  "topic_engagement": {},
+  "effective_patterns": [],
+  "avoid_patterns": [],
+  "ng_topics": [],
+  "temporal_patterns": {
+    "most_active_day": null,
+    "most_active_hour": null,
+    "avg_conversation_length_messages": null,
+    "initiates_ratio": null
+  },
+  "_exchange_count_since_consolidation": 1
+}
