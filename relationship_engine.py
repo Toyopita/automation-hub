@@ -1666,6 +1666,53 @@ AUTHENTICITY RULES (always active):
     # Stage hierarchy for accumulating questions
     STAGE_ORDER = ["friends", "close_friends", "flirty", "romantic", "intimate"]
 
+    # Mapping from profile gathering labels to search terms for misc_facts lookup
+    LABEL_SEARCH_TERMS = {
+        "where she lives": ["live", "lives", "city", "country", "based", "moved", "hometown", "address", "location"],
+        "what she does for work/study": ["work", "works", "job", "office", "company", "career", "study", "school", "university", "occupation", "restaurant", "cafe", "shop", "store", "employee", "manager"],
+        "her hobbies": ["hobby", "hobbies", "free time", "spare time", "days off", "weekend"],
+        "food she likes": ["food", "eat", "cook", "cooking", "dish", "cuisine", "restaurant", "menu", "recipe", "favorite food"],
+        "music she likes": ["music", "song", "band", "singer", "album", "playlist", "listen"],
+        "her age": ["age", "years old", "born", "birthday", "birth"],
+        "her family": ["family", "mother", "father", "sister", "brother", "parent", "sibling", "mom", "dad", "aunt", "uncle"],
+        "languages she speaks": ["language", "speak", "speaks", "bilingual", "native", "fluent"],
+        "her daily schedule": ["schedule", "routine", "wake up", "morning", "start work", "shift"],
+        "activities she enjoys": ["activity", "activities", "enjoy", "fun", "adventure"],
+        "movies/shows she watches": ["movie", "film", "show", "series", "netflix", "watch", "watching"],
+        "important dates (birthday etc)": ["birthday", "anniversary", "born", "birth date"],
+        "when she's usually free": ["free", "available", "busy", "free time"],
+    }
+
+    def _info_exists_in_text_facts(self, facts: dict, label: str) -> bool:
+        """Check if information for a label already exists in misc_facts, hobbies, or favorites."""
+        search_terms = self.LABEL_SEARCH_TERMS.get(label, [])
+        if not search_terms:
+            return False
+
+        # Collect all text-based facts
+        text_pool = []
+        for key in ('misc_facts', 'hobbies', 'family', 'important_dates'):
+            items = facts.get(key, [])
+            for item in items:
+                if isinstance(item, dict):
+                    text_pool.append(item.get('text', '').lower())
+                elif isinstance(item, str):
+                    text_pool.append(item.lower())
+
+        favorites = facts.get('favorites', {})
+        for cat_items in favorites.values():
+            if isinstance(cat_items, list):
+                for item in cat_items:
+                    text_pool.append(str(item).lower())
+
+        # Check schedule
+        schedule = facts.get('schedule', {})
+        if schedule.get('work_schedule'):
+            text_pool.append(str(schedule['work_schedule']).lower())
+
+        combined = ' '.join(text_pool)
+        return any(term in combined for term in search_terms)
+
     def _profile_gathering_directive(self, profile: dict, stage: str) -> str:
         """Check profile for missing fields and suggest a natural question."""
         facts = profile.get('facts', {})
@@ -1676,12 +1723,14 @@ AUTHENTICITY RULES (always active):
         for s in self.STAGE_ORDER[:stage_idx + 1]:
             candidates.extend(self.PROFILE_QUESTIONS.get(s, []))
 
-        # Filter to only unknown fields
+        # Filter to only unknown fields (check both structured fields AND text-based facts)
         missing = []
         for field_path, label, example_q in candidates:
             value = self._get_nested(facts, field_path.replace("facts.", ""))
             if value is None or value == [] or value == "":
-                missing.append((label, example_q))
+                # Also check misc_facts/hobbies/favorites for this info
+                if not self._info_exists_in_text_facts(facts, label):
+                    missing.append((label, example_q))
 
         if not missing:
             return "You know a lot about her already. No specific questions needed right now."
