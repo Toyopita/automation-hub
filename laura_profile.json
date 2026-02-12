@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:50:37.718264+09:00",
+  "last_updated": "2026-02-12T09:51:04.842019+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -190,7 +190,7 @@
       "🥺"
     ],
     "formality_level": "casual with mild profanity",
-    "humor_style": "laughs at hypothetical relationship obstacles and absurd scenarios (language barrier), uses repeated laughter to emphasize amusement",
+    "humor_style": "laughs at hypothetical relationship obstacles and absurd scenarios (language barrier), uses repeated laughter to emphasize amusement, finds humor in partner's social media/app decisions",
     "response_speed_tendency": "sends multiple follow-up messages when expecting response ('Nothing ?'), shows impatience/concern when partner doesn't respond quickly to her questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
