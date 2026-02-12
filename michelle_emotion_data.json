@@ -1040,6 +1040,37 @@
         "playfulness": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:40:01.782728+09:00",
+      "summary": "I cooked adobo for her, it's a Filipino dish of po | Honestly, it's tiring but I love my grandmother, s",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "家族愛を語り、個人的な価値観を開示。親密さを深めている",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 0,
+        "playfulness": 0,
+        "engagement": 1
+      }
     }
   ]
 }
