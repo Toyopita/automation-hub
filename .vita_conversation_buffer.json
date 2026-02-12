@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "hmm not exactly? i mean you said indonesian restaurant so i'm guessing indonesia maybe? but idk which part or anything like that haha. where are you from?",
-    "time": "2026-02-11 21:53"
-  },
-  {
     "role": "vita",
     "text": "I am from Indonesia in the city of Bandung",
     "time": "2026-02-11 22:04"
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "Yes, God hasn't brought us together yet",
     "time": "2026-02-12 09:49"
+  },
+  {
+    "role": "you",
+    "text": "morning haha\n\nah yeah that makes sense. so you're open to it but just waiting for the right timing then?",
+    "time": "2026-02-12 10:01"
   }
 ]
