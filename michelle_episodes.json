@@ -462,5 +462,25 @@
     ],
     "emotional_tone": "playful, lighthearted camaraderie",
     "unresolved": "Michelle hasn't answered yet whether she prefers instant ramen or restaurant ramen"
+  },
+  {
+    "id": 24,
+    "timestamp_start": "2026-02-12 11:02",
+    "timestamp_end": "2026-02-12 11:52",
+    "summary": "Michelle and YOU discussed dealing with 'red flag' people, agreeing it's not worth the time. The conversation shifted to Michelle's go-to comfort food: ramen with rice. She mentioned she usually gets real ramen from shops rather than instant.",
+    "topics": [
+      "social boundaries",
+      "red flags",
+      "comfort food",
+      "ramen",
+      "casual chat"
+    ],
+    "key_facts_learned": [
+      "Michelle walks away from people she considers red flags, valuing her time",
+      "Her go-to food when tired is ramen with rice",
+      "She prefers real ramen from shops over instant, though does instant sometimes"
+    ],
+    "emotional_tone": "lighthearted, casual, relatable",
+    "unresolved": null
   }
 ]
