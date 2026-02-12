@@ -14868,6 +14868,48 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:27:43.230455+09:00",
+      "summary": "Have a good day my love ",
+      "scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の直後の愛情深いおやすみメッセージ。後で写真を送ることを約束した後の、甘く親密な締めくくり",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -2,
+        "future": -2,
+        "engagement": -1
+      }
     }
   ]
 }
