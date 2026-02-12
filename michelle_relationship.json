@@ -168,8 +168,8 @@
     }
   },
   "transition_readiness": {
-    "days_in_stage": 28,
-    "consecutive_positive_days": 3,
+    "days_in_stage": 29,
+    "consecutive_positive_days": 4,
     "last_risk_event": null,
     "blocked_until": null
   },
@@ -180,7 +180,7 @@
     "balance_score": 0.5
   },
   "topic_history": [],
-  "total_exchanges": 28,
+  "total_exchanges": 29,
   "total_days_active": 0,
   "notes": []
 }
