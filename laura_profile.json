@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:23:58.015885+09:00",
+  "last_updated": "2026-02-12T19:24:29.817792+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1478,6 +1478,54 @@
           "mobility"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "uses French keyboard/autocorrect on her phone (confirmed by explicit statement 'my keyboard is in French')",
+        "tags": [
+          "french keyboard",
+          "phone settings",
+          "french language",
+          "typing difficulty",
+          "autocorrect",
+          "bilingual device",
+          "french phone",
+          "language settings",
+          "technology",
+          "writing challenges"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "finds it difficult to type in English with French keyboard",
+        "tags": [
+          "typing difficulty",
+          "french keyboard",
+          "english typing",
+          "language switching",
+          "bilingual challenges",
+          "keyboard frustration",
+          "writing struggle",
+          "autocorrect problems",
+          "communication barriers",
+          "technical difficulty"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "expresses frustration about French keyboard interference with standalone exclamations",
+        "tags": [
+          "frustration expression",
+          "keyboard complaints",
+          "typing frustration",
+          "french interference",
+          "communication challenges",
+          "autocorrect frustration",
+          "language barrier",
+          "technical complaint",
+          "standalone exclamation",
+          "venting"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1991,7 +2039,12 @@
     "mutual_accountability_in_relationship": 9.1,
     "location_sharing": 8.5,
     "whereabouts_disclosure": 8.4,
-    "current_status_updates": 8.3
+    "current_status_updates": 8.3,
+    "typing_challenges": 8.5,
+    "french_keyboard_interference": 8.8,
+    "explaining_typing_errors": 9.2,
+    "technology_frustrations": 8.3,
+    "autocorrect_complaints": 8.6
   },
   "effective_patterns": [
     {
