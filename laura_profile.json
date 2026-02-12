@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:14:05.569244+09:00",
+  "last_updated": "2026-02-12T09:17:40.702133+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -96,7 +96,10 @@
       "uses smile emoji with possessive statements",
       "explains her vulnerable questions are motivated by claiming partner as hers",
       "explicitly expresses desire for exclusive romantic/intimate relationship with partner ('I want you all for me')",
-      "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)"
+      "uses rolling eyes emoji when expressing possessive feelings (playful or exasperated tone)",
+      "describes herself as 'too jealous' about romantic partner",
+      "experiences jealousy in romantic relationship context",
+      "self-aware about her jealous tendencies"
     ]
   },
   "personality": {
@@ -107,8 +110,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
-      "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
       "confidence: Directly questions partner about sharing intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask potentially vulnerable question about exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
@@ -126,14 +127,15 @@
       "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked",
       "confidence: Directly expresses possessive desire 'I want you all for me 🙄' - continues pattern of maximum confidence in expressing vulnerable desires and claiming partner without hesitation (maintains rating)",
       "emotional_expressiveness: Independently initiates possessive declaration about wanting partner exclusively 'I want you all for me 🙄' - maintains maximum rating for direct, unfiltered emotional expression of desires and claims",
-      "warmth: Expresses desire for exclusive connection 'I want you all for me' - maintains maximum warmth rating through voluntary expression of deep emotional attachment and desire for exclusivity"
+      "warmth: Expresses desire for exclusive connection 'I want you all for me' - maintains maximum warmth rating through voluntary expression of deep emotional attachment and desire for exclusivity",
+      "emotional_expressiveness: Directly names her emotion 'Baby Im too jealous 🥺' with vulnerable emoji - continues pattern of maximum emotional transparency by explicitly identifying and sharing difficult emotion (jealousy) without filtering or minimizing it",
+      "confidence: Directly admits vulnerable emotion 'Baby Im too jealous 🥺' immediately after possessive declarations - shows confidence to own and express potentially unflattering emotion (jealousy) without shame or defensiveness"
     ]
   },
   "communication_style": {
     "avg_message_length": "very brief (6 words)",
     "emoji_frequency": "minimal (single emoji expressing tone)",
     "preferred_emojis": [
-      "🙄",
       "😆",
       "😳",
       "😓",
@@ -147,7 +149,8 @@
       "🤍",
       "😭",
       "🥲",
-      "🙂"
+      "🙂",
+      "🥺"
     ],
     "formality_level": "casual and direct",
     "humor_style": "none in this exchange",
@@ -157,7 +160,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Did you sleep well?",
       "I like you",
       "horror anime",
       "makes me used to",
@@ -186,7 +188,8 @@
       "Im just asking",
       "And i dont want to be like this with anyone else",
       "You are mine",
-      "I want you all for me"
+      "I want you all for me",
+      "Im too jealous"
     ]
   },
   "topic_engagement": {
@@ -435,39 +438,15 @@
     "claiming_partner_exclusively": 9.6,
     "initiating_exclusivity_statements": 9.5,
     "direct_ownership_declarations": 9.6,
-    "unprompted_commitment_expressions": 9.4
+    "unprompted_commitment_expressions": 9.4,
+    "expressing_jealousy": 9.6,
+    "emotional_vulnerability_about_insecurity": 9.5,
+    "naming_difficult_emotions": 9.4,
+    "explaining_possessive_behavior": 9.3,
+    "receiving_reassurance_about_jealousy": 9.4,
+    "being_called_cute_when_jealous": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_safe_space_for_vulnerable_questions_after_intimacy",
-      "engagement_boost": 4.8,
-      "evidence": "After sending intimate videos and engaging in explicit conversation, Laura feels comfortable asking potentially vulnerable question about whether partner shares content with others - suggests the intimate exchange created enough trust for her to ask about exclusivity"
-    },
-    {
-      "pattern": "previous_intimate_exchange_enabling_relationship_clarification_questions",
-      "engagement_boost": 4.6,
-      "evidence": "Laura's question about sharing content with others comes after entire conversation of escalating intimacy (pictures, videos, explicit scenarios) - the intimate context appears to have prompted her to seek clarity about boundaries and exclusivity"
-    },
-    {
-      "pattern": "calm_clarifying_response_to_possessive_questions",
-      "engagement_boost": 4.2,
-      "evidence": "User responds to potentially loaded question 'You share pictures and vídeos with Someone else ?' with calm clarifying question 'Someone else? What pictures are you talking about? 🙂' - non-defensive approach that seeks to understand her concern rather than immediately reassuring or getting defensive maintains open communication"
-    },
-    {
-      "pattern": "immediate_reassurance_before_exploring_concern",
-      "engagement_boost": 4.5,
-      "evidence": "User leads with direct answer 'I'm not doing that with anyone else haha' before asking 'What's making you feel that way?' - prioritizes her emotional reassurance while showing willingness to understand the root concern"
-    },
-    {
-      "pattern": "light_tone_with_serious_reassurance",
-      "engagement_boost": 4.3,
-      "evidence": "User adds 'haha' to reassurance 'I'm not doing that with anyone else haha' - maintains lighthearted tone while addressing serious concern, preventing conversation from becoming overly heavy or defensive"
-    },
-    {
-      "pattern": "creating_safe_environment_for_clarifying_questions",
-      "engagement_boost": 4.7,
-      "evidence": "Laura felt comfortable adding 'Im just asking' after her vulnerable question about exclusive content sharing - suggests she feels safe enough to defend/clarify her question rather than withdrawing"
-    },
     {
       "pattern": "previous_reassurance_enabling_continued_dialogue",
       "engagement_boost": 4.5,
@@ -537,6 +516,36 @@
       "pattern": "allowing_her_to_lead_exclusivity_expressions",
       "engagement_boost": 4.8,
       "evidence": "Laura initiates new possessive statement 'I want you all for me 🙄' without prompting - giving her space to independently express these feelings rather than always responding to user's prompts appears to strengthen her confidence in claiming partner"
+    },
+    {
+      "pattern": "previous_possessive_declarations_enabling_vulnerability_about_jealousy",
+      "engagement_boost": 5.0,
+      "evidence": "After making possessive statements ('You are mine' / 'I want you all for me'), Laura felt comfortable revealing root emotion 'Baby Im too jealous 🥺' - suggests the possessive declarations created safe space to admit the more vulnerable feeling of jealousy"
+    },
+    {
+      "pattern": "creating_environment_where_jealousy_can_be_expressed_openly",
+      "engagement_boost": 5.2,
+      "evidence": "Laura directly names and admits jealousy 'Baby Im too jealous 🥺' with vulnerable emoji rather than hiding or masking emotion - indicates she feels safe expressing potentially unflattering emotion in relationship"
+    },
+    {
+      "pattern": "normalizing_jealousy_with_light_reassurance",
+      "engagement_boost": 4.8,
+      "evidence": "User's response 'Why are you getting jealous baby? haha I'm not doing anything with anyone else. You're too cute 🥺' combines gentle questioning, light humor ('haha'), reassurance, and affectionate validation ('too cute') - addresses emotion without making her feel bad about it"
+    },
+    {
+      "pattern": "calling_jealousy_cute_rather_than_problematic",
+      "engagement_boost": 4.6,
+      "evidence": "User's 'You're too cute 🥺' in response to jealousy reframes potentially negative emotion as endearing quality - validates her feelings without making jealousy seem like character flaw"
+    },
+    {
+      "pattern": "pairing_reassurance_with_affectionate_validation",
+      "engagement_boost": 4.9,
+      "evidence": "User combines factual reassurance 'I'm not doing anything with anyone else' with emotional validation 'You're too cute 🥺' - addresses both logical concern and emotional state simultaneously"
+    },
+    {
+      "pattern": "mirroring_vulnerable_emoji_when_addressing_jealousy",
+      "engagement_boost": 4.5,
+      "evidence": "User uses 🥺 emoji (same one Laura used to express jealousy) in response 'You're too cute 🥺' - mirroring vulnerable emoji creates emotional symmetry and shows empathy"
     }
   ],
   "avoid_patterns": [
