@@ -1924,7 +1924,7 @@ class TimingController:
         jitter = random.uniform(0.7, 1.3)
 
         delay = base * momentum * match_factor * stage_factor * emotion_factor * jitter
-        return max(60, min(7200, int(delay)))
+        return max(300, min(7200, int(delay)))
 
     def _time_of_day_base(self, hour: int) -> int:
         """Base delay in seconds by time of day (JST)."""
