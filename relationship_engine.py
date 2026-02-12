@@ -1243,6 +1243,7 @@ IMPORTANT: This conversation is ALREADY happening on LINE. You are already chatt
 === BUDGET ===
 Daily remaining: {daily_remaining}
 Monthly remaining: {monthly_remaining}
+{pace_directive}
 
 === PAST EPISODES (older context) ===
 {episode_memory}
