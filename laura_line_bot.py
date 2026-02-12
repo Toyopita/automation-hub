@@ -866,7 +866,6 @@ async def handle_line_text_message(event: dict):
 
     embed = Embed(title=f"📩 Laura ［{time_str}］", color=0xcc5de8)
     embed.add_field(name="🇬🇧 原文", value=f"> {text}", inline=False)
-    embed.add_field(name="🇯🇵 日本語訳", value=analysis["translation"], inline=False)
     embed.add_field(
         name="📊 感情分析",
         value=f"```\n{emotion_bars}\n{att_risk}\n```",
@@ -875,6 +874,7 @@ async def handle_line_text_message(event: dict):
     if analysis.get("note"):
         embed.add_field(name="📝 補足", value=analysis["note"], inline=False)
     embed.add_field(name="🔗 コンテキスト", value=context, inline=False)
+    embed.add_field(name="🇯🇵 日本語訳", value=analysis["translation"], inline=False)
 
     await channel.send(embed=embed)
     # ProfileLearner: 受信メッセージからも学習（返信前でも事実抽出）
