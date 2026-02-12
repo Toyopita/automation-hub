@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Suraya",
-  "last_updated": "2026-02-11T17:07:57.234429+09:00",
+  "last_updated": "2026-02-12T11:12:54.623460+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -33,12 +33,12 @@
     "observations": []
   },
   "communication_style": {
-    "avg_message_length": null,
+    "avg_message_length": "1 word (very brief greeting)",
     "emoji_frequency": "unknown",
     "preferred_emojis": [],
-    "formality_level": "unknown",
+    "formality_level": "casual",
     "humor_style": null,
-    "response_speed_tendency": null,
+    "response_speed_tendency": "insufficient data - only one message observed",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
