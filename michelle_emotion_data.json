@@ -1009,6 +1009,37 @@
         "playfulness": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-12T18:27:08.430741+09:00",
+      "summary": "yes I do this to her every day since I don't want ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "祖母への優しさを共有。明るく健全な会話が続いている",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": -1,
+        "engagement": 0
+      }
     }
   ]
 }
