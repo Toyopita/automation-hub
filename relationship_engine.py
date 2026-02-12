@@ -1825,6 +1825,54 @@ AUTHENTICITY RULES (always active):
         combined = ' '.join(text_pool)
         return any(term in combined for term in search_terms)
 
+    # Keywords for topic steering analysis
+    _ROMANTIC_KEYWORDS = [
+        'boyfriend', 'girlfriend', 'relationship', 'dating', 'date', 'love',
+        'attractive', 'type', 'sexy', 'beautiful', 'pretty', 'cute', 'handsome',
+        'miss you', 'miss me', 'feelings', 'feel about', 'crush',
+        'kiss', 'hug', 'hold', 'touch', 'dream about',
+        'jealous', 'flirt', 'compliment', 'heart', 'falling for',
+    ]
+
+    def _topic_steering_directive(self, conversation_history: list[dict], config: dict) -> str:
+        """Analyze recent conversation and generate steering directive if stuck in small talk."""
+        strategy = config.get('strategy_direction', '')
+        if not strategy:
+            return ""
+
+        # Need at least 4 messages to analyze
+        recent = conversation_history[-8:]
+        if len(recent) < 4:
+            return ""
+
+        # Count consecutive non-romantic messages from the end
+        small_talk_streak = 0
+        for msg in reversed(recent):
+            text = msg.get('text', '').lower()
+            has_romantic = any(kw in text for kw in self._ROMANTIC_KEYWORDS)
+            if has_romantic:
+                break
+            small_talk_streak += 1
+
+        if small_talk_streak >= 6:
+            return (
+                "\n⚠️ TOPIC STEERING (IMPORTANT):\n"
+                "The conversation has been ONLY small talk (food, work, daily routines) for too many exchanges.\n"
+                "You MUST steer toward personal/romantic territory in your next response.\n"
+                "Techniques:\n"
+                "- Bridge from current topic with \"btw\" or \"random thought\" to shift naturally\n"
+                "- Compliment something about her (appearance, personality, vibe)\n"
+                "- Ask about her love life, ideal type, or dating experience\n"
+                "- Reference something personal she shared and go deeper\n"
+                "DO NOT respond with another round of mundane topic exchange.\n"
+            )
+        elif small_talk_streak >= 4:
+            return (
+                "\n📌 TOPIC NOTE: Conversation has been casual small talk for a while. "
+                "Look for an opportunity to shift toward more personal or romantic topics soon.\n"
+            )
+        return ""
+
     def _profile_gathering_directive(self, profile: dict, stage: str) -> str:
         """Check profile for missing fields and suggest a natural question."""
         facts = profile.get('facts', {})
