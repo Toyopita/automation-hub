@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T22:24:29.848736+09:00",
+  "last_updated": "2026-02-12T22:38:53.449818+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -10,7 +10,8 @@
       "interested in photography or photo-taking (asked if you like taking photos)",
       "has previously received photos from you (context suggests possible photo exchange)",
       "offers emotional support and positions herself as a good listener",
-      "goes jogging as part of personal me-time routine"
+      "goes jogging as part of personal me-time routine",
+      "goes jogging on her days off/holidays as part of her routine"
     ],
     "family": [],
     "languages": [],
@@ -494,7 +495,6 @@
     "confidence": 8,
     "warmth": 8,
     "observations": [
-      "warmth: offers emotional support unprompted ('I can be a good listener'), expresses caring advice about doing what feels good, and uses affectionate repeated stickers to show warmth",
       "emotional_expressiveness: openly shares relationship status when asked, uses crying emoji to express feeling touched about close friends inclusion, and laughs abundantly with 'ahahaha' and 'ahahahah'",
       "confidence: confidently observes your social media behavior, makes direct observations about never seeing your face, volunteers to be emotional support, and openly discusses relationship status without hesitation - showing continued growth from previous 5",
       "warmth: continues morning greeting ritual with 'morningg' (double g showing playfulness), maintains engaged and warm communication style",
@@ -513,12 +513,13 @@
       "confidence: asks personal question directly after polite preamble, showing continued comfort level in relationship - maintains previous confidence rating",
       "warmth: continues showing care by following up on your birthday reveal with her own, creating reciprocal personal sharing - 'oh june, nice. so coming up soon then haha' prompted her to simply share 'june' in return",
       "emotional_expressiveness: responds succinctly but directly when sharing personal information like her birthday, showing comfortable openness",
-      "adventurousness: actively pursues physical activities like jogging for personal wellness, showing some adventurousness in maintaining active lifestyle - progression from baseline 5"
+      "adventurousness: actively pursues physical activities like jogging for personal wellness, showing some adventurousness in maintaining active lifestyle - progression from baseline 5",
+      "adventurousness: actively engages in jogging during holidays showing she pursues physical activities and maintains active lifestyle - confirms previous observation about jogging routine"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single word or short phrase",
-    "emoji_frequency": "low in this exchange (none used)",
+    "avg_message_length": "very short phrases (2-4 words)",
+    "emoji_frequency": "none in this exchange",
     "preferred_emojis": [
       "😭",
       "🙏",
@@ -528,8 +529,8 @@
       "[sticker pkg:1, id:10]"
     ],
     "formality_level": "casual",
-    "humor_style": "expresses joy through abundant laughter 'ahahahah' rather than verbal jokes",
-    "response_speed_tendency": "quick consecutive responses when sharing personal information about routines",
+    "humor_style": "not evident in this exchange",
+    "response_speed_tendency": "sends consecutive messages rapidly when sharing information about routines",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -602,24 +603,14 @@
     "me_time_activities": 8.5,
     "personal_routines": 8.0,
     "self_care_practices": 8.5,
-    "evening_activities": 7.5
+    "evening_activities": 7.5,
+    "exercise_routines": 8.0,
+    "holiday_activities": 8.0,
+    "your_exercise_habits": 8.5,
+    "comparing_routines": 8.0,
+    "lifestyle_comparison": 8.0
   },
   "effective_patterns": [
-    {
-      "pattern": "playful_conditional_interest",
-      "engagement_boost": 1.6,
-      "evidence": "adding 'if it's something good' with emoji creates lighthearted teasing tone while showing genuine interest in what she wants to share"
-    },
-    {
-      "pattern": "expressing_enthusiasm_for_shared_content",
-      "engagement_boost": 1.9,
-      "evidence": "your 'oh damn that looks really good haha' positive reaction validates her sharing and invites her to elaborate on restaurant details"
-    },
-    {
-      "pattern": "asking_follow_up_about_quality_level",
-      "engagement_boost": 1.8,
-      "evidence": "observing 'looks pretty fancy' shows you're paying attention to details and gives her opportunity to explain her workplace with pride"
-    },
     {
       "pattern": "casual_surprise_expression",
       "engagement_boost": 1.7,
@@ -704,6 +695,21 @@
       "pattern": "acknowledging_with_positive_reaction",
       "engagement_boost": 1.6,
       "evidence": "saying 'oh nice' validates her sharing about jogging and me-time, creating supportive atmosphere for her to continue sharing personal habits"
+    },
+    {
+      "pattern": "self_deprecating_comparison",
+      "engagement_boost": 1.8,
+      "evidence": "your 'i don't really have a routine like that haha, i should probably start one' shows vulnerability and invites her to share more about her healthy habits while acknowledging her discipline positively"
+    },
+    {
+      "pattern": "acknowledging_her_healthy_habits",
+      "engagement_boost": 1.7,
+      "evidence": "saying 'oh jogging on your days off, nice' validates her self-care routine and shows you appreciate her commitment to fitness"
+    },
+    {
+      "pattern": "sharing_your_less_structured_approach",
+      "engagement_boost": 1.6,
+      "evidence": "admitting 'mostly just walk around the neighborhood when i feel like it' creates contrast with her routine and shows honesty about your own lifestyle, inviting further conversation about habits"
     }
   ],
   "avoid_patterns": [],
@@ -714,5 +720,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 7
+  "_exchange_count_since_consolidation": 8
 }
