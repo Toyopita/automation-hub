@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:46:24.055241+09:00",
+  "last_updated": "2026-02-12T09:46:34.567378+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -191,7 +191,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "sooo bad",
       "In already wet",
       "this is sooo bad",
       "Do you know what i want",
@@ -220,7 +219,8 @@
       "Love you bye",
       "Send me an audio talking in Japanese",
       "Do you understand English?",
-      "I send you tomorrow"
+      "I send you tomorrow",
+      "Shit"
     ]
   },
   "topic_engagement": {
