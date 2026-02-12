@@ -662,25 +662,31 @@ class AutoChatBot:
         stage = rel.get('stage', 'friends')
 
         # 3. 戦略判断
-        budget_info = {
-            'daily_remaining': self.budget.get_daily_remaining(),
-            'monthly_remaining': self.budget.get_monthly_remaining(),
-            'can_send': self.budget.can_send(),
-        }
-        reply_decision = emotion.get('reply_decision', {})
-        strategy_decision = self.strategy_engine.decide(
-            stage=stage,
-            profile=profile,
-            emotion=emotion,
-            budget=budget_info,
-            conversation_history=list(self.conversation_buffer),
-            reply_decision=reply_decision,
-        )
-        rd_log = f", silence_risk={reply_decision.get('silence_risk', 'N/A')}" if reply_decision else ""
-        self.logger.info(f"Strategy: respond={strategy_decision.should_respond}, "
-                    f"tone={strategy_decision.tone_directive[:50]}, "
-                    f"escalation={strategy_decision.escalation_level:.1f}"
-                    f"{rd_log}")
+        strategy_decision = None
+        try:
+            budget_info = {
+                'daily_remaining': self.budget.get_daily_remaining(),
+                'monthly_remaining': self.budget.get_monthly_remaining(),
+                'can_send': self.budget.can_send(),
+            }
+            reply_decision = emotion.get('reply_decision', {})
+            strategy_decision = self.strategy_engine.decide(
+                stage=stage,
+                profile=profile,
+                emotion=emotion,
+                budget=budget_info,
+                conversation_history=list(self.conversation_buffer),
+                reply_decision=reply_decision,
+            )
+            rd_log = f", silence_risk={reply_decision.get('silence_risk', 'N/A')}" if reply_decision else ""
+            self.logger.info(f"Strategy: respond={strategy_decision.should_respond}, "
+                        f"tone={strategy_decision.tone_directive[:50]}, "
+                        f"escalation={strategy_decision.escalation_level:.1f}"
+                        f"{rd_log}")
+        except Exception as e:
+            self.logger.error(f"Strategy decision failed (non-fatal): {e}")
+            from relationship_engine import StrategyDecision
+            strategy_decision = StrategyDecision()
 
         # 4. 日本語翻訳
         translation = ""
