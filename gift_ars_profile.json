@@ -1,10 +1,10 @@
 {
   "version": 2,
   "name": "Gift_ars",
-  "last_updated": "2026-02-12T12:16:20.044583+09:00",
+  "last_updated": "2026-02-12T12:47:56.666253+09:00",
   "facts": {
     "age": null,
-    "location": "from Thailand",
+    "location": "lives in Bangkok",
     "occupation": null,
     "hobbies": [],
     "family": [],
@@ -53,6 +53,22 @@
           "japan-based"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "aware of and concerned about political corruption in Thailand",
+        "tags": [
+          "politics",
+          "current events",
+          "awareness",
+          "social issues",
+          "corruption",
+          "Thailand",
+          "civic engagement",
+          "concerned",
+          "informed",
+          "political awareness"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -73,7 +89,7 @@
     "avg_message_length": "very short (1-5 words per message)",
     "emoji_frequency": "none observed in this exchange",
     "preferred_emojis": [],
-    "formality_level": "casual",
+    "formality_level": "casual with occasional grammar variations ('I'm live' instead of 'I live')",
     "humor_style": "enthusiastic and direct rather than joke-based",
     "response_speed_tendency": "sends rapid-fire short messages in bursts, prefers multiple messages over one longer message",
     "response_time_avg_minutes": null,
@@ -84,7 +100,11 @@
   },
   "topic_engagement": {
     "personal_background": 9,
-    "geography": 8
+    "geography": 8,
+    "politics": 8,
+    "social_issues": 8,
+    "personal_location": 9,
+    "current_events": 8
   },
   "effective_patterns": [
     {
@@ -101,6 +121,16 @@
       "pattern": "reciprocal_sharing",
       "engagement_boost": 1.3,
       "evidence": "confirming 'yeah! born and raised here' before asking follow-up creates balanced exchange"
+    },
+    {
+      "pattern": "reciprocal_location_sharing",
+      "engagement_boost": 1.4,
+      "evidence": "after you shared Tokyo location, immediately asked follow-up 'Which city are you in?'"
+    },
+    {
+      "pattern": "showing_empathy_for_concerns",
+      "engagement_boost": 1.3,
+      "evidence": "you acknowledged 'sounds really tough' and asked how it affects them, which validates their concern"
     }
   ],
   "avoid_patterns": [],
@@ -110,5 +140,6 @@
     "most_active_hour": null,
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
-  }
+  },
+  "_exchange_count_since_consolidation": 1
 }
