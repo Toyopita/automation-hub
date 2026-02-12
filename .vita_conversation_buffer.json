@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "If anything happens, just tell me. I can be a good listener.",
-    "time": "2026-02-11 23:38"
-  },
-  {
-    "role": "vita",
     "text": "[sticker (pkg:1, id:13)]",
     "time": "2026-02-11 23:38"
   },
@@ -147,6 +142,11 @@
   {
     "role": "vita",
     "text": "[sticker (pkg:1, id:9)]",
+    "time": "2026-02-12 16:14"
+  },
+  {
+    "role": "vita",
+    "text": "Have you come home from work?",
     "time": "2026-02-12 16:14"
   }
 ]
