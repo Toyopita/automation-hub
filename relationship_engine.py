@@ -367,8 +367,20 @@ Rules:
                 facts[category] = fact_text
             else:
                 misc = facts.get('misc_facts', [])
-                if fact_text not in misc:
-                    misc.append(fact_text)
+                # Check for duplicates (handle both str and dict formats)
+                existing_texts = set()
+                for f in misc:
+                    if isinstance(f, dict):
+                        existing_texts.add(f.get('text', ''))
+                    elif isinstance(f, str):
+                        existing_texts.add(f)
+                if fact_text not in existing_texts:
+                    tags = fact.get('tags', [])
+                    misc.append({
+                        'text': fact_text,
+                        'tags': tags,
+                        'added': datetime.now(JST).strftime('%Y-%m-%d')
+                    })
                     facts['misc_facts'] = misc
             profile['facts'] = facts
 
