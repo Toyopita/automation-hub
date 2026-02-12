@@ -271,5 +271,23 @@
     ],
     "emotional_tone": "casual, humorous, relatable",
     "unresolved": null
+  },
+  {
+    "id": 14,
+    "timestamp_start": "2026-02-11 23:50",
+    "timestamp_end": "2026-02-12 10:06",
+    "summary": "Bonded over being single and shared frustrations about dating apps. Both agreed that ghosting is exhausting and people on apps aren't consistent. Michelle revealed she's given up on actively using dating apps and now only responds to people who message her first.",
+    "topics": [
+      "relationships",
+      "dating apps",
+      "ghosting",
+      "being single"
+    ],
+    "key_facts_learned": [
+      "Michelle tried dating apps but gave up due to people ghosting and being inconsistent",
+      "She now takes a passive approach - only talks to people who initiate conversation with her"
+    ],
+    "emotional_tone": "casual, humorous, relatable camaraderie",
+    "unresolved": null
   }
 ]
