@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T11:13:40.686188+09:00",
+  "last_updated": "2026-02-12T11:45:09.543871+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -73,7 +73,8 @@
       "Receives confessions of love from strangers very quickly/frequently ('fall in love so quickly it's almost unreal')",
       "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying",
       "Has developed clear strategy to identify and avoid red flag behavior in dating - actively walks away when detecting red flags",
-      "Uses cost-benefit analysis framing for relationships - views engaging with incompatible people as 'waste of time', suggesting efficiency-minded approach to dating"
+      "Uses cost-benefit analysis framing for relationships - views engaging with incompatible people as 'waste of time', suggesting efficiency-minded approach to dating",
+      "Go-to comfort food is ramen with rice, especially when tired"
     ]
   },
   "personality": {
@@ -106,8 +107,8 @@
       "😊"
     ],
     "formality_level": "casual - lowercase, no punctuation",
-    "humor_style": "uses 'hahaha' and 😂 emoji when stating serious boundary-setting behavior, maintaining lightness when discussing self-protective actions; frames necessary self-care (avoiding bad people) with humor rather than making it sound harsh or bitter",
-    "response_speed_tendency": "immediate response when Toyo validates her boundary-setting approach ('smart move. life's too short')",
+    "humor_style": "self-aware and lighthearted about personal habits - uses 😂 when sharing potentially embarrassing or unhealthy eating patterns, showing she doesn't take herself too seriously",
+    "response_speed_tendency": "immediate response after Toyo validated her boundary-setting approach in previous exchange; maintains quick engagement when discussing personal preferences and comfort topics like food",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -223,24 +224,12 @@
     "red_flag_detection": 9,
     "boundary_enforcement": 9,
     "time_value_in_relationships": 8,
-    "self_protective_dating_strategies": 9
+    "self_protective_dating_strategies": 9,
+    "comfort_food": 8,
+    "personal_eating_habits": 8,
+    "food_preferences": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_personal_growth_from_past",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'makes sense after what you went through. you know what you want now' recognizes her self-awareness and growth trajectory - response pending"
-    },
-    {
-      "pattern": "humorous_self_deprecation_about_drama",
-      "engagement_boost": 1.9,
-      "evidence": "Toyo's 'your reasons sound way more dramatic than mine 😂' validates her experiences as noteworthy while keeping tone light, prompting her immediate reciprocal question"
-    },
-    {
-      "pattern": "showing_commonality_in_singleness",
-      "engagement_boost": 2.0,
-      "evidence": "Toyo's 'kinda funny we're both in the same boat here' creates shared situation, likely making her feel comfortable that he's not pursuing her aggressively like others"
-    },
     {
       "pattern": "balanced_vulnerability_sharing",
       "engagement_boost": null,
@@ -325,6 +314,21 @@
       "pattern": "casual_validation_without_over_praising",
       "engagement_boost": null,
       "evidence": "Toyo's brief 'haha yeah smart move' keeps tone light while affirming her boundaries, avoiding overly serious or dramatic validation that might feel condescending - response pending"
+    },
+    {
+      "pattern": "acknowledging_food_combo_as_valid",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'that's a solid combo honestly' validates her unconventional food pairing without judgment - response pending but directly affirms her comfort food choice"
+    },
+    {
+      "pattern": "following_up_with_specific_food_detail_question",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'do you go for instant ramen or the real stuff from a shop?' shows genuine interest in her eating habits and creates opportunity for her to share more details - response pending"
+    },
+    {
+      "pattern": "casual_mirroring_with_haha",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha' mirrors her 😂 emoji, matching her lighthearted tone about the food combo - response pending but creates tonal alignment"
     }
   ],
   "avoid_patterns": [],
