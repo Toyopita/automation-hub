@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T10:35:39.535796+09:00",
+  "last_updated": "2026-02-12T10:52:23.469310+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -68,7 +68,10 @@
       "Believes dating app ghosting is a widespread problem, not isolated to her experience",
       "Takes 'go with the flow' approach to relationships - doesn't force connections, lets comfort build naturally over time through conversation",
       "Prioritizes mutual comfort as foundation before progressing relationship - waits for natural comfort to develop through conversation rather than rushing",
-      "Prefers organic relationship development over forced/rushed connections - aligns with her passive dating app approach of not actively pursuing"
+      "Prefers organic relationship development over forced/rushed connections - aligns with her passive dating app approach of not actively pursuing",
+      "Has selective response strategy - intentionally ignores messages from people who come on too strong romantically ('chat weirdly')",
+      "Receives confessions of love from strangers very quickly/frequently ('fall in love so quickly it's almost unreal')",
+      "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying"
     ]
   },
   "personality": {
@@ -86,7 +89,8 @@
       "confidence: Directly asks reciprocal personal question about relationship status without hesitation, showing comfort with vulnerable topics",
       "emotional_expressiveness: Uses 😂 emoji when discussing frustrating ghosting experiences, showing she processes disappointment through humor rather than bitterness",
       "adventurousness: Lowered from 9 - takes passive/reactive approach to dating rather than actively pursuing; 'vibes on her own' until someone comes along rather than seeking out new connections",
-      "adventurousness: Further confirmation of passive/flow-based approach across both dating apps AND general relationship philosophy - consistent pattern of not forcing or rushing, waiting for natural development. Lowered from 7 to 6."
+      "adventurousness: Further confirmation of passive/flow-based approach across both dating apps AND general relationship philosophy - consistent pattern of not forcing or rushing, waiting for natural development. Lowered from 7 to 6.",
+      "confidence: Has clear boundaries - actively chooses not to respond to people who chat 'weirdly', showing self-assuredness in ignoring unwanted attention rather than feeling obligated to reply"
     ]
   },
   "communication_style": {
@@ -99,8 +103,8 @@
       "😊"
     ],
     "formality_level": "casual - lowercase, no punctuation",
-    "humor_style": "uses 'haha' to soften statements about giving up or being passive, maintaining lightness when discussing potentially negative dating stance",
-    "response_speed_tendency": "immediate response when Toyo validates her approach with affirmation ('that's a good approach honestly')",
+    "humor_style": "uses 'haha' to maintain lightness when discussing frustrating romantic attention; frames annoying experiences with humor rather than complaint",
+    "response_speed_tendency": "immediate response when Toyo validates her experience with shared understanding ('i know the type')",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -206,24 +210,13 @@
     "relationship_philosophy": 8,
     "natural_vs_forced_connection": 9,
     "mutual_comfort_building": 8,
-    "organic_relationship_development": 9
+    "organic_relationship_development": 9,
+    "dating_app_red_flags": 9,
+    "boundary_setting": 8,
+    "love_bombing_experiences": 8,
+    "shared_dating_frustrations": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_her_rejection_decisions",
-      "engagement_boost": 2.1,
-      "evidence": "Toyo's 'yeah no wonder you rejected them lmao' validates her judgment, prompting her to share specific number (4) and detailed quotes from men"
-    },
-    {
-      "pattern": "expressing_empathy_for_dating_challenges",
-      "engagement_boost": 1.9,
-      "evidence": "Toyo's 'sounds exhausting dealing with that honestly' acknowledges emotional labor of repeated entitled rejections"
-    },
-    {
-      "pattern": "calling_out_absurd_mentality",
-      "engagement_boost": 2.0,
-      "evidence": "Toyo's paraphrasing 'you should be grateful i even noticed you' shows he understands the entitlement dynamic, creating alliance against that behavior"
-    },
     {
       "pattern": "surprise_at_scale_of_problem",
       "engagement_boost": 1.8,
@@ -308,6 +301,21 @@
       "pattern": "using_humor_to_show_alignment",
       "engagement_boost": 1.7,
       "evidence": "Toyo's 'haha yeah' creates relaxed tone while affirming her approach, making validation feel casual rather than overly serious"
+    },
+    {
+      "pattern": "specific_example_of_red_flag_behavior",
+      "engagement_boost": 2.0,
+      "evidence": "Toyo's quote 'i feel like i've known you forever after two messages' provides concrete example of the behavior Michelle described, showing he understands the specific type of weird chat she's referring to"
+    },
+    {
+      "pattern": "labeling_behavior_as_red_flag",
+      "engagement_boost": 1.9,
+      "evidence": "Toyo's 'instant red flag honestly' validates her decision to ignore such messages, affirming her boundary-setting as wise rather than harsh"
+    },
+    {
+      "pattern": "showing_familiarity_with_love_bombing_tactics",
+      "engagement_boost": 1.8,
+      "evidence": "Toyo's 'haha yeah i know the type' demonstrates he's encountered similar behavior, creating shared understanding of this dating frustration"
     }
   ],
   "avoid_patterns": [],
