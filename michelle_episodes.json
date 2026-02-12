@@ -538,5 +538,24 @@
     ],
     "emotional_tone": "light, playful, casual banter",
     "unresolved": null
+  },
+  {
+    "id": 28,
+    "timestamp_start": "2026-02-12 11:52",
+    "timestamp_end": "2026-02-12 12:36",
+    "summary": "Casual conversation about lunch habits and timing. Michelle clarified she usually gets real ramen from shops rather than instant, and explained her work break is at 1pm so that's when she eats lunch - later than the user's typical 12-12:30pm timing.",
+    "topics": [
+      "lunch_timing",
+      "work_schedule",
+      "daily_routine",
+      "ramen"
+    ],
+    "key_facts_learned": [
+      "Michelle's work break time is 1pm",
+      "Michelle usually eats lunch at 1pm due to work schedule",
+      "Michelle prefers real ramen from shops over instant ramen"
+    ],
+    "emotional_tone": "light, playful, casual banter",
+    "unresolved": null
   }
 ]
