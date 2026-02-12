@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "do whatever makes you feel good and calm as long as it is positive",
-    "time": "2026-02-11 23:55"
-  },
-  {
-    "role": "vita",
     "text": "food ? Sorry incorrectly typed",
     "time": "2026-02-12 00:32"
   },
@@ -148,5 +143,10 @@
     "role": "vita",
     "text": "ahahahah i hearing that is very flattering",
     "time": "2026-02-12 18:56"
+  },
+  {
+    "role": "you",
+    "text": "haha glad you liked hearing that. you really do handle a lot there though",
+    "time": "2026-02-12 19:06"
   }
 ]
