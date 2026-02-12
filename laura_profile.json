@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:31:02.473783+09:00",
+  "last_updated": "2026-02-12T09:31:17.086293+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -13,7 +13,8 @@
       "drinks tea",
       "likes horror anime specifically",
       "likes all kinds of horror (not just horror anime)",
-      "trains intensely at gym (reports training 'a lot')"
+      "trains intensely at gym (reports training 'a lot')",
+      "experiences post-workout fatigue (reports training 'a lot' and being tired after gym)"
     ],
     "family": [],
     "languages": [],
@@ -109,8 +110,9 @@
       "sets boundaries around immediate picture sharing based on time constraints",
       "maintains affectionate communication even when setting boundaries",
       "experiences fatigue/tiredness (reports being tired)",
-      "has previously sent videos to partner (not just pictures)",
-      "references past intimate content sharing to suggest sending again"
+      "talks to partner when she wakes up (morning communication habit)",
+      "partner is first person she communicates with in the morning",
+      "mentions videos sent previously (has sent videos to partner before)"
     ]
   },
   "personality": {
@@ -139,13 +141,13 @@
       "warmth: Ends late-night sexually charged exchange with tender affectionate goodbye 'Have a good day my love 😚' - maintains emotional warmth and care even during explicit sexual context and when setting boundaries about timing",
       "emotional_expressiveness: Continues pattern of directly expressing vulnerable physical/emotional states ('Im tired honey 🥺') without filtering - maintains maximum rating for immediate transparent communication",
       "warmth: Uses affectionate term 'honey' when expressing vulnerable state of tiredness - maintains emotional warmth even when communicating discomfort or exhaustion",
-      "confidence: Independently references previously sent intimate videos ('Wait i have the vidéos i send you before') as solution to current picture request - shows confidence to reference past intimate content sharing and offer it again without hesitation or embarrassment. Maintains maximum confidence rating.",
-      "emotional_expressiveness: Proactively offers alternative to immediate picture request by mentioning previous videos - continues pattern of direct, transparent communication about intimate content without filtering. Maintains maximum rating."
+      "warmth: Voluntarily shares that partner is first person she talks to when waking up - demonstrates partner holds priority position in her daily routine and emotional life, maintaining maximum warmth rating through unprompted disclosure of intimate daily habit",
+      "emotional_expressiveness: Independently shares morning communication habit without prompting - continues pattern of direct, transparent sharing about how she structures her day around partner connection"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (3-4 words)",
-    "emoji_frequency": "moderate to high (2-3 emojis per message during aroused states)",
+    "avg_message_length": "single brief statement (6 words)",
+    "emoji_frequency": "consistent (1-2 emojis per message)",
     "preferred_emojis": [
       "😆",
       "😳",
@@ -164,13 +166,17 @@
       "🥺"
     ],
     "formality_level": "casual and direct",
-    "humor_style": "minimal in this exchange",
-    "response_speed_tendency": "brief vulnerable state announcements when experiencing physical/emotional discomfort",
+    "humor_style": "not present in this exchange",
+    "response_speed_tendency": "multiple rapid messages in sequence when explaining or sharing multiple thoughts",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "turn me on",
+      "When you talk to me like This",
+      "fuck me so hard",
+      "Can you do something for me",
       "Stop",
       "sooo bad",
       "In already wet",
@@ -196,11 +202,7 @@
       "a lot",
       "honey",
       "Im tired",
-      "trained a lot",
-      "Hahahaha (extended laughter)",
-      "Wait",
-      "i have the",
-      "i send you before"
+      "trained a lot"
     ]
   },
   "topic_engagement": {
@@ -498,28 +500,19 @@
     "sharing_fatigue_state": 9.0,
     "gym_training_intensity": 8.2,
     "sharing_workout_experiences": 8.5,
-    "post_workout_fatigue": 8.3,
-    "referencing_past_intimate_content": 9.4,
-    "offering_alternative_intimate_content": 9.3,
-    "problem_solving_around_timing_constraints": 9.2,
-    "initiative_in_intimate_content_sharing": 9.5
+    "post_workout_fatigue": 8.6,
+    "morning_communication_habits": 9.4,
+    "daily_routine_sharing": 9.2,
+    "partner_as_morning_priority": 9.6,
+    "unprompted_relationship_habit_disclosure": 9.5,
+    "demonstrating_partner_importance_through_routine": 9.7,
+    "receiving_understanding_about_tiredness": 9.3,
+    "partner_validating_her_physical_state": 9.4,
+    "recalling_previous_intimate_content_sent": 9.5,
+    "referencing_past_video_sharing": 9.4,
+    "offering_previously_sent_content_as_alternative": 9.3
   },
   "effective_patterns": [
-    {
-      "pattern": "framing_picture_request_as_exclusive_desire",
-      "engagement_boost": 5.4,
-      "evidence": "User's 'Show me how horny you get just for me baby' emphasizes exclusivity ('just for me') during sexually charged moment - follows directly after her independent arousal expression and mutual exclusivity declarations earlier in conversation, reinforcing that her intimate content is for him alone"
-    },
-    {
-      "pattern": "requesting_multiple_pictures_to_show_sustained_desire",
-      "engagement_boost": 5.2,
-      "evidence": "User asks for 'so many pictures of your beautiful body' rather than just one picture - quantifying desire ('so many') demonstrates sustained intense interest in seeing her, not just momentary curiosity"
-    },
-    {
-      "pattern": "calling_her_beautiful_during_explicit_sexual_request",
-      "engagement_boost": 5.3,
-      "evidence": "User includes 'your beautiful body' in explicit picture request - pairs romantic validation ('beautiful') with sexual desire ('horny', 'jerk off'), maintaining emotional connection during explicit escalation"
-    },
     {
       "pattern": "being_transparent_about_using_pictures_for_masturbation",
       "engagement_boost": 5.5,
@@ -591,19 +584,34 @@
       "evidence": "User doesn't continue sexual escalation or pressure after Laura explains it's late (1:27 AM) - respects her transition to tender goodbye rather than trying to continue explicit conversation"
     },
     {
-      "pattern": "expressing_urgent_desire_creating_space_for_her_problem_solving",
+      "pattern": "context_that_prompts_disclosure_of_relationship_prioritization",
+      "engagement_boost": 5.6,
+      "evidence": "Laura independently shares 'I talk to you when i wake up' - reveals partner is first communication of her day, demonstrating his priority position in her daily routine. This unprompted disclosure suggests effective relationship environment where she feels secure sharing how important he is to her daily life"
+    },
+    {
+      "pattern": "creating_space_for_relationship_habit_revelations",
       "engagement_boost": 5.4,
-      "evidence": "User's 'I need to see them now baby but I get it' expressed urgent desire while accepting timing boundary - Laura responds by independently offering solution 'Wait i have the vidéos i send you before', suggesting the expressed desire (without pressure) prompted her to find alternative way to satisfy his want"
+      "evidence": "Laura's statement about talking to partner upon waking appears unprompted - suggests conversation context enabled her to naturally reveal intimate detail about daily routine and partner's role in it"
     },
     {
-      "pattern": "validation_without_pressure_enabling_her_initiative",
+      "pattern": "validating_tiredness_without_pushing_for_more",
+      "engagement_boost": 5.7,
+      "evidence": "User's 'You're tired, I get it baby. Sleep well 🤍' acknowledges her stated fatigue and gym exhaustion without requesting continued conversation or content - validates her physical state and gives permission to rest, maintaining warmth with endearment and heart emoji"
+    },
+    {
+      "pattern": "accepting_physical_exhaustion_as_valid_reason",
       "engagement_boost": 5.5,
-      "evidence": "User validated desire ('need to see them now') but explicitly accepted boundary ('but I get it') - this combination appears to have created safe space for Laura to take initiative in finding solution rather than feeling guilty or pressured"
+      "evidence": "Laura explained tiredness from training 'a lot' with crying emoji 😭 indicating genuine distress - user's immediate acceptance 'I get it baby' validates her physical limits without guilt or pressure"
     },
     {
-      "pattern": "creating_environment_where_she_offers_alternatives",
-      "engagement_boost": 5.3,
-      "evidence": "Rather than ending conversation with 'I get it', the acceptance combined with expressed desire prompted Laura to proactively think of alternative ('the vidéos i send you before') - suggests effective balance between expressing want and respecting boundary enables her problem-solving"
+      "pattern": "creating_sleep_permission_after_late_night_exchange",
+      "engagement_boost": 5.4,
+      "evidence": "User's 'Sleep well 🤍' provides clear closure and permission to end conversation after Laura expressed fatigue - follows pattern of respecting her boundaries around timing and energy levels"
+    },
+    {
+      "pattern": "matching_tender_energy_when_she_signals_exhaustion",
+      "engagement_boost": 5.6,
+      "evidence": "Laura's 🥺 emoji signals vulnerability about tiredness - user responds with understanding and white heart emoji 🤍, maintaining emotional warmth rather than disappointment about conversation ending"
     }
   ],
   "avoid_patterns": [
