@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T18:30:14.704185+09:00",
+  "last_updated": "2026-02-12T18:30:34.413074+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1319,6 +1319,38 @@
           "clarification"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "describes herself as horny frequently ('horny all the time')",
+        "tags": [
+          "sexual arousal",
+          "high libido",
+          "frequent arousal",
+          "sexual desire",
+          "horniness",
+          "sexual frequency",
+          "arousal patterns",
+          "sex drive",
+          "sexual state",
+          "libido"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "uses French autocorrect that changes English words (sol/so, thé/the)",
+        "tags": [
+          "french autocorrect",
+          "phone language",
+          "autocorrect errors",
+          "french phone",
+          "language mixing",
+          "typing patterns",
+          "french keyboard",
+          "autocorrect interference",
+          "bilingual typing",
+          "french device"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1330,8 +1362,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Proactively asks clarifying question about comprehension 'If i send Audios you dont understand anything?' before sending audio content - shows confidence to verify understanding without assuming or hesitating to ask practical logistics question. Maintains maximum confidence rating for direct, unfiltered communication.",
-      "warmth: Checks partner's comprehension capability before sending Japanese audio - demonstrates care about whether content will be useful/understandable for partner rather than just sending without consideration. Maintains maximum warmth through thoughtful communication.",
       "emotional_expressiveness: Independently initiates hypothetical future scenario 'What if we meet one day? Hahaha how are you going to talk?' - continues pattern of direct, transparent expression including vulnerable future-oriented thinking without filtering or hesitation",
       "warmth: Frames language barrier concern playfully with laughter 'Hahaha how are you going to talk?' rather than as serious obstacle - maintains maximum warmth by approaching potential relationship challenge with humor and lightness",
       "confidence: Independently introduces hypothetical in-person meeting scenario without hesitation or hedging 'What if we meet one day?' - shows continued confidence to raise future-oriented relationship topics without waiting for partner to initiate",
@@ -1349,7 +1379,9 @@
       "warmth: Maintains affectionate good morning greeting with kiss emoji after bedtime routine - 'Morning 😚' shows consistent emotional warmth even in brief status update. Continues maximum warmth rating through reliable affectionate communication across conversation transitions.",
       "emotional_expressiveness: Initiates morning greeting independently with affectionate emoji after sleep - continues pattern of direct, transparent emotional expression without prompting. Maintains maximum rating for consistent unprompted affection demonstrations.",
       "warmth: Expresses gratitude with smile emoji after receiving romantic goodnight scenario and appreciation for her video content - maintains affectionate tone even in brief response. Continues pattern of emotionally warm communication across all contexts.",
-      "humor_appreciation: Responds with 'Hahaha' to playful sexual misunderstanding about arousal physiology, showing she finds the anatomical mix-up amusing rather than awkward"
+      "humor_appreciation: Responds with 'Hahaha' to playful sexual misunderstanding about arousal physiology, showing she finds the anatomical mix-up amusing rather than awkward",
+      "confidence: Continues pattern of direct, unfiltered sexual communication - openly describes herself as 'horny all the time' without hedging or euphemism, maintaining maximum confidence rating",
+      "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering"
     ]
   },
   "communication_style": {
@@ -1408,8 +1440,8 @@
       "Well",
       "Me ?",
       "I dont get hard like you",
-      "aleays (typo for 'always')",
-      "You are aleays like This ?"
+      "sol (autocorrect for 'so')",
+      "thé (autocorrect for 'the')"
     ]
   },
   "topic_engagement": {
@@ -1807,17 +1839,12 @@
     "biological_sex_differences_discussion": 8.3,
     "maintaining_humor_during_sexual_misunderstanding": 8.5,
     "anatomical_education_in_relationship": 8.4,
-    "partner_consistency_of_behavior": 8.5,
-    "questioning_partner_patterns": 8.3,
-    "partner_typical_behavior": 8.4,
-    "consistency_inquiry": 8.2
+    "arousal_frequency_discussion": 9.4,
+    "sexual_state_transparency": 9.6,
+    "libido_patterns": 9.3,
+    "clarifying_sexual_characteristics": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "matching_emoji_affection_level_in_greeting",
-      "engagement_boost": 6.1,
-      "evidence": "Laura's kissing emoji 😚 is matched with user's smiling face with hearts 🥰 - both warm affectionate emojis maintain emotional tone consistency in morning exchange"
-    },
     {
       "pattern": "acknowledging_multiple_elements_with_combined_gratitude",
       "engagement_boost": 6.4,
@@ -1912,6 +1939,11 @@
       "pattern": "quick_recovery_from_communication_misstep",
       "engagement_boost": 6.5,
       "evidence": "Single message acknowledges mistake and redirects conversation smoothly without dwelling on error - efficient correction that maintains momentum of flirtatious exchange"
+    },
+    {
+      "pattern": "asking_clarifying_questions_about_sexual_patterns",
+      "engagement_boost": 6.9,
+      "evidence": "Laura's 'I mean horny sol thé time ?' suggests partner may have asked about her arousal frequency, and she's responding with direct clarification - shows comfort discussing sexual patterns openly"
     }
   ],
   "avoid_patterns": [
