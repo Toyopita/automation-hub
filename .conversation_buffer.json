@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I send you tomorrow ",
-    "time": "09:32"
-  },
-  {
-    "role": "laura",
     "text": "Love you bye ",
     "time": "09:32"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Im not good at Japanese sorry ",
     "time": "09:50"
+  },
+  {
+    "role": "you",
+    "text": "We're chatting like this though, so no problem for me haha",
+    "time": "09:52"
   }
 ]
