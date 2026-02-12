@@ -352,5 +352,22 @@
     ],
     "emotional_tone": "casual, friendly, relaxed",
     "unresolved": "Vita's response about whether she's working today or has the day off"
+  },
+  {
+    "id": 20,
+    "timestamp_start": "2026-02-12 10:01",
+    "timestamp_end": "2026-02-12 11:27",
+    "summary": "Morning chat where YOU and Vita discussed her being open to something but waiting for the right timing. YOU mentioned heading to the office for what would likely be a long workday, and Vita wished them well with a supportive sticker.",
+    "topics": [
+      "work",
+      "timing",
+      "daily routine",
+      "support"
+    ],
+    "key_facts_learned": [
+      "Vita is open to something (context unclear) but waiting for the right timing"
+    ],
+    "emotional_tone": "casual, friendly, supportive",
+    "unresolved": null
   }
 ]
