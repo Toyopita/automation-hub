@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:53:11.144430+09:00",
+  "last_updated": "2026-02-12T09:53:25.199032+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -141,7 +141,8 @@
       "apologizes for language limitations",
       "acknowledges Japanese is difficult and feels comfortable admitting limitation to partner",
       "uses laughter to diffuse potentially awkward moments about language barriers",
-      "finds humor in shared language learning struggles with partner"
+      "finds humor in shared language learning struggles with partner",
+      "announces bedtime to partner as part of routine"
     ]
   },
   "personality": {
@@ -202,7 +203,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "You share pictures and vídeos with Someone else ?",
       "You do the same with Someone else?",
       "🥲",
       "The thing you and me do",
@@ -231,7 +231,8 @@
       "sorry",
       "Hahahha (extended laughter)",
       "Shit (standalone exclamation)",
-      "I know"
+      "I know",
+      "Well"
     ]
   },
   "topic_engagement": {
@@ -594,7 +595,9 @@
     "partner_reframing_obstacles_positively": 9.2,
     "admitting_skill_gaps": 9.1,
     "apologizing_for_limitations": 8.8,
-    "shared_incompetence_humor": 8.6
+    "shared_incompetence_humor": 8.6,
+    "bedtime_announcements_routine": 8.0,
+    "maintaining_connection_through_status_updates": 8.2
   },
   "effective_patterns": [
     {
