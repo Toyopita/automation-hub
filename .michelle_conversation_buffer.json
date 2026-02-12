@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "actually ramen with rice is really my go-to, especially when I'm tired 😂",
-    "time": "2026-02-12 11:27"
-  },
-  {
     "role": "you",
     "text": "haha ramen and rice together, that's a solid combo honestly. do you go for instant ramen or the real stuff from a shop?",
     "time": "2026-02-12 11:44"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha wow so you cooked for your grandma then went home and cooked again for your parents? you're basically a full-time chef at this point",
     "time": "2026-02-12 19:10"
+  },
+  {
+    "role": "michelle",
+    "text": "oh when I went to the beach last time haha, i had many pics in the beach these past few months while wearing a differents bikinis. maybe i'll send you later since it's on my other phone hahaha ",
+    "time": "2026-02-12 19:15"
   }
 ]
