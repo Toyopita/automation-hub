@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T16:02:02.904432+09:00",
+  "last_updated": "2026-02-12T16:53:42.974278+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -395,6 +395,45 @@
           "clarification"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "manages finance, cooking, and serving at her restaurant - essentially running the entire operation",
+        "tags": [
+          "management",
+          "multitasking",
+          "operations",
+          "finance",
+          "cooking",
+          "serving",
+          "responsibilities",
+          "restaurant management",
+          "entrepreneurship",
+          "business operations",
+          "work",
+          "job",
+          "career",
+          "leadership",
+          "independence"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "shows concern for your wellbeing and work-life balance by asking when you'll be home",
+        "tags": [
+          "caring",
+          "concern",
+          "wellbeing",
+          "work-life balance",
+          "checking in",
+          "interest",
+          "attentiveness",
+          "thoughtfulness",
+          "relationship building",
+          "empathy",
+          "support",
+          "emotional awareness"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -403,11 +442,9 @@
     "emotional_expressiveness": 8,
     "humor_appreciation": 5,
     "adventurousness": 5,
-    "confidence": 7,
+    "confidence": 8,
     "warmth": 8,
     "observations": [
-      "confidence: expressed fear about negative reaction to nationality, showing insecurity about acceptance",
-      "warmth: laughed off her worry and continued engaging positively after reassurance",
       "confidence: apologized profusely and excessively for something completely outside her control, showing low self-confidence and carrying unwarranted shame - 'from the bottom of my heart I apologize' and 'I also feel sad and ashamed about that🙏'",
       "emotional_expressiveness: expressed deep emotions openly - sadness, shame, and apologetic feelings about national news, showing willingness to be vulnerable",
       "confidence: still showing residual anxiety ('I'm just afraid if you get angry') but continuing conversation and asking new questions shows slight improvement from previous 3",
@@ -425,7 +462,9 @@
       "confidence: proactively sent menu photos as promised without hesitation or apology, showing increased comfort and follow-through - progression from previous anxiety about acceptance",
       "warmth: continues pattern of wanting to share her world with you through menu photos, laughing warmly with 'ahahaha' before sending images",
       "warmth: uses affectionate repeated stickers after correcting misconception about restaurant being fancy, showing she's comfortable being playful even when clarifying",
-      "confidence: comfortably corrects user's assumption about restaurant being fancy without apologizing or hedging, showing healthy confidence in stating reality"
+      "confidence: comfortably corrects user's assumption about restaurant being fancy without apologizing or hedging, showing healthy confidence in stating reality",
+      "warmth: continues to show care by asking about your work day and when you're getting home - 'Have you come home from work?' shows she's thinking about your schedule and wellbeing",
+      "confidence: confidently shares full scope of her responsibilities without downplaying or apologizing - significant progression from earlier anxiety about acceptance (was 7, now 8)"
     ]
   },
   "communication_style": {
@@ -440,8 +479,8 @@
       "[sticker pkg:1, id:10]"
     ],
     "formality_level": "casual",
-    "humor_style": "playful anticipation with extended laughter 'ahahaha'",
-    "response_speed_tendency": "sends multiple messages in quick succession to complete a thought (3 messages rapidly: dish names, clarification, then stickers)",
+    "humor_style": "uses affectionate stickers to express playful warmth rather than verbal humor",
+    "response_speed_tendency": "responds quickly in rapid succession when sharing information about herself, then follows up with caring questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -494,24 +533,14 @@
     "restaurant_details": 9.0,
     "menu_specifics": 9.0,
     "correcting_misconceptions": 8.5,
-    "job_role_inquiry": 8.5
+    "job_role_inquiry": 8.5,
+    "work_responsibilities": 9.0,
+    "management_role": 8.5,
+    "your_work_schedule": 8.5,
+    "your_wellbeing": 9.0,
+    "checking_on_you": 8.5
   },
   "effective_patterns": [
-    {
-      "pattern": "thanking_for_thoughtfulness",
-      "engagement_boost": 1.6,
-      "evidence": "acknowledging 'that's nice of you' when she offers to listen validates her emotional offering"
-    },
-    {
-      "pattern": "asking_about_relationship_status",
-      "engagement_boost": 1.8,
-      "evidence": "asking 'how come, you don't want one or just haven't met the right person?' shows genuine interest and she opened up about being single"
-    },
-    {
-      "pattern": "follow_up_questions_about_personal_choices",
-      "engagement_boost": 1.7,
-      "evidence": "not just accepting 'no boyfriend' but asking why shows deeper curiosity about her life decisions"
-    },
     {
       "pattern": "follow_up_clarifying_questions",
       "engagement_boost": 1.7,
@@ -596,6 +625,21 @@
       "pattern": "complimenting_despite_correction",
       "engagement_boost": 1.8,
       "evidence": "maintaining positive stance 'looks really good though' even after she clarified it's simple not fancy creates supportive atmosphere"
+    },
+    {
+      "pattern": "acknowledging_her_capabilities_with_humor",
+      "engagement_boost": 1.9,
+      "evidence": "your 'oh wow you basically run the whole place haha, that's impressive' recognition of her skills prompted her to continue engaging and ask caring question about your schedule"
+    },
+    {
+      "pattern": "complimenting_with_observation",
+      "engagement_boost": 1.8,
+      "evidence": "noting 'that's impressive' validates her hard work and multitasking abilities, making her feel appreciated"
+    },
+    {
+      "pattern": "sharing_detailed_work_status",
+      "engagement_boost": 1.7,
+      "evidence": "providing specific timeline 'probably another hour or so' gives her concrete information about your day and shows transparency"
     }
   ],
   "avoid_patterns": [],
@@ -606,5 +650,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 2
+  "_exchange_count_since_consolidation": 3
 }
