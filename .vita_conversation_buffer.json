@@ -1,15 +1,5 @@
 [
   {
-    "role": "vita",
-    "text": "ahaha thanks, I'm just afraid if you get angry",
-    "time": "2026-02-11 22:50"
-  },
-  {
-    "role": "vita",
-    "text": "Are you someone who likes taking photos?",
-    "time": "2026-02-11 22:51"
-  },
-  {
     "role": "you",
     "text": "nah don't worry about it haha, i'm not the angry type\n\nphotos? hmm yeah i take them sometimes, mostly just random stuff on my phone though. like if i see something interesting or the sky looks nice lol. not like serious photography or anything. why, are you into photography?",
     "time": "2026-02-11 22:56"
@@ -148,5 +138,15 @@
     "role": "vita",
     "text": "ahahaha okay, i'll let you know later",
     "time": "2026-02-12 11:57"
+  },
+  {
+    "role": "vita",
+    "text": "[image]",
+    "time": "2026-02-12 12:58"
+  },
+  {
+    "role": "vita",
+    "text": "[image]",
+    "time": "2026-02-12 12:58"
   }
 ]
