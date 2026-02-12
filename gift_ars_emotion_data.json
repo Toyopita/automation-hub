@@ -79,6 +79,37 @@
         "playfulness": 1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-12T12:42:42.063723+09:00",
+      "summary": "I'm live in Bangkok. | Thailand is in a very bad situation right now. Cor | Which city are you in?",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "真面目な話題を共有しつつ、相手に質問を返す関心を示している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 5,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -2,
+        "intimacy": 1,
+        "longing": 0,
+        "playfulness": -3,
+        "engagement": 1
+      }
     }
   ]
 }
