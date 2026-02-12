@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:07:52.296891+09:00",
+  "last_updated": "2026-02-12T09:08:14.655277+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -87,7 +87,9 @@
       "asks about whether partner shares intimate content with others (possessive/exclusive interest in intimate content sharing)",
       "uses French spelling 'vídeos' with accent (confirms French language influence pattern)",
       "sensitive about exclusivity of intimate content sharing with partner",
-      "asks clarifying questions when feeling uncertain about relationship boundaries"
+      "asks clarifying questions when feeling uncertain about relationship boundaries",
+      "concerned about exclusivity of intimate content sharing with partner",
+      "seeks reassurance about relationship exclusivity after intimate exchanges"
     ]
   },
   "personality": {
@@ -98,8 +100,6 @@
     "confidence": 10,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
-      "emotional_expressiveness: Explains vulnerable boundary signal 'Stop 🥺' by revealing deeper frustration 'Because you are not here' - shows comfort connecting boundary expression to underlying emotional/physical desire context",
       "confidence: Explicitly states intense sexual desire with specific position preference 'I really really want to sit on your Dick 🥵' - continues pattern of direct sexual expression and communicating specific sexual wants",
       "warmth: Uses 'really really' emphasis to express depth of desire for partner - maintains affectionate intensity even during explicit sexual frustration",
       "emotional_expressiveness: Uses elongated text 'Babyyyyy' and multiple crying emojis '😭😭😭😭' to express intense emotional/physical frustration - shows continued pattern of direct, unfiltered emotional expression even during sexually charged moments",
@@ -117,12 +117,14 @@
       "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask about exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
       "confidence: Directly questions partner about exclusive intimate content sharing after sending videos - 'You do the same with Someone else?' shows confidence to ask potentially vulnerable question about relationship boundaries and exclusivity of intimate sharing",
-      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic"
+      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
+      "emotional_expressiveness: Directly asks vulnerable question about exclusivity after intimate content sharing using multiple messages to clarify concern - 'You share pictures and vídeos with Someone else ? The thing you and me do You do the same with Someone else?' - maintains pattern of direct emotional communication even when asking potentially vulnerable question",
+      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after sending videos - shows confidence to seek clarity about relationship boundaries despite vulnerability of question"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief to moderate (5-15 words per message)",
-    "emoji_frequency": "high during explicit sexual content (1 per sexually explicit message)",
+    "avg_message_length": "brief clarifying messages (5-10 words when seeking reassurance)",
+    "emoji_frequency": "selective (uses single emoji at end when expressing vulnerability or concern)",
     "preferred_emojis": [
       "🥺",
       "🙄",
@@ -142,13 +144,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with laughing emphasis",
-    "response_speed_tendency": "maintains rapid engagement during sexually charged conversations followed by casual affirmation",
+    "response_speed_tendency": "multiple rapid clarifying messages when seeking reassurance about important relationship boundary",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Of course",
       "yes of course",
       "Do you like anime ?",
       "I went to the gym after",
@@ -177,7 +178,8 @@
       "Haha yea okay",
       "You share pictures and vídeos with Someone else ?",
       "You do the same with Someone else?",
-      "🥲"
+      "🥲",
+      "The thing you and me do"
     ]
   },
   "topic_engagement": {
@@ -405,19 +407,10 @@
     "relationship_boundaries_around_content": 8.9,
     "possessiveness_about_intimate_sharing": 8.7,
     "clarifying_exclusivity": 9.0,
-    "asking_about_partner_content_sharing_with_others": 9.2
+    "asking_about_partner_content_sharing_with_others": 9.2,
+    "receiving_reassurance_about_exclusivity": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_her_to_lead_sexual_scenarios",
-      "engagement_boost": 5.3,
-      "evidence": "Laura transitions from expressing emotional frustration about distance directly into initiating explicit sexual scenario with specific sequence details - suggests user's responses (not captured) allowed her to process frustration and redirect into sexual expression on her own terms"
-    },
-    {
-      "pattern": "maintaining_engagement_through_distance_frustration",
-      "engagement_boost": 5.0,
-      "evidence": "After expressing intense frustration with multiple crying emojis, Laura immediately re-engages with teasing question and detailed sexual scenario - suggests user's handling of her emotional distress kept sexual atmosphere alive"
-    },
     {
       "pattern": "validated_communication_style_enabling_her_initiative",
       "engagement_boost": 5.1,
@@ -507,6 +500,16 @@
       "pattern": "calm_clarifying_response_to_possessive_questions",
       "engagement_boost": 4.2,
       "evidence": "User responds to potentially loaded question 'You share pictures and vídeos with Someone else ?' with calm clarifying question 'Someone else? What pictures are you talking about? 🙂' - non-defensive approach that seeks to understand her concern rather than immediately reassuring or getting defensive maintains open communication"
+    },
+    {
+      "pattern": "immediate_reassurance_before_exploring_concern",
+      "engagement_boost": 4.5,
+      "evidence": "User leads with direct answer 'I'm not doing that with anyone else haha' before asking 'What's making you feel that way?' - prioritizes her emotional reassurance while showing willingness to understand the root concern"
+    },
+    {
+      "pattern": "light_tone_with_serious_reassurance",
+      "engagement_boost": 4.3,
+      "evidence": "User adds 'haha' to reassurance 'I'm not doing that with anyone else haha' - maintains lighthearted tone while addressing serious concern, preventing conversation from becoming overly heavy or defensive"
     }
   ],
   "avoid_patterns": [
