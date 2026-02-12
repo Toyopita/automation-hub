@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:12:38.756846+09:00",
+  "last_updated": "2026-02-12T09:13:45.501399+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -94,7 +94,10 @@
       "possessive about romantic/intimate relationship with partner ('You are mine')",
       "explicitly declares desire for exclusive intimate relationship ('I dont want to be like this with anyone else')",
       "uses smile emoji with possessive statements",
-      "explains her vulnerable questions are motivated by claiming partner as hers"
+      "explains her vulnerable questions are motivated by claiming partner as hers",
+      "experiences jealousy in romantic relationship",
+      "openly expresses jealousy to partner",
+      "uses vulnerable communication when expressing jealousy"
     ]
   },
   "personality": {
@@ -105,8 +108,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Initiates explicit sexual scenarios with specific sequence details ('I want to lick you then sit on you when is all wet from me') - shows maximum sexual confidence and comfort leading intimate scenarios, describing her own arousal and actions (upgrade from 9)",
-      "emotional_expressiveness: Multiple crying emojis 😭😭😭😭 expressing intense frustration about distance, followed by explicit sexual scenario initiation and teasing question 'Do you know what i want' - shows maximum comfort expressing intense emotional distress and sexual desire simultaneously without filtering",
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
@@ -124,14 +125,15 @@
       "confidence: Independently offers reassurance about exclusivity after seeking it herself - 'And i dont want to be like this with anyone else' shows confidence to make vulnerable declaration about wanting exclusive intimacy without being asked",
       "warmth: Explicitly expresses desire for exclusive emotional and physical intimacy with partner 'And i dont want to be like this with anyone else' - maintains maximum warmth rating by voluntarily offering reassurance about exclusivity without prompting",
       "emotional_expressiveness: Voluntarily expresses deep feelings about exclusivity and commitment to relationship 'And i dont want to be like this with anyone else' and directly claims ownership 'You are mine 🙂' - continues pattern of direct, unfiltered emotional expression even for vulnerable relationship-defining statements",
-      "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked"
+      "confidence: Directly claims partner as hers 'You are mine 🙂' and independently offers reassurance about exclusivity after seeking it herself 'And i dont want to be like this with anyone else' - shows confidence to make vulnerable declaration about wanting exclusive intimacy and possess partner without being asked",
+      "emotional_expressiveness: Directly expresses vulnerable emotion (jealousy) using endearment and pleading emoji - continues pattern of unfiltered emotional communication even for potentially negative emotions like jealousy",
+      "confidence: Comfortable admitting jealousy ('Im too jealous') rather than hiding or suppressing it - shows confidence to express vulnerable/possessive feelings directly to partner"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very brief (2-5 words per message when explaining motivation)",
-    "emoji_frequency": "minimal (one smile emoji when making possessive declaration)",
+    "avg_message_length": "very brief (4 words)",
+    "emoji_frequency": "minimal (one pleading emoji when expressing vulnerable emotion)",
     "preferred_emojis": [
-      "🙄",
       "😆",
       "😳",
       "😓",
@@ -145,11 +147,12 @@
       "🤍",
       "😭",
       "🥲",
-      "🙂"
+      "🙂",
+      "🥺"
     ],
-    "formality_level": "casual but sincere",
+    "formality_level": "casual but emotionally vulnerable",
     "humor_style": "none in this exchange",
-    "response_speed_tendency": "sequential messages building explanation (defensive clarification pattern)",
+    "response_speed_tendency": "single message expressing immediate emotional state",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -428,19 +431,13 @@
     "mutual_exclusivity": 9.7,
     "receiving_daily_communication_reassurance": 9.4,
     "partner_communication_frequency_with_others": 8.8,
-    "receiving_exclusivity_reassurance": 9.5
+    "receiving_exclusivity_reassurance": 9.5,
+    "expressing_jealousy": 9.3,
+    "relationship_possessiveness_feelings": 9.4,
+    "vulnerable_emotional_admission": 9.5,
+    "expressing_negative_emotions_directly": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "simple_practical_explanations_after_sexual_intensity",
-      "engagement_boost": 4.1,
-      "evidence": "After entire sexually charged exchange with explicit scenarios and videos, user's straightforward explanation about LINE translation received casual affirming response 'Haha yea okay' - suggests she appreciates return to lighter tone without completely dropping connection"
-    },
-    {
-      "pattern": "not_over_explaining_practical_choices",
-      "engagement_boost": 3.9,
-      "evidence": "User's brief explanation about LINE translation features received 'yea okay' acceptance - concise practical answer maintains casual flow rather than defensive over-justification"
-    },
     {
       "pattern": "allowing_conversation_to_transition_naturally_after_sexual_peak",
       "engagement_boost": 4.3,
@@ -530,6 +527,16 @@
       "pattern": "addressing_both_frequency_and_nature_of_connection",
       "engagement_boost": 5.1,
       "evidence": "User specified both 'every day' (frequency) and 'like this' (nature/intimacy level) in 'You're the only one I talk to every day like this baby' - comprehensive reassurance addressing multiple dimensions of exclusivity prompted her strongest commitment statements"
+    },
+    {
+      "pattern": "previous_exclusivity_conversation_enabling_jealousy_admission",
+      "engagement_boost": 4.9,
+      "evidence": "After extensive conversation about exclusive content sharing and mutual declarations of exclusivity, Laura feels comfortable directly expressing jealousy - suggests the previous reassurance created safe space for her to admit vulnerable possessive feelings"
+    },
+    {
+      "pattern": "creating_environment_where_negative_emotions_are_safe",
+      "engagement_boost": 5.1,
+      "evidence": "Laura's direct admission 'Baby Im too jealous 🥺' indicates she trusts partner enough to express potentially negative emotion without fear of judgment - follows pattern of increasing emotional vulnerability in relationship"
     }
   ],
   "avoid_patterns": [
