@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T18:25:02.177868+09:00",
+  "last_updated": "2026-02-12T18:30:14.704185+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1380,8 +1380,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "The thing you and me do",
-      "Im just asking",
       "And i dont want to be like this with anyone else",
       "You are mine",
       "I want you all for me",
@@ -1409,7 +1407,9 @@
       "I know",
       "Well",
       "Me ?",
-      "I dont get hard like you"
+      "I dont get hard like you",
+      "aleays (typo for 'always')",
+      "You are aleays like This ?"
     ]
   },
   "topic_engagement": {
@@ -1806,7 +1806,11 @@
     "playful_correction_of_anatomical_assumptions": 8.7,
     "biological_sex_differences_discussion": 8.3,
     "maintaining_humor_during_sexual_misunderstanding": 8.5,
-    "anatomical_education_in_relationship": 8.4
+    "anatomical_education_in_relationship": 8.4,
+    "partner_consistency_of_behavior": 8.5,
+    "questioning_partner_patterns": 8.3,
+    "partner_typical_behavior": 8.4,
+    "consistency_inquiry": 8.2
   },
   "effective_patterns": [
     {
