@@ -978,6 +978,37 @@
         "playfulness": 1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T16:24:49.618347+09:00",
+      "summary": "yea yea, i'm on my way home now i'm only at work f",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく軽快なトーン。早く帰れることを楽しんでいる様子",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 2,
+        "playfulness": 0,
+        "engagement": 1
+      }
     }
   ]
 }
