@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T16:03:37.466477+09:00",
+  "last_updated": "2026-02-12T16:07:18.317819+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1314,8 +1314,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Independently shares morning communication habit without prompting - continues pattern of direct, transparent sharing about how she structures her day around partner connection",
-      "emotional_expressiveness: Independently initiates love declaration 'Love you bye' during goodbye - continues pattern of direct, unprompted emotional expression without prompting or reciprocation requirement. Maintains maximum rating.",
       "warmth: Unprompted 'Love you bye' during routine goodbye after exhausting exchange - maintains maximum warmth by expressing deep affection even when tired and ending conversation. Continues pattern of voluntary emotional expression.",
       "confidence: Makes specific commitment 'I send you tomorrow' without hedging or apologizing for timing constraint - shows confidence to both set boundary (not tonight) and independently offer future fulfillment without defensiveness",
       "confidence: Proactively asks clarifying question about comprehension 'If i send Audios you dont understand anything?' before sending audio content - shows confidence to verify understanding without assuming or hesitating to ask practical logistics question. Maintains maximum confidence rating for direct, unfiltered communication.",
@@ -1333,7 +1331,9 @@
       "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges.",
       "warmth: Accepts partner's romantic bedtime scenario with grace despite being tired - no evidence of decreased warmth. Continues pattern of maintaining connection before sleep transition.",
       "emotional_expressiveness: Continues pattern of direct, transparent emotional communication - acknowledges partner's video with gratitude and announces bedtime without filtering or hedging",
-      "confidence: Confidently announces bedtime transition 'Well im going to sleep now' without apologizing or over-explaining - maintains maximum confidence rating for direct, unfiltered communication even during vulnerable tired state"
+      "confidence: Confidently announces bedtime transition 'Well im going to sleep now' without apologizing or over-explaining - maintains maximum confidence rating for direct, unfiltered communication even during vulnerable tired state",
+      "warmth: Maintains affectionate good morning greeting with kiss emoji after bedtime routine - 'Morning 😚' shows consistent emotional warmth even in brief status update. Continues maximum warmth rating through reliable affectionate communication across conversation transitions.",
+      "emotional_expressiveness: Initiates morning greeting independently with affectionate emoji after sleep - continues pattern of direct, transparent emotional expression without prompting. Maintains maximum rating for consistent unprompted affection demonstrations."
     ]
   },
   "communication_style": {
@@ -1358,7 +1358,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "self-deprecating about language abilities, finds humor in relationship obstacles and mutual incompetence, uses extended laughter and emojis to emphasize amusement",
-    "response_speed_tendency": "rapid multiple-message bursts when frustrated or amused (4 messages before partner response), slows down after emotional release, signals transition moments clearly",
+    "response_speed_tendency": "rapid response to good morning messages (immediate engagement with morning greetings from partner)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1767,29 +1767,14 @@
     "receiving_gratitude_for_video_content": 9.5,
     "partner_appreciation_of_her_content": 9.6,
     "bedtime_transition_communication": 8.2,
-    "receiving_romantic_goodnight_scenarios": 9.4
+    "receiving_romantic_goodnight_scenarios": 9.4,
+    "morning_greetings_received": 9.4,
+    "sleep_quality_questions": 8.8,
+    "being_asked_how_she_slept": 8.6,
+    "partner_morning_check_ins": 9.2,
+    "receiving_affectionate_morning_greetings": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "using_endearment_with_disappointing_answer",
-      "engagement_boost": 5.9,
-      "evidence": "'I really can't baby 🥲' includes 'baby' endearment even when delivering answer that confirms language barrier - maintains warmth and affection while being honest about limitation"
-    },
-    {
-      "pattern": "apologizing_with_vulnerable_emoji_after_delayed_response",
-      "engagement_boost": 6.3,
-      "evidence": "After Laura's visible frustration sequence ('Shit', 'Nothing ?', clarifying question, laughter, repeated 'Shit'), user's 'I'm sorry baby 🥺' with pleading emoji acknowledges the delay and shows remorse - validates her impatience without making excuses"
-    },
-    {
-      "pattern": "using_endearment_with_apology",
-      "engagement_boost": 6.1,
-      "evidence": "'I'm sorry baby 🥺' includes affectionate term with apology - maintains warmth and connection while acknowledging mistake of leaving her waiting"
-    },
-    {
-      "pattern": "matching_vulnerable_emoji_tone_when_apologizing",
-      "engagement_boost": 5.9,
-      "evidence": "User's 🥺 emoji shows genuine remorse and vulnerability about delayed response - mirrors emotional tone Laura has used for vulnerable requests throughout relationship"
-    },
     {
       "pattern": "simple_direct_apology_without_over_explaining",
       "engagement_boost": 6.0,
@@ -1869,6 +1854,26 @@
       "pattern": "using_hypothetical_framing_for_romantic_scenarios",
       "engagement_boost": 6.2,
       "evidence": "'Sleep like we're sleeping together' and 'I'd gently stroke' use conditional/hypothetical language - creates romantic imagination space without pressure, acknowledging current distance reality"
+    },
+    {
+      "pattern": "reciprocating_morning_greeting_with_affection_and_care_question",
+      "engagement_boost": 6.4,
+      "evidence": "Laura's 'Morning 😚' is met with 'Good morning baby 🥰 Did you sleep well?' - matching her abbreviated greeting with expanded affectionate version plus care question about her sleep shows investment in her wellbeing and maintains morning communication priority she established"
+    },
+    {
+      "pattern": "using_baby_endearment_in_morning_greeting",
+      "engagement_boost": 6.2,
+      "evidence": "'Good morning baby 🥰' maintains established endearment pattern in morning context - consistent use of affectionate term across all conversation contexts (sexual, romantic, casual) reinforces relationship warmth"
+    },
+    {
+      "pattern": "asking_about_sleep_quality_after_late_night_conversation",
+      "engagement_boost": 6.3,
+      "evidence": "'Did you sleep well?' follows evening where Laura was tired and went to sleep late (after 1am) - shows attentiveness to her previous state and genuine care about whether she got adequate rest"
+    },
+    {
+      "pattern": "matching_emoji_affection_level_in_greeting",
+      "engagement_boost": 6.1,
+      "evidence": "Laura's kissing emoji 😚 is matched with user's smiling face with hearts 🥰 - both warm affectionate emojis maintain emotional tone consistency in morning exchange"
     }
   ],
   "avoid_patterns": [
