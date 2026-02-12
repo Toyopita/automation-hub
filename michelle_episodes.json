@@ -482,5 +482,23 @@
     ],
     "emotional_tone": "lighthearted, casual, relatable",
     "unresolved": null
+  },
+  {
+    "id": 25,
+    "timestamp_start": "2026-02-12 11:13",
+    "timestamp_end": "2026-02-12 11:53",
+    "summary": "Casual conversation about food preferences. Michelle shared that ramen with rice is her go-to meal when tired, and mentioned she prefers getting real ramen from shops over instant, though she does both. She then asked what time YOU usually go for lunch.",
+    "topics": [
+      "food",
+      "ramen",
+      "daily habits",
+      "lunch timing"
+    ],
+    "key_facts_learned": [
+      "Michelle's go-to comfort food is ramen with rice, especially when tired",
+      "She prefers real ramen from shops but also eats instant ramen sometimes"
+    ],
+    "emotional_tone": "Relaxed, friendly, casual banter",
+    "unresolved": "Michelle asked about YOUR usual lunch time but didn't receive an answer yet"
   }
 ]
