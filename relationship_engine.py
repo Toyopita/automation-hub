@@ -613,10 +613,12 @@ class StrategyEngine:
         # --- Push-Pull balance ---
         pp = self._push_pull_analysis(conversation_history)
 
-        # --- Strategic silence checks ---
-        if self._should_stay_silent(pp, budget, emotion, conversation_history, stage):
+        # --- Strategic silence checks (context-aware) ---
+        silence_reason = self._should_stay_silent(
+            pp, budget, emotion, conversation_history, stage, reply_decision)
+        if silence_reason:
             decision.should_respond = False
-            decision.tone_directive = "silent"
+            decision.tone_directive = f"silent: {silence_reason}"
             return decision
 
         # --- Topic suggestion ---
