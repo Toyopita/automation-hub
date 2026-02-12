@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T18:45:55.002912+09:00",
+  "last_updated": "2026-02-12T18:59:28.826547+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -24,7 +24,9 @@
     ],
     "favorites": {
       "food": [
-        "Eats lunch at the mall during work break instead of bringing food"
+        "Eats lunch at the mall during work break instead of bringing food",
+        "Cooks adobo for grandmother despite rarely eating it herself - only eats adobo on special occasions",
+        "Adobo is reserved for special occasions in her eating habits - not a regular meal for her"
       ],
       "music": [],
       "movies": [],
@@ -1029,6 +1031,41 @@
           "speaking_pattern"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Cooks foods she personally dislikes for her grandmother's enjoyment - prioritizes grandmother's preferences over her own",
+        "tags": [
+          "selfless",
+          "sacrifice",
+          "grandmother_priority",
+          "cooking_for_others",
+          "caregiving",
+          "putting_others_first",
+          "family_devotion",
+          "personal_sacrifice",
+          "grandmother_happiness",
+          "love_language",
+          "service",
+          "dedication",
+          "thoughtfulness"
+        ],
+        "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 😆 emoji when revealing she cooks food she doesn't personally enjoy often - humor/lightness about her sacrifice",
+        "tags": [
+          "😆",
+          "humor",
+          "emoji_usage",
+          "lighthearted",
+          "self_awareness",
+          "downplaying_sacrifice",
+          "casual_tone",
+          "playful",
+          "emotional_expression",
+          "communication_style"
+        ],
+        "added": "2026-02-12"
       }
     ]
   },
@@ -1052,7 +1089,8 @@
       "confidence: Increased from 8 to 9 - explicitly states she 'walks away' from red flags without hesitation or second-guessing, showing strong decisiveness and self-trust in her judgment. Uses 'waste of time' framing, indicating she values her time and doesn't tolerate poor treatment.",
       "warmth: Increased from 8 to 9 - actively cares for grandmother by cooking dinner and cleaning house, showing strong family devotion and caregiving behavior beyond just visiting. Takes on practical caretaking responsibilities.",
       "warmth: Maintains warmth score of 9 - 'I love my grandmother, so for me, my tiredness disappears when I see her happy' shows deep emotional warmth and finds joy through making others happy, not just performing tasks. Goes beyond duty to emotional fulfillment through caregiving.",
-      "emotional_expressiveness: Maintains score of 8 - openly shares vulnerable truth that caregiving is 'tiring' before reframing it positively, showing comfort expressing both difficulty and love simultaneously. Uses 'honestly' to signal sincere emotional disclosure."
+      "emotional_expressiveness: Maintains score of 8 - openly shares vulnerable truth that caregiving is 'tiring' before reframing it positively, showing comfort expressing both difficulty and love simultaneously. Uses 'honestly' to signal sincere emotional disclosure.",
+      "warmth: Maintains warmth score of 9 - cooks adobo specifically for grandmother despite personally not enjoying it often, showing she prioritizes grandmother's food preferences over her own comfort. Goes beyond cooking meals grandmother likes to cooking meals she herself doesn't prefer, demonstrating deep selflessness and family devotion."
     ]
   },
   "communication_style": {
@@ -1066,7 +1104,7 @@
       "haha"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 'haha' to soften vulnerable emotional disclosures about family love and caregiving fatigue - humor as emotional buffer for sincere feelings",
+    "humor_style": "Uses 😆 emoji to lighten discussions of personal sacrifice - frames selfless acts casually rather than seeking praise or sympathy",
     "response_speed_tendency": "varied - quick when at beach/leisure, potentially slower when doing family caregiving tasks",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -1083,7 +1121,9 @@
       "mcdo (abbreviation for McDonald's)",
       "honestly (as sincerity marker)",
       "for me (personal framing)",
-      "disappears (emotional transformation language)"
+      "disappears (emotional transformation language)",
+      "rarely",
+      "special occasions"
     ]
   },
   "topic_engagement": {
@@ -1226,35 +1266,19 @@
     "cooking_for_family": 8,
     "housework_cleaning": 7,
     "after_work_activities": 8,
-    "adobo_filipino_cuisine": 7,
+    "adobo_filipino_cuisine": 7.0,
     "cooking_traditional_dishes": 8,
     "grandmother_happiness": 9,
     "emotional_rewards_of_caregiving": 9,
     "love_as_motivation": 9,
     "fatigue_vs_fulfillment": 8,
-    "family_devotion_depth": 9
+    "family_devotion_depth": 9,
+    "personal_food_preferences": 7,
+    "cooking_sacrifice_for_family": 9,
+    "special_occasion_foods": 6,
+    "grandmother_food_preferences": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "casual_cultural_familiarity_without_visiting",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'i've heard about that place actually haha. never been though since we don't have it here' shows cultural awareness of Jollibee while admitting he hasn't experienced it, creating opportunity for her to explain/share her experience - response pending"
-    },
-    {
-      "pattern": "acknowledging_cultural_difference_geography",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'we don't have it here' establishes geographic/cultural difference casually, potentially inviting her to share what makes Jollibee special from Filipino perspective - response pending"
-    },
-    {
-      "pattern": "showing_interest_in_philippine_culture",
-      "engagement_boost": null,
-      "evidence": "Toyo's acknowledgment of hearing about Jollibee demonstrates he's aware of Filipino cultural icons, showing cross-cultural interest - response pending"
-    },
-    {
-      "pattern": "asking_about_taste_differences_casually",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha the gravy and ketchup make that much of a difference?' follows up on her specific mention of condiments with playful curiosity, showing attention to details she shared - response pending but creates opportunity for her to elaborate on taste preferences"
-    },
     {
       "pattern": "showing_genuine_curiosity_about_filipino_culture",
       "engagement_boost": null,
@@ -1334,6 +1358,26 @@
       "pattern": "matching_her_honest_emotional_tone",
       "engagement_boost": null,
       "evidence": "Toyo used 'honestly' to mirror her sincere disclosure style, creating emotional resonance - response pending but establishes matching vulnerability level"
+    },
+    {
+      "pattern": "acknowledging_her_sacrifice_with_admiration",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha wait so you cook it for her but you don't even like eating it yourself? that's dedication' directly names and validates her selfless behavior, showing he noticed the sacrifice - response pending but creates opportunity for her to feel seen/appreciated"
+    },
+    {
+      "pattern": "using_haha_to_keep_tone_warm_not_overly_serious",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 😆 with 'haha' to maintain lighthearted tone about her sacrifice, avoiding making it feel heavy or pitying - response pending"
+    },
+    {
+      "pattern": "pointing_out_contrast_to_highlight_thoughtfulness",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'cook it for her but you don't even like eating it yourself' explicitly contrasts her action with her preference, making her thoughtfulness more visible - response pending but shows he's paying attention to details"
+    },
+    {
+      "pattern": "using_dedication_as_character_compliment",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'that's dedication' frames her behavior as admirable character trait rather than just nice action, elevating the compliment - response pending but validates her character not just behavior"
     }
   ],
   "avoid_patterns": [],
@@ -1344,5 +1388,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 9
+  "_exchange_count_since_consolidation": 10
 }
