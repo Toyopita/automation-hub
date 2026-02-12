@@ -1343,6 +1343,9 @@ AUTHENTICITY RULES (always active):
         # 12. Toyo shared profile
         toyo_profile_text = self._load_toyo_profile()
 
+        # 13. Profile gathering directive
+        profile_gathering = self._profile_gathering_directive(profile, stage)
+
         prompt = self.RESPONSE_TEMPLATE.format(
             display_name=display_name,
             base_persona=base_persona,
@@ -1355,6 +1358,7 @@ AUTHENTICITY RULES (always active):
             escalation_level=f"{strategy.escalation_level:.1f} (0.0=pull back, 1.0=advance)",
             push_pull_status=pp_status,
             strategy_direction=config.get('strategy_direction', ''),
+            profile_gathering=profile_gathering,
             relevant_facts=relevant_facts,
             communication_style_summary=comm_summary,
             effective_patterns=effective,
@@ -1595,6 +1599,98 @@ AUTHENTICITY RULES (always active):
             text = e.get('text', '')
             lines.append(f"[{time_str}] {label}: {text}")
         return "\n".join(lines)
+
+    # --- Profile Gathering Directive ---
+
+    # Priority fields per stage: (field_path, label, example_question)
+    PROFILE_QUESTIONS = {
+        "friends": [
+            ("facts.location", "where she lives",
+             "so where are you based? like which city"),
+            ("facts.occupation", "what she does for work/study",
+             "what do you do btw? like for work or school"),
+            ("facts.hobbies", "her hobbies",
+             "what do you usually do on your days off?"),
+            ("facts.favorites.food", "food she likes",
+             "what's your go-to food when you're hungry haha"),
+            ("facts.favorites.music", "music she likes",
+             "you listen to music much? what kind"),
+            ("facts.age", "her age",
+             "wait how old are you? i feel like i never asked"),
+        ],
+        "close_friends": [
+            ("facts.family", "her family",
+             "you close with your family?"),
+            ("facts.languages", "languages she speaks",
+             "how many languages do you speak btw"),
+            ("facts.schedule.work_schedule", "her daily schedule",
+             "what's your day usually like? like what time you start"),
+            ("facts.favorites.activities", "activities she enjoys",
+             "if you had a free weekend with no plans what would you do"),
+            ("facts.favorites.movies", "movies/shows she watches",
+             "you watching anything good lately?"),
+        ],
+        "flirty": [
+            ("facts.important_dates", "important dates (birthday etc)",
+             "wait when's your birthday? i wanna remember it"),
+            ("facts.schedule.typical_active_hours", "when she's usually free",
+             "when are you usually free to talk? i wanna catch you at a good time"),
+        ],
+        "romantic": [],
+        "intimate": [],
+    }
+
+    # Stage hierarchy for accumulating questions
+    STAGE_ORDER = ["friends", "close_friends", "flirty", "romantic", "intimate"]
+
+    def _profile_gathering_directive(self, profile: dict, stage: str) -> str:
+        """Check profile for missing fields and suggest a natural question."""
+        facts = profile.get('facts', {})
+
+        # Collect all applicable questions up to current stage
+        stage_idx = self.STAGE_ORDER.index(stage) if stage in self.STAGE_ORDER else 0
+        candidates = []
+        for s in self.STAGE_ORDER[:stage_idx + 1]:
+            candidates.extend(self.PROFILE_QUESTIONS.get(s, []))
+
+        # Filter to only unknown fields
+        missing = []
+        for field_path, label, example_q in candidates:
+            value = self._get_nested(facts, field_path.replace("facts.", ""))
+            if value is None or value == [] or value == "":
+                missing.append((label, example_q))
+
+        if not missing:
+            return "You know a lot about her already. No specific questions needed right now."
+
+        # Pick the first missing one (highest priority)
+        label, example_q = missing[0]
+        remaining = len(missing) - 1
+
+        lines = [
+            f"You don't know {label} yet.",
+            f"When the moment feels right, casually ask something like: \"{example_q}\"",
+            "RULES:",
+            "- Don't force it. Only ask when the conversation flows naturally toward it.",
+            "- ONE question per conversation. Never interrogate.",
+            "- If she's sharing something emotional, listen first. Profile gathering can wait.",
+        ]
+        if remaining > 0:
+            lines.append(f"({remaining} more things to learn later - no rush)")
+
+        return "\n".join(lines)
+
+    @staticmethod
+    def _get_nested(data: dict, path: str):
+        """Get a nested value from dict using dot notation."""
+        keys = path.split(".")
+        current = data
+        for key in keys:
+            if isinstance(current, dict):
+                current = current.get(key)
+            else:
+                return None
+        return current
 
 
 # ============================================================
