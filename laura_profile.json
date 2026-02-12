@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T19:10:13.420170+09:00",
+  "last_updated": "2026-02-12T19:12:00.621698+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1492,7 +1492,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Have a good day my love",
       "Mon (typo for I'm)",
       "sooo",
       "a lot",
@@ -1521,7 +1520,8 @@
       "sol (French autocorrect for 'so')",
       "thé (French autocorrect for 'the')",
       "Just words (skeptical framing)",
-      "Just words"
+      "Just words",
+      "Why hahaha (questioning with laughter)"
     ]
   },
   "topic_engagement": {
@@ -1940,21 +1940,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "playful_correction_of_anatomical_assumptions",
-      "engagement_boost": 6.5,
-      "evidence": "Laura's 'I dont get hard like you' responds to user's 'I bet you're all hard again today' with playful correction about biological differences - maintains sexual banter while clarifying female arousal physiology, showing comfort with both explicit topics and educational correction"
-    },
-    {
-      "pattern": "maintaining_humor_during_sexual_misunderstanding",
-      "engagement_boost": 6.3,
-      "evidence": "Rather than being offended or awkward about anatomical assumption, Laura corrects it matter-of-factly - continues established pattern of using humor and directness to navigate potentially awkward moments in sexual communication"
-    },
-    {
-      "pattern": "acknowledging_and_correcting_anatomical_assumption_with_humor",
-      "engagement_boost": 6.8,
-      "evidence": "User's 'My bad haha I meant my dick is so hard for you 😏' acknowledges the anatomical mix-up Laura pointed out, corrects the statement, and maintains playful sexual tone - this quick recovery after her correction keeps sexual momentum while showing he heard her clarification"
-    },
-    {
       "pattern": "using_casual_language_for_mistake_acknowledgment",
       "engagement_boost": 6.4,
       "evidence": "'My bad haha' uses casual, light phrasing for the mistake rather than over-apologizing or being defensive - matches Laura's playful correction tone and maintains conversational flow"
@@ -2038,6 +2023,21 @@
       "pattern": "brief_response_to_teasing_maintains_balance",
       "engagement_boost": 7.1,
       "evidence": "Single 'Haha 😂' mirrors her own communication style and doesn't over-explain or get into lengthy justifications - shows he understood her playful intent and responds proportionally rather than escalating defensively"
+    },
+    {
+      "pattern": "maintaining_humor_after_being_teased",
+      "engagement_boost": 7.4,
+      "evidence": "Laura's 'Why hahaha' responds to user's 'Haha 😂' with continued laughter and questioning - shows she's amused and curious about why he found her skepticism funny, maintaining the playful dynamic rather than becoming defensive"
+    },
+    {
+      "pattern": "asking_for_explanation_of_partner_reaction",
+      "engagement_boost": 7.2,
+      "evidence": "'Why hahaha' shows Laura wants to understand what about her 'just words' comment made him laugh - demonstrates engagement and curiosity about his perspective rather than just accepting the response"
+    },
+    {
+      "pattern": "using_laughter_while_seeking_clarification",
+      "engagement_boost": 7.3,
+      "evidence": "The 'hahaha' attached to 'Why' keeps the tone light while asking for explanation - she's not interrogating seriously but playfully seeking to understand his reaction to her skepticism"
     }
   ],
   "avoid_patterns": [
