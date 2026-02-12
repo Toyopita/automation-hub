@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Vita",
-  "last_updated": "2026-02-12T10:02:08.441756+09:00",
+  "last_updated": "2026-02-12T10:46:21.085485+09:00",
   "facts": {
     "age": null,
     "location": "Bandung has frequent rainy weather",
@@ -42,7 +42,8 @@
       "values doing things that make you feel good and calm as long as they are positive",
       "believes in divine timing for relationships - waiting for God to bring the right person",
       "open to having a relationship but not actively seeking one",
-      "has a spiritual or religious perspective on relationships"
+      "has a spiritual or religious perspective on relationships",
+      "works today and user is also working today - both have work schedules that sometimes overlap"
     ]
   },
   "personality": {
@@ -66,11 +67,13 @@
       "warmth: offers emotional support unprompted ('I can be a good listener'), expresses caring advice about doing what feels good, and uses affectionate repeated stickers to show warmth",
       "emotional_expressiveness: openly shares relationship status when asked, uses crying emoji to express feeling touched about close friends inclusion, and laughs abundantly with 'ahahaha' and 'ahahahah'",
       "confidence: confidently observes your social media behavior, makes direct observations about never seeing your face, volunteers to be emotional support, and openly discusses relationship status without hesitation - showing continued growth from previous 5",
-      "warmth: continues morning greeting ritual with 'morningg' (double g showing playfulness), maintains engaged and warm communication style"
+      "warmth: continues morning greeting ritual with 'morningg' (double g showing playfulness), maintains engaged and warm communication style",
+      "warmth: continues to show interest in your daily schedule and asks caring questions about whether you're working - 'btw are you working today?' shows she's thinking about your day",
+      "confidence: comfortably asks about your work schedule after philosophical discussion about relationships, showing she can navigate different conversation depths naturally"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short sentence",
+    "avg_message_length": "single short sentence to two short sentences",
     "emoji_frequency": "none in this exchange",
     "preferred_emojis": [
       "😭",
@@ -79,7 +82,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "not displayed in this exchange",
-    "response_speed_tendency": "appears to be engaging in morning greeting ritual, suggests regular contact pattern",
+    "response_speed_tendency": "engaged in back-and-forth conversation flow, showing active participation",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -88,7 +91,8 @@
       "ahaha",
       "yaa",
       "ahahaha",
-      "morningg (playful elongation)"
+      "morningg (playful elongation)",
+      "btw"
     ]
   },
   "topic_engagement": {
@@ -116,24 +120,12 @@
     "relationship_philosophy": 8.5,
     "spirituality_religion": 8.0,
     "divine_timing": 8.0,
-    "morning_greetings": 8.0
+    "morning_greetings": 8.0,
+    "work_schedules": 8.0,
+    "daily_routine_sharing": 8.0,
+    "mutual_schedule_awareness": 8.5
   },
   "effective_patterns": [
-    {
-      "pattern": "showing_knowledge_of_her_country",
-      "engagement_boost": 1.6,
-      "evidence": "mentioning Bandung's weather and food scene shows you know about Indonesia, likely making her feel more comfortable"
-    },
-    {
-      "pattern": "addressing_concerns_with_humor",
-      "engagement_boost": 1.5,
-      "evidence": "your '😂 that's a weird thing to worry about' light-hearted response helped defuse her anxiety while still taking it seriously"
-    },
-    {
-      "pattern": "relieving_unwarranted_guilt",
-      "engagement_boost": 2.0,
-      "evidence": "your 'you don't need to apologize for that stuff 😅' and 'don't carry that weight, it's not yours to carry' directly addressed her excessive apologizing and likely provided emotional relief"
-    },
     {
       "pattern": "explicit_non_judgment",
       "engagement_boost": 1.9,
@@ -218,6 +210,21 @@
       "pattern": "participating_in_greeting_rituals",
       "engagement_boost": 1.5,
       "evidence": "responding to her 'morningg' with 'morning haha' maintains the casual friendly rapport"
+    },
+    {
+      "pattern": "sharing_work_schedule_details",
+      "engagement_boost": 1.6,
+      "evidence": "your detailed response 'yeah heading to the office soon actually. probably gonna be a long day haha' with reciprocal question prompted her continued engagement about daily schedules"
+    },
+    {
+      "pattern": "reciprocal_schedule_questions",
+      "engagement_boost": 1.7,
+      "evidence": "asking 'you working today too or is it your day off?' mirrors her interest in your schedule and invites her to share about her day"
+    },
+    {
+      "pattern": "casual_day_preview",
+      "engagement_boost": 1.5,
+      "evidence": "mentioning 'probably gonna be a long day' gives her insight into your life and creates opportunities for her to respond with sympathy or relate with her own schedule"
     }
   ],
   "avoid_patterns": [],
