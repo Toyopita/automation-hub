@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "oh damn that looks really good haha, what kind of restaurant is it? looks pretty fancy",
-    "time": "2026-02-12 13:57"
-  },
-  {
     "role": "vita",
     "text": "tahu telur and pecel",
     "time": "2026-02-12 15:54"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "hmm honestly i don't really have a set thing, just depends on the mood. sometimes grab food somewhere new, or just walk around and explore random neighborhoods. what about you, besides jogging?",
     "time": "2026-02-12 23:24"
+  },
+  {
+    "role": "vita",
+    "text": "just walking around the area around the house and doing routines like most girls",
+    "time": "2026-02-12 23:26"
   }
 ]
