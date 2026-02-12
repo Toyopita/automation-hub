@@ -489,6 +489,26 @@ class AutoChatBot:
         view = AutoRespondToggleView(self)
         await channel.send(embed=embed, view=view)
 
+    async def notify_incoming_raw(self, text: str):
+        """Immediately forward raw incoming message to Discord (before batch processing)."""
+        try:
+            await self.discord_ready.wait()
+            channel = self.discord_client.get_channel(self.channel_id)
+            if not channel:
+                self.logger.error(f"Discord channel {self.channel_id} not found for raw notify")
+                return
+            now = datetime.now(JST)
+            now_remote = now.astimezone(self.person_tz)
+            time_str = f"{now.strftime('%H:%M')} JST / {now_remote.strftime('%H:%M')} {self.tz_label}"
+            embed = Embed(
+                title=f"💬 {self.display_name} ［{time_str}］",
+                description=f"> {text}",
+                color=0x9b59b6,
+            )
+            await channel.send(embed=embed)
+        except Exception as e:
+            self.logger.error(f"Raw notify failed: {e}")
+
     async def log_incoming(self, messages: list[str], emotion_data: dict = None,
                            strategy_decision=None, translation: str = None):
         now = datetime.now(JST)
