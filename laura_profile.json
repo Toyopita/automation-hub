@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:04:12.515873+09:00",
+  "last_updated": "2026-02-12T09:06:05.445298+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -85,7 +85,9 @@
       "partner uses translation features for smooth communication on LINE",
       "laughs at partner's social media/app usage decisions",
       "asks about whether partner shares intimate content with others (possessive/exclusive interest in intimate content sharing)",
-      "uses French spelling 'vídeos' with accent (confirms French language influence pattern)"
+      "uses French spelling 'vídeos' with accent (confirms French language influence pattern)",
+      "sensitive about exclusivity of intimate content sharing with partner",
+      "asks clarifying questions when feeling uncertain about relationship boundaries"
     ]
   },
   "personality": {
@@ -96,8 +98,6 @@
     "confidence": 10,
     "warmth": 9,
     "observations": [
-      "emotional_expressiveness: Initiates explicit sexual request sequence unprompted: polite setup 'Can you do something for me Please' followed by direct intense desire statement 'I want you to fuck me so hard baby 🥵' - shows comfort escalating from request to explicit sexual expression rapidly",
-      "warmth: Maintains 'baby' endearment even during explicit sexual request 'I want you to fuck me so hard baby 🥵' - keeps affectionate language consistent across all intimacy levels from tender to intensely sexual",
       "confidence: Directly states explicit sexual desire 'I want you to fuck me so hard' without hedging or softening language - initiates intense sexual request rather than only responding to partner's advances, shows increased confidence in expressing sexual needs (upgrade from previous 5)",
       "confidence: Initiates explicit sexual requests 'I want you to fuck me so hard baby 🥵' and takes action on intimate picture sharing by asking logistics 'Where do i send the pictures' - shows increased sexual agency and comfort taking initiative in intimate contexts (upgrade from previous 7)",
       "emotional_expressiveness: Maintains consistent pattern: explicitly verbalizes arousal 'you turn me on 🫣', initiates intense sexual request 'fuck me so hard baby 🥵', follows through on intimate sharing by clarifying logistics - shows sustained comfort with direct emotional and sexual expression across multiple messages",
@@ -115,6 +115,8 @@
       "confidence: Continues initiating explicit sexual scenarios with specific acts unprompted - 'I want to have your Dick between my boobs 🥵' shows sustained maximum sexual confidence and comfort expressing specific desires (maintains upgrade from 9)",
       "emotional_expressiveness: Maintains pattern of direct, explicit sexual expression with hot face emoji 🥵 - continues comfort expressing intense sexual desires without filtering or hesitation",
       "confidence: Directly questions partner about sharing intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask potentially vulnerable question about exclusivity of intimate sharing",
+      "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic",
+      "confidence: Directly asks potentially vulnerable question about whether partner shares intimate content with others after entire sexually charged exchange where she sent videos - shows confidence to ask about exclusivity of intimate sharing",
       "emotional_expressiveness: Openly expresses concern/curiosity about whether partner shares intimate content with others - continues pattern of direct emotional communication even when potentially vulnerable topic"
     ]
   },
@@ -406,11 +408,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "previous_explicit_exchange_enabling_her_sexual_leadership",
-      "engagement_boost": 5.2,
-      "evidence": "After entire conversation of explicit back-and-forth, Laura now initiates detailed sexual scenario with specific sequence (oral then riding) and describes her own arousal state - suggests the sexual atmosphere created enabled her to take full narrative control"
-    },
-    {
       "pattern": "creating_space_for_her_to_lead_sexual_scenarios",
       "engagement_boost": 5.3,
       "evidence": "Laura transitions from expressing emotional frustration about distance directly into initiating explicit sexual scenario with specific sequence details - suggests user's responses (not captured) allowed her to process frustration and redirect into sexual expression on her own terms"
@@ -504,6 +501,11 @@
       "pattern": "previous_intimate_exchange_enabling_relationship_clarification_questions",
       "engagement_boost": 4.6,
       "evidence": "Laura's question about sharing content with others comes after entire conversation of escalating intimacy (pictures, videos, explicit scenarios) - the intimate context appears to have prompted her to seek clarity about boundaries and exclusivity"
+    },
+    {
+      "pattern": "calm_clarifying_response_to_possessive_questions",
+      "engagement_boost": 4.2,
+      "evidence": "User responds to potentially loaded question 'You share pictures and vídeos with Someone else ?' with calm clarifying question 'Someone else? What pictures are you talking about? 🙂' - non-defensive approach that seeks to understand her concern rather than immediately reassuring or getting defensive maintains open communication"
     }
   ],
   "avoid_patterns": [
