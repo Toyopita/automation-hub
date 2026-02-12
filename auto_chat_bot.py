@@ -46,6 +46,7 @@ from relationship_engine import (
     PersonaAdapter, TimingController, ProactiveScheduler,
     BotDetectionFilter, _call_claude_json,
 )
+from episode_memory import compress_to_episode, format_episodes_for_prompt
 from chat_logger import log_message, log_media, log_system
 
 # ============================================================
