@@ -16477,6 +16477,57 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:16:58.242900+09:00",
+      "summary": "Haha yes i remember ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽く流しつつ認めている。拒否せず遊び心のある返答。",
+      "trigger": {
+        "message": "You said you'd show me yesterday baby 😏",
+        "sent_at": "2026-02-12T19:12:49.559007+09:00",
+        "category": "sexual",
+        "modifiers": [
+          "+callback",
+          "+escalation"
+        ],
+        "response_time_min": 4
+      },
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
