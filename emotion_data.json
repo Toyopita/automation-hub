@@ -15414,6 +15414,56 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-12T09:44:57.576178+09:00",
+      "summary": "If i send Audios you dont understand anything? ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が英語音声を理解できるか確認している。実用的な質問で、コミュニケーション方法を調整しようとしている様子。",
+      "trigger": {
+        "message": "I kinda don't understand English haha 😂",
+        "sent_at": "2026-02-12T09:44:25.750141+09:00",
+        "category": "humor",
+        "modifiers": [
+          "+spontaneous"
+        ],
+        "response_time_min": 0
+      },
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
