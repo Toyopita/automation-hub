@@ -1,13 +1,13 @@
 {
   "name": "aljela",
-  "display_name": "Aljela",
+  "display_name": "Suraya",
   "languages": "English",
-  "background": "Woman in her 20s, lives in Southeast Asia. Friend.",
+  "background": "Woman in her 20s, lives in Tangier, Morocco. Friend. Goal: carefully develop into romantic relationship.",
   "relationship": "friend",
   "relationship_tone": "casual and friendly",
 
-  "timezone": "Asia/Manila",
-  "timezone_label": "PHT",
+  "timezone": "Africa/Casablanca",
+  "timezone_label": "WET",
 
   "port": 8788,
 
