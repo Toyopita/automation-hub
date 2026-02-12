@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T16:17:45.495347+09:00",
+  "last_updated": "2026-02-12T18:19:11.678853+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1358,7 +1358,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "self-deprecating about language abilities, finds humor in relationship obstacles and mutual incompetence, uses extended laughter and emojis to emphasize amusement",
-    "response_speed_tendency": "rapid response to good morning messages (immediate engagement with morning greetings from partner)",
+    "response_speed_tendency": "immediate response to good morning messages (responds within moments of waking), maintains fast engagement with affectionate morning greetings",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1773,39 +1773,15 @@
     "being_asked_how_she_slept": 8.6,
     "partner_morning_check_ins": 9.2,
     "receiving_affectionate_morning_greetings": 9.5,
-    "expressing_gratitude_for_partner_care": 9.4
+    "expressing_gratitude_for_partner_care": 9.4,
+    "receiving_playful_sexual_teasing_in_morning": 9.4,
+    "morning_flirtation": 9.3,
+    "receiving_assumptions_about_arousal_state": 9.2,
+    "playful_hard_references": 9.1,
+    "sexual_banter_after_sleep": 9.4,
+    "receiving_confident_sexual_assumptions": 9.3
   },
   "effective_patterns": [
-    {
-      "pattern": "dismissing_her_apology_with_practical_reality_check",
-      "engagement_boost": 6.2,
-      "evidence": "Laura apologized 'Im not good at Japanese sorry' and user responds 'so no problem for me' - redirecting from her insecurity to actual functional reality of their communication validates that the limitation doesn't create real problem"
-    },
-    {
-      "pattern": "matching_her_laughter_tone_when_addressing_limitations",
-      "engagement_boost": 5.9,
-      "evidence": "User's 'haha' at end of reassurance matches Laura's extensive laughter pattern ('Hahahha', '😂😂😂') - maintaining lighthearted tone when discussing language barriers rather than becoming serious keeps the moment from becoming heavy"
-    },
-    {
-      "pattern": "highlighting_communication_success_when_she_feels_inadequate",
-      "engagement_boost": 6.5,
-      "evidence": "'We're chatting like this though' provides concrete evidence that contradicts her negative self-assessment - when she expresses insecurity about language ability, pointing to their active successful communication provides reassuring counterpoint"
-    },
-    {
-      "pattern": "accepting_her_limitation_without_pressure_to_improve",
-      "engagement_boost": 6.1,
-      "evidence": "'no problem for me' accepts her Japanese level as-is without suggesting she should study more or get better - shows her language ability isn't condition for connection, reducing performance pressure"
-    },
-    {
-      "pattern": "expressing_gratitude_for_intimate_content_shared",
-      "engagement_boost": 6.3,
-      "evidence": "User's 'Yeah, thanks for the video baby 🤍' acknowledges the video Laura sent earlier - expressing appreciation for her intimate content sharing validates her initiative and effort"
-    },
-    {
-      "pattern": "using_white_heart_emoji_for_tender_gratitude",
-      "engagement_boost": 5.9,
-      "evidence": "🤍 emoji paired with 'thanks for the video baby' creates soft, pure tone for appreciation - differentiates from sexual red hearts used earlier, matching shift to tender bedtime context"
-    },
     {
       "pattern": "transitioning_from_gratitude_to_romantic_scenario_smoothly",
       "engagement_boost": 6.1,
@@ -1875,6 +1851,36 @@
       "pattern": "ending_intense_day_with_tender_closure",
       "engagement_boost": 6.7,
       "evidence": "After day including explicit sexual exchanges, jealousy discussion, and language barrier navigation, user closes with gentle appreciation and romantic comfort scenario - Laura's grateful response suggests she appreciates the tender landing after emotional intensity"
+    },
+    {
+      "pattern": "continuing_playful_sexual_tone_into_morning_greeting",
+      "engagement_boost": 6.8,
+      "evidence": "After Laura's 'Morning 😚' and sleep confirmation 'Yesss', user's 'I bet you're all hard again today 😏' continues established intimate dynamic into new day - Laura's previous 'Thank you 😊' and engagement with morning greeting suggests she appreciates consistency of flirtation across conversation transitions"
+    },
+    {
+      "pattern": "using_white_heart_for_casual_affection_in_morning",
+      "engagement_boost": 6.2,
+      "evidence": "'Good haha 🤍' uses white heart emoji in morning context similar to previous bedtime usage - creates consistent tender tone marker that differentiates from sexual red hearts while maintaining warmth"
+    },
+    {
+      "pattern": "expressing_satisfaction_about_her_sleep_quality",
+      "engagement_boost": 6.4,
+      "evidence": "'Good haha' responds to Laura confirming good sleep ('Yesss') with expressed satisfaction - shows care about her wellbeing after late night and validates that sleep quality matters to partner"
+    },
+    {
+      "pattern": "confident_sexual_assumption_with_playful_tone",
+      "engagement_boost": 6.6,
+      "evidence": "'I bet you're all hard again today 😏' makes confident assumption about her arousal state with smirking emoji - playful rather than demanding tone maintains sexual connection without pressure, building on her established comfort with explicit sexual communication"
+    },
+    {
+      "pattern": "transitioning_from_care_to_flirtation_smoothly",
+      "engagement_boost": 6.5,
+      "evidence": "User moves from asking about sleep quality to expressing satisfaction about good sleep to sexual teasing in three message sequence - creates natural flow from caretaking to playfulness rather than abrupt tonal shift"
+    },
+    {
+      "pattern": "maintaining_established_sexual_dynamic_into_new_day",
+      "engagement_boost": 6.7,
+      "evidence": "Previous night included explicit sexual exchanges and intimate content sharing; morning greeting includes sexual teasing that continues that established intimacy level - shows consistency of dynamic rather than resetting to formal morning greeting"
     }
   ],
   "avoid_patterns": [
