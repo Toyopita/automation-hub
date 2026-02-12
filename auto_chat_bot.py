@@ -517,18 +517,19 @@ class AutoChatBot:
                 delta_parts = []
                 for k, d in score_deltas.items():
                     if d != 0:
-                        arrow = "+" if d > 0 else ""
-                        delta_parts.append(f"{k}{arrow}{d}")
+                        arrow = "↑" if d > 0 else "↓"
+                        label = DELTA_LABELS_JA.get(k, k)
+                        delta_parts.append(f"{label}{arrow}{abs(d)}")
                 if delta_parts:
-                    fields.append(("Delta", " ".join(delta_parts), False))
+                    fields.append(("📈 変動", " ".join(delta_parts), False))
 
         if translation:
             fields.append(("🇯🇵 日本語訳", translation, False))
 
         await self.log_to_discord(
-            f"📩 {self.display_name} [{time_str}]",
+            f"📩 {self.display_name} ［{time_str}］",
             msg_text,
-            color=0xe91e63,
+            color=0xcc5de8,
             fields=fields
         )
 
