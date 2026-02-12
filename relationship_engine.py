@@ -733,19 +733,25 @@ class StrategyEngine:
         if push_pull['ratio'] > 0.85 and silence_risk != 'high':
             return f"push-pull ratio too high ({push_pull['ratio']:.2f})"
 
-        # === CONTEXT-AWARE DECISION (LLM-driven) ===
+        # === CONTEXT-AWARE DECISION (LLM-driven + pace-aware) ===
 
         # silence_risk="high" → always respond (unanswered question, ignored emotions)
         if silence_risk == 'high':
             return None
 
+        # critical pace: only respond to high silence_risk (handled above)
+        if pace_level == 'critical':
+            return f"critical pace, silence_risk={silence_risk}"
+
         # silence_risk="medium" → respond (daily sharing, casual update — reply expected)
         if silence_risk == 'medium':
             return None
 
-        # silence_risk="low" → stage-dependent
+        # silence_risk="low" → pace-dependent
         if silence_risk == 'low':
-            if stage in ('friends', 'close_friends'):
+            if pace_level in ('busy',):
+                return f"busy pace, low silence_risk ({reasoning})"
+            elif stage in ('friends', 'close_friends'):
                 # Early stages: still respond to build relationship
                 return None
             else:
