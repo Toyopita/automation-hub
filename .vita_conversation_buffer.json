@@ -1,16 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "simple restaurant, not fancy",
-    "time": "2026-02-12 15:55"
-  },
-  {
-    "role": "vita",
-    "text": "[sticker (pkg:1, id:10)]",
-    "time": "2026-02-12 15:55"
-  },
-  {
-    "role": "vita",
     "text": "[sticker (pkg:1, id:10)]",
     "time": "2026-02-12 15:55"
   },
@@ -148,5 +138,15 @@
     "role": "you",
     "text": "haha what kind of routines? now i'm curious what counts as 'most girls' routines",
     "time": "2026-02-12 23:38"
+  },
+  {
+    "role": "vita",
+    "text": "facial and body care",
+    "time": "2026-02-12 23:47"
+  },
+  {
+    "role": "vita",
+    "text": "xixixixi",
+    "time": "2026-02-12 23:47"
   }
 ]
