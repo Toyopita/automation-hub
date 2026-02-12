@@ -132,5 +132,25 @@
     ],
     "emotional_tone": "playful, slightly vulnerable, appreciative",
     "unresolved": null
+  },
+  {
+    "id": 8,
+    "timestamp_start": "2026-02-11 23:26",
+    "timestamp_end": "2026-02-11 23:38",
+    "summary": "Vita commented on how I never post selfies or photos of myself on Instagram, only photos of other things. She offered emotional support, saying she can be a good listener if anything happens, and mentioned that I always include her as a close friend on my stories.",
+    "topics": [
+      "social media habits",
+      "self-image",
+      "friendship",
+      "emotional support"
+    ],
+    "key_facts_learned": [
+      "Vita regularly watches my Instagram stories",
+      "Vita is included in my close friends list on Instagram",
+      "Vita has never seen what I look like",
+      "Vita positions herself as someone I can confide in"
+    ],
+    "emotional_tone": "caring, playful, supportive",
+    "unresolved": "Whether I will share photos of myself or open up about anything that might be bothering me"
   }
 ]
