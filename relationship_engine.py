@@ -612,7 +612,7 @@ class StrategyEngine:
         pp = self._push_pull_analysis(conversation_history)
 
         # --- Strategic silence checks ---
-        if self._should_stay_silent(pp, budget, emotion, conversation_history):
+        if self._should_stay_silent(pp, budget, emotion, conversation_history, stage):
             decision.should_respond = False
             decision.tone_directive = "silent"
             return decision
