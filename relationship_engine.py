@@ -1703,6 +1703,7 @@ class ProactiveScheduler:
         "close_friends": (16, 48),
         "flirty": (12, 36),
         "romantic": (8, 24),
+        "intimate": (6, 20),
     }
 
     INITIATION_PROMPT = """You are impersonating a real person. You want to start a conversation with {display_name}.
