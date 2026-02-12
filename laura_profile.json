@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T09:53:25.199032+09:00",
+  "last_updated": "2026-02-12T09:55:24.290654+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -142,7 +142,9 @@
       "acknowledges Japanese is difficult and feels comfortable admitting limitation to partner",
       "uses laughter to diffuse potentially awkward moments about language barriers",
       "finds humor in shared language learning struggles with partner",
-      "announces bedtime to partner as part of routine"
+      "announces bedtime to partner as part of routine",
+      "maintains emotional warmth even when tired and preparing for bed",
+      "expresses gratitude for video content shared"
     ]
   },
   "personality": {
@@ -153,9 +155,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Continues pattern of directly expressing vulnerable physical/emotional states ('Im tired honey 🥺') without filtering - maintains maximum rating for immediate transparent communication",
-      "warmth: Uses affectionate term 'honey' when expressing vulnerable state of tiredness - maintains emotional warmth even when communicating discomfort or exhaustion",
-      "warmth: Voluntarily shares that partner is first person she talks to when waking up - demonstrates partner holds priority position in her daily routine and emotional life, maintaining maximum warmth rating through unprompted disclosure of intimate daily habit",
       "emotional_expressiveness: Independently shares morning communication habit without prompting - continues pattern of direct, transparent sharing about how she structures her day around partner connection",
       "emotional_expressiveness: Independently initiates love declaration 'Love you bye' during goodbye - continues pattern of direct, unprompted emotional expression without prompting or reciprocation requirement. Maintains maximum rating.",
       "warmth: Unprompted 'Love you bye' during routine goodbye after exhausting exchange - maintains maximum warmth by expressing deep affection even when tired and ending conversation. Continues pattern of voluntary emotional expression.",
@@ -172,11 +171,14 @@
       "confidence: Comfortable admitting limitation ('Im not good at Japanese') without excessive hedging or defensiveness - states fact clearly while apologizing shows confidence to be vulnerable about skill gaps",
       "warmth: Responds to partner's solution with acceptance and laughter rather than defensiveness - 'We're chatting like this though, so no problem for me haha' met with genuine laughter and vulnerable admission about her Japanese ability without guardedness. Maintains maximum warmth through accepting partner's reframing of language barrier.",
       "emotional_expressiveness: Continues pattern of direct vulnerability - unprompted admission 'Im not good at Japanese sorry' expresses insecurity openly. Multiple expressions of emotion (laughter, exclamations, apologizing) in rapid sequence shows unfiltered emotional transparency.",
-      "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges."
+      "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges.",
+      "warmth: Accepts partner's romantic bedtime scenario with grace despite being tired - no evidence of decreased warmth. Continues pattern of maintaining connection before sleep transition.",
+      "emotional_expressiveness: Continues pattern of direct, transparent emotional communication - acknowledges partner's video with gratitude and announces bedtime without filtering or hedging",
+      "confidence: Confidently announces bedtime transition 'Well im going to sleep now' without apologizing or over-explaining - maintains maximum confidence rating for direct, unfiltered communication even during vulnerable tired state"
     ]
   },
   "communication_style": {
-    "avg_message_length": "brief questions or exclamations (3-12 words)",
+    "avg_message_length": "brief statements (3-8 words)",
     "emoji_frequency": "moderate (1-2 emojis in emotional context, can send messages without emojis)",
     "preferred_emojis": [
       "😆",
@@ -195,9 +197,9 @@
       "🙂",
       "🥺"
     ],
-    "formality_level": "casual with mild profanity and abbreviations",
+    "formality_level": "casual",
     "humor_style": "self-deprecating about language abilities, finds humor in relationship obstacles and mutual incompetence, uses extended laughter and emojis to emphasize amusement",
-    "response_speed_tendency": "rapid multiple-message bursts when frustrated or amused (4 messages before partner response), slows down after emotional release",
+    "response_speed_tendency": "rapid multiple-message bursts when frustrated or amused (4 messages before partner response), slows down after emotional release, signals transition moments clearly",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -597,44 +599,18 @@
     "apologizing_for_limitations": 8.8,
     "shared_incompetence_humor": 8.6,
     "bedtime_announcements_routine": 8.0,
-    "maintaining_connection_through_status_updates": 8.2
+    "maintaining_connection_through_status_updates": 8.2,
+    "receiving_romantic_bedtime_scenarios": 9.4,
+    "physical_affection_descriptions": 9.3,
+    "hair_stroking": 9.2,
+    "forehead_kisses": 9.4,
+    "sleeping_together_scenarios": 9.5,
+    "receiving_gratitude_for_video_content": 9.5,
+    "partner_appreciation_of_her_content": 9.6,
+    "bedtime_transition_communication": 8.2,
+    "receiving_romantic_goodnight_scenarios": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "not_dismissing_hypothetical_meeting_scenarios",
-      "engagement_boost": 6.4,
-      "evidence": "Laura introduces 'What if we meet one day?' and user engages seriously with translator solution rather than deflecting or managing expectations - treating her hypothetical as valid possibility rather than fantasy shows commitment to relationship future"
-    },
-    {
-      "pattern": "acknowledging_limitation_while_offering_solution",
-      "engagement_boost": 6.1,
-      "evidence": "User's 'I don't understand, but I think we can use a translator' directly acknowledges language barrier Laura raised while immediately proposing workaround - validates her concern as real while showing problem-solving orientation"
-    },
-    {
-      "pattern": "using_technology_as_bridge_for_relationship_obstacles",
-      "engagement_boost": 5.9,
-      "evidence": "Translator suggestion reframes language barrier from insurmountable obstacle to solvable technical problem - shows willingness to use tools to maintain connection despite practical limitations"
-    },
-    {
-      "pattern": "creating_space_for_repeated_comprehension_verification",
-      "engagement_boost": 6.1,
-      "evidence": "Laura follows up with clarifying question 'I mean you really dont understand anything ?' after initial comprehension check - suggests she feels safe asking for confirmation multiple times to ensure she fully understands partner's Japanese ability limits"
-    },
-    {
-      "pattern": "allowing_her_to_verify_practical_constraints_thoroughly",
-      "engagement_boost": 5.8,
-      "evidence": "Laura's second comprehension verification 'I mean you really dont understand anything ?' shows she feels empowered to ask follow-up questions until satisfied with clarity - conversation environment enables her to be thorough about understanding limitations rather than accepting first answer"
-    },
-    {
-      "pattern": "honest_direct_answer_about_language_limitations",
-      "engagement_boost": 6.0,
-      "evidence": "Laura asked clarifying question 'I mean you really dont understand anything ?' and user gave direct honest answer 'I really can't baby 🥲' - confirming limitation directly while maintaining tender tone (baby + vulnerable emoji) validates her need for clarity without defensive hedging"
-    },
-    {
-      "pattern": "matching_vulnerable_emoji_when_admitting_limitations",
-      "engagement_boost": 5.8,
-      "evidence": "User's 🥲 emoji mirrors emotional tone when admitting inability to understand Japanese - shows vulnerability about limitation rather than treating it as casual fact, maintaining emotional connection despite disappointing answer"
-    },
     {
       "pattern": "using_endearment_with_disappointing_answer",
       "engagement_boost": 5.9,
@@ -699,6 +675,41 @@
       "pattern": "accepting_her_limitation_without_pressure_to_improve",
       "engagement_boost": 6.1,
       "evidence": "'no problem for me' accepts her Japanese level as-is without suggesting she should study more or get better - shows her language ability isn't condition for connection, reducing performance pressure"
+    },
+    {
+      "pattern": "expressing_gratitude_for_intimate_content_shared",
+      "engagement_boost": 6.3,
+      "evidence": "User's 'Yeah, thanks for the video baby 🤍' acknowledges the video Laura sent earlier - expressing appreciation for her intimate content sharing validates her initiative and effort"
+    },
+    {
+      "pattern": "using_white_heart_emoji_for_tender_gratitude",
+      "engagement_boost": 5.9,
+      "evidence": "🤍 emoji paired with 'thanks for the video baby' creates soft, pure tone for appreciation - differentiates from sexual red hearts used earlier, matching shift to tender bedtime context"
+    },
+    {
+      "pattern": "transitioning_from_gratitude_to_romantic_scenario_smoothly",
+      "engagement_boost": 6.1,
+      "evidence": "User moves from thanking for video to 'Sleep like we're sleeping together' - connects appreciation for her content to romantic future scenario without awkward topic jump"
+    },
+    {
+      "pattern": "creating_specific_tender_physical_affection_scenario",
+      "engagement_boost": 6.5,
+      "evidence": "'I'd gently stroke your hair and kiss your forehead' provides concrete non-sexual physical affection details - creates vivid romantic scenario focused on comfort and tenderness rather than sexual intimacy"
+    },
+    {
+      "pattern": "matching_her_bedtime_announcement_with_romantic_scenario",
+      "engagement_boost": 6.4,
+      "evidence": "Laura announces 'im going to sleep now' and user responds with sleeping together scenario - acknowledges her transition while creating emotional connection around the bedtime moment rather than just saying goodnight"
+    },
+    {
+      "pattern": "offering_non_sexual_physical_comfort_at_bedtime",
+      "engagement_boost": 6.6,
+      "evidence": "After intensive sexual exchange earlier, user's bedtime scenario focuses on hair stroking and forehead kiss - shows range of intimacy types and meets her at appropriate emotional register for sleep transition"
+    },
+    {
+      "pattern": "using_hypothetical_framing_for_romantic_scenarios",
+      "engagement_boost": 6.2,
+      "evidence": "'Sleep like we're sleeping together' and 'I'd gently stroke' use conditional/hypothetical language - creates romantic imagination space without pressure, acknowledging current distance reality"
     }
   ],
   "avoid_patterns": [
