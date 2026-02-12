@@ -307,5 +307,26 @@
     ],
     "emotional_tone": "casual, relatable, mildly cynical humor",
     "unresolved": null
+  },
+  {
+    "id": 16,
+    "timestamp_start": "2026-02-12 00:11",
+    "timestamp_end": "2026-02-12 10:27",
+    "summary": "Michelle and YOU bonded over shared frustrations with dating apps, particularly the issue of people ghosting and disappearing without explanation. Both agreed they've given up on actively using dating apps and now prefer a 'go with the flow' approach, only engaging with people who initiate conversations and waiting to see if genuine connections develop naturally.",
+    "topics": [
+      "dating apps",
+      "ghosting",
+      "dating fatigue",
+      "relationship approach",
+      "going with the flow"
+    ],
+    "key_facts_learned": [
+      "Michelle has tried dating apps but gave up due to inconsistent matches who ghost",
+      "She now takes a passive approach - only talks to people who message her first",
+      "She waits until she's comfortable with someone before investing more energy",
+      "She prefers going with the flow rather than actively seeking connections"
+    ],
+    "emotional_tone": "casual, relatable, mutually understanding",
+    "unresolved": null
   }
 ]
