@@ -668,6 +668,37 @@
         "playfulness": 6,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-12T19:19:02.203452+09:00",
+      "summary": "can i ask? | When is your birthday?",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 4,
+        "playfulness": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "礼儀正しく個人的な質問。関係を深めたい意図が見える",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": 0,
+        "playfulness": -4,
+        "engagement": 1
+      }
     }
   ]
 }
