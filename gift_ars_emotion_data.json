@@ -265,6 +265,37 @@
         "playfulness": -2,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-13T01:02:10.848449+09:00",
+      "summary": "At first, I wasn't interested in working with Japa | Due to the differences in personality and culture,",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "playfulness": 3,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "自己開示と成長の物語。日本への尊敬と訪問願望を共有している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "playfulness": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": 2
+      }
     }
   ]
 }
