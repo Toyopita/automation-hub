@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T21:35:25.894629+09:00",
+  "last_updated": "2026-02-12T21:50:13.981683+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1668,7 +1668,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Love you bye",
       "Send me an audio talking in Japanese",
       "Do you understand English?",
       "I send you tomorrow",
@@ -1697,7 +1696,8 @@
       "literally just yesterday (acknowledging time perspective)",
       "un mot (French autocorrect for 'I'm not')",
       "No baby",
-      "coffe (typo for coffee)"
+      "coffe (typo for coffee)",
+      "Where honey?"
     ]
   },
   "topic_engagement": {
@@ -2141,7 +2141,8 @@
     "coffee_drinking": 7.5,
     "sharing_current_activity": 8.2,
     "beverage_preferences": 7.8,
-    "daily_routine_updates": 8.0
+    "daily_routine_updates": 8.0,
+    "partner_location": 8.4
   },
   "effective_patterns": [
     {
