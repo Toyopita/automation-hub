@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "timestamp_start": "2026-02-11 22:50",
+    "timestamp_end": "2026-02-11 22:58",
+    "summary": "Vita expressed concern about YOU getting angry, which YOU reassured wouldn't happen. Vita asked about YOU's interest in photography, and after YOU described taking casual phone photos, Vita complimented YOU's photos and suggested they'd be suitable as a photographer.",
+    "topics": [
+      "photography",
+      "reassurance",
+      "compliments",
+      "personality"
+    ],
+    "key_facts_learned": [
+      "Vita has seen YOU's photos",
+      "Vita thinks YOU has talent for photography"
+    ],
+    "emotional_tone": "warm, complimentary, playful",
+    "unresolved": null
+  },
+  {
+    "id": 2,
+    "timestamp_start": "2026-02-11 22:51",
+    "timestamp_end": "2026-02-11 22:58",
+    "summary": "Vita asked if YOU likes taking photos. YOU responded casually that they take random phone photos sometimes but aren't serious about it. Vita complimented YOU's photos, saying they're good and YOU would be suitable as a photographer, sending happy stickers.",
+    "topics": [
+      "photography",
+      "hobbies",
+      "compliments"
+    ],
+    "key_facts_learned": [
+      "Vita appreciates photography and pays attention to YOU's photos"
+    ],
+    "emotional_tone": "friendly, complimentary, encouraging",
+    "unresolved": null
+  },
+  {
+    "id": 3,
+    "timestamp_start": "2026-02-11 22:56",
+    "timestamp_end": "2026-02-11 23:15",
+    "summary": "YOU expressed they're not the angry type and mentioned taking casual photos on their phone. Vita complimented YOU's photography skills, saying they'd be suitable as a photographer and sent stickers. YOU seemed confused about what photos Vita was referring to and asked if Vita is into photography.",
+    "topics": [
+      "photography",
+      "casual conversation",
+      "compliments",
+      "confusion"
+    ],
+    "key_facts_learned": [
+      "Vita has seen photos taken by YOU (though YOU doesn't remember sharing them)",
+      "Vita thinks YOU has talent for photography"
+    ],
+    "emotional_tone": "friendly, lighthearted, slightly confused",
+    "unresolved": "YOU's question about whether Vita is into photography remains unanswered; unclear what photos Vita was referring to"
+  }
+]
