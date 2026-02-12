@@ -792,6 +792,37 @@
         "playfulness": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-12T11:54:45.146596+09:00",
+      "summary": "haha yeah, it's really a solid combo 😂 sometimes i | what time did you usually go for lunch ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "リラックスした会話で、相手の日常に興味を示している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "playfulness": -1,
+        "engagement": 0
+      }
     }
   ]
 }
