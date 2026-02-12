@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T10:52:23.469310+09:00",
+  "last_updated": "2026-02-12T11:13:40.686188+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -71,7 +71,9 @@
       "Prefers organic relationship development over forced/rushed connections - aligns with her passive dating app approach of not actively pursuing",
       "Has selective response strategy - intentionally ignores messages from people who come on too strong romantically ('chat weirdly')",
       "Receives confessions of love from strangers very quickly/frequently ('fall in love so quickly it's almost unreal')",
-      "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying"
+      "Uses 'haha' when discussing frustrating romantic attention, maintaining humor about situations that could be annoying",
+      "Has developed clear strategy to identify and avoid red flag behavior in dating - actively walks away when detecting red flags",
+      "Uses cost-benefit analysis framing for relationships - views engaging with incompatible people as 'waste of time', suggesting efficiency-minded approach to dating"
     ]
   },
   "personality": {
@@ -79,7 +81,7 @@
     "emotional_expressiveness": 8,
     "humor_appreciation": 9,
     "adventurousness": 6,
-    "confidence": 8,
+    "confidence": 9,
     "warmth": 8,
     "observations": [
       "Has developed clear values-based standards from past relationship experiences",
@@ -90,12 +92,13 @@
       "emotional_expressiveness: Uses 😂 emoji when discussing frustrating ghosting experiences, showing she processes disappointment through humor rather than bitterness",
       "adventurousness: Lowered from 9 - takes passive/reactive approach to dating rather than actively pursuing; 'vibes on her own' until someone comes along rather than seeking out new connections",
       "adventurousness: Further confirmation of passive/flow-based approach across both dating apps AND general relationship philosophy - consistent pattern of not forcing or rushing, waiting for natural development. Lowered from 7 to 6.",
-      "confidence: Has clear boundaries - actively chooses not to respond to people who chat 'weirdly', showing self-assuredness in ignoring unwanted attention rather than feeling obligated to reply"
+      "confidence: Has clear boundaries - actively chooses not to respond to people who chat 'weirdly', showing self-assuredness in ignoring unwanted attention rather than feeling obligated to reply",
+      "confidence: Increased from 8 to 9 - explicitly states she 'walks away' from red flags without hesitation or second-guessing, showing strong decisiveness and self-trust in her judgment. Uses 'waste of time' framing, indicating she values her time and doesn't tolerate poor treatment."
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence when elaborating on dating philosophy",
-    "emoji_frequency": "moderate (1 emoji when discussing frustrating experiences)",
+    "avg_message_length": "single run-on sentence when expressing firm personal boundaries",
+    "emoji_frequency": "moderate (2 emojis in single message)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -103,8 +106,8 @@
       "😊"
     ],
     "formality_level": "casual - lowercase, no punctuation",
-    "humor_style": "uses 'haha' to maintain lightness when discussing frustrating romantic attention; frames annoying experiences with humor rather than complaint",
-    "response_speed_tendency": "immediate response when Toyo validates her experience with shared understanding ('i know the type')",
+    "humor_style": "uses 'hahaha' and 😂 emoji when stating serious boundary-setting behavior, maintaining lightness when discussing self-protective actions; frames necessary self-care (avoiding bad people) with humor rather than making it sound harsh or bitter",
+    "response_speed_tendency": "immediate response when Toyo validates her boundary-setting approach ('smart move. life's too short')",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -113,7 +116,9 @@
       "lowercase heavy",
       "haha/hehe as filler",
       "run-on casual sentences",
-      "sick"
+      "sick",
+      "red flagging",
+      "walk away"
     ]
   },
   "topic_engagement": {
@@ -214,24 +219,13 @@
     "dating_app_red_flags": 9,
     "boundary_setting": 8,
     "love_bombing_experiences": 8,
-    "shared_dating_frustrations": 9
+    "shared_dating_frustrations": 9,
+    "red_flag_detection": 9,
+    "boundary_enforcement": 9,
+    "time_value_in_relationships": 8,
+    "self_protective_dating_strategies": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "surprise_at_scale_of_problem",
-      "engagement_boost": 1.8,
-      "evidence": "Toyo's 'wait four guys said that to you?? 😂' validates that this is an unusual/excessive amount of entitled behavior to deal with"
-    },
-    {
-      "pattern": "validating_her_standards_with_explanation",
-      "engagement_boost": null,
-      "evidence": "Toyo's affirmation that 'kind and respectful sounds basic but it's actually what matters most' validates her values with reasoning - response pending but shows understanding of her priorities"
-    },
-    {
-      "pattern": "contrasting_superficial_vs_meaningful_qualities",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'people get distracted by looks or money or whatever but at the end of the day if someone treats you like shit none of that matters' reinforces her anti-materialistic stance - response pending"
-    },
     {
       "pattern": "acknowledging_personal_growth_from_past",
       "engagement_boost": null,
@@ -316,6 +310,21 @@
       "pattern": "showing_familiarity_with_love_bombing_tactics",
       "engagement_boost": 1.8,
       "evidence": "Toyo's 'haha yeah i know the type' demonstrates he's encountered similar behavior, creating shared understanding of this dating frustration"
+    },
+    {
+      "pattern": "affirming_her_decision_making_as_smart",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'yeah smart move' validates her red flag avoidance strategy as wise rather than harsh - response pending but directly affirms her judgment"
+    },
+    {
+      "pattern": "philosophical_agreement_about_time_value",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'life's too short to waste on people who don't get it' mirrors her 'waste of time' framing using similar philosophy, showing alignment with her values-based approach to dating - response pending"
+    },
+    {
+      "pattern": "casual_validation_without_over_praising",
+      "engagement_boost": null,
+      "evidence": "Toyo's brief 'haha yeah smart move' keeps tone light while affirming her boundaries, avoiding overly serious or dramatic validation that might feel condescending - response pending"
     }
   ],
   "avoid_patterns": [],
