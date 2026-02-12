@@ -316,5 +316,23 @@
     ],
     "emotional_tone": "light, friendly, casually curious",
     "unresolved": "YOU's question about whether she's open to relationship is partially answered but conversation could continue on this topic"
+  },
+  {
+    "id": 18,
+    "timestamp_start": "2026-02-12 08:20",
+    "timestamp_end": "2026-02-12 10:33",
+    "summary": "Casual morning conversation where YOU clarified Vita was referring to Instagram close friends stories. Vita explained she's single because she's waiting for God to bring the right person, indicating she's open to a relationship but waiting for the right timing. She then asked if YOU was working today.",
+    "topics": [
+      "instagram stories",
+      "relationship status",
+      "faith and dating",
+      "daily routine"
+    ],
+    "key_facts_learned": [
+      "Vita is religious and believes in waiting for God's timing in relationships",
+      "She's open to having a boyfriend but is waiting rather than actively seeking"
+    ],
+    "emotional_tone": "light, friendly, curious",
+    "unresolved": "YOU hasn't answered whether they're working today"
   }
 ]
