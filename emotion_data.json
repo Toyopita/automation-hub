@@ -17603,6 +17603,48 @@
         "future": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:52:31.286974+09:00",
+      "summary": "Hahaha do you want to masturbate in the camera? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 9,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "笑いながら直球な性的質問。遊び心があり、彼の意図を確認している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 3,
+        "ds": 0,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
