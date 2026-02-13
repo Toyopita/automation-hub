@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-13T13:07:22.133608+09:00",
+  "last_updated": "2026-02-13T13:35:37.799441+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -20,7 +20,8 @@
     ],
     "family": [
       "Has grandmother who she visits and cooks for",
-      "Lives with parents - cooks dinner for them at home after work/errands"
+      "Lives with parents - cooks dinner for them at home after work/errands",
+      "Has guests visiting on Wednesday (2026-02-13) - requires cooking large meal for them"
     ],
     "languages": [
       "English"
@@ -1253,6 +1254,79 @@
           "digital interaction"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "Cooking lunch at midday on Wednesday 2026-02-13 (likely not working this day due to guest hosting)",
+        "tags": [
+          "schedule",
+          "wednesday",
+          "cooking time",
+          "lunch",
+          "midday",
+          "day off",
+          "not working",
+          "february 2026",
+          "home",
+          "hosting day",
+          "free day",
+          "準備中"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Uses 'haha' when discussing hosting responsibilities - maintains lighthearted tone even when managing extensive cooking for guests",
+        "tags": [
+          "haha",
+          "humor",
+          "hosting",
+          "cooking stress",
+          "lighthearted",
+          "emotional management",
+          "guests",
+          "responsibility",
+          "positive attitude",
+          "deflection",
+          "communication style",
+          "tone"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Takes on cooking responsibility for guest entertainment - default cook when hosting visitors",
+        "tags": [
+          "cooking",
+          "hosting",
+          "responsibility",
+          "guests",
+          "meal preparation",
+          "entertaining",
+          "家事",
+          "hospitality",
+          "caretaking",
+          "family role",
+          "cook role",
+          "default cook",
+          "food provider"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Cooks large quantities for guests - 'need to cook a lot' suggests multi-dish meal or large serving sizes",
+        "tags": [
+          "cooking",
+          "large quantities",
+          "multiple dishes",
+          "guest meals",
+          "meal scale",
+          "extensive cooking",
+          "hospitality",
+          "entertaining",
+          "food preparation",
+          "volume cooking",
+          "たくさん",
+          "cooking capacity"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1281,12 +1355,13 @@
       "warmth: Cooks for THREE different household groups daily (breakfast/dinner for herself and parents at home, lunch bought at mall, dinner for grandmother at separate location). On single half-day (2026-02-12), cooked at grandma's house THEN went home to cook again for parents - extraordinary family devotion involving multi-location sequential caregiving. This goes far beyond occasional help to being primary cook for extended family across multiple households.",
       "confidence: Willing to offer sending bikini photos to Toyo without hesitation or extensive disclaimers - shows comfort with body image and trust in sharing intimate photos. Maintains confidence score of 9.",
       "warmth: Maintains warmth score of 10 - explicitly reframes her extensive multi-household cooking labor as 'one of my hobbies', showing she genuinely finds joy and fulfillment in caregiving rather than viewing it as obligatory burden. Combined with earlier evidence of cooking foods she doesn't like for grandmother's happiness, this confirms deep emotional warmth through service.",
-      "warmth: Proactively initiated conversation after reopening app with caring check-in question 'have you eaten?' - shows she thinks about Toyo's wellbeing even when not actively chatting. Maintains warmth score of 10 as this adds to existing pattern of caretaking behavior (cooking for family, prioritizing others' happiness)."
+      "warmth: Proactively initiated conversation after reopening app with caring check-in question 'have you eaten?' - shows she thinks about Toyo's wellbeing even when not actively chatting. Maintains warmth score of 10 as this adds to existing pattern of caretaking behavior (cooking for family, prioritizing others' happiness).",
+      "warmth: Maintains warmth score of 10 - continues pattern of extensive cooking labor for others (now guests in addition to grandmother and parents). Uses 'haha' to downplay significant hosting effort, consistent with her pattern of finding joy in caregiving rather than complaining about workload."
     ]
   },
   "communication_style": {
-    "avg_message_length": "single brief question (3 words)",
-    "emoji_frequency": "none in this message (varies by context - uses emojis more when discussing vulnerable or lighthearted topics)",
+    "avg_message_length": "medium (2 sentences with explanation)",
+    "emoji_frequency": "none in this message (context-dependent - uses more with vulnerable topics)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -1296,7 +1371,7 @@
       "hehe"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 'haha' and emojis (😆, 😂, hehe) extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills while sharing accomplishments. Playful and warm rather than sarcastic.",
+    "humor_style": "Uses 'haha' extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills while sharing accomplishments. Playful and warm rather than sarcastic.",
     "response_speed_tendency": "Quick responses when actively engaged; reopens app after breaks and immediately initiates conversation, showing consistent engagement pattern",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -1322,7 +1397,10 @@
       "differents bikinis",
       "other phone",
       "it's okay because",
-      "open it again"
+      "open it again",
+      "got it",
+      "since",
+      "coming here"
     ]
   },
   "topic_engagement": {
@@ -1496,24 +1574,14 @@
     "meal_timing_discussion": 6,
     "meal_check_ins": 9,
     "wellbeing_questions": 9,
-    "caretaking_communication": 9
+    "caretaking_communication": 9,
+    "guests_hosting": 7,
+    "cooking_for_guests": 8,
+    "wednesday_activities": 6,
+    "special_occasions": 5,
+    "home_entertaining": 7
   },
   "effective_patterns": [
-    {
-      "pattern": "validating_her_effort_as_sweet",
-      "engagement_boost": null,
-      "evidence": "Toyo's previous message 'that's really sweet, honestly' validated her caregiving warmly - she responded by opening up MORE about the emotional complexity (tiredness + love + joy), suggesting the validation encouraged deeper sharing"
-    },
-    {
-      "pattern": "showing_interest_in_cultural_food_without_pretending_knowledge",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'adobo sounds good too, i've heard of it but never tried it haha' shows respectful curiosity about Filipino cuisine without fake expertise - creates space for her to be cultural teacher if she wants"
-    },
-    {
-      "pattern": "matching_her_honest_emotional_tone",
-      "engagement_boost": null,
-      "evidence": "Toyo used 'honestly' to mirror her sincere disclosure style, creating emotional resonance - response pending but establishes matching vulnerability level"
-    },
     {
       "pattern": "acknowledging_her_sacrifice_with_admiration",
       "engagement_boost": null,
@@ -1598,6 +1666,21 @@
       "pattern": "self_deprecating_food_description",
       "engagement_boost": null,
       "evidence": "Toyo's 'nothing fancy' downplays his meal choice, potentially mirroring her modest communication style about her own activities - response pending but creates relatable sharing"
+    },
+    {
+      "pattern": "playful_curiosity_about_special_occasions",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'oh nice, guests on a wednesday? haha must be something special' shows casual interest in what might make the occasion notable without demanding explanation - response pending but creates opening for her to share more if she wants"
+    },
+    {
+      "pattern": "matching_her_haha_tone_about_cooking_workload",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 'haha' with his own to maintain lighthearted tone about her extensive cooking for guests, avoiding making it feel like pity or burden discussion - response pending but establishes emotional resonance"
+    },
+    {
+      "pattern": "acknowledging_unusual_timing_without_judgment",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'guests on a wednesday?' notes the midweek timing as notable without criticizing or demanding justification - response pending but shows attentiveness to details while respecting her choices"
     }
   ],
   "avoid_patterns": [],
@@ -1608,5 +1691,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 14
+  "_exchange_count_since_consolidation": 15
 }
