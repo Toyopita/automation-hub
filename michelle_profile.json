@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-12T19:23:08.257572+09:00",
+  "last_updated": "2026-02-13T13:03:12.466460+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -1205,6 +1205,22 @@
           "fulfillment"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "Uses 'open it again' phrasing to describe returning to messaging app - suggests she closed/exited the app rather than leaving it running in background",
+        "tags": [
+          "app usage",
+          "phone habits",
+          "messaging behavior",
+          "return to conversation",
+          "reopening app",
+          "technology usage",
+          "communication habits",
+          "digital behavior",
+          "app interaction",
+          "phone management"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1236,18 +1252,19 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence with context",
-    "emoji_frequency": "moderate (haha used multiple times per message cluster)",
+    "avg_message_length": "single brief sentence",
+    "emoji_frequency": "moderate (1 per message in this exchange)",
     "preferred_emojis": [
       "😆",
       "😂",
       "👌🏻",
       "😊",
-      "haha"
+      "haha",
+      "hehe"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 'haha' extensively to soften potentially vulnerable or intimate topics - deploys humor as comfort mechanism when discussing bikini photos or downplaying significant labor. Consistent pattern of lightening serious topics through laughter.",
-    "response_speed_tendency": "continued engagement with relatively quick responses when discussing personal topics like hobbies and photo sharing",
+    "humor_style": "Uses 'haha' and emojis (😆, 😂, hehe) extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills (dance, cooking foods she dislikes) while still sharing accomplishments. Playful and warm rather than sarcastic. Humor serves as comfort mechanism and emotional buffer.",
+    "response_speed_tendency": "Quick responses when actively engaged in conversation flow; uses 'open it again' phrasing suggesting she may close app between conversation sessions rather than monitoring constantly",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1271,7 +1288,8 @@
       "actually (disclosure marker)",
       "differents bikinis",
       "other phone",
-      "it's okay because"
+      "it's okay because",
+      "open it again"
     ]
   },
   "topic_engagement": {
@@ -1439,24 +1457,12 @@
     "physical_appearance_sharing": 8,
     "intimate_photo_exchange": 7,
     "hobby_identification": 8,
-    "positive_reframing_of_labor": 9
+    "positive_reframing_of_labor": 9,
+    "conversation_continuation": 7,
+    "casual_small_talk": 7,
+    "meal_timing_discussion": 6
   },
   "effective_patterns": [
-    {
-      "pattern": "matching_her_casual_tone_with_haha",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 'haha' to maintain lighthearted tone about leaving work early - response pending"
-    },
-    {
-      "pattern": "asking_about_immediate_plans_casually",
-      "engagement_boost": null,
-      "evidence": "Toyo's question about beach vs home creates natural continuation about her afternoon without feeling interrogative - response pending"
-    },
-    {
-      "pattern": "acknowledging_caregiving_as_sweet_kind",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'oh that's really sweet of you, taking care of your grandma like that. you're a good granddaughter haha' validates her caregiving behavior positively and affirms her character - response pending but directly praises her family devotion"
-    },
     {
       "pattern": "using_family_role_affirmation",
       "engagement_boost": null,
@@ -1541,6 +1547,21 @@
       "pattern": "acknowledging_unexpected_offer_without_demanding",
       "engagement_boost": null,
       "evidence": "Toyo's 'wait' and 'okay now I'm curious' expresses genuine surprise and interest without pressuring her to send photos immediately - response pending but respects her 'maybe later' timeline"
+    },
+    {
+      "pattern": "matching_her_casual_haha_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha yeah just been busy with work' mirrors her casual, lighthearted communication style - response shows she's comfortable continuing conversation after reopening app"
+    },
+    {
+      "pattern": "sharing_own_status_before_asking_reciprocal_question",
+      "engagement_boost": null,
+      "evidence": "Toyo shared 'not yet, probably gonna grab something soon though' before asking 'you?' - models vulnerability/sharing before requesting information, creating balanced exchange rather than interrogation"
+    },
+    {
+      "pattern": "keeping_questions_brief_and_open_ended",
+      "engagement_boost": null,
+      "evidence": "Toyo's simple 'you?' after sharing own meal status creates low-pressure opening for her to share at whatever detail level she's comfortable with - response pending"
     }
   ],
   "avoid_patterns": [],
@@ -1551,5 +1572,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 12
+  "_exchange_count_since_consolidation": 13
 }
