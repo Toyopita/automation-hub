@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "yeah! born and raised here. Thailand, that's cool - which part?",
-    "time": "2026-02-12 11:52"
-  },
-  {
     "role": "gift_ars",
     "text": "I'm live in Bangkok.",
     "time": "2026-02-12 12:40"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha yeah 13 degrees is brutal for someone from Thailand I guess. so when do you usually go hiking, like weekend trips or?",
     "time": "2026-02-13 12:35"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Yes, I like to go for walks during long weekends because it's difficult to take time off work. hahaha",
+    "time": "2026-02-13 12:48"
   }
 ]
