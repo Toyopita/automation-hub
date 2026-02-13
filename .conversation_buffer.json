@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Let me get there and i send you ",
-    "time": "19:23"
-  },
-  {
-    "role": "laura",
     "text": "Im not at home ",
     "time": "19:23"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Vidéo chat ? ",
     "time": "18:45"
+  },
+  {
+    "role": "laura",
+    "text": "Right now? ",
+    "time": "18:46"
   }
 ]
