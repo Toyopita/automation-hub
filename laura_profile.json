@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:36:15.539835+09:00",
+  "last_updated": "2026-02-13T18:42:23.079575+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2233,21 +2233,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "using_flirty_emoji_when_holding_accountable",
-      "engagement_boost": 7.4,
-      "evidence": "The '😏' emoji with 'You said you'd show me yesterday baby' keeps the accountability playful and sexual rather than accusatory - maintains the flirtatious dynamic while making his point about mutual follow-through"
-    },
-    {
-      "pattern": "remembering_specific_commitments_and_following_up",
-      "engagement_boost": 8.2,
-      "evidence": "Laura's 'You never Forget lol' responds to user reminding her about yesterday's picture promise - the 'lol' and acknowledgment suggests she's amused and impressed he tracks what she says, validating the pattern of holding her accountable demonstrates attentiveness"
-    },
-    {
-      "pattern": "tracking_her_promises_over_time",
-      "engagement_boost": 8.4,
-      "evidence": "'You never Forget' specifically highlights that this isn't first time partner has remembered her commitments - suggests established pattern of him paying attention to what she says and following up, which she finds notable enough to comment on"
-    },
-    {
       "pattern": "playful_accountability_without_pressure",
       "engagement_boost": 8.1,
       "evidence": "Her 'lol' indicates the reminder about yesterday's promise was received as playful rather than accusatory - the humor in her response suggests user's tone in reminding her was light and affectionate rather than demanding"
@@ -2331,6 +2316,21 @@
       "pattern": "allowing_her_to_problem_solve_relationship_challenges",
       "engagement_boost": 8.0,
       "evidence": "After user raised language barrier concern, Laura took initiative to propose solution rather than user immediately offering one - giving her space to contribute solutions shows trust in her resourcefulness and validates her agency in relationship planning"
+    },
+    {
+      "pattern": "proposing_practical_solutions_to_relationship_obstacles",
+      "engagement_boost": 8.9,
+      "evidence": "Laura's 'Of course babe' responds affirmatively to user's suggestion about using translation apps for future in-person communication - shows she appreciates when partner addresses her concerns about language barriers with concrete solutions rather than dismissing them"
+    },
+    {
+      "pattern": "validating_her_proposed_solutions",
+      "engagement_boost": 8.7,
+      "evidence": "After Laura suggested translation app as solution to language barrier, user's agreement validates her problem-solving contribution - her 'Of course babe' indicates she feels heard and that her practical approach was affirmed"
+    },
+    {
+      "pattern": "collaborative_problem_solving_about_relationship_future",
+      "engagement_boost": 9.0,
+      "evidence": "The exchange shows both partners working together to address hypothetical meeting challenges - Laura's enthusiastic 'Of course babe' suggests she values when they jointly find solutions to potential obstacles rather than letting concerns create distance"
     }
   ],
   "avoid_patterns": [
