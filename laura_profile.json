@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T04:37:08.271073+09:00",
+  "last_updated": "2026-02-14T04:38:04.247658+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2335,6 +2335,82 @@
           "schedule overlap"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "thinks about partner spontaneously throughout the day (unprompted romantic/sexual thoughts)",
+        "tags": [
+          "spontaneous thoughts",
+          "partner focus",
+          "romantic thoughts",
+          "sexual thoughts",
+          "unprompted desire",
+          "daydreaming",
+          "partner obsession",
+          "mental preoccupation",
+          "thinking of partner",
+          "relationship focus",
+          "constant thoughts",
+          "partner-centered",
+          "romantic preoccupation",
+          "sexual preoccupation"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "initiates sexual conversations by sharing her mental/emotional state unprompted",
+        "tags": [
+          "sexual initiation",
+          "mental state sharing",
+          "emotional transparency",
+          "unprompted sharing",
+          "thought disclosure",
+          "internal state communication",
+          "spontaneous initiation",
+          "sexual communication",
+          "desire expression",
+          "proactive sharing",
+          "emotional openness",
+          "mental state disclosure"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "connects thinking about partner directly to physical arousal",
+        "tags": [
+          "mental arousal",
+          "thought-triggered desire",
+          "cognitive arousal",
+          "partner thoughts",
+          "arousal triggers",
+          "mental sexuality",
+          "thought connection",
+          "desire causation",
+          "arousal source",
+          "partner effect",
+          "mental stimulation",
+          "cognitive desire",
+          "thought-based horniness"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses triple drooling emoji to emphasize intense desire or arousal",
+        "tags": [
+          "emoji repetition",
+          "drooling emoji",
+          "desire emphasis",
+          "arousal expression",
+          "intensity communication",
+          "emoji pattern",
+          "sexual emoji",
+          "hunger emoji",
+          "wanting emoji",
+          "desire symbols",
+          "arousal indicators",
+          "visual emphasis",
+          "emoji intensity"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2346,9 +2422,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
-      "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
       "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
       "emotional_expressiveness: Continues transparent emotional signaling - uses shy/bashful emoji 🫣 alongside explicit statement, clearly communicating both her desire and the playful embarrassment/excitement she feels about expressing it",
       "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts",
@@ -2365,7 +2438,10 @@
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
       "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
       "warmth: Uses tender endearment 'Honey' combined with vulnerable pleading emoji 🥺 when expressing need to see partner - maintains maximum warmth even in urgent requests, framing need for partner connection with affection rather than demand",
-      "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency"
+      "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency",
+      "emotional_expressiveness: Continues maximum emotional transparency - unprompted disclosure of internal mental state ('Thinking about you') directly connected to physical arousal state, maintaining pattern of expressing feelings/desires without filtering or prompting",
+      "confidence: Maintains maximum confidence - initiates explicit sexual conversation completely unprompted by sharing vulnerable admission that thoughts of partner trigger arousal, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation",
+      "warmth: Even explicit sexual statement centers partner as the source of her desire ('Thinking about you') - maintains maximum warmth by framing arousal as connection to partner specifically rather than impersonal physical need"
     ]
   },
   "communication_style": {
@@ -2994,24 +3070,16 @@
     "urgent_visual_intimacy_needs": 9.6,
     "vulnerable_morning_requests": 9.5,
     "needing_partner_presence_urgently": 9.7,
-    "cross_timezone_urgent_communication": 9.3
+    "cross_timezone_urgent_communication": 9.3,
+    "sharing_thoughts_about_partner": 9.7,
+    "mental_arousal_triggers": 9.6,
+    "spontaneous_desire_disclosure": 9.8,
+    "thinking_about_partner": 9.7,
+    "arousal_from_thoughts": 9.6,
+    "partner_as_arousal_source": 9.7,
+    "mental_sexual_stimulation": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "giving_her_space_to_complete_tasks_at_her_own_pace",
-      "engagement_boost": 9.5,
-      "evidence": "Laura's 'Okay tell me when you finish' shows she's now waiting for partner to complete something - whatever preceded this created mutual respect for each other's task completion needs, mirroring how partner waited for her earlier"
-    },
-    {
-      "pattern": "establishing_reciprocal_patience_pattern",
-      "engagement_boost": 9.6,
-      "evidence": "After Laura took time to do something quick before the call, she now comfortably waits for partner to finish their task - respecting her timing earlier created environment where she naturally extends same courtesy"
-    },
-    {
-      "pattern": "clear_communication_about_task_status",
-      "engagement_boost": 9.4,
-      "evidence": "Laura explicitly asks to be notified when partner finishes - demonstrates that transparent communication about timing and readiness has become established pattern in their interaction"
-    },
     {
       "pattern": "creating_environment_where_she_explains_delays_transparently",
       "engagement_boost": 9.2,
@@ -3096,6 +3164,21 @@
       "pattern": "responding_positively_to_her_visual_connection_needs",
       "engagement_boost": 9.7,
       "evidence": "The confident, direct nature of her request suggests previous pattern of partner being receptive when she expresses need to see him - her willingness to make wake-up request indicates she expects positive response based on past experience"
+    },
+    {
+      "pattern": "being_thought_about_during_partner_absence",
+      "engagement_boost": 9.8,
+      "evidence": "Laura unpromptedly shares that thinking about partner makes her horny - whatever has been established in relationship makes partner occupy her mental space even when not actively communicating, triggering spontaneous arousal and desire to share that with him"
+    },
+    {
+      "pattern": "creating_connection_that_triggers_spontaneous_thoughts",
+      "engagement_boost": 9.7,
+      "evidence": "The unprompted nature of message indicates she was thinking about partner independently during her day - whatever emotional/sexual connection exists is strong enough that partner enters her thoughts spontaneously and triggers physical response"
+    },
+    {
+      "pattern": "establishing_safety_for_unprompted_sexual_disclosures",
+      "engagement_boost": 9.9,
+      "evidence": "Laura feels comfortable sharing vulnerable admission that mere thoughts of partner arouse her, without being asked or without sexual conversation already in progress - indicates high level of sexual communication safety and comfort built over time"
     }
   ],
   "avoid_patterns": [
