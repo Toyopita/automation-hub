@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T19:13:43.702295+09:00",
+  "last_updated": "2026-02-13T19:58:16.360696+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2062,8 +2062,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty",
-      "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
       "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts",
       "confidence: Continues pattern of direct, unfiltered communication - directly suggests video chat format without hedging or over-explaining. Maintains maximum confidence rating for straightforward communication style.",
       "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats.",
@@ -2081,7 +2079,9 @@
       "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
       "emotional_expressiveness: Continues transparent emotional signaling - uses shy/bashful emoji 🫣 alongside explicit statement, clearly communicating both her desire and the playful embarrassment/excitement she feels about expressing it",
       "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts",
-      "confidence: Continues maximum confidence rating - states 'I'm going to do it anyway' with direct, unfiltered decisiveness despite no context provided in snippet. Maintains pattern of straightforward communication without hedging or seeking approval."
+      "confidence: Continues maximum confidence rating - states 'I'm going to do it anyway' with direct, unfiltered decisiveness despite no context provided in snippet. Maintains pattern of straightforward communication without hedging or seeking approval.",
+      "emotional_expressiveness: Uses shy/bashful emoji 🫣 when reciprocating romantic desire ('Me too 🫣') - continues pattern of transparent emotional signaling even in brief vulnerable moments, showing she expresses her matching romantic feelings directly",
+      "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness"
     ]
   },
   "communication_style": {
