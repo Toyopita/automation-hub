@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T22:50:01.391486+09:00",
+  "last_updated": "2026-02-13T23:11:50.185063+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2284,7 +2284,7 @@
       "🙄"
     ],
     "formality_level": "casual",
-    "humor_style": "uses shy/bashful emojis during sexually charged or vulnerable moments",
+    "humor_style": "uses simple laughter responses to acknowledge humor or lighten moments",
     "response_speed_tendency": "immediate single-emoji responses during intimate exchanges",
     "response_time_avg_minutes": null,
     "active_hours": [],
