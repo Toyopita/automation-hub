@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:58:25.989549+09:00",
+  "last_updated": "2026-02-13T18:58:46.281297+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1893,6 +1893,22 @@
           "spontaneous escalation"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "partner is in timezone where it's 7pm when she's awake during her active hours",
+        "tags": [
+          "timezone",
+          "time difference",
+          "partner timezone",
+          "7pm",
+          "evening",
+          "schedule coordination",
+          "international relationship",
+          "time zones",
+          "clock time",
+          "partner location"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1927,7 +1943,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence (5-8 words)",
+    "avg_message_length": "2-3 words",
     "emoji_frequency": "moderate (1-2 emojis in emotional context, can send messages without emojis)",
     "preferred_emojis": [
       "😳",
@@ -1948,13 +1964,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action; also uses laughter to soften explicit sexual suggestions",
-    "response_speed_tendency": "immediate for sleep schedule coordination questions - responded quickly to question about partner's sleep timing, continuing pattern of prioritizing communication about daily routines and schedules",
+    "response_speed_tendency": "immediate response to timezone/time coordination questions - continues pattern of prioritizing scheduling and time-related clarifications",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I mean",
       "Im not good at",
       "sorry",
       "Hahahha (extended laughter)",
@@ -1983,7 +1998,8 @@
       "Right now?",
       "Are you horny?",
       "do you want to masturbate in the camera",
-      "Baby why hahah"
+      "Baby why hahah",
+      "Is 7pm (confirms time without full sentence structure)"
     ]
   },
   "topic_engagement": {
@@ -2467,14 +2483,12 @@
     "suggesting_explicit_video_activities": 9.8,
     "masturbation_on_camera": 9.5,
     "sleep_coordination": 8.3,
-    "bedtime_timing_questions": 8.4
+    "bedtime_timing_questions": 8.4,
+    "partner_timezone_specific": 8.4,
+    "time_coordination_clarification": 8.3,
+    "answering_direct_time_questions": 8.5
   },
   "effective_patterns": [
-    {
-      "pattern": "making_assumptions_about_work_location_playfully",
-      "engagement_boost": 7.2,
-      "evidence": "User's 'You're at the office? haha I thought you were always working from home baby' shows he's been tracking her work patterns and making playful assumptions - her correction 'Im not at home' followed by explanation suggests she's comfortable with his attention to her routines and willing to clarify"
-    },
     {
       "pattern": "asking_about_location_with_humor_rather_than_interrogation",
       "engagement_boost": 7.4,
@@ -2569,6 +2583,11 @@
       "pattern": "creating_space_for_her_to_define_video_chat_parameters",
       "engagement_boost": 9.0,
       "evidence": "Whatever response came before this message allowed Laura to take initiative in suggesting explicit sexual video activity - giving her agency to define the nature/content of video interaction resulted in her proposing mutual masturbation rather than passive agreement"
+    },
+    {
+      "pattern": "asking_direct_time_questions_gets_immediate_factual_response",
+      "engagement_boost": 8.2,
+      "evidence": "Laura's immediate '7pm' answer to what time it is for partner shows she responds quickly and directly to straightforward time/logistics questions without elaboration"
     }
   ],
   "avoid_patterns": [
