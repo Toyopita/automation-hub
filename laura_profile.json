@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T19:13:32.888308+09:00",
+  "last_updated": "2026-02-13T19:13:41.521120+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2062,8 +2062,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Expresses gratitude for video content received - 'Thank for the vidéo' shows she acknowledges and appreciates partner's efforts in sharing content, maintaining pattern of emotionally warm responses even in brief messages",
-      "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty",
       "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
       "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts",
       "confidence: Continues pattern of direct, unfiltered communication - directly suggests video chat format without hedging or over-explaining. Maintains maximum confidence rating for straightforward communication style.",
@@ -2081,7 +2079,9 @@
       "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
       "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
       "emotional_expressiveness: Continues transparent emotional signaling - uses shy/bashful emoji 🫣 alongside explicit statement, clearly communicating both her desire and the playful embarrassment/excitement she feels about expressing it",
-      "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts"
+      "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts",
+      "confidence: Directly tells partner not to be apologetic/overly polite during sexual context ('You don't need to say please hahaha') - continues pattern of direct, unfiltered communication without hesitation, maintaining maximum confidence rating",
+      "warmth: Uses laughter ('hahaha') when correcting partner's politeness during intimate moment - frames correction warmly rather than critically, maintaining emotional warmth even when adjusting partner's communication style"
     ]
   },
   "communication_style": {
@@ -2105,7 +2105,7 @@
       "🙄"
     ],
     "formality_level": "casual",
-    "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action; also uses laughter to soften explicit sexual suggestions",
+    "humor_style": "playful teasing with laughter - uses humor to soften corrections about interaction style, particularly around politeness in intimate contexts",
     "response_speed_tendency": "immediate response to timezone/time coordination questions - continues pattern of prioritizing scheduling and time-related clarifications",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -2650,7 +2650,11 @@
     "mutual_desire_for_physical_closeness": 9.7,
     "emotional_alignment_with_partner": 9.6,
     "receiving_romantic_sleeping_together_scenarios": 9.5,
-    "affirming_shared_feelings": 9.7
+    "affirming_shared_feelings": 9.7,
+    "politeness_in_sexual_context": 8.5,
+    "correcting_partner_communication_style": 8.7,
+    "casual_sexual_communication_preference": 9.2,
+    "rejecting_formality_during_intimacy": 9.0
   },
   "effective_patterns": [
     {
@@ -2744,14 +2748,14 @@
       "evidence": "Laura's 'Me too' mirrors partner's emotional vulnerability about wanting physical closeness - when he shares romantic desires, she feels safe reciprocating at same vulnerability level rather than deflecting to humor or changing subject"
     },
     {
-      "pattern": "creating_space_for_shy_emoji_responses",
-      "engagement_boost": 8.2,
-      "evidence": "Laura sent standalone 🫣 emoji (shy/bashful face covering eyes) - whatever preceded this created environment where she felt comfortable expressing shyness, playful embarrassment, or cute vulnerability through emoji-only response"
+      "pattern": "saying_please_during_sexual_requests",
+      "engagement_boost": 8.5,
+      "evidence": "Laura finds partner's politeness ('please') unnecessary but endearing during sexual context - her 'hahaha' suggests she's amused rather than annoyed, indicating it's charming but she wants more casual dynamic"
     },
     {
-      "pattern": "eliciting_playful_bashfulness",
-      "engagement_boost": 8.5,
-      "evidence": "The 🫣 emoji specifically conveys shy/bashful emotion - suggests preceding message made her feel flattered, slightly embarrassed in positive way, or created cute/playful moment that she responded to with visual signal of shyness rather than words"
+      "pattern": "being_polite_during_intimate_moments",
+      "engagement_boost": 7.8,
+      "evidence": "Partner's use of 'please' in sexual context prompted gentle correction rather than negative reaction - suggests she appreciates respectful approach but prefers less formal/more relaxed communication style during intimacy"
     }
   ],
   "avoid_patterns": [
@@ -2834,6 +2838,11 @@
       "pattern": "making_timing_assumptions_without_checking_her_timezone",
       "engagement_drop": -2.3,
       "evidence": "The 'But' opening and emphasis on 'dont understand' suggests partner proposed timing or made assumption that didn't work with her timezone reality - she needs partner to actively consider time difference rather than assuming availability"
+    },
+    {
+      "pattern": "excessive_politeness_during_sexual_communication",
+      "engagement_drop": -0.5,
+      "evidence": "'You don't need to say please' indicates she prefers more casual, direct communication during intimate moments - overly polite language may create unnecessary distance or formality in sexual context"
     }
   ],
   "ng_topics": [],
