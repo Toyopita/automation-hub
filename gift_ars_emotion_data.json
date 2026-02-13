@@ -358,6 +358,37 @@
         "playfulness": 1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T12:50:57.298908+09:00",
+      "summary": "Yes, I like to go for walks during long weekends b | I went hiking in Thailand last year. The climb up ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "過去の経験を楽しく共有。笑いながら自己開示している健全な状態",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 1,
+        "playfulness": 0,
+        "engagement": 1
+      }
     }
   ]
 }
