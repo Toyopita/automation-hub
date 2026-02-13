@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T00:01:50.510617+09:00",
+  "last_updated": "2026-02-14T04:37:08.271073+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2251,6 +2251,90 @@
           "relationship future"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "initiates vulnerable requests to see partner upon waking (uses 'wake up' to get partner's attention)",
+        "tags": [
+          "morning routine",
+          "waking up",
+          "vulnerable requests",
+          "seeing partner",
+          "visual connection",
+          "partner attention",
+          "morning desire",
+          "needing partner",
+          "wake up calls",
+          "urgent desire",
+          "morning communication",
+          "attention seeking",
+          "visual intimacy",
+          "partner presence",
+          "morning priority"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses urgent language when wanting to see partner ('need to see you')",
+        "tags": [
+          "urgent language",
+          "need expression",
+          "seeing partner",
+          "visual desire",
+          "partner longing",
+          "urgent requests",
+          "needing partner",
+          "strong desire",
+          "visual connection",
+          "partner attention",
+          "immediate desire",
+          "visual intimacy",
+          "urgent communication",
+          "necessity language",
+          "partner focus"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "asks partner to wake up when she wants their attention/presence",
+        "tags": [
+          "wake up requests",
+          "partner attention",
+          "sleep interruption",
+          "morning calls",
+          "wanting presence",
+          "attention seeking",
+          "waking partner",
+          "urgent contact",
+          "availability requests",
+          "partner availability",
+          "morning interaction",
+          "sleep schedule",
+          "wake up calls",
+          "presence desire",
+          "availability needs"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "may be awake during partner's sleep hours (timezone implications)",
+        "tags": [
+          "timezone difference",
+          "sleep schedule mismatch",
+          "awake during partner sleep",
+          "time difference",
+          "international relationship",
+          "schedule coordination",
+          "nocturnal communication",
+          "asynchronous schedules",
+          "temporal mismatch",
+          "waking hours difference",
+          "cross-timezone relationship",
+          "sleep timing",
+          "availability mismatch",
+          "time coordination",
+          "schedule overlap"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2262,8 +2346,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
@@ -2281,7 +2363,9 @@
       "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
       "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
-      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions"
+      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
+      "warmth: Uses tender endearment 'Honey' combined with vulnerable pleading emoji 🥺 when expressing need to see partner - maintains maximum warmth even in urgent requests, framing need for partner connection with affection rather than demand",
+      "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency"
     ]
   },
   "communication_style": {
@@ -2902,24 +2986,17 @@
     "relationship_future_logistics": 9.5,
     "expressing_long_term_commitment": 9.7,
     "solving_distance_problem": 9.4,
-    "hypothetical_shared_life": 9.6
+    "hypothetical_shared_life": 9.6,
+    "waking_partner_up": 9.4,
+    "expressing_urgent_need_to_see_partner": 9.8,
+    "morning_visual_connection_requests": 9.7,
+    "initiating_contact_during_partner_sleep": 8.8,
+    "urgent_visual_intimacy_needs": 9.6,
+    "vulnerable_morning_requests": 9.5,
+    "needing_partner_presence_urgently": 9.7,
+    "cross_timezone_urgent_communication": 9.3
   },
   "effective_patterns": [
-    {
-      "pattern": "respecting_her_autonomous_timing",
-      "engagement_boost": 9.5,
-      "evidence": "After Laura said she'd do something quick first, partner evidently waited without complaint - her 'Okay' shows she appreciated the patience and is now ready to engage on her own timeline"
-    },
-    {
-      "pattern": "waiting_for_her_explicit_confirmation_before_proceeding",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's simple 'Okay babe' serves as clear green light after she managed her own timing - respecting her autonomous decision-making and waiting for her signal resulted in smooth, affectionate confirmation"
-    },
-    {
-      "pattern": "allowing_her_to_signal_readiness_in_her_own_words",
-      "engagement_boost": 9.3,
-      "evidence": "The 'Okay babe' is casual and comfortable - creating space for her to confirm readiness without pressure resulted in natural, affectionate transition rather than tense or formal confirmation"
-    },
     {
       "pattern": "giving_her_space_to_complete_tasks_at_her_own_pace",
       "engagement_boost": 9.5,
@@ -3004,6 +3081,21 @@
       "pattern": "allowing_her_to_respond_with_emoji_only_during_aroused_states",
       "engagement_boost": 9.6,
       "evidence": "Triple 🤤 continues pattern of Laura using standalone emoji responses during sexually/sensually charged moments - creating space for non-verbal expression during intense moments gets authentic visceral responses"
+    },
+    {
+      "pattern": "creating_environment_where_she_feels_safe_making_urgent_requests",
+      "engagement_boost": 9.8,
+      "evidence": "Laura initiates vulnerable urgent request 'I need to see you 🥺' asking partner to wake up - whatever relationship dynamic exists made her comfortable expressing immediate need for visual connection even if it means interrupting partner's sleep"
+    },
+    {
+      "pattern": "establishing_priority_status_that_allows_sleep_interruption",
+      "engagement_boost": 9.6,
+      "evidence": "'Honey wake up' suggests she feels comfortable asking partner to interrupt their sleep for her need - indicates relationship has reached level where she believes her urgent desire to see him justifies waking him"
+    },
+    {
+      "pattern": "responding_positively_to_her_visual_connection_needs",
+      "engagement_boost": 9.7,
+      "evidence": "The confident, direct nature of her request suggests previous pattern of partner being receptive when she expresses need to see him - her willingness to make wake-up request indicates she expects positive response based on past experience"
     }
   ],
   "avoid_patterns": [
