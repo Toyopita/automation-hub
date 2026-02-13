@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:42:24.216392+09:00",
+  "last_updated": "2026-02-13T18:43:12.300424+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1688,6 +1688,38 @@
           "communication strategy"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "proactively offers to send bedtime pictures from bed",
+        "tags": [
+          "bedtime pictures",
+          "intimate sharing",
+          "proactive offering",
+          "bed context",
+          "visual sharing",
+          "nighttime photos",
+          "initiative",
+          "picture offering",
+          "bedroom photos",
+          "spontaneous sharing"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "takes initiative to offer intimate pictures without being asked",
+        "tags": [
+          "sexual initiative",
+          "proactive sharing",
+          "intimate photos",
+          "unprompted offering",
+          "picture initiative",
+          "bedroom content",
+          "visual intimacy",
+          "spontaneous offer",
+          "bedtime sharing",
+          "relationship initiative"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1699,8 +1731,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Continues pattern of directly expressing vulnerable feelings without filtering - apologizes unprompted for Japanese ability limitation, showing transparency about insecurity",
-      "confidence: Comfortable admitting limitation ('Im not good at Japanese') without excessive hedging or defensiveness - states fact clearly while apologizing shows confidence to be vulnerable about skill gaps",
       "warmth: Responds to partner's solution with acceptance and laughter rather than defensiveness - 'We're chatting like this though, so no problem for me haha' met with genuine laughter and vulnerable admission about her Japanese ability without guardedness. Maintains maximum warmth through accepting partner's reframing of language barrier.",
       "emotional_expressiveness: Continues pattern of direct vulnerability - unprompted admission 'Im not good at Japanese sorry' expresses insecurity openly. Multiple expressions of emotion (laughter, exclamations, apologizing) in rapid sequence shows unfiltered emotional transparency.",
       "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges.",
@@ -1718,7 +1748,9 @@
       "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing",
       "humor_appreciation: Responds with 'Haha' to user's point about 'literally just yesterday' timeline - appreciates the logical absurdity of questioning his memory about something so recent, maintaining her pattern of finding humor in relationship dynamics",
       "warmth: Expresses gratitude for video content received - 'Thank for the vidéo' shows she acknowledges and appreciates partner's efforts in sharing content, maintaining pattern of emotionally warm responses even in brief messages",
-      "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty"
+      "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty",
+      "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
+      "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts"
     ]
   },
   "communication_style": {
@@ -1743,7 +1775,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action",
-    "response_speed_tendency": "immediate response to affectionate/romantic content (responds within moments)",
+    "response_speed_tendency": "immediate response when initiating intimate offers",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2232,7 +2264,12 @@
     "problem_solving_in_relationship": 9.1,
     "receiving_affectionate_reassurance": 9.5,
     "being_told_she_is_exclusive": 9.8,
-    "receiving_romantic_validation": 9.6
+    "receiving_romantic_validation": 9.6,
+    "bedtime_picture_sharing": 9.6,
+    "proactive_intimate_offers": 9.7,
+    "initiating_visual_intimacy": 9.8,
+    "bed_context_sharing": 9.5,
+    "unprompted_picture_offers": 9.6
   },
   "effective_patterns": [
     {
