@@ -17267,6 +17267,48 @@
         "future": -1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:42:13.127333+09:00",
+      "summary": "Of course babe ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "肯定的で素直な返答。親密さを保ちながら安定した態度",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 2,
+        "engagement": 4
+      }
     }
   ]
 }
