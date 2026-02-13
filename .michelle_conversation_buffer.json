@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "what time did you usually go for lunch ",
-    "time": "2026-02-12 11:53"
-  },
-  {
     "role": "you",
     "text": "usually around 12 or 12:30, depends on work stuff\n\nwhy, you hungry? haha",
     "time": "2026-02-12 12:16"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "wait you're sending bikini pics? haha okay now I'm curious",
     "time": "2026-02-12 19:22"
+  },
+  {
+    "role": "michelle",
+    "text": "oh I just open it again 😆",
+    "time": "2026-02-13 12:54"
   }
 ]
