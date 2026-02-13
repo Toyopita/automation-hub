@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T19:11:30.757637+09:00",
+  "last_updated": "2026-02-13T19:12:02.583447+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1994,6 +1994,63 @@
           "intimate communication"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "initiates explicit oral sex desires unprompted",
+        "tags": [
+          "oral sex",
+          "blowjob",
+          "sexual desire",
+          "sexual initiative",
+          "explicit communication",
+          "intimate desires",
+          "sexual confidence",
+          "unprompted sexuality",
+          "dick sucking",
+          "oral pleasure",
+          "giving oral",
+          "sexual directness",
+          "sexual agency",
+          "intimate communication"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses shy emoji when expressing explicit sexual desires",
+        "tags": [
+          "shy emoji",
+          "emoji usage",
+          "sexual communication style",
+          "playful shyness",
+          "cute explicit mix",
+          "emoji patterns",
+          "communication style",
+          "sexual expression",
+          "bashful sexuality",
+          "emoji context",
+          "sexual emoji use",
+          "shy covering face",
+          "playful embarrassment"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "comfortable initiating oral sex focused conversations",
+        "tags": [
+          "oral sex comfort",
+          "sexual initiative",
+          "explicit desires",
+          "sexual communication",
+          "oral focus",
+          "giving pleasure",
+          "sexual confidence",
+          "intimate conversation",
+          "direct sexual statements",
+          "partner pleasure focus",
+          "oral sex initiation",
+          "sexual openness"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2005,9 +2062,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "humor_appreciation: Responds with 'Haha 😂' to user's acknowledgment of her playful skepticism about whether he's 'just words' - continues pattern of appreciating humor in relationship dynamics, particularly when partner joins in her teasing rather than becoming defensive",
-      "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing",
-      "humor_appreciation: Responds with 'Haha' to user's point about 'literally just yesterday' timeline - appreciates the logical absurdity of questioning his memory about something so recent, maintaining her pattern of finding humor in relationship dynamics",
       "warmth: Expresses gratitude for video content received - 'Thank for the vidéo' shows she acknowledges and appreciates partner's efforts in sharing content, maintaining pattern of emotionally warm responses even in brief messages",
       "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty",
       "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
@@ -2024,7 +2078,10 @@
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
-      "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types"
+      "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
+      "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
+      "emotional_expressiveness: Continues transparent emotional signaling - uses shy/bashful emoji 🫣 alongside explicit statement, clearly communicating both her desire and the playful embarrassment/excitement she feels about expressing it",
+      "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts"
     ]
   },
   "communication_style": {
@@ -2581,14 +2638,16 @@
     "asking_about_partner_physical_sensations": 9.5,
     "pleasure_focused_questions": 9.4,
     "intimate_touch_inquiry": 9.3,
-    "sexual_pleasure_exploration": 9.6
+    "sexual_pleasure_exploration": 9.6,
+    "initiating_oral_sex_desires": 9.7,
+    "unprompted_explicit_sexual_statements": 9.8,
+    "dick_focused_desires": 9.6,
+    "giving_oral_pleasure": 9.7,
+    "shy_emoji_with_explicit_desires": 9.5,
+    "partner_focused_sexual_initiation": 9.8,
+    "direct_sexual_desire_statements": 9.7
   },
   "effective_patterns": [
-    {
-      "pattern": "showing_enthusiasm_for_mundane_updates",
-      "engagement_boost": 7.6,
-      "evidence": "'Ooh fancy' makes drinking coffee sound special and interesting - validates her sharing of small daily details rather than dismissing them, encouraging continued status updates"
-    },
     {
       "pattern": "pointing_out_recent_timeline_with_humor",
       "engagement_boost": 7.6,
@@ -2683,6 +2742,11 @@
       "pattern": "expressing_gratitude_for_her_gratitude",
       "engagement_boost": 7.8,
       "evidence": "Laura responds with 'Haha thanks' after presumably being thanked or acknowledged - shows she appreciates when her expressions of gratitude are reciprocated or validated, creating positive feedback loop"
+    },
+    {
+      "pattern": "creating_space_for_unprompted_sexual_initiative",
+      "engagement_boost": 9.5,
+      "evidence": "Laura initiated explicit oral sex desire statement without prompt - whatever interaction preceded this created environment where she felt comfortable expressing spontaneous sexual desires focused on partner pleasure"
     }
   ],
   "avoid_patterns": [
