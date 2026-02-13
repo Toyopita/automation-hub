@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T04:38:04.247658+09:00",
+  "last_updated": "2026-02-14T04:38:52.394499+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2411,6 +2411,84 @@
           "emoji intensity"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "expresses enthusiasm about recent intimate video call experience ('what we did today')",
+        "tags": [
+          "video call experience",
+          "intimate activity",
+          "sexual experience",
+          "video chat memory",
+          "recent activity",
+          "relationship activity",
+          "intimate video",
+          "sexual video chat",
+          "video call intimacy",
+          "recent intimacy",
+          "sexual video experience",
+          "mutual masturbation video",
+          "camera intimacy",
+          "live sexual interaction"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "initiates sexual position desires after intimate experiences (riding position)",
+        "tags": [
+          "riding position",
+          "sexual position preference",
+          "post-experience desire",
+          "sitting position",
+          "position initiative",
+          "sexual desire expression",
+          "intimate positioning",
+          "physical intimacy desire",
+          "sexual escalation",
+          "position preference",
+          "riding desire",
+          "on top position",
+          "sexual dominance",
+          "active position"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "reflects positively on intimate experiences immediately after they occur",
+        "tags": [
+          "post-experience reflection",
+          "positive feedback",
+          "intimate experience validation",
+          "immediate reflection",
+          "experience appreciation",
+          "sexual satisfaction",
+          "intimate activity feedback",
+          "positive reinforcement",
+          "relationship satisfaction",
+          "sexual fulfillment",
+          "experience validation",
+          "satisfaction expression",
+          "intimate feedback"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses elongated words to emphasize intense positive emotions ('loooove')",
+        "tags": [
+          "elongated spelling",
+          "emphasis technique",
+          "emotional intensity expression",
+          "typing pattern",
+          "excitement expression",
+          "enthusiasm communication",
+          "text emphasis",
+          "emotional emphasis",
+          "spelling variation",
+          "intensity marker",
+          "excited typing",
+          "love emphasis",
+          "strong feeling expression"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2422,9 +2500,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
-      "emotional_expressiveness: Continues transparent emotional signaling - uses shy/bashful emoji 🫣 alongside explicit statement, clearly communicating both her desire and the playful embarrassment/excitement she feels about expressing it",
-      "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts",
       "confidence: Continues maximum confidence rating - states 'I'm going to do it anyway' with direct, unfiltered decisiveness despite no context provided in snippet. Maintains pattern of straightforward communication without hedging or seeking approval.",
       "emotional_expressiveness: Uses shy/bashful emoji 🫣 when reciprocating romantic desire ('Me too 🫣') - continues pattern of transparent emotional signaling even in brief vulnerable moments, showing she expresses her matching romantic feelings directly",
       "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness",
@@ -2441,14 +2516,16 @@
       "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency",
       "emotional_expressiveness: Continues maximum emotional transparency - unprompted disclosure of internal mental state ('Thinking about you') directly connected to physical arousal state, maintaining pattern of expressing feelings/desires without filtering or prompting",
       "confidence: Maintains maximum confidence - initiates explicit sexual conversation completely unprompted by sharing vulnerable admission that thoughts of partner trigger arousal, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation",
-      "warmth: Even explicit sexual statement centers partner as the source of her desire ('Thinking about you') - maintains maximum warmth by framing arousal as connection to partner specifically rather than impersonal physical need"
+      "warmth: Even explicit sexual statement centers partner as the source of her desire ('Thinking about you') - maintains maximum warmth by framing arousal as connection to partner specifically rather than impersonal physical need",
+      "emotional_expressiveness: Uses elongated 'loooove' and triple emoji repetition (😍😍😍 and 🥵🥵🥵) to express intense enthusiasm and arousal about recent intimate experience - continues maximum emotional transparency by immediately sharing positive feedback unprompted",
+      "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
+      "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "single emoji as complete message response",
+    "emoji_frequency": "triple emoji repetition for emphasis during intense emotional/sexual moments",
     "preferred_emojis": [
-      "😳",
       "😓",
       "🥹",
       "😂",
@@ -2462,7 +2539,8 @@
       "🥲",
       "🙂",
       "🥺",
-      "🙄"
+      "🙄",
+      "😍"
     ],
     "formality_level": "casual",
     "humor_style": "uses laughter frequently in standalone responses and to diffuse tension or lighten moments",
@@ -2472,7 +2550,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I know",
       "Well",
       "Me ?",
       "I dont get hard like you",
@@ -2501,7 +2578,8 @@
       "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
-      "🤤 (used in repetition for emphasis)"
+      "🤤 (used in repetition for emphasis)",
+      "loooove (elongated for emphasis)"
     ]
   },
   "topic_engagement": {
@@ -3077,24 +3155,19 @@
     "thinking_about_partner": 9.7,
     "arousal_from_thoughts": 9.6,
     "partner_as_arousal_source": 9.7,
-    "mental_sexual_stimulation": 9.5
+    "mental_sexual_stimulation": 9.5,
+    "reflecting_on_intimate_experiences": 9.8,
+    "video_call_sexual_experiences": 9.7,
+    "post_intimacy_feedback": 9.6,
+    "expressing_satisfaction_unprompted": 9.8,
+    "riding_position_desire": 9.7,
+    "sitting_position": 9.6,
+    "initiating_position_preferences_after_intimacy": 9.5,
+    "positive_sexual_experience_validation": 9.7,
+    "unprompted_enthusiasm_about_partner": 9.8,
+    "sexual_position_initiative": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_explains_delays_transparently",
-      "engagement_boost": 9.2,
-      "evidence": "Laura immediately announces internet issue that interrupted communication - whatever communication pattern has been established made her feel comfortable explaining technical difficulties rather than simply disappearing without explanation"
-    },
-    {
-      "pattern": "responding_patiently_to_connectivity_issues",
-      "engagement_boost": 9.1,
-      "evidence": "Laura's casual, humorous explanation ('hahaha') suggests she doesn't feel anxious or guilty about the brief interruption - indicates partner has previously responded to technical difficulties with patience rather than frustration"
-    },
-    {
-      "pattern": "creating_space_for_unprompted_intense_sexual_expressions",
-      "engagement_boost": 9.7,
-      "evidence": "Laura initiated extremely direct sexual desire statement without prompt - whatever interaction preceded this created environment where she felt safe expressing intense sexual want spontaneously and explicitly"
-    },
     {
       "pattern": "allowing_her_to_escalate_sexually_at_her_own_pace",
       "engagement_boost": 9.6,
@@ -3179,6 +3252,21 @@
       "pattern": "establishing_safety_for_unprompted_sexual_disclosures",
       "engagement_boost": 9.9,
       "evidence": "Laura feels comfortable sharing vulnerable admission that mere thoughts of partner arouse her, without being asked or without sexual conversation already in progress - indicates high level of sexual communication safety and comfort built over time"
+    },
+    {
+      "pattern": "creating_intimate_experiences_worth_reflecting_positively_on",
+      "engagement_boost": 9.8,
+      "evidence": "Laura unpromptedly initiates enthusiastic positive feedback about 'what we did today' with triple love and fire emojis - whatever intimate video call experience occurred left strong positive impression that she felt compelled to immediately validate and appreciate"
+    },
+    {
+      "pattern": "building_sexual_experiences_that_trigger_future_desire",
+      "engagement_boost": 9.7,
+      "evidence": "Immediately after expressing love for their recent activity, Laura transitions to expressing specific sexual position desire ('I want to sit on you') - the intimate experience was satisfying enough to trigger immediate desire for escalated physical intimacy"
+    },
+    {
+      "pattern": "creating_safety_for_unprompted_positive_sexual_feedback",
+      "engagement_boost": 9.9,
+      "evidence": "Laura feels comfortable initiating reflection on intimate experience without being asked and expressing intense enthusiasm ('loooove', 'oh my God') - indicates relationship environment where she feels safe providing explicit positive feedback about sexual experiences unprompted"
     }
   ],
   "avoid_patterns": [
