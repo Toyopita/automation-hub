@@ -16931,6 +16931,48 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:35:10.449034+09:00",
+      "summary": "Thank for the vidéo ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「vidéo」はフランス語入力のまま。彼が送った動画への素直な感謝。短いけど好意的な反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -4,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
