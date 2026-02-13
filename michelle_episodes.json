@@ -557,5 +557,22 @@
     ],
     "emotional_tone": "light, playful, casual banter",
     "unresolved": null
+  },
+  {
+    "id": 29,
+    "timestamp_start": "2026-02-12 11:53",
+    "timestamp_end": "2026-02-12 12:53",
+    "summary": "Casual conversation about lunch timing habits. YOU typically eats around 12-12:30pm depending on work, while Michelle has a structured 1pm lunch break at work. She manages the late lunch time by eating a full meal before leaving home to avoid getting too hungry.",
+    "topics": [
+      "lunch habits",
+      "work schedule",
+      "daily routine"
+    ],
+    "key_facts_learned": [
+      "Michelle's work break time is at 1pm",
+      "She eats a full meal before leaving home to manage hunger until her 1pm lunch break"
+    ],
+    "emotional_tone": "light-hearted and casual",
+    "unresolved": null
   }
 ]
