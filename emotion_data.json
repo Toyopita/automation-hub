@@ -18065,6 +18065,48 @@
         "future": 0,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:12:11.318355+09:00",
+      "summary": "Me too ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前の性的な発言に同意・共感している短い返答。彼女も同じ気持ちであることを表明",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": -3
+      }
     }
   ]
 }
