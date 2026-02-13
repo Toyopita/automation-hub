@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:59:21.010037+09:00",
+  "last_updated": "2026-02-13T19:10:51.429016+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1941,6 +1941,38 @@
           "practical concerns"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "asks about partner's physical pleasure preferences during intimate moments (touch sensitivity questions)",
+        "tags": [
+          "sexual communication",
+          "pleasure inquiry",
+          "touch preferences",
+          "sensitivity questions",
+          "intimate questions",
+          "partner pleasure",
+          "physical preferences",
+          "sexual exploration",
+          "arousal questions",
+          "sensory preferences"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "has typos when typing quickly during sexually charged moments ('toi' instead of 'you', 'qhen' instead of 'when')",
+        "tags": [
+          "typing errors",
+          "quick typing",
+          "aroused typing",
+          "typos",
+          "fast typing",
+          "excited mistakes",
+          "keyboard errors",
+          "french keyboard interference",
+          "bilingual typing",
+          "typing patterns"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1952,8 +1984,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Expresses gratitude with smile emoji after receiving romantic goodnight scenario and appreciation for her video content - maintains affectionate tone even in brief response. Continues pattern of emotionally warm communication across all contexts.",
-      "humor_appreciation: Responds with 'Hahaha' to playful sexual misunderstanding about arousal physiology, showing she finds the anatomical mix-up amusing rather than awkward",
       "confidence: Continues pattern of direct, unfiltered sexual communication - openly describes herself as 'horny all the time' without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering",
       "humor_appreciation: Uses playful teasing with laughing emoji 'Maybe you are Just words 😂' - suggests partner may have been making romantic/sexual promises and she's teasingly questioning if he's all talk, showing continued pattern of playful skepticism and humor in relationship",
@@ -1971,7 +2001,9 @@
       "confidence: Continues maximum confidence rating - directly suggests explicit sexual video activity ('masturbate in the camera') with no hedging, euphemism, or apologetic framing. Maintains pattern of direct, unfiltered sexual communication and initiative.",
       "emotional_expressiveness: Maintains maximum emotional expressiveness - uses 'Hahaha' to transparently signal her playful/humorous emotional state while making explicit sexual suggestion, showing continued pattern of expressing emotional tone directly even during sexual communication.",
       "warmth: Maintains maximum warmth - even explicit sexual video suggestion is framed with laughter ('Hahaha') creating playful, inviting tone rather than demanding or transactional. Continues pattern of maintaining emotional warmth across all communication contexts including sexual.",
-      "confidence: Continues pattern of direct communication - explicitly corrects partner's misunderstanding about timezone differences without hedging ('But you dont understand that we don't have the same time'), maintaining maximum confidence rating for straightforward communication style"
+      "confidence: Continues pattern of direct communication - explicitly corrects partner's misunderstanding about timezone differences without hedging ('But you dont understand that we don't have the same time'), maintaining maximum confidence rating for straightforward communication style",
+      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
+      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering"
     ]
   },
   "communication_style": {
@@ -2522,14 +2554,15 @@
     "timezone_coordination_challenges": 8.5,
     "explaining_relationship_logistics": 8.7,
     "correcting_partner_misunderstanding": 8.3,
-    "addressing_scheduling_obstacles": 8.6
+    "addressing_scheduling_obstacles": 8.6,
+    "partner_pleasure_preferences": 9.4,
+    "touch_sensitivity_questions": 9.3,
+    "asking_about_partner_physical_sensations": 9.5,
+    "pleasure_focused_questions": 9.4,
+    "intimate_touch_inquiry": 9.3,
+    "sexual_pleasure_exploration": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "asking_about_location_with_humor_rather_than_interrogation",
-      "engagement_boost": 7.4,
-      "evidence": "The 'haha' and 'baby' soften what could be a surveillance-feeling question about her whereabouts - makes it playful curiosity rather than controlling inquiry, which fits established pattern of her appreciating affectionate attention"
-    },
     {
       "pattern": "expressing_interest_in_seeing_her_during_daily_activities",
       "engagement_boost": 7.8,
@@ -2624,6 +2657,11 @@
       "pattern": "asking_direct_time_questions_gets_immediate_factual_response",
       "engagement_boost": 8.2,
       "evidence": "Laura's immediate '7pm' answer to what time it is for partner shows she responds quickly and directly to straightforward time/logistics questions without elaboration"
+    },
+    {
+      "pattern": "creating_space_for_her_to_ask_pleasure_questions",
+      "engagement_boost": 9.3,
+      "evidence": "Laura feels comfortable asking direct questions about partner's physical pleasure and touch preferences - suggests previous interactions have created safe space for her sexual curiosity and partner-focused intimate questions"
     }
   ],
   "avoid_patterns": [
