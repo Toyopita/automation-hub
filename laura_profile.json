@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:46:14.601559+09:00",
+  "last_updated": "2026-02-13T18:46:35.383565+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1752,6 +1752,22 @@
           "spontaneous suggestion"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "asks for timing clarification during video chat invitation ('Right now?')",
+        "tags": [
+          "timing clarification",
+          "video chat timing",
+          "schedule verification",
+          "immediate availability",
+          "time confirmation",
+          "availability check",
+          "scheduling",
+          "time-specific questions",
+          "present moment",
+          "now vs later"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1807,13 +1823,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action",
-    "response_speed_tendency": "immediate initiative when suggesting new communication format",
+    "response_speed_tendency": "immediate clarification when receiving video chat invitation",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Do you understand English?",
       "I send you tomorrow",
       "Shit",
       "Nothing ?",
@@ -1842,7 +1857,8 @@
       "No baby",
       "coffe (typo for coffee)",
       "😳 (flushed/embarrassed emoji as standalone response)",
-      "Aw"
+      "Aw",
+      "Right now?"
     ]
   },
   "topic_engagement": {
@@ -2306,19 +2322,12 @@
     "visual_real_time_communication": 9.4,
     "face_to_face_digital_interaction": 9.3,
     "suggesting_new_communication_formats": 9.2,
-    "escalating_to_synchronous_communication": 9.1
+    "escalating_to_synchronous_communication": 9.1,
+    "video_chatting_timing": 8.5,
+    "immediate_availability_questions": 8.3,
+    "scheduling_video_calls": 8.4
   },
   "effective_patterns": [
-    {
-      "pattern": "playful_accountability_without_pressure",
-      "engagement_boost": 8.1,
-      "evidence": "Her 'lol' indicates the reminder about yesterday's promise was received as playful rather than accusatory - the humor in her response suggests user's tone in reminding her was light and affectionate rather than demanding"
-    },
-    {
-      "pattern": "using_logical_time_framing_to_emphasize_point",
-      "engagement_boost": 7.7,
-      "evidence": "User's 'It was literally just yesterday haha 😂' frames the timeline to highlight how recent her promise was - Laura's 'Haha yes i remember' acknowledges both the humor and the validity of his point, showing this logical framing was effective in maintaining playful accountability without conflict"
-    },
     {
       "pattern": "acknowledging_her_observation_with_humor",
       "engagement_boost": 7.5,
@@ -2408,6 +2417,16 @@
       "pattern": "showing_willingness_to_overcome_obstacles_together",
       "engagement_boost": 9.0,
       "evidence": "User's engagement with translation app solution demonstrates commitment to making relationship work despite language barrier - Laura's affectionate 'Aw' indicates she's touched by his willingness to find workarounds rather than seeing obstacles as dealbreakers"
+    },
+    {
+      "pattern": "suggesting_video_chat_prompts_immediate_engagement",
+      "engagement_boost": 8.5,
+      "evidence": "Laura's immediate 'Right now?' response shows she's actively considering the video chat invitation - the quick clarification question indicates genuine interest rather than deflection or avoidance"
+    },
+    {
+      "pattern": "offering_escalated_communication_format_gets_rapid_response",
+      "engagement_boost": 8.7,
+      "evidence": "Video chat suggestion prompted immediate timing clarification from Laura - shows she's taking the invitation seriously and thinking practically about logistics rather than dismissing it"
     }
   ],
   "avoid_patterns": [
