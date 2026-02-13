@@ -632,5 +632,24 @@
     ],
     "emotional_tone": "casual, lighthearted, practical",
     "unresolved": "What she usually gets to eat at the mall"
+  },
+  {
+    "id": 33,
+    "timestamp_start": "2026-02-12 12:53",
+    "timestamp_end": "2026-02-12 14:42",
+    "summary": "Michelle explained her eating routine around her work schedule - she cooks breakfast and dinner at home, but eats lunch at the mall during her 30-minute work break. Her go-to lunch spots are McDonald's and Jollibee.",
+    "topics": [
+      "food",
+      "work routine",
+      "cooking",
+      "meal habits"
+    ],
+    "key_facts_learned": [
+      "Michelle cooks her own breakfast and dinner",
+      "She has a 30-minute lunch break at work",
+      "She eats lunch at the mall, usually at McDonald's or Jollibee"
+    ],
+    "emotional_tone": "casual, friendly, practical",
+    "unresolved": null
   }
 ]
