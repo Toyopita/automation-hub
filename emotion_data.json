@@ -17477,6 +17477,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:49:46.790501+09:00",
+      "summary": "Can you wait à Little ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "ビデオチャットの前に準備時間が欲しいと丁寧に伝えている。起床直後で食事とシャワーが必要。前向きだが焦らず自分のペースを保っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
