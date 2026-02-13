@@ -18485,6 +18485,48 @@
         "future": -1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:18:54.057745+09:00",
+      "summary": "Yes it is ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルな肯定の返事。卵とジャムの組み合わせについての確認と思われる。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": -2
+      }
     }
   ]
 }
