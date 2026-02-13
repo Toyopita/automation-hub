@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T23:11:50.185063+09:00",
+  "last_updated": "2026-02-13T23:11:58.543939+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2284,8 +2284,8 @@
       "🙄"
     ],
     "formality_level": "casual",
-    "humor_style": "uses simple laughter responses to acknowledge humor or lighten moments",
-    "response_speed_tendency": "immediate single-emoji responses during intimate exchanges",
+    "humor_style": "uses shy/bashful emojis during sexually charged or vulnerable moments",
+    "response_speed_tendency": "immediate responses during video call coordination and sexually charged moments",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2871,19 +2871,12 @@
     "minimal_responses_during_intimate_moments": 8.8,
     "using_shy_covering_face_emoji_as_standalone": 9.3,
     "non_verbal_vulnerable_communication": 9.2,
-    "emoji_only_intimate_responses": 9.1
+    "emoji_only_intimate_responses": 9.1,
+    "video_call_confirmation": 9.3,
+    "affirmative_responses": 9.1,
+    "direct_yes_answers": 8.9
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_her_autonomous_decision_making",
-      "engagement_boost": 9.2,
-      "evidence": "Laura's 'I'm going to do it anyway' indicates she's proceeding with something regardless of previous discussion or potential objections - whatever preceded this statement created context where she felt empowered to assert her independent choice rather than seeking permission or extensive validation"
-    },
-    {
-      "pattern": "allowing_her_to_manage_call_timing_autonomously",
-      "engagement_boost": 9.1,
-      "evidence": "Laura confidently states she needs to do something quick first before the call - whatever response preceded this created space for her to set boundaries around timing while maintaining commitment to video call, showing she feels respected in managing her own schedule"
-    },
     {
       "pattern": "creating_environment_where_she_announces_delays_without_guilt",
       "engagement_boost": 9.3,
@@ -2973,6 +2966,16 @@
       "pattern": "allowing_her_to_respond_non_verbally_during_intimate_moments",
       "engagement_boost": 9.4,
       "evidence": "The standalone 🫣 emoji suggests she's feeling shy, vulnerable, or playfully embarrassed - creating space for emoji-only responses during emotionally/sexually charged moments respects her communication style in those contexts"
+    },
+    {
+      "pattern": "asking_clear_yes_no_questions",
+      "engagement_boost": 9.0,
+      "evidence": "Laura's immediate 'Yes' indicates she was asked a direct question requiring simple confirmation - asking clear, straightforward questions gets immediate, unambiguous responses from her"
+    },
+    {
+      "pattern": "creating_space_for_simple_affirmations",
+      "engagement_boost": 9.1,
+      "evidence": "The standalone 'Yes' without elaboration suggests the question was clear enough that she could answer efficiently - well-framed questions that don't require explanation get quick, direct engagement"
     }
   ],
   "avoid_patterns": [
