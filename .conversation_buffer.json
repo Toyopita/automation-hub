@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Babe injust woke up i need to eat and take a shower ",
-    "time": "18:46"
-  },
-  {
-    "role": "laura",
     "text": "What Time is there? ",
     "time": "18:47"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "I’m going to do it anyway ",
     "time": "19:13"
+  },
+  {
+    "role": "laura",
+    "text": "Me too 🫣",
+    "time": "19:57"
   }
 ]
