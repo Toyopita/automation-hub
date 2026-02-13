@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "ahh makes sense, 30 minutes isn't much time to do anything haha. what do you usually get at the mall?",
-    "time": "2026-02-12 13:28"
-  },
-  {
     "role": "michelle",
     "text": "hmm.. you mean for lunch? sometimes at mcdonalds but often jollibee",
     "time": "2026-02-12 14:42"
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "yes actually my fam from another province will be visiting here for the celebration tomorrow for valentines day so i have no choice but to not go to work for 2 days 😆",
     "time": "2026-02-13 13:47"
+  },
+  {
+    "role": "you",
+    "text": "oh wait so you're off for valentines day haha. family taking priority over the cosmetics store I see 😆",
+    "time": "2026-02-13 14:10"
   }
 ]
