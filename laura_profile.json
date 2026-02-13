@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:53:05.566594+09:00",
+  "last_updated": "2026-02-13T18:57:52.849826+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1948,7 +1948,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action; also uses laughter to soften explicit sexual suggestions",
-    "response_speed_tendency": "immediate status updates about basic needs or transitions; rapid responses during sexually charged exchanges",
+    "response_speed_tendency": "immediate for sleep schedule coordination questions - responded quickly to question about partner's sleep timing, continuing pattern of prioritizing communication about daily routines and schedules",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2010,7 +2010,7 @@
     "shared_sexual_experiences": 8.6,
     "shared_sexual_humor": 8.3,
     "mutual_laughter_about_intimate_topics": 8.5,
-    "partner_sleep_schedule": 7.5,
+    "partner_sleep_schedule": 7.9,
     "time_awareness_in_relationship": 7.9,
     "expressing_affection_directly": 8.2,
     "receiving_emotional_declarations": 8.4,
@@ -2465,7 +2465,9 @@
     "live_sexual_interaction": 9.6,
     "escalating_video_chat_to_sexual": 9.7,
     "suggesting_explicit_video_activities": 9.8,
-    "masturbation_on_camera": 9.5
+    "masturbation_on_camera": 9.5,
+    "sleep_coordination": 8.3,
+    "bedtime_timing_questions": 8.4
   },
   "effective_patterns": [
     {
