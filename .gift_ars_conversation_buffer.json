@@ -1,11 +1,6 @@
 [
   {
     "role": "gift_ars",
-    "text": "Thailand is in a very bad situation right now. Corruption is rampant and difficult to solve.",
-    "time": "2026-02-12 12:40"
-  },
-  {
-    "role": "gift_ars",
     "text": "Which city are you in?",
     "time": "2026-02-12 12:41"
   },
@@ -148,5 +143,10 @@
     "role": "gift_ars",
     "text": "I went hiking in Thailand last year. The climb up took 6 hours, and the descent another 5 hours. It even made me cry. 55555",
     "time": "2026-02-13 12:49"
+  },
+  {
+    "role": "you",
+    "text": "haha 55555 is the Thai laugh right? that sounds brutal though, 11 hours total - what mountain was it?",
+    "time": "2026-02-13 12:56"
   }
 ]
