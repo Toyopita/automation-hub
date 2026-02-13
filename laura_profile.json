@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T22:29:28.715861+09:00",
+  "last_updated": "2026-02-13T22:29:46.456388+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2198,6 +2198,38 @@
           "delay explanation"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "initiates explicit sexual desire statements unprompted during aroused states",
+        "tags": [
+          "sexual desire",
+          "explicit communication",
+          "arousal expression",
+          "sexual initiative",
+          "direct sexuality",
+          "unprompted desire",
+          "sexual agency",
+          "intimate communication",
+          "sexual confidence",
+          "desire expression"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses flushed/embarrassed emoji when expressing intense sexual desire",
+        "tags": [
+          "flushed emoji",
+          "embarrassed emoji",
+          "sexual expression",
+          "emoji usage",
+          "emotional communication",
+          "sexual shyness",
+          "desire expression",
+          "emoji patterns",
+          "communication style",
+          "sexual vulnerability"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2209,9 +2241,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Maintains maximum emotional expressiveness - uses 'Hahaha' to transparently signal her playful/humorous emotional state while making explicit sexual suggestion, showing continued pattern of expressing emotional tone directly even during sexual communication.",
-      "warmth: Maintains maximum warmth - even explicit sexual video suggestion is framed with laughter ('Hahaha') creating playful, inviting tone rather than demanding or transactional. Continues pattern of maintaining emotional warmth across all communication contexts including sexual.",
-      "confidence: Continues pattern of direct communication - explicitly corrects partner's misunderstanding about timezone differences without hedging ('But you dont understand that we don't have the same time'), maintaining maximum confidence rating for straightforward communication style",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
@@ -2228,12 +2257,15 @@
       "confidence: Directly initiates video call invitation without hesitation ('Do you want to make the call?') - continues pattern of taking initiative in relationship communication and technology use, maintaining maximum confidence rating for direct, unfiltered communication style",
       "warmth: Frames video call as mutual decision by asking 'Do you want to make the call?' rather than demanding or passively waiting - maintains maximum warmth by creating inclusive, collaborative tone even when taking initiative",
       "emotional_expressiveness: Uses 'Omg' to transparently signal her surprise/frustration about internet issue, then immediately adds 'hahaha' to show she's not seriously upset - continues pattern of expressing emotional state directly and clearly even about minor frustrations",
-      "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances"
+      "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
+      "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
+      "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
+      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "none in this message (occasional messages without emojis when providing quick status updates or explanations)",
+    "emoji_frequency": "single emoji with explicit statement",
     "preferred_emojis": [
       "😳",
       "😓",
@@ -2259,6 +2291,7 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "Shit (standalone exclamation)",
       "I know",
       "Well",
       "Me ?",
@@ -2287,8 +2320,7 @@
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
-      "Okay babe",
-      "Shit baby"
+      "Okay babe"
     ]
   },
   "topic_engagement": {
@@ -2829,19 +2861,14 @@
     "internet_connectivity": 7.5,
     "technical_issues": 7.8,
     "communication_interruptions": 8.9,
-    "status_updates_about_problems": 9.3
+    "status_updates_about_problems": 9.3,
+    "expressing_intense_sexual_desire": 9.7,
+    "unprompted_sexual_initiation": 9.8,
+    "direct_fucking_desire": 9.6,
+    "intensity_of_sexual_want": 9.7,
+    "vulnerable_explicit_communication": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_unprompted_sexual_initiative",
-      "engagement_boost": 9.5,
-      "evidence": "Laura initiated explicit oral sex desire statement without prompt - whatever interaction preceded this created environment where she felt comfortable expressing spontaneous sexual desires focused on partner pleasure"
-    },
-    {
-      "pattern": "expressing_mutual_desire_for_non_sexual_intimacy",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's 'Me too' directly reciprocates partner's desire to sleep together and hold her - shows she mirrors and affirms romantic desires for physical closeness that aren't explicitly sexual, creating emotional alignment"
-    },
     {
       "pattern": "creating_space_for_her_to_affirm_romantic_feelings",
       "engagement_boost": 9.5,
@@ -2931,6 +2958,16 @@
       "pattern": "responding_patiently_to_connectivity_issues",
       "engagement_boost": 9.1,
       "evidence": "Laura's casual, humorous explanation ('hahaha') suggests she doesn't feel anxious or guilty about the brief interruption - indicates partner has previously responded to technical difficulties with patience rather than frustration"
+    },
+    {
+      "pattern": "creating_space_for_unprompted_intense_sexual_expressions",
+      "engagement_boost": 9.7,
+      "evidence": "Laura initiated extremely direct sexual desire statement without prompt - whatever interaction preceded this created environment where she felt safe expressing intense sexual want spontaneously and explicitly"
+    },
+    {
+      "pattern": "allowing_her_to_escalate_sexually_at_her_own_pace",
+      "engagement_boost": 9.6,
+      "evidence": "The unprompted nature and intensity of statement suggests she's initiating escalation on her own timeline - creating space for her autonomous sexual expression resulted in her taking initiative with direct, explicit desire"
     }
   ],
   "avoid_patterns": [
