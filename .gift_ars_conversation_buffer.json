@@ -1,10 +1,5 @@
 [
   {
-    "role": "gift_ars",
-    "text": "I like Osaka more than Tokyo! hahaha",
-    "time": "2026-02-12 13:10"
-  },
-  {
     "role": "you",
     "text": "haha you've been to Osaka? yeah it's got a different vibe for sure, more laid back I think",
     "time": "2026-02-12 13:24"
@@ -148,5 +143,10 @@
     "role": "gift_ars",
     "text": "It's a typical Thai laugh.",
     "time": "2026-02-13 13:18"
+  },
+  {
+    "role": "gift_ars",
+    "text": "The mountain is called Phu Kradueng.",
+    "time": "2026-02-13 13:19"
   }
 ]
