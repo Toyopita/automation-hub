@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:50:17.056320+09:00",
+  "last_updated": "2026-02-13T18:51:53.317246+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1800,6 +1800,22 @@
           "appetite"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "initiates sexual interest checks with partner (asks if he's horny)",
+        "tags": [
+          "sexual communication",
+          "initiation",
+          "arousal inquiry",
+          "relationship dynamics",
+          "sexual interest",
+          "direct communication",
+          "horniness question",
+          "sexual checking",
+          "partner state",
+          "sexual engagement"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1811,8 +1827,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges.",
-      "warmth: Accepts partner's romantic bedtime scenario with grace despite being tired - no evidence of decreased warmth. Continues pattern of maintaining connection before sleep transition.",
       "emotional_expressiveness: Continues pattern of direct, transparent emotional communication - acknowledges partner's video with gratitude and announces bedtime without filtering or hedging",
       "confidence: Confidently announces bedtime transition 'Well im going to sleep now' without apologizing or over-explaining - maintains maximum confidence rating for direct, unfiltered communication even during vulnerable tired state",
       "warmth: Maintains affectionate good morning greeting with kiss emoji after bedtime routine - 'Morning 😚' shows consistent emotional warmth even in brief status update. Continues maximum warmth rating through reliable affectionate communication across conversation transitions.",
@@ -1830,14 +1844,15 @@
       "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
       "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts",
       "confidence: Continues pattern of direct, unfiltered communication - directly suggests video chat format without hedging or over-explaining. Maintains maximum confidence rating for straightforward communication style.",
-      "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats."
+      "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats.",
+      "confidence: Directly initiates sexual conversation with straightforward question 'Are you horny?' without hedging or euphemism - maintains maximum confidence rating for direct, unfiltered sexual communication style",
+      "emotional_expressiveness: Uses rolling eyes emoji 🙄 with sexual question, suggesting playful exasperation or teasing tone - continues pattern of transparent emotional signaling even in brief messages"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence (5-8 words)",
     "emoji_frequency": "moderate (1-2 emojis in emotional context, can send messages without emojis)",
     "preferred_emojis": [
-      "😆",
       "😳",
       "😓",
       "🥹",
@@ -1851,7 +1866,8 @@
       "😭",
       "🥲",
       "🙂",
-      "🥺"
+      "🥺",
+      "🙄"
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action",
@@ -1861,7 +1877,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I send you tomorrow",
       "Shit",
       "Nothing ?",
       "I mean",
@@ -1890,7 +1905,8 @@
       "coffe (typo for coffee)",
       "😳 (flushed/embarrassed emoji as standalone response)",
       "Aw",
-      "Right now?"
+      "Right now?",
+      "Are you horny?"
     ]
   },
   "topic_engagement": {
@@ -2361,7 +2377,10 @@
     "partner_timezone": 8.3,
     "time_coordination": 8.1,
     "partner_local_time": 8.4,
-    "sharing_basic_needs_status": 8.2
+    "sharing_basic_needs_status": 8.2,
+    "initiating_sexual_interest_questions": 9.4,
+    "checking_partner_arousal_state": 9.3,
+    "direct_horniness_inquiries": 9.2
   },
   "effective_patterns": [
     {
