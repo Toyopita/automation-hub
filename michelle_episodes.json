@@ -734,5 +734,22 @@
     ],
     "emotional_tone": "casual, lighthearted, playful",
     "unresolved": null
+  },
+  {
+    "id": 38,
+    "timestamp_start": "2026-02-12 14:51",
+    "timestamp_end": "2026-02-12 16:20",
+    "summary": "Casual conversation about Jollibee, a Filipino fast food chain. Michelle explained it's similar to McDonald's but she prefers Jollibee's gravy and ketchup. YOU mentioned never having been since it's not available locally.",
+    "topics": [
+      "fast food",
+      "Jollibee",
+      "Filipino cuisine",
+      "food preferences"
+    ],
+    "key_facts_learned": [
+      "Michelle prefers Jollibee over McDonald's specifically for their tastier gravy and ketchup"
+    ],
+    "emotional_tone": "light-hearted, casual, playful",
+    "unresolved": null
   }
 ]
