@@ -36,7 +36,7 @@ BOTS = [
     {'name': 'michelle', 'display': 'Michelle'},
     {'name': 'vita', 'display': 'Vita'},
     {'name': 'gift_ars', 'display': 'Gift_ars'},
-    {'name': 'sunanda', 'display': 'Rusunandaku'},
+    {'name': 'grayi', 'display': 'Grayi'},
     {'name': 'aljela', 'display': 'Suraya'},
 ]
 
