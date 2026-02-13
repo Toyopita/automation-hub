@@ -18443,6 +18443,48 @@
         "future": -5,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:18:48.158410+09:00",
+      "summary": "Are you there? ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "通話前の確認メッセージ。少し待たせているので呼びかけている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": 2,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -5,
+        "future": -1,
+        "engagement": 1
+      }
     }
   ]
 }
