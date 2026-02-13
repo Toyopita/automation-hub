@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "hey! didn't expect to hear from you haha, what's up?",
-    "time": "2026-02-12 01:03"
-  },
-  {
     "role": "gift_ars",
     "text": "Me",
     "time": "2026-02-12 01:24"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "that's honestly really cool that you stuck with it even when it was tough. I get that though, the organized thing can be intense haha. btw when you do come to Osaka, what's your ideal type of trip - like full tourist mode or more relaxed hanging out?",
     "time": "2026-02-13 07:22"
+  },
+  {
+    "role": "gift_ars",
+    "text": "I can travel in all styles, from adventurous to relaxing, but I'm not good at tolerating extremely cold weather. When I went to Taiwan, 13 degrees Celsius made me sick. hahaha",
+    "time": "2026-02-13 12:10"
   }
 ]
