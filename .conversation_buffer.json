@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Can you wait à Little ",
-    "time": "18:49"
-  },
-  {
-    "role": "laura",
     "text": "I need to eat something ",
     "time": "18:49"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "I’m eating ",
+    "time": "20:27"
+  },
+  {
+    "role": "laura",
+    "text": "What time is there ",
     "time": "20:27"
   }
 ]
