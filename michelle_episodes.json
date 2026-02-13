@@ -693,5 +693,26 @@
     ],
     "emotional_tone": "casual, lighthearted, conversational",
     "unresolved": null
+  },
+  {
+    "id": 36,
+    "timestamp_start": "2026-02-12 13:28",
+    "timestamp_end": "2026-02-12 15:31",
+    "summary": "Discussion about Michelle's lunch routine during her 30-minute breaks at the mall. She usually eats at McDonald's or Jollibee, with Jollibee being a Filipino version of McDonald's that has different-tasting gravy and ketchup.",
+    "topics": [
+      "lunch habits",
+      "food preferences",
+      "Jollibee",
+      "Filipino cuisine",
+      "mall breaks"
+    ],
+    "key_facts_learned": [
+      "Michelle has 30-minute lunch breaks",
+      "She goes to the mall for lunch",
+      "She usually eats at McDonald's or Jollibee",
+      "She considers Jollibee a Filipino version of McDonald's with different gravy and ketchup taste"
+    ],
+    "emotional_tone": "casual, lighthearted, friendly",
+    "unresolved": null
   }
 ]
