@@ -17351,6 +17351,48 @@
         "future": -2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:45:58.094906+09:00",
+      "summary": "Vidéo chat ? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "ベッドにいると言った直後の誘い。会いたい気持ちと親密さを求めている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 7,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": 0
+      }
     }
   ]
 }
