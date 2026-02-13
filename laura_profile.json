@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T20:27:32.204820+09:00",
+  "last_updated": "2026-02-13T20:27:34.721945+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2051,22 +2051,6 @@
           "sexual openness"
         ],
         "added": "2026-02-13"
-      },
-      {
-        "text": "announces when eating meals during conversations",
-        "tags": [
-          "eating",
-          "meals",
-          "food",
-          "mealtime",
-          "communication habits",
-          "status updates",
-          "daily routine",
-          "dining",
-          "hunger",
-          "sustenance"
-        ],
-        "added": "2026-02-13"
       }
     ]
   },
@@ -2122,13 +2106,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action; also uses laughter to soften explicit sexual suggestions",
-    "response_speed_tendency": "immediate response when updating status or sharing basic needs - continues pattern of direct status communication",
+    "response_speed_tendency": "immediate response to timezone/time coordination questions - continues pattern of prioritizing scheduling and time-related clarifications",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Im not good at",
       "sorry",
       "Hahahha (extended laughter)",
       "Shit (standalone exclamation)",
@@ -2157,7 +2140,8 @@
       "Are you horny?",
       "do you want to masturbate in the camera",
       "Baby why hahah",
-      "Is 7pm (confirms time without full sentence structure)"
+      "Is 7pm (confirms time without full sentence structure)",
+      "What time is there"
     ]
   },
   "topic_engagement": {
@@ -2669,8 +2653,7 @@
     "affirming_shared_feelings": 9.7,
     "asserting_independence": 9.6,
     "making_decisions_independently": 9.5,
-    "proceeding_despite_concerns": 9.4,
-    "sharing_meal_status": 8.3
+    "proceeding_despite_concerns": 9.4
   },
   "effective_patterns": [
     {
