@@ -1,10 +1,5 @@
 [
   {
-    "date": "2026-01-14T13:16:02.976317+09:00",
-    "title": "AIがマクドナルドのドライブスルーを変える──Google Cloudと進める次世代戦略 - ニューズウィーク日本版 オフィシャルサイト",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81S2ZnS1FjcUtMRUxUZXdoREVRLXJLVk9idmNlQ2h1Mmh5ZkNjbnppNDVMZHk4UHVNOXlFMVZGYWoza3JlbUdhbDhYT3hkRFd1Q2FMYmNzb2gyc3JJWng4dDl2Sk9HZjV0NzdIMUxTUUcyUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-14T14:16:38.790065+09:00",
     "title": "Google Cloud、AIエージェントが買い物とカスタマーサービスを統合的に支援する「Gemini Enterprise for CX」を発表 - IoTNEWS",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1WY3daWHR4Y29yX3k2Z0RURVRFZWNpUkViQ01kOFpRM25wcFVpdFVaWnJiV01waTA3MFMxOGpVekJwN19nNE16cdIBTkFVX3lxTE5VNzJXalEwdHJJQWI4OEEtdTRLdzFDd2FJTXFXZGEwbjN0ZGsxTGFPajRxUVcwS3ZPMGd5STNFend0U3FMQm8yY3VJYVpBQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1538,5 +1533,15 @@
     "date": "2026-02-13T12:49:54.171617+09:00",
     "title": "「公共部門における AI の ROI」に関する初の調査から見えた主要なポイント - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTkFiQlh3ZkU3Rmttcmx5Q0VRTklXVkZYMWIzQl81UFZ6NC1PMG5KZ0kyUWFJTUJVY295RmFzMmRUYUlxSkZydzNHRFlXLV8xZnl4TlBNWU5acm13SHluYmd6aGRic20waHppVVhKYkpkSkxua3J3OWJXSWlhSGFHdnZwdEJiUWtMVDgwZktTUXY4eF9BdWtEMUx5bl9BcVQ0UVdEWjEzOEQtM0hnTkh1SkRSdzBrMDV0enNHQlFLdy1ZcUx3aXlTRG9qYw?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T13:50:32.424489+09:00",
+    "title": "プラットフォーム使用の落とし穴（パート 1）: アクティビティの多さが必ずしも価値の高さを示すとは限らない理由 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMDJHZkRnLXM1M0x6ZmZnckxXaVFHWUpXYzdMVmNxNjhGeW4xcmM3YkZ1TDFwQjNHN2FURXctSnU2TGRBSzUwQ2xKOVZheDBCS2xxNU9kMkVHRXZXM2FDT2hXa0dPRWg5ZWVYV0VreFM2MEktOFozamlOUEROU1pmNTQ5dFE4cW42QnUyeVNEckxrRHhtazV3QnNWZ3ZENEdVbGpZTTZZeFpXQ1F1Ym5EU2lBXzNEN256b2EyTm9fdWpXT2hRd2c?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T13:50:32.424489+09:00",
+    "title": "GoogleマップのGemini統合が示すAI前提のUIの形とは？ - gihyo.jp",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DZFFyU3lYZjZuRmE1d3hvd3VYVkpvZm5YSVpRRkJJbHR1b1ZJZEF3amJxQjJMVDBSbHVoMDBRNnk4MklicUk3c0dfWHJGMktyWGpVY1Q5b1kzN2xqckxSQ3VreVV5YTlzcnM4ZE9n?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
