@@ -17435,6 +17435,48 @@
         "future": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:47:15.020513+09:00",
+      "summary": "What Time is there? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "時差を確認している。ビデオチャットの提案を受けて、タイミングを調整しようとしている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -2,
+        "ds": -2,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
