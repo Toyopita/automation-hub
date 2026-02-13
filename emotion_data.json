@@ -16889,6 +16889,48 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:27:01.545093+09:00",
+      "summary": "Why haha ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い茶化し。前の文脈への素朴な疑問を笑いながら返している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 3,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
