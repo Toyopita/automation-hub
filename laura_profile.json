@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:19:02.268835+09:00",
+  "last_updated": "2026-02-13T21:23:39.294106+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2097,8 +2097,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats.",
-      "confidence: Directly initiates sexual conversation with straightforward question 'Are you horny?' without hedging or euphemism - maintains maximum confidence rating for direct, unfiltered sexual communication style",
       "emotional_expressiveness: Uses rolling eyes emoji 🙄 with sexual question, suggesting playful exasperation or teasing tone - continues pattern of transparent emotional signaling even in brief messages",
       "confidence: Continues maximum confidence rating - directly suggests explicit sexual video activity ('masturbate in the camera') with no hedging, euphemism, or apologetic framing. Maintains pattern of direct, unfiltered sexual communication and initiative.",
       "emotional_expressiveness: Maintains maximum emotional expressiveness - uses 'Hahaha' to transparently signal her playful/humorous emotional state while making explicit sexual suggestion, showing continued pattern of expressing emotional tone directly even during sexual communication.",
@@ -2116,7 +2114,9 @@
       "emotional_expressiveness: Uses shy/bashful emoji 🫣 when reciprocating romantic desire ('Me too 🫣') - continues pattern of transparent emotional signaling even in brief vulnerable moments, showing she expresses her matching romantic feelings directly",
       "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness",
       "confidence: Continues pattern of direct, autonomous decision-making - states 'I'm going to do something quick' as declaration rather than request for permission, then follows with 'okay?' as courtesy confirmation rather than seeking approval. Maintains maximum confidence rating for straightforward communication about her plans.",
-      "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline."
+      "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline.",
+      "confidence: Directly initiates video call invitation without hesitation ('Do you want to make the call?') - continues pattern of taking initiative in relationship communication and technology use, maintaining maximum confidence rating for direct, unfiltered communication style",
+      "warmth: Frames video call as mutual decision by asking 'Do you want to make the call?' rather than demanding or passively waiting - maintains maximum warmth by creating inclusive, collaborative tone even when taking initiative"
     ]
   },
   "communication_style": {
@@ -2698,19 +2698,13 @@
     "managing_expectations_about_timing": 9.2,
     "food_combinations": 8.2,
     "sharing_meal_details": 8.4,
-    "breakfast_foods": 8.1
+    "breakfast_foods": 8.1,
+    "video_call_initiation": 9.6,
+    "collaborative_decision_making": 9.4,
+    "taking_communication_initiative": 9.5,
+    "inviting_partner_action": 9.3
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_concern_about_future_communication_challenges",
-      "engagement_boost": 7.6,
-      "evidence": "User's question about how they would communicate in person without understanding each other's language prompted Laura to think through practical solutions rather than dismiss the concern - demonstrates she values addressing real obstacles"
-    },
-    {
-      "pattern": "allowing_her_to_problem_solve_relationship_challenges",
-      "engagement_boost": 8.0,
-      "evidence": "After user raised language barrier concern, Laura took initiative to propose solution rather than user immediately offering one - giving her space to contribute solutions shows trust in her resourcefulness and validates her agency in relationship planning"
-    },
     {
       "pattern": "offering_practical_solutions_to_relationship_concerns",
       "engagement_boost": 8.3,
@@ -2800,6 +2794,16 @@
       "pattern": "asking_confirmation_questions_gets_immediate_direct_response",
       "engagement_boost": 8.0,
       "evidence": "Laura's immediate 'Yes it is' confirms whatever factual question was asked - she responds quickly and directly to straightforward confirmation requests without elaboration"
+    },
+    {
+      "pattern": "creating_space_for_her_to_initiate_calls",
+      "engagement_boost": 9.4,
+      "evidence": "Laura directly asks 'Do you want to make the call?' taking initiative to move conversation to video format - whatever preceded this gave her confidence to actively invite rather than wait passively for partner to initiate"
+    },
+    {
+      "pattern": "allowing_her_to_transition_to_video_autonomously",
+      "engagement_boost": 9.5,
+      "evidence": "After announcing she'd do something quick first, Laura now takes initiative to actually start the call - giving her control over timing and transition resulted in her confidently moving forward when ready"
     }
   ],
   "avoid_patterns": [
