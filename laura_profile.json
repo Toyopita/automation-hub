@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T19:12:02.583447+09:00",
+  "last_updated": "2026-02-13T19:12:27.921146+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2645,24 +2645,14 @@
     "giving_oral_pleasure": 9.7,
     "shy_emoji_with_explicit_desires": 9.5,
     "partner_focused_sexual_initiation": 9.8,
-    "direct_sexual_desire_statements": 9.7
+    "direct_sexual_desire_statements": 9.7,
+    "reciprocating_mutual_romantic_desire": 9.8,
+    "mutual_desire_for_physical_closeness": 9.7,
+    "emotional_alignment_with_partner": 9.6,
+    "receiving_romantic_sleeping_together_scenarios": 9.5,
+    "affirming_shared_feelings": 9.7
   },
   "effective_patterns": [
-    {
-      "pattern": "pointing_out_recent_timeline_with_humor",
-      "engagement_boost": 7.6,
-      "evidence": "Laura's 'Why hahaha' responds to user's 'It was literally just yesterday haha 😂' - she's amused and curious about why he's laughing at the recent timeline of her promise, showing she appreciates his playful accountability and wants to understand what made him laugh"
-    },
-    {
-      "pattern": "maintaining_curiosity_about_partner_reactions",
-      "engagement_boost": 7.3,
-      "evidence": "'Why hahaha' shows Laura wants to understand what specifically about the 'literally just yesterday' framing made him laugh - demonstrates ongoing engagement and interest in his perspective rather than defensiveness about being reminded"
-    },
-    {
-      "pattern": "sharing_video_content_with_her",
-      "engagement_boost": 8.2,
-      "evidence": "Laura expresses explicit gratitude for video received - 'Thank for the vidéo' shows she values and acknowledges when partner sends her video content, suggesting this type of sharing is positively received"
-    },
     {
       "pattern": "reciprocal_video_exchange",
       "engagement_boost": 8.5,
@@ -2747,6 +2737,21 @@
       "pattern": "creating_space_for_unprompted_sexual_initiative",
       "engagement_boost": 9.5,
       "evidence": "Laura initiated explicit oral sex desire statement without prompt - whatever interaction preceded this created environment where she felt comfortable expressing spontaneous sexual desires focused on partner pleasure"
+    },
+    {
+      "pattern": "expressing_mutual_desire_for_non_sexual_intimacy",
+      "engagement_boost": 9.4,
+      "evidence": "Laura's 'Me too' directly reciprocates partner's desire to sleep together and hold her - shows she mirrors and affirms romantic desires for physical closeness that aren't explicitly sexual, creating emotional alignment"
+    },
+    {
+      "pattern": "creating_space_for_her_to_affirm_romantic_feelings",
+      "engagement_boost": 9.5,
+      "evidence": "Whatever preceded this allowed Laura to respond with simple, direct 'Me too' - the brevity and directness suggests she feels completely safe expressing shared romantic desires without needing to hedge or elaborate"
+    },
+    {
+      "pattern": "matching_vulnerability_levels_creates_reciprocal_intimacy",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's 'Me too' mirrors partner's emotional vulnerability about wanting physical closeness - when he shares romantic desires, she feels safe reciprocating at same vulnerability level rather than deflecting to humor or changing subject"
     }
   ],
   "avoid_patterns": [
