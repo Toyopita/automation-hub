@@ -18107,6 +18107,48 @@
         "future": 1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:13:15.360155+09:00",
+      "summary": "🫣 ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしそうな顔文字のみ。前の性的な発言の余韻で照れている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
