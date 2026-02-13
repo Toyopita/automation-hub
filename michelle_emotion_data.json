@@ -1226,6 +1226,37 @@
         "playfulness": -3,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T13:11:03.631135+09:00",
+      "summary": "ohh okay okay got it haha, i haven't eaten yet. i'",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく日常を共有、軽い笑いで親しみやすい雰囲気",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": -2,
+        "playfulness": 3,
+        "engagement": 1
+      }
     }
   ]
 }
