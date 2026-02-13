@@ -714,5 +714,25 @@
     ],
     "emotional_tone": "casual, lighthearted, friendly",
     "unresolved": null
+  },
+  {
+    "id": 37,
+    "timestamp_start": "2026-02-12 14:42",
+    "timestamp_end": "2026-02-12 16:00",
+    "summary": "Michelle shared that she often eats at Jollibee for lunch, sometimes at McDonald's. When you mentioned never having been to Jollibee, she explained it's a Filipino version of McDonald's but with better-tasting gravy and ketchup, which she prefers over McDonald's versions.",
+    "topics": [
+      "food",
+      "fast food chains",
+      "Jollibee",
+      "Filipino cuisine",
+      "lunch habits"
+    ],
+    "key_facts_learned": [
+      "Michelle frequently eats at Jollibee for lunch",
+      "She prefers Jollibee's gravy and ketchup over McDonald's",
+      "She's Filipino (implied by calling Jollibee 'a Filipino version of McDonald's')"
+    ],
+    "emotional_tone": "casual, lighthearted, playful",
+    "unresolved": null
   }
 ]
