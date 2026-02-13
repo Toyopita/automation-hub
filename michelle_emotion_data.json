@@ -1195,6 +1195,37 @@
         "playfulness": -2,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-13T12:58:50.686898+09:00",
+      "summary": "have you eaten?",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 6,
+        "playfulness": 3,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "気遣いを示す質問。親密さを深めようとしている",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 3,
+        "playfulness": -3,
+        "engagement": 1
+      }
     }
   ]
 }
