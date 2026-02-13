@@ -1288,6 +1288,37 @@
         "playfulness": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-13T14:24:33.295206+09:00",
+      "summary": "hahaha yes, here valentines day is important so i ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 8,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "明るく自己開示、恋人なしを冗談交じりに共有。健全な会話",
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": 2,
+        "engagement": 0
+      }
     }
   ]
 }
