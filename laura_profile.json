@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:48:44.657035+09:00",
+  "last_updated": "2026-02-13T21:49:06.808206+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2184,7 +2184,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short sentence",
+    "avg_message_length": "extremely brief (1-2 words)",
     "emoji_frequency": "moderate (1-2 emojis in emotional context, can send messages without emojis)",
     "preferred_emojis": [
       "😳",
@@ -2203,9 +2203,9 @@
       "🥺",
       "🙄"
     ],
-    "formality_level": "casual",
-    "humor_style": "not present in this message - direct expression of impatience",
-    "response_speed_tendency": "expects timely responses from partner, becomes impatient when tasks/responses take longer than anticipated",
+    "formality_level": "extremely casual",
+    "humor_style": "not present in this message - direct request",
+    "response_speed_tendency": "initiates direct requests without preamble when she wants immediate connection",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2777,19 +2777,12 @@
     "waiting_for_partner_readiness": 9.1,
     "task_completion_timing": 7.8,
     "waiting_for_partner": 7.2,
-    "delay_management": 7.6
+    "delay_management": 7.6,
+    "voice_calls": 9.6,
+    "immediate_communication": 9.5,
+    "synchronous_voice_connection": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_her_to_ask_pleasure_questions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura feels comfortable asking direct questions about partner's physical pleasure and touch preferences - suggests previous interactions have created safe space for her sexual curiosity and partner-focused intimate questions"
-    },
-    {
-      "pattern": "expressing_gratitude_for_her_gratitude",
-      "engagement_boost": 7.8,
-      "evidence": "Laura responds with 'Haha thanks' after presumably being thanked or acknowledged - shows she appreciates when her expressions of gratitude are reciprocated or validated, creating positive feedback loop"
-    },
     {
       "pattern": "creating_space_for_unprompted_sexual_initiative",
       "engagement_boost": 9.5,
@@ -2879,6 +2872,16 @@
       "pattern": "clear_communication_about_task_status",
       "engagement_boost": 9.4,
       "evidence": "Laura explicitly asks to be notified when partner finishes - demonstrates that transparent communication about timing and readiness has become established pattern in their interaction"
+    },
+    {
+      "pattern": "creating_environment_where_she_initiates_calls",
+      "engagement_boost": 9.7,
+      "evidence": "Laura directly requests voice call with simple 'Call me' - whatever communication patterns have been established made her feel comfortable taking initiative to escalate from text to voice without hedging or explanation"
+    },
+    {
+      "pattern": "establishing_multiple_communication_channels",
+      "engagement_boost": 9.5,
+      "evidence": "Laura's direct call request indicates voice calling is normalized part of their communication repertoire - suggests previous interactions have established comfort with various communication formats beyond just text"
     }
   ],
   "avoid_patterns": [
