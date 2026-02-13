@@ -389,6 +389,37 @@
         "playfulness": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T13:21:56.836751+09:00",
+      "summary": "yesss | 55555555 | It's a typical Thai laugh.",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "文化的な説明を交えた熱心な共有。会話を楽しんでいる様子",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
