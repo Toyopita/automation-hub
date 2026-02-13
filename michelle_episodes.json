@@ -651,5 +651,26 @@
     ],
     "emotional_tone": "casual, friendly, practical",
     "unresolved": null
+  },
+  {
+    "id": 34,
+    "timestamp_start": "2026-02-12 13:03",
+    "timestamp_end": "2026-02-12 14:51",
+    "summary": "Casual conversation about Michelle's eating habits and meal routines. She explained that she cooks breakfast and dinner at home, but eats lunch at the mall during her 30-minute work break, typically at McDonald's or Jollibee. YOU mentioned having heard of Jollibee but never trying it since it's not available locally.",
+    "topics": [
+      "food",
+      "daily routine",
+      "work break",
+      "cooking habits",
+      "fast food"
+    ],
+    "key_facts_learned": [
+      "Michelle cooks her own breakfast and dinner",
+      "She has a 30-minute lunch break at work",
+      "She eats lunch at the mall, usually McDonald's or Jollibee",
+      "She works a job with structured break times"
+    ],
+    "emotional_tone": "light, casual, friendly banter",
+    "unresolved": null
   }
 ]
