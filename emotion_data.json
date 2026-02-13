@@ -19367,6 +19367,48 @@
         "future": -6,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T00:01:35.893983+09:00",
+      "summary": "🤤🤤🤤",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "3回リトライ失敗: translation was empty or same as original",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -4,
+        "energy": -3,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": -5,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": -4
+      }
     }
   ]
 }
