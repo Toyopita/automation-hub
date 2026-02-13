@@ -574,5 +574,23 @@
     ],
     "emotional_tone": "light-hearted and casual",
     "unresolved": null
+  },
+  {
+    "id": 30,
+    "timestamp_start": "2026-02-12 12:16",
+    "timestamp_end": "2026-02-12 13:03",
+    "summary": "Casual conversation about lunch timing. YOU eats around 12-12:30pm depending on work, while Michelle has a 1pm break at work which she considers late. She compensates by eating a full meal before leaving home to avoid getting too hungry before her break.",
+    "topics": [
+      "lunch timing",
+      "work schedules",
+      "meal planning",
+      "daily routines"
+    ],
+    "key_facts_learned": [
+      "Michelle's work break is at 1pm",
+      "She eats a full meal before leaving for work to manage hunger until her 1pm break"
+    ],
+    "emotional_tone": "light, casual, playful banter",
+    "unresolved": "YOU asked if she cooks or just eats a big breakfast - question pending response"
   }
 ]
