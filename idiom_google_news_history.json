@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-14T14:16:38.790065+09:00",
-    "title": "Google Cloud、AIエージェントが買い物とカスタマーサービスを統合的に支援する「Gemini Enterprise for CX」を発表 - IoTNEWS",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1WY3daWHR4Y29yX3k2Z0RURVRFZWNpUkViQ01kOFpRM25wcFVpdFVaWnJiV01waTA3MFMxOGpVekJwN19nNE16cdIBTkFVX3lxTE5VNzJXalEwdHJJQWI4OEEtdTRLdzFDd2FJTXFXZGEwbjN0ZGsxTGFPajRxUVcwS3ZPMGd5STNFend0U3FMQm8yY3VJYVpBQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T15:17:14.962009+09:00",
-    "title": "GoogleがCT画像やMRIデータに対応した医療特化AIモデル「MedGemma 1.5 4B」と文字起こしモデル「MedASR」を公開 - GIGAZINE",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KU0N2WlA5dXV5Y2lubHJVSXZ4WS1vSHBKMldOb0s3M2pRNWNCSXhzb2RsN1NSOVVMUG9TTXRZalYyT2N1cTRHX0E1eGJXWFhCUnUzQVZuWVBGQkVYamRWanZoX1NEV1JNRnc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-14T16:17:54.177368+09:00",
     "title": "エージェント アプリで 100% に近い精度の Text-to-SQL を実現 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaVBFQzNWYVpzOWxkT080VjBOWVRoR29rcm10RlV3Mnc3aTRsZmw0Uk5zUFphNW1nc0toVkt5UTR0c1VHYVVDek4wZXhDbWtNMmNfR0ZKaVFialdlc2E1Z2puWHlWa1c5ZndfYUNQbkdsc1hESUxWbExsXzA4TnAwX0QtTFV1NklMVkpxeVQ4UW8yMjVhMlpqempfMA?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1543,5 +1533,15 @@
     "date": "2026-02-13T13:50:32.424489+09:00",
     "title": "GoogleマップのGemini統合が示すAI前提のUIの形とは？ - gihyo.jp",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DZFFyU3lYZjZuRmE1d3hvd3VYVkpvZm5YSVpRRkJJbHR1b1ZJZEF3amJxQjJMVDBSbHVoMDBRNnk4MklicUk3c0dfWHJGMktyWGpVY1Q5b1kzN2xqckxSQ3VreVV5YTlzcnM4ZE9n?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T15:51:46.032468+09:00",
+    "title": "GKE Inference Gateway で Vertex AI のレイテンシを 35% 削減した方法 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVdRek1iOHpQQ3BaZ3A1SW8ycXhrZDVZVnYwRmFsNy1vWTdEeTBaQ2lacHBLd0RJZkM1RURVeUtnTGxteXpicm1qNEhEOFlMVTVjcUhFcEE3UF9BTDBSZG9qZm9EbEx1a2hwTmF6dUYza3BQZ3FrNUNqTmJuWlZlcy1QS3V3ZTlybV91LVJuRkhramFyR050TEZSbjVSQ0FIYjg0WDZmMTRKVVVMMnB2ZlR6LU9EMnhORWxGTENn?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T15:51:46.032468+09:00",
+    "title": "Agentic AI Summit '26 Spring 開催決定！AIは「生成」から「実行」へ。ビジネスを動かすマルチエージェント時代。 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDRmbzYyZ002SXNrRTVubHlJYmpWVHBRX0ZocmxLMjNPeHhZMXhKamRVNjFCRXhxTkpUWEstMVpnb0RWa0ZHMDNwMTF1QXlPMFpXSUNqX1dZb1Y4WmNXU0xKbFZXX2I4UE15bFJycUdvckpBNE5UelVwRTFNTmFrSnd1U3VvVkVrOHpZZkVsV0Q0X2s?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
