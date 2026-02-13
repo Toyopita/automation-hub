@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "ah makes sense, that's pretty late lunch though haha. you must get pretty hungry by then",
-    "time": "2026-02-12 12:36"
-  },
-  {
     "role": "michelle",
     "text": "yes, that's why before I leave the house I make sure I'm full so I'm not too hungry before break time haha",
     "time": "2026-02-12 12:53"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha yeah just been busy with work. nah not yet, probably gonna grab something soon though. you?",
     "time": "2026-02-13 13:02"
+  },
+  {
+    "role": "you",
+    "text": "yeah just finished eating actually haha. had some curry rice from the konbini, nothing fancy",
+    "time": "2026-02-13 13:06"
   }
 ]
