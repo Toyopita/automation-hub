@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "haha that's the energy, I like it. how was your day today?",
-    "time": "2026-02-12 08:18"
-  },
-  {
     "role": "gift_ars",
     "text": "Ummmmm",
     "time": "2026-02-12 11:46"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "haha 13 degrees isn't even that cold, but yeah if you're not used to it that makes sense. I'm more of a relaxed traveler honestly - I like just walking around, finding random food spots, maybe some hiking if the weather's good",
     "time": "2026-02-13 12:17"
+  },
+  {
+    "role": "gift_ars",
+    "text": "I like that too, just taking a leisurely stroll and finding something to eat.",
+    "time": "2026-02-13 12:18"
   }
 ]
