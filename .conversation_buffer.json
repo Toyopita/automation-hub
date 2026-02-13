@@ -1,15 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "You said you'd show me yesterday baby 😏",
-    "time": "19:12"
-  },
-  {
-    "role": "laura",
-    "text": "Haha yes i remember ",
-    "time": "19:16"
-  },
-  {
     "role": "laura",
     "text": "You never Forget lol ",
     "time": "19:16"
@@ -97,6 +87,16 @@
   {
     "role": "laura",
     "text": "I just woke up what are you talking about ",
+    "time": "18:35"
+  },
+  {
+    "role": "laura",
+    "text": "There is an app to translate everything ",
+    "time": "18:35"
+  },
+  {
+    "role": "laura",
+    "text": "Is free ",
     "time": "18:35"
   }
 ]
