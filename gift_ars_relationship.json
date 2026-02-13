@@ -11,7 +11,7 @@
   "started": "2026-02-11",
   "signals": {
     "positive": {
-      "total_score": 5,
+      "total_score": 6,
       "recent_7d": [
         {
           "signal_type": "positive",
@@ -35,6 +35,14 @@
           "weight": 3,
           "evidence": "High intimacy score: 8",
           "timestamp": "2026-02-13T07:22:57.854614+09:00",
+          "date": "2026-02-13"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 8",
+          "timestamp": "2026-02-13T12:18:03.894445+09:00",
           "date": "2026-02-13"
         }
       ],
@@ -62,6 +70,14 @@
           "evidence": "High intimacy score: 8",
           "timestamp": "2026-02-13T07:22:57.854614+09:00",
           "date": "2026-02-13"
+        },
+        {
+          "signal_type": "positive",
+          "signal_name": "long_engaged_responses",
+          "weight": 1,
+          "evidence": "High engagement score: 8",
+          "timestamp": "2026-02-13T12:18:03.894445+09:00",
+          "date": "2026-02-13"
         }
       ]
     },
@@ -72,8 +88,8 @@
     }
   },
   "transition_readiness": {
-    "days_in_stage": 9,
-    "consecutive_positive_days": 4,
+    "days_in_stage": 10,
+    "consecutive_positive_days": 5,
     "last_risk_event": null,
     "blocked_until": null
   },
@@ -84,7 +100,7 @@
     "balance_score": 0.5
   },
   "topic_history": [],
-  "total_exchanges": 9,
+  "total_exchanges": 10,
   "total_days_active": 0,
   "notes": []
 }
