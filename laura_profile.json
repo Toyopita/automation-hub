@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T20:38:14.213472+09:00",
+  "last_updated": "2026-02-13T21:18:56.769951+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2141,7 +2141,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "immediate response to timezone/time coordination questions - continues pattern of prioritizing scheduling and time-related clarifications",
+    "response_speed_tendency": "fast response when checking partner presence/availability - continues pattern of quick replies to logistics/coordination questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2698,7 +2698,10 @@
     "managing_expectations_about_timing": 9.2,
     "food_combinations": 8.2,
     "sharing_meal_details": 8.4,
-    "breakfast_foods": 8.1
+    "breakfast_foods": 8.1,
+    "checking_partner_presence": 8.3,
+    "partner_availability_verification": 8.4,
+    "maintaining_connection": 8.6
   },
   "effective_patterns": [
     {
