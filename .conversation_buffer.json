@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Baby why hahah",
-    "time": "18:58"
-  },
-  {
-    "role": "laura",
     "text": "Is 7pm ",
     "time": "18:58"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Do you want to make the call? ",
     "time": "21:23"
+  },
+  {
+    "role": "laura",
+    "text": "Okay ",
+    "time": "21:24"
   }
 ]
