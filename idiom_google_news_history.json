@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-01-14T16:17:54.177368+09:00",
-    "title": "エージェント アプリで 100% に近い精度の Text-to-SQL を実現 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaVBFQzNWYVpzOWxkT080VjBOWVRoR29rcm10RlV3Mnc3aTRsZmw0Uk5zUFphNW1nc0toVkt5UTR0c1VHYVVDek4wZXhDbWtNMmNfR0ZKaVFialdlc2E1Z2puWHlWa1c5ZndfYUNQbkdsc1hESUxWbExsXzA4TnAwX0QtTFV1NklMVkpxeVQ4UW8yMjVhMlpqempfMA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T16:17:54.177368+09:00",
-    "title": "動画生成モデル「Veo 3.1」がモバイル向け縦動画の生成、1080p/4K超解像などに対応 - 窓の杜",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55djRuRFJYVVhiSF9kdnMtYWdHb1g2ZmV0dW5BQm5faS1sTmZPNURpSnQ2QlpTM1dJZmtyS09HTE1kZ0pmQ1pHNG1kdlJ3TEtNMXlpU0ZZS1F6SGN0VkFzQVhhXzRNeE5X?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T17:18:33.605341+09:00",
-    "title": "貴社のインフラストラクチャは AI エージェントに対応していますか？ - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2RxNmg4NTNMUkNmcnBYYjdmSU93SXdGVGVfNFNWMVNEYWUzUUJleGNmYVRqaHFTcmJueGpQWGxiWlBVeFhlZHgteDU3Q0luZzdWcnNMUmxDWjMwQWVRLVoxcmFfX05BQjl4bTFwSnVKZngyejNpZjRCNkVjV1lFSk9vODNYQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T17:18:33.605341+09:00",
-    "title": "MCP ツールボックスと ADK を使用して Looker を Gemini Enterprise に数分で接続する方法 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdGUxT0V6MWh2OFRkeFVmRXlvR3p5bm5vYzduSV94aFFpWnZtWG1OTjA4U1pOdW1BVnlzTTNiYjJsYTc1MDQ3ZHNNUmVTdjNRdk1vWExyU19RTjBieFlGaXVvY0E2bXhGaW1ZRldhdVpUVUhuTmtTTmNQOU83NEpHX2s2RTlnR0VwWTI2bnZhNHU2VTJWNzFnMW9XUDcyYXBkdUdCR3BQYWlZQVg1Q2U3V1lMeFZTem51RmZ6MFZ5SWRMeWpxNUdJ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-14T19:19:45.707258+09:00",
     "title": "Google Gemini auf iPhones und Samsung-Geräten – Dominante Weichenstellung im globalen Smartphone- und KI-Markt - Xpert.Digital - Konrad Wolfenstein",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSS1JYjVZR3ZzcDFsM0JobzdTWE1NSlNfdExXdWZES1RDSUMyakU3Q0J1N0tlaU94eGo4dWxHY08zZFc2VU5hMVNQZHFuV3F2M2JqOTh3RU56UGoyWEYzc3hlVUlLSm42ODkzUzBXaTVwZmxmRENTSEpJeC1PWElJNUFkc2g5dC1GdVB1OGh5VGI0RHhNX0xDdVV3LXk2bU1lWE1WdUlMNWVNT1pBT0lyOdIBuAFBVV95cUxNd1hucTE3MjBTSnhjc0d5d2g0T0ZmZ19hTzVBOFRXT2szSmh4U0VGRFl4VUh2Tk1ubXhFdnRtWm9PUk8tQXprMTg0ZExObmtxYklaRGJRY01IZWVfRWtPOVpXUTh1NHBseEE5UFU0TlVwZ1gtTzZSRzd2ZWM2bUxnZnRob3B0aWl1engxUnFKMDBwVW9URHMwQ2lvQXBVQ2lVTVB1R3gxTU5Gd3F5YkFtYUFucHhmdTlv?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1543,5 +1523,15 @@
     "date": "2026-02-13T15:51:46.032468+09:00",
     "title": "Agentic AI Summit '26 Spring 開催決定！AIは「生成」から「実行」へ。ビジネスを動かすマルチエージェント時代。 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDRmbzYyZ002SXNrRTVubHlJYmpWVHBRX0ZocmxLMjNPeHhZMXhKamRVNjFCRXhxTkpUWEstMVpnb0RWa0ZHMDNwMTF1QXlPMFpXSUNqX1dZb1Y4WmNXU0xKbFZXX2I4UE15bFJycUdvckpBNE5UelVwRTFNTmFrSnd1U3VvVkVrOHpZZkVsV0Q0X2s?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T17:52:57.231522+09:00",
+    "title": "【リーバイスのAI戦略】Microsoft、Googleとの連携でAI活用を加速。取り組みの最新動向まとめ - ネットショップ担当者フォーラム",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BOFVxRlRvZTRJd3ZfXzZra2Jickt0Q3NmOTNxNDNsb19ySW11ZWNsWHNRdWtuSWlrbUdJQnpFVlFQVnZnMnF2Xzdfajd5OUdoZkIzQU9KWWZfX3ll?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T17:52:57.231522+09:00",
+    "title": "会話だけで予定管理が完結 rakumoが生成AIエージェント投入、Google連携でカレンダー操作を自動化 - Plus Web3",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pc0RIZnp0eUVsanhoazRyV1dldTQ0Yk9TRlRoNUIzUktVelNiQ0NTUHlvZXdRT2lHM1VMYmdiNEVySTIwNVlMbUhsWGhVU2o4UTJrcFkyZVpCOXZUM2c?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
