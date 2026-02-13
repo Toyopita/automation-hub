@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "haha smart, basically carb loading before work\n\ndo you cook or just like eat a big breakfast?",
-    "time": "2026-02-12 13:03"
-  },
-  {
     "role": "michelle",
     "text": "I cook, I always eat for breakfast and dinner, but for lunch I eat at the mall because I only have a 30 minute break at work haha",
     "time": "2026-02-12 13:19"
@@ -148,5 +143,10 @@
     "role": "michelle",
     "text": "ohh okay okay got it haha, i haven't eaten yet. i'm still cooking lunch. since I need to cook a lot now because there are guests coming here haha",
     "time": "2026-02-13 13:09"
+  },
+  {
+    "role": "you",
+    "text": "oh nice, guests on a wednesday? haha must be something special",
+    "time": "2026-02-13 13:34"
   }
 ]
