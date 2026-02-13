@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:47:26.425303+09:00",
+  "last_updated": "2026-02-13T18:50:03.305602+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1784,6 +1784,38 @@
           "scheduling awareness"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "sometimes needs partner to wait during conversations (time constraints or competing priorities)",
+        "tags": [
+          "time management",
+          "availability",
+          "boundaries",
+          "conversation pauses",
+          "competing priorities",
+          "multitasking",
+          "delay requests",
+          "temporal constraints",
+          "scheduling",
+          "waiting"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses French autocorrect that changes 'a' to 'à' in English messages",
+        "tags": [
+          "french autocorrect",
+          "typing patterns",
+          "french keyboard",
+          "autocorrect interference",
+          "bilingual typing",
+          "french accent marks",
+          "language mixing",
+          "phone settings",
+          "french device",
+          "writing challenges"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1845,8 +1877,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I send you tomorrow",
-      "Shit",
       "Nothing ?",
       "I mean",
       "Im not good at",
@@ -1874,7 +1904,9 @@
       "coffe (typo for coffee)",
       "😳 (flushed/embarrassed emoji as standalone response)",
       "Aw",
-      "Right now?"
+      "Right now?",
+      "Can you wait à Little",
+      "à (French autocorrect for 'a')"
     ]
   },
   "topic_engagement": {
@@ -2344,7 +2376,11 @@
     "scheduling_video_calls": 8.4,
     "partner_timezone": 8.3,
     "time_coordination": 8.1,
-    "partner_local_time": 8.4
+    "partner_local_time": 8.4,
+    "requesting_partner_patience": 8.5,
+    "setting_temporal_boundaries": 8.3,
+    "communicating_delays": 8.4,
+    "managing_conversation_timing": 8.2
   },
   "effective_patterns": [
     {
@@ -2518,6 +2554,16 @@
       "pattern": "making_anal_requests_immediately_after_playful_skepticism",
       "engagement_drop": -1.8,
       "evidence": "Laura's 'Maybe you are Just words 😂' questioned whether partner backs up statements with action - immediately following with explicit anal request 'I wanna see your asshole baby 😏' doesn't address her skepticism and continues pattern of promises/requests without demonstrating follow-through she's testing for"
+    },
+    {
+      "pattern": "not_respecting_wait_requests",
+      "engagement_drop": -2.5,
+      "evidence": "Laura explicitly asks 'Can you wait à Little' - ignoring this request and continuing to press for immediate engagement would likely create frustration or pressure"
+    },
+    {
+      "pattern": "questioning_why_she_needs_time",
+      "engagement_drop": -2.2,
+      "evidence": "Asking 'why do you need to wait?' or demanding explanation for her time request would undermine her boundary-setting and suggest her time management needs justification"
     }
   ],
   "ng_topics": [],
