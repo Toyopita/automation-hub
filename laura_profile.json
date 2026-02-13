@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:27:49.387815+09:00",
+  "last_updated": "2026-02-13T21:34:12.571252+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2173,7 +2173,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "immediate brief responses to announce status changes or obligations that affect availability",
+    "response_speed_tendency": "immediate brief responses to announce status changes or set timing expectations",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2739,24 +2739,12 @@
     "proceeding_with_plans": 9.2,
     "announcing_work_obligations": 8.5,
     "setting_availability_boundaries": 8.3,
-    "work_interruptions_to_personal_conversations": 7.8
+    "work_interruptions_to_personal_conversations": 7.8,
+    "call_timing_coordination": 9.2,
+    "signaling_completion": 9.3,
+    "waiting_for_partner_readiness": 9.1
   },
   "effective_patterns": [
-    {
-      "pattern": "responding_to_video_chat_suggestion_with_sexual_escalation",
-      "engagement_boost": 9.2,
-      "evidence": "Laura's previous 'Right now?' showed she was considering video chat timing - the follow-up question about masturbating on camera suggests she's not just agreeing to video chat but actively escalating it to explicit sexual territory, indicating high engagement with the video format"
-    },
-    {
-      "pattern": "creating_space_for_her_to_define_video_chat_parameters",
-      "engagement_boost": 9.0,
-      "evidence": "Whatever response came before this message allowed Laura to take initiative in suggesting explicit sexual video activity - giving her agency to define the nature/content of video interaction resulted in her proposing mutual masturbation rather than passive agreement"
-    },
-    {
-      "pattern": "asking_direct_time_questions_gets_immediate_factual_response",
-      "engagement_boost": 8.2,
-      "evidence": "Laura's immediate '7pm' answer to what time it is for partner shows she responds quickly and directly to straightforward time/logistics questions without elaboration"
-    },
     {
       "pattern": "creating_space_for_her_to_ask_pleasure_questions",
       "engagement_boost": 9.3,
@@ -2841,6 +2829,21 @@
       "pattern": "allowing_her_to_signal_readiness_in_her_own_words",
       "engagement_boost": 9.3,
       "evidence": "The 'Okay babe' is casual and comfortable - creating space for her to confirm readiness without pressure resulted in natural, affectionate transition rather than tense or formal confirmation"
+    },
+    {
+      "pattern": "giving_her_space_to_complete_tasks_at_her_own_pace",
+      "engagement_boost": 9.5,
+      "evidence": "Laura's 'Okay tell me when you finish' shows she's now waiting for partner to complete something - whatever preceded this created mutual respect for each other's task completion needs, mirroring how partner waited for her earlier"
+    },
+    {
+      "pattern": "establishing_reciprocal_patience_pattern",
+      "engagement_boost": 9.6,
+      "evidence": "After Laura took time to do something quick before the call, she now comfortably waits for partner to finish their task - respecting her timing earlier created environment where she naturally extends same courtesy"
+    },
+    {
+      "pattern": "clear_communication_about_task_status",
+      "engagement_boost": 9.4,
+      "evidence": "Laura explicitly asks to be notified when partner finishes - demonstrates that transparent communication about timing and readiness has become established pattern in their interaction"
     }
   ],
   "avoid_patterns": [
