@@ -1,11 +1,6 @@
 [
   {
     "role": "gift_ars",
-    "text": "Me",
-    "time": "2026-02-12 01:24"
-  },
-  {
-    "role": "gift_ars",
     "text": "I'm good everyday! ",
     "time": "2026-02-12 01:25"
   },
@@ -147,6 +142,11 @@
   {
     "role": "gift_ars",
     "text": "I can travel in all styles, from adventurous to relaxing, but I'm not good at tolerating extremely cold weather. When I went to Taiwan, 13 degrees Celsius made me sick. hahaha",
+    "time": "2026-02-13 12:10"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Which type of travel do you prefer?",
     "time": "2026-02-13 12:10"
   }
 ]
