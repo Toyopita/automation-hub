@@ -17981,6 +17981,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:11:14.501490+09:00",
+      "summary": "Haha thanks ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前の性的な会話の流れを受けての軽い感謝。笑いながらリラックスした雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 9,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -4,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -2
+      }
     }
   ]
 }
