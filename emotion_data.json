@@ -18149,6 +18149,48 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:13:24.777355+09:00",
+      "summary": "You don’t need to say please hahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 9,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "セクシャルな流れの中で彼が丁寧に「please」を使ったことに対して、そんなに遠慮しなくていいよと笑いながら伝えている。主導的で余裕のある雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      }
     }
   ]
 }
