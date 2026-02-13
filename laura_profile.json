@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:25:12.043392+09:00",
+  "last_updated": "2026-02-13T21:27:42.333261+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2147,7 +2147,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Shit (standalone exclamation)",
       "I know",
       "Well",
       "Me ?",
@@ -2176,7 +2175,8 @@
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
-      "Okay babe"
+      "Okay babe",
+      "No (standalone negative response)"
     ]
   },
   "topic_engagement": {
