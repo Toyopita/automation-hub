@@ -18527,6 +18527,48 @@
         "future": 2,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:23:23.624910+09:00",
+      "summary": "Do you want to make the call? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 6,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "通話の確認。先ほどの性的な会話から切り替わり、実務的なトーンだが積極的に連絡を取ろうとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": -2,
+        "future": -2,
+        "engagement": 3
+      }
     }
   ]
 }
