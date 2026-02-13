@@ -592,5 +592,26 @@
     ],
     "emotional_tone": "light, casual, playful banter",
     "unresolved": "YOU asked if she cooks or just eats a big breakfast - question pending response"
+  },
+  {
+    "id": 31,
+    "timestamp_start": "2026-02-12 12:25",
+    "timestamp_end": "2026-02-12 13:19",
+    "summary": "Discussed Michelle's work lunch schedule - she has a 1pm break time which is quite late, so she eats a big cooked breakfast before work to avoid getting too hungry. She cooks breakfast and dinner at home, but eats lunch at the mall during her short 30-minute work break.",
+    "topics": [
+      "work schedule",
+      "meal timing",
+      "cooking habits",
+      "daily routine"
+    ],
+    "key_facts_learned": [
+      "Michelle's work break is at 1pm",
+      "She has a 30-minute break at work",
+      "She cooks breakfast and dinner at home",
+      "She eats lunch at the mall during work breaks",
+      "She strategically eats a filling breakfast before work to manage hunger"
+    ],
+    "emotional_tone": "casual, lighthearted, practical",
+    "unresolved": null
   }
 ]
