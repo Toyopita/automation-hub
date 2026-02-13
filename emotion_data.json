@@ -17855,6 +17855,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:59:02.215361+09:00",
+      "summary": "But you dont understand that we don’t have the same time ",
+      "scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "時差への不満を表現。少しフラストレーションが見られるが、「honey」「baby」など愛情表現も併用しており、関係性は維持。彼の性的な要求と自分の生活リズムのズレに困惑している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": 1,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
