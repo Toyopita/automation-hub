@@ -18611,6 +18611,48 @@
         "future": 1,
         "engagement": -5
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:24:48.594280+09:00",
+      "summary": "Okay babe ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "通話の準備ができたことを示す短い承諾。文脈上、彼が提案したことに同意している。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 2,
+        "future": -1,
+        "engagement": 3
+      }
     }
   ]
 }
