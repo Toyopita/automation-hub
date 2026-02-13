@@ -1257,6 +1257,37 @@
         "playfulness": 3,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T13:48:46.236680+09:00",
+      "summary": "yes actually my fam from another province will be ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "家族訪問を楽しみにしている様子。ポジティブで自然な共有",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": 0,
+        "engagement": 0
+      }
     }
   ]
 }
