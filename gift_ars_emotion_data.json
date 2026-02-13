@@ -296,6 +296,37 @@
         "playfulness": 0,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T12:12:14.419533+09:00",
+      "summary": "I can travel in all styles, from adventurous to re | Which type of travel do you prefer?",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "楽しく会話を続けようとする姿勢。自己開示しつつ相手に質問を返している",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "playfulness": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": -2,
+        "longing": -2,
+        "playfulness": 3,
+        "engagement": -1
+      }
     }
   ]
 }
