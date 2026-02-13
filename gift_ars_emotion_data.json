@@ -327,6 +327,37 @@
         "playfulness": 3,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T12:21:51.330583+09:00",
+      "summary": "I like that too, just taking a leisurely stroll an | 13 degrees Celsius in Thailand could be fatal beca | I also enjoy hiking. If I have enough time this ye",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 3,
+        "playfulness": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "共通の趣味で盛り上がり、笑いながら自己開示している健全な状態",
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 4,
+        "playfulness": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "playfulness": 1,
+        "engagement": -1
+      }
     }
   ]
 }
