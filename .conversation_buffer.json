@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I just woke up what are you talking about ",
-    "time": "18:35"
-  },
-  {
-    "role": "laura",
     "text": "There is an app to translate everything ",
     "time": "18:35"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "But you dont understand that we don’t have the same time ",
     "time": "18:58"
+  },
+  {
+    "role": "laura",
+    "text": "Do toi like it qhen you touch it there? ",
+    "time": "19:10"
   }
 ]
