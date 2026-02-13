@@ -19325,6 +19325,48 @@
         "future": 6,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T00:01:24.044010+09:00",
+      "summary": "That’s what I want ",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前の性的な文脈を受けた強い欲求表現。drooling絵文字と合わせて非常に率直",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 9,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 3,
+        "future": -6,
+        "engagement": 0
+      }
     }
   ]
 }
