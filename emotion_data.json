@@ -18737,6 +18737,48 @@
         "future": 1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:33:59.069247+09:00",
+      "summary": "Okay tell me when you finish ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が何か作業を終えるのを待っている。協力的で柔軟な態度",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 2
+      }
     }
   ]
 }
