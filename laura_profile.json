@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:27:42.333261+09:00",
+  "last_updated": "2026-02-13T21:27:49.387815+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2086,6 +2086,38 @@
           "relationship communication"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "announces work status during conversations",
+        "tags": [
+          "work",
+          "availability",
+          "status updates",
+          "communication habits",
+          "work boundaries",
+          "professional obligations",
+          "time management",
+          "conversation interruptions",
+          "work announcements",
+          "busy"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses work obligations to set conversation boundaries",
+        "tags": [
+          "boundaries",
+          "work",
+          "conversation limits",
+          "time boundaries",
+          "professional priorities",
+          "work-life balance",
+          "availability management",
+          "communication boundaries",
+          "work interruptions",
+          "obligation communication"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2141,12 +2173,13 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "immediate confirmation responses to readiness checks or procedural questions",
+    "response_speed_tendency": "immediate brief responses to announce status changes or obligations that affect availability",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "Shit (standalone exclamation)",
       "I know",
       "Well",
       "Me ?",
@@ -2175,8 +2208,7 @@
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
-      "Okay babe",
-      "No (standalone negative response)"
+      "Okay babe"
     ]
   },
   "topic_engagement": {
@@ -2704,7 +2736,10 @@
     "taking_communication_initiative": 9.5,
     "inviting_partner_action": 9.3,
     "confirming_readiness": 9.3,
-    "proceeding_with_plans": 9.2
+    "proceeding_with_plans": 9.2,
+    "announcing_work_obligations": 8.5,
+    "setting_availability_boundaries": 8.3,
+    "work_interruptions_to_personal_conversations": 7.8
   },
   "effective_patterns": [
     {
@@ -2893,6 +2928,11 @@
       "pattern": "attempting_to_control_or_prevent_her_decisions",
       "engagement_drop": -2.8,
       "evidence": "The 'anyway' in 'I'm going to do it anyway' suggests there may have been resistance, concern, or attempt to dissuade her from something - her declarative statement indicates she's proceeding regardless, so excessive control attempts would likely create friction"
+    },
+    {
+      "pattern": "continuing_conversation_when_she_announces_work",
+      "engagement_drop": -2.5,
+      "evidence": "Laura's simple declarative 'I have to work' signals need to shift focus or pause conversation - continuing without acknowledging this would ignore her boundary signal about current availability"
     }
   ],
   "ng_topics": [],
