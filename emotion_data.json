@@ -17813,6 +17813,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:58:49.406549+09:00",
+      "summary": "Honey i really understand ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼の状況や気持ちに共感を示している。直前の会話の流れから、時差や彼の眠気を理解している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
