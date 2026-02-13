@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-14T16:48:13.319099",
-    "title": "貴社のインフラストラクチャは AI エージェントに対応していますか？ - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2RxNmg4NTNMUkNmcnBYYjdmSU93SXdGVGVfNFNWMVNEYWUzUUJleGNmYVRqaHFTcmJueGpQWGxiWlBVeFhlZHgteDU3Q0luZzdWcnNMUmxDWjMwQWVRLVoxcmFfX05BQjl4bTFwSnVKZngyejNpZjRCNkVjV1lFSk9vODNYQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T16:48:13.319099",
-    "title": "\"1回直せばAIが覚える\"自社流に育つ経理AI—近鉄ロジスティクス・システムズの事例をPIVOTで公開 - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLclhFNUw3Qkpsa3Q5Ry0zaWJfYXY1VnZ1MVlBeTdSTGZYWkxZRFdFeGJ4a3NYNHU2Qm4waGZnVW43SmUzVVBfMVBLSGZrM0JpeDBMeE9FNEQtY2ZoSmVyWU93MEE2WHRmTkE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-14T17:48:51.309418",
     "title": "ホンダ系武蔵精密がデータセンター向け蓄電装置 AI・半導体の波に乗る - 日経ビジネス電子版",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rNGNQVFBqRDNGVWVoWUc1TW05TVl5bzFUVFFUYnFiTmo3YzVSNmRlQVZkYW1xamZjT0ktM0dSalRBNEhNc3VlWXF5T1lraVJKcDZCVEV1Y1UyemtYUlZYZTRiRDN6Wm8?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -5703,5 +5693,15 @@
     "date": "2026-02-13T15:49:27.866618",
     "title": "GKE Inference Gateway で Vertex AI のレイテンシを 35% 削減した方法 - Google Cloud",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOVdRek1iOHpQQ3BaZ3A1SW8ycXhrZDVZVnYwRmFsNy1vWTdEeTBaQ2lacHBLd0RJZkM1RURVeUtnTGxteXpicm1qNEhEOFlMVTVjcUhFcEE3UF9BTDBSZG9qZm9EbEx1a2hwTmF6dUYza3BQZ3FrNUNqTmJuWlZlcy1QS3V3ZTlybV91LVJuRkhramFyR050TEZSbjVSQ0FIYjg0WDZmMTRKVVVMMnB2ZlR6LU9EMnhORWxGTENn?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T16:50:06.350000",
+    "title": "AIバブル崩壊時の最大のリスク - 日本経済新聞",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5YTlvTUcxR1c1SmJaYUJrMU5QRVM5UkdMSDU2aFRJM3dZd1lTMGtEb0wwbDdJQ25tZTJsZFQ1d3d0WGNYdk5xeGZpb3hOdm5zUXNVUnpsdE12RDktMWpORGRvTHZiZkNQVFJhMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T16:50:06.350000",
+    "title": "exaBase 生成AI、「Claude Opus 4.6」の提供を開始 - PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoRkU2SHBiSnU0bzlNNjlPbXhQRUxnWnctVk9PS1VXdVlNakZDc1Q1OFdYd0twUkZhMi1GRlFfaDluUGlUdjVFQU9yeEtJM2JNenlXcDFXc0tid3BQeG1UWkhrS0o2Szg0MVE?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
