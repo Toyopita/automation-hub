@@ -19283,6 +19283,48 @@
         "future": 2,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-13T23:18:34.873135+09:00",
+      "summary": "I would like to live in the same city as you ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 9,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の後に将来への願望を表現。関係の深まりを示す素直な気持ち",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -3,
+        "future": 6,
+        "engagement": 1
+      }
     }
   ]
 }
