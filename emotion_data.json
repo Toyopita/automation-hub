@@ -17519,6 +17519,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:50:02.477224+09:00",
+      "summary": "I need to eat something ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "起きたばかりで空腹。ビデオチャットのリクエストに対して待ってほしいというニュアンス",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -2,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": -3,
+        "future": -2,
+        "engagement": -2
+      }
     }
   ]
 }
