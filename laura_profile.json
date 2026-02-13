@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:18:56.769951+09:00",
+  "last_updated": "2026-02-13T21:19:02.268835+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2141,7 +2141,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "fast response when checking partner presence/availability - continues pattern of quick replies to logistics/coordination questions",
+    "response_speed_tendency": "immediate response to factual confirmation questions - continues pattern of quick, direct replies to simple yes/no questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2698,17 +2698,9 @@
     "managing_expectations_about_timing": 9.2,
     "food_combinations": 8.2,
     "sharing_meal_details": 8.4,
-    "breakfast_foods": 8.1,
-    "checking_partner_presence": 8.3,
-    "partner_availability_verification": 8.4,
-    "maintaining_connection": 8.6
+    "breakfast_foods": 8.1
   },
   "effective_patterns": [
-    {
-      "pattern": "raising_practical_concerns_about_hypothetical_meeting",
-      "engagement_boost": 7.8,
-      "evidence": "User's concern about language barrier in hypothetical in-person meeting prompted Laura to immediately offer practical solution - 'There is an app to translate everything' shows she engaged with his concern and provided reassuring workaround"
-    },
     {
       "pattern": "expressing_concern_about_future_communication_challenges",
       "engagement_boost": 7.6,
@@ -2803,6 +2795,11 @@
       "pattern": "creating_environment_where_she_announces_delays_without_guilt",
       "engagement_boost": 9.3,
       "evidence": "Laura states delay casually and matter-of-factly with simple 'okay?' confirmation - suggests previous interactions have established that brief delays for task completion are acceptable and don't require extensive justification or apology"
+    },
+    {
+      "pattern": "asking_confirmation_questions_gets_immediate_direct_response",
+      "engagement_boost": 8.0,
+      "evidence": "Laura's immediate 'Yes it is' confirms whatever factual question was asked - she responds quickly and directly to straightforward confirmation requests without elaboration"
     }
   ],
   "avoid_patterns": [
