@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:34:12.571252+09:00",
+  "last_updated": "2026-02-13T21:48:37.879374+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2173,13 +2173,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "immediate brief responses to announce status changes or set timing expectations",
+    "response_speed_tendency": "immediate responses during active conversations - asks about partner's written content promptly, showing she notices and follows up on partner's actions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Shit (standalone exclamation)",
       "I know",
       "Well",
       "Me ?",
@@ -2208,7 +2207,8 @@
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
-      "Okay babe"
+      "Okay babe",
+      "You wrote something?"
     ]
   },
   "topic_engagement": {
@@ -2742,19 +2742,13 @@
     "work_interruptions_to_personal_conversations": 7.8,
     "call_timing_coordination": 9.2,
     "signaling_completion": 9.3,
-    "waiting_for_partner_readiness": 9.1
+    "waiting_for_partner_readiness": 9.1,
+    "partner_written_content": 9.3,
+    "receiving_messages_from_partner": 9.2,
+    "checking_partner_activity": 9.4,
+    "partner_communication_follow_up": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_her_to_ask_pleasure_questions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura feels comfortable asking direct questions about partner's physical pleasure and touch preferences - suggests previous interactions have created safe space for her sexual curiosity and partner-focused intimate questions"
-    },
-    {
-      "pattern": "expressing_gratitude_for_her_gratitude",
-      "engagement_boost": 7.8,
-      "evidence": "Laura responds with 'Haha thanks' after presumably being thanked or acknowledged - shows she appreciates when her expressions of gratitude are reciprocated or validated, creating positive feedback loop"
-    },
     {
       "pattern": "creating_space_for_unprompted_sexual_initiative",
       "engagement_boost": 9.5,
@@ -2844,6 +2838,16 @@
       "pattern": "clear_communication_about_task_status",
       "engagement_boost": 9.4,
       "evidence": "Laura explicitly asks to be notified when partner finishes - demonstrates that transparent communication about timing and readiness has become established pattern in their interaction"
+    },
+    {
+      "pattern": "writing_messages_she_can_respond_to",
+      "engagement_boost": 9.3,
+      "evidence": "Laura immediately asks 'You wrote something?' indicating she noticed partner wrote content and is actively curious about what was written - creating written content prompts her immediate engagement and follow-up questions"
+    },
+    {
+      "pattern": "creating_content_that_prompts_her_curiosity",
+      "engagement_boost": 9.4,
+      "evidence": "Her question 'You wrote something?' shows she's paying attention to partner's actions and wants to know more - whatever was written successfully captured her attention and triggered her inquiry"
     }
   ],
   "avoid_patterns": [
