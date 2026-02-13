@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:43:12.300424+09:00",
+  "last_updated": "2026-02-13T18:46:14.601559+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1720,6 +1720,38 @@
           "relationship initiative"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "interested in video chatting with partner",
+        "tags": [
+          "video chat",
+          "video call",
+          "visual communication",
+          "face to face",
+          "real-time communication",
+          "video messaging",
+          "visual connection",
+          "synchronous communication",
+          "video conversation",
+          "live chat"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "takes initiative to suggest video chat format",
+        "tags": [
+          "initiative",
+          "communication initiative",
+          "relationship initiative",
+          "video chat suggestion",
+          "proactive communication",
+          "format suggestion",
+          "escalation",
+          "communication method",
+          "video call request",
+          "spontaneous suggestion"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1731,8 +1763,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Responds to partner's solution with acceptance and laughter rather than defensiveness - 'We're chatting like this though, so no problem for me haha' met with genuine laughter and vulnerable admission about her Japanese ability without guardedness. Maintains maximum warmth through accepting partner's reframing of language barrier.",
-      "emotional_expressiveness: Continues pattern of direct vulnerability - unprompted admission 'Im not good at Japanese sorry' expresses insecurity openly. Multiple expressions of emotion (laughter, exclamations, apologizing) in rapid sequence shows unfiltered emotional transparency.",
       "humor_appreciation: Triple laughter 'Hahahha' followed by double laughing emojis '😂😂😂' shows she finds the language barrier situation genuinely amusing rather than frustrating. Maintains rating for appreciating absurdity of mutual language learning challenges.",
       "warmth: Accepts partner's romantic bedtime scenario with grace despite being tired - no evidence of decreased warmth. Continues pattern of maintaining connection before sleep transition.",
       "emotional_expressiveness: Continues pattern of direct, transparent emotional communication - acknowledges partner's video with gratitude and announces bedtime without filtering or hedging",
@@ -1750,7 +1780,9 @@
       "warmth: Expresses gratitude for video content received - 'Thank for the vidéo' shows she acknowledges and appreciates partner's efforts in sharing content, maintaining pattern of emotionally warm responses even in brief messages",
       "confidence: Confidently proposes practical solution to language barrier concern raised in previous conversation - continues pattern of direct, unfiltered communication without hedging or uncertainty",
       "confidence: Continues pattern of direct, unfiltered intimate communication - proactively offers bedtime pictures without prompting or hesitation ('Im in bed do you want to see ?'), maintaining maximum confidence rating for sexual/intimate initiative",
-      "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts"
+      "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts",
+      "confidence: Continues pattern of direct, unfiltered communication - directly suggests video chat format without hedging or over-explaining. Maintains maximum confidence rating for straightforward communication style.",
+      "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats."
     ]
   },
   "communication_style": {
@@ -1775,7 +1807,7 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action",
-    "response_speed_tendency": "immediate response when initiating intimate offers",
+    "response_speed_tendency": "immediate initiative when suggesting new communication format",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2269,7 +2301,12 @@
     "proactive_intimate_offers": 9.7,
     "initiating_visual_intimacy": 9.8,
     "bed_context_sharing": 9.5,
-    "unprompted_picture_offers": 9.6
+    "unprompted_picture_offers": 9.6,
+    "video_chatting": 9.5,
+    "visual_real_time_communication": 9.4,
+    "face_to_face_digital_interaction": 9.3,
+    "suggesting_new_communication_formats": 9.2,
+    "escalating_to_synchronous_communication": 9.1
   },
   "effective_patterns": [
     {
