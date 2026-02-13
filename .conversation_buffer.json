@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Maybe you are Just words 😂",
-    "time": "19:05"
-  },
-  {
     "role": "you",
     "text": "Haha 😂",
     "time": "19:09"
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Thank for the vidéo ",
+    "time": "18:35"
+  },
+  {
+    "role": "laura",
+    "text": "😳",
     "time": "18:35"
   }
 ]
