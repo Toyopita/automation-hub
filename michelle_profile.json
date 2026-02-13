@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-13T13:35:37.799441+09:00",
+  "last_updated": "2026-02-13T14:10:59.570417+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -21,7 +21,8 @@
     "family": [
       "Has grandmother who she visits and cooks for",
       "Lives with parents - cooks dinner for them at home after work/errands",
-      "Has guests visiting on Wednesday (2026-02-13) - requires cooking large meal for them"
+      "Has guests visiting on Wednesday (2026-02-13) - requires cooking large meal for them",
+      "Family from another province visits for special occasions like Valentine's Day"
     ],
     "languages": [
       "English"
@@ -1327,6 +1328,96 @@
           "cooking capacity"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "Takes 2 days off work for family Valentine's Day celebration (2026-02-13 and 2026-02-14)",
+        "tags": [
+          "work schedule",
+          "days off",
+          "valentines day",
+          "february 2026",
+          "family priority",
+          "time off",
+          "cosmetics store",
+          "absence",
+          "work-life balance",
+          "family time",
+          "holiday",
+          "celebration"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Frames taking time off work for family as 'no choice' - suggests family obligations take priority over work, possibly cultural or personal value system",
+        "tags": [
+          "family priority",
+          "work-life balance",
+          "obligation",
+          "duty",
+          "cultural values",
+          "family first",
+          "work flexibility",
+          "priorities",
+          "責任",
+          "family devotion",
+          "framing",
+          "language patterns"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Uses 😆 emoji when discussing obligation to miss work for family - maintains lighthearted tone about duty/responsibility, consistent with her pattern of using humor to downplay effort or obligation",
+        "tags": [
+          "😆",
+          "emoji usage",
+          "humor",
+          "obligation",
+          "family duty",
+          "lighthearted",
+          "emotional tone",
+          "communication style",
+          "downplaying",
+          "coping mechanism",
+          "work absence",
+          "responsibility"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Valentine's Day 2026 (February 14) is family celebration day with visiting relatives from another province",
+        "tags": [
+          "valentines day",
+          "february 14",
+          "2026",
+          "family celebration",
+          "holiday",
+          "special occasion",
+          "visiting family",
+          "省",
+          "celebration",
+          "family gathering",
+          "important date",
+          "annual event"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "The Wednesday guests mentioned earlier (2026-02-13) are family from another province arriving for Valentine's Day celebration - explains the 'need to cook a lot'",
+        "tags": [
+          "context connection",
+          "family guests",
+          "wednesday",
+          "valentines day",
+          "cooking for guests",
+          "out of town family",
+          "hosting",
+          "celebration preparation",
+          "family visit",
+          "multi-day visit",
+          "province",
+          "large meal"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1356,12 +1447,13 @@
       "confidence: Willing to offer sending bikini photos to Toyo without hesitation or extensive disclaimers - shows comfort with body image and trust in sharing intimate photos. Maintains confidence score of 9.",
       "warmth: Maintains warmth score of 10 - explicitly reframes her extensive multi-household cooking labor as 'one of my hobbies', showing she genuinely finds joy and fulfillment in caregiving rather than viewing it as obligatory burden. Combined with earlier evidence of cooking foods she doesn't like for grandmother's happiness, this confirms deep emotional warmth through service.",
       "warmth: Proactively initiated conversation after reopening app with caring check-in question 'have you eaten?' - shows she thinks about Toyo's wellbeing even when not actively chatting. Maintains warmth score of 10 as this adds to existing pattern of caretaking behavior (cooking for family, prioritizing others' happiness).",
-      "warmth: Maintains warmth score of 10 - continues pattern of extensive cooking labor for others (now guests in addition to grandmother and parents). Uses 'haha' to downplay significant hosting effort, consistent with her pattern of finding joy in caregiving rather than complaining about workload."
+      "warmth: Maintains warmth score of 10 - continues pattern of extensive cooking labor for others (now guests in addition to grandmother and parents). Uses 'haha' to downplay significant hosting effort, consistent with her pattern of finding joy in caregiving rather than complaining about workload.",
+      "warmth: Takes 2 days off work to host and celebrate Valentine's Day with visiting family from another province - prioritizes extended family gathering over work income, consistent with her pattern of extensive family caregiving (cooking for grandmother, parents, and now hosting provincial relatives). Frames it as obligation ('no choice') but uses 😆 to show she accepts/embraces this duty cheerfully."
     ]
   },
   "communication_style": {
     "avg_message_length": "medium (2 sentences with explanation)",
-    "emoji_frequency": "none in this message (context-dependent - uses more with vulnerable topics)",
+    "emoji_frequency": "moderate (1 per message in this exchange)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -1371,7 +1463,7 @@
       "hehe"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 'haha' extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills while sharing accomplishments. Playful and warm rather than sarcastic.",
+    "humor_style": "Uses 😆 and humor to downplay obligations, effort, and duty - maintains lighthearted tone about significant responsibilities. Self-deprecating about sacrifices while sharing accomplishments. Playful and warm rather than sarcastic.",
     "response_speed_tendency": "Quick responses when actively engaged; reopens app after breaks and immediately initiates conversation, showing consistent engagement pattern",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -1400,7 +1492,10 @@
       "open it again",
       "got it",
       "since",
-      "coming here"
+      "coming here",
+      "no choice but to",
+      "fam",
+      "another province"
     ]
   },
   "topic_engagement": {
@@ -1579,29 +1674,14 @@
     "cooking_for_guests": 8,
     "wednesday_activities": 6,
     "special_occasions": 5,
-    "home_entertaining": 7
+    "home_entertaining": 7,
+    "valentines_day_plans": 8,
+    "family_celebrations": 9,
+    "work_life_balance_family_priority": 9,
+    "provincial_family": 7,
+    "multi_day_hosting": 8
   },
   "effective_patterns": [
-    {
-      "pattern": "acknowledging_her_sacrifice_with_admiration",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha wait so you cook it for her but you don't even like eating it yourself? that's dedication' directly names and validates her selfless behavior, showing he noticed the sacrifice - response pending but creates opportunity for her to feel seen/appreciated"
-    },
-    {
-      "pattern": "using_haha_to_keep_tone_warm_not_overly_serious",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 😆 with 'haha' to maintain lighthearted tone about her sacrifice, avoiding making it feel heavy or pitying - response pending"
-    },
-    {
-      "pattern": "pointing_out_contrast_to_highlight_thoughtfulness",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'cook it for her but you don't even like eating it yourself' explicitly contrasts her action with her preference, making her thoughtfulness more visible - response pending but shows he's paying attention to details"
-    },
-    {
-      "pattern": "using_dedication_as_character_compliment",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'that's dedication' frames her behavior as admirable character trait rather than just nice action, elevating the compliment - response pending but validates her character not just behavior"
-    },
     {
       "pattern": "using_humor_to_acknowledge_impressive_effort",
       "engagement_boost": null,
@@ -1681,6 +1761,26 @@
       "pattern": "acknowledging_unusual_timing_without_judgment",
       "engagement_boost": null,
       "evidence": "Toyo's 'guests on a wednesday?' notes the midweek timing as notable without criticizing or demanding justification - response pending but shows attentiveness to details while respecting her choices"
+    },
+    {
+      "pattern": "playful_observation_about_priorities",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'family taking priority over the cosmetics store I see 😆' playfully acknowledges her family-first values while mirroring her 😆 emoji to maintain lighthearted tone - response pending but validates her priorities with humor rather than judgment"
+    },
+    {
+      "pattern": "mirroring_her_emoji_to_match_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo uses 😆 to mirror her emoji choice, showing emotional attunement and maintaining the lighthearted framing she established about missing work - response pending but creates tonal consistency"
+    },
+    {
+      "pattern": "acknowledging_context_connection",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'oh wait' shows he's connecting this new information (Valentine's family visit) to earlier context (Wednesday guests, cooking a lot) - response pending but demonstrates active listening across conversation timeline"
+    },
+    {
+      "pattern": "noting_valentines_day_timing_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'so you're off for valentines day haha' acknowledges the romantic holiday timing without making assumptions about her relationship status or creating awkwardness - response pending but keeps focus on family celebration rather than romantic expectations"
     }
   ],
   "avoid_patterns": [],
@@ -1691,5 +1791,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 15
+  "_exchange_count_since_consolidation": 16
 }
