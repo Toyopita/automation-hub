@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "But you dont understand that we don’t have the same time ",
-    "time": "18:58"
-  },
-  {
-    "role": "laura",
     "text": "Do toi like it qhen you touch it there? ",
     "time": "19:10"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "No ",
+    "time": "21:27"
+  },
+  {
+    "role": "laura",
+    "text": "I have to work ",
     "time": "21:27"
   }
 ]
