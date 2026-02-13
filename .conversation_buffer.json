@@ -1,10 +1,5 @@
 [
   {
-    "role": "laura",
-    "text": "Shit, my keyboard is in French is so difficult to write ",
-    "time": "19:24"
-  },
-  {
     "role": "you",
     "text": "You're at the office? haha I thought you were always working from home baby",
     "time": "20:09"
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Babe injust woke up i need to eat and take a shower ",
     "time": "18:46"
+  },
+  {
+    "role": "laura",
+    "text": "What Time is there? ",
+    "time": "18:47"
   }
 ]
