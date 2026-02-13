@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:49:06.808206+09:00",
+  "last_updated": "2026-02-13T21:49:13.023876+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2150,6 +2150,54 @@
           "status inquiry"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "experiences internet connectivity issues occasionally",
+        "tags": [
+          "internet",
+          "connectivity",
+          "technical issues",
+          "wifi",
+          "network",
+          "technology problems",
+          "internet outage",
+          "connection",
+          "online issues",
+          "digital infrastructure"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses laughter to lighten frustrating situations (internet issues)",
+        "tags": [
+          "humor",
+          "coping mechanism",
+          "frustration management",
+          "laughter",
+          "stress response",
+          "lighthearted",
+          "positive attitude",
+          "emotional regulation",
+          "problem response",
+          "resilience"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "announces technical difficulties to partner when they affect communication",
+        "tags": [
+          "communication transparency",
+          "status updates",
+          "technical issues",
+          "explaining delays",
+          "connectivity problems",
+          "relationship communication",
+          "keeping partner informed",
+          "transparency",
+          "problem notification",
+          "delay explanation"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2161,8 +2209,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Uses rolling eyes emoji 🙄 with sexual question, suggesting playful exasperation or teasing tone - continues pattern of transparent emotional signaling even in brief messages",
-      "confidence: Continues maximum confidence rating - directly suggests explicit sexual video activity ('masturbate in the camera') with no hedging, euphemism, or apologetic framing. Maintains pattern of direct, unfiltered sexual communication and initiative.",
       "emotional_expressiveness: Maintains maximum emotional expressiveness - uses 'Hahaha' to transparently signal her playful/humorous emotional state while making explicit sexual suggestion, showing continued pattern of expressing emotional tone directly even during sexual communication.",
       "warmth: Maintains maximum warmth - even explicit sexual video suggestion is framed with laughter ('Hahaha') creating playful, inviting tone rather than demanding or transactional. Continues pattern of maintaining emotional warmth across all communication contexts including sexual.",
       "confidence: Continues pattern of direct communication - explicitly corrects partner's misunderstanding about timezone differences without hedging ('But you dont understand that we don't have the same time'), maintaining maximum confidence rating for straightforward communication style",
@@ -2180,12 +2226,14 @@
       "confidence: Continues pattern of direct, autonomous decision-making - states 'I'm going to do something quick' as declaration rather than request for permission, then follows with 'okay?' as courtesy confirmation rather than seeking approval. Maintains maximum confidence rating for straightforward communication about her plans.",
       "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline.",
       "confidence: Directly initiates video call invitation without hesitation ('Do you want to make the call?') - continues pattern of taking initiative in relationship communication and technology use, maintaining maximum confidence rating for direct, unfiltered communication style",
-      "warmth: Frames video call as mutual decision by asking 'Do you want to make the call?' rather than demanding or passively waiting - maintains maximum warmth by creating inclusive, collaborative tone even when taking initiative"
+      "warmth: Frames video call as mutual decision by asking 'Do you want to make the call?' rather than demanding or passively waiting - maintains maximum warmth by creating inclusive, collaborative tone even when taking initiative",
+      "emotional_expressiveness: Uses 'Omg' to transparently signal her surprise/frustration about internet issue, then immediately adds 'hahaha' to show she's not seriously upset - continues pattern of expressing emotional state directly and clearly even about minor frustrations",
+      "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances"
     ]
   },
   "communication_style": {
-    "avg_message_length": "extremely brief (1-2 words)",
-    "emoji_frequency": "moderate (1-2 emojis in emotional context, can send messages without emojis)",
+    "avg_message_length": "single sentence",
+    "emoji_frequency": "none in this message (occasional messages without emojis when providing quick status updates or explanations)",
     "preferred_emojis": [
       "😳",
       "😓",
@@ -2203,9 +2251,9 @@
       "🥺",
       "🙄"
     ],
-    "formality_level": "extremely casual",
-    "humor_style": "not present in this message - direct request",
-    "response_speed_tendency": "initiates direct requests without preamble when she wants immediate connection",
+    "formality_level": "casual",
+    "humor_style": "uses laughter to defuse frustrating situations, maintains lighthearted tone even during technical difficulties",
+    "response_speed_tendency": "announces communication delays when they occur due to technical issues rather than leaving partner wondering",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -2778,9 +2826,10 @@
     "task_completion_timing": 7.8,
     "waiting_for_partner": 7.2,
     "delay_management": 7.6,
-    "voice_calls": 9.6,
-    "immediate_communication": 9.5,
-    "synchronous_voice_connection": 9.4
+    "internet_connectivity": 7.5,
+    "technical_issues": 7.8,
+    "communication_interruptions": 8.9,
+    "status_updates_about_problems": 9.3
   },
   "effective_patterns": [
     {
@@ -2874,14 +2923,14 @@
       "evidence": "Laura explicitly asks to be notified when partner finishes - demonstrates that transparent communication about timing and readiness has become established pattern in their interaction"
     },
     {
-      "pattern": "creating_environment_where_she_initiates_calls",
-      "engagement_boost": 9.7,
-      "evidence": "Laura directly requests voice call with simple 'Call me' - whatever communication patterns have been established made her feel comfortable taking initiative to escalate from text to voice without hedging or explanation"
+      "pattern": "creating_environment_where_she_explains_delays_transparently",
+      "engagement_boost": 9.2,
+      "evidence": "Laura immediately announces internet issue that interrupted communication - whatever communication pattern has been established made her feel comfortable explaining technical difficulties rather than simply disappearing without explanation"
     },
     {
-      "pattern": "establishing_multiple_communication_channels",
-      "engagement_boost": 9.5,
-      "evidence": "Laura's direct call request indicates voice calling is normalized part of their communication repertoire - suggests previous interactions have established comfort with various communication formats beyond just text"
+      "pattern": "responding_patiently_to_connectivity_issues",
+      "engagement_boost": 9.1,
+      "evidence": "Laura's casual, humorous explanation ('hahaha') suggests she doesn't feel anxious or guilty about the brief interruption - indicates partner has previously responded to technical difficulties with patience rather than frustration"
     }
   ],
   "avoid_patterns": [
