@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T20:34:24.927149+09:00",
+  "last_updated": "2026-02-13T20:38:14.213472+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -20,7 +20,9 @@
     "family": [],
     "languages": [],
     "favorites": {
-      "food": [],
+      "food": [
+        "eats eggs and jam together"
+      ],
       "music": [],
       "movies": [],
       "activities": []
@@ -2138,7 +2140,7 @@
       "🙄"
     ],
     "formality_level": "casual",
-    "humor_style": "playful teasing with skeptical edge - uses humor to test partner's sincerity or follow-through on promises, questions whether romantic/sexual statements will translate to action; also uses laughter to soften explicit sexual suggestions",
+    "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
     "response_speed_tendency": "immediate response to timezone/time coordination questions - continues pattern of prioritizing scheduling and time-related clarifications",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -2693,7 +2695,10 @@
     "coordinating_call_timing": 9.2,
     "keeping_partner_informed_of_delays": 9.4,
     "transitioning_to_video_calls": 9.3,
-    "managing_expectations_about_timing": 9.2
+    "managing_expectations_about_timing": 9.2,
+    "food_combinations": 8.2,
+    "sharing_meal_details": 8.4,
+    "breakfast_foods": 8.1
   },
   "effective_patterns": [
     {
