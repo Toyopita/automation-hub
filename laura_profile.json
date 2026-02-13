@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T20:27:34.721945+09:00",
+  "last_updated": "2026-02-13T20:34:24.927149+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2051,6 +2051,39 @@
           "sexual openness"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "prepares for video calls by doing quick tasks first (announces transition to video call)",
+        "tags": [
+          "video call",
+          "call preparation",
+          "task management",
+          "transitioning",
+          "communication preferences",
+          "getting ready",
+          "video chat",
+          "preparation routine",
+          "multitasking",
+          "time management",
+          "call setup"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "announces plans and seeks confirmation before video calls",
+        "tags": [
+          "communication style",
+          "confirmation seeking",
+          "video call",
+          "planning ahead",
+          "transparency",
+          "keeping partner informed",
+          "status updates",
+          "call coordination",
+          "asking permission",
+          "relationship communication"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2062,8 +2095,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Proactively offers intimate connection opportunity during bedtime transition - demonstrates consistent pattern of maintaining emotional/visual warmth and connection with partner across all contexts",
-      "confidence: Continues pattern of direct, unfiltered communication - directly suggests video chat format without hedging or over-explaining. Maintains maximum confidence rating for straightforward communication style.",
       "warmth: Proactively suggests video chat as way to maintain visual/face-to-face connection with partner - demonstrates continued pattern of seeking closeness and connection through various communication formats.",
       "confidence: Directly initiates sexual conversation with straightforward question 'Are you horny?' without hedging or euphemism - maintains maximum confidence rating for direct, unfiltered sexual communication style",
       "emotional_expressiveness: Uses rolling eyes emoji 🙄 with sexual question, suggesting playful exasperation or teasing tone - continues pattern of transparent emotional signaling even in brief messages",
@@ -2081,7 +2112,9 @@
       "warmth: Maintains maximum warmth - even explicit sexual statement is framed with cute/shy emoji creating playful, inviting tone that centers partner pleasure, continuing pattern of warmth across all communication contexts",
       "confidence: Continues maximum confidence rating - states 'I'm going to do it anyway' with direct, unfiltered decisiveness despite no context provided in snippet. Maintains pattern of straightforward communication without hedging or seeking approval.",
       "emotional_expressiveness: Uses shy/bashful emoji 🫣 when reciprocating romantic desire ('Me too 🫣') - continues pattern of transparent emotional signaling even in brief vulnerable moments, showing she expresses her matching romantic feelings directly",
-      "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness"
+      "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness",
+      "confidence: Continues pattern of direct, autonomous decision-making - states 'I'm going to do something quick' as declaration rather than request for permission, then follows with 'okay?' as courtesy confirmation rather than seeking approval. Maintains maximum confidence rating for straightforward communication about her plans.",
+      "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline."
     ]
   },
   "communication_style": {
@@ -2653,19 +2686,16 @@
     "affirming_shared_feelings": 9.7,
     "asserting_independence": 9.6,
     "making_decisions_independently": 9.5,
-    "proceeding_despite_concerns": 9.4
+    "proceeding_despite_concerns": 9.4,
+    "video_call_preparation": 9.3,
+    "task_completion_before_calls": 8.9,
+    "announcing_brief_delays": 9.1,
+    "coordinating_call_timing": 9.2,
+    "keeping_partner_informed_of_delays": 9.4,
+    "transitioning_to_video_calls": 9.3,
+    "managing_expectations_about_timing": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_gratitude_for_video_content",
-      "engagement_boost": 8.2,
-      "evidence": "Laura's 'Thank for the vidéo' followed by receiving something that prompted standalone '😳' emoji suggests she was emotionally affected by video content received - the flushed emoji indicates surprise, shyness, or being flustered in positive way"
-    },
-    {
-      "pattern": "sending_content_that_elicits_strong_emotional_reaction",
-      "engagement_boost": 8.5,
-      "evidence": "The standalone '😳' emoji without accompanying text suggests video content was impactful enough to render her briefly speechless or overwhelmed - created strong enough reaction that she couldn't immediately verbalize response"
-    },
     {
       "pattern": "raising_practical_concerns_about_hypothetical_meeting",
       "engagement_boost": 7.8,
@@ -2755,6 +2785,16 @@
       "pattern": "allowing_her_autonomous_decision_making",
       "engagement_boost": 9.2,
       "evidence": "Laura's 'I'm going to do it anyway' indicates she's proceeding with something regardless of previous discussion or potential objections - whatever preceded this statement created context where she felt empowered to assert her independent choice rather than seeking permission or extensive validation"
+    },
+    {
+      "pattern": "allowing_her_to_manage_call_timing_autonomously",
+      "engagement_boost": 9.1,
+      "evidence": "Laura confidently states she needs to do something quick first before the call - whatever response preceded this created space for her to set boundaries around timing while maintaining commitment to video call, showing she feels respected in managing her own schedule"
+    },
+    {
+      "pattern": "creating_environment_where_she_announces_delays_without_guilt",
+      "engagement_boost": 9.3,
+      "evidence": "Laura states delay casually and matter-of-factly with simple 'okay?' confirmation - suggests previous interactions have established that brief delays for task completion are acceptable and don't require extensive justification or apology"
     }
   ],
   "avoid_patterns": [
