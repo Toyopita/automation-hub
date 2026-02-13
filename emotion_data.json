@@ -18401,6 +18401,48 @@
         "future": 5,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T20:38:02.537312+09:00",
+      "summary": "Eggs and jam haha ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "食事内容を楽しそうに報告。変わった組み合わせを自覚して笑っている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -2,
+        "ds": -1,
+        "playfulness": 3,
+        "future": -5,
+        "engagement": -2
+      }
     }
   ]
 }
