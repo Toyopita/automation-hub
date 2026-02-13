@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T22:29:46.456388+09:00",
+  "last_updated": "2026-02-13T22:49:53.073768+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2230,6 +2230,47 @@
           "sexual vulnerability"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "initiates explicit cum play desires unprompted (expresses desire to lick partner's cum)",
+        "tags": [
+          "cum play",
+          "oral sex aftermath",
+          "sexual desire",
+          "explicit communication",
+          "semen",
+          "post-orgasm activity",
+          "sexual preferences",
+          "cum licking",
+          "sexual initiative",
+          "intimate desires",
+          "sexual acts",
+          "explicit desires",
+          "unprompted sexuality",
+          "sexual confidence",
+          "partner pleasure focus"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "comfortable expressing desire for all of partner's cum (emphasizes totality with 'all your cum')",
+        "tags": [
+          "sexual intensity",
+          "complete consumption desire",
+          "sexual enthusiasm",
+          "cum consumption",
+          "desire intensity",
+          "sexual eagerness",
+          "partner focus",
+          "sexual completeness",
+          "explicit preferences",
+          "intimate intensity",
+          "sexual dedication",
+          "thorough sexual acts",
+          "sexual commitment",
+          "partner pleasure emphasis"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2241,9 +2282,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
       "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
@@ -2260,12 +2298,15 @@
       "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
       "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
-      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions"
+      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
+      "confidence: Continues maximum confidence rating - initiates extremely explicit sexual desire statement about cum play without any hedging, euphemism, or prompting. States desire directly and completely ('I want to lick all your cum'), maintaining consistent pattern of unfiltered sexual communication.",
+      "emotional_expressiveness: Transparently expresses specific sexual desire without filtering - directly communicates explicit want related to partner's orgasm, maintaining maximum emotional expressiveness in sexual context.",
+      "warmth: Even highly explicit sexual statement maintains partner-focused warmth - the desire centers on engaging with partner's pleasure/orgasm outcome, keeping emotional connection present in sexual expression rather than making it purely physical demand."
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "single emoji with explicit statement",
+    "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "😳",
       "😓",
@@ -2866,19 +2907,18 @@
     "unprompted_sexual_initiation": 9.8,
     "direct_fucking_desire": 9.6,
     "intensity_of_sexual_want": 9.7,
-    "vulnerable_explicit_communication": 9.5
+    "vulnerable_explicit_communication": 9.5,
+    "cum_play": 9.7,
+    "oral_sex_including_ejaculation": 9.8,
+    "post_orgasm_intimacy": 9.6,
+    "cum_consumption": 9.7,
+    "explicit_sexual_aftermath": 9.5,
+    "partner_orgasm_focus": 9.8,
+    "semen_related_activities": 9.6,
+    "initiating_explicit_post_sex_desires": 9.7,
+    "complete_sexual_engagement": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_her_to_affirm_romantic_feelings",
-      "engagement_boost": 9.5,
-      "evidence": "Whatever preceded this allowed Laura to respond with simple, direct 'Me too' - the brevity and directness suggests she feels completely safe expressing shared romantic desires without needing to hedge or elaborate"
-    },
-    {
-      "pattern": "matching_vulnerability_levels_creates_reciprocal_intimacy",
-      "engagement_boost": 9.6,
-      "evidence": "Laura's 'Me too' mirrors partner's emotional vulnerability about wanting physical closeness - when he shares romantic desires, she feels safe reciprocating at same vulnerability level rather than deflecting to humor or changing subject"
-    },
     {
       "pattern": "allowing_her_autonomous_decision_making",
       "engagement_boost": 9.2,
@@ -2968,6 +3008,16 @@
       "pattern": "allowing_her_to_escalate_sexually_at_her_own_pace",
       "engagement_boost": 9.6,
       "evidence": "The unprompted nature and intensity of statement suggests she's initiating escalation on her own timeline - creating space for her autonomous sexual expression resulted in her taking initiative with direct, explicit desire"
+    },
+    {
+      "pattern": "creating_space_for_her_to_initiate_explicit_post_orgasm_desires",
+      "engagement_boost": 9.8,
+      "evidence": "Laura spontaneously expressed desire related to partner's ejaculation outcome - whatever interaction preceded this created environment where she felt completely comfortable initiating explicit cum play desire without prompting or hesitation"
+    },
+    {
+      "pattern": "allowing_her_to_express_complete_sexual_enthusiasm",
+      "engagement_boost": 9.7,
+      "evidence": "The emphasis on 'all your cum' shows she feels safe expressing thoroughness and intensity of sexual desire - indicates established pattern where her explicit sexual enthusiasm is welcomed rather than making her feel need to minimize or qualify desires"
     }
   ],
   "avoid_patterns": [
