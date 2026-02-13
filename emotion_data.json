@@ -18023,6 +18023,48 @@
         "future": 0,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:11:38.890066+09:00",
+      "summary": "I want to suck your dick 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 10,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的欲求を素直に表現。恥ずかしがりの絵文字で可愛らしさも残している。ビデオチャット中の発言",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 5,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 5,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 4
+      }
     }
   ]
 }
