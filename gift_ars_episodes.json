@@ -253,5 +253,25 @@
     ],
     "emotional_tone": "Light-hearted, casual, playful",
     "unresolved": null
+  },
+  {
+    "id": 15,
+    "timestamp_start": "2026-02-12 13:10",
+    "timestamp_end": "2026-02-12 13:56",
+    "summary": "Gift_ars revealed she's never actually been to Japan yet, but Osaka is her top priority destination when she does visit. We discussed how Osaka has a more laid-back vibe than Tokyo, and I mentioned the food scene is exceptional there. I asked what's drawing her to Osaka specifically.",
+    "topics": [
+      "Japan travel",
+      "Osaka",
+      "Tokyo",
+      "travel preferences",
+      "Japanese food"
+    ],
+    "key_facts_learned": [
+      "Gift_ars has never been to Japan yet",
+      "Gift_ars prefers Osaka over Tokyo (despite not having visited)",
+      "Gift_ars plans to visit Osaka first when she goes to Japan"
+    ],
+    "emotional_tone": "lighthearted, enthusiastic, casual",
+    "unresolved": "Gift_ars hasn't answered what specifically is making her want to visit Osaka first"
   }
 ]
