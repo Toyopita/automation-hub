@@ -17141,6 +17141,90 @@
         "future": -4,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:35:53.577267+09:00",
+      "summary": "There is an app to translate everything ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "実用的な提案。彼の日本語動画への反応として、翻訳アプリを勧めている。軽くて親切なトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-13T18:35:54.669842+09:00",
+      "summary": "Is free ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "翻訳アプリについて説明している。実用的な情報提供。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 5,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
