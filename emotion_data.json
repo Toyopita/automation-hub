@@ -18191,6 +18191,48 @@
         "future": 1,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:13:30.269392+09:00",
+      "summary": "I’m going to do it anyway ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が「please」と言わなくていいと伝えた後、自分から積極的にやると断言している。自信と主導権を示す発言",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 9,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
