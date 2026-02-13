@@ -613,5 +613,24 @@
     ],
     "emotional_tone": "casual, lighthearted, practical",
     "unresolved": null
+  },
+  {
+    "id": 32,
+    "timestamp_start": "2026-02-12 12:36",
+    "timestamp_end": "2026-02-12 13:28",
+    "summary": "Discussed Michelle's work meal schedule - she has a late lunch break at 3pm, so she eats a big cooked breakfast before work to avoid getting too hungry. During her 30-minute break, she eats at the mall since there's not enough time to do much else.",
+    "topics": [
+      "work schedule",
+      "meal habits",
+      "cooking",
+      "lunch break"
+    ],
+    "key_facts_learned": [
+      "Michelle cooks her own breakfast and dinner",
+      "She has only a 30-minute break at work",
+      "She eats lunch at the mall during her break"
+    ],
+    "emotional_tone": "casual, lighthearted, practical",
+    "unresolved": "What she usually gets to eat at the mall"
   }
 ]
