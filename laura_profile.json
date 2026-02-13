@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:57:52.849826+09:00",
+  "last_updated": "2026-02-13T18:58:25.989549+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1954,7 +1954,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Nothing ?",
       "I mean",
       "Im not good at",
       "sorry",
@@ -1983,7 +1982,8 @@
       "Aw",
       "Right now?",
       "Are you horny?",
-      "do you want to masturbate in the camera"
+      "do you want to masturbate in the camera",
+      "Baby why hahah"
     ]
   },
   "topic_engagement": {
