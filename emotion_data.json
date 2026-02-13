@@ -19493,6 +19493,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T04:38:17.866710+09:00",
+      "summary": "I loooove what we did today 😍😍😍 oh my God 🥵🥵🥵 I want to sit on you ",
+      "scores": {
+        "mood": 10,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な興奮状態。ビデオ通話での親密な行為を振り返り、強い欲求を表現している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 1
+      }
     }
   ]
 }
