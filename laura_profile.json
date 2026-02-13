@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:35:32.105628+09:00",
+  "last_updated": "2026-02-13T18:35:42.147838+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1624,6 +1624,38 @@
           "transportation"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "expresses gratitude for video content received from partner",
+        "tags": [
+          "gratitude",
+          "appreciation",
+          "video content",
+          "thankfulness",
+          "video exchange",
+          "content appreciation",
+          "receiving videos",
+          "partner content",
+          "acknowledging receipt",
+          "politeness"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "uses French spelling for 'video' with accent mark ('vidéo' instead of 'video')",
+        "tags": [
+          "french spelling",
+          "french accent mark",
+          "bilingual typing",
+          "language influence",
+          "french keyboard",
+          "spelling pattern",
+          "language mixing",
+          "french writing",
+          "accent mark usage",
+          "bilingual communication"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1635,7 +1667,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Expresses frustration through exclamations ('Shit'), concern through follow-up questions ('Nothing ?'), and clarification attempts ('I mean you really dont understand anything ?') - maintains pattern of direct, unfiltered emotional communication including impatience and confusion",
       "warmth: Responds warmly to partner's apology with immediate forgiveness and deflection - no cold shoulder or prolonged frustration. Maintains maximum warmth rating through quick emotional recovery",
       "emotional_expressiveness: Continues pattern of directly expressing vulnerable feelings without filtering - apologizes unprompted for Japanese ability limitation, showing transparency about insecurity",
       "confidence: Comfortable admitting limitation ('Im not good at Japanese') without excessive hedging or defensiveness - states fact clearly while apologizing shows confidence to be vulnerable about skill gaps",
@@ -1654,7 +1685,8 @@
       "humor_appreciation: Uses playful teasing with laughing emoji 'Maybe you are Just words 😂' - suggests partner may have been making romantic/sexual promises and she's teasingly questioning if he's all talk, showing continued pattern of playful skepticism and humor in relationship",
       "humor_appreciation: Responds with 'Haha 😂' to user's acknowledgment of her playful skepticism about whether he's 'just words' - continues pattern of appreciating humor in relationship dynamics, particularly when partner joins in her teasing rather than becoming defensive",
       "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing",
-      "humor_appreciation: Responds with 'Haha' to user's point about 'literally just yesterday' timeline - appreciates the logical absurdity of questioning his memory about something so recent, maintaining her pattern of finding humor in relationship dynamics"
+      "humor_appreciation: Responds with 'Haha' to user's point about 'literally just yesterday' timeline - appreciates the logical absurdity of questioning his memory about something so recent, maintaining her pattern of finding humor in relationship dynamics",
+      "warmth: Expresses gratitude for video content received - 'Thank for the vidéo' shows she acknowledges and appreciates partner's efforts in sharing content, maintaining pattern of emotionally warm responses even in brief messages"
     ]
   },
   "communication_style": {
@@ -1714,7 +1746,7 @@
       "un mot (French autocorrect for 'I'm not')",
       "No baby",
       "coffe (typo for coffee)",
-      "Me? (self-referential questioning)"
+      "😳 (flushed/embarrassed emoji as standalone response)"
     ]
   },
   "topic_engagement": {
@@ -2158,29 +2190,12 @@
     "coffee_drinking": 7.5,
     "sharing_current_activity": 8.2,
     "beverage_preferences": 7.8,
-    "daily_routine_updates": 8.0
+    "daily_routine_updates": 8.0,
+    "receiving_video_content_from_partner": 9.4,
+    "partner_video_sharing": 9.3,
+    "expressing_gratitude_for_intimate_content": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "not_becoming_defensive_when_sincerity_questioned",
-      "engagement_boost": 7.5,
-      "evidence": "User's simple 'Haha 😂' response to her questioning whether he's 'just words' shows confidence - he doesn't rush to prove himself or justify his statements, which likely increases her respect and maintains the playful dynamic rather than creating tension"
-    },
-    {
-      "pattern": "brief_response_to_teasing_maintains_balance",
-      "engagement_boost": 7.1,
-      "evidence": "Single 'Haha 😂' mirrors her own communication style and doesn't over-explain or get into lengthy justifications - shows he understood her playful intent and responds proportionally rather than escalating defensively"
-    },
-    {
-      "pattern": "maintaining_humor_after_being_teased",
-      "engagement_boost": 7.4,
-      "evidence": "Laura's 'Why hahaha' responds to user's 'Haha 😂' with continued laughter and questioning - shows she's amused and curious about why he found her skepticism funny, maintaining the playful dynamic rather than becoming defensive"
-    },
-    {
-      "pattern": "asking_for_explanation_of_partner_reaction",
-      "engagement_boost": 7.2,
-      "evidence": "'Why hahaha' shows Laura wants to understand what about her 'just words' comment made him laugh - demonstrates engagement and curiosity about his perspective rather than just accepting the response"
-    },
     {
       "pattern": "using_laughter_while_seeking_clarification",
       "engagement_boost": 7.3,
@@ -2260,6 +2275,26 @@
       "pattern": "maintaining_curiosity_about_partner_reactions",
       "engagement_boost": 7.3,
       "evidence": "'Why hahaha' shows Laura wants to understand what specifically about the 'literally just yesterday' framing made him laugh - demonstrates ongoing engagement and interest in his perspective rather than defensiveness about being reminded"
+    },
+    {
+      "pattern": "sharing_video_content_with_her",
+      "engagement_boost": 8.2,
+      "evidence": "Laura expresses explicit gratitude for video received - 'Thank for the vidéo' shows she values and acknowledges when partner sends her video content, suggesting this type of sharing is positively received"
+    },
+    {
+      "pattern": "reciprocal_video_exchange",
+      "engagement_boost": 8.5,
+      "evidence": "In context where Laura has been sending videos to partner, her thanking him for a video shows mutual video sharing is appreciated and maintains engagement - creates balanced exchange pattern"
+    },
+    {
+      "pattern": "expressing_gratitude_for_video_content",
+      "engagement_boost": 8.2,
+      "evidence": "Laura's 'Thank for the vidéo' followed by receiving something that prompted standalone '😳' emoji suggests she was emotionally affected by video content received - the flushed emoji indicates surprise, shyness, or being flustered in positive way"
+    },
+    {
+      "pattern": "sending_content_that_elicits_strong_emotional_reaction",
+      "engagement_boost": 8.5,
+      "evidence": "The standalone '😳' emoji without accompanying text suggests video content was impactful enough to render her briefly speechless or overwhelmed - created strong enough reaction that she couldn't immediately verbalize response"
     }
   ],
   "avoid_patterns": [
