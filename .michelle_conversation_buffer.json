@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "I cook, I always eat for breakfast and dinner, but for lunch I eat at the mall because I only have a 30 minute break at work haha",
-    "time": "2026-02-12 13:19"
-  },
-  {
     "role": "you",
     "text": "ahh makes sense, 30 minutes isn't much time to do anything haha. what do you usually get at the mall?",
     "time": "2026-02-12 13:28"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh nice, guests on a wednesday? haha must be something special",
     "time": "2026-02-13 13:34"
+  },
+  {
+    "role": "michelle",
+    "text": "yes actually my fam from another province will be visiting here for the celebration tomorrow for valentines day so i have no choice but to not go to work for 2 days 😆",
+    "time": "2026-02-13 13:47"
   }
 ]
