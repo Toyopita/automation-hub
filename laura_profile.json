@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:24:33.966820+09:00",
+  "last_updated": "2026-02-13T21:25:12.043392+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2141,13 +2141,12 @@
     ],
     "formality_level": "casual",
     "humor_style": "playful self-awareness about food choices - uses 'haha' to acknowledge eggs and jam is unusual/amusing combination, continuing pattern of finding humor in everyday moments and potentially unconventional choices",
-    "response_speed_tendency": "immediate response to factual confirmation questions - continues pattern of quick, direct replies to simple yes/no questions",
+    "response_speed_tendency": "immediate confirmation responses to readiness checks or procedural questions",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Hahahha (extended laughter)",
       "Shit (standalone exclamation)",
       "I know",
       "Well",
@@ -2176,7 +2175,8 @@
       "Baby why hahah",
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
-      "Okay (standalone affirmative confirmation)"
+      "Okay (standalone affirmative confirmation)",
+      "Okay babe"
     ]
   },
   "topic_engagement": {
@@ -2708,16 +2708,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "suggesting_video_chat_prompts_immediate_engagement",
-      "engagement_boost": 8.5,
-      "evidence": "Laura's immediate 'Right now?' response shows she's actively considering the video chat invitation - the quick clarification question indicates genuine interest rather than deflection or avoidance"
-    },
-    {
-      "pattern": "offering_escalated_communication_format_gets_rapid_response",
-      "engagement_boost": 8.7,
-      "evidence": "Video chat suggestion prompted immediate timing clarification from Laura - shows she's taking the invitation seriously and thinking practically about logistics rather than dismissing it"
-    },
-    {
       "pattern": "responding_to_video_chat_suggestion_with_sexual_escalation",
       "engagement_boost": 9.2,
       "evidence": "Laura's previous 'Right now?' showed she was considering video chat timing - the follow-up question about masturbating on camera suggests she's not just agreeing to video chat but actively escalating it to explicit sexual territory, indicating high engagement with the video format"
@@ -2806,6 +2796,16 @@
       "pattern": "respecting_her_autonomous_timing",
       "engagement_boost": 9.5,
       "evidence": "After Laura said she'd do something quick first, partner evidently waited without complaint - her 'Okay' shows she appreciated the patience and is now ready to engage on her own timeline"
+    },
+    {
+      "pattern": "waiting_for_her_explicit_confirmation_before_proceeding",
+      "engagement_boost": 9.4,
+      "evidence": "Laura's simple 'Okay babe' serves as clear green light after she managed her own timing - respecting her autonomous decision-making and waiting for her signal resulted in smooth, affectionate confirmation"
+    },
+    {
+      "pattern": "allowing_her_to_signal_readiness_in_her_own_words",
+      "engagement_boost": 9.3,
+      "evidence": "The 'Okay babe' is casual and comfortable - creating space for her to confirm readiness without pressure resulted in natural, affectionate transition rather than tense or formal confirmation"
     }
   ],
   "avoid_patterns": [
