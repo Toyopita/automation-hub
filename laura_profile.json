@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-12T21:50:14.213557+09:00",
+  "last_updated": "2026-02-13T18:27:15.719279+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2162,16 +2162,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "maintaining_sexual_confidence_after_correction",
-      "engagement_boost": 7.2,
-      "evidence": "After Laura corrected the anatomical assumption, user maintained explicit sexual tone ('my dick is so hard for you 😏') rather than becoming awkward - her 'Haha' response suggests this confidence was appreciated and kept the flirtatious dynamic alive"
-    },
-    {
-      "pattern": "matching_her_playful_skepticism_with_humor",
-      "engagement_boost": 7.3,
-      "evidence": "Laura's 'Maybe you are Just words 😂' tests whether partner backs up sexual statements with action; user responds with 'Haha 😂' rather than getting defensive - this acceptance of her teasing and joining in the laughter shows he doesn't take himself too seriously and can handle her skeptical edge"
-    },
-    {
       "pattern": "not_becoming_defensive_when_sincerity_questioned",
       "engagement_boost": 7.5,
       "evidence": "User's simple 'Haha 😂' response to her questioning whether he's 'just words' shows confidence - he doesn't rush to prove himself or justify his statements, which likely increases her respect and maintains the playful dynamic rather than creating tension"
@@ -2260,6 +2250,16 @@
       "pattern": "showing_enthusiasm_for_mundane_updates",
       "engagement_boost": 7.6,
       "evidence": "'Ooh fancy' makes drinking coffee sound special and interesting - validates her sharing of small daily details rather than dismissing them, encouraging continued status updates"
+    },
+    {
+      "pattern": "pointing_out_recent_timeline_with_humor",
+      "engagement_boost": 7.6,
+      "evidence": "Laura's 'Why hahaha' responds to user's 'It was literally just yesterday haha 😂' - she's amused and curious about why he's laughing at the recent timeline of her promise, showing she appreciates his playful accountability and wants to understand what made him laugh"
+    },
+    {
+      "pattern": "maintaining_curiosity_about_partner_reactions",
+      "engagement_boost": 7.3,
+      "evidence": "'Why hahaha' shows Laura wants to understand what specifically about the 'literally just yesterday' framing made him laugh - demonstrates ongoing engagement and interest in his perspective rather than defensiveness about being reminded"
     }
   ],
   "avoid_patterns": [
