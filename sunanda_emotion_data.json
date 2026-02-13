@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "entries": [
+    {
+      "timestamp": "2026-02-12T16:31:26.366773+09:00",
+      "summary": "Hi",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 3,
+        "longing": 4,
+        "playfulness": 4,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "note": "シンプルな挨拶。会話のきっかけを作ろうとしている",
+      "prev_scores": null,
+      "score_deltas": null
+    }
+  ]
+}
