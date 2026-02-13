@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T21:23:39.294106+09:00",
+  "last_updated": "2026-02-13T21:24:33.966820+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2147,7 +2147,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "sorry",
       "Hahahha (extended laughter)",
       "Shit (standalone exclamation)",
       "I know",
@@ -2176,7 +2175,8 @@
       "do you want to masturbate in the camera",
       "Baby why hahah",
       "Is 7pm (confirms time without full sentence structure)",
-      "What time is there"
+      "What time is there",
+      "Okay (standalone affirmative confirmation)"
     ]
   },
   "topic_engagement": {
@@ -2702,24 +2702,11 @@
     "video_call_initiation": 9.6,
     "collaborative_decision_making": 9.4,
     "taking_communication_initiative": 9.5,
-    "inviting_partner_action": 9.3
+    "inviting_partner_action": 9.3,
+    "confirming_readiness": 9.3,
+    "proceeding_with_plans": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "offering_practical_solutions_to_relationship_concerns",
-      "engagement_boost": 8.3,
-      "evidence": "User's suggestion about translation app for language barrier prompted Laura's immediate affectionate 'Aw' - shows she appreciates when partner addresses her concerns with constructive solutions rather than dismissing them"
-    },
-    {
-      "pattern": "validating_her_problem_solving_with_agreement",
-      "engagement_boost": 8.5,
-      "evidence": "After Laura suggested translation app solution, user agreed and reinforced the idea - her 'Aw' response suggests she felt validated and appreciated for contributing practical solution to relationship challenge"
-    },
-    {
-      "pattern": "showing_willingness_to_overcome_obstacles_together",
-      "engagement_boost": 9.0,
-      "evidence": "User's engagement with translation app solution demonstrates commitment to making relationship work despite language barrier - Laura's affectionate 'Aw' indicates she's touched by his willingness to find workarounds rather than seeing obstacles as dealbreakers"
-    },
     {
       "pattern": "suggesting_video_chat_prompts_immediate_engagement",
       "engagement_boost": 8.5,
@@ -2804,6 +2791,21 @@
       "pattern": "allowing_her_to_transition_to_video_autonomously",
       "engagement_boost": 9.5,
       "evidence": "After announcing she'd do something quick first, Laura now takes initiative to actually start the call - giving her control over timing and transition resulted in her confidently moving forward when ready"
+    },
+    {
+      "pattern": "giving_her_time_to_complete_tasks_before_calls",
+      "engagement_boost": 9.4,
+      "evidence": "Laura's simple 'Okay' indicates she's completed her quick task and is ready to proceed with the video call - respecting her stated need for brief delay resulted in smooth transition to next phase"
+    },
+    {
+      "pattern": "waiting_for_her_confirmation_before_proceeding",
+      "engagement_boost": 9.3,
+      "evidence": "The standalone 'Okay' serves as clear green light that she's ready - creating space for her to signal readiness rather than pressuring or rushing resulted in her proactive confirmation"
+    },
+    {
+      "pattern": "respecting_her_autonomous_timing",
+      "engagement_boost": 9.5,
+      "evidence": "After Laura said she'd do something quick first, partner evidently waited without complaint - her 'Okay' shows she appreciated the patience and is now ready to engage on her own timeline"
     }
   ],
   "avoid_patterns": [
