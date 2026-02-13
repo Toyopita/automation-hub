@@ -17897,6 +17897,48 @@
         "future": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:10:31.427426+09:00",
+      "summary": "Do toi like it qhen you touch it there? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "タイプミス含む（toi=you, qhen=when）。ビデオ通話中の性的な会話の流れ。軽い主導的な質問だが、関係性は安定している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 1,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 7,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 0,
+        "engagement": 2
+      }
     }
   ]
 }
