@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T23:18:52.580689+09:00",
+  "last_updated": "2026-02-14T00:01:39.892225+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2251,6 +2251,22 @@
           "relationship future"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "expresses desires directly and affirmatively (states 'That's what I want' in context of relationship desires)",
+        "tags": [
+          "direct communication",
+          "affirmative desire",
+          "clear preferences",
+          "relationship desires",
+          "explicit wants",
+          "straightforward expression",
+          "desire confirmation",
+          "direct statements",
+          "preference clarity",
+          "want expression"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2262,8 +2278,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
@@ -2281,7 +2295,9 @@
       "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
       "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
-      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions"
+      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
+      "confidence: Continues pattern of direct, unfiltered communication - states 'That's what I want' as clear affirmative declaration without hedging or uncertainty, maintaining maximum confidence rating for straightforward desire expression",
+      "emotional_expressiveness: Transparently expresses her wants with simple, direct statement - continues pattern of clearly communicating desires and preferences without filtering or minimizing"
     ]
   },
   "communication_style": {
@@ -2902,19 +2918,13 @@
     "relationship_future_logistics": 9.5,
     "expressing_long_term_commitment": 9.7,
     "solving_distance_problem": 9.4,
-    "hypothetical_shared_life": 9.6
+    "hypothetical_shared_life": 9.6,
+    "affirming_shared_desires": 9.7,
+    "direct_want_statements": 9.8,
+    "clear_preference_expression": 9.6,
+    "relationship_desire_confirmation": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_her_to_transition_to_video_autonomously",
-      "engagement_boost": 9.5,
-      "evidence": "After announcing she'd do something quick first, Laura now takes initiative to actually start the call - giving her control over timing and transition resulted in her confidently moving forward when ready"
-    },
-    {
-      "pattern": "giving_her_time_to_complete_tasks_before_calls",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's simple 'Okay' indicates she's completed her quick task and is ready to proceed with the video call - respecting her stated need for brief delay resulted in smooth transition to next phase"
-    },
     {
       "pattern": "waiting_for_her_confirmation_before_proceeding",
       "engagement_boost": 9.3,
@@ -3004,6 +3014,16 @@
       "pattern": "building_emotional_safety_for_vulnerability_about_relationship_future",
       "engagement_boost": 9.8,
       "evidence": "Statement about wanting to live in same city represents significant emotional vulnerability and relationship commitment - whatever interaction pattern has developed made her comfortable expressing long-term intentions and desires"
+    },
+    {
+      "pattern": "creating_space_for_her_to_affirm_desires_directly",
+      "engagement_boost": 9.7,
+      "evidence": "Laura's clear 'That's what I want' indicates whatever preceded this created environment where she felt safe making direct affirmative statement about her desires - straightforward context resulted in straightforward confirmation"
+    },
+    {
+      "pattern": "allowing_her_to_use_simple_clear_language_for_important_statements",
+      "engagement_boost": 9.6,
+      "evidence": "The simplicity of 'That's what I want' without elaboration or justification suggests she feels comfortable making declarative statements without needing to explain or defend - created space for efficient, confident desire expression"
     }
   ],
   "avoid_patterns": [
