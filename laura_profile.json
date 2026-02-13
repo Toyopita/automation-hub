@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:46:35.383565+09:00",
+  "last_updated": "2026-02-13T18:47:26.425303+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1768,6 +1768,22 @@
           "now vs later"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "asks about partner's timezone/local time (interested in what time it is where partner is located)",
+        "tags": [
+          "timezone",
+          "time awareness",
+          "partner location",
+          "time inquiry",
+          "clock time",
+          "local time",
+          "time zones",
+          "temporal awareness",
+          "relationship coordination",
+          "scheduling awareness"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -2325,7 +2341,10 @@
     "escalating_to_synchronous_communication": 9.1,
     "video_chatting_timing": 8.5,
     "immediate_availability_questions": 8.3,
-    "scheduling_video_calls": 8.4
+    "scheduling_video_calls": 8.4,
+    "partner_timezone": 8.3,
+    "time_coordination": 8.1,
+    "partner_local_time": 8.4
   },
   "effective_patterns": [
     {
