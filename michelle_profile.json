@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-13T14:10:59.570417+09:00",
+  "last_updated": "2026-02-13T14:56:13.605385+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -1418,6 +1418,74 @@
           "large meal"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "Values Valentine's Day as important cultural celebration in Philippines - wants to celebrate with family since she doesn't have boyfriend",
+        "tags": [
+          "valentines_day",
+          "philippines",
+          "cultural_values",
+          "family_celebration",
+          "holiday_importance",
+          "cultural_traditions",
+          "february_14",
+          "single_status",
+          "family_priority",
+          "no_boyfriend",
+          "celebration",
+          "important_holiday",
+          "cultural_significance"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Currently does not have a boyfriend as of 2026-02-13, explicitly confirmed",
+        "tags": [
+          "relationship_status",
+          "single",
+          "no_boyfriend",
+          "独身",
+          "available",
+          "unattached",
+          "february_2026",
+          "explicitly_stated",
+          "current_status",
+          "romantic_availability"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Uses 😂 emoji when discussing being single on Valentine's Day - maintains humor about potentially sensitive romantic status during romantic holiday",
+        "tags": [
+          "😂",
+          "humor",
+          "single_on_valentines",
+          "emotional_resilience",
+          "lighthearted",
+          "self_deprecating",
+          "romantic_status",
+          "coping_mechanism",
+          "valentines_day",
+          "humor_about_singleness",
+          "emotional_tone"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Frames Valentine's Day celebration choice through absence of boyfriend ('since I don't have a bf') rather than positive desire to spend time with family - suggests boyfriend would potentially change how she celebrates Valentine's Day",
+        "tags": [
+          "relationship_expectations",
+          "valentines_day",
+          "boyfriend_priority",
+          "family_as_alternative",
+          "romantic_vs_family",
+          "celebration_hierarchy",
+          "conditional_celebration",
+          "relationship_influence",
+          "priorities",
+          "boyfriend_impact"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1429,7 +1497,6 @@
     "confidence": 9,
     "warmth": 10,
     "observations": [
-      "Has developed clear values-based standards from past relationship experiences",
       "Uses 'haha' when stating serious personal standards, possibly to soften vulnerability of sharing deep values",
       "Frames her standards as deliberately simple and non-materialistic, suggesting intentional reflection on what matters",
       "observations: Explicitly connected past experiences to current standards; prioritizes character over external factors",
@@ -1448,12 +1515,13 @@
       "warmth: Maintains warmth score of 10 - explicitly reframes her extensive multi-household cooking labor as 'one of my hobbies', showing she genuinely finds joy and fulfillment in caregiving rather than viewing it as obligatory burden. Combined with earlier evidence of cooking foods she doesn't like for grandmother's happiness, this confirms deep emotional warmth through service.",
       "warmth: Proactively initiated conversation after reopening app with caring check-in question 'have you eaten?' - shows she thinks about Toyo's wellbeing even when not actively chatting. Maintains warmth score of 10 as this adds to existing pattern of caretaking behavior (cooking for family, prioritizing others' happiness).",
       "warmth: Maintains warmth score of 10 - continues pattern of extensive cooking labor for others (now guests in addition to grandmother and parents). Uses 'haha' to downplay significant hosting effort, consistent with her pattern of finding joy in caregiving rather than complaining about workload.",
-      "warmth: Takes 2 days off work to host and celebrate Valentine's Day with visiting family from another province - prioritizes extended family gathering over work income, consistent with her pattern of extensive family caregiving (cooking for grandmother, parents, and now hosting provincial relatives). Frames it as obligation ('no choice') but uses 😆 to show she accepts/embraces this duty cheerfully."
+      "warmth: Takes 2 days off work to host and celebrate Valentine's Day with visiting family from another province - prioritizes extended family gathering over work income, consistent with her pattern of extensive family caregiving (cooking for grandmother, parents, and now hosting provincial relatives). Frames it as obligation ('no choice') but uses 😆 to show she accepts/embraces this duty cheerfully.",
+      "warmth: Continues pattern of family-first values - chooses to celebrate Valentine's Day with family when she could potentially go out with friends or dates. Maintains warmth score of 10 as this reinforces her consistent family devotion (cooking for grandmother, parents, hosting provincial relatives, now celebrating romantic holiday with family)."
     ]
   },
   "communication_style": {
-    "avg_message_length": "medium (2 sentences with explanation)",
-    "emoji_frequency": "moderate (1 per message in this exchange)",
+    "avg_message_length": "1-2 sentences",
+    "emoji_frequency": "moderate (1-2 per message)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -1463,8 +1531,8 @@
       "hehe"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 😆 and humor to downplay obligations, effort, and duty - maintains lighthearted tone about significant responsibilities. Self-deprecating about sacrifices while sharing accomplishments. Playful and warm rather than sarcastic.",
-    "response_speed_tendency": "Quick responses when actively engaged; reopens app after breaks and immediately initiates conversation, showing consistent engagement pattern",
+    "humor_style": "Uses 😂 and 'haha' to maintain lighthearted tone about potentially vulnerable topics like being single on Valentine's Day. Self-deprecating about romantic status while keeping positive framing. Playful and warm rather than bitter.",
+    "response_speed_tendency": "Quick responses when actively engaged; reopens app after breaks and maintains conversation flow",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1495,7 +1563,8 @@
       "coming here",
       "no choice but to",
       "fam",
-      "another province"
+      "another province",
+      "bf"
     ]
   },
   "topic_engagement": {
@@ -1679,29 +1748,13 @@
     "family_celebrations": 9,
     "work_life_balance_family_priority": 9,
     "provincial_family": 7,
-    "multi_day_hosting": 8
+    "multi_day_hosting": 8,
+    "valentines_day_culture": 8,
+    "being_single": 8,
+    "romantic_status_openness": 9,
+    "dating_type_preferences": 5
   },
   "effective_patterns": [
-    {
-      "pattern": "using_humor_to_acknowledge_impressive_effort",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'haha wow so you cooked for your grandma then went home and cooked again for your parents? you're basically a full-time chef at this point' uses humor to acknowledge the extraordinary scope of her caregiving without making it feel heavy - frames her labor as impressive rather than pitiful, matching her 'hehe' tone while still validating the effort. Response pending but directly addresses what she shared."
-    },
-    {
-      "pattern": "naming_the_pattern_explicitly",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'you cooked for your grandma then went home and cooked again' explicitly traces the sequence of her caregiving actions, showing he's paying close attention to the multi-location labor pattern she described. Response pending but demonstrates active listening."
-    },
-    {
-      "pattern": "playful_exaggeration_as_compliment",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'you're basically a full-time chef at this point' uses hyperbole to highlight how extensive her cooking is, framing it as professional-level dedication rather than just family duty - elevates her labor to career-level skill. Response pending but validates magnitude of her contribution."
-    },
-    {
-      "pattern": "matching_her_hehe_with_haha_tone",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 'hehe' with 'haha wow' to maintain lighthearted tone about her caregiving marathon, avoiding making it feel like pity or burden discussion. Response pending but establishes emotional resonance."
-    },
     {
       "pattern": "expressing_playful_curiosity_about_intimate_sharing",
       "engagement_boost": null,
@@ -1781,6 +1834,26 @@
       "pattern": "noting_valentines_day_timing_casually",
       "engagement_boost": null,
       "evidence": "Toyo's 'so you're off for valentines day haha' acknowledges the romantic holiday timing without making assumptions about her relationship status or creating awkwardness - response pending but keeps focus on family celebration rather than romantic expectations"
+    },
+    {
+      "pattern": "acknowledging_cultural_celebration_importance",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'haha fair enough' validates her Valentine's Day family celebration choice without judgment about being single - response shows she feels comfortable enough to elaborate and confirm she doesn't have boyfriend, suggesting the validation created safety for vulnerability"
+    },
+    {
+      "pattern": "casual_transition_to_dating_preferences",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'btw random question, what's your type anyway?' uses 'random question' framing to make the personal inquiry feel spontaneous rather than interrogative after she just mentioned not having boyfriend - response pending but timing capitalizes on her openness about romantic status"
+    },
+    {
+      "pattern": "matching_her_haha_tone_before_asking_personal_question",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her 'hahaha' with 'haha fair enough' before asking about her type, maintaining lighthearted tone that makes personal question feel playful rather than intrusive - response pending but establishes emotional safety"
+    },
+    {
+      "pattern": "asking_about_attraction_rather_than_standards",
+      "engagement_boost": null,
+      "evidence": "Toyo asks 'what kinda guy actually catches your attention' focusing on genuine attraction rather than checklist criteria - response pending but frames question around authentic connection rather than materialistic standards, aligning with her previously stated values of kindness/respect over wealth/looks"
     }
   ],
   "avoid_patterns": [],
@@ -1791,5 +1864,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 16
+  "_exchange_count_since_consolidation": 17
 }
