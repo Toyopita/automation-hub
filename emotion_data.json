@@ -17729,6 +17729,48 @@
         "future": -2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:58:16.537085+09:00",
+      "summary": "Baby why hahah",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 5,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前の質問の続き。彼がすぐ寝るのになぜ今なのか軽く笑いながら聞いている。親密な流れだが、戸惑いと遊び心が混ざった反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 5,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
