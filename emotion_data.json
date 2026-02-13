@@ -17645,6 +17645,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-13T18:57:42.470120+09:00",
+      "summary": "Are you going to sleep Soon? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が寝る前にビデオチャットできるか確認している。性的な文脈の後の実用的な質問",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 9,
+        "ds": 3,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -3,
+        "ds": 1,
+        "playfulness": -4,
+        "future": 2,
+        "engagement": 0
+      }
     }
   ]
 }
