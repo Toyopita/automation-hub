@@ -672,5 +672,26 @@
     ],
     "emotional_tone": "light, casual, friendly banter",
     "unresolved": null
+  },
+  {
+    "id": 35,
+    "timestamp_start": "2026-02-12 13:19",
+    "timestamp_end": "2026-02-12 14:55",
+    "summary": "Michelle explained her eating habits - she cooks breakfast and dinner at home, but eats lunch at the mall due to only having a 30-minute work break. She usually gets fast food like McDonald's or Jollibee (a Filipino chain), describing Jollibee as essentially the Filipino version of McDonald's with slightly different gravy and ketchup.",
+    "topics": [
+      "daily routine",
+      "food habits",
+      "work life",
+      "Filipino culture",
+      "fast food"
+    ],
+    "key_facts_learned": [
+      "Michelle cooks breakfast and dinner at home",
+      "She has only a 30-minute lunch break at work",
+      "She typically eats lunch at McDonald's or Jollibee at the mall",
+      "She's familiar with Jollibee, describing it as a Filipino McDonald's"
+    ],
+    "emotional_tone": "casual, lighthearted, conversational",
+    "unresolved": null
   }
 ]
