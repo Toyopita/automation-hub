@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新小学1年生 入学記念品リサーチ 2026</title>
+  <style>
+    :root {
+      --primary: #2d5016;
+      --primary-light: #4a7c28;
+      --accent: #c5a03f;
+      --bg: #faf8f0;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --text-light: #666666;
+      --border: #e0ddd4;
+      --shadow: 0 2px 12px rgba(0,0,0,0.08);
+      --cat-stationery: #2563eb;
+      --cat-book: #059669;
+      --cat-practical: #d97706;
+      --cat-edu: #7c3aed;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* ヘッダー */
+    .header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+    }
+    .header::after {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 20px solid var(--primary-light);
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+    .header .subtitle {
+      font-size: 14px;
+      opacity: 0.85;
+      letter-spacing: 1px;
+    }
+
+    /* 条件バッジ */
+    .conditions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      max-width: 800px;
+      margin: 40px auto 16px;
+      padding: 0 16px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #fff;
+      border: 1.5px solid var(--border);
+      color: var(--text);
+    }
+    .badge.ok { border-color: #059669; color: #059669; }
+    .badge.ng { border-color: #dc2626; color: #dc2626; }
+    .badge .icon { font-size: 15px; }
+
+    /* サマリ */
+    .summary {
+      max-width: 800px;
+      margin: 0 auto 32px;
+      padding: 20px 24px;
+      background: #fff;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+      box-shadow: var(--shadow);
+      font-size: 14px;
+      color: var(--text-light);
+    }
+    .summary strong { color: var(--text); }
+
+    /* カテゴリナビ */
+    .cat-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      max-width: 800px;
+      margin: 0 auto 36px;
+      padding: 0 16px;
+    }
+    .cat-nav a {
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .cat-nav a:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .cat-nav a.stationery { background: var(--cat-stationery); }
+    .cat-nav a.book { background: var(--cat-book); }
+    .cat-nav a.practical { background: var(--cat-practical); }
+    .cat-nav a.edu { background: var(--cat-edu); }
+
+    /* セクション */
+    .section {
+      max-width: 900px;
+      margin: 0 auto 48px;
+      padding: 0 16px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+    }
+    .section-title .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .dot.stationery { background: var(--cat-stationery); }
+    .dot.book { background: var(--cat-book); }
+    .dot.practical { background: var(--cat-practical); }
+    .dot.edu { background: var(--cat-edu); }
+
+    /* カード */
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: box-shadow 0.2s;
+      position: relative;
+    }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+    .card-price {
+      display: inline-block;
+      padding: 4px 14px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      background: var(--primary);
+      white-space: nowrap;
+    }
+    .card-brand {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-bottom: 10px;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.8;
+      margin-bottom: 14px;
+    }
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+      background: var(--primary);
+      transition: background 0.15s;
+    }
+    .card-link:hover { background: var(--primary-light); }
+    .card-link.amazon { background: #ff9900; color: #111; }
+    .card-link.amazon:hover { background: #e68a00; }
+    .card-link.rakuten { background: #bf0000; }
+    .card-link.rakuten:hover { background: #a00000; }
+
+    .card-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    /* おすすめタグ */
+    .recommend {
+      position: absolute;
+      top: -8px;
+      right: 16px;
+      background: #dc2626;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 12px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+    }
+
+    /* 注意書き */
+    .note {
+      max-width: 900px;
+      margin: 0 auto 24px;
+      padding: 16px 24px;
+      background: #fefce8;
+      border: 1px solid #fde68a;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #92400e;
+    }
+    .note strong { color: #78350f; }
+
+    /* フッター */
+    .footer {
+      text-align: center;
+      padding: 32px 16px;
+      font-size: 12px;
+      color: var(--text-light);
+      border-top: 1px solid var(--border);
+      margin-top: 48px;
+    }
+
+    /* レスポンシブ */
+    @media (max-width: 600px) {
+      .header h1 { font-size: 22px; }
+      .card { padding: 18px; }
+      .card-header { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>新小学1年生 入学記念品リサーチ</h1>
+  <div class="subtitle">神社・寺院配布用 ｜ 予算 約1,000円 ｜ 2026年4月入学</div>
+</div>
+
+<div class="conditions">
+  <span class="badge ok"><span class="icon">&#10003;</span> 予算 1,000円前後</span>
+  <span class="badge ok"><span class="icon">&#10003;</span> 男女共通</span>
+  <span class="badge ng"><span class="icon">&#10007;</span> キャラクターNG</span>
+  <span class="badge ng"><span class="icon">&#10007;</span> 鉛筆NG</span>
+  <span class="badge ng"><span class="icon">&#10007;</span> 色鉛筆NG</span>
+</div>
+
+<div class="summary">
+  4カテゴリ・計<strong>18商品</strong>を調査しました。各カテゴリに<strong>おすすめ商品</strong>を選定しています。価格は2026年2月時点の調査結果です。まとめ買い時は出版社・メーカーへの団体割引交渉も検討ください。
+</div>
+
+<div class="cat-nav">
+  <a href="#stationery" class="stationery">文房具</a>
+  <a href="#book" class="book">図鑑・書籍</a>
+  <a href="#practical" class="practical">実用品</a>
+  <a href="#edu" class="edu">学習・知育</a>
+</div>
+
+<!-- ============================================================ -->
+<!-- 文房具 -->
+<!-- ============================================================ -->
+<div class="section" id="stationery">
+  <h2 class="section-title"><span class="dot stationery"></span>文房具</h2>
+
+  <div class="card">
+    <span class="recommend">PICK UP</span>
+    <div class="card-header">
+      <div class="card-title">サクラクレパス 太巻 16色</div>
+      <span class="card-price">&yen;880</span>
+    </div>
+    <div class="card-brand">サクラクレパス ／ 型番: LP16R</div>
+    <div class="card-desc">
+      小学校の図工で必ず使う定番クレパス（オイルパステル）。太巻タイプで低学年の手にも握りやすく、折れにくい。鮮やかな発色で重ね塗り・混色も可能。100年以上の歴史を持つサクラクレパスの看板商品。&yen;880で予算を抑えられるため、他のアイテムと組み合わせたセットにも最適。
+    </div>
+    <div class="card-links">
+      <a href="https://www.craypas.co.jp/products/painting-school/010/0020/142854.html" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">ソニック うかサポ えんぴつチェック両面筆入</div>
+      <span class="card-price">&yen;1,100〜1,200</span>
+    </div>
+    <div class="card-brand">ソニック（SONIC）</div>
+    <div class="card-desc">
+      透明窓から鉛筆の削り忘れをチェックできるユニークな筆箱。スリム設計でランドセルに横向きにも収納可能。両面開きで大容量。鉛筆削り・時間割表付き。5色展開（バイオレット、ピンク、ミントブルー、ネイビー、ブラック）でシンプル無地デザイン。
+    </div>
+    <div class="card-links">
+      <a href="https://www.sonic-s.co.jp/product/category/194/360" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">プラス フィットカットカーブ ジュニア（子供用はさみ）</div>
+      <span class="card-price">&yen;528</span>
+    </div>
+    <div class="card-brand">プラス（PLUS）／ 型番: SC-145MF</div>
+    <div class="card-desc">
+      カーブ形状の刃で軽くなめらかな切れ味を実現した子供用はさみ。安全な丸い刃先でケガのリスクを軽減。フッ素コート加工でのりやテープがべたつかない。なまえシール・ネームタグ付属。&yen;528と安価なため、クレパスやタオル等と組み合わせてセットにするのがおすすめ。
+    </div>
+    <div class="card-links">
+      <a href="https://bungu.plus.co.jp/product/cut/use/fcc_jr/" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 図鑑・書籍 -->
+<!-- ============================================================ -->
+<div class="section" id="book">
+  <h2 class="section-title"><span class="dot book"></span>図鑑・書籍</h2>
+
+  <div class="card">
+    <span class="recommend">PICK UP</span>
+    <div class="card-header">
+      <div class="card-title">学研の図鑑LIVE（ライブ）ポケット 昆虫</div>
+      <span class="card-price">&yen;1,078</span>
+    </div>
+    <div class="card-brand">学研（Gakken）</div>
+    <div class="card-desc">
+      約900種の昆虫を美しい写真で掲載したポケットサイズ図鑑。B6変型判208頁で持ち運びに便利。スマホをかざすと3DCGが表示される機能付き。昆虫以外にも恐竜・動物・植物・鳥・魚など多数のラインナップあり（各&yen;1,078）。テーマ選択の自由度が高い。
+    </div>
+    <div class="card-links">
+      <a href="https://hon.gakken.jp/book/1020439300" class="card-link" target="_blank">&#9654; 学研公式</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">小学生のまんがことわざ辞典 改訂版</div>
+      <span class="card-price">&yen;1,100</span>
+    </div>
+    <div class="card-brand">学研（Gakken）／ 金田一春彦・秀穂 監修</div>
+    <div class="card-desc">
+      ことわざ・故事成語・慣用句など約600語を1語ごとに4コマまんがで分かりやすく解説。オールカラー304頁、A5判。小1〜小6まで長く使える実用的な一冊。神社からの記念品として「言葉の力」を贈る意味でも好印象。
+    </div>
+    <div class="card-links">
+      <a href="https://hon.gakken.jp/book/1230426700" class="card-link" target="_blank">&#9654; 学研公式</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">よみとく10分 なぜ？どうして？かがくのお話 1年生</div>
+      <span class="card-price">&yen;990</span>
+    </div>
+    <div class="card-brand">学研（Gakken）</div>
+    <div class="card-desc">
+      累計520万部の大人気シリーズ。1年生に身近な科学の「ふしぎ」に出会える36話を収録。192頁。1話10分で読み切れる構成で、読書習慣の入口として最適。
+    </div>
+    <div class="card-links">
+      <a href="https://hon.gakken.jp/book/1020504400" class="card-link" target="_blank">&#9654; 学研公式</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">たのしい！かがくのふしぎ なぜ？どうして？ 1年生</div>
+      <span class="card-price">&yen;880</span>
+    </div>
+    <div class="card-brand">高橋書店 ／ 村山哲哉 監修</div>
+    <div class="card-desc">
+      「なぜ空は青いの？」「なぜ夜は暗いの？」など子どもの素朴な疑問にわかりやすく答える児童書。&yen;880と最も安価で、大量配布のコストを抑えたい場合に最適。
+    </div>
+    <div class="card-links">
+      <a href="https://www.takahashishoten.co.jp/book/10311.html" class="card-link" target="_blank">&#9654; 高橋書店公式</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">小学生のまんが四字熟語辞典 改訂版</div>
+      <span class="card-price">&yen;1,100</span>
+    </div>
+    <div class="card-brand">学研（Gakken）／ 金田一春彦・秀穂 監修</div>
+    <div class="card-desc">
+      四字熟語・三字熟語を約250語選び、漫画で分かりやすく解説。オールカラーで用例も豊富。「ことわざ辞典」の姉妹編。小1〜小6まで長く使える。
+    </div>
+    <div class="card-links">
+      <a href="https://hon.gakken.jp/book/1230426800" class="card-link" target="_blank">&#9654; 学研公式</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 実用品 -->
+<!-- ============================================================ -->
+<div class="section" id="practical">
+  <h2 class="section-title"><span class="dot practical"></span>実用品</h2>
+
+  <div class="card">
+    <span class="recommend">PICK UP</span>
+    <div class="card-header">
+      <div class="card-title">透明ランドセルカバー（反射材・光触媒コーティング付き）</div>
+      <span class="card-price">&yen;1,180</span>
+    </div>
+    <div class="card-brand">MOMOCO子供服</div>
+    <div class="card-desc">
+      透明素材でランドセル本来のデザインを活かせるカバー。反射材付きで通学時の安全性向上。はっ水加工で雨・雪対策。光触媒コーティングで抗菌・抗ウイルス機能付き。縁12色展開。新1年生は全員ランドセルを使うため確実に活用される。神社の「交通安全祈願」と親和性が高い。
+    </div>
+    <div class="card-links">
+      <a href="https://item.rakuten.co.jp/momoco-shop/cover05/" class="card-link rakuten" target="_blank">&#9654; 楽天市場</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">名入れ刺繍 今治タオルハンカチ《ネーム》</div>
+      <span class="card-price">&yen;1,100</span>
+    </div>
+    <div class="card-brand">ギフトショップ ユーユ（今治タオル認定品）</div>
+    <div class="card-desc">
+      綿100%日本製の今治タオル認定品。14色展開でパステルから落ち着いた色まで幅広い。名入れ刺繍付きで特別感。約25&times;25cmのポケットサイズ。3営業日発送。名入れなしの場合は1枚430円〜の選択肢もあり。
+    </div>
+    <div class="card-links">
+      <a href="https://giftmall.co.jp/gift05moTy/" class="card-link" target="_blank">&#9654; ギフトモール</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">プレミアム防犯ブザー NEW SE-1820K</div>
+      <span class="card-price">&yen;1,320</span>
+    </div>
+    <div class="card-brand">西文舘（SEIBUNKAN）</div>
+    <div class="card-desc">
+      95dB大音量・IPX5生活防水。ブザーピンが抜けきらないタイプで紛失防止。マジックテープでランドセルに取付可能。62gと軽量。神社からの贈り物として「安全祈願」の意味も込められる。※税込&yen;1,320で若干予算超過。
+    </div>
+    <div class="card-links">
+      <a href="https://www.amazon.co.jp/dp/B0779Q1KL8" class="card-link amazon" target="_blank">&#9654; Amazon</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">お名前シール（防水type）卒園記念品セット</div>
+      <span class="card-price">&yen;1,000〜1,050</span>
+    </div>
+    <div class="card-brand">シールDEネーム</div>
+    <div class="card-desc">
+      135枚入り防水ラミネート加工。水筒やお弁当箱にも貼れる。555種以上のシンプルデザイン。お祝いメッセージシール付属。20名以上のまとめ注文で割引あり。入学準備の必需品。※個別に名前データの提出が必要。
+    </div>
+    <div class="card-links">
+      <a href="https://www.seal-de-name.com/gift/kinen_seal_index.html" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">今治タオル ハンカチタオル ミニマルタオル</div>
+      <span class="card-price">&yen;430</span>
+    </div>
+    <div class="card-brand">トランパラン（今治タオル認定品）</div>
+    <div class="card-desc">
+      極細パイル糸で肌触りソフト。綿100%日本製・速乾性。ギフトラッピング・ギフトカード付属。6色展開。&yen;430なので他アイテムと組み合わせてセットにしても予算内（例: タオル + 文房具で&yen;1,000に）。
+    </div>
+    <div class="card-links">
+      <a href="https://www.tranparan.jp/c/towel/imabari/minimal/gift-minimalht" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 学習・知育 -->
+<!-- ============================================================ -->
+<div class="section" id="edu">
+  <h2 class="section-title"><span class="dot edu"></span>学習・知育</h2>
+
+  <div class="card">
+    <span class="recommend">PICK UP</span>
+    <div class="card-header">
+      <div class="card-title">触れる図鑑 つかめる水 不思議実験セット</div>
+      <span class="card-price">&yen;924〜1,100</span>
+    </div>
+    <div class="card-brand">ライブエンタープライズ</div>
+    <div class="card-desc">
+      アルギン酸ナトリウムと乳酸カルシウムの化学反応で「つかめる水」を作る実験キット。TVでも話題の人気商品で楽天ランキング1位実績あり。解説BOOK付き。1年生でも遊びながら科学に触れられ、男女問わず楽しめる。
+    </div>
+    <div class="card-links">
+      <a href="https://www.amazon.co.jp/dp/B01G3DX25M" class="card-link amazon" target="_blank">&#9654; Amazon</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">くもんの小学ドリル プログラミング 1・2年生</div>
+      <span class="card-price">&yen;880</span>
+    </div>
+    <div class="card-brand">くもん出版</div>
+    <div class="card-desc">
+      順次・くり返し・分岐・フローチャート・変数など、プログラミング的思考の基礎を多彩な問題で学べるドリル。B5判104ページでボリュームあり。小学校のプログラミング教育必修化に対応した入学準備品。
+    </div>
+    <div class="card-links">
+      <a href="https://shop.kumonshuppan.com/view/item/000000003494" class="card-link" target="_blank">&#9654; くもん出版公式</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">万華鏡（まんげきょう）づくり工作キット</div>
+      <span class="card-price">&yen;325〜915</span>
+    </div>
+    <div class="card-brand">ゆめ画材 / たのつく 他</div>
+    <div class="card-desc">
+      自分で組み立てるDIY万華鏡。約20分で完成でき低学年でも取り組みやすい。模様紙を神社オリジナルにカスタマイズ可能（OEM対応商品あり）。完成品を持ち帰れる体験型記念品。安価なので追加素材を同梱しても予算内。
+    </div>
+    <div class="card-links">
+      <a href="https://www.amazon.co.jp/dp/B007KX6HXO" class="card-link amazon" target="_blank">&#9654; Amazon</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">触れる図鑑コレクション 化石発掘</div>
+      <span class="card-price">&yen;900〜1,100</span>
+    </div>
+    <div class="card-brand">ライブエンタープライズ</div>
+    <div class="card-desc">
+      石膏ブロックから実際に化石を掘り出す体験型キット。解説BOOK付きで学びもあり。「つかめる水」と同シリーズ。他にも「スライム」「つかめる水 光る」など多数のバリエーションから選択可能。
+    </div>
+    <div class="card-links">
+      <a href="https://zukan.oyakonojikanlabo.jp/" class="card-link" target="_blank">&#9654; 公式サイト</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title">ロンポス101 ピラミッド</div>
+      <span class="card-price">&yen;1,200〜1,468</span>
+    </div>
+    <div class="card-brand">原商会（奥野かるた店）</div>
+    <div class="card-desc">
+      2D（平面）と3D（ピラミッド型）の2通りで遊べるIQトレーニングパズル。101問の問題集付きで長く遊べる。コンパクトケース型で持ち運びやすく、家族で楽しめる。※上限付近の価格帯。
+    </div>
+    <div class="card-links">
+      <a href="https://www.amazon.co.jp/dp/B001O5D1I8" class="card-link amazon" target="_blank">&#9654; Amazon</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 注意書き・補足 -->
+<!-- ============================================================ -->
+<div class="section">
+  <div class="note">
+    <strong>&#9888; 価格について:</strong> 価格は2026年2月時点の調査結果です。販売時期・販売店により変動する場合があります。大量購入時は出版社・メーカーへの直接問い合わせで団体割引の可能性もあります。
+  </div>
+  <div class="note">
+    <strong>&#128161; 組み合わせのご提案:</strong> 低価格商品を組み合わせてセットにするのもおすすめです。例: クレパス &yen;880 + フィットカットはさみ &yen;528 = &yen;1,408（やや超過）、今治タオル &yen;430 + フィットカットはさみ &yen;528 = &yen;958。記念品としての充実感を高めつつ予算内に収められます。
+  </div>
+  <div class="note">
+    <strong>&#9961; 神社との親和性:</strong> 「ランドセルカバー（交通安全祈願）」「防犯ブザー（安全祈願）」は、神社からの贈り物としてストーリー性があり、保護者への印象も良いためおすすめです。
+  </div>
+</div>
+
+<div class="footer">
+  リサーチ実施日: 2026年2月13日 ｜ Claude Code エージェントチームによる調査
+</div>
+
+</body>
+</html>
