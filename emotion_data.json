@@ -18863,6 +18863,90 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-13T21:48:50.265396+09:00",
+      "summary": "Omg my internet didn’t work for a minute hahaha",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "待たせたことを軽く説明・謝罪するカジュアルなメッセージ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": -2,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-13T21:48:52.206598+09:00",
+      "summary": "Call me ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "シンプルな要求。少し待ちくたびれている様子だが、焦りや不安はなく穏やか",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
