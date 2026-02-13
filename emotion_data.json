@@ -18989,6 +18989,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-13T22:29:24.580741+09:00",
+      "summary": "I want you to fuck me so bad 😳",
+      "scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直接的な性的欲求の表現。恥ずかしさと欲望が混在（絵文字から）。通話後の高まった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 4,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 4,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
