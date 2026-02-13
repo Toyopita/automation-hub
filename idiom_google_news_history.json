@@ -1,55 +1,5 @@
 [
   {
-    "date": "2026-01-13T22:07:32.403112+09:00",
-    "title": "GoogleとAppleがAI分野で複数年提携を発表「ついにポンコツSiri卒業？」「ジョブズ、草葉の陰で激怒案件」（iza!） - ｄメニューニュース",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMjhoMHQ5LWpCczkxd0FRV2NwSjNSZjUwUTBGdF9PQjJtMXA0aFFLanJLY1RRZ2FQdTNDazlST3Q1aWZqSmxPbEdBcktPRl9vd2k5Y24yMEpCRHY5UDRsZ0lwMTUyb2JvblRaa2dvaFN0ZG1TLUVVWU4yUUxOWXRuQjVSRjhjalAtU0tCYkdEMFFSNnMyTk1ONXdReXdQa3ZzZDJj?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-13T22:07:32.403112+09:00",
-    "title": "Agentic AI Summit '26 Spring 開催決定！AIは「生成」から「実行」へ。ビジネスを動かすマルチエージェント時代。 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDRmbzYyZ002SXNrRTVubHlJYmpWVHBRX0ZocmxLMjNPeHhZMXhKamRVNjFCRXhxTkpUWEstMVpnb0RWa0ZHMDNwMTF1QXlPMFpXSUNqX1dZb1Y4WmNXU0xKbFZXX2I4UE15bFJycUdvckpBNE5UelVwRTFNTmFrSnd1U3VvVkVrOHpZZkVsV0Q0X2s?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T00:08:18.217250+09:00",
-    "title": "AppleとGoogleがAI分野で提携、次世代SiriはGeminiベースに - ｄメニューニュース",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xSW1seThSOVJRQWg4UGxzVE1SZEtyRUdubU04MEYzc3k2OEhhbGFDb3B0MmZLOEktYmlBLVhlMk1fd0owYk5HNnhkQ3RBQ2pKS2tMaEV0MjVGbHc5dkNjTUR4WDZ0WFpDYXBtTXpCTlUzSzFzdUc40gF8QVVfeXFMTnA1S3duWFJsbmN1SUdkMWFWdU52c3c1NkF2N3I0amw4RV83Vmxyb3dBUnItWkZCUWMzUHFCblhtM3FCbW84dVotTVoxSFM4OEZ3d0phLURjem9obVlzSWlMeXNyYUxFLTNrYkRscU8zbWtFbURzSC1NWWpCOA?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T00:08:18.217250+09:00",
-    "title": "すかいらーくグループにおける生成 AI 活用: 店舗オペレーションの変革とデータ民主化への挑戦 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWmMydk1TWFMxTFhsOVdCVFdLZnB1Vmd4Y191eWF5VEZJSDRsRVlGcDhfdXBhbFVrUXdTLWU1dXU4QVdKYW1Wa0EySno0UTUxcGZ5YjZ2SWhIZlpfeV9MNkpLZGpxTzhfNmd3Ry11dy0tRG0zcTRaOE0zdU4xSGR3dTZwMlA4cVhsenp1VV9YbDJwR3ZZYmdsU256aEU?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T03:10:05.650578+09:00",
-    "title": "アップル、次期AI基盤にGoogle「Gemini」採用。両社が共同声明（PHILE WEB） - Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbGl2Y0VZVnZIM1pyMlZFZWo1X0tNaU5wZXF5NW5XM0R2YjJZaXlfSVhVTkNEalA0WnhFMGI3Mm1RekJXNVhHMjBFRGhpQlg4RUxOdUNtNFpNdWdZNjRfNjc2aDRoSjlRa1VuQjZ2YzlXSDNCZjFXa0d0WWhZdEE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T05:11:15.416401+09:00",
-    "title": "Google Public Sector と Google DeepMind が推進する Genesis Mission と科学的発見の新時代 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVzNXSThoZ1hjQW5vZHlUbDlMZ1dnajdmeDBHVnJEY0FJcEhfTWd5YWxyVTY4OTlxeTJzV2IzYU9taDRadE9mSWttbDIxeFZ4WjVDYnNTcHFTSTVRc3ZVR05Oa0xmb1pSMUVVb1BzQlozdXdNREEybmtSdmRzWktQQlBXVnpkMUM5TmdkLTQxQUpWTkZ6VVZsYUg0WkZ2NVhLbGYyVWJhWVRJQ2tBSElIeXpuRm5lblB4dmI3Qm5zenRueVpBYnR2ejJjSTBRUTdybGlCZ0VLclZnWnhBMXhFRlNyTXNWUEZRNk5WNHpoLTFtVEppZXVoN1p3?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T07:12:25.632875+09:00",
-    "title": "AIが社内データを持ち出す？ Googleが危ぶむAIプロンプトのワナ：2026年サイバーセキュリティ展望 - キーマンズネット",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXNuQmFzNU5RdkZicVl3ZmR1OC14ZjZwcGpBOGtsb0pHQ2ZncEZQLXVIa0g5c21OdmEySXhoNHlkWk9lYUhPQjQ4eHdsaVZFa180dDdpWU5tUWpGM2lZSVlySXI2aEN5MGVSc29HUF9YRnlablgyTC03Y183VUJfYw?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T08:13:00.998520+09:00",
-    "title": "市況の変化を正確に捉える。マネックス証券様が実現した、長期間データ活用によるマーケティング施策の高度化 | イー・エージェンシー - PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KTWJRbnJ5bkNlSGNRQW1MaUhJdlRVVGNmeHFUOThKNmxBZzJHejJ6QVNFSXNHUjdpeUlDeGVZRjFKTEtxWHF5N3RuVDloVHlYbTBzaS1abkdqZWJQT01QOXNLNC1DTklwREE?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T09:13:38.706724+09:00",
-    "title": "Google、商品検索から購入後のサポートまで支援するAIエージェントの導入を実現する「Gemini Enterprise for Customer Experience (CX)」を発表（ネットショップ担当者フォーラム） - Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BMWp0ZDA5UWFHLWtNQ09fMUVyaXV2Zjg0ajJkb1NjYV9GZ0NsZ2FRc21QbER3bWZ0MmhZS01zaFo2MmpYY3NTRHZXZDhCMU9mVWd3eUVCYk9VM0huek1NdDU2SmV3WXJSY3RRc01BeW1vMHpmM0NVbWhkMFBIQmM?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-    "date": "2026-01-14T09:13:38.706724+09:00",
-    "title": "10 月 23 日開催「金融サミット '25」コンテナで加速するクラウドシフト：仮想環境からの移行と次世代インフラ構築 - Google Cloud",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW1oeVF2WUY2aExPc1pTT2JVMEh2eVd1ME4wbjlCb2lHYkZQZmZGd0NHR2ItSW9rRzJPaWZCd3d0MzN2Y1NIMFRZX0NuX25ZRlVWempsMHVzb21SQW1KSTNJOHZ0YXdBdUVOczhSUzdhSTdBb0JDVVZ4RkZDVVJOYUYtRVBpQUFuZmc?oc=5&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
     "date": "2026-01-14T10:14:17.027669+09:00",
     "title": "サテライトオフィス、会議室や在席、備品の管理機能の提供を開始 ～Google Workspace / Microsoft 365 / LINE WORKSと連携 - newscast.jp",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GU2pYZEVjbzlTd1JxWEVyZ2NtWEJlNDBpalYydENOdE9xLUFhVjFYaGZjR2JWeTRrc1ZBdmxZNmZrZlhpR285Mm1VQ3pNVXM?oc=5&hl=en-US&gl=US&ceid=US:en"
@@ -1573,5 +1523,15 @@
     "date": "2026-02-12T21:41:19.777244+09:00",
     "title": "論文の図を生成するAI「PaperBanana」 Googleなどが開発 ブラウザ上で試せるジェネレーターも公開中 - ITmedia",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5taHI0TUkxaW5Eakl3Tnh5by1FWFJ0Y2pnSllqN21YdTJnRFM1YVFRTUdVN0tEcmtZWnMwOWs1NEtUcjFSQ3lKOWw2RnRqZ2ZHQjVwVUFDOHR6eXJCcVFTSFlpZ25IczBpZmJqUGYxUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T09:48:11.138997+09:00",
+    "title": "Google、Developer Knowledge APIとMCPサーバーのパブリックプレビューを提供開始 - CodeZine",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUN0NENVNzR1l0NXlndXZXMEJQcHJYaDd3QkxoZHd2WkpQS2JWdGlvZ3lJbUVPOFlwektqRmo1QUUzMDZ2M0NrYmpmZnA0UQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+    "date": "2026-02-13T09:48:11.138997+09:00",
+    "title": "10 月 23 日開催「金融サミット '25」コンテナで加速するクラウドシフト：仮想環境からの移行と次世代インフラ構築 - Google Cloud",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW1oeVF2WUY2aExPc1pTT2JVMEh2eVd1ME4wbjlCb2lHYkZQZmZGd0NHR2ItSW9rRzJPaWZCd3d0MzN2Y1NIMFRZX0NuX25ZRlVWempsMHVzb21SQW1KSTNJOHZ0YXdBdUVOczhSUzdhSTdBb0JDVVZ4RkZDVVJOYUYtRVBpQUFuZmc?oc=5&hl=en-US&gl=US&ceid=US:en"
   }
 ]
