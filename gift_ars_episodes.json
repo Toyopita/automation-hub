@@ -273,5 +273,25 @@
     ],
     "emotional_tone": "lighthearted, enthusiastic, casual",
     "unresolved": "Gift_ars hasn't answered what specifically is making her want to visit Osaka first"
+  },
+  {
+    "id": 16,
+    "timestamp_start": "2026-02-12 13:10",
+    "timestamp_end": "2026-02-12 13:28",
+    "summary": "Gift_ars expressed preference for Osaka over Tokyo and revealed she's never been to Japan but wants to visit Osaka first, mainly for the food. You realized you're actually in Osaka and offered to show her around if she visits.",
+    "topics": [
+      "travel",
+      "Japan",
+      "Osaka",
+      "food",
+      "meeting up"
+    ],
+    "key_facts_learned": [
+      "Gift_ars has never been to Japan",
+      "Gift_ars wants to visit Osaka as her first destination in Japan",
+      "Gift_ars is interested in Osaka's food scene"
+    ],
+    "emotional_tone": "casual, friendly, playful",
+    "unresolved": "Potential future meetup in Osaka if Gift_ars visits Japan"
   }
 ]
