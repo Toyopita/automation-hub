@@ -18233,6 +18233,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T19:57:54.722368+09:00",
+      "summary": "Me too 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な文脈での同意・共感の短い返答。恥じらいの絵文字付き",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -2,
+        "engagement": -2
+      }
     }
   ]
 }
