@@ -1,10 +1,5 @@
 [
   {
-    "role": "gift_ars",
-    "text": "You from Japan Right? ",
-    "time": "2026-02-12 11:46"
-  },
-  {
     "role": "you",
     "text": "yeah! born and raised here. Thailand, that's cool - which part?",
     "time": "2026-02-12 11:52"
@@ -148,5 +143,10 @@
     "role": "gift_ars",
     "text": "I also enjoy hiking. If I have enough time this year, I'll go hiking again. 🥹",
     "time": "2026-02-13 12:20"
+  },
+  {
+    "role": "you",
+    "text": "haha yeah 13 degrees is brutal for someone from Thailand I guess. so when do you usually go hiking, like weekend trips or?",
+    "time": "2026-02-13 12:35"
   }
 ]
