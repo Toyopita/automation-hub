@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T18:27:15.719279+09:00",
+  "last_updated": "2026-02-13T18:35:32.105628+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1685,7 +1685,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Love you bye",
       "Send me an audio talking in Japanese",
       "Do you understand English?",
       "I send you tomorrow",
@@ -1714,7 +1713,8 @@
       "literally just yesterday (acknowledging time perspective)",
       "un mot (French autocorrect for 'I'm not')",
       "No baby",
-      "coffe (typo for coffee)"
+      "coffe (typo for coffee)",
+      "Me? (self-referential questioning)"
     ]
   },
   "topic_engagement": {
