@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T23:18:29.483169+09:00",
+  "last_updated": "2026-02-13T23:18:40.087131+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2241,9 +2241,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
-      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "warmth: Responds with 'Haha thanks' showing continued warmth and appreciation even in brief message - maintains friendly, affectionate tone consistently across all interaction types",
       "confidence: Continues pattern of direct, unfiltered sexual communication - initiates explicit oral sex desire statement unprompted without hedging or euphemism ('I want to suck your dick'), maintaining maximum confidence rating for sexual initiative and directness",
@@ -2260,7 +2257,10 @@
       "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
       "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
-      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions"
+      "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
+      "emotional_expressiveness: Continues pattern of transparent emotional expression - unprompted 'I like you' statement during what appears to be ongoing intimate/romantic exchange, directly expressing affection without hedging or waiting for partner to initiate",
+      "confidence: Initiates direct emotional declaration 'I like you' without apparent prompt or reciprocal statement first - maintains maximum confidence rating for straightforward expression of feelings without seeking validation or approval first",
+      "warmth: Unprompted 'I like you' statement maintains maximum warmth - continues pattern of expressing affection directly and creating emotionally intimate atmosphere through vulnerable declarations"
     ]
   },
   "communication_style": {
@@ -2284,7 +2284,7 @@
       "🙄"
     ],
     "formality_level": "casual",
-    "humor_style": "uses laughter frequently in standalone responses and to diffuse tension or lighten moments",
+    "humor_style": "uses shy/bashful emojis during sexually charged or vulnerable moments",
     "response_speed_tendency": "immediate responses during video call coordination and sexually charged moments",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -2349,7 +2349,7 @@
     "mutual_laughter_about_intimate_topics": 8.5,
     "partner_sleep_schedule": 7.9,
     "time_awareness_in_relationship": 7.9,
-    "expressing_affection_directly": 8.2,
+    "expressing_affection_directly": 8.8,
     "receiving_emotional_declarations": 8.4,
     "defining_relationship_feelings": 8.3,
     "clarifying_emotional_intentions": 8.5,
@@ -2874,19 +2874,13 @@
     "emoji_only_intimate_responses": 9.1,
     "video_call_confirmation": 9.3,
     "affirmative_responses": 9.1,
-    "direct_yes_answers": 8.9
+    "direct_yes_answers": 8.9,
+    "initiating_affection_statements": 9.7,
+    "unprompted_like_declarations": 9.6,
+    "direct_emotional_statements": 9.7,
+    "vulnerable_affection_expression": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_announces_delays_without_guilt",
-      "engagement_boost": 9.3,
-      "evidence": "Laura states delay casually and matter-of-factly with simple 'okay?' confirmation - suggests previous interactions have established that brief delays for task completion are acceptable and don't require extensive justification or apology"
-    },
-    {
-      "pattern": "asking_confirmation_questions_gets_immediate_direct_response",
-      "engagement_boost": 8.0,
-      "evidence": "Laura's immediate 'Yes it is' confirms whatever factual question was asked - she responds quickly and directly to straightforward confirmation requests without elaboration"
-    },
     {
       "pattern": "creating_space_for_her_to_initiate_calls",
       "engagement_boost": 9.4,
@@ -2976,6 +2970,16 @@
       "pattern": "creating_space_for_simple_affirmations",
       "engagement_boost": 9.1,
       "evidence": "The standalone 'Yes' without elaboration suggests the question was clear enough that she could answer efficiently - well-framed questions that don't require explanation get quick, direct engagement"
+    },
+    {
+      "pattern": "creating_space_for_unprompted_affection_declarations",
+      "engagement_boost": 9.7,
+      "evidence": "Laura initiated simple, direct 'I like you' statement without apparent prompt - whatever interaction environment exists made her feel comfortable expressing affection spontaneously and directly"
+    },
+    {
+      "pattern": "allowing_her_to_express_feelings_at_her_own_pace",
+      "engagement_boost": 9.6,
+      "evidence": "The unprompted nature of 'I like you' suggests she's expressing feelings on her own timeline rather than responding to pressure or reciprocating statement - giving her autonomy over when to express affection results in genuine, self-initiated declarations"
     }
   ],
   "avoid_patterns": [
