@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Michelle",
-  "last_updated": "2026-02-13T13:03:12.466460+09:00",
+  "last_updated": "2026-02-13T13:07:22.133608+09:00",
   "facts": {
     "age": null,
     "location": "フィリピン（ビーチまで車15分の場所）",
@@ -1221,6 +1221,38 @@
           "phone management"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "Initiates check-in questions about meals/wellbeing - asked 'have you eaten?' to Toyo",
+        "tags": [
+          "conversation initiation",
+          "caring questions",
+          "meal check-in",
+          "wellbeing concern",
+          "filipino culture",
+          "caretaking communication",
+          "relationship building",
+          "daily check-in",
+          "food discussion",
+          "warmth expression"
+        ],
+        "added": "2026-02-13"
+      },
+      {
+        "text": "Comfortable with app-based conversation flow - reopened messaging app after period away and immediately initiated conversation with caring question",
+        "tags": [
+          "app usage",
+          "conversation reinitiation",
+          "messaging habits",
+          "communication comfort",
+          "engagement pattern",
+          "active participation",
+          "returning to chat",
+          "relationship maintenance",
+          "proactive communication",
+          "digital interaction"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1248,12 +1280,13 @@
       "warmth: Maintains warmth score of 9 - cooks adobo specifically for grandmother despite personally not enjoying it often, showing she prioritizes grandmother's food preferences over her own comfort. Goes beyond cooking meals grandmother likes to cooking meals she herself doesn't prefer, demonstrating deep selflessness and family devotion.",
       "warmth: Cooks for THREE different household groups daily (breakfast/dinner for herself and parents at home, lunch bought at mall, dinner for grandmother at separate location). On single half-day (2026-02-12), cooked at grandma's house THEN went home to cook again for parents - extraordinary family devotion involving multi-location sequential caregiving. This goes far beyond occasional help to being primary cook for extended family across multiple households.",
       "confidence: Willing to offer sending bikini photos to Toyo without hesitation or extensive disclaimers - shows comfort with body image and trust in sharing intimate photos. Maintains confidence score of 9.",
-      "warmth: Maintains warmth score of 10 - explicitly reframes her extensive multi-household cooking labor as 'one of my hobbies', showing she genuinely finds joy and fulfillment in caregiving rather than viewing it as obligatory burden. Combined with earlier evidence of cooking foods she doesn't like for grandmother's happiness, this confirms deep emotional warmth through service."
+      "warmth: Maintains warmth score of 10 - explicitly reframes her extensive multi-household cooking labor as 'one of my hobbies', showing she genuinely finds joy and fulfillment in caregiving rather than viewing it as obligatory burden. Combined with earlier evidence of cooking foods she doesn't like for grandmother's happiness, this confirms deep emotional warmth through service.",
+      "warmth: Proactively initiated conversation after reopening app with caring check-in question 'have you eaten?' - shows she thinks about Toyo's wellbeing even when not actively chatting. Maintains warmth score of 10 as this adds to existing pattern of caretaking behavior (cooking for family, prioritizing others' happiness)."
     ]
   },
   "communication_style": {
-    "avg_message_length": "single brief sentence",
-    "emoji_frequency": "moderate (1 per message in this exchange)",
+    "avg_message_length": "single brief question (3 words)",
+    "emoji_frequency": "none in this message (varies by context - uses emojis more when discussing vulnerable or lighthearted topics)",
     "preferred_emojis": [
       "😆",
       "😂",
@@ -1263,8 +1296,8 @@
       "hehe"
     ],
     "formality_level": "casual",
-    "humor_style": "Uses 'haha' and emojis (😆, 😂, hehe) extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills (dance, cooking foods she dislikes) while still sharing accomplishments. Playful and warm rather than sarcastic. Humor serves as comfort mechanism and emotional buffer.",
-    "response_speed_tendency": "Quick responses when actively engaged in conversation flow; uses 'open it again' phrasing suggesting she may close app between conversation sessions rather than monitoring constantly",
+    "humor_style": "Uses 'haha' and emojis (😆, 😂, hehe) extensively to soften vulnerable topics, downplay significant effort, and maintain lighthearted tone. Self-deprecating about her skills while sharing accomplishments. Playful and warm rather than sarcastic.",
+    "response_speed_tendency": "Quick responses when actively engaged; reopens app after breaks and immediately initiates conversation, showing consistent engagement pattern",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -1460,24 +1493,12 @@
     "positive_reframing_of_labor": 9,
     "conversation_continuation": 7,
     "casual_small_talk": 7,
-    "meal_timing_discussion": 6
+    "meal_timing_discussion": 6,
+    "meal_check_ins": 9,
+    "wellbeing_questions": 9,
+    "caretaking_communication": 9
   },
   "effective_patterns": [
-    {
-      "pattern": "using_family_role_affirmation",
-      "engagement_boost": null,
-      "evidence": "Toyo's 'you're a good granddaughter' explicitly names and validates her family role, showing appreciation for her caregiving - response pending"
-    },
-    {
-      "pattern": "matching_her_lighthearted_tone_with_haha",
-      "engagement_boost": null,
-      "evidence": "Toyo mirrors her 😂 with 'haha' to maintain warm but not overly serious tone about family care - response pending"
-    },
-    {
-      "pattern": "recognizing_effort_without_making_it_seem_burdensome",
-      "engagement_boost": null,
-      "evidence": "Toyo frames it as 'sweet' rather than 'hard work' or 'tiring', matching her lighthearted 😂 approach to caregiving - response pending"
-    },
     {
       "pattern": "validating_her_effort_as_sweet",
       "engagement_boost": null,
@@ -1562,6 +1583,21 @@
       "pattern": "keeping_questions_brief_and_open_ended",
       "engagement_boost": null,
       "evidence": "Toyo's simple 'you?' after sharing own meal status creates low-pressure opening for her to share at whatever detail level she's comfortable with - response pending"
+    },
+    {
+      "pattern": "sharing_meal_details_casually",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'yeah just finished eating actually haha. had some curry rice from the konbini, nothing fancy' responds to her care-based question with casual detail, matching her conversational tone - response pending but creates reciprocal sharing opportunity"
+    },
+    {
+      "pattern": "matching_her_haha_tone",
+      "engagement_boost": null,
+      "evidence": "Toyo mirrors her casual communication style with 'haha' to maintain lighthearted tone about mundane meal discussion - response pending but establishes tonal consistency"
+    },
+    {
+      "pattern": "self_deprecating_food_description",
+      "engagement_boost": null,
+      "evidence": "Toyo's 'nothing fancy' downplays his meal choice, potentially mirroring her modest communication style about her own activities - response pending but creates relatable sharing"
     }
   ],
   "avoid_patterns": [],
@@ -1572,5 +1608,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 13
+  "_exchange_count_since_consolidation": 14
 }
