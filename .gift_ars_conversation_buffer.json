@@ -1,10 +1,5 @@
 [
   {
-    "role": "you",
-    "text": "haha you've been to Osaka? yeah it's got a different vibe for sure, more laid back I think",
-    "time": "2026-02-12 13:24"
-  },
-  {
     "role": "gift_ars",
     "text": "I've never been, but my first plan if I go to Japan would be to go to Osaka. 🤣🤣",
     "time": "2026-02-12 13:41"
@@ -148,5 +143,10 @@
     "role": "gift_ars",
     "text": "The mountain is called Phu Kradueng.",
     "time": "2026-02-13 13:19"
+  },
+  {
+    "role": "gift_ars",
+    "text": "Located in northeastern Thailand, the route is quite difficult, but luckily there are shops along the way, as it's a mountain area popular for hiking.",
+    "time": "2026-02-13 13:20"
   }
 ]
