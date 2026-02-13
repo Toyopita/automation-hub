@@ -18359,6 +18359,48 @@
         "future": 1,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-13T20:34:01.169411+09:00",
+      "summary": "I’m going to do something quick and then we have the call okay? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前まで性的な会話の流れだったが、今は実務的な確認。電話の約束を確認している前向きなトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 5,
+        "engagement": 1
+      }
     }
   ]
 }
