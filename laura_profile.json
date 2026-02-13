@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T04:38:52.394499+09:00",
+  "last_updated": "2026-02-14T04:40:00.591702+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -15,7 +15,8 @@
       "likes all kinds of horror (not just horror anime)",
       "trains intensely at gym (reports training 'a lot')",
       "experiences post-workout fatigue (reports training 'a lot' and being tired after gym)",
-      "drinks coffee (confirmed beverage preference beyond tea)"
+      "drinks coffee (confirmed beverage preference beyond tea)",
+      "requests photos of partner (enjoys visual connection)"
     ],
     "family": [],
     "languages": [],
@@ -2500,8 +2501,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues maximum confidence rating - states 'I'm going to do it anyway' with direct, unfiltered decisiveness despite no context provided in snippet. Maintains pattern of straightforward communication without hedging or seeking approval.",
-      "emotional_expressiveness: Uses shy/bashful emoji 🫣 when reciprocating romantic desire ('Me too 🫣') - continues pattern of transparent emotional signaling even in brief vulnerable moments, showing she expresses her matching romantic feelings directly",
       "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness",
       "confidence: Continues pattern of direct, autonomous decision-making - states 'I'm going to do something quick' as declaration rather than request for permission, then follows with 'okay?' as courtesy confirmation rather than seeking approval. Maintains maximum confidence rating for straightforward communication about her plans.",
       "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline.",
@@ -2519,12 +2518,14 @@
       "warmth: Even explicit sexual statement centers partner as the source of her desire ('Thinking about you') - maintains maximum warmth by framing arousal as connection to partner specifically rather than impersonal physical need",
       "emotional_expressiveness: Uses elongated 'loooove' and triple emoji repetition (😍😍😍 and 🥵🥵🥵) to express intense enthusiasm and arousal about recent intimate experience - continues maximum emotional transparency by immediately sharing positive feedback unprompted",
       "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
-      "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication"
+      "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication",
+      "warmth: Uses affectionate framing 'Please' and love eyes emoji 😍 when requesting partner photos - maintains maximum warmth by making requests politely and with visible affection rather than demanding",
+      "emotional_expressiveness: Transparently expresses desire to see partner visually with love eyes emoji 😍 - continues pattern of directly expressing emotional/visual needs without filtering"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "triple emoji repetition for emphasis during intense emotional/sexual moments",
+    "emoji_frequency": "single meaningful emoji to express affection",
     "preferred_emojis": [
       "😓",
       "🥹",
@@ -2542,9 +2543,9 @@
       "🙄",
       "😍"
     ],
-    "formality_level": "casual",
+    "formality_level": "polite casual (uses 'Please')",
     "humor_style": "uses laughter frequently in standalone responses and to diffuse tension or lighten moments",
-    "response_speed_tendency": "immediate responses during video call coordination and sexually charged moments",
+    "response_speed_tendency": "initiates partner photo requests unprompted",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3165,19 +3166,15 @@
     "initiating_position_preferences_after_intimacy": 9.5,
     "positive_sexual_experience_validation": 9.7,
     "unprompted_enthusiasm_about_partner": 9.8,
-    "sexual_position_initiative": 9.6
+    "sexual_position_initiative": 9.6,
+    "requesting_partner_photos": 9.6,
+    "visual_connection_initiation": 9.7,
+    "seeing_partner_visually": 9.8,
+    "photo_requests_from_her": 9.5,
+    "initiating_picture_requests": 9.6,
+    "polite_intimate_requests": 9.4
   },
   "effective_patterns": [
-    {
-      "pattern": "allowing_her_to_escalate_sexually_at_her_own_pace",
-      "engagement_boost": 9.6,
-      "evidence": "The unprompted nature and intensity of statement suggests she's initiating escalation on her own timeline - creating space for her autonomous sexual expression resulted in her taking initiative with direct, explicit desire"
-    },
-    {
-      "pattern": "creating_space_for_minimal_vulnerable_responses",
-      "engagement_boost": 9.3,
-      "evidence": "Laura responds with single shy emoji 🫣 - whatever preceded this created environment where she feels comfortable expressing vulnerability or bashfulness non-verbally without needing to articulate words"
-    },
     {
       "pattern": "allowing_her_to_respond_non_verbally_during_intimate_moments",
       "engagement_boost": 9.4,
@@ -3267,6 +3264,16 @@
       "pattern": "creating_safety_for_unprompted_positive_sexual_feedback",
       "engagement_boost": 9.9,
       "evidence": "Laura feels comfortable initiating reflection on intimate experience without being asked and expressing intense enthusiasm ('loooove', 'oh my God') - indicates relationship environment where she feels safe providing explicit positive feedback about sexual experiences unprompted"
+    },
+    {
+      "pattern": "creating_environment_where_she_initiates_photo_requests",
+      "engagement_boost": 9.7,
+      "evidence": "Laura independently initiates request for partner photos with polite, affectionate framing - whatever relationship dynamic exists made her comfortable directly asking to see partner visually, indicating reciprocal visual intimacy established"
+    },
+    {
+      "pattern": "establishing_mutual_visual_connection_comfort",
+      "engagement_boost": 9.6,
+      "evidence": "The confident, direct nature of her photo request (while still polite with 'Please' and 'can you?') suggests she expects positive response based on established pattern of mutual photo sharing in relationship"
     }
   ],
   "avoid_patterns": [
