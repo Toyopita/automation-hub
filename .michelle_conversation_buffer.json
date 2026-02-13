@@ -1,10 +1,5 @@
 [
   {
-    "role": "michelle",
-    "text": "hmm.. you mean for lunch? sometimes at mcdonalds but often jollibee",
-    "time": "2026-02-12 14:42"
-  },
-  {
     "role": "you",
     "text": "ah jollibee, i've heard about that place actually haha. never been though since we don't have it here",
     "time": "2026-02-12 14:51"
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "oh wait so you're off for valentines day haha. family taking priority over the cosmetics store I see 😆",
     "time": "2026-02-13 14:10"
+  },
+  {
+    "role": "michelle",
+    "text": "hahaha yes, here valentines day is important so i want to celebrate it with my fam since i dont have a bf here 😂",
+    "time": "2026-02-13 14:22"
   }
 ]
