@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-13T19:10:51.429016+09:00",
+  "last_updated": "2026-02-13T19:11:14.545570+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -1973,6 +1973,27 @@
           "typing patterns"
         ],
         "added": "2026-02-13"
+      },
+      {
+        "text": "asks about partner's physical pleasure preferences and touch sensitivity during intimate moments",
+        "tags": [
+          "sexual communication",
+          "pleasure inquiry",
+          "touch preferences",
+          "sensitivity questions",
+          "intimate questions",
+          "partner pleasure",
+          "physical preferences",
+          "sexual exploration",
+          "arousal questions",
+          "sensory preferences",
+          "sexual curiosity",
+          "partner-focused intimacy",
+          "pleasure exploration",
+          "touch sensitivity",
+          "intimate communication"
+        ],
+        "added": "2026-02-13"
       }
     ]
   },
@@ -1984,8 +2005,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Continues pattern of direct, unfiltered sexual communication - openly describes herself as 'horny all the time' without hedging or euphemism, maintaining maximum confidence rating",
-      "emotional_expressiveness: Clarifies her arousal frequency directly and transparently ('horny sol thé time ?') - continues pattern of expressing sexual/emotional states without filtering",
       "humor_appreciation: Uses playful teasing with laughing emoji 'Maybe you are Just words 😂' - suggests partner may have been making romantic/sexual promises and she's teasingly questioning if he's all talk, showing continued pattern of playful skepticism and humor in relationship",
       "humor_appreciation: Responds with 'Haha 😂' to user's acknowledgment of her playful skepticism about whether he's 'just words' - continues pattern of appreciating humor in relationship dynamics, particularly when partner joins in her teasing rather than becoming defensive",
       "humor_appreciation: Responds with 'Haha 😂' to user's laughter about her playful skepticism, then continues with 'Why hahaha' - shows she appreciates humor in relationship dynamics and is curious about what made him laugh at her teasing",
@@ -2002,6 +2021,8 @@
       "emotional_expressiveness: Maintains maximum emotional expressiveness - uses 'Hahaha' to transparently signal her playful/humorous emotional state while making explicit sexual suggestion, showing continued pattern of expressing emotional tone directly even during sexual communication.",
       "warmth: Maintains maximum warmth - even explicit sexual video suggestion is framed with laughter ('Hahaha') creating playful, inviting tone rather than demanding or transactional. Continues pattern of maintaining emotional warmth across all communication contexts including sexual.",
       "confidence: Continues pattern of direct communication - explicitly corrects partner's misunderstanding about timezone differences without hedging ('But you dont understand that we don't have the same time'), maintaining maximum confidence rating for straightforward communication style",
+      "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
+      "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering",
       "confidence: Continues pattern of direct, unfiltered sexual communication - asks explicit questions about partner's physical pleasure and touch preferences during intimate moments without hedging or euphemism, maintaining maximum confidence rating",
       "emotional_expressiveness: Asks direct question about partner's pleasure during what appears to be sexually charged context - continues pattern of expressing curiosity and engagement transparently without filtering"
     ]
