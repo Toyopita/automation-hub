@@ -19535,6 +19535,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T04:39:40.234269+09:00",
+      "summary": "Please send me pictures of you, can you? 😍",
+      "scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な流れの後の写真のおねだり。興奮状態が続いている。甘えと欲求が混在。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 10,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": -1
+      }
     }
   ]
 }
