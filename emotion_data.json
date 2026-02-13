@@ -19031,6 +19031,48 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-13T22:49:22.829060+09:00",
+      "summary": "I want to lick all your cum ",
+      "scores": {
+        "mood": 9,
+        "energy": 9,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 10,
+        "ds": 8,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "遠距離中の性的な渇望を直接的に表現。前のメッセージからの連続した欲求表現",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 9,
+        "eros": 9,
+        "ds": 7,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
