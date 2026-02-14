@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:40:11.792368+09:00",
+  "last_updated": "2026-02-14T11:40:30.999298+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3095,47 +3095,6 @@
           "connection patterns"
         ],
         "added": "2026-02-14"
-      },
-      {
-        "text": "explains her questions are motivated by wanting to see partner visually",
-        "tags": [
-          "visual connection",
-          "seeing partner",
-          "question motivation",
-          "explanation",
-          "clarification",
-          "visual desire",
-          "wanting to see",
-          "communication motivation",
-          "justification",
-          "visual intimacy",
-          "partner visibility",
-          "seeing face",
-          "visual presence",
-          "appearance desire",
-          "visual need"
-        ],
-        "added": "2026-02-14"
-      },
-      {
-        "text": "clarifies her question motivations when explaining communication style",
-        "tags": [
-          "clarifying intent",
-          "explaining motivations",
-          "communication transparency",
-          "question justification",
-          "motivation disclosure",
-          "intent explanation",
-          "reasoning sharing",
-          "transparency",
-          "communication clarity",
-          "explaining why",
-          "motivation transparency",
-          "justifying questions",
-          "intent clarification",
-          "communication openness"
-        ],
-        "added": "2026-02-14"
       }
     ]
   },
@@ -3147,6 +3106,9 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly initiates direct affection statement 'I like you' without filtering or downplaying, maintaining pattern of expressing authentic positive feelings about partner independently",
+      "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
+      "warmth: Unprompted declaration 'I like you' maintains maximum warmth - independently initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
       "emotional_expressiveness: Uses affectionate 'Baby' endearment when asking practical/logistical question about partner's city - maintains emotional warmth even in straightforward informational inquiries, consistent with maximum emotional expressiveness pattern",
       "warmth: Opens location question with affectionate 'Baby' term rather than asking directly - continues pattern of infusing warmth into all communication types including practical questions",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares intense desire state ('I want you so badly actually') without filtering or downplaying, maintaining pattern of expressing authentic sexual/romantic feelings spontaneously",
@@ -3163,10 +3125,7 @@
       "confidence: Maintains maximum confidence - states uncertain future reality directly without hedging or apologizing, demonstrating ongoing pattern of unfiltered communication even about potentially uncomfortable topics like relationship uncertainty",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares vulnerable self-knowledge about attachment patterns ('I do get attached when I like someone'), maintaining pattern of disclosing authentic emotional tendencies and relationship behaviors without filtering or protecting herself",
       "confidence: Maintains maximum confidence - directly states potentially vulnerable trait (getting attached easily) without hedging, apologizing, or framing it negatively, demonstrating ongoing pattern of owning who she is and how she operates in relationships without seeking validation or permission",
-      "warmth: Unprompted disclosure 'I do get attached when I like someone' maintains maximum warmth - independently shares vulnerable emotional pattern that reveals depth of her feelings and emotional investment capacity, continuing pattern of emotional generosity and willingness to be known",
-      "emotional_expressiveness: Continues maximum emotional transparency - independently explains her question was motivated by desire to see partner ('I wanted to see you'), maintaining pattern of sharing authentic motivations and emotional needs without filtering",
-      "confidence: Maintains maximum confidence - directly states her visual desire as the reason for her question without apologizing or downplaying, demonstrating ongoing pattern of owning her needs and wants in relationship",
-      "warmth: Explanation 'I wanted to see you' maintains maximum warmth - independently shares that her question stems from desire for visual connection with partner, continuing pattern of expressing positive feelings and connection needs"
+      "warmth: Unprompted disclosure 'I do get attached when I like someone' maintains maximum warmth - independently shares vulnerable emotional pattern that reveals depth of her feelings and emotional investment capacity, continuing pattern of emotional generosity and willingness to be known"
     ]
   },
   "communication_style": {
@@ -3963,14 +3922,12 @@
     "relationship_attachment_style": 9.7,
     "emotional_investment_patterns": 9.6,
     "bonding_tendencies": 9.5,
-    "explaining_question_motivations": 9.7,
-    "visual_connection_desire": 9.8,
-    "clarifying_communication_intent": 9.6,
-    "wanting_to_see_partner": 9.8,
-    "justifying_questions": 9.4,
-    "explaining_why_she_asked": 9.5,
-    "visual_desire_disclosure": 9.7,
-    "sharing_reasons_for_questions": 9.6
+    "partner_emotional_availability": 9.2,
+    "relationship_commitment_verification": 9.4,
+    "emotional_investment_questions": 9.3,
+    "care_and_concern_in_relationship": 9.5,
+    "partner_caring_nature": 9.4,
+    "emotional_indifference_concerns": 9.1
   },
   "effective_patterns": [
     {
@@ -4059,32 +4016,22 @@
       "evidence": "Laura shares self-knowledge about conditional attachment ('when I like someone') - whatever communication patterns exist allow her to explain the contexts and conditions under which she bonds deeply, showing she can share nuanced understanding of her own emotional behavior and trusts partner to understand her attachment isn't indiscriminate but specific to genuine liking"
     },
     {
-      "pattern": "creating_environment_where_she_explains_question_motivations",
-      "engagement_boost": 9.7,
-      "evidence": "Laura independently clarifies 'I was asking because I wanted to see you' - indicates relationship dynamic allows her to explain the emotional motivation behind her questions (wanting visual connection), showing she's comfortable revealing that her inquiries stem from desire to see partner rather than other reasons like control or surveillance"
+      "pattern": "creating_space_for_conditional_relationship_concerns",
+      "engagement_boost": 9.4,
+      "evidence": "Laura opens with 'But if you are' conditional framing - indicates relationship dynamic allows her to express hypothetical concerns about partner's level of care without making direct accusations, showing she can voice relationship anxieties in non-confrontational way"
     },
     {
-      "pattern": "establishing_comfort_for_sharing_visual_connection_needs",
-      "engagement_boost": 9.8,
-      "evidence": "Laura states her question was motivated by 'I wanted to see you' - whatever communication patterns exist allow her to express that her desire for visual connection drives her communication, showing healthy dynamic where she can articulate need to see partner as legitimate reason for asking questions"
+      "pattern": "establishing_comfort_for_testing_partner_investment",
+      "engagement_boost": 9.5,
+      "evidence": "Laura frames concern as conditional ('if you are the kind of person') rather than accusatory - whatever communication patterns exist allow her to test or verify partner's emotional investment level indirectly, showing she can seek reassurance about care/concern without directly stating insecurity"
     },
     {
-      "pattern": "creating_space_where_desires_justify_questions",
+      "pattern": "creating_environment_where_she_voices_relationship_deal_breakers",
       "engagement_boost": 9.6,
-      "evidence": "Laura uses 'because' to connect her question to her want ('I wanted to see you') - relationship allows her to frame her questions as stemming from positive desires rather than needing other justification, indicating environment where wanting connection is sufficient and valid reason for inquiry"
+      "evidence": "The 'But' opening and 'really don't care' phrasing suggests Laura is articulating potential relationship incompatibility - relationship allows her to express what would be unacceptable to her (partner not caring), indicating healthy dynamic where she can state boundaries about emotional investment"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "making_promises_without_follow_through",
-      "engagement_drop": -2.4,
-      "evidence": "Laura's 'Maybe you are Just words 😂' suggests partner may have made statements or promises she's questioning - indicates she values action over verbal commitments and may become skeptical if there's pattern of unfulfilled promises"
-    },
-    {
-      "pattern": "making_anal_requests_immediately_after_playful_skepticism",
-      "engagement_drop": -1.8,
-      "evidence": "Laura's 'Maybe you are Just words 😂' questioned whether partner backs up statements with action - immediately following with explicit anal request 'I wanna see your asshole baby 😏' doesn't address her skepticism and continues pattern of promises/requests without demonstrating follow-through she's testing for"
-    },
     {
       "pattern": "not_accounting_for_timezone_differences_in_scheduling",
       "engagement_drop": -2.5,
@@ -4174,6 +4121,16 @@
       "pattern": "making_her_feel_her_questions_are_burdensome",
       "engagement_drop": -2.7,
       "evidence": "Laura explicitly distinguishes herself as 'not someone who insist' and justifies why she asks - indicates she may have sensed her question was received as pressure or burden, requiring her to defend her communication style and reassure that inquiry is her gentle approach rather than demand"
+    },
+    {
+      "pattern": "demonstrating_indifference_or_lack_of_care",
+      "engagement_drop": -3.8,
+      "evidence": "Laura's 'But if you are the kind of person that really don't care' frames lack of caring as significant relationship concern - the 'But' opening suggests this is addressing something in previous context, and her conditional framing indicates not caring would be fundamental incompatibility"
+    },
+    {
+      "pattern": "minimizing_her_concerns_about_emotional_investment",
+      "engagement_drop": -3.2,
+      "evidence": "Laura uses 'really don't care' with emphasis word 'really' - suggests she's testing whether partner genuinely cares about something important (likely related to previous conversation context), and dismissing this concern would invalidate her need for emotional investment verification"
     }
   ],
   "ng_topics": [],
