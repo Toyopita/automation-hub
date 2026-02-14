@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Baby ",
-    "time": "10:33"
-  },
-  {
-    "role": "laura",
     "text": "I’m going to sleep ",
     "time": "10:47"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Yes exactly for learning Japanese ",
     "time": "11:06"
+  },
+  {
+    "role": "laura",
+    "text": "But anyway if we get to see each other is fine ",
+    "time": "11:07"
   }
 ]
