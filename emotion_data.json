@@ -19703,6 +19703,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:49:32.860244+09:00",
+      "summary": "Honey I masturbate a lot today 🤣🤣🤣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 9,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な内容を軽く笑いながら共有。親密さと欲求不満が混在",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 4,
+        "ds": -2,
+        "playfulness": 3,
+        "future": -4,
+        "engagement": 2
+      }
     }
   ]
 }
