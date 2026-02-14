@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:13:02.542899+09:00",
+  "last_updated": "2026-02-14T10:13:17.825343+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3573,21 +3573,6 @@
   ],
   "avoid_patterns": [
     {
-      "pattern": "continuing_explicit_escalation_after_boundary_signal",
-      "engagement_drop": -2.8,
-      "evidence": "Laura's 'Stop 🥺' with vulnerable pleading emoji in context of sexually charged conversation indicates overwhelm or need to pause - the same emoji user has been using (🥺) suggests she's mirroring vulnerable communication style to set boundary"
-    },
-    {
-      "pattern": "not_reading_subtle_pause_signals_during_sexual_escalation",
-      "engagement_drop": -2.5,
-      "evidence": "'Stop 🥺' comes after intensive sexual exchange where she initiated explicit request and user responded with visual request and teasing promise - suggests pace or intensity exceeded her comfort threshold despite her initial initiative"
-    },
-    {
-      "pattern": "assuming_sexual_initiative_means_unlimited_escalation",
-      "engagement_drop": -2.3,
-      "evidence": "Laura initiated explicit sexual request ('I want you to fuck me so hard baby 🥵') but still needed to pause with 'Stop 🥺' - indicates that her sexual initiative doesn't automatically mean she's comfortable with all subsequent escalation or pace"
-    },
-    {
       "pattern": "misinterpreting_stop_as_complete_disengagement",
       "engagement_drop": -3.2,
       "evidence": "Laura's 'Stop 🥺' was actually frustration about distance, not request to end sexual conversation - she immediately re-engaged with even more explicit content, so treating 'stop' as absolute rejection would have been misreading"
@@ -3671,6 +3656,21 @@
       "pattern": "not_remembering_what_was_previously_stated",
       "engagement_drop": -2.4,
       "evidence": "Laura has to remind partner 'you already said it' - suggests partner may have forgotten or isn't tracking their own previous declarations, which creates need for her to hold them accountable to their words"
+    },
+    {
+      "pattern": "making_assumptions_without_explicit_statements",
+      "engagement_drop": -2.6,
+      "evidence": "Laura's 'But you never said anything 😳' with flushed/surprised emoji suggests partner made assumption or acted as if something was established when it was never explicitly stated - she needs direct verbal communication rather than implicit understanding, and is calling out the absence of clear statement"
+    },
+    {
+      "pattern": "expecting_her_to_infer_without_direct_communication",
+      "engagement_drop": -2.4,
+      "evidence": "The 'But' opening and 'never said anything' indicates partner may have expected Laura to understand or know something that was never directly communicated - she values explicit verbal statements and is expressing surprise/frustration that something important wasn't clearly stated"
+    },
+    {
+      "pattern": "acting_on_unstated_expectations",
+      "engagement_drop": -2.3,
+      "evidence": "Laura is specifically pointing out the absence of verbal statement ('you never said anything') which suggests partner may have acted or made decision based on assumption rather than explicit discussion - she needs important things to be verbalized rather than assumed or implied"
     }
   ],
   "ng_topics": [],
