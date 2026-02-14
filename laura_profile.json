@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:50:27.933624+09:00",
+  "last_updated": "2026-02-14T10:52:03.768432+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2755,6 +2755,41 @@
           "location interest"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "experiences spontaneous intense sexual desire for partner ('want you so badly')",
+        "tags": [
+          "sexual desire",
+          "intense wanting",
+          "spontaneous desire",
+          "sexual longing",
+          "physical desire",
+          "romantic desire",
+          "partner desire",
+          "intense need",
+          "sexual intensity",
+          "strong wanting",
+          "badly wanting",
+          "desire expression",
+          "sexual craving"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses 'actually' to emphasize genuine/current state of intense feelings",
+        "tags": [
+          "communication style",
+          "emphasis pattern",
+          "actually usage",
+          "genuine feeling emphasis",
+          "current state emphasis",
+          "linguistic pattern",
+          "authenticity marker",
+          "feeling validation",
+          "intensity emphasis",
+          "real-time emotion"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2766,9 +2801,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Maintains maximum confidence - initiates explicit sexual activity disclosure completely unprompted, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation or embarrassment",
-      "warmth: Maintains maximum warmth - uses affectionate 'Honey' endearment when sharing sexual disclosure, and triple laughing emoji creates playful, intimate tone rather than purely physical announcement",
-      "warmth: Maintains maximum warmth - responds to partner's timing constraints with patient understanding and smile emoji rather than frustration or pressure, framing acceptance positively ('When you can') to show she's not upset about delay",
       "emotional_expressiveness: Continues maximum emotional transparency - clearly signals her understanding and acceptance state ('Okay I understand') rather than leaving partner uncertain about her reaction to timing constraints",
       "confidence: Continues maximum confidence pattern - directly asks clarifying question about sex toy reference ('like a dildo?') with playful tone rather than avoiding topic or being vague, maintaining pattern of direct, unfiltered sexual communication",
       "emotional_expressiveness: Transparently expresses mild bashfulness/surprise with 😳 emoji while simultaneously using playful laughter - continues pattern of expressing authentic emotional reactions (playful embarrassment) without filtering",
@@ -2785,11 +2817,14 @@
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "warmth: Unprompted declaration 'I like you' maintains maximum warmth - independently initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
       "emotional_expressiveness: Uses affectionate 'Baby' endearment when asking practical/logistical question about partner's city - maintains emotional warmth even in straightforward informational inquiries, consistent with maximum emotional expressiveness pattern",
-      "warmth: Opens location question with affectionate 'Baby' term rather than asking directly - continues pattern of infusing warmth into all communication types including practical questions"
+      "warmth: Opens location question with affectionate 'Baby' term rather than asking directly - continues pattern of infusing warmth into all communication types including practical questions",
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares intense desire state ('I want you so badly actually') without filtering or downplaying, maintaining pattern of expressing authentic sexual/romantic feelings spontaneously",
+      "confidence: Maintains maximum confidence - initiates vulnerable desire statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered communication about intense sexual/romantic needs without hesitation",
+      "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single question (6 words)",
+    "avg_message_length": "single declaration (6 words)",
     "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "❤️",
@@ -2808,15 +2843,14 @@
       "😈",
       "👹"
     ],
-    "formality_level": "casual and affectionate",
+    "formality_level": "casual and direct",
     "humor_style": "not applicable in this message",
-    "response_speed_tendency": "initiates new conversation topic with direct question",
+    "response_speed_tendency": "initiates spontaneous desire declaration unprompted",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Just words",
       "Why hahaha (questioning with laughter)",
       "Why hahaha",
       "You never Forget lol",
@@ -2845,7 +2879,8 @@
       "I'm in bed",
       "Can I ask you something?",
       "Bye",
-      "I wanted to ask you that"
+      "I wanted to ask you that",
+      "actually (as emphasis marker for genuine current feeling)"
     ]
   },
   "topic_engagement": {
@@ -3504,24 +3539,16 @@
     "partner_home_location": 9.6,
     "residence_details": 9.1,
     "location_clarity": 9.4,
-    "distance_understanding": 9.3
+    "distance_understanding": 9.3,
+    "expressing_intense_desire_unprompted": 9.8,
+    "spontaneous_sexual_longing": 9.7,
+    "direct_wanting_statements": 9.6,
+    "genuine_desire_expression": 9.7,
+    "current_emotional_state_sharing": 9.6,
+    "unprompted_sexual_desire_declarations": 9.8,
+    "intensity_of_wanting": 9.7
   },
   "effective_patterns": [
-    {
-      "pattern": "expressing_desire_for_same_city_living",
-      "engagement_boost": 9.8,
-      "evidence": "Laura immediately affirms 'Yes me too' to partner's statement about wanting to live in the same city - shows strong alignment with future proximity desires and relationship progression"
-    },
-    {
-      "pattern": "creating_shared_future_vision",
-      "engagement_boost": 9.7,
-      "evidence": "Laura's enthusiastic agreement with living in same city indicates partner's expression of future plans together resonates deeply - discussing concrete future scenarios strengthens relationship commitment"
-    },
-    {
-      "pattern": "validating_her_relationship_goals",
-      "engagement_boost": 9.6,
-      "evidence": "By expressing desire to live in same city first, partner validated Laura's likely unexpressed hopes - her immediate agreement suggests this aligned with what she wanted to hear about relationship future"
-    },
     {
       "pattern": "answering_her_vulnerable_relationship_question_affirmatively",
       "engagement_boost": 9.8,
@@ -3606,6 +3633,21 @@
       "pattern": "maintaining_affectionate_tone_in_informational_exchanges",
       "engagement_boost": 9.4,
       "evidence": "Laura uses 'Baby' endearment when asking practical question about location - continues pattern of infusing warmth into all types of communication, making even basic informational questions feel intimate and connected"
+    },
+    {
+      "pattern": "creating_environment_where_she_expresses_spontaneous_intense_desire",
+      "engagement_boost": 9.8,
+      "evidence": "Laura independently states 'I want you so badly actually' completely unprompted - indicates maximum emotional safety and comfort expressing intense sexual/romantic desire spontaneously without needing conversation context or partner initiation"
+    },
+    {
+      "pattern": "establishing_comfort_for_vulnerable_desire_statements",
+      "engagement_boost": 9.7,
+      "evidence": "Laura directly expresses intense wanting ('so badly') without hedging or softening - relationship dynamic empowers her to communicate vulnerable desire states with full intensity rather than downplaying or moderating her feelings"
+    },
+    {
+      "pattern": "validating_her_genuine_feelings_creates_authenticity",
+      "engagement_boost": 9.6,
+      "evidence": "Laura uses 'actually' to emphasize this is her genuine current state - suggests whatever communication patterns exist make her feel her authentic feelings (even intense sexual desire) are welcomed and validated rather than needing to be filtered"
     }
   ],
   "avoid_patterns": [
