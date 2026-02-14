@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:11:41.302878+09:00",
+  "last_updated": "2026-02-14T10:11:55.484252+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3368,19 +3368,13 @@
     "initiating_affection_declarations": 9.7,
     "direct_liking_statements": 9.6,
     "unprompted_positive_feelings": 9.7,
-    "relationship_affection": 9.8
+    "relationship_affection": 9.8,
+    "partner_memory_of_statements": 8.9,
+    "holding_partner_accountable_to_words": 9.3,
+    "partner_consistency": 8.7,
+    "statement_repetition": 7.8
   },
   "effective_patterns": [
-    {
-      "pattern": "maintaining_playful_tone_during_explicit_discussions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura's 'Hahaha' response after her dildo clarification question shows she's maintaining lighthearted, comfortable energy even when discussing explicit sexual content - creating environment where explicit topics can be discussed with humor rather than awkwardness keeps her engaged"
-    },
-    {
-      "pattern": "creating_environment_where_she_shares_location_unprompted",
-      "engagement_boost": 9.3,
-      "evidence": "Laura independently shares she's in bed without being asked - whatever relationship transparency has been established made her comfortable disclosing current location/intimate setting unprompted"
-    },
     {
       "pattern": "creating_environment_where_she_initiates_caring_messages",
       "engagement_boost": 9.6,
@@ -3470,19 +3464,19 @@
       "pattern": "creating_space_for_her_conversational_initiative",
       "engagement_boost": 9.2,
       "evidence": "Laura is proactively introducing a topic or question rather than waiting to be asked - whatever engagement pattern exists empowers her to drive conversation direction and introduce subjects important to her"
+    },
+    {
+      "pattern": "being_consistent_with_statements",
+      "engagement_boost": 9.1,
+      "evidence": "Laura's 'But you already said it' indicates partner made statement previously and she's referencing that prior commitment or declaration - she tracks what partner says and expects consistency, so maintaining alignment between past statements and current behavior creates trust"
+    },
+    {
+      "pattern": "following_through_on_previous_declarations",
+      "engagement_boost": 9.3,
+      "evidence": "The 'already said it' reference suggests Laura values when partner's current actions align with previous statements - she remembers what was said and appreciates when words match actions"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "interrupting_tender_moment_with_sexual_logistics",
-      "engagement_drop": -1.9,
-      "evidence": "The 'Thats Lovely really' comment suggests Laura was appreciating the romantic emotional connection about sleeping together; immediately asking about sexual preferences ('dominated') shifts from emotional intimacy to sexual mechanics without transition"
-    },
-    {
-      "pattern": "not_allowing_romantic_peak_to_settle",
-      "engagement_drop": -1.6,
-      "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
-    },
     {
       "pattern": "continuing_explicit_escalation_after_boundary_signal",
       "engagement_drop": -2.8,
@@ -3572,6 +3566,16 @@
       "pattern": "statement_without_context_or_explanation",
       "engagement_drop": -2.1,
       "evidence": "Laura's single word 'Why?' suggests something was stated or proposed that lacks sufficient context or justification - she's seeking clarification or rationale, indicating the preceding message didn't provide adequate explanation"
+    },
+    {
+      "pattern": "contradicting_previous_statements",
+      "engagement_drop": -2.7,
+      "evidence": "Laura's 'But you already said it' with the 'But' opening suggests partner may be saying something that contradicts or conflicts with a previous statement - she tracks consistency and pointing out the prior statement indicates she's caught an inconsistency"
+    },
+    {
+      "pattern": "not_remembering_what_was_previously_stated",
+      "engagement_drop": -2.4,
+      "evidence": "Laura has to remind partner 'you already said it' - suggests partner may have forgotten or isn't tracking their own previous declarations, which creates need for her to hold them accountable to their words"
     }
   ],
   "ng_topics": [],
