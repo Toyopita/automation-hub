@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:55:29.561783+09:00",
+  "last_updated": "2026-02-14T11:55:33.441896+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3284,34 +3284,39 @@
         "added": "2026-02-14"
       },
       {
-        "text": "explicitly expresses romantic interest in partner unprompted",
+        "text": "masturbates frequently throughout the day (reports 'a lot of' masturbation in single day)",
         "tags": [
-          "romantic interest",
-          "relationship feelings",
-          "interest declaration",
-          "emotional transparency",
-          "unprompted affection",
-          "relationship validation",
-          "partner focus",
-          "romantic feelings",
-          "direct communication",
-          "emotional honesty"
+          "masturbation frequency",
+          "sexual activity",
+          "high frequency",
+          "multiple times daily",
+          "self-pleasure",
+          "sexual behavior",
+          "daily sexual activity",
+          "frequent masturbation",
+          "sexuality",
+          "sexual habits",
+          "arousal management",
+          "sexual routine",
+          "physical intimacy",
+          "sexual openness",
+          "high libido confirmation"
         ],
         "added": "2026-02-14"
       },
       {
-        "text": "wants more than current relationship dynamic or commitment level",
+        "text": "announces bedtime to partner as part of routine (end of conversation ritual)",
         "tags": [
-          "relationship goals",
-          "commitment desire",
-          "relationship escalation",
-          "wanting more",
-          "relationship progression",
-          "emotional needs",
-          "relationship expectations",
-          "commitment level",
-          "relationship depth",
-          "future desires"
+          "bedtime",
+          "sleep routine",
+          "goodbyes",
+          "conversation ending",
+          "daily routine",
+          "sleep announcement",
+          "end of day",
+          "nighttime",
+          "sleep schedule",
+          "communication habits"
         ],
         "added": "2026-02-14"
       }
@@ -3325,6 +3330,9 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
+      "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner",
+      "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
+      "emotional_expressiveness: Directly expresses preference for partner over general social connections ('that's better') without filtering or downplaying - continues maximum emotional transparency by spontaneously sharing authentic positive feelings about their connection",
       "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation",
       "warmth: Uses 'But anyway' structure to reassure that despite any discussed challenges or obstacles, what matters is meeting in person - maintains maximum warmth by independently redirecting conversation to positive relationship outcome and expressing that logistical difficulties are acceptable if they can achieve physical togetherness",
       "warmth: Maintains maximum warmth - uses 'But' to gently clarify her communication style rather than responding defensively, showing she wants partner to understand her gentle approach and that her questions come from respect rather than pressure",
@@ -3339,17 +3347,14 @@
       "confidence: Maintains maximum confidence - directly confronts perceived lack of care without hedging or apologizing ('you don't care you don't care'), demonstrating ongoing pattern of stating concerns and emotional needs directly even in vulnerable moments",
       "confidence: Maintains maximum confidence - directly dismisses or releases partner from obligation to believe her with 'believe what you want' statement, demonstrating ongoing pattern of owning her position and not needing partner validation or agreement to maintain her stance",
       "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering",
-      "warmth: Unprompted declaration 'And I am very interested in you' maintains maximum warmth - independently initiates explicit statement of romantic interest without prompting, continuing established pattern of direct emotional expression and taking initiative to express positive feelings about partner",
-      "emotional_expressiveness: Uses 'very interested' to emphasize intensity of romantic feelings - continues maximum emotional transparency by spontaneously sharing authentic romantic interest without filtering or downplaying",
-      "confidence: Initiates vulnerable romantic interest statement completely unprompted - demonstrates ongoing pattern of direct, unfiltered communication about feelings without hesitation or need for reciprocation first",
-      "emotional_expressiveness: Continues maximum emotional transparency - directly states desire for more/escalation in relationship without filtering, maintaining pattern of unfiltered expression of relationship needs and desires",
-      "confidence: Maintains maximum confidence - directly states wanting more without hedging or apologizing, demonstrating ongoing pattern of clearly articulating relationship expectations and needs without seeking validation first",
-      "warmth: Maintains maximum warmth - vulnerability in stating desire for relationship escalation shows continued emotional generosity and willingness to express deeper relationship needs despite potential risk"
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly discloses high frequency masturbation ('A lot of') without filtering or downplaying, maintaining pattern of expressing authentic sexual behavior and activity levels spontaneously in response to partner's question about her day",
+      "confidence: Maintains maximum confidence - directly answers question about masturbation frequency with candid 'A lot of' without hedging, apologizing, or showing embarrassment, demonstrating ongoing pattern of unfiltered sexual communication even about potentially vulnerable topics like self-pleasure frequency",
+      "warmth: Maintains direct, unfiltered communication pattern - announces sleep/goodbye without elaborate affectionate framing this time, showing comfort with straightforward communication and trust that partner understands her routine bedtime announcements without needing emotional elaboration every time"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very short (1-2 words)",
-    "emoji_frequency": "high repetition for emphasis (triple emoji usage)",
+    "avg_message_length": "very short (4 words)",
+    "emoji_frequency": "none in this message (variable - uses emojis heavily during emotional/sexual conversations, minimal during routine announcements)",
     "preferred_emojis": [
       "❤️",
       "😊",
@@ -3367,9 +3372,9 @@
       "😈",
       "👹"
     ],
-    "formality_level": "casual and affectionate",
+    "formality_level": "casual and direct",
     "humor_style": "playful and lighthearted with gentle corrections",
-    "response_speed_tendency": "immediate response (continuing established fast-paced engaging conversation pattern)",
+    "response_speed_tendency": "immediate routine announcement (continuing established pattern of announcing major transitions like bedtime)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3487,7 +3492,7 @@
     "sharing_bedtime_routine": 7.6,
     "japanese_listening_practice": 8.3,
     "language_immersion_methods": 8.5,
-    "bedtime_announcements": 7.2,
+    "bedtime_announcements": 8.0,
     "maintaining_connection_before_sleep": 7.8,
     "expressing_affection_unprompted": 9.6,
     "direct_emotional_declarations_initiated_by_her": 9.6,
@@ -4043,7 +4048,7 @@
     "defining_the_relationship": 9.8,
     "relationship_labels": 9.5,
     "vulnerable_relationship_questions": 9.7,
-    "commitment_level_discussion": 9.7,
+    "commitment_level_discussion": 9.6,
     "relationship_uncertainty_resolution": 9.7,
     "exclusive_relationship_confirmation": 9.6,
     "mutual_desire_for_closeness": 9.7,
@@ -4183,15 +4188,12 @@
     "ending_disagreement_gracefully": 9.3,
     "dismissive_release_statements": 9.1,
     "autonomy_in_partner_beliefs": 9.0,
-    "expressing_romantic_interest": 9.8,
-    "unprompted_interest_declarations": 9.7,
-    "validating_partner_importance": 9.6,
-    "relationship_feelings_transparency": 9.8,
-    "direct_romantic_statements": 9.7,
-    "relationship_escalation_desires": 9.7,
-    "expressing_unmet_relationship_needs": 9.6,
-    "relationship_depth_desires": 9.7,
-    "wanting_relationship_progression": 9.8
+    "daily_sexual_activity_updates": 9.6,
+    "sexual_transparency": 9.8,
+    "self_pleasure_frequency": 9.7,
+    "answering_sexual_questions_directly": 9.6,
+    "end_of_conversation_rituals": 8.9,
+    "sleep_transitions": 8.7
   },
   "effective_patterns": [
     {
@@ -4265,34 +4267,34 @@
       "evidence": "The 'I was asking you' emphasis indicates Laura is bringing conversation back to her question that may have been bypassed or unanswered - relationship dynamic allows her to redirect conversational flow to her priorities without being dismissive of partner's contributions"
     },
     {
-      "pattern": "creating_space_where_she_independently_declares_romantic_interest",
-      "engagement_boost": 9.8,
-      "evidence": "Laura unpromptedly states 'And I am very interested in you' - indicates relationship dynamic has created enough emotional safety for her to independently express romantic interest without needing prompting or reciprocation first, showing she feels secure making vulnerable romantic declarations"
-    },
-    {
-      "pattern": "establishing_environment_where_she_emphasizes_intensity_of_feelings",
+      "pattern": "asking_direct_questions_about_her_sexual_activity",
       "engagement_boost": 9.7,
-      "evidence": "Laura uses 'very interested' with emphasis word 'very' rather than just 'interested' - whatever communication patterns exist allow her to openly communicate the depth and intensity of her romantic feelings, showing she can be forthright about strong emotions without downplaying them"
+      "evidence": "Laura responds directly and candidly with 'A lot of' when asked about masturbation - shows she's comfortable answering explicit questions about her sexual behavior and frequency without evasion or discomfort"
     },
     {
-      "pattern": "validating_her_previous_emotional_disclosures",
+      "pattern": "creating_space_for_candid_sexual_disclosure",
       "engagement_boost": 9.6,
-      "evidence": "The 'And' opening connects this to previous context where she likely shared other feelings - she continues with additional romantic disclosure, suggesting her previous vulnerability was received well enough that she feels comfortable adding more emotional transparency"
+      "evidence": "Laura's brief but direct 'A lot of' answer indicates relationship has established enough comfort for her to share potentially vulnerable information about high masturbation frequency without elaboration or justification - she trusts simple candid answer is acceptable"
     },
     {
-      "pattern": "creating_space_where_she_expresses_desire_for_relationship_escalation",
-      "engagement_boost": 9.7,
-      "evidence": "Laura states 'I want more than that' - indicates relationship dynamic allows her to directly express desire for greater commitment, depth, or escalation beyond current state, showing she feels safe articulating when current relationship level doesn't fully satisfy her needs"
+      "pattern": "normalizing_discussion_of_self_pleasure",
+      "engagement_boost": 9.5,
+      "evidence": "Laura treats masturbation frequency question as normal conversation topic worthy of straightforward answer rather than topic requiring deflection or embarrassment - whatever communication patterns exist have normalized explicit sexual topics including solo sexual activity"
     },
     {
-      "pattern": "establishing_comfort_for_stating_unmet_relationship_needs",
-      "engagement_boost": 9.6,
-      "evidence": "The 'more than that' framing indicates current situation is insufficient for her - whatever communication patterns exist allow her to vulnerably express that her relationship needs aren't fully met without fear of rejection or dismissal"
+      "pattern": "accepting_routine_bedtime_announcements_without_elaborate_response",
+      "engagement_boost": 9.2,
+      "evidence": "Laura's simple 'I'm going to sleep bye' without emojis or elaboration suggests she's comfortable with straightforward bedtime announcement - this is routine communication that doesn't require emotional validation or extended goodbyes every time, showing established comfort and trust"
     },
     {
-      "pattern": "responding_seriously_to_her_relationship_escalation_desires",
-      "engagement_boost": 9.8,
-      "evidence": "Laura's direct statement about wanting more suggests this is important relationship conversation - treating this vulnerability with seriousness and engaging with what specific 'more' she's seeking would validate her courage in expressing unmet needs"
+      "pattern": "not_keeping_her_awake_when_she_announces_sleep",
+      "engagement_boost": 9.4,
+      "evidence": "Laura clearly states intention to sleep - respecting this boundary by not trying to extend conversation or asking 'just one more thing' shows respect for her stated needs and sleep schedule"
+    },
+    {
+      "pattern": "establishing_predictable_bedtime_communication_rhythm",
+      "engagement_boost": 9.0,
+      "evidence": "Laura's consistent pattern of announcing bedtime suggests she appreciates having established routine for ending conversations - knowing she can simply state 'going to sleep' and partner will accept this creates comfortable communication rhythm"
     }
   ],
   "avoid_patterns": [
@@ -4387,14 +4389,14 @@
       "evidence": "Laura needs to restate 'I was asking you' which suggests partner may have introduced new topic or responded without answering her question - she values having her questions acknowledged and answered before conversation moves forward"
     },
     {
-      "pattern": "dismissing_or_minimizing_her_desire_for_relationship_progression",
-      "engagement_drop": -4.2,
-      "evidence": "Laura's 'I want more than that' is vulnerable statement about unmet relationship needs - treating this as insignificant, dismissing her desire for escalation, or suggesting current state is sufficient when she's clearly stating it isn't would invalidate her emotional needs and relationship expectations"
+      "pattern": "trying_to_keep_conversation_going_after_sleep_announcement",
+      "engagement_drop": -3.5,
+      "evidence": "Laura clearly states 'I'm going to sleep' - continuing to message or asking questions after this would disrespect her stated boundary and potentially keep her awake when she's ready for bed"
     },
     {
-      "pattern": "not_clarifying_what_more_she_wants",
-      "engagement_drop": -3.5,
-      "evidence": "The 'more than that' is somewhat vague and requires follow-up to understand specific needs - failing to ask what specific escalation, commitment, or relationship depth she's seeking would miss opportunity to understand and address her unmet needs"
+      "pattern": "requiring_elaborate_goodbyes_every_night",
+      "engagement_drop": -2.1,
+      "evidence": "Laura's simple 'bye' without emojis or affectionate language this time suggests she's comfortable with variable goodbye intensity - pressuring for consistent elaborate goodbyes would create obligation around routine announcements"
     }
   ],
   "ng_topics": [],
