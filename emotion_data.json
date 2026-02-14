@@ -20837,6 +20837,48 @@
         "future": -2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:11:29.516176+09:00",
+      "summary": "I wanted to ask you that ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしがりながらも聞きたいことがあった様子。「I like you a lot」の直後なので好意表現の確認を求めていた可能性",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 9,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 2,
+        "engagement": 0
+      }
     }
   ]
 }
