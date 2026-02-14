@@ -20543,6 +20543,90 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:10:04.619150+09:00",
+      "summary": "Yes but ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "minor",
+      "language_mix": "en",
+      "note": "文が途中で切れている。何か言いかけて躊躇している様子。前後の流れから、寝ると言いつつ何か伝えたいことがある不安定な状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:10:06.700257+09:00",
+      "summary": "Haha ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽い笑い。前の会話の流れを受けた反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 4,
+        "future": -1,
+        "engagement": -3
+      }
     }
   ]
 }
