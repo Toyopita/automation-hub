@@ -24368,6 +24368,90 @@
         "future": -3,
         "engagement": -5
       }
+    },
+    {
+      "timestamp": "2026-02-14T23:33:40.895132+09:00",
+      "summary": "Good morning ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前回の会話の緊張感の後、シンプルな挨拶。様子見の雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": -2,
+        "longing": -1,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": -1,
+        "future": -4,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-14T23:33:43.094406+09:00",
+      "summary": "I’m good what about you ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前のメッセージで感情的なやり取りがあった後の、落ち着いた朝の挨拶。普通のトーンに戻っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
