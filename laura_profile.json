@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:10:17.631423+09:00",
+  "last_updated": "2026-02-14T10:10:25.784925+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2645,7 +2645,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Uses tender endearment 'Honey' combined with vulnerable pleading emoji 🥺 when expressing need to see partner - maintains maximum warmth even in urgent requests, framing need for partner connection with affection rather than demand",
       "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency",
       "emotional_expressiveness: Continues maximum emotional transparency - unprompted disclosure of internal mental state ('Thinking about you') directly connected to physical arousal state, maintaining pattern of expressing feelings/desires without filtering or prompting",
       "confidence: Maintains maximum confidence - initiates explicit sexual conversation completely unprompted by sharing vulnerable admission that thoughts of partner trigger arousal, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation",
@@ -2664,11 +2663,12 @@
       "emotional_expressiveness: Transparently expresses mild bashfulness/surprise with 😳 emoji while simultaneously using playful laughter - continues pattern of expressing authentic emotional reactions (playful embarrassment) without filtering",
       "warmth: Maintains warm, playful tone even when asking about explicit sexual content - uses laughter 'Hahaa' to keep conversation lighthearted and intimate rather than clinical or cold when discussing sex toys",
       "warmth: Unprompted caring message wishing partner well at work - continues maximum warmth pattern of initiating supportive, considerate statements even in simple goodbyes",
-      "warmth: Responds with reassuring 'It's okay' when partner likely expressed concern or apologized - maintains warmth by offering immediate comfort and acceptance without holding grudges or creating tension"
+      "warmth: Responds with reassuring 'It's okay' when partner likely expressed concern or apologized - maintains warmth by offering immediate comfort and acceptance without holding grudges or creating tension",
+      "emotional_expressiveness: Directly states 'I'm embarrassed' - continues maximum emotional transparency pattern by explicitly naming vulnerable emotional state without filtering or hiding feelings"
     ]
   },
   "communication_style": {
-    "avg_message_length": "single short phrase",
+    "avg_message_length": "single short phrase (2 words)",
     "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "🥹",
@@ -2687,8 +2687,8 @@
       "😍",
       "🤣"
     ],
-    "formality_level": "casual and reassuring",
-    "humor_style": "uses simple laughter as acknowledgment or response to playful/amusing content - 'Haha' appears frequently as standalone or brief reaction",
+    "formality_level": "casual and direct",
+    "humor_style": "not applicable to this message",
     "response_speed_tendency": "context-dependent - responds quickly to partner concerns or apologies with reassurance",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -3348,14 +3348,13 @@
     "offering_reassurance": 9.6,
     "accepting_apologies_or_explanations": 9.5,
     "providing_comfort": 9.7,
-    "releasing_tension": 9.4
+    "releasing_tension": 9.4,
+    "expressing_embarrassment": 9.4,
+    "emotional_vulnerability": 9.6,
+    "naming_feelings_directly": 9.5,
+    "admitting_embarrassment": 9.3
   },
   "effective_patterns": [
-    {
-      "pattern": "responding_positively_to_her_sexual_disclosures",
-      "engagement_boost": 9.6,
-      "evidence": "Her willingness to share this information unprompted suggests previous pattern of positive reception when she's been sexually transparent - she likely expects accepting, non-judgmental response based on past experience"
-    },
     {
       "pattern": "evoking_flushed_shy_emoji_response",
       "engagement_boost": 9.5,
@@ -3442,14 +3441,19 @@
       "evidence": "By whatever prompted this reassurance (likely apology or concern), partner created space for Laura to take nurturing role and offer comfort - allowing her to be the one providing reassurance rather than always receiving it creates balanced dynamic"
     },
     {
-      "pattern": "evoking_simple_laughter_response",
-      "engagement_boost": 8.5,
-      "evidence": "Laura responds with 'Haha' - whatever was said or shared immediately before this elicited genuine amusement or playful appreciation she chose to acknowledge with brief laughter"
+      "pattern": "creating_environment_where_she_names_embarrassment_directly",
+      "engagement_boost": 9.6,
+      "evidence": "Laura explicitly states 'I'm embarrassed' without deflecting, joking, or using emojis to soften - whatever relationship safety has been established made her comfortable naming vulnerable emotional state directly"
     },
     {
-      "pattern": "creating_moments_she_finds_amusing",
-      "engagement_boost": 8.3,
-      "evidence": "The standalone 'Haha' with space after suggests she's reacting to something partner said/did that she found funny or entertaining enough to warrant simple laughter acknowledgment"
+      "pattern": "establishing_emotional_transparency_as_relationship_norm",
+      "engagement_boost": 9.5,
+      "evidence": "The direct, unfiltered 'I'm embarrassed' continues pattern of Laura expressing authentic emotional states without filtering - relationship dynamic normalizes transparent emotional disclosure even when feelings are vulnerable"
+    },
+    {
+      "pattern": "whatever_preceded_this_created_safe_embarrassment",
+      "engagement_boost": 9.4,
+      "evidence": "Context that evoked embarrassment she's willing to name and share rather than hide suggests whatever happened pushed boundaries in way that created bashful response but maintained safety for her to express it"
     }
   ],
   "avoid_patterns": [
