@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:44:57.144716+09:00",
+  "last_updated": "2026-02-14T11:45:13.957935+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3316,7 +3316,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "short (2-3 words)",
+    "avg_message_length": "very short (1-2 words)",
     "emoji_frequency": "high repetition for emphasis (triple emoji usage)",
     "preferred_emojis": [
       "❤️",
