@@ -22895,6 +22895,48 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:12:52.577995+09:00",
+      "summary": "I just wanted to know what city you are located haha ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本に1年滞在予定で、彼の場所を確認している。軽い笑いで誤解を解いている様子。将来を意識した質問だが、プレッシャーをかけない配慮も見られる。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 4,
+        "future": 0,
+        "engagement": 3
+      }
     }
   ]
 }
