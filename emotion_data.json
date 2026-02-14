@@ -23567,6 +23567,50 @@
         "future": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:41:02.079020+09:00",
+      "summary": "So it doesn’t matter what city I go at the end of you don’t care you don’t care ",
+      "scores": {
+        "mood": 3,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 8,
+        "vulnerability": 8
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情的な繰り返し表現。傷ついた気持ちと不安が表れている。彼の無関心さへの抗議と諦めが混在",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": 1,
+        "vulnerability": 3
+      }
     }
   ]
 }
