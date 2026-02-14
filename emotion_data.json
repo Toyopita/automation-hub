@@ -23611,6 +23611,49 @@
         "engagement": 1,
         "vulnerability": 3
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:42:23.829463+09:00",
+      "summary": "I said I don’t know what city I’m going lol ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 7,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 6,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会いたい気持ちを伝えたのに相手の反応が薄く、少し防衛的になりつつも軽く流そうとしている。不安型愛着の兆候あり",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 4,
+        "engagement": 8,
+        "vulnerability": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": -1
+      }
     }
   ]
 }
