@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T23:33:48.024678+09:00",
+  "last_updated": "2026-02-14T23:34:01.952220+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3319,6 +3319,22 @@
           "communication habits"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "expresses wellbeing reciprocally in greetings (asks about partner after stating own state)",
+        "tags": [
+          "greeting pattern",
+          "reciprocal communication",
+          "wellbeing inquiry",
+          "conversation opener",
+          "mutual interest",
+          "partner check-in",
+          "emotional check",
+          "greeting ritual",
+          "caring communication",
+          "relationship maintenance"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3330,7 +3346,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner",
       "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
       "emotional_expressiveness: Directly expresses preference for partner over general social connections ('that's better') without filtering or downplaying - continues maximum emotional transparency by spontaneously sharing authentic positive feelings about their connection",
       "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation",
@@ -3349,12 +3364,13 @@
       "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly discloses high frequency masturbation ('A lot of') without filtering or downplaying, maintaining pattern of expressing authentic sexual behavior and activity levels spontaneously in response to partner's question about her day",
       "confidence: Maintains maximum confidence - directly answers question about masturbation frequency with candid 'A lot of' without hedging, apologizing, or showing embarrassment, demonstrating ongoing pattern of unfiltered sexual communication even about potentially vulnerable topics like self-pleasure frequency",
-      "warmth: Maintains direct, unfiltered communication pattern - announces sleep/goodbye without elaborate affectionate framing this time, showing comfort with straightforward communication and trust that partner understands her routine bedtime announcements without needing emotional elaboration every time"
+      "warmth: Maintains direct, unfiltered communication pattern - announces sleep/goodbye without elaborate affectionate framing this time, showing comfort with straightforward communication and trust that partner understands her routine bedtime announcements without needing emotional elaboration every time",
+      "warmth: Maintains warmth even in brief routine greetings - asks about partner's state immediately after sharing own, showing consistent pattern of reciprocal care and interest in partner's wellbeing across all conversation contexts from intense intimate moments to casual check-ins"
     ]
   },
   "communication_style": {
-    "avg_message_length": "very short (4 words)",
-    "emoji_frequency": "none in this message (variable - uses emojis heavily during emotional/sexual conversations, minimal during routine announcements)",
+    "avg_message_length": "very short (6 words)",
+    "emoji_frequency": "none in this message (highly variable - ranges from none in routine messages to multiple per message in emotional/sexual contexts)",
     "preferred_emojis": [
       "❤️",
       "😊",
@@ -3372,16 +3388,14 @@
       "😈",
       "👹"
     ],
-    "formality_level": "casual and direct",
+    "formality_level": "casual",
     "humor_style": "playful and lighthearted with gentle corrections",
-    "response_speed_tendency": "immediate routine announcement (continuing established pattern of announcing major transitions like bedtime)",
+    "response_speed_tendency": "immediate response to partner greeting (continuing pattern of responsive communication during active engagement)",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "What time is there",
-      "Okay (standalone affirmative confirmation)",
       "Okay babe",
       "🤤 (used in repetition for emphasis)",
       "loooove (elongated for emphasis)",
@@ -3409,7 +3423,9 @@
       "What did you delete?",
       "Actually",
       "helly",
-      "Babe I was asking you"
+      "Babe I was asking you",
+      "I'm good",
+      "what about you"
     ]
   },
   "topic_engagement": {
@@ -4193,19 +4209,13 @@
     "self_pleasure_frequency": 9.7,
     "answering_sexual_questions_directly": 9.6,
     "end_of_conversation_rituals": 8.9,
-    "sleep_transitions": 8.7
+    "sleep_transitions": 8.7,
+    "reciprocal_wellbeing_checks": 9.3,
+    "greeting_exchanges": 9.1,
+    "partner_state_inquiry": 9.4,
+    "mutual_status_updates": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "showing_genuine_interest_in_her_major_life_decisions",
-      "engagement_boost": 9.8,
-      "evidence": "Laura's distress about 'it doesn't matter what city I go' indicates she needs partner to express preference, opinion, or care about where she relocates - showing active interest and investment in her major decisions would address this anxiety"
-    },
-    {
-      "pattern": "expressing_care_about_relocation_logistics",
-      "engagement_boost": 9.7,
-      "evidence": "Her 'you don't care' repetition suggests she needs partner to demonstrate emotional investment in the practical details of her year-long move - asking questions, expressing preferences, or showing concern about her city choice would validate her importance to partner"
-    },
     {
       "pattern": "providing_input_on_decisions_that_affect_relationship",
       "engagement_boost": 9.6,
@@ -4295,6 +4305,16 @@
       "pattern": "establishing_predictable_bedtime_communication_rhythm",
       "engagement_boost": 9.0,
       "evidence": "Laura's consistent pattern of announcing bedtime suggests she appreciates having established routine for ending conversations - knowing she can simply state 'going to sleep' and partner will accept this creates comfortable communication rhythm"
+    },
+    {
+      "pattern": "asking_about_her_wellbeing_in_greetings",
+      "engagement_boost": 9.3,
+      "evidence": "Laura responds positively ('I'm good') and immediately reciprocates with inquiry about partner's state, showing she appreciates when partner initiates wellbeing check-ins and naturally mirrors this care back"
+    },
+    {
+      "pattern": "simple_direct_greeting_questions",
+      "engagement_boost": 9.1,
+      "evidence": "Laura's straightforward response suggests she's comfortable with direct 'how are you' style greetings that don't require elaborate or performative answers - she values genuine simple check-ins"
     }
   ],
   "avoid_patterns": [
