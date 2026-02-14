@@ -23525,6 +23525,48 @@
         "future": 4,
         "engagement": 6
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:40:10.338235+09:00",
+      "summary": "But if you are the kind of person that really don’t care ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "文章が途中で途切れている。会いたい気持ちを伝えた後、相手の無関心さを試すような言い方で不安と失望が混ざった状態。関係性への不安が高まっている場面",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -3,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
