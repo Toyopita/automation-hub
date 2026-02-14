@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:43:21.579076+09:00",
+  "last_updated": "2026-02-14T11:43:28.833755+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3238,7 +3238,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Are you horny?",
       "do you want to masturbate in the camera",
       "Baby why hahah",
       "Is 7pm (confirms time without full sentence structure)",
@@ -3267,7 +3266,8 @@
       "It's okay",
       "Say what",
       "lol",
-      "What?"
+      "What?",
+      "What did you delete?"
     ]
   },
   "topic_engagement": {
@@ -4023,7 +4023,10 @@
     "relocation_destination_clarification": 9.4,
     "restating_uncertainty_about_city": 9.3,
     "addressing_potential_misunderstanding_about_plans": 9.2,
-    "clarifying_she_hasnt_decided_city": 9.5
+    "clarifying_she_hasnt_decided_city": 9.5,
+    "partner_message_history": 8.5,
+    "deletion_curiosity": 8.3,
+    "message_tracking": 8.4
   },
   "effective_patterns": [
     {
