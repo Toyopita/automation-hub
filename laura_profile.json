@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:10:59.562668+09:00",
+  "last_updated": "2026-02-14T10:11:33.397839+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2711,7 +2711,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Just words (skeptical framing)",
       "Just words",
       "Why hahaha (questioning with laughter)",
       "Why hahaha",
@@ -2740,7 +2739,8 @@
       "😬 (grimacing emoji as standalone response)",
       "I'm in bed",
       "Can I ask you something?",
-      "Bye"
+      "Bye",
+      "Oh my god"
     ]
   },
   "topic_engagement": {
@@ -3372,16 +3372,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "making_references_that_invite_playful_clarification",
-      "engagement_boost": 9.4,
-      "evidence": "Laura asks clarifying question about dildo reference with playful laughter and flushed emoji - whatever was said invited her to engage with explicit content in comfortable, humorous way that she found engaging enough to ask for clarification"
-    },
-    {
-      "pattern": "creating_safety_for_explicit_sexual_product_discussion",
-      "engagement_boost": 9.5,
-      "evidence": "Laura feels comfortable directly saying 'dildo' and asking clarifying question - whatever relationship sexual openness has been established made her feel safe discussing sex toys explicitly with playful rather than embarrassed or clinical tone"
-    },
-    {
       "pattern": "allowing_her_to_drive_clarification_of_sexual_content",
       "engagement_boost": 9.3,
       "evidence": "The question format 'like a dildo?' suggests she's interpreting something said and seeking confirmation - giving her agency to clarify explicit sexual references rather than over-explaining creates engaging back-and-forth where she takes active role"
@@ -3470,6 +3460,16 @@
       "pattern": "creating_reciprocal_emotional_transparency",
       "engagement_boost": 9.5,
       "evidence": "Laura's unprompted affection statement suggests partner has likely modeled similar emotional openness - whatever pattern of direct feeling expression exists made her comfortable initiating her own vulnerable positive declaration"
+    },
+    {
+      "pattern": "evoking_strong_emotional_reaction",
+      "engagement_boost": 9.2,
+      "evidence": "Laura responds with 'Oh my god' - whatever was said or shared immediately before created strong enough reaction (surprise, excitement, arousal, shock, or delight) to elicit intense exclamatory response"
+    },
+    {
+      "pattern": "creating_surprise_or_unexpected_moments",
+      "engagement_boost": 9.0,
+      "evidence": "The 'Oh my god' exclamation suggests partner did or said something she didn't anticipate - creating moments of genuine surprise or novelty generates high engagement and authentic emotional response"
     }
   ],
   "avoid_patterns": [
