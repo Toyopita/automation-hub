@@ -20921,6 +20921,48 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:11:56.033915+09:00",
+      "summary": "I wanted to ask if we are in a relationship 🫣",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 9,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性の確認を求める重要な質問。恥ずかしがりながらも勇気を出して聞いている。彼が先に言ってくれたことに安心している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": -1,
+        "future": 7,
+        "engagement": 2
+      }
     }
   ]
 }
