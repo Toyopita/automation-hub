@@ -19619,6 +19619,48 @@
         "future": -2,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:47:49.024620+09:00",
+      "summary": "Always ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い肯定的な返事。文脈から何かに対する「いつも」という確認の様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 4,
+        "engagement": 0
+      }
     }
   ]
 }
