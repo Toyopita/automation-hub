@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:54:15.280143+09:00",
+  "last_updated": "2026-02-14T11:54:51.421396+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3343,7 +3343,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
       "🤤 (used in repetition for emphasis)",
@@ -3372,7 +3371,8 @@
       "What did you delete?",
       "Actually",
       "helly",
-      "Babe I was asking you"
+      "Babe I was asking you",
+      "By the way"
     ]
   },
   "topic_engagement": {
