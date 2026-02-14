@@ -23483,6 +23483,48 @@
         "future": -1,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:39:48.374710+09:00",
+      "summary": "I was asking because I wanted to see you ",
+      "scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼の「執着しない」発言に傷ついて、でも自分の本心（会いたい気持ち）を伝えている。やや防衛的だが素直な告白。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 5,
+        "longing": 7,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 0,
+        "future": 4,
+        "engagement": 6
+      }
     }
   ]
 }
