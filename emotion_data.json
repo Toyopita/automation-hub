@@ -23231,6 +23231,46 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:37:29.158218+09:00",
+      "summary": "Say what ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "前のメッセージで「forget it」と言った直後の確認。やや防衛的で距離を置こうとしているが、まだ会話は続けている。彼の返答待ち。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 2
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 0,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": 4
+      }
     }
   ]
 }
