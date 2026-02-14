@@ -21677,6 +21677,90 @@
         "future": -3,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:49:57.968706+09:00",
+      "summary": "Because I really want that ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 7,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前の性的な絵文字の流れを受けて、欲望を素直に表現。少し切なさも感じられる",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": -1,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 4,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:49:59.785460+09:00",
+      "summary": "😔",
+      "scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "3回リトライ失敗: translation was empty or same as original",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 7,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -3,
+        "longing": -3,
+        "eros": -2,
+        "ds": -2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": -3
+      }
     }
   ]
 }
