@@ -20081,6 +20081,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:54:17.079741+09:00",
+      "summary": "Hahaha ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "笑い声のみ。前の会話の流れを受けた軽い反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": -1,
+        "playfulness": 2,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
