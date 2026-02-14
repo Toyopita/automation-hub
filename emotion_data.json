@@ -23021,6 +23021,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:34:58.044418+09:00",
+      "summary": "Lol ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 2
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い反応のみ。会話の流れから軽い反応を示している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": 1,
+        "future": -6,
+        "engagement": -5
+      }
     }
   ]
 }
