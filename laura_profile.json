@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:38:31.326193+09:00",
+  "last_updated": "2026-02-14T11:38:41.762838+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3074,6 +3074,45 @@
           "realistic expectations"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "partner previously stated not getting emotionally attached (she's reminding him of this statement)",
+        "tags": [
+          "emotional attachment",
+          "relationship history",
+          "previous statements",
+          "partner declarations",
+          "emotional boundaries",
+          "attachment discussion",
+          "relationship commitment",
+          "emotional distance",
+          "detachment claims",
+          "relationship conversation",
+          "accountability",
+          "remembering statements",
+          "partner consistency",
+          "emotional involvement"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "holds partner accountable to previous statements about emotional attachment",
+        "tags": [
+          "accountability",
+          "remembering statements",
+          "consistency checking",
+          "partner tracking",
+          "emotional consistency",
+          "statement recall",
+          "relationship accountability",
+          "memory of conversations",
+          "holding accountable",
+          "past statements",
+          "relationship memory",
+          "tracking declarations",
+          "consistency expectations"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3085,8 +3124,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Maintains maximum confidence - initiates highly vulnerable relationship-defining question ('if we are in a relationship') despite using shy emoji, demonstrating ongoing pattern of direct, unfiltered communication about important topics without letting fear prevent her from asking what matters to her",
-      "emotional_expressiveness: Continues maximum emotional transparency - directly asks vulnerable relationship status question unprompted, maintaining pattern of expressing authentic needs and uncertainties without filtering or avoiding difficult conversations",
       "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly initiates direct affection statement 'I like you' without filtering or downplaying, maintaining pattern of expressing authentic positive feelings about partner independently",
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
@@ -3104,7 +3141,9 @@
       "emotional_expressiveness: Continues maximum emotional transparency - directly explains her internal communication philosophy ('I'm not someone who insist') unprompted, maintaining pattern of sharing authentic self-understanding and motivations without filtering",
       "confidence: Maintains maximum confidence - clearly articulates her communication boundaries and preferences ('I'm not someone who insist') without apologizing for them, demonstrating ongoing pattern of stating who she is and how she operates without seeking validation",
       "emotional_expressiveness: Maintains maximum emotional transparency - directly acknowledges uncertain relationship future 'We don't know what's gonna happen anyway' without filtering or avoiding difficult reality, showing continued pattern of expressing authentic thoughts about relationship uncertainties",
-      "confidence: Maintains maximum confidence - states uncertain future reality directly without hedging or apologizing, demonstrating ongoing pattern of unfiltered communication even about potentially uncomfortable topics like relationship uncertainty"
+      "confidence: Maintains maximum confidence - states uncertain future reality directly without hedging or apologizing, demonstrating ongoing pattern of unfiltered communication even about potentially uncomfortable topics like relationship uncertainty",
+      "emotional_expressiveness: Directly references partner's previous statement about not getting attached - maintains maximum emotional transparency by explicitly calling back to emotionally significant prior declaration, showing she remembers and tracks important emotional statements partner makes about relationship, consistent with pattern of unfiltered emotional communication",
+      "confidence: Confidently reminds partner of their own previous statement 'You don't get attached you said' - demonstrates ongoing pattern of direct, unfiltered communication where she's comfortable pointing out what partner previously declared, showing no hesitation in holding partner accountable to their words"
     ]
   },
   "communication_style": {
@@ -3164,7 +3203,7 @@
       "Haha I want",
       "It's okay",
       "Say what",
-      "So what's the matter"
+      "Anyway"
     ]
   },
   "topic_engagement": {
@@ -3893,26 +3932,17 @@
     "acknowledging_limits_of_control": 9.1,
     "uncertain_future_acceptance": 9.4,
     "relationship_realism": 9.2,
-    "partner_wellbeing_check_ins": 9.4,
-    "initiating_concern_questions": 9.5,
-    "checking_on_partner_state": 9.6
+    "emotional_attachment_discussion": 9.6,
+    "partner_previous_statements": 9.5,
+    "relationship_emotional_boundaries": 9.4,
+    "accountability_on_declarations": 9.7,
+    "attachment_patterns": 9.3,
+    "emotional_consistency": 9.5,
+    "relationship_commitment_discussion": 9.4,
+    "partner_attachment_style": 9.2,
+    "remembering_partner_words": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_where_being_wrong_is_met_with_humor",
-      "engagement_boost": 9.5,
-      "evidence": "The laughter opening suggests partner said something incorrect or made assumption that doesn't match Laura's reality - her response shows she finds the mistake endearing rather than frustrating, indicating whatever communication patterns exist make it safe for partner to be wrong without negative consequences"
-    },
-    {
-      "pattern": "creating_environment_where_she_shares_planning_uncertainties",
-      "engagement_boost": 9.5,
-      "evidence": "Laura independently discloses 'I don't know what city I'm going' - indicates relationship dynamic has created enough safety for her to share not just her plans but also her uncertainties and unresolved decisions, showing she trusts partner with vulnerable admission that she hasn't figured everything out yet"
-    },
-    {
-      "pattern": "establishing_comfort_for_admitting_lack_of_clarity",
-      "engagement_boost": 9.4,
-      "evidence": "Laura directly states uncertainty about destination city despite having shared concrete relocation plans (year-long stay, watching rentals) - shows she's comfortable revealing that while she's committed to the relationship goal, practical details are still uncertain, indicating trust in being imperfect or not having all answers"
-    },
     {
       "pattern": "discussing_future_plans_without_pressure_for_complete_certainty",
       "engagement_boost": 9.6,
@@ -3984,37 +4014,37 @@
       "evidence": "Laura's 'anyway' suggests she's reframing or acknowledging underlying reality about relationship uncertainty - whatever communication patterns exist allow her to express philosophical acceptance of unknown outcomes rather than needing to maintain illusion of certainty"
     },
     {
-      "pattern": "creating_environment_where_she_checks_on_partner_state",
-      "engagement_boost": 9.5,
-      "evidence": "Laura initiates 'So what's the matter' - indicates she's picking up on something (partner's mood, situation, or context from previous interaction) and is proactively checking in with direct question, showing relationship dynamic where she feels comfortable inquiring about partner's state and taking initiative to understand what's happening"
-    },
-    {
-      "pattern": "establishing_comfort_for_direct_wellbeing_questions",
-      "engagement_boost": 9.4,
-      "evidence": "Laura uses straightforward 'what's the matter' phrasing without hedging or softening - relationship allows her to ask direct questions about partner's state or situation without needing elaborate framing, showing mutual comfort with checking in on each other's wellbeing or circumstances"
-    },
-    {
-      "pattern": "creating_space_where_she_notices_partner_needs",
+      "pattern": "creating_environment_where_she_recalls_significant_statements",
       "engagement_boost": 9.6,
-      "evidence": "The 'So' opening suggests Laura is responding to something she's observed or sensed about partner - whatever communication patterns exist have made her attentive to partner's state and comfortable initiating inquiry when she perceives something may be wrong or needs discussion, indicating healthy mutual care dynamic"
+      "evidence": "Laura independently references 'You don't get attached you said' - indicates relationship dynamic has established pattern where she tracks and remembers emotionally significant statements partner makes, showing she pays close attention to declarations about feelings and attachment, particularly ones that relate to relationship commitment level"
+    },
+    {
+      "pattern": "establishing_comfort_for_holding_partner_accountable",
+      "engagement_boost": 9.5,
+      "evidence": "Laura directly reminds partner of their previous statement about not getting attached - relationship allows her to call back to prior declarations without fear, showing healthy communication where she can point out what was said before and potentially contrast it with current behavior or statements"
+    },
+    {
+      "pattern": "creating_space_where_past_statements_inform_present_conversation",
+      "engagement_boost": 9.7,
+      "evidence": "The 'you said' attribution shows Laura is connecting past declaration to current context - whatever communication patterns exist allow her to reference relationship history and use previous statements as context or comparison point, indicating she values consistency and tracks partner's positions over time"
+    },
+    {
+      "pattern": "creating_environment_where_she_refocuses_to_core_priorities",
+      "engagement_boost": 9.5,
+      "evidence": "Laura uses standalone 'Anyway' to redirect or reframe conversation - indicates relationship dynamic allows her to shift focus back to what matters most to her, showing she's comfortable guiding conversation direction and moving past tangential topics or obstacles to return to essential points"
+    },
+    {
+      "pattern": "establishing_comfort_for_conversational_transitions",
+      "engagement_boost": 9.4,
+      "evidence": "The standalone 'Anyway' serves as bridge or pivot point - relationship allows her to use simple transition words to shift gears without elaborate explanation, showing mutual understanding where she can redirect conversation flow efficiently"
+    },
+    {
+      "pattern": "creating_space_where_she_moves_past_complications",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's 'Anyway' suggests she's setting aside previous topic (potentially complications, concerns, or tangential discussion) to focus on something more important - whatever communication patterns exist allow her to dismiss or move beyond obstacles/distractions to return to core relationship priorities"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "making_promises_without_follow_through",
-      "engagement_drop": -2.4,
-      "evidence": "Laura's 'Maybe you are Just words 😂' suggests partner may have made statements or promises she's questioning - indicates she values action over verbal commitments and may become skeptical if there's pattern of unfulfilled promises"
-    },
-    {
-      "pattern": "making_anal_requests_immediately_after_playful_skepticism",
-      "engagement_drop": -1.8,
-      "evidence": "Laura's 'Maybe you are Just words 😂' questioned whether partner backs up statements with action - immediately following with explicit anal request 'I wanna see your asshole baby 😏' doesn't address her skepticism and continues pattern of promises/requests without demonstrating follow-through she's testing for"
-    },
-    {
-      "pattern": "not_accounting_for_timezone_differences_in_scheduling",
-      "engagement_drop": -2.5,
-      "evidence": "Laura's 'But you dont understand that we don't have the same time' indicates partner made scheduling assumption or suggestion without properly accounting for their different timezones - creates frustration when practical constraints aren't acknowledged"
-    },
     {
       "pattern": "making_timing_assumptions_without_checking_her_timezone",
       "engagement_drop": -2.3,
@@ -4099,6 +4129,21 @@
       "pattern": "making_her_feel_her_questions_are_burdensome",
       "engagement_drop": -2.7,
       "evidence": "Laura explicitly distinguishes herself as 'not someone who insist' and justifies why she asks - indicates she may have sensed her question was received as pressure or burden, requiring her to defend her communication style and reassure that inquiry is her gentle approach rather than demand"
+    },
+    {
+      "pattern": "contradicting_previous_emotional_declarations",
+      "engagement_drop": -2.9,
+      "evidence": "Laura's 'You don't get attached you said' suggests partner previously stated they don't get emotionally attached - if partner is now showing attachment or making statements that contradict this, she's pointing out the inconsistency, indicating she notices and may be confused or concerned by contradictory emotional positions"
+    },
+    {
+      "pattern": "forgetting_significant_relationship_statements",
+      "engagement_drop": -2.7,
+      "evidence": "Laura remembers and references partner's statement about not getting attached - if partner doesn't recall making this statement or acts as if they never said it, creates disconnect where she's tracking relationship conversations but partner isn't maintaining same level of awareness about their own declarations"
+    },
+    {
+      "pattern": "making_emotional_claims_that_contradict_stated_boundaries",
+      "engagement_drop": -3.1,
+      "evidence": "The reminder 'You don't get attached you said' in this relationship context (where they've discussed exclusivity, future plans, living together) suggests partner may now be showing attachment despite previous claim of not getting attached - she's calling out this inconsistency, indicating mixed signals about emotional involvement create confusion or frustration"
     }
   ],
   "ng_topics": [],
