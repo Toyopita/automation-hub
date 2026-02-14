@@ -21509,6 +21509,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:33:26.193295+09:00",
+      "summary": "Baby ",
+      "scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係確定後の甘い呼びかけ。前のメッセージの続きで注意を引こうとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": 1
+      }
     }
   ]
 }
