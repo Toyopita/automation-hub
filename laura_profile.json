@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:49:00.081185+09:00",
+  "last_updated": "2026-02-14T09:49:58.438974+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2490,6 +2490,54 @@
           "strong feeling expression"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "masturbates frequently (reports masturbating 'a lot' in a single day)",
+        "tags": [
+          "masturbation",
+          "sexual activity",
+          "self-pleasure",
+          "sexual frequency",
+          "sexual behavior",
+          "intimate habits",
+          "sexuality",
+          "sexual openness",
+          "physical intimacy",
+          "arousal management"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "comfortable sharing masturbation frequency with partner unprompted",
+        "tags": [
+          "sexual communication",
+          "openness",
+          "transparency",
+          "intimate disclosure",
+          "sexual comfort",
+          "relationship intimacy",
+          "unprompted sharing",
+          "sexual honesty",
+          "vulnerability",
+          "communication style"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses laughter emojis when sharing sexual activity disclosures",
+        "tags": [
+          "emoji usage",
+          "laughter",
+          "sexual communication style",
+          "playful sexuality",
+          "humor with intimacy",
+          "lighthearted disclosure",
+          "emoji patterns",
+          "communication tone",
+          "sexual playfulness",
+          "emotional expression"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2501,9 +2549,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Responds to partner's desire to sleep together and hold her with immediate reciprocation ('Me too 🫣') - maintains maximum warmth by matching romantic vulnerability and affirming shared desire for physical closeness",
-      "confidence: Continues pattern of direct, autonomous decision-making - states 'I'm going to do something quick' as declaration rather than request for permission, then follows with 'okay?' as courtesy confirmation rather than seeking approval. Maintains maximum confidence rating for straightforward communication about her plans.",
-      "warmth: Maintains maximum warmth - even when asserting her need to handle task first, frames it considerately with explanation and seeks gentle confirmation ('okay?') rather than making unilateral decision. Shows she balances autonomy with maintaining connection and consideration for partner's timeline.",
       "confidence: Directly initiates video call invitation without hesitation ('Do you want to make the call?') - continues pattern of taking initiative in relationship communication and technology use, maintaining maximum confidence rating for direct, unfiltered communication style",
       "warmth: Frames video call as mutual decision by asking 'Do you want to make the call?' rather than demanding or passively waiting - maintains maximum warmth by creating inclusive, collaborative tone even when taking initiative",
       "emotional_expressiveness: Uses 'Omg' to transparently signal her surprise/frustration about internet issue, then immediately adds 'hahaha' to show she's not seriously upset - continues pattern of expressing emotional state directly and clearly even about minor frustrations",
@@ -2520,14 +2565,16 @@
       "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
       "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication",
       "warmth: Uses affectionate framing 'Please' and love eyes emoji 😍 when requesting partner photos - maintains maximum warmth by making requests politely and with visible affection rather than demanding",
-      "emotional_expressiveness: Transparently expresses desire to see partner visually with love eyes emoji 😍 - continues pattern of directly expressing emotional/visual needs without filtering"
+      "emotional_expressiveness: Transparently expresses desire to see partner visually with love eyes emoji 😍 - continues pattern of directly expressing emotional/visual needs without filtering",
+      "emotional_expressiveness: Continues maximum emotional expressiveness - unpromptedly shares intimate sexual activity details ('I masturbate a lot today') without filtering or prompting, maintaining pattern of transparent disclosure of personal/sexual information",
+      "confidence: Maintains maximum confidence - initiates explicit sexual activity disclosure completely unprompted, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation or embarrassment",
+      "warmth: Maintains maximum warmth - uses affectionate 'Honey' endearment when sharing sexual disclosure, and triple laughing emoji creates playful, intimate tone rather than purely physical announcement"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "single meaningful emoji to express affection",
+    "emoji_frequency": "multiple emojis for emphasis (triple repetition)",
     "preferred_emojis": [
-      "😓",
       "🥹",
       "😂",
       "❤️",
@@ -2541,11 +2588,12 @@
       "🙂",
       "🥺",
       "🙄",
-      "😍"
+      "😍",
+      "🤣"
     ],
     "formality_level": "polite casual (uses 'Please')",
-    "humor_style": "uses laughter frequently in standalone responses and to diffuse tension or lighten moments",
-    "response_speed_tendency": "initiates partner photo requests unprompted",
+    "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone",
+    "response_speed_tendency": "initiates unprompted sexual disclosures",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3175,24 +3223,14 @@
     "polite_intimate_requests": 9.4,
     "partner_arousal_frequency_patterns": 9.4,
     "arousal_frequency_validation": 9.3,
-    "constant_desire_confirmation": 9.5
+    "constant_desire_confirmation": 9.5,
+    "masturbation_frequency": 9.6,
+    "sharing_sexual_activity_updates": 9.7,
+    "unprompted_sexual_disclosures": 9.8,
+    "daily_sexual_activity": 9.5,
+    "self_pleasure_transparency": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_for_non_verbal_desire_expression",
-      "engagement_boost": 9.7,
-      "evidence": "Laura responds with triple drooling emoji 🤤🤤🤤 - whatever visual or verbal content preceded this evoked strong visceral desire response she expressed purely through emoji repetition without words"
-    },
-    {
-      "pattern": "evoking_intense_visual_or_sensory_responses",
-      "engagement_boost": 9.8,
-      "evidence": "The drooling emoji specifically indicates hunger/desire/wanting - and using it three times signals intensity - whatever was shared triggered strong physical/sensory reaction she felt compelled to express immediately"
-    },
-    {
-      "pattern": "allowing_her_to_respond_with_emoji_only_during_aroused_states",
-      "engagement_boost": 9.6,
-      "evidence": "Triple 🤤 continues pattern of Laura using standalone emoji responses during sexually/sensually charged moments - creating space for non-verbal expression during intense moments gets authentic visceral responses"
-    },
     {
       "pattern": "creating_environment_where_she_feels_safe_making_urgent_requests",
       "engagement_boost": 9.8,
@@ -3277,6 +3315,21 @@
       "pattern": "allowing_minimal_emoji_only_responses_during_intimate_moments",
       "engagement_boost": 9.3,
       "evidence": "Single emoji response continues Laura's pattern of using standalone emoji during emotionally charged or intimate moments - creating space for her to respond non-verbally when she feels too shy or vulnerable for words gets authentic reactions"
+    },
+    {
+      "pattern": "creating_environment_where_she_shares_sexual_activity_unprompted",
+      "engagement_boost": 9.8,
+      "evidence": "Laura independently initiates disclosure about masturbating frequently that day with playful tone - whatever relationship safety and sexual openness has been established made her comfortable sharing intimate sexual activity details unprompted"
+    },
+    {
+      "pattern": "establishing_sexual_transparency_as_relationship_norm",
+      "engagement_boost": 9.7,
+      "evidence": "The casual, playful way she shares 'I masturbate a lot today' with laughing emojis suggests this level of sexual disclosure is normalized in relationship - she's not hesitant or embarrassed, indicating mutual sexual transparency has been established"
+    },
+    {
+      "pattern": "responding_positively_to_her_sexual_disclosures",
+      "engagement_boost": 9.6,
+      "evidence": "Her willingness to share this information unprompted suggests previous pattern of positive reception when she's been sexually transparent - she likely expects accepting, non-judgmental response based on past experience"
     }
   ],
   "avoid_patterns": [
