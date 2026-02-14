@@ -22349,6 +22349,48 @@
         "future": 0,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:07:14.588931+09:00",
+      "summary": "But anyway if we get to see each other is fine ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 8,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "実際に会うことへの期待を控えめに表現しつつ、前向きな気持ちを伝えている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 9,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 1,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
