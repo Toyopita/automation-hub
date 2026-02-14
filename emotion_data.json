@@ -19787,6 +19787,48 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:51:08.167700+09:00",
+      "summary": "After work like 2 times more ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 9,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前のメッセージの続き。今日何度もマスターベーションしたことを明るく報告している流れ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 4,
+        "longing": 5,
+        "eros": 6,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
