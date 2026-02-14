@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Suraya",
-  "last_updated": "2026-02-12T14:25:57.382534+09:00",
+  "last_updated": "2026-02-14T11:48:03.831715+09:00",
   "facts": {
     "age": null,
     "location": "lives near the sea/coast",
@@ -52,6 +52,20 @@
           "personal_experience"
         ],
         "added": "2026-02-12"
+      },
+      {
+        "text": "initiates conversations with casual greetings",
+        "tags": [
+          "communication",
+          "greeting",
+          "conversation_starter",
+          "social",
+          "casual",
+          "friendly",
+          "initiation",
+          "interaction"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -60,28 +74,32 @@
     "emotional_expressiveness": 6,
     "humor_appreciation": 5,
     "adventurousness": 5,
-    "confidence": 5,
+    "confidence": 6,
     "warmth": 7,
     "observations": [
       "warmth: responds positively to check-ins with affirmative statement",
       "emotional_expressiveness: brief, matter-of-fact response without elaboration or emotional details",
       "emotional_expressiveness: continues brief responses but adds temporal detail ('past few days'), showing slightly more elaboration when engaged",
       "warmth: shows reciprocal interest by asking follow-up question about your weather ('Oh what about now? Still cold'), demonstrates care and engagement in conversation",
-      "emotional_expressiveness: provides detailed description of weather conditions with intensity ('very rugh', 'a lot of floods'), shows more elaboration when discussing impactful topics"
+      "emotional_expressiveness: provides detailed description of weather conditions with intensity ('very rugh', 'a lot of floods'), shows more elaboration when discussing impactful topics",
+      "warmth: proactively initiated conversation with friendly greeting, showing interest in your wellbeing",
+      "confidence: comfortable initiating conversation rather than waiting to be contacted"
     ]
   },
   "communication_style": {
-    "avg_message_length": "15-25 words (1-2 sentences with detail)",
-    "emoji_frequency": "none observed in this exchange",
+    "avg_message_length": "very brief (2-3 words)",
+    "emoji_frequency": "none in this message",
     "preferred_emojis": [],
     "formality_level": "casual",
     "humor_style": "not observed in this exchange",
-    "response_speed_tendency": "engaged - asks immediate follow-up questions showing active conversation participation",
+    "response_speed_tendency": "initiated contact proactively, showing active engagement",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
-    "grammar_patterns": []
+    "grammar_patterns": [
+      "hru"
+    ]
   },
   "topic_engagement": {
     "daily_activities": 5,
@@ -127,6 +145,11 @@
       "pattern": "asking_about_serious_situations_with_empathy",
       "engagement_boost": 0.7,
       "evidence": "acknowledging floods as serious ('floods nearby is no joke') prompted her to continue engaging and ask reciprocal question"
+    },
+    {
+      "pattern": "reciprocal_greeting_with_context",
+      "engagement_boost": 0.7,
+      "evidence": "responding with greeting plus brief life update ('just got back from work') and returning question creates balanced reciprocal exchange"
     }
   ],
   "avoid_patterns": [],
@@ -137,5 +160,5 @@
     "avg_conversation_length_messages": null,
     "initiates_ratio": null
   },
-  "_exchange_count_since_consolidation": 4
+  "_exchange_count_since_consolidation": 5
 }
