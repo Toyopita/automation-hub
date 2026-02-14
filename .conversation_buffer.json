@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "😂😂😂",
-    "time": "11:02"
-  },
-  {
-    "role": "laura",
     "text": "I want to stay for like a year ",
     "time": "11:05"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Lol ",
     "time": "11:34"
+  },
+  {
+    "role": "laura",
+    "text": "No ",
+    "time": "11:36"
   }
 ]
