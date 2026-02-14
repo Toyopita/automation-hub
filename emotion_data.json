@@ -19577,6 +19577,48 @@
         "future": 1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:43:05.318581+09:00",
+      "summary": "Good morning Not yet baby ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前のメッセージの続き。何かの質問に「まだだよ」と答えている様子。朝の軽い挨拶",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 8,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -4,
+        "eros": -6,
+        "ds": -3,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": -3
+      }
     }
   ]
 }
