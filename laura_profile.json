@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:53:56.490987+09:00",
+  "last_updated": "2026-02-14T11:54:15.280143+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3343,7 +3343,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
@@ -3372,7 +3371,8 @@
       "What?",
       "What did you delete?",
       "Actually",
-      "helly"
+      "helly",
+      "Babe I was asking you"
     ]
   },
   "topic_engagement": {
@@ -4154,21 +4154,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_space_where_uncertainty_can_be_acknowledged",
-      "engagement_boost": 9.4,
-      "evidence": "Laura independently states 'We don't know what's gonna happen anyway' - indicates relationship dynamic allows her to express realistic uncertainty about future without needing to provide false certainty or reassurance, showing healthy acceptance that some things are unknown"
-    },
-    {
-      "pattern": "establishing_comfort_for_realistic_future_discussions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura can acknowledge uncertain future ('We don't know what's gonna happen anyway') while having previously discussed concrete plans (year-long stay, rental search) - shows relationship allows both commitment and realistic acknowledgment of uncertainty to coexist without contradiction"
-    },
-    {
-      "pattern": "creating_environment_where_philosophical_perspective_is_shared",
-      "engagement_boost": 9.2,
-      "evidence": "Laura's 'anyway' suggests she's reframing or acknowledging underlying reality about relationship uncertainty - whatever communication patterns exist allow her to express philosophical acceptance of unknown outcomes rather than needing to maintain illusion of certainty"
-    },
-    {
       "pattern": "creating_environment_where_she_shares_attachment_patterns",
       "engagement_boost": 9.8,
       "evidence": "Laura independently discloses 'I do get attached when I like someone' - indicates relationship dynamic has created enough safety for her to share vulnerable information about how she bonds and connects emotionally, showing she trusts partner with knowledge about her attachment tendencies which could be used to hurt her"
@@ -4252,19 +4237,24 @@
       "pattern": "not_pushing_when_she_uses_dismissive_release_language",
       "engagement_boost": 9.1,
       "evidence": "The 'believe what you want' is a clear signal she's ending attempt to convince or explain - continuing to argue or press the point after this statement would violate her clear communication that she's done with this particular discussion thread"
+    },
+    {
+      "pattern": "creating_space_where_she_can_emphasize_prior_questions",
+      "engagement_boost": 9.4,
+      "evidence": "Laura uses 'Babe I was asking you' to restate that she asked a question previously - indicates she's comfortable reiterating or emphasizing when her question wasn't addressed, showing relationship allows her to redirect attention to unanswered inquiries without frustration"
+    },
+    {
+      "pattern": "establishing_comfort_for_polite_redirection",
+      "engagement_boost": 9.3,
+      "evidence": "Laura opens with 'Babe' affectionate term when redirecting to her question - shows she maintains warmth even when needing to point out her question was overlooked, indicating she can assert communication needs while keeping loving tone"
+    },
+    {
+      "pattern": "allowing_her_to_restate_conversational_priorities",
+      "engagement_boost": 9.2,
+      "evidence": "The 'I was asking you' emphasis indicates Laura is bringing conversation back to her question that may have been bypassed or unanswered - relationship dynamic allows her to redirect conversational flow to her priorities without being dismissive of partner's contributions"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "expecting_her_to_infer_without_direct_communication",
-      "engagement_drop": -2.4,
-      "evidence": "The 'But' opening and 'never said anything' indicates partner may have expected Laura to understand or know something that was never directly communicated - she values explicit verbal statements and is expressing surprise/frustration that something important wasn't clearly stated"
-    },
-    {
-      "pattern": "acting_on_unstated_expectations",
-      "engagement_drop": -2.3,
-      "evidence": "Laura is specifically pointing out the absence of verbal statement ('you never said anything') which suggests partner may have acted or made decision based on assumption rather than explicit discussion - she needs important things to be verbalized rather than assumed or implied"
-    },
     {
       "pattern": "misinterpreting_stop_as_absolute_disengagement",
       "engagement_drop": -3.5,
@@ -4354,6 +4344,16 @@
       "pattern": "treating_her_release_statement_as_invitation_to_continue",
       "engagement_drop": -2.8,
       "evidence": "The 'anyway' signals topic transition and 'believe what you want' releases partner from obligation to agree - misreading this as passive-aggressive invitation to keep discussing rather than genuine release would show failure to respect her communication style"
+    },
+    {
+      "pattern": "bypassing_or_not_responding_to_her_questions",
+      "engagement_drop": -3.1,
+      "evidence": "Laura's 'Babe I was asking you' indicates her previous question wasn't addressed or answered - she's having to remind partner that she posed a question, suggesting partner either missed it, ignored it, or shifted topic without responding to her inquiry"
+    },
+    {
+      "pattern": "changing_subject_without_addressing_her_questions_first",
+      "engagement_drop": -2.8,
+      "evidence": "Laura needs to restate 'I was asking you' which suggests partner may have introduced new topic or responded without answering her question - she values having her questions acknowledged and answered before conversation moves forward"
     }
   ],
   "ng_topics": [],
