@@ -21047,6 +21047,90 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:16:25.794036+09:00",
+      "summary": "Because ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 7,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性を確認した直後の説明の続き。少し恥ずかしがりながらも素直に気持ちを伝えようとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:16:27.226714+09:00",
+      "summary": "I do ",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性の確認後の感情表明。前のメッセージ「Because I do」の続きで、彼への好意を強調している。恥ずかしさと嬉しさが混ざった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 7,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 1,
+        "longing": 2,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 1
+      }
     }
   ]
 }
