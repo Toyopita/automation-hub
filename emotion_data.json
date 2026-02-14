@@ -21551,6 +21551,90 @@
         "future": -2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:47:12.383381+09:00",
+      "summary": "I’m going to sleep ",
+      "scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝の挨拶。前のメッセージから14分経過しており、やや待った感じはあるが、穏やかな終わり方",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -3,
+        "intimacy": -2,
+        "longing": -3,
+        "eros": -3,
+        "ds": -1,
+        "playfulness": -3,
+        "future": -2,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:47:13.144305+09:00",
+      "summary": "I like you ",
+      "scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝前の素直な気持ちの再確認。関係確定直後の甘い余韻",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 3
+      }
     }
   ]
 }
