@@ -20375,6 +20375,90 @@
         "future": -2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:08:23.888924+09:00",
+      "summary": "I’m going to sleep ",
+      "scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "会話を終える際の自然な締めくくり。穏やかで親密なトーン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:08:28.073543+09:00",
+      "summary": "Bye ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 1,
+        "engagement": 3
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "就寝前の簡単な挨拶。会話を切り上げている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
