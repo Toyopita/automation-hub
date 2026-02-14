@@ -63,5 +63,10 @@
     "role": "aljela",
     "text": "Hello hru?",
     "time": "2026-02-14 11:16"
+  },
+  {
+    "role": "you",
+    "text": "hey! doing alright, just got back from work. how about you?",
+    "time": "2026-02-14 11:47"
   }
 ]
