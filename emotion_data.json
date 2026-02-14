@@ -22937,6 +22937,48 @@
         "future": 0,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:29:53.634113+09:00",
+      "summary": "Haha I want ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼がどこに住んでいるか知りたいという会話の続き。日本での語学留学と彼に会える可能性について話している流れ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
