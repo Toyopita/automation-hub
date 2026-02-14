@@ -24116,6 +24116,132 @@
         "future": 5,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:54:44.988871+09:00",
+      "summary": "And I am very interested in you ",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼女の気持ちを真剣に伝えようとしている。文脈から、彼が彼女の関心度を疑っているため、強調して再度伝えている様子。不安定な愛着スタイルが見られる。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 8,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": -1,
+        "future": -2,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:54:46.479996+09:00",
+      "summary": "By the way ",
+      "scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情的な会話の途中で話題を切り替えようとしている。前の文脈では彼への興味と近くにいたい気持ちを伝えた直後",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 1,
+        "future": 6,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -3,
+        "longing": -2,
+        "eros": -1,
+        "ds": -2,
+        "playfulness": 2,
+        "future": -1,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:54:48.262354+09:00",
+      "summary": "A lot of",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "直前の「I am very interested in you」を強調する追加発言。不安な気持ちから彼の関心を確認しようとしている文脈",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 0,
+        "future": 2,
+        "engagement": 2
+      }
     }
   ]
 }
