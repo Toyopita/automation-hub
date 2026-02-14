@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I wanted to ask if we are in a relationship 🫣",
-    "time": "10:11"
-  },
-  {
-    "role": "laura",
     "text": "Yes me too ",
     "time": "10:12"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Because I really want that ",
     "time": "10:49"
+  },
+  {
+    "role": "laura",
+    "text": "Baby what city do you live? ",
+    "time": "10:50"
   }
 ]
