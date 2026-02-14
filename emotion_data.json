@@ -19997,6 +19997,90 @@
         "future": 0,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:53:19.574871+09:00",
+      "summary": "Hahaha ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "会話の流れに対する軽い笑い・反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 0,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 3,
+        "future": 0,
+        "engagement": 1
+      }
+    },
+    {
+      "timestamp": "2026-02-14T09:53:20.934381+09:00",
+      "summary": "Why ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "文脈から性的な会話の流れで聞き返している。軽い好奇心を示す返答",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 8,
+        "future": 1,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": -2,
+        "longing": -2,
+        "eros": -2,
+        "ds": 0,
+        "playfulness": -2,
+        "future": 0,
+        "engagement": -1
+      }
     }
   ]
 }
