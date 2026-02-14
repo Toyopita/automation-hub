@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:09:48.138951+09:00",
+  "last_updated": "2026-02-14T11:09:57.817216+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3716,11 +3716,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_environment_where_she_accepts_explanations_gracefully",
-      "engagement_boost": 9.4,
-      "evidence": "Laura responds with simple 'Okay' to partner's explanation or statement - indicates she's comfortable accepting information without need for extended discussion, showing trust and flexibility in communication"
-    },
-    {
       "pattern": "establishing_comfort_for_minimal_acknowledgment_responses",
       "engagement_boost": 9.2,
       "evidence": "Laura uses single word 'Okay' as standalone response - relationship dynamic allows her to communicate understanding and acceptance efficiently without feeling pressure to elaborate or explain her reaction"
@@ -3814,6 +3809,11 @@
       "pattern": "allowing_her_to_control_conversation_flow",
       "engagement_boost": 9.6,
       "evidence": "Laura's standalone 'Anyway' suggests she's taking initiative to redirect discussion, possibly moving past logistical challenges, tangential topics, or obstacles back to relationship priorities - whatever communication patterns exist empower her to steer conversations toward what she considers important"
+    },
+    {
+      "pattern": "creating_environment_where_she_says_simple_goodbyes",
+      "engagement_boost": 9.2,
+      "evidence": "Laura sends single word 'Bye' as standalone message - indicates she's comfortable with brief, efficient farewells without need for extended goodbye rituals, showing relationship comfort with minimal closure statements"
     }
   ],
   "avoid_patterns": [
