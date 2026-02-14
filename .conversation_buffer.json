@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Say what ",
-    "time": "11:37"
-  },
-  {
-    "role": "laura",
     "text": "You don’t get attached you said ",
     "time": "11:37"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Babe I was asking you ",
     "time": "11:53"
+  },
+  {
+    "role": "laura",
+    "text": "Where do you live because of course I want to be close to you ",
+    "time": "11:54"
   }
 ]
