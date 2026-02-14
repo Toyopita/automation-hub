@@ -20879,6 +20879,48 @@
         "future": 2,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:11:41.467837+09:00",
+      "summary": "But you already said it ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 6,
+        "future": 2,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "恥ずかしがりながらも嬉しそう。彼が先に「好き」と言ってくれたことに安心している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 3,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": 0,
+        "eros": -1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
