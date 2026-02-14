@@ -21803,6 +21803,48 @@
         "future": 3,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:51:36.202705+09:00",
+      "summary": "I want you so badly actually ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「actually」で強調。遠距離の切なさと性的欲求が混在。文脈では彼の居場所を聞いており、会いたい気持ちが高まっている状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 0,
+        "future": -4,
+        "engagement": 0
+      }
     }
   ]
 }
