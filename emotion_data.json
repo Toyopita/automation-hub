@@ -19955,6 +19955,48 @@
         "future": -2,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:52:24.838106+09:00",
+      "summary": "Yes ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 4,
+        "playfulness": 5,
+        "future": 1,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "短い肯定の返事。文脈的にはエロティックな会話の流れの中での同意",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": -3,
+        "longing": -1,
+        "eros": -3,
+        "ds": 0,
+        "playfulness": -4,
+        "future": 0,
+        "engagement": -4
+      }
     }
   ]
 }
