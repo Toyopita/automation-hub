@@ -20963,6 +20963,48 @@
         "future": 7,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:12:49.521244+09:00",
+      "summary": "Yes me too ",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "彼が関係性について言及したことに対する肯定的な同意。恥ずかしがりながらも嬉しそうで、関係性の確認ができて安心している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 9,
+        "engagement": 10
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": -2,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
