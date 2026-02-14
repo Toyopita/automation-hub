@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "If I go we meet ? ",
-    "time": "10:56"
-  },
-  {
-    "role": "laura",
     "text": "🤔",
     "time": "10:56"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "I don’t know what city I’m going ",
+    "time": "11:11"
+  },
+  {
+    "role": "laura",
+    "text": "I have to see ",
     "time": "11:11"
   }
 ]
