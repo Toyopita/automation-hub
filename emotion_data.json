@@ -22811,6 +22811,90 @@
         "future": -3,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:11:47.438604+09:00",
+      "summary": "I don’t know what city I’m going ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本留学の具体的な計画についての会話。都市は未定だが、1年滞在して語学学校に通う意向。会えたら嬉しいけど、会えなくても大丈夫という距離感を保っている。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -2,
+        "intimacy": -1,
+        "longing": 0,
+        "eros": -2,
+        "ds": -1,
+        "playfulness": -5,
+        "future": 5,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:11:49.065629+09:00",
+      "summary": "I have to see ",
+      "scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "将来の計画について話している。疲れて寝る前の会話の最後の一言。淡々としているが、日本滞在の具体的な計画を進めている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -2
+      }
     }
   ]
 }
