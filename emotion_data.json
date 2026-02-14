@@ -20249,6 +20249,48 @@
         "future": -3,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:05:44.006370+09:00",
+      "summary": "Have a good day at work ",
+      "scores": {
+        "mood": 8,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の後の優しい締めくくり。ベッドにいると伝えた後の気遣いメッセージ",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 5,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -4,
+        "ds": -2,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": 1
+      }
     }
   ]
 }
