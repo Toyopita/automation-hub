@@ -20627,6 +20627,48 @@
         "future": -1,
         "engagement": -3
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:10:11.749081+09:00",
+      "summary": "I’m embarrassed ",
+      "scores": {
+        "mood": 6,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 5,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 7,
+        "ds": 6
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "照れている状態。直前の会話の流れから、少し恥ずかしがりながらも素直に気持ちを伝えている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 7,
+        "future": 1,
+        "engagement": 3
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 0,
+        "intimacy": 3,
+        "longing": 1,
+        "eros": 3,
+        "playfulness": -3,
+        "future": 0,
+        "engagement": 4,
+        "ds": 3
+      }
     }
   ]
 }
