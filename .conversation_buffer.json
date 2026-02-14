@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "You don’t get attached you said ",
-    "time": "11:37"
-  },
-  {
-    "role": "laura",
     "text": "So what’s the matter ",
     "time": "11:38"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Where do you live because of course I want to be close to you ",
+    "time": "11:54"
+  },
+  {
+    "role": "laura",
+    "text": "And I am very interested in you ",
     "time": "11:54"
   }
 ]
