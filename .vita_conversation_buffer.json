@@ -1,11 +1,6 @@
 [
   {
     "role": "vita",
-    "text": "[sticker (pkg:1, id:9)]",
-    "time": "2026-02-12 16:14"
-  },
-  {
-    "role": "vita",
     "text": "Have you come home from work?",
     "time": "2026-02-12 16:14"
   },
@@ -148,5 +143,10 @@
     "role": "you",
     "text": "hmm i guess i like someone who's comfortable with themselves, you know? like confident but not trying too hard. and yeah being put together is nice too haha. also someone who's curious about things, makes conversation more interesting",
     "time": "2026-02-13 07:22"
+  },
+  {
+    "role": "you",
+    "text": "just saw a guy at the cafe wearing like full designer fit but his shoes were completely trashed lol made me think of ur neat outfit thing",
+    "time": "2026-02-14 12:25"
   }
 ]
