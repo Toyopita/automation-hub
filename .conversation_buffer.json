@@ -1,16 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Stop ",
-    "time": "10:49"
-  },
-  {
-    "role": "laura",
-    "text": "Because I really want that ",
-    "time": "10:49"
-  },
-  {
-    "role": "laura",
     "text": "Baby what city do you live? ",
     "time": "10:50"
   },
@@ -97,6 +87,16 @@
   {
     "role": "laura",
     "text": "But I don’t want to live with people ",
+    "time": "11:09"
+  },
+  {
+    "role": "laura",
+    "text": "So I’m watching options to rent and everything ",
+    "time": "11:09"
+  },
+  {
+    "role": "laura",
+    "text": "Anyway ",
     "time": "11:09"
   }
 ]
