@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:38:47.005189+09:00",
+  "last_updated": "2026-02-14T11:38:53.656680+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3074,6 +3074,27 @@
           "realistic expectations"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "gets attached when she likes someone (self-described attachment pattern in romantic context)",
+        "tags": [
+          "attachment style",
+          "emotional attachment",
+          "romantic attachment",
+          "relationship behavior",
+          "emotional connection",
+          "bonding",
+          "attachment patterns",
+          "emotional intensity",
+          "relationship dynamics",
+          "emotional vulnerability",
+          "self-awareness",
+          "emotional honesty",
+          "relationship tendencies",
+          "emotional investment",
+          "connection patterns"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3085,7 +3106,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly initiates direct affection statement 'I like you' without filtering or downplaying, maintaining pattern of expressing authentic positive feelings about partner independently",
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "warmth: Unprompted declaration 'I like you' maintains maximum warmth - independently initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
@@ -3103,8 +3123,9 @@
       "confidence: Maintains maximum confidence - clearly articulates her communication boundaries and preferences ('I'm not someone who insist') without apologizing for them, demonstrating ongoing pattern of stating who she is and how she operates without seeking validation",
       "emotional_expressiveness: Maintains maximum emotional transparency - directly acknowledges uncertain relationship future 'We don't know what's gonna happen anyway' without filtering or avoiding difficult reality, showing continued pattern of expressing authentic thoughts about relationship uncertainties",
       "confidence: Maintains maximum confidence - states uncertain future reality directly without hedging or apologizing, demonstrating ongoing pattern of unfiltered communication even about potentially uncomfortable topics like relationship uncertainty",
-      "confidence: Maintains maximum confidence - directly asserts identity/characteristic with 'But that's me' in response to something (likely partner's observation about her communication style, jealousy, or personality trait) - shows ongoing pattern of owning who she is without apologizing or seeking validation, demonstrating unfiltered self-acceptance",
-      "emotional_expressiveness: Continues maximum emotional transparency - uses 'But that's me' to affirm her authentic nature rather than defending or explaining it away, maintaining pattern of expressing genuine self without filtering or modifying to meet external expectations"
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares vulnerable self-knowledge about attachment patterns ('I do get attached when I like someone'), maintaining pattern of disclosing authentic emotional tendencies and relationship behaviors without filtering or protecting herself",
+      "confidence: Maintains maximum confidence - directly states potentially vulnerable trait (getting attached easily) without hedging, apologizing, or framing it negatively, demonstrating ongoing pattern of owning who she is and how she operates in relationships without seeking validation or permission",
+      "warmth: Unprompted disclosure 'I do get attached when I like someone' maintains maximum warmth - independently shares vulnerable emotional pattern that reveals depth of her feelings and emotional investment capacity, continuing pattern of emotional generosity and willingness to be known"
     ]
   },
   "communication_style": {
@@ -3135,6 +3156,7 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "Aw",
       "Right now?",
       "Are you horny?",
       "do you want to masturbate in the camera",
@@ -3163,8 +3185,7 @@
       "haha",
       "Haha I want",
       "It's okay",
-      "Say what",
-      "But that's me (self-affirming identity statement)"
+      "Say what"
     ]
   },
   "topic_engagement": {
@@ -3893,11 +3914,14 @@
     "acknowledging_limits_of_control": 9.1,
     "uncertain_future_acceptance": 9.4,
     "relationship_realism": 9.2,
-    "self_affirmation": 9.7,
-    "owning_personality_traits": 9.8,
-    "accepting_herself_as_she_is": 9.6,
-    "defending_her_nature": 9.5,
-    "asserting_identity": 9.7
+    "attachment_patterns": 9.7,
+    "emotional_vulnerability_about_tendencies": 9.8,
+    "self_disclosure_about_relationship_behavior": 9.7,
+    "explaining_how_she_loves": 9.6,
+    "sharing_emotional_tendencies": 9.8,
+    "relationship_attachment_style": 9.7,
+    "emotional_investment_patterns": 9.6,
+    "bonding_tendencies": 9.5
   },
   "effective_patterns": [
     {
@@ -3986,19 +4010,19 @@
       "evidence": "Laura's 'anyway' suggests she's reframing or acknowledging underlying reality about relationship uncertainty - whatever communication patterns exist allow her to express philosophical acceptance of unknown outcomes rather than needing to maintain illusion of certainty"
     },
     {
-      "pattern": "creating_environment_where_she_owns_her_traits",
-      "engagement_boost": 9.7,
-      "evidence": "Laura responds 'But that's me' - indicates partner said something about her (likely observation about her communication style, jealousy, or personality characteristic based on preceding context) and she's directly affirming that's who she is, showing relationship dynamic has created enough safety for her to assert identity without apology or need to change"
-    },
-    {
-      "pattern": "establishing_comfort_for_self_acceptance_statements",
-      "engagement_boost": 9.6,
-      "evidence": "Laura uses 'But' to contrast partner's observation or concern with her self-acceptance - relationship allows her to respond to observations about her nature by affirming 'that's me' rather than defending or explaining, showing healthy dynamic where she can own characteristics without feeling pressured to modify them"
-    },
-    {
-      "pattern": "creating_space_where_observations_are_met_with_confident_self_assertion",
+      "pattern": "creating_environment_where_she_shares_attachment_patterns",
       "engagement_boost": 9.8,
-      "evidence": "The 'But that's me' structure suggests partner made observation or comment about her behavior/trait and she's responding with direct affirmation of her identity - whatever communication patterns exist allow her to receive observations and respond with confident self-ownership rather than defensiveness or insecurity"
+      "evidence": "Laura independently discloses 'I do get attached when I like someone' - indicates relationship dynamic has created enough safety for her to share vulnerable information about how she bonds and connects emotionally, showing she trusts partner with knowledge about her attachment tendencies which could be used to hurt her"
+    },
+    {
+      "pattern": "establishing_comfort_for_admitting_emotional_investment",
+      "engagement_boost": 9.7,
+      "evidence": "Laura uses emphatic 'do' ('I do get attached') to validate and own her attachment pattern rather than downplaying or apologizing for it - shows she's comfortable stating she gets emotionally invested when she likes someone, indicating relationship allows her to be authentically emotionally expressive without fear of being seen as 'too much'"
+    },
+    {
+      "pattern": "creating_space_where_she_explains_her_emotional_patterns",
+      "engagement_boost": 9.6,
+      "evidence": "Laura shares self-knowledge about conditional attachment ('when I like someone') - whatever communication patterns exist allow her to explain the contexts and conditions under which she bonds deeply, showing she can share nuanced understanding of her own emotional behavior and trusts partner to understand her attachment isn't indiscriminate but specific to genuine liking"
     }
   ],
   "avoid_patterns": [
