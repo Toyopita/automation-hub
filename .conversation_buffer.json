@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I’m going to sleep ",
-    "time": "10:47"
-  },
-  {
-    "role": "laura",
     "text": "I like you ",
     "time": "10:47"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "But anyway if we get to see each other is fine ",
+    "time": "11:07"
+  },
+  {
+    "role": "laura",
+    "text": "If is not is fine too ",
     "time": "11:07"
   }
 ]
