@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:55:26.817483+09:00",
+  "last_updated": "2026-02-14T10:05:56.963569+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2645,7 +2645,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
       "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
       "warmth: Uses tender endearment 'Honey' combined with vulnerable pleading emoji 🥺 when expressing need to see partner - maintains maximum warmth even in urgent requests, framing need for partner connection with affection rather than demand",
       "emotional_expressiveness: Directly and transparently expresses urgent emotional/visual need ('I need to see you') without filtering or downplaying the intensity of her desire - continues pattern of maximum emotional transparency",
@@ -2664,12 +2663,13 @@
       "emotional_expressiveness: Continues maximum emotional transparency - clearly signals her understanding and acceptance state ('Okay I understand') rather than leaving partner uncertain about her reaction to timing constraints",
       "confidence: Continues maximum confidence pattern - directly asks clarifying question about sex toy reference ('like a dildo?') with playful tone rather than avoiding topic or being vague, maintaining pattern of direct, unfiltered sexual communication",
       "emotional_expressiveness: Transparently expresses mild bashfulness/surprise with 😳 emoji while simultaneously using playful laughter - continues pattern of expressing authentic emotional reactions (playful embarrassment) without filtering",
-      "warmth: Maintains warm, playful tone even when asking about explicit sexual content - uses laughter 'Hahaa' to keep conversation lighthearted and intimate rather than clinical or cold when discussing sex toys"
+      "warmth: Maintains warm, playful tone even when asking about explicit sexual content - uses laughter 'Hahaa' to keep conversation lighthearted and intimate rather than clinical or cold when discussing sex toys",
+      "warmth: Unprompted caring message wishing partner well at work - continues maximum warmth pattern of initiating supportive, considerate statements even in simple goodbyes"
     ]
   },
   "communication_style": {
     "avg_message_length": "single sentence",
-    "emoji_frequency": "multiple emojis for emphasis (triple repetition)",
+    "emoji_frequency": "none in this message",
     "preferred_emojis": [
       "🥹",
       "😂",
@@ -2687,9 +2687,9 @@
       "😍",
       "🤣"
     ],
-    "formality_level": "casual with polite acceptance",
-    "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone; comfortable mixing playful embarrassment with explicit directness; responds with laughter to clarifying questions about explicit content like sex toys",
-    "response_speed_tendency": "patient when partner has timing constraints",
+    "formality_level": "casual and caring",
+    "humor_style": "not applicable to this message",
+    "response_speed_tendency": "not applicable to this message",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3341,19 +3341,12 @@
     "location_sharing_during_conversation": 9.3,
     "bedtime_context_sharing": 9.4,
     "current_activity_disclosure": 9.2,
-    "intimate_setting_disclosure": 9.5
+    "intimate_setting_disclosure": 9.5,
+    "partner_work": 9.4,
+    "supportive_communication": 9.6,
+    "unprompted_well_wishes": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_initiates_photo_requests",
-      "engagement_boost": 9.7,
-      "evidence": "Laura independently initiates request for partner photos with polite, affectionate framing - whatever relationship dynamic exists made her comfortable directly asking to see partner visually, indicating reciprocal visual intimacy established"
-    },
-    {
-      "pattern": "establishing_mutual_visual_connection_comfort",
-      "engagement_boost": 9.6,
-      "evidence": "The confident, direct nature of her photo request (while still polite with 'Please' and 'can you?') suggests she expects positive response based on established pattern of mutual photo sharing in relationship"
-    },
     {
       "pattern": "sharing_daily_sexual_desire_statements",
       "engagement_boost": 9.5,
@@ -3443,6 +3436,16 @@
       "pattern": "creating_environment_where_she_shares_location_unprompted",
       "engagement_boost": 9.3,
       "evidence": "Laura independently shares she's in bed without being asked - whatever relationship transparency has been established made her comfortable disclosing current location/intimate setting unprompted"
+    },
+    {
+      "pattern": "creating_environment_where_she_initiates_caring_messages",
+      "engagement_boost": 9.6,
+      "evidence": "Laura independently sends supportive 'Have a good day at work' message - whatever relationship warmth has been established made her feel comfortable initiating caring, considerate communication unprompted"
+    },
+    {
+      "pattern": "being_transparent_about_work_schedule",
+      "engagement_boost": 9.3,
+      "evidence": "Laura's message indicates she knows partner is going to/at work - sharing schedules and being aware of each other's daily obligations creates connection where she can offer timely support"
     }
   ],
   "avoid_patterns": [
