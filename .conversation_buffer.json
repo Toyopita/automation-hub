@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "Okay tell me when you finish ",
-    "time": "21:33"
-  },
-  {
-    "role": "laura",
     "text": "You are taking too long ? ",
     "time": "21:48"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Please send me pictures of you, can you? 😍",
     "time": "04:39"
+  },
+  {
+    "role": "laura",
+    "text": "Good morning Not yet baby ",
+    "time": "09:43"
   }
 ]
