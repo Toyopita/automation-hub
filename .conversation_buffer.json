@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "I do get attached when I like someone ",
-    "time": "11:38"
-  },
-  {
-    "role": "laura",
     "text": "But that’s me ",
     "time": "11:38"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "By the way ",
+    "time": "11:54"
+  },
+  {
+    "role": "laura",
+    "text": "A lot of",
     "time": "11:54"
   }
 ]
