@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:12:28.893883+09:00",
+  "last_updated": "2026-02-14T10:13:02.542899+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3381,7 +3381,7 @@
     "direct_yes_answers": 8.9,
     "future_relationship_plans": 9.7,
     "living_in_same_city": 9.8,
-    "geographical_proximity_desire": 9.6,
+    "geographical_proximity_desire": 9.7,
     "relationship_future_logistics": 9.5,
     "expressing_long_term_commitment": 9.7,
     "solving_distance_problem": 9.4,
@@ -3465,24 +3465,11 @@
     "vulnerable_relationship_questions": 9.7,
     "commitment_level_discussion": 9.6,
     "relationship_uncertainty_resolution": 9.7,
-    "exclusive_relationship_confirmation": 9.6
+    "exclusive_relationship_confirmation": 9.6,
+    "mutual_desire_for_closeness": 9.7,
+    "shared_future_plans": 9.7
   },
   "effective_patterns": [
-    {
-      "pattern": "establishing_safety_for_vulnerable_inquiries",
-      "engagement_boost": 9.5,
-      "evidence": "The permission-seeking format 'Can I ask you something?' suggests the question she wants to ask may be sensitive, personal, or important enough that she's checking if partner is open to it - relationship dynamic allows her to signal she has something meaningful to discuss"
-    },
-    {
-      "pattern": "creating_space_for_her_to_take_conversational_initiative",
-      "engagement_boost": 9.3,
-      "evidence": "Laura proactively starts new conversational thread with question preface rather than waiting to be asked - whatever engagement pattern exists made her feel comfortable being the one to introduce new topic or inquiry"
-    },
-    {
-      "pattern": "being_transparent_when_concerns_arise",
-      "engagement_boost": 9.5,
-      "evidence": "Laura responds with reassuring 'It's okay' - whatever concern, apology, or explanation was shared, being honest about it rather than hiding or avoiding created opportunity for her to offer comfort and acceptance"
-    },
     {
       "pattern": "creating_safety_for_her_to_offer_forgiveness",
       "engagement_boost": 9.4,
@@ -3567,6 +3554,21 @@
       "pattern": "creating_emotional_intimacy_that_prompts_commitment_questions",
       "engagement_boost": 9.6,
       "evidence": "The question 'if we are in a relationship' indicates the emotional connection and intimacy has progressed to point where she's seeking to define and formalize it - whatever depth of connection exists made her want relationship clarity and potentially commitment"
+    },
+    {
+      "pattern": "expressing_desire_for_same_city_living",
+      "engagement_boost": 9.8,
+      "evidence": "Laura immediately affirms 'Yes me too' to partner's statement about wanting to live in the same city - shows strong alignment with future proximity desires and relationship progression"
+    },
+    {
+      "pattern": "creating_shared_future_vision",
+      "engagement_boost": 9.7,
+      "evidence": "Laura's enthusiastic agreement with living in same city indicates partner's expression of future plans together resonates deeply - discussing concrete future scenarios strengthens relationship commitment"
+    },
+    {
+      "pattern": "validating_her_relationship_goals",
+      "engagement_boost": 9.6,
+      "evidence": "By expressing desire to live in same city first, partner validated Laura's likely unexpressed hopes - her immediate agreement suggests this aligned with what she wanted to hear about relationship future"
     }
   ],
   "avoid_patterns": [
