@@ -21635,6 +21635,48 @@
         "future": 4,
         "engagement": 3
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:49:52.541211+09:00",
+      "summary": "Stop ",
+      "scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 6,
+        "playfulness": 4,
+        "future": 2,
+        "engagement": 7
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "寝る前に返信がなく不安。軽く抗議している様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 5,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -5,
+        "energy": 0,
+        "intimacy": -1,
+        "longing": 1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 1,
+        "future": -3,
+        "engagement": 0
+      }
     }
   ]
 }
