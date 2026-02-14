@@ -23271,6 +23271,47 @@
         "future": 0,
         "engagement": 4
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:37:58.801434+09:00",
+      "summary": "You don’t get attached you said ",
+      "scores": {
+        "mood": 3,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "過去の発言を引用して詰め寄っている。不安定な心理状態で距離感を確認しようとしている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 1,
+        "playfulness": 3,
+        "future": 2,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -1,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 0,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 1,
+        "engagement": 0
+      }
     }
   ]
 }
