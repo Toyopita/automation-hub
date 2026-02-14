@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:11:55.484252+09:00",
+  "last_updated": "2026-02-14T10:12:28.893883+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2650,6 +2650,90 @@
           "affection initiation"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "initiates vulnerable relationship-defining questions using shy emoji (asks about relationship status)",
+        "tags": [
+          "relationship definition",
+          "relationship status",
+          "vulnerable questions",
+          "commitment inquiry",
+          "relationship clarity",
+          "defining the relationship",
+          "DTR",
+          "relationship talk",
+          "commitment questions",
+          "relationship labeling",
+          "exclusivity discussion",
+          "relationship boundaries",
+          "relationship progression",
+          "vulnerable communication",
+          "shy emoji usage"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "seeks clarity about relationship status and commitment level",
+        "tags": [
+          "relationship clarity",
+          "commitment clarity",
+          "relationship status",
+          "defining relationship",
+          "relationship questions",
+          "commitment level",
+          "relationship uncertainty",
+          "seeking definition",
+          "relationship labels",
+          "relationship understanding",
+          "commitment inquiry",
+          "relationship confirmation",
+          "status verification",
+          "relationship boundaries",
+          "exclusivity clarity"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses past tense framing when introducing vulnerable questions ('wanted to ask' vs 'want to ask')",
+        "tags": [
+          "communication style",
+          "past tense framing",
+          "vulnerable question framing",
+          "indirect approach",
+          "softening language",
+          "question introduction",
+          "linguistic patterns",
+          "tentative communication",
+          "cautious phrasing",
+          "self-protective language",
+          "vulnerability mitigation",
+          "conversational hedging",
+          "question framing",
+          "communication patterns",
+          "linguistic softening"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "comfortable asking direct relationship-defining questions despite shyness (uses shy emoji but still asks)",
+        "tags": [
+          "relationship communication",
+          "vulnerable courage",
+          "direct communication",
+          "relationship questions",
+          "shy confidence",
+          "asking despite fear",
+          "emotional bravery",
+          "relationship clarity seeking",
+          "direct inquiry",
+          "overcoming shyness",
+          "vulnerable directness",
+          "relationship initiative",
+          "courageous communication",
+          "emotional risk-taking",
+          "authentic inquiry"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2661,9 +2745,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Maintains maximum confidence - initiates explicit sexual conversation completely unprompted by sharing vulnerable admission that thoughts of partner trigger arousal, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation",
-      "warmth: Even explicit sexual statement centers partner as the source of her desire ('Thinking about you') - maintains maximum warmth by framing arousal as connection to partner specifically rather than impersonal physical need",
-      "emotional_expressiveness: Uses elongated 'loooove' and triple emoji repetition (😍😍😍 and 🥵🥵🥵) to express intense enthusiasm and arousal about recent intimate experience - continues maximum emotional transparency by immediately sharing positive feedback unprompted",
       "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
       "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication",
       "warmth: Uses affectionate framing 'Please' and love eyes emoji 😍 when requesting partner photos - maintains maximum warmth by making requests politely and with visible affection rather than demanding",
@@ -2680,7 +2761,10 @@
       "warmth: Responds with reassuring 'It's okay' when partner likely expressed concern or apologized - maintains warmth by offering immediate comfort and acceptance without holding grudges or creating tension",
       "warmth: Unprompted declaration 'I like you a lot' maintains maximum warmth - initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
       "emotional_expressiveness: Directly and transparently expresses affection ('I like you a lot') without filtering or downplaying - continues maximum emotional transparency by independently sharing positive feelings about partner unprompted",
-      "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation"
+      "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
+      "confidence: Maintains maximum confidence - initiates highly vulnerable relationship-defining question ('if we are in a relationship') despite using shy emoji, demonstrating ongoing pattern of direct, unfiltered communication about important topics without letting fear prevent her from asking what matters to her",
+      "emotional_expressiveness: Continues maximum emotional transparency - directly asks vulnerable relationship status question unprompted, maintaining pattern of expressing authentic needs and uncertainties without filtering or avoiding difficult conversations",
+      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness"
     ]
   },
   "communication_style": {
@@ -2970,7 +3054,7 @@
     "clarifying_exclusivity": 9.0,
     "asking_about_partner_content_sharing_with_others": 9.2,
     "receiving_reassurance_about_exclusivity": 9.0,
-    "seeking_relationship_clarity": 9.3,
+    "seeking_relationship_clarity": 9.5,
     "asking_for_reassurance": 9.1,
     "defending_vulnerable_questions": 8.9,
     "mutual_exclusivity_declarations": 9.7,
@@ -3372,24 +3456,18 @@
     "partner_memory_of_statements": 8.9,
     "holding_partner_accountable_to_words": 9.3,
     "partner_consistency": 8.7,
-    "statement_repetition": 7.8
+    "statement_repetition": 7.8,
+    "relationship_definition": 9.8,
+    "relationship_status_clarity": 9.7,
+    "commitment_discussion": 9.6,
+    "defining_the_relationship": 9.8,
+    "relationship_labels": 9.5,
+    "vulnerable_relationship_questions": 9.7,
+    "commitment_level_discussion": 9.6,
+    "relationship_uncertainty_resolution": 9.7,
+    "exclusive_relationship_confirmation": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_initiates_caring_messages",
-      "engagement_boost": 9.6,
-      "evidence": "Laura independently sends supportive 'Have a good day at work' message - whatever relationship warmth has been established made her feel comfortable initiating caring, considerate communication unprompted"
-    },
-    {
-      "pattern": "being_transparent_about_work_schedule",
-      "engagement_boost": 9.3,
-      "evidence": "Laura's message indicates she knows partner is going to/at work - sharing schedules and being aware of each other's daily obligations creates connection where she can offer timely support"
-    },
-    {
-      "pattern": "creating_environment_where_she_initiates_questions",
-      "engagement_boost": 9.4,
-      "evidence": "Laura independently asks 'Can I ask you something?' - whatever relationship safety and openness has been established made her comfortable initiating a question that requires permission-seeking preface, indicating she has something meaningful or potentially vulnerable to ask"
-    },
     {
       "pattern": "establishing_safety_for_vulnerable_inquiries",
       "engagement_boost": 9.5,
@@ -3474,6 +3552,21 @@
       "pattern": "following_through_on_previous_declarations",
       "engagement_boost": 9.3,
       "evidence": "The 'already said it' reference suggests Laura values when partner's current actions align with previous statements - she remembers what was said and appreciates when words match actions"
+    },
+    {
+      "pattern": "creating_environment_where_she_feels_safe_asking_vulnerable_relationship_questions",
+      "engagement_boost": 9.8,
+      "evidence": "Laura independently initiates highly vulnerable relationship-defining question ('I wanted to ask if we are in a relationship 🫣') - whatever emotional safety, intimacy, and trust has been established made her comfortable enough to risk asking question that could result in rejection or disappointment"
+    },
+    {
+      "pattern": "establishing_relationship_dynamic_where_clarity_can_be_sought",
+      "engagement_boost": 9.7,
+      "evidence": "Laura feels comfortable directly asking about relationship status rather than making assumptions or avoiding the topic - relationship communication patterns allow her to seek clarity on fundamental questions about what they are to each other"
+    },
+    {
+      "pattern": "creating_emotional_intimacy_that_prompts_commitment_questions",
+      "engagement_boost": 9.6,
+      "evidence": "The question 'if we are in a relationship' indicates the emotional connection and intimacy has progressed to point where she's seeking to define and formalize it - whatever depth of connection exists made her want relationship clarity and potentially commitment"
     }
   ],
   "avoid_patterns": [
