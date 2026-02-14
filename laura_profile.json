@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:08:33.821921+09:00",
+  "last_updated": "2026-02-14T10:09:36.458240+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2695,7 +2695,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Just words (skeptical framing)",
       "Just words",
       "Why hahaha (questioning with laughter)",
       "Why hahaha",
@@ -2724,7 +2723,8 @@
       "😬 (grimacing emoji as standalone response)",
       "I'm in bed",
       "Can I ask you something?",
-      "Bye"
+      "Bye",
+      "Nothing"
     ]
   },
   "topic_engagement": {
@@ -3450,16 +3450,6 @@
   ],
   "avoid_patterns": [
     {
-      "pattern": "interrupting_tender_moment_with_sexual_logistics",
-      "engagement_drop": -1.9,
-      "evidence": "The 'Thats Lovely really' comment suggests Laura was appreciating the romantic emotional connection about sleeping together; immediately asking about sexual preferences ('dominated') shifts from emotional intimacy to sexual mechanics without transition"
-    },
-    {
-      "pattern": "not_allowing_romantic_peak_to_settle",
-      "engagement_drop": -1.6,
-      "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
-    },
-    {
       "pattern": "continuing_explicit_escalation_after_boundary_signal",
       "engagement_drop": -2.8,
       "evidence": "Laura's 'Stop 🥺' with vulnerable pleading emoji in context of sexually charged conversation indicates overwhelm or need to pause - the same emoji user has been using (🥺) suggests she's mirroring vulnerable communication style to set boundary"
@@ -3548,6 +3538,16 @@
       "pattern": "statement_without_context_or_explanation",
       "engagement_drop": -2.1,
       "evidence": "Laura's single word 'Why?' suggests something was stated or proposed that lacks sufficient context or justification - she's seeking clarification or rationale, indicating the preceding message didn't provide adequate explanation"
+    },
+    {
+      "pattern": "creating_context_where_she_gives_minimal_single_word_responses",
+      "engagement_drop": -2.1,
+      "evidence": "Laura responds with only 'Nothing' - this minimal, standalone single-word response suggests whatever preceded didn't invite engagement, or she's answering a question with negative result (nothing happened, nothing to report, nothing wrong)"
+    },
+    {
+      "pattern": "asking_questions_that_yield_empty_negative_responses",
+      "engagement_drop": -1.8,
+      "evidence": "The 'Nothing' response likely answers a question about what's happening/wrong/new - these types of questions can create dead-end responses when there genuinely is nothing to report, stopping conversation momentum"
     }
   ],
   "ng_topics": [],
