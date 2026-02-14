@@ -22643,6 +22643,48 @@
         "future": -6,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:09:51.429378+09:00",
+      "summary": "Bye ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 4
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "疲れて寝る前の軽い挨拶。会話を自然に終わらせている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 3,
+        "intimacy": 5,
+        "longing": 4,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 3,
+        "future": 3,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
