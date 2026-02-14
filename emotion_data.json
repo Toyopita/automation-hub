@@ -22181,6 +22181,48 @@
         "future": 1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:02:24.723929+09:00",
+      "summary": "To meet people but I meet you and that’s better ",
+      "scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「あなたに会えたのが一番良かった」という好意の告白。会いたい気持ちと不安が混在。積極的にアプローチ中",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 7,
+        "future": 8,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 3,
+        "ds": -1,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": 1
+      }
     }
   ]
 }
