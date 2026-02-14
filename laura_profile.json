@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:55:26.512817+09:00",
+  "last_updated": "2026-02-14T09:55:26.817483+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2618,6 +2618,22 @@
           "sexual dialogue"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "currently in bed (location disclosure during conversation)",
+        "tags": [
+          "bed",
+          "location",
+          "bedroom",
+          "current location",
+          "private space",
+          "resting",
+          "lying down",
+          "bedtime",
+          "intimate setting",
+          "personal space"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2708,7 +2724,7 @@
       "Why? (standalone questioning)",
       "dildo (explicit sexual term)",
       "😬 (grimacing emoji as standalone response)",
-      "Show you tomorrow (commitment phrasing)"
+      "I'm in bed"
     ]
   },
   "topic_engagement": {
@@ -3321,9 +3337,23 @@
     "sex_toy_clarification": 9.4,
     "playful_sexual_inquiry": 9.5,
     "adult_toys_discussion": 9.3,
-    "sexual_product_references": 9.2
+    "sexual_product_references": 9.2,
+    "location_sharing_during_conversation": 9.3,
+    "bedtime_context_sharing": 9.4,
+    "current_activity_disclosure": 9.2,
+    "intimate_setting_disclosure": 9.5
   },
   "effective_patterns": [
+    {
+      "pattern": "creating_environment_where_she_initiates_photo_requests",
+      "engagement_boost": 9.7,
+      "evidence": "Laura independently initiates request for partner photos with polite, affectionate framing - whatever relationship dynamic exists made her comfortable directly asking to see partner visually, indicating reciprocal visual intimacy established"
+    },
+    {
+      "pattern": "establishing_mutual_visual_connection_comfort",
+      "engagement_boost": 9.6,
+      "evidence": "The confident, direct nature of her photo request (while still polite with 'Please' and 'can you?') suggests she expects positive response based on established pattern of mutual photo sharing in relationship"
+    },
     {
       "pattern": "sharing_daily_sexual_desire_statements",
       "engagement_boost": 9.5,
@@ -3410,19 +3440,9 @@
       "evidence": "Laura's 'Hahaha' response after her dildo clarification question shows she's maintaining lighthearted, comfortable energy even when discussing explicit sexual content - creating environment where explicit topics can be discussed with humor rather than awkwardness keeps her engaged"
     },
     {
-      "pattern": "creating_environment_where_she_commits_to_future_picture_sharing",
+      "pattern": "creating_environment_where_she_shares_location_unprompted",
       "engagement_boost": 9.3,
-      "evidence": "Laura independently commits to showing pictures tomorrow - whatever relationship dynamic and trust has been established made her comfortable making time-specific commitment for future intimate content sharing"
-    },
-    {
-      "pattern": "respecting_timing_constraints_while_maintaining_connection",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's 'Show you tomorrow' indicates she's setting boundary around immediate sharing but maintaining commitment to fulfill request later - creating space for her to manage timing while keeping promise demonstrates established pattern where her boundaries are respected"
-    },
-    {
-      "pattern": "establishing_pattern_of_delayed_fulfillment_comfort",
-      "engagement_boost": 9.2,
-      "evidence": "The confident, simple commitment 'Show you tomorrow' without apology or over-explanation suggests she's comfortable deferring intimate requests to more convenient time - indicates relationship safety where she can set timing boundaries without fear of negative reaction"
+      "evidence": "Laura independently shares she's in bed without being asked - whatever relationship transparency has been established made her comfortable disclosing current location/intimate setting unprompted"
     }
   ],
   "avoid_patterns": [
