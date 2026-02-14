@@ -751,5 +751,23 @@
     ],
     "emotional_tone": "light-hearted, casual, playful",
     "unresolved": null
+  },
+  {
+    "id": 39,
+    "timestamp_start": "2026-02-12 14:55",
+    "timestamp_end": "2026-02-12 16:23",
+    "summary": "Michelle and I discussed the differences between Jollibee and McDonald's, with Michelle explaining that she prefers Jollibee's gravy and ketchup because they taste better. She mentioned she was heading home early after working only half a day.",
+    "topics": [
+      "fast food preferences",
+      "Jollibee vs McDonald's",
+      "condiments",
+      "work schedule"
+    ],
+    "key_facts_learned": [
+      "Michelle worked only half a day today",
+      "Michelle prefers Jollibee's gravy and ketchup over McDonald's"
+    ],
+    "emotional_tone": "lighthearted and casual",
+    "unresolved": null
   }
 ]
