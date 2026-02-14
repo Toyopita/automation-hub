@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:48:05.109692+09:00",
+  "last_updated": "2026-02-14T09:49:00.081185+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3179,21 +3179,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_space_for_her_to_express_long_term_desires",
-      "engagement_boost": 9.7,
-      "evidence": "Laura initiated unprompted statement about wanting to live in same city - whatever conversation context preceded this made her feel safe expressing significant relationship commitment and future planning desires"
-    },
-    {
-      "pattern": "addressing_distance_frustration_creates_opening_for_solutions",
-      "engagement_boost": 9.6,
-      "evidence": "After earlier expressing intense frustration about physical distance ('I feel so bad'), Laura now articulates concrete desire for geographical solution - acknowledging distance pain led to her sharing actual future hopes"
-    },
-    {
-      "pattern": "building_emotional_safety_for_vulnerability_about_relationship_future",
-      "engagement_boost": 9.8,
-      "evidence": "Statement about wanting to live in same city represents significant emotional vulnerability and relationship commitment - whatever interaction pattern has developed made her comfortable expressing long-term intentions and desires"
-    },
-    {
       "pattern": "creating_space_for_non_verbal_desire_expression",
       "engagement_boost": 9.7,
       "evidence": "Laura responds with triple drooling emoji 🤤🤤🤤 - whatever visual or verbal content preceded this evoked strong visceral desire response she expressed purely through emoji repetition without words"
@@ -3277,6 +3262,21 @@
       "pattern": "matching_her_sexual_transparency_with_equal_openness",
       "engagement_boost": 9.6,
       "evidence": "Given Laura previously described herself as 'horny all the time', her 'Always' response to partner's similar admission suggests reciprocal sexual openness creates engagement - mutual vulnerability about high libido appears to resonate with her"
+    },
+    {
+      "pattern": "creating_environment_where_she_uses_shy_emoji_as_standalone_response",
+      "engagement_boost": 9.4,
+      "evidence": "Laura responds with single 🫣 emoji - whatever preceded this evoked shy/bashful/vulnerable reaction she chose to express purely through emoji without words, continuing pattern of non-verbal intimate communication"
+    },
+    {
+      "pattern": "evoking_playful_shyness_or_bashful_reactions",
+      "engagement_boost": 9.5,
+      "evidence": "The 🫣 (shy covering face) emoji specifically indicates bashfulness or playful embarrassment - whatever content or request was shared made her feel shy enough to respond with just this emoji, suggesting it hit emotional or intimate territory"
+    },
+    {
+      "pattern": "allowing_minimal_emoji_only_responses_during_intimate_moments",
+      "engagement_boost": 9.3,
+      "evidence": "Single emoji response continues Laura's pattern of using standalone emoji during emotionally charged or intimate moments - creating space for her to respond non-verbally when she feels too shy or vulnerable for words gets authentic reactions"
     }
   ],
   "avoid_patterns": [
