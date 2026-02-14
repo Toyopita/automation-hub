@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "😔",
-    "time": "10:49"
-  },
-  {
-    "role": "laura",
     "text": "Stop ",
     "time": "10:49"
   },
@@ -97,6 +92,11 @@
   {
     "role": "laura",
     "text": "Yes I want to go to a school ",
+    "time": "11:09"
+  },
+  {
+    "role": "laura",
+    "text": "But I don’t want to live with people ",
     "time": "11:09"
   }
 ]
