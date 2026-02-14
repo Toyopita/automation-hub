@@ -22391,6 +22391,48 @@
         "future": -1,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:07:20.253497+09:00",
+      "summary": "If is not is fine too ",
+      "scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "前言を翻して「会えたら嬉しいけど、会えなくても気にしないよ」という配慮を示している。不安型の典型的な自己防衛",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 8,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": 0,
+        "longing": -2,
+        "eros": -1,
+        "ds": 1,
+        "playfulness": -1,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
