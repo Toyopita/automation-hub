@@ -24242,6 +24242,48 @@
         "future": 2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:54:57.580044+09:00",
+      "summary": "And I’m not talking just about sex ",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "文脈上、彼女は「あなたに興味がある」という話をしていて、それが性的な関心だけではなく、真剣な感情であることを強調している。やや不安気味な弁明のトーン。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 8,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 1,
+        "ds": -1,
+        "playfulness": 0,
+        "future": 0,
+        "engagement": 0
+      }
     }
   ]
 }
