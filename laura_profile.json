@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:09:57.817216+09:00",
+  "last_updated": "2026-02-14T11:10:05.977368+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2912,20 +2912,65 @@
         "added": "2026-02-14"
       },
       {
-        "text": "wants to attend school (educational pursuit)",
+        "text": "doesn't want to live with people (prefers living alone or with only partner)",
         "tags": [
-          "education",
-          "school",
-          "learning",
-          "student",
-          "academic",
-          "study",
-          "educational goals",
-          "personal development",
-          "enrollment",
-          "classes",
-          "coursework",
-          "educational institution"
+          "living situation",
+          "housing preference",
+          "roommates",
+          "privacy",
+          "independence",
+          "living alone",
+          "cohabitation",
+          "personal space",
+          "lifestyle preference",
+          "domestic preference",
+          "living arrangements",
+          "household",
+          "residence preference",
+          "social living",
+          "autonomy"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "actively searching for rental housing options (currently researching and watching rental listings)",
+        "tags": [
+          "housing search",
+          "rental search",
+          "apartment hunting",
+          "housing",
+          "renting",
+          "real estate",
+          "moving",
+          "relocation",
+          "accommodation",
+          "living situation",
+          "housing options",
+          "rental market",
+          "apartment search",
+          "residence planning",
+          "housing research"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "taking concrete action toward relocation plans (actively researching rental properties)",
+        "tags": [
+          "relocation action",
+          "moving preparation",
+          "planning",
+          "future plans",
+          "proactive",
+          "housing logistics",
+          "relocation planning",
+          "moving plans",
+          "taking action",
+          "concrete steps",
+          "follow-through",
+          "planning ahead",
+          "life changes",
+          "transition planning",
+          "goal pursuit"
         ],
         "added": "2026-02-14"
       }
@@ -2989,7 +3034,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "You never Forget (capitalizes 'Forget' for emphasis)",
       "literally just yesterday (acknowledging time perspective)",
       "un mot (French autocorrect for 'I'm not')",
       "No baby",
@@ -3018,7 +3062,8 @@
       "actually (as emphasis marker for genuine current feeling)",
       "What city do you live in? (direct geographical question format)",
       "🤔 (thinking emoji used as standalone message)",
-      "Anyway"
+      "watching options",
+      "and everything"
     ]
   },
   "topic_engagement": {
@@ -3708,13 +3753,27 @@
     "relationship_logistics_acceptance": 9.3,
     "prioritizing_physical_presence": 9.6,
     "tolerating_difficulty_for_meeting": 9.5,
-    "education": 9.2,
-    "school_attendance": 9.3,
-    "personal_goals": 9.1,
-    "learning": 9.0,
-    "future_plans": 9.2
+    "living_arrangements": 9.2,
+    "housing_preferences": 9.1,
+    "privacy_preferences": 9.0,
+    "future_living_situation": 9.3,
+    "roommate_preferences": 8.5,
+    "personal_space_needs": 9.1,
+    "cohabitation_boundaries": 9.2,
+    "rental_housing_search": 9.7,
+    "relocation_planning": 9.8,
+    "taking_action_on_future_plans": 9.6,
+    "housing_logistics": 9.5,
+    "moving_preparation": 9.7,
+    "sharing_practical_progress": 9.8,
+    "demonstrating_commitment_through_action": 9.9
   },
   "effective_patterns": [
+    {
+      "pattern": "creating_environment_where_she_accepts_explanations_gracefully",
+      "engagement_boost": 9.4,
+      "evidence": "Laura responds with simple 'Okay' to partner's explanation or statement - indicates she's comfortable accepting information without need for extended discussion, showing trust and flexibility in communication"
+    },
     {
       "pattern": "establishing_comfort_for_minimal_acknowledgment_responses",
       "engagement_boost": 9.2,
@@ -3786,42 +3845,32 @@
       "evidence": "Laura's 'anyway' suggests preceding conversation may have involved practical challenges (timezone, language barriers, distance) but she redirects to affirm that these don't diminish her core desire to meet - whatever communication patterns exist allow her to maintain relationship optimism despite obstacles"
     },
     {
-      "pattern": "asking_about_her_educational_goals",
+      "pattern": "creating_environment_where_she_states_clear_living_preferences",
       "engagement_boost": 9.3,
-      "evidence": "Laura provides clear, affirmative response 'Yes I want to go to a school' - indicates topic of education and school attendance engages her and she's comfortable sharing her educational aspirations"
+      "evidence": "Laura independently declares 'I don't want to live with people' - indicates she's comfortable stating clear boundaries and preferences about future living arrangements, showing trust in expressing what she does/doesn't want"
     },
     {
-      "pattern": "creating_space_for_her_to_share_future_plans",
+      "pattern": "establishing_safety_for_contrasting_preferences",
       "engagement_boost": 9.2,
-      "evidence": "Laura independently confirms desire to attend school - relationship dynamic allows her to articulate personal goals and future educational plans without hesitation"
+      "evidence": "Laura uses 'But' to introduce her contrasting preference - suggests previous discussion may have involved living with others/roommates, and she's comfortable directly stating her different preference rather than agreeing to avoid conflict"
     },
     {
-      "pattern": "creating_environment_where_she_uses_anyway_to_redirect",
-      "engagement_boost": 9.5,
-      "evidence": "Laura sends standalone 'Anyway' message - indicates she's comfortable redirecting conversation, refocusing on what matters, or moving past obstacles to core priorities, continuing established pattern of using 'anyway' to reframe discussions positively"
+      "pattern": "creating_environment_where_she_proactively_shares_relationship_progress",
+      "engagement_boost": 9.8,
+      "evidence": "Laura independently shares she's actively watching rental options - indicates relationship dynamic has created enough trust and commitment for her to voluntarily disclose concrete steps she's taking toward their shared future, demonstrating follow-through on previously discussed relocation plans"
     },
     {
-      "pattern": "establishing_comfort_for_conversation_redirection",
-      "engagement_boost": 9.4,
-      "evidence": "Laura uses single word 'Anyway' without elaboration - relationship dynamic allows her to signal topic shift, refocusing, or returning to main point with minimal explanation, trusting partner will follow her conversational lead"
+      "pattern": "establishing_safety_for_sharing_major_life_planning_updates",
+      "engagement_boost": 9.7,
+      "evidence": "Laura uses 'So' to introduce rental search update, suggesting this is natural continuation of ongoing conversation about future plans - shows she's comfortable keeping partner informed about significant life decisions and practical steps toward their relationship goals"
     },
     {
-      "pattern": "allowing_her_to_control_conversation_flow",
-      "engagement_boost": 9.6,
-      "evidence": "Laura's standalone 'Anyway' suggests she's taking initiative to redirect discussion, possibly moving past logistical challenges, tangential topics, or obstacles back to relationship priorities - whatever communication patterns exist empower her to steer conversations toward what she considers important"
-    },
-    {
-      "pattern": "creating_environment_where_she_says_simple_goodbyes",
-      "engagement_boost": 9.2,
-      "evidence": "Laura sends single word 'Bye' as standalone message - indicates she's comfortable with brief, efficient farewells without need for extended goodbye rituals, showing relationship comfort with minimal closure statements"
+      "pattern": "discussing_future_plans_that_inspire_concrete_action",
+      "engagement_boost": 9.9,
+      "evidence": "Laura's rental search directly connects to previously discussed desire to live in same city for 'like a year' - whatever communication patterns exist about their future together have motivated her to move from hypothetical desire to active planning and research, showing the relationship inspires real-world action"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "leaving_her_question_unanswered",
-      "engagement_drop": -2.1,
-      "evidence": "Laura follows up with 'Nothing ?' suggesting partner hasn't responded to her previous question, indicating she's waiting for engagement"
-    },
     {
       "pattern": "leaving_questions_unanswered_creates_follow_up_anxiety",
       "engagement_drop": -2.3,
@@ -3916,6 +3965,11 @@
       "pattern": "misinterpreting_stop_as_absolute_disengagement",
       "engagement_drop": -3.5,
       "evidence": "Laura's single word 'Stop' lacks context - could be frustration about distance (as seen in previous patterns), request for pause, or genuine boundary. Pattern shows she sometimes says 'Stop 🥺' during emotional frustration but continues engaging, so this requires careful reading of context rather than assuming complete disengagement"
+    },
+    {
+      "pattern": "suggesting_shared_living_with_roommates_or_others",
+      "engagement_drop": -2.8,
+      "evidence": "Laura's 'But I don't want to live with people' with the 'But' opening suggests partner may have proposed or mentioned living situation involving roommates/other people - she's clearly stating this doesn't align with her preference, indicating this type of living arrangement would be unwelcome"
     }
   ],
   "ng_topics": [],
