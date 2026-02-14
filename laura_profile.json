@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:11:36.356440+09:00",
+  "last_updated": "2026-02-14T11:11:38.513817+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2973,47 +2973,6 @@
           "goal pursuit"
         ],
         "added": "2026-02-14"
-      },
-      {
-        "text": "strongly prefers not living with strangers (rejects roommate/shared housing with unknown people)",
-        "tags": [
-          "housing preference",
-          "living situation",
-          "roommates",
-          "strangers",
-          "privacy",
-          "personal space",
-          "housing",
-          "living arrangements",
-          "cohabitation",
-          "independence",
-          "autonomy",
-          "domestic preferences",
-          "shared housing",
-          "accommodation",
-          "lifestyle preference"
-        ],
-        "added": "2026-02-14"
-      },
-      {
-        "text": "uses rhetorical questions with laughter to emphasize strong preferences or disagreement",
-        "tags": [
-          "communication style",
-          "rhetorical questions",
-          "emphasis technique",
-          "disagreement expression",
-          "humor",
-          "laughter",
-          "preference communication",
-          "conversational style",
-          "linguistic patterns",
-          "question framing",
-          "emphasis strategy",
-          "communication patterns",
-          "expressing disagreement",
-          "tone"
-        ],
-        "added": "2026-02-14"
       }
     ]
   },
@@ -3048,7 +3007,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "emoji-only response (no text)",
+    "avg_message_length": "short (2-3 words)",
     "emoji_frequency": "high repetition for emphasis (triple emoji usage)",
     "preferred_emojis": [
       "❤️",
@@ -3067,8 +3026,8 @@
       "😈",
       "👹"
     ],
-    "formality_level": "casual and direct",
-    "humor_style": "uses 'lol' casually to soften affirmative statements, showing relaxed and lighthearted tone even with simple agreements",
+    "formality_level": "casual and affectionate",
+    "humor_style": "playful and lighthearted with gentle corrections",
     "response_speed_tendency": "immediate response (continuing established fast-paced engaging conversation pattern)",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -3807,11 +3766,7 @@
     "housing_logistics": 9.5,
     "moving_preparation": 9.7,
     "sharing_practical_progress": 9.8,
-    "demonstrating_commitment_through_action": 9.9,
-    "rejecting_roommate_situations": 9.3,
-    "clarifying_housing_preferences": 9.4,
-    "emphasizing_privacy_needs": 9.2,
-    "living_with_strangers": 2.1
+    "demonstrating_commitment_through_action": 9.9
   },
   "effective_patterns": [
     {
@@ -3900,22 +3855,32 @@
       "evidence": "The 'Of course' suggests partner may have stated something Laura views as clearly true or expected - her addition of 'lol' rather than responding with sarcasm or annoyance shows she finds their shared understanding endearing rather than frustrating, indicating healthy communication dynamic where redundancy doesn't create tension"
     },
     {
-      "pattern": "creating_environment_where_she_uses_humor_to_clarify_strong_boundaries",
+      "pattern": "creating_environment_where_she_playfully_corrects_assumptions",
       "engagement_boost": 9.3,
-      "evidence": "Laura uses rhetorical question 'Why I want to live with people I don't know 😂' with laughter emoji - indicates relationship dynamic allows her to express disagreement or clarify boundaries using humor rather than conflict, showing she's comfortable correcting misunderstandings about her preferences in playful way"
+      "evidence": "Laura responds 'Haha no baby' with laughter + gentle correction - indicates partner made assumption or statement that doesn't apply to her, and she's comfortable correcting it with warmth and humor rather than irritation"
     },
     {
-      "pattern": "establishing_safety_for_emphatic_preference_clarification",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's rhetorical question structure emphasizes the absurdity (to her) of living with strangers - relationship allows her to use exaggeration/rhetorical framing to make her position crystal clear without being harsh or creating tension"
-    },
-    {
-      "pattern": "responding_to_housing_discussions_that_allow_her_to_define_boundaries",
+      "pattern": "establishing_comfort_for_gentle_disagreement",
       "engagement_boost": 9.2,
-      "evidence": "Laura's statement suggests previous discussion may have involved shared housing or roommate scenarios - whatever was said gave her opportunity to clearly articulate what she does NOT want, and she's using humor to soften what is actually a firm boundary about not wanting to live with unknown people"
+      "evidence": "Laura uses 'Haha' before 'no' and adds 'baby' endearment - relationship dynamic allows her to disagree or correct partner while maintaining affection and playfulness, showing healthy communication where corrections don't create tension"
+    },
+    {
+      "pattern": "creating_space_where_being_wrong_is_met_with_humor",
+      "engagement_boost": 9.5,
+      "evidence": "The laughter opening suggests partner said something incorrect or made assumption that doesn't match Laura's reality - her response shows she finds the mistake endearing rather than frustrating, indicating whatever communication patterns exist make it safe for partner to be wrong without negative consequences"
     }
   ],
   "avoid_patterns": [
+    {
+      "pattern": "leaving_questions_unanswered_creates_follow_up_anxiety",
+      "engagement_drop": -2.3,
+      "evidence": "Laura sent multiple messages ('Hahaha', 'Shit', 'Nothing ?', 'I mean you really dont understand anything ?') before receiving response - delay in answering her comprehension question created visible impatience/concern"
+    },
+    {
+      "pattern": "not_responding_promptly_to_clarifying_questions",
+      "engagement_drop": -2.5,
+      "evidence": "Laura's 'Nothing ?' indicates she was waiting for response to her practical question about partner's Japanese comprehension - when she asks logistics questions, she expects timely answers to plan accordingly"
+    },
     {
       "pattern": "assuming_male_arousal_physiology_applies_to_female_partner",
       "engagement_drop": -1.5,
@@ -4005,25 +3970,9 @@
       "pattern": "suggesting_shared_living_with_roommates_or_others",
       "engagement_drop": -2.8,
       "evidence": "Laura's 'But I don't want to live with people' with the 'But' opening suggests partner may have proposed or mentioned living situation involving roommates/other people - she's clearly stating this doesn't align with her preference, indicating this type of living arrangement would be unwelcome"
-    },
-    {
-      "pattern": "suggesting_living_arrangements_with_unknown_roommates",
-      "engagement_drop": -3.2,
-      "evidence": "Laura's emphatic rhetorical question 'Why I want to live with people I don't know 😂' indicates this suggestion goes against her core preferences - while she uses humor, the rhetorical structure shows she finds the idea genuinely unappealing and is correcting what may have been a misunderstanding about what she'd be comfortable with"
-    },
-    {
-      "pattern": "assuming_she_would_accept_shared_housing_with_strangers",
-      "engagement_drop": -2.9,
-      "evidence": "The need to clarify 'Why I want to...' suggests partner may have proposed or assumed she'd be open to living with people she doesn't know - this assumption required immediate correction, showing it doesn't align with her vision for living situation"
     }
   ],
-  "ng_topics": [
-    {
-      "topic": "living with strangers/unknown roommates",
-      "reason": "used emphatic rhetorical question with laughter to express clear opposition to this idea",
-      "confidence": 0.95
-    }
-  ],
+  "ng_topics": [],
   "temporal_patterns": {
     "most_active_day": null,
     "most_active_hour": null,
