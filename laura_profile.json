@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:05:56.963569+09:00",
+  "last_updated": "2026-02-14T10:08:33.821921+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2695,8 +2695,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "sol (French autocorrect for 'so')",
-      "thé (French autocorrect for 'the')",
       "Just words (skeptical framing)",
       "Just words",
       "Why hahaha (questioning with laughter)",
@@ -2724,7 +2722,9 @@
       "Why? (standalone questioning)",
       "dildo (explicit sexual term)",
       "😬 (grimacing emoji as standalone response)",
-      "I'm in bed"
+      "I'm in bed",
+      "Can I ask you something?",
+      "Bye"
     ]
   },
   "topic_engagement": {
@@ -3348,21 +3348,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "sharing_daily_sexual_desire_statements",
-      "engagement_boost": 9.5,
-      "evidence": "Laura's standalone 'Always' confirms partner's statement about being horny all the time - the direct, affirmative response suggests she finds this transparent sexual honesty validating or appealing"
-    },
-    {
-      "pattern": "being_transparent_about_constant_arousal",
-      "engagement_boost": 9.4,
-      "evidence": "The context suggests partner shared they're 'always like this' (horny) and Laura affirmed with 'Always' - her simple confirmation without judgment or surprise indicates she appreciates or accepts this level of sexual transparency"
-    },
-    {
-      "pattern": "matching_her_sexual_transparency_with_equal_openness",
-      "engagement_boost": 9.6,
-      "evidence": "Given Laura previously described herself as 'horny all the time', her 'Always' response to partner's similar admission suggests reciprocal sexual openness creates engagement - mutual vulnerability about high libido appears to resonate with her"
-    },
-    {
       "pattern": "creating_environment_where_she_uses_shy_emoji_as_standalone_response",
       "engagement_boost": 9.4,
       "evidence": "Laura responds with single 🫣 emoji - whatever preceded this evoked shy/bashful/vulnerable reaction she chose to express purely through emoji without words, continuing pattern of non-verbal intimate communication"
@@ -3446,6 +3431,21 @@
       "pattern": "being_transparent_about_work_schedule",
       "engagement_boost": 9.3,
       "evidence": "Laura's message indicates she knows partner is going to/at work - sharing schedules and being aware of each other's daily obligations creates connection where she can offer timely support"
+    },
+    {
+      "pattern": "creating_environment_where_she_initiates_questions",
+      "engagement_boost": 9.4,
+      "evidence": "Laura independently asks 'Can I ask you something?' - whatever relationship safety and openness has been established made her comfortable initiating a question that requires permission-seeking preface, indicating she has something meaningful or potentially vulnerable to ask"
+    },
+    {
+      "pattern": "establishing_safety_for_vulnerable_inquiries",
+      "engagement_boost": 9.5,
+      "evidence": "The permission-seeking format 'Can I ask you something?' suggests the question she wants to ask may be sensitive, personal, or important enough that she's checking if partner is open to it - relationship dynamic allows her to signal she has something meaningful to discuss"
+    },
+    {
+      "pattern": "creating_space_for_her_to_take_conversational_initiative",
+      "engagement_boost": 9.3,
+      "evidence": "Laura proactively starts new conversational thread with question preface rather than waiting to be asked - whatever engagement pattern exists made her feel comfortable being the one to introduce new topic or inquiry"
     }
   ],
   "avoid_patterns": [
