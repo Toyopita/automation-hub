@@ -19913,6 +19913,48 @@
         "future": -2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:52:20.035745+09:00",
+      "summary": "Hahaa like a dildo? 😳",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 8,
+        "ds": 4,
+        "playfulness": 9,
+        "future": 1,
+        "engagement": 9
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な話題だが、驚きと好奇心を含んだ軽いトーンでの質問。冗談っぽさもある。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 5,
+        "ds": 0,
+        "playfulness": 5,
+        "future": -2,
+        "engagement": 3
+      }
     }
   ]
 }
