@@ -23354,6 +23354,135 @@
         "future": -1,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:38:24.958927+09:00",
+      "summary": "I do get attached when I like someone ",
+      "scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 8,
+        "attachment_bid": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼の「執着しない」発言に対する防衛的な自己開示。距離感の違いによる不安が表れている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 3,
+        "eros": 1,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 2,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 4,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 0,
+        "future": 3,
+        "engagement": 1,
+        "attachment_bid": 4
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:38:28.165849+09:00",
+      "summary": "But that’s me ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "自己主張しつつも、彼との違いを受け入れようとしている。少し寂しさと諦めのニュアンスあり。愛着スタイルの違いについて話している文脈",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 8,
+        "attachment_bid": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -2,
+        "engagement": -2
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:38:30.021203+09:00",
+      "summary": "Anyway ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 2
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "会話を打ち切ろうとする冷めたトーン。前のメッセージで感情的な不満を表明した後の諦めの言葉",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 3,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -2,
+        "intimacy": -4,
+        "longing": -4,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": -1,
+        "future": -1,
+        "engagement": -4
+      }
     }
   ]
 }
