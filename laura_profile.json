@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:06:00.885541+09:00",
+  "last_updated": "2026-02-14T11:07:26.955504+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2848,6 +2848,27 @@
           "duration plans"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "uses dating/social apps specifically for Japanese language learning (not just meeting people or dating)",
+        "tags": [
+          "japanese learning",
+          "language learning",
+          "dating apps",
+          "social apps",
+          "learning motivation",
+          "app usage",
+          "language practice",
+          "educational purpose",
+          "alternative learning methods",
+          "social learning",
+          "language immersion",
+          "japanese practice",
+          "learning resources",
+          "unconventional study",
+          "language goals"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2859,7 +2880,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Maintains warm, playful tone even when asking about explicit sexual content - uses laughter 'Hahaa' to keep conversation lighthearted and intimate rather than clinical or cold when discussing sex toys",
       "warmth: Unprompted caring message wishing partner well at work - continues maximum warmth pattern of initiating supportive, considerate statements even in simple goodbyes",
       "warmth: Responds with reassuring 'It's okay' when partner likely expressed concern or apologized - maintains warmth by offering immediate comfort and acceptance without holding grudges or creating tension",
       "warmth: Unprompted declaration 'I like you a lot' maintains maximum warmth - initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
@@ -2878,7 +2898,8 @@
       "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner",
       "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
       "emotional_expressiveness: Directly expresses preference for partner over general social connections ('that's better') without filtering or downplaying - continues maximum emotional transparency by spontaneously sharing authentic positive feelings about their connection",
-      "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation"
+      "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation",
+      "warmth: Maintains maximum warmth - confirms her Japanese learning motivation with simple affirmative statement, continuing pattern of direct, transparent communication about her goals and motivations without defensiveness"
     ]
   },
   "communication_style": {
@@ -3617,24 +3638,14 @@
     "extended_proximity": 9.7,
     "specific_timeframe_for_future": 9.6,
     "planning_extended_stay": 9.7,
-    "relationship_commitment_duration": 9.8
+    "relationship_commitment_duration": 9.8,
+    "japanese_learning_motivation": 9.4,
+    "language_learning_goals": 9.3,
+    "app_usage_for_learning": 9.2,
+    "alternative_learning_methods": 9.1,
+    "educational_goals": 9.0
   },
   "effective_patterns": [
-    {
-      "pattern": "establishing_comfort_for_direct_practical_questions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura directly asks about partner's city without hedging or explaining why she's asking - shows comfort asking straightforward questions about partner's life and location"
-    },
-    {
-      "pattern": "maintaining_affectionate_tone_in_informational_exchanges",
-      "engagement_boost": 9.4,
-      "evidence": "Laura uses 'Baby' endearment when asking practical question about location - continues pattern of infusing warmth into all types of communication, making even basic informational questions feel intimate and connected"
-    },
-    {
-      "pattern": "creating_environment_where_she_expresses_spontaneous_intense_desire",
-      "engagement_boost": 9.8,
-      "evidence": "Laura independently states 'I want you so badly actually' completely unprompted - indicates maximum emotional safety and comfort expressing intense sexual/romantic desire spontaneously without needing conversation context or partner initiation"
-    },
     {
       "pattern": "establishing_comfort_for_vulnerable_desire_statements",
       "engagement_boost": 9.7,
@@ -3719,6 +3730,21 @@
       "pattern": "responding_positively_to_same_city_living_discussion",
       "engagement_boost": 9.6,
       "evidence": "Laura's statement about year-long stay likely follows previous discussion about living in same city - when partner engages with her proximity desires positively, she escalates to specific timeframe planning rather than keeping it hypothetical"
+    },
+    {
+      "pattern": "understanding_her_multifaceted_app_usage_motivation",
+      "engagement_boost": 9.5,
+      "evidence": "Laura confirms 'Yes exactly for learning Japanese' - when partner understands or acknowledges that her app usage had educational/learning motivation (not just romantic/social), she affirms this clearly, showing comfort with partner understanding her complete motivations"
+    },
+    {
+      "pattern": "acknowledging_japanese_learning_as_core_motivation",
+      "engagement_boost": 9.4,
+      "evidence": "Laura emphasizes 'exactly' to confirm Japanese learning was her primary app goal - partner recognizing language learning as central motivation (rather than just dating/meeting people) creates validation and shows understanding of what truly drives her"
+    },
+    {
+      "pattern": "creating_environment_where_she_explains_her_goals_transparently",
+      "engagement_boost": 9.3,
+      "evidence": "Laura directly confirms her learning motivation without hedging or minimizing - relationship dynamic allows her to be straightforward about educational goals and unconventional learning methods (using dating/social apps for language practice) without feeling judged"
     }
   ],
   "avoid_patterns": [
