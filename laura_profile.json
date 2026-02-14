@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:54:51.421396+09:00",
+  "last_updated": "2026-02-14T11:55:07.832531+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3282,6 +3282,27 @@
           "living arrangements"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "masturbates frequently throughout the day (reports 'a lot of' masturbation in single day)",
+        "tags": [
+          "masturbation frequency",
+          "sexual activity",
+          "high frequency",
+          "multiple times daily",
+          "self-pleasure",
+          "sexual behavior",
+          "daily sexual activity",
+          "frequent masturbation",
+          "sexuality",
+          "sexual habits",
+          "arousal management",
+          "sexual routine",
+          "physical intimacy",
+          "sexual openness",
+          "high libido confirmation"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3293,8 +3314,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Opens location question with affectionate 'Baby' term rather than asking directly - continues pattern of infusing warmth into all communication types including practical questions",
-      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares intense desire state ('I want you so badly actually') without filtering or downplaying, maintaining pattern of expressing authentic sexual/romantic feelings spontaneously",
       "confidence: Maintains maximum confidence - initiates vulnerable desire statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered communication about intense sexual/romantic needs without hesitation",
       "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner",
       "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
@@ -3312,7 +3331,9 @@
       "emotional_expressiveness: Maintains maximum emotional transparency - directly expresses vulnerable anxiety about partner's level of care regarding major life decision (city choice for year-long relocation), showing continued pattern of unfiltered emotional communication even when distressed",
       "confidence: Maintains maximum confidence - directly confronts perceived lack of care without hedging or apologizing ('you don't care you don't care'), demonstrating ongoing pattern of stating concerns and emotional needs directly even in vulnerable moments",
       "confidence: Maintains maximum confidence - directly dismisses or releases partner from obligation to believe her with 'believe what you want' statement, demonstrating ongoing pattern of owning her position and not needing partner validation or agreement to maintain her stance",
-      "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering"
+      "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering",
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly discloses high frequency masturbation ('A lot of') without filtering or downplaying, maintaining pattern of expressing authentic sexual behavior and activity levels spontaneously in response to partner's question about her day",
+      "confidence: Maintains maximum confidence - directly answers question about masturbation frequency with candid 'A lot of' without hedging, apologizing, or showing embarrassment, demonstrating ongoing pattern of unfiltered sexual communication even about potentially vulnerable topics like self-pleasure frequency"
     ]
   },
   "communication_style": {
@@ -3343,6 +3364,7 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
       "🤤 (used in repetition for emphasis)",
@@ -3371,8 +3393,7 @@
       "What did you delete?",
       "Actually",
       "helly",
-      "Babe I was asking you",
-      "By the way"
+      "Babe I was asking you"
     ]
   },
   "topic_engagement": {
@@ -4150,24 +4171,13 @@
     "accepting_partner_skepticism": 9.2,
     "ending_disagreement_gracefully": 9.3,
     "dismissive_release_statements": 9.1,
-    "autonomy_in_partner_beliefs": 9.0
+    "autonomy_in_partner_beliefs": 9.0,
+    "daily_sexual_activity_updates": 9.6,
+    "sexual_transparency": 9.8,
+    "self_pleasure_frequency": 9.7,
+    "answering_sexual_questions_directly": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_shares_attachment_patterns",
-      "engagement_boost": 9.8,
-      "evidence": "Laura independently discloses 'I do get attached when I like someone' - indicates relationship dynamic has created enough safety for her to share vulnerable information about how she bonds and connects emotionally, showing she trusts partner with knowledge about her attachment tendencies which could be used to hurt her"
-    },
-    {
-      "pattern": "establishing_comfort_for_admitting_emotional_investment",
-      "engagement_boost": 9.7,
-      "evidence": "Laura uses emphatic 'do' ('I do get attached') to validate and own her attachment pattern rather than downplaying or apologizing for it - shows she's comfortable stating she gets emotionally invested when she likes someone, indicating relationship allows her to be authentically emotionally expressive without fear of being seen as 'too much'"
-    },
-    {
-      "pattern": "creating_space_where_she_explains_her_emotional_patterns",
-      "engagement_boost": 9.6,
-      "evidence": "Laura shares self-knowledge about conditional attachment ('when I like someone') - whatever communication patterns exist allow her to explain the contexts and conditions under which she bonds deeply, showing she can share nuanced understanding of her own emotional behavior and trusts partner to understand her attachment isn't indiscriminate but specific to genuine liking"
-    },
     {
       "pattern": "creating_space_for_conditional_relationship_concerns",
       "engagement_boost": 9.4,
@@ -4252,6 +4262,21 @@
       "pattern": "allowing_her_to_restate_conversational_priorities",
       "engagement_boost": 9.2,
       "evidence": "The 'I was asking you' emphasis indicates Laura is bringing conversation back to her question that may have been bypassed or unanswered - relationship dynamic allows her to redirect conversational flow to her priorities without being dismissive of partner's contributions"
+    },
+    {
+      "pattern": "asking_direct_questions_about_her_sexual_activity",
+      "engagement_boost": 9.7,
+      "evidence": "Laura responds directly and candidly with 'A lot of' when asked about masturbation - shows she's comfortable answering explicit questions about her sexual behavior and frequency without evasion or discomfort"
+    },
+    {
+      "pattern": "creating_space_for_candid_sexual_disclosure",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's brief but direct 'A lot of' answer indicates relationship has established enough comfort for her to share potentially vulnerable information about high masturbation frequency without elaboration or justification - she trusts simple candid answer is acceptable"
+    },
+    {
+      "pattern": "normalizing_discussion_of_self_pleasure",
+      "engagement_boost": 9.5,
+      "evidence": "Laura treats masturbation frequency question as normal conversation topic worthy of straightforward answer rather than topic requiring deflection or embarrassment - whatever communication patterns exist have normalized explicit sexual topics including solo sexual activity"
     }
   ],
   "avoid_patterns": [
