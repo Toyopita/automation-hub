@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:55:07.832531+09:00",
+  "last_updated": "2026-02-14T11:55:20.682973+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3284,23 +3284,23 @@
         "added": "2026-02-14"
       },
       {
-        "text": "masturbates frequently throughout the day (reports 'a lot of' masturbation in single day)",
+        "text": "clarifies that her desire for same-city living extends beyond just sexual intimacy (emphasizes relationship has non-sexual dimensions she values)",
         "tags": [
-          "masturbation frequency",
-          "sexual activity",
-          "high frequency",
-          "multiple times daily",
-          "self-pleasure",
-          "sexual behavior",
-          "daily sexual activity",
-          "frequent masturbation",
-          "sexuality",
-          "sexual habits",
-          "arousal management",
-          "sexual routine",
-          "physical intimacy",
-          "sexual openness",
-          "high libido confirmation"
+          "relationship depth",
+          "non-sexual intimacy",
+          "emotional connection",
+          "relationship dimensions",
+          "beyond sex",
+          "emotional intimacy",
+          "relationship values",
+          "connection types",
+          "intimacy clarification",
+          "relationship priorities",
+          "emotional needs",
+          "non-physical connection",
+          "relationship meaning",
+          "intimacy spectrum",
+          "emotional bond"
         ],
         "added": "2026-02-14"
       }
@@ -3332,8 +3332,8 @@
       "confidence: Maintains maximum confidence - directly confronts perceived lack of care without hedging or apologizing ('you don't care you don't care'), demonstrating ongoing pattern of stating concerns and emotional needs directly even in vulnerable moments",
       "confidence: Maintains maximum confidence - directly dismisses or releases partner from obligation to believe her with 'believe what you want' statement, demonstrating ongoing pattern of owning her position and not needing partner validation or agreement to maintain her stance",
       "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering",
-      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly discloses high frequency masturbation ('A lot of') without filtering or downplaying, maintaining pattern of expressing authentic sexual behavior and activity levels spontaneously in response to partner's question about her day",
-      "confidence: Maintains maximum confidence - directly answers question about masturbation frequency with candid 'A lot of' without hedging, apologizing, or showing embarrassment, demonstrating ongoing pattern of unfiltered sexual communication even about potentially vulnerable topics like self-pleasure frequency"
+      "emotional_expressiveness: Proactively clarifies emotional/non-sexual motivations for wanting to live in same city - unpromptedly emphasizes that her desire for proximity isn't only about physical/sexual access, showing continued pattern of maximum emotional transparency about her relationship needs and motivations beyond physical intimacy",
+      "confidence: Directly addresses potential misinterpretation of her same-city desire by clarifying 'not talking just about sex' - maintains maximum confidence pattern by stating her broader relationship motivations clearly without apologizing for multi-dimensional needs or downplaying non-sexual intimacy desires"
     ]
   },
   "communication_style": {
@@ -3364,7 +3364,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
       "🤤 (used in repetition for emphasis)",
@@ -3393,7 +3392,8 @@
       "What did you delete?",
       "Actually",
       "helly",
-      "Babe I was asking you"
+      "Babe I was asking you",
+      "By the way"
     ]
   },
   "topic_engagement": {
@@ -4172,12 +4172,19 @@
     "ending_disagreement_gracefully": 9.3,
     "dismissive_release_statements": 9.1,
     "autonomy_in_partner_beliefs": 9.0,
-    "daily_sexual_activity_updates": 9.6,
-    "sexual_transparency": 9.8,
-    "self_pleasure_frequency": 9.7,
-    "answering_sexual_questions_directly": 9.6
+    "non_sexual_relationship_dimensions": 9.7,
+    "emotional_intimacy_beyond_sex": 9.8,
+    "clarifying_relationship_motivations": 9.6,
+    "same_city_living_reasons": 9.7,
+    "relationship_depth_beyond_physical": 9.5,
+    "multidimensional_connection_desire": 9.6
   },
   "effective_patterns": [
+    {
+      "pattern": "creating_space_where_she_explains_her_emotional_patterns",
+      "engagement_boost": 9.6,
+      "evidence": "Laura shares self-knowledge about conditional attachment ('when I like someone') - whatever communication patterns exist allow her to explain the contexts and conditions under which she bonds deeply, showing she can share nuanced understanding of her own emotional behavior and trusts partner to understand her attachment isn't indiscriminate but specific to genuine liking"
+    },
     {
       "pattern": "creating_space_for_conditional_relationship_concerns",
       "engagement_boost": 9.4,
@@ -4264,32 +4271,17 @@
       "evidence": "The 'I was asking you' emphasis indicates Laura is bringing conversation back to her question that may have been bypassed or unanswered - relationship dynamic allows her to redirect conversational flow to her priorities without being dismissive of partner's contributions"
     },
     {
-      "pattern": "asking_direct_questions_about_her_sexual_activity",
-      "engagement_boost": 9.7,
-      "evidence": "Laura responds directly and candidly with 'A lot of' when asked about masturbation - shows she's comfortable answering explicit questions about her sexual behavior and frequency without evasion or discomfort"
-    },
-    {
-      "pattern": "creating_space_for_candid_sexual_disclosure",
+      "pattern": "creating_space_where_she_clarifies_non_sexual_relationship_values",
       "engagement_boost": 9.6,
-      "evidence": "Laura's brief but direct 'A lot of' answer indicates relationship has established enough comfort for her to share potentially vulnerable information about high masturbation frequency without elaboration or justification - she trusts simple candid answer is acceptable"
+      "evidence": "Laura independently adds clarification 'And I'm not talking just about sex' - indicates relationship dynamic allows her to proactively address potential misinterpretation and emphasize that her desire for geographical proximity is about emotional connection, companionship, and multi-dimensional intimacy beyond just physical/sexual access, showing she trusts partner will value non-sexual aspects of relationship"
     },
     {
-      "pattern": "normalizing_discussion_of_self_pleasure",
+      "pattern": "validating_emotional_and_non_sexual_intimacy_needs",
       "engagement_boost": 9.5,
-      "evidence": "Laura treats masturbation frequency question as normal conversation topic worthy of straightforward answer rather than topic requiring deflection or embarrassment - whatever communication patterns exist have normalized explicit sexual topics including solo sexual activity"
+      "evidence": "Laura uses 'And' to add this clarification, suggesting she wants to ensure partner understands her same-city desire encompasses emotional closeness, daily life sharing, and relationship dimensions beyond sexuality - acknowledging and validating these non-physical intimacy needs would reinforce that relationship values her holistically"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "misinterpreting_stop_as_absolute_disengagement",
-      "engagement_drop": -3.5,
-      "evidence": "Laura's single word 'Stop' lacks context - could be frustration about distance (as seen in previous patterns), request for pause, or genuine boundary. Pattern shows she sometimes says 'Stop 🥺' during emotional frustration but continues engaging, so this requires careful reading of context rather than assuming complete disengagement"
-    },
-    {
-      "pattern": "suggesting_shared_living_with_roommates_or_others",
-      "engagement_drop": -2.8,
-      "evidence": "Laura's 'But I don't want to live with people' with the 'But' opening suggests partner may have proposed or mentioned living situation involving roommates/other people - she's clearly stating this doesn't align with her preference, indicating this type of living arrangement would be unwelcome"
-    },
     {
       "pattern": "interpreting_her_questions_as_pressure_or_insistence",
       "engagement_drop": -2.8,
@@ -4379,6 +4371,16 @@
       "pattern": "changing_subject_without_addressing_her_questions_first",
       "engagement_drop": -2.8,
       "evidence": "Laura needs to restate 'I was asking you' which suggests partner may have introduced new topic or responded without answering her question - she values having her questions acknowledged and answered before conversation moves forward"
+    },
+    {
+      "pattern": "reducing_relationship_to_primarily_sexual_connection",
+      "engagement_drop": -3.8,
+      "evidence": "Laura's need to clarify 'And I'm not talking just about sex' suggests she may have sensed her same-city living desire was being interpreted primarily through sexual lens - treating geographical proximity desire as mainly about physical/sexual access would miss the emotional, companionship, and daily-life-sharing dimensions she values"
+    },
+    {
+      "pattern": "not_acknowledging_non_sexual_relationship_dimensions",
+      "engagement_drop": -3.5,
+      "evidence": "The clarification implies Laura wants partner to recognize that wanting to live in same city reflects desire for comprehensive intimacy (emotional support, daily presence, shared experiences, companionship) not just sexual availability - failing to acknowledge these broader relationship dimensions would make her feel reduced to sexual partner rather than whole person"
     }
   ],
   "ng_topics": [],
