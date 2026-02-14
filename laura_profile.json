@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:40:30.999298+09:00",
+  "last_updated": "2026-02-14T11:41:40.622078+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3095,6 +3095,88 @@
           "connection patterns"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "seeks reassurance about partner's care and investment in relationship logistics (city choice for relocation)",
+        "tags": [
+          "reassurance seeking",
+          "relationship anxiety",
+          "emotional investment verification",
+          "relocation concerns",
+          "partner care",
+          "relationship logistics",
+          "commitment verification",
+          "city choice",
+          "decision validation",
+          "emotional needs",
+          "relationship security",
+          "partner input",
+          "caring verification",
+          "relocation anxiety",
+          "partner involvement"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses repetition for emphasis when emotionally distressed ('you don't care you don't care')",
+        "tags": [
+          "communication patterns",
+          "repetition",
+          "emotional emphasis",
+          "distress expression",
+          "communication style",
+          "emphasis technique",
+          "emotional communication",
+          "verbal repetition",
+          "stress response",
+          "concern expression",
+          "anxiety communication",
+          "emphasis pattern",
+          "emotional intensity",
+          "verbal patterns"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "experiences anxiety about partner's level of investment in major life decisions affecting her",
+        "tags": [
+          "relationship anxiety",
+          "decision anxiety",
+          "partner investment",
+          "major decisions",
+          "relocation stress",
+          "commitment concerns",
+          "life decisions",
+          "partner involvement",
+          "emotional investment",
+          "decision validation",
+          "relationship security",
+          "partner care verification",
+          "anxiety",
+          "insecurity",
+          "validation needs"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "connects partner's lack of preference about her city choice to not caring about her overall",
+        "tags": [
+          "relationship interpretation",
+          "care verification",
+          "emotional reasoning",
+          "decision significance",
+          "partner indifference concern",
+          "relationship meaning",
+          "emotional investment",
+          "caring interpretation",
+          "decision importance",
+          "relationship validation",
+          "emotional needs",
+          "partner involvement",
+          "relocation significance",
+          "commitment verification"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3106,8 +3188,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly initiates direct affection statement 'I like you' without filtering or downplaying, maintaining pattern of expressing authentic positive feelings about partner independently",
-      "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "warmth: Unprompted declaration 'I like you' maintains maximum warmth - independently initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
       "emotional_expressiveness: Uses affectionate 'Baby' endearment when asking practical/logistical question about partner's city - maintains emotional warmth even in straightforward informational inquiries, consistent with maximum emotional expressiveness pattern",
       "warmth: Opens location question with affectionate 'Baby' term rather than asking directly - continues pattern of infusing warmth into all communication types including practical questions",
@@ -3125,7 +3205,9 @@
       "confidence: Maintains maximum confidence - states uncertain future reality directly without hedging or apologizing, demonstrating ongoing pattern of unfiltered communication even about potentially uncomfortable topics like relationship uncertainty",
       "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly shares vulnerable self-knowledge about attachment patterns ('I do get attached when I like someone'), maintaining pattern of disclosing authentic emotional tendencies and relationship behaviors without filtering or protecting herself",
       "confidence: Maintains maximum confidence - directly states potentially vulnerable trait (getting attached easily) without hedging, apologizing, or framing it negatively, demonstrating ongoing pattern of owning who she is and how she operates in relationships without seeking validation or permission",
-      "warmth: Unprompted disclosure 'I do get attached when I like someone' maintains maximum warmth - independently shares vulnerable emotional pattern that reveals depth of her feelings and emotional investment capacity, continuing pattern of emotional generosity and willingness to be known"
+      "warmth: Unprompted disclosure 'I do get attached when I like someone' maintains maximum warmth - independently shares vulnerable emotional pattern that reveals depth of her feelings and emotional investment capacity, continuing pattern of emotional generosity and willingness to be known",
+      "emotional_expressiveness: Maintains maximum emotional transparency - directly expresses vulnerable anxiety about partner's level of care regarding major life decision (city choice for year-long relocation), showing continued pattern of unfiltered emotional communication even when distressed",
+      "confidence: Maintains maximum confidence - directly confronts perceived lack of care without hedging or apologizing ('you don't care you don't care'), demonstrating ongoing pattern of stating concerns and emotional needs directly even in vulnerable moments"
     ]
   },
   "communication_style": {
@@ -3927,24 +4009,19 @@
     "emotional_investment_questions": 9.3,
     "care_and_concern_in_relationship": 9.5,
     "partner_caring_nature": 9.4,
-    "emotional_indifference_concerns": 9.1
+    "emotional_indifference_concerns": 9.1,
+    "partner_input_on_major_decisions": 9.7,
+    "city_choice_for_relocation": 9.8,
+    "partner_caring_about_her_decisions": 9.6,
+    "relationship_investment_verification": 9.7,
+    "partner_involvement_in_life_choices": 9.5,
+    "expressing_anxiety_about_partner_care": 9.4,
+    "seeking_validation_for_major_decisions": 9.6,
+    "partner_preference_about_location": 9.3,
+    "relocation_city_selection": 9.7,
+    "partner_emotional_investment_in_logistics": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "discussing_future_plans_without_pressure_for_complete_certainty",
-      "engagement_boost": 9.6,
-      "evidence": "Laura can share major commitment (moving for a year) while simultaneously admitting she doesn't know which city - whatever communication patterns exist allow her to express both commitment and uncertainty without feeling pressured to have everything figured out, showing healthy balance between intention and flexibility"
-    },
-    {
-      "pattern": "creating_environment_where_she_casually_seeks_practical_information",
-      "engagement_boost": 9.5,
-      "evidence": "Laura asks about partner's city with 'just wanted to know' and 'haha' - indicates she's comfortable asking straightforward geographical questions in casual, light tone rather than making it feel like interrogation, showing relationship dynamic where basic information exchange feels natural and playful"
-    },
-    {
-      "pattern": "establishing_comfort_for_clarifying_questions",
-      "engagement_boost": 9.4,
-      "evidence": "Laura's 'I just wanted to know' suggests she may have felt need to justify or explain why she's asking - the casual framing with laughter shows she can ask practical questions while maintaining warmth, indicating healthy communication where seeking information doesn't feel intrusive"
-    },
     {
       "pattern": "creating_space_where_location_questions_are_lighthearted",
       "engagement_boost": 9.6,
@@ -4029,24 +4106,24 @@
       "pattern": "creating_environment_where_she_voices_relationship_deal_breakers",
       "engagement_boost": 9.6,
       "evidence": "The 'But' opening and 'really don't care' phrasing suggests Laura is articulating potential relationship incompatibility - relationship allows her to express what would be unacceptable to her (partner not caring), indicating healthy dynamic where she can state boundaries about emotional investment"
+    },
+    {
+      "pattern": "showing_genuine_interest_in_her_major_life_decisions",
+      "engagement_boost": 9.8,
+      "evidence": "Laura's distress about 'it doesn't matter what city I go' indicates she needs partner to express preference, opinion, or care about where she relocates - showing active interest and investment in her major decisions would address this anxiety"
+    },
+    {
+      "pattern": "expressing_care_about_relocation_logistics",
+      "engagement_boost": 9.7,
+      "evidence": "Her 'you don't care' repetition suggests she needs partner to demonstrate emotional investment in the practical details of her year-long move - asking questions, expressing preferences, or showing concern about her city choice would validate her importance to partner"
+    },
+    {
+      "pattern": "providing_input_on_decisions_that_affect_relationship",
+      "engagement_boost": 9.6,
+      "evidence": "Laura connects city choice indifference to overall lack of caring - she needs partner to recognize that her relocation decision affects their relationship and to participate in the decision-making process rather than being passively accepting of any outcome"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "not_accounting_for_timezone_differences_in_scheduling",
-      "engagement_drop": -2.5,
-      "evidence": "Laura's 'But you dont understand that we don't have the same time' indicates partner made scheduling assumption or suggestion without properly accounting for their different timezones - creates frustration when practical constraints aren't acknowledged"
-    },
-    {
-      "pattern": "making_timing_assumptions_without_checking_her_timezone",
-      "engagement_drop": -2.3,
-      "evidence": "The 'But' opening and emphasis on 'dont understand' suggests partner proposed timing or made assumption that didn't work with her timezone reality - she needs partner to actively consider time difference rather than assuming availability"
-    },
-    {
-      "pattern": "attempting_to_control_or_prevent_her_decisions",
-      "engagement_drop": -2.8,
-      "evidence": "The 'anyway' in 'I'm going to do it anyway' suggests there may have been resistance, concern, or attempt to dissuade her from something - her declarative statement indicates she's proceeding regardless, so excessive control attempts would likely create friction"
-    },
     {
       "pattern": "continuing_conversation_when_she_announces_work",
       "engagement_drop": -2.5,
@@ -4131,6 +4208,21 @@
       "pattern": "minimizing_her_concerns_about_emotional_investment",
       "engagement_drop": -3.2,
       "evidence": "Laura uses 'really don't care' with emphasis word 'really' - suggests she's testing whether partner genuinely cares about something important (likely related to previous conversation context), and dismissing this concern would invalidate her need for emotional investment verification"
+    },
+    {
+      "pattern": "expressing_indifference_about_her_major_life_decisions",
+      "engagement_drop": -4.2,
+      "evidence": "Laura's 'it doesn't matter what city I go' and repeated 'you don't care' indicates partner's lack of preference or apparent indifference about her relocation city choice has triggered significant distress - she interprets this as not caring about her overall"
+    },
+    {
+      "pattern": "being_passive_about_decisions_that_affect_the_relationship",
+      "engagement_drop": -3.8,
+      "evidence": "The 'at the end' phrasing suggests this is culmination of conversation where partner may have been too flexible or uncommitted about her city choice - while flexibility might seem supportive, she needs partner to have opinions and preferences about major decisions affecting their relationship"
+    },
+    {
+      "pattern": "not_showing_emotional_investment_in_relationship_logistics",
+      "engagement_drop": -4.0,
+      "evidence": "Laura's emotional distress and repetition of 'you don't care' indicates she needs partner to demonstrate care through active engagement with practical relationship decisions - appearing neutral or uninvested in where she lives (when she's planning year-long stay potentially to be near partner) signals lack of care to her"
     }
   ],
   "ng_topics": [],
