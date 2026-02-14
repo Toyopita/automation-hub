@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:51:59.281064+09:00",
+  "last_updated": "2026-02-14T09:52:37.067191+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2604,7 +2604,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single sentence",
+    "avg_message_length": "minimal (single word affirmative)",
     "emoji_frequency": "multiple emojis for emphasis (triple repetition)",
     "preferred_emojis": [
       "🥹",
@@ -2623,7 +2623,7 @@
       "😍",
       "🤣"
     ],
-    "formality_level": "casual with polite acceptance",
+    "formality_level": "casual and direct",
     "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone",
     "response_speed_tendency": "patient when partner has timing constraints",
     "response_time_avg_minutes": null,
@@ -3270,16 +3270,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_connection_that_triggers_spontaneous_thoughts",
-      "engagement_boost": 9.7,
-      "evidence": "The unprompted nature of message indicates she was thinking about partner independently during her day - whatever emotional/sexual connection exists is strong enough that partner enters her thoughts spontaneously and triggers physical response"
-    },
-    {
-      "pattern": "establishing_safety_for_unprompted_sexual_disclosures",
-      "engagement_boost": 9.9,
-      "evidence": "Laura feels comfortable sharing vulnerable admission that mere thoughts of partner arouse her, without being asked or without sexual conversation already in progress - indicates high level of sexual communication safety and comfort built over time"
-    },
-    {
       "pattern": "creating_intimate_experiences_worth_reflecting_positively_on",
       "engagement_boost": 9.8,
       "evidence": "Laura unpromptedly initiates enthusiastic positive feedback about 'what we did today' with triple love and fire emojis - whatever intimate video call experience occurred left strong positive impression that she felt compelled to immediately validate and appreciate"
@@ -3368,6 +3358,16 @@
       "pattern": "creating_safety_for_her_to_express_understanding_without_pressure",
       "engagement_boost": 9.2,
       "evidence": "Laura's patient response with smile emoji indicates she feels comfortable being understanding - whatever relationship dynamic exists made her feel safe expressing acceptance rather than feeling need to pressure or express frustration"
+    },
+    {
+      "pattern": "asking_clear_yes_no_questions_for_immediate_action",
+      "engagement_boost": 9.2,
+      "evidence": "Laura's simple 'Yes' indicates partner asked clear, actionable question that only required affirmative response - likely about video call initiation or readiness given context of previous conversation about video chatting"
+    },
+    {
+      "pattern": "confirming_readiness_before_proceeding",
+      "engagement_boost": 9.1,
+      "evidence": "The standalone 'Yes' suggests partner checked in before taking action (likely starting video call) - asking for confirmation rather than assuming creates respectful engagement pattern"
     }
   ],
   "avoid_patterns": [
