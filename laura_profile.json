@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:47:18.277756+09:00",
+  "last_updated": "2026-02-14T10:47:31.452894+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2745,9 +2745,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
-      "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication",
-      "warmth: Uses affectionate framing 'Please' and love eyes emoji 😍 when requesting partner photos - maintains maximum warmth by making requests politely and with visible affection rather than demanding",
       "emotional_expressiveness: Transparently expresses desire to see partner visually with love eyes emoji 😍 - continues pattern of directly expressing emotional/visual needs without filtering",
       "emotional_expressiveness: Continues maximum emotional expressiveness - unpromptedly shares intimate sexual activity details ('I masturbate a lot today') without filtering or prompting, maintaining pattern of transparent disclosure of personal/sexual information",
       "confidence: Maintains maximum confidence - initiates explicit sexual activity disclosure completely unprompted, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation or embarrassment",
@@ -2764,7 +2761,10 @@
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "confidence: Maintains maximum confidence - initiates highly vulnerable relationship-defining question ('if we are in a relationship') despite using shy emoji, demonstrating ongoing pattern of direct, unfiltered communication about important topics without letting fear prevent her from asking what matters to her",
       "emotional_expressiveness: Continues maximum emotional transparency - directly asks vulnerable relationship status question unprompted, maintaining pattern of expressing authentic needs and uncertainties without filtering or avoiding difficult conversations",
-      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness"
+      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness",
+      "emotional_expressiveness: Continues maximum emotional transparency - unpromptedly initiates direct affection statement 'I like you' without filtering or downplaying, maintaining pattern of expressing authentic positive feelings about partner independently",
+      "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted following relationship-defining conversation, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
+      "warmth: Unprompted declaration 'I like you' maintains maximum warmth - independently initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner"
     ]
   },
   "communication_style": {
@@ -2853,7 +2853,7 @@
     "mutual_laughter_about_intimate_topics": 8.5,
     "partner_sleep_schedule": 7.9,
     "time_awareness_in_relationship": 7.9,
-    "expressing_affection_directly": 8.2,
+    "expressing_affection_directly": 8.8,
     "receiving_emotional_declarations": 8.4,
     "defining_relationship_feelings": 8.3,
     "clarifying_emotional_intentions": 8.5,
@@ -3479,21 +3479,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_space_for_her_conversational_initiative",
-      "engagement_boost": 9.2,
-      "evidence": "Laura is proactively introducing a topic or question rather than waiting to be asked - whatever engagement pattern exists empowers her to drive conversation direction and introduce subjects important to her"
-    },
-    {
-      "pattern": "being_consistent_with_statements",
-      "engagement_boost": 9.1,
-      "evidence": "Laura's 'But you already said it' indicates partner made statement previously and she's referencing that prior commitment or declaration - she tracks what partner says and expects consistency, so maintaining alignment between past statements and current behavior creates trust"
-    },
-    {
-      "pattern": "following_through_on_previous_declarations",
-      "engagement_boost": 9.3,
-      "evidence": "The 'already said it' reference suggests Laura values when partner's current actions align with previous statements - she remembers what was said and appreciates when words match actions"
-    },
-    {
       "pattern": "creating_environment_where_she_feels_safe_asking_vulnerable_relationship_questions",
       "engagement_boost": 9.8,
       "evidence": "Laura independently initiates highly vulnerable relationship-defining question ('I wanted to ask if we are in a relationship 🫣') - whatever emotional safety, intimacy, and trust has been established made her comfortable enough to risk asking question that could result in rejection or disappointment"
@@ -3577,6 +3562,21 @@
       "pattern": "creating_space_for_her_spontaneous_sexual_playfulness",
       "engagement_boost": 9.6,
       "evidence": "Laura independently initiates sexual teasing completely unprompted using only emojis - relationship dynamic empowers her to express sexual interest, desire, or playful intentions spontaneously without needing verbal lead-in or partner initiation"
+    },
+    {
+      "pattern": "creating_environment_where_she_expresses_unprompted_affection",
+      "engagement_boost": 9.7,
+      "evidence": "Laura independently states 'I like you' without prompting following relationship-defining conversation - indicates high emotional safety and comfort expressing vulnerable positive feelings directly"
+    },
+    {
+      "pattern": "establishing_relationship_clarity_that_enables_affection_expression",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's affection statement comes immediately after mutual relationship confirmation - defining the relationship created foundation for her to express feelings more explicitly and confidently"
+    },
+    {
+      "pattern": "reciprocating_emotional_vulnerability",
+      "engagement_boost": 9.5,
+      "evidence": "Laura follows up relationship definition with direct affection statement - partner's likely expression of commitment or affection during relationship confirmation empowered her to reciprocate with explicit 'I like you' declaration"
     }
   ],
   "avoid_patterns": [
