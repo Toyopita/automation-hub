@@ -20165,6 +20165,90 @@
         "future": 4,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T09:55:13.892421+09:00",
+      "summary": "Show you tomorrow ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 8
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な話題の流れで、明日何か（おそらく写真や動画）を見せると約束している。軽く恥ずかしがりつつも前向きで親密な雰囲気",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 3,
+        "longing": 2,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 2,
+        "future": 1,
+        "engagement": 3
+      }
+    },
+    {
+      "timestamp": "2026-02-14T09:55:17.133427+09:00",
+      "summary": "I’m in bed ",
+      "scores": {
+        "mood": 7,
+        "energy": 4,
+        "intimacy": 7,
+        "longing": 6,
+        "eros": 6,
+        "ds": 5,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "性的な会話の流れの中で、自分の状況を報告。誘いの含みもある可能性",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 8,
+        "ds": 6,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -3,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -2,
+        "ds": -1,
+        "playfulness": -3,
+        "future": -3,
+        "engagement": -3
+      }
     }
   ]
 }
