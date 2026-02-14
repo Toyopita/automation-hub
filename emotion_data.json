@@ -22265,6 +22265,48 @@
         "future": -2,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:05:42.721541+09:00",
+      "summary": "I want to stay for like a year ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 8,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 9,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "日本訪問について具体的な期間を示している。前後の文脈から彼に会いたい気持ちと将来の計画を語っている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 5,
+        "intimacy": 5,
+        "longing": 5,
+        "eros": 5,
+        "ds": 5,
+        "playfulness": 5,
+        "future": 5,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": -2,
+        "ds": -2,
+        "playfulness": 0,
+        "future": 4,
+        "engagement": 4
+      }
     }
   ]
 }
