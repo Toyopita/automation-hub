@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:37:35.681089+09:00",
+  "last_updated": "2026-02-14T11:38:31.326193+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3135,7 +3135,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Aw",
       "Right now?",
       "Are you horny?",
       "do you want to masturbate in the camera",
@@ -3164,7 +3163,8 @@
       "haha",
       "Haha I want",
       "It's okay",
-      "Say what"
+      "Say what",
+      "So what's the matter"
     ]
   },
   "topic_engagement": {
@@ -3892,24 +3892,12 @@
     "realistic_expectations": 9.3,
     "acknowledging_limits_of_control": 9.1,
     "uncertain_future_acceptance": 9.4,
-    "relationship_realism": 9.2
+    "relationship_realism": 9.2,
+    "partner_wellbeing_check_ins": 9.4,
+    "initiating_concern_questions": 9.5,
+    "checking_on_partner_state": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_where_obvious_statements_are_met_with_playful_warmth",
-      "engagement_boost": 9.5,
-      "evidence": "The 'Of course' suggests partner may have stated something Laura views as clearly true or expected - her addition of 'lol' rather than responding with sarcasm or annoyance shows she finds their shared understanding endearing rather than frustrating, indicating healthy communication dynamic where redundancy doesn't create tension"
-    },
-    {
-      "pattern": "creating_environment_where_she_playfully_corrects_assumptions",
-      "engagement_boost": 9.3,
-      "evidence": "Laura responds 'Haha no baby' with laughter + gentle correction - indicates partner made assumption or statement that doesn't apply to her, and she's comfortable correcting it with warmth and humor rather than irritation"
-    },
-    {
-      "pattern": "establishing_comfort_for_gentle_disagreement",
-      "engagement_boost": 9.2,
-      "evidence": "Laura uses 'Haha' before 'no' and adds 'baby' endearment - relationship dynamic allows her to disagree or correct partner while maintaining affection and playfulness, showing healthy communication where corrections don't create tension"
-    },
     {
       "pattern": "creating_space_where_being_wrong_is_met_with_humor",
       "engagement_boost": 9.5,
@@ -3994,6 +3982,21 @@
       "pattern": "creating_environment_where_philosophical_perspective_is_shared",
       "engagement_boost": 9.2,
       "evidence": "Laura's 'anyway' suggests she's reframing or acknowledging underlying reality about relationship uncertainty - whatever communication patterns exist allow her to express philosophical acceptance of unknown outcomes rather than needing to maintain illusion of certainty"
+    },
+    {
+      "pattern": "creating_environment_where_she_checks_on_partner_state",
+      "engagement_boost": 9.5,
+      "evidence": "Laura initiates 'So what's the matter' - indicates she's picking up on something (partner's mood, situation, or context from previous interaction) and is proactively checking in with direct question, showing relationship dynamic where she feels comfortable inquiring about partner's state and taking initiative to understand what's happening"
+    },
+    {
+      "pattern": "establishing_comfort_for_direct_wellbeing_questions",
+      "engagement_boost": 9.4,
+      "evidence": "Laura uses straightforward 'what's the matter' phrasing without hedging or softening - relationship allows her to ask direct questions about partner's state or situation without needing elaborate framing, showing mutual comfort with checking in on each other's wellbeing or circumstances"
+    },
+    {
+      "pattern": "creating_space_where_she_notices_partner_needs",
+      "engagement_boost": 9.6,
+      "evidence": "The 'So' opening suggests Laura is responding to something she's observed or sensed about partner - whatever communication patterns exist have made her attentive to partner's state and comfortable initiating inquiry when she perceives something may be wrong or needs discussion, indicating healthy mutual care dynamic"
     }
   ],
   "avoid_patterns": [
