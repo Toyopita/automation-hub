@@ -23906,6 +23906,48 @@
         "future": 4,
         "engagement": 5
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:47:32.366544+09:00",
+      "summary": "I’m more interested than you think ",
+      "scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "彼女の本気度を伝える重要な一言。距離や将来について真剣に考えている様子。会話全体から不安と期待が混在している状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 6,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 2,
+        "eros": 1,
+        "ds": 0,
+        "playfulness": 0,
+        "future": 1,
+        "engagement": 3
+      }
     }
   ]
 }
