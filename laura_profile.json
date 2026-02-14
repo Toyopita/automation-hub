@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:51:31.049191+09:00",
+  "last_updated": "2026-02-14T09:51:31.918902+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2538,48 +2538,6 @@
           "emotional expression"
         ],
         "added": "2026-02-14"
-      },
-      {
-        "text": "masturbates 2 more times after work (reports post-work masturbation frequency)",
-        "tags": [
-          "masturbation",
-          "post-work routine",
-          "sexual activity",
-          "frequency",
-          "self-pleasure",
-          "daily routine",
-          "sexual habits",
-          "after work",
-          "work-life transition",
-          "sexual frequency",
-          "intimate habits",
-          "sexuality",
-          "personal time",
-          "arousal management",
-          "sexual behavior"
-        ],
-        "added": "2026-02-14"
-      },
-      {
-        "text": "masturbates multiple times per day (at least 2+ times after work in addition to earlier sessions)",
-        "tags": [
-          "high libido",
-          "masturbation frequency",
-          "sexual activity",
-          "daily sexual routine",
-          "multiple sessions",
-          "sexual drive",
-          "arousal patterns",
-          "frequent masturbation",
-          "sexual energy",
-          "self-pleasure frequency",
-          "sexual habits",
-          "daily routine",
-          "sexuality",
-          "physical needs",
-          "sexual behavior"
-        ],
-        "added": "2026-02-14"
       }
     ]
   },
@@ -2633,9 +2591,9 @@
       "😍",
       "🤣"
     ],
-    "formality_level": "casual and transparent about intimate details",
+    "formality_level": "polite casual (uses 'Please')",
     "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone",
-    "response_speed_tendency": "continues detailed sexual disclosure unprompted",
+    "response_speed_tendency": "initiates unprompted sexual disclosures",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3270,14 +3228,19 @@
     "sharing_sexual_activity_updates": 9.7,
     "unprompted_sexual_disclosures": 9.8,
     "daily_sexual_activity": 9.5,
-    "self_pleasure_transparency": 9.6,
-    "post_work_sexual_activity": 9.7,
-    "masturbation_frequency_details": 9.8,
-    "daily_sexual_routine_disclosure": 9.7,
-    "work_to_personal_time_transition": 8.8,
-    "sexual_activity_scheduling": 9.5
+    "self_pleasure_transparency": 9.6
   },
   "effective_patterns": [
+    {
+      "pattern": "establishing_priority_status_that_allows_sleep_interruption",
+      "engagement_boost": 9.6,
+      "evidence": "'Honey wake up' suggests she feels comfortable asking partner to interrupt their sleep for her need - indicates relationship has reached level where she believes her urgent desire to see him justifies waking him"
+    },
+    {
+      "pattern": "responding_positively_to_her_visual_connection_needs",
+      "engagement_boost": 9.7,
+      "evidence": "The confident, direct nature of her request suggests previous pattern of partner being receptive when she expresses need to see him - her willingness to make wake-up request indicates she expects positive response based on past experience"
+    },
     {
       "pattern": "being_thought_about_during_partner_absence",
       "engagement_boost": 9.8,
@@ -3364,19 +3327,9 @@
       "evidence": "Her willingness to share this information unprompted suggests previous pattern of positive reception when she's been sexually transparent - she likely expects accepting, non-judgmental response based on past experience"
     },
     {
-      "pattern": "asking_follow_up_questions_about_sexual_disclosures",
-      "engagement_boost": 9.7,
-      "evidence": "Laura's 'After work like 2 times more' suggests she was asked follow-up question about her masturbation timing/frequency - her detailed, specific answer indicates she appreciates deeper engagement with topics she initiates rather than surface-level acknowledgment"
-    },
-    {
-      "pattern": "showing_genuine_interest_in_intimate_details_she_shares",
-      "engagement_boost": 9.6,
-      "evidence": "The specific quantification 'like 2 times more' and context 'After work' shows she's comfortable providing detailed breakdown of sexual activity when partner shows interest - asking follow-up questions signals she's being heard and her transparency is valued"
-    },
-    {
-      "pattern": "creating_safety_for_increasingly_detailed_sexual_disclosure",
-      "engagement_boost": 9.8,
-      "evidence": "Laura moves from general 'I masturbate a lot today' to specific timing and frequency breakdown 'After work like 2 times more' - whatever response she received to initial disclosure made her comfortable providing more granular details about her sexual activity patterns"
+      "pattern": "evoking_flushed_shy_emoji_response",
+      "engagement_boost": 9.5,
+      "evidence": "Laura responds with single 😳 (flushed/embarrassed) emoji - whatever content preceded this evoked bashful, shy, or vulnerable reaction she chose to express purely through emoji, continuing pattern of non-verbal intimate communication during emotionally charged moments"
     }
   ],
   "avoid_patterns": [
