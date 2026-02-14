@@ -21005,6 +21005,48 @@
         "future": -1,
         "engagement": -2
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:13:02.279357+09:00",
+      "summary": "But you never said anything 😳",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 6,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 5,
+        "future": 7,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性の確認をしたかったけど彼が先に言ってくれなかった事への軽い不満を含む甘え。恥ずかしさと嬉しさが混ざった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 8,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": 2,
+        "future": -1,
+        "engagement": 0
+      }
     }
   ]
 }
