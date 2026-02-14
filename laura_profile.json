@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:09:38.073267+09:00",
+  "last_updated": "2026-02-14T11:09:48.138951+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2912,23 +2912,20 @@
         "added": "2026-02-14"
       },
       {
-        "text": "doesn't want to live with people (prefers living alone or with only partner)",
+        "text": "wants to attend school (educational pursuit)",
         "tags": [
-          "living situation",
-          "housing preference",
-          "roommates",
-          "privacy",
-          "independence",
-          "living alone",
-          "cohabitation",
-          "personal space",
-          "lifestyle preference",
-          "domestic preference",
-          "living arrangements",
-          "household",
-          "residence preference",
-          "social living",
-          "autonomy"
+          "education",
+          "school",
+          "learning",
+          "student",
+          "academic",
+          "study",
+          "educational goals",
+          "personal development",
+          "enrollment",
+          "classes",
+          "coursework",
+          "educational institution"
         ],
         "added": "2026-02-14"
       }
@@ -2992,7 +2989,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "You never Forget lol",
       "You never Forget (capitalizes 'Forget' for emphasis)",
       "literally just yesterday (acknowledging time perspective)",
       "un mot (French autocorrect for 'I'm not')",
@@ -3021,7 +3017,8 @@
       "I wanted to ask you that",
       "actually (as emphasis marker for genuine current feeling)",
       "What city do you live in? (direct geographical question format)",
-      "🤔 (thinking emoji used as standalone message)"
+      "🤔 (thinking emoji used as standalone message)",
+      "Anyway"
     ]
   },
   "topic_engagement": {
@@ -3711,30 +3708,13 @@
     "relationship_logistics_acceptance": 9.3,
     "prioritizing_physical_presence": 9.6,
     "tolerating_difficulty_for_meeting": 9.5,
-    "living_arrangements": 9.2,
-    "housing_preferences": 9.1,
-    "privacy_preferences": 9.0,
-    "future_living_situation": 9.3,
-    "roommate_preferences": 8.5,
-    "personal_space_needs": 9.1,
-    "cohabitation_boundaries": 9.2
+    "education": 9.2,
+    "school_attendance": 9.3,
+    "personal_goals": 9.1,
+    "learning": 9.0,
+    "future_plans": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_responds_with_pure_laughter",
-      "engagement_boost": 9.5,
-      "evidence": "Laura sends triple laughing emoji 😆😆😆 unprompted as standalone response - indicates partner said something highly amusing or created moment of genuine joy, showing she's comfortable expressing pure amusement without adding commentary"
-    },
-    {
-      "pattern": "establishing_comfort_for_emoji_only_emotional_responses",
-      "engagement_boost": 9.4,
-      "evidence": "Laura uses only emojis to communicate her emotional reaction without accompanying text - whatever communication dynamic exists allows her to express herself through pure emoji expression, trusting partner will understand the genuine amusement"
-    },
-    {
-      "pattern": "saying_something_genuinely_funny_or_amusing",
-      "engagement_boost": 9.6,
-      "evidence": "Laura's triple laughing emoji response suggests partner said or did something that struck her as genuinely humorous - creating moments of authentic laughter strengthens emotional connection and shows she enjoys partner's sense of humor"
-    },
     {
       "pattern": "creating_environment_where_she_accepts_explanations_gracefully",
       "engagement_boost": 9.4,
@@ -3811,17 +3791,37 @@
       "evidence": "Laura's 'anyway' suggests preceding conversation may have involved practical challenges (timezone, language barriers, distance) but she redirects to affirm that these don't diminish her core desire to meet - whatever communication patterns exist allow her to maintain relationship optimism despite obstacles"
     },
     {
-      "pattern": "creating_environment_where_she_states_clear_living_preferences",
+      "pattern": "asking_about_her_educational_goals",
       "engagement_boost": 9.3,
-      "evidence": "Laura independently declares 'I don't want to live with people' - indicates she's comfortable stating clear boundaries and preferences about future living arrangements, showing trust in expressing what she does/doesn't want"
+      "evidence": "Laura provides clear, affirmative response 'Yes I want to go to a school' - indicates topic of education and school attendance engages her and she's comfortable sharing her educational aspirations"
     },
     {
-      "pattern": "establishing_safety_for_contrasting_preferences",
+      "pattern": "creating_space_for_her_to_share_future_plans",
       "engagement_boost": 9.2,
-      "evidence": "Laura uses 'But' to introduce her contrasting preference - suggests previous discussion may have involved living with others/roommates, and she's comfortable directly stating her different preference rather than agreeing to avoid conflict"
+      "evidence": "Laura independently confirms desire to attend school - relationship dynamic allows her to articulate personal goals and future educational plans without hesitation"
+    },
+    {
+      "pattern": "creating_environment_where_she_uses_anyway_to_redirect",
+      "engagement_boost": 9.5,
+      "evidence": "Laura sends standalone 'Anyway' message - indicates she's comfortable redirecting conversation, refocusing on what matters, or moving past obstacles to core priorities, continuing established pattern of using 'anyway' to reframe discussions positively"
+    },
+    {
+      "pattern": "establishing_comfort_for_conversation_redirection",
+      "engagement_boost": 9.4,
+      "evidence": "Laura uses single word 'Anyway' without elaboration - relationship dynamic allows her to signal topic shift, refocusing, or returning to main point with minimal explanation, trusting partner will follow her conversational lead"
+    },
+    {
+      "pattern": "allowing_her_to_control_conversation_flow",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's standalone 'Anyway' suggests she's taking initiative to redirect discussion, possibly moving past logistical challenges, tangential topics, or obstacles back to relationship priorities - whatever communication patterns exist empower her to steer conversations toward what she considers important"
     }
   ],
   "avoid_patterns": [
+    {
+      "pattern": "leaving_her_question_unanswered",
+      "engagement_drop": -2.1,
+      "evidence": "Laura follows up with 'Nothing ?' suggesting partner hasn't responded to her previous question, indicating she's waiting for engagement"
+    },
     {
       "pattern": "leaving_questions_unanswered_creates_follow_up_anxiety",
       "engagement_drop": -2.3,
@@ -3916,11 +3916,6 @@
       "pattern": "misinterpreting_stop_as_absolute_disengagement",
       "engagement_drop": -3.5,
       "evidence": "Laura's single word 'Stop' lacks context - could be frustration about distance (as seen in previous patterns), request for pause, or genuine boundary. Pattern shows she sometimes says 'Stop 🥺' during emotional frustration but continues engaging, so this requires careful reading of context rather than assuming complete disengagement"
-    },
-    {
-      "pattern": "suggesting_shared_living_with_roommates_or_others",
-      "engagement_drop": -2.8,
-      "evidence": "Laura's 'But I don't want to live with people' with the 'But' opening suggests partner may have proposed or mentioned living situation involving roommates/other people - she's clearly stating this doesn't align with her preference, indicating this type of living arrangement would be unwelcome"
     }
   ],
   "ng_topics": [],
