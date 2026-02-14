@@ -23864,6 +23864,48 @@
         "future": -5,
         "engagement": -5
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:47:24.768173+09:00",
+      "summary": "Actually ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 6,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "前言を撤回または訂正する意図。緊張した会話の中での思い直し。次の発言を待つべき重要なターン",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 1
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 3,
+        "intimacy": 4,
+        "longing": 2,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 4,
+        "engagement": 5
+      }
     }
   ]
 }
