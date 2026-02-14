@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:19:30.375323+09:00",
+  "last_updated": "2026-02-14T10:33:34.627355+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2768,8 +2768,8 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "emoji-only (no text)",
-    "emoji_frequency": "emoji-only message (standalone expression)",
+    "avg_message_length": "1 word",
+    "emoji_frequency": "minimal in this instance (0 emojis)",
     "preferred_emojis": [
       "❤️",
       "😊",
@@ -2788,8 +2788,8 @@
       "👹"
     ],
     "formality_level": "casual and affectionate",
-    "humor_style": "playful sexual teasing using emoji symbolism",
-    "response_speed_tendency": "initiates unprompted emoji-only messages",
+    "humor_style": "not applicable in this message",
+    "response_speed_tendency": "initiates contact unprompted with affectionate greeting",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
