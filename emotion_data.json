@@ -20795,6 +20795,48 @@
         "future": 2,
         "engagement": 2
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:11:23.605689+09:00",
+      "summary": "Oh my god ",
+      "scores": {
+        "mood": 7,
+        "energy": 9,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 6,
+        "ds": 3,
+        "playfulness": 6,
+        "future": 1,
+        "engagement": 8
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "「I like you a lot」の直後の反応。恥ずかしさと興奮が混ざった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 4,
+        "future": 3,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": 2,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 3,
+        "ds": 1,
+        "playfulness": 2,
+        "future": -2,
+        "engagement": -1
+      }
     }
   ]
 }
