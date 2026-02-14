@@ -24284,6 +24284,90 @@
         "future": 0,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:55:06.069483+09:00",
+      "summary": "I want more than that ",
+      "scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 8,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "誤解を解こうと必死に感情を伝えている。セックスだけじゃなく真剣な関係を求めている重要な告白",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 4,
+        "ds": 3,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 1,
+        "energy": 0,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": -1,
+        "ds": -1,
+        "playfulness": -2,
+        "future": 1,
+        "engagement": 0
+      }
+    },
+    {
+      "timestamp": "2026-02-14T11:55:11.373313+09:00",
+      "summary": "I’m going to sleep bye ",
+      "scores": {
+        "mood": 4,
+        "energy": 3,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 2,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 5,
+        "engagement": 4
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "感情的なやり取りの後の急な終了。フラストレーションを感じている可能性が高い。直前に彼への関心を強く主張していたため、やや不安定な状態で会話を切り上げている",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 1,
+        "future": 8,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": -3,
+        "energy": -4,
+        "intimacy": -3,
+        "longing": -3,
+        "eros": -1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": -3,
+        "engagement": -5
+      }
     }
   ]
 }
