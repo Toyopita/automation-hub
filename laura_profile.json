@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:30:47.402301+09:00",
+  "last_updated": "2026-02-14T11:35:07.682085+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3854,11 +3854,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_environment_where_she_states_clear_living_preferences",
-      "engagement_boost": 9.3,
-      "evidence": "Laura independently declares 'I don't want to live with people' - indicates she's comfortable stating clear boundaries and preferences about future living arrangements, showing trust in expressing what she does/doesn't want"
-    },
-    {
       "pattern": "establishing_safety_for_contrasting_preferences",
       "engagement_boost": 9.2,
       "evidence": "Laura uses 'But' to introduce her contrasting preference - suggests previous discussion may have involved living with others/roommates, and she's comfortable directly stating her different preference rather than agreeing to avoid conflict"
@@ -3952,6 +3947,11 @@
       "pattern": "creating_space_where_questions_are_understood_as_respect_not_pressure",
       "engagement_boost": 9.6,
       "evidence": "Laura clarifies 'that's why I was asking' to explain her question-based approach stems from not wanting to insist/demand - whatever communication patterns exist have made it important for her to distinguish between asking (which she does) and insisting (which she avoids), suggesting healthy dynamic where inquiry is preferred over demands"
+    },
+    {
+      "pattern": "creating_environment_where_obvious_statements_receive_warm_affirmation",
+      "engagement_boost": 9.3,
+      "evidence": "Laura responds 'Lol' to something - indicates partner said something she finds amusing or obvious, and she's responding with laughter rather than detailed response, showing comfortable casual dynamic where simple reactions are sufficient"
     }
   ],
   "avoid_patterns": [
