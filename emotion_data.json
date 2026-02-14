@@ -21887,6 +21887,48 @@
         "future": -2,
         "engagement": -4
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:53:03.681143+09:00",
+      "summary": "What city do you live in? ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 6,
+        "longing": 8,
+        "eros": 7,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 7,
+        "engagement": 9
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "直前の性的なメッセージと「会いたい」発言の流れで、具体的な場所を知りたがっている。不安定な愛着スタイルが見られ、返信を待てずに繰り返し質問している。",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 2,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 0,
+        "intimacy": 2,
+        "longing": 5,
+        "eros": 5,
+        "ds": 2,
+        "playfulness": -5,
+        "future": 5,
+        "engagement": 4
+      }
     }
   ]
 }
