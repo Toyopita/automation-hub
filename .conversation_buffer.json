@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "It’s okay ",
-    "time": "10:09"
-  },
-  {
-    "role": "laura",
     "text": "Yes but ",
     "time": "10:09"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "Yes be scared ",
     "time": "10:17"
+  },
+  {
+    "role": "laura",
+    "text": "👹",
+    "time": "10:18"
   }
 ]
