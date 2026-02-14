@@ -23780,6 +23780,48 @@
         "future": 6,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:44:40.861200+09:00",
+      "summary": "That’s why I asked ",
+      "scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 6
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "不安と軽い不満が混ざった状態。彼の近くの街を選びたいという気持ちを説明しているが、彼の無関心な態度に傷ついている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 5,
+        "energy": 4,
+        "intimacy": 6,
+        "longing": 6,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 8,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": 1,
+        "intimacy": 0,
+        "longing": -1,
+        "eros": 0,
+        "ds": 0,
+        "playfulness": 0,
+        "future": -1,
+        "engagement": -1
+      }
     }
   ]
 }
