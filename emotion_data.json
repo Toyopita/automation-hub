@@ -22013,6 +22013,48 @@
         "future": 2,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:56:48.702615+09:00",
+      "summary": "If I go we meet ? ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 8,
+        "longing": 9,
+        "eros": 7,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 9,
+        "engagement": 10
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "具体的な会う計画を確認している。前のメッセージで性的な冗談や「すごく会いたい」という強い願望を示した後、実際に会える可能性を探っている状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 6,
+        "energy": 4,
+        "intimacy": 5,
+        "longing": 6,
+        "eros": 6,
+        "ds": 6,
+        "playfulness": 5,
+        "future": 7,
+        "engagement": 4
+      },
+      "score_deltas": {
+        "mood": 2,
+        "energy": 3,
+        "intimacy": 3,
+        "longing": 3,
+        "eros": 1,
+        "ds": -3,
+        "playfulness": -1,
+        "future": 2,
+        "engagement": 6
+      }
     }
   ]
 }
