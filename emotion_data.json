@@ -21845,6 +21845,48 @@
         "future": -4,
         "engagement": 0
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:52:56.959095+09:00",
+      "summary": "Hahaha ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 4,
+        "longing": 3,
+        "eros": 2,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 2,
+        "engagement": 5
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "笑い声のみ。前の文脈（欲しい・質問）への軽い反応",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 10,
+        "eros": 8,
+        "ds": 7,
+        "playfulness": 3,
+        "future": 4,
+        "engagement": 9
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": -1,
+        "intimacy": -5,
+        "longing": -7,
+        "eros": -6,
+        "ds": -5,
+        "playfulness": 5,
+        "future": -2,
+        "engagement": -4
+      }
     }
   ]
 }
