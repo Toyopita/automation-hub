@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:49:58.438974+09:00",
+  "last_updated": "2026-02-14T09:50:28.137444+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2599,7 +2599,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "I dont get hard like you",
       "sol (autocorrect for 'so')",
       "thé (autocorrect for 'the')",
       "aleays (typo for 'always')",
@@ -2628,7 +2627,8 @@
       "🤤 (used in repetition for emphasis)",
       "loooove (elongated for emphasis)",
       "Not yet baby",
-      "Always (standalone affirmative response)"
+      "Always (standalone affirmative response)",
+      "Why? (standalone questioning)"
     ]
   },
   "topic_engagement": {
@@ -3334,11 +3334,6 @@
   ],
   "avoid_patterns": [
     {
-      "pattern": "abrupt_shift_from_romantic_to_explicit_sexual",
-      "engagement_drop": -1.8,
-      "evidence": "After Laura validates romantic exchange with 'Haha Thats Lovely really' and 'Me too', user immediately pivots to explicit sexual preferences question 'What kind of vibe do you like before sex baby? Do you wanna be dominated from the start or... 😏' - no response captured, suggesting potential disruption of emotional moment"
-    },
-    {
       "pattern": "interrupting_tender_moment_with_sexual_logistics",
       "engagement_drop": -1.9,
       "evidence": "The 'Thats Lovely really' comment suggests Laura was appreciating the romantic emotional connection about sleeping together; immediately asking about sexual preferences ('dominated') shifts from emotional intimacy to sexual mechanics without transition"
@@ -3432,6 +3427,11 @@
       "pattern": "failing_to_provide_status_updates_during_delays",
       "engagement_drop": -2.6,
       "evidence": "Laura had to actively inquire about the delay rather than receiving proactive communication - when she's waiting for partner as she requested ('tell me when you finish'), she expects timely completion or at minimum status updates if there's delay"
+    },
+    {
+      "pattern": "statement_without_context_or_explanation",
+      "engagement_drop": -2.1,
+      "evidence": "Laura's single word 'Why?' suggests something was stated or proposed that lacks sufficient context or justification - she's seeking clarification or rationale, indicating the preceding message didn't provide adequate explanation"
     }
   ],
   "ng_topics": [],
