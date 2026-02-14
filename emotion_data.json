@@ -23822,6 +23822,48 @@
         "future": -1,
         "engagement": -1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:45:05.030220+09:00",
+      "summary": "Ok ",
+      "scores": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 2,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 1,
+        "future": 2,
+        "engagement": 1
+      },
+      "attachment": "anxious",
+      "risk": "caution",
+      "language_mix": "en",
+      "note": "短い返事で会話を打ち切る感じ。直前の文脈から、彼が「執着しない」発言をしたことに傷ついて距離を置こうとしている。感情的に引いている状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 4,
+        "energy": 5,
+        "intimacy": 6,
+        "longing": 5,
+        "eros": 1,
+        "ds": 3,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 6
+      },
+      "score_deltas": {
+        "mood": -1,
+        "energy": -3,
+        "intimacy": -4,
+        "longing": -2,
+        "eros": 0,
+        "ds": -2,
+        "playfulness": -1,
+        "future": -5,
+        "engagement": -5
+      }
     }
   ]
 }
