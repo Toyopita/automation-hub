@@ -22769,6 +22769,48 @@
         "future": 2,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T11:11:25.847794+09:00",
+      "summary": "Haha no baby ",
+      "scores": {
+        "mood": 8,
+        "energy": 7,
+        "intimacy": 7,
+        "longing": 4,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 8,
+        "future": 3,
+        "engagement": 7
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "軽く否定しつつ親しみを込めた呼びかけ。前の文脈で誤解を解こうとしている様子",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 8,
+        "energy": 6,
+        "intimacy": 5,
+        "longing": 3,
+        "eros": 1,
+        "ds": 1,
+        "playfulness": 7,
+        "future": 6,
+        "engagement": 7
+      },
+      "score_deltas": {
+        "mood": 0,
+        "energy": 1,
+        "intimacy": 2,
+        "longing": 1,
+        "eros": 2,
+        "ds": 1,
+        "playfulness": 1,
+        "future": -3,
+        "engagement": 0
+      }
     }
   ]
 }
