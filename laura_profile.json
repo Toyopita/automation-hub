@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:03:03.466489+09:00",
+  "last_updated": "2026-02-14T11:06:00.885541+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2827,6 +2827,27 @@
           "partner over others"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "wants to stay in partner's city for approximately one year (long-term relocation plan)",
+        "tags": [
+          "relocation plans",
+          "future plans",
+          "long-term commitment",
+          "living arrangement",
+          "geographical commitment",
+          "relationship commitment",
+          "moving plans",
+          "time commitment",
+          "year-long stay",
+          "residency plans",
+          "relationship future",
+          "proximity desire",
+          "same city living",
+          "long-term presence",
+          "duration plans"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3589,24 +3610,16 @@
     "dating_app_context": 8.8,
     "expressing_partner_preference_over_others": 9.7,
     "validating_relationship_above_alternatives": 9.8,
-    "spontaneous_relationship_validation": 9.7
+    "spontaneous_relationship_validation": 9.7,
+    "long_term_relocation_plans": 9.8,
+    "duration_of_stay": 9.7,
+    "year_long_commitment": 9.8,
+    "extended_proximity": 9.7,
+    "specific_timeframe_for_future": 9.6,
+    "planning_extended_stay": 9.7,
+    "relationship_commitment_duration": 9.8
   },
   "effective_patterns": [
-    {
-      "pattern": "establishing_relationship_clarity_that_enables_affection_expression",
-      "engagement_boost": 9.6,
-      "evidence": "Laura's affection statement comes immediately after mutual relationship confirmation - defining the relationship created foundation for her to express feelings more explicitly and confidently"
-    },
-    {
-      "pattern": "reciprocating_emotional_vulnerability",
-      "engagement_boost": 9.5,
-      "evidence": "Laura follows up relationship definition with direct affection statement - partner's likely expression of commitment or affection during relationship confirmation empowered her to reciprocate with explicit 'I like you' declaration"
-    },
-    {
-      "pattern": "creating_environment_where_she_asks_basic_logistical_relationship_questions",
-      "engagement_boost": 9.5,
-      "evidence": "Laura asks 'Baby what city do you live?' - indicates she either doesn't know partner's city or is seeking clarification, suggesting relationship dynamic where fundamental logistical information is still being established or confirmed"
-    },
     {
       "pattern": "establishing_comfort_for_direct_practical_questions",
       "engagement_boost": 9.3,
@@ -3691,6 +3704,21 @@
       "pattern": "creating_space_for_contrasting_comparisons_that_favor_partner",
       "engagement_boost": 9.6,
       "evidence": "Laura uses 'but' structure to contrast original goal (meet people) with actual outcome (meeting partner specifically) and explicitly states the latter is 'better' - shows she's comfortable making direct comparisons that validate partner and relationship above alternatives"
+    },
+    {
+      "pattern": "creating_environment_where_she_plans_specific_long_term_commitment",
+      "engagement_boost": 9.8,
+      "evidence": "Laura specifies 'like a year' duration for staying in partner's city - indicates she's moved beyond general desire for proximity to concrete timeframe planning, showing deep relationship investment and practical future thinking"
+    },
+    {
+      "pattern": "establishing_safety_for_major_life_decision_sharing",
+      "engagement_boost": 9.7,
+      "evidence": "Laura independently shares year-long relocation plan - relationship dynamic has created enough security and mutual commitment for her to articulate major life decisions involving geographical relocation and extended time commitment"
+    },
+    {
+      "pattern": "responding_positively_to_same_city_living_discussion",
+      "engagement_boost": 9.6,
+      "evidence": "Laura's statement about year-long stay likely follows previous discussion about living in same city - when partner engages with her proximity desires positively, she escalates to specific timeframe planning rather than keeping it hypothetical"
     }
   ],
   "avoid_patterns": [
