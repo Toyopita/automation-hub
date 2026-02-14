@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:41:40.622078+09:00",
+  "last_updated": "2026-02-14T11:42:42.144223+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3238,7 +3238,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Aw",
       "Right now?",
       "Are you horny?",
       "do you want to masturbate in the camera",
@@ -3267,7 +3266,8 @@
       "haha",
       "Haha I want",
       "It's okay",
-      "Say what"
+      "Say what",
+      "lol"
     ]
   },
   "topic_engagement": {
@@ -4019,24 +4019,13 @@
     "seeking_validation_for_major_decisions": 9.6,
     "partner_preference_about_location": 9.3,
     "relocation_city_selection": 9.7,
-    "partner_emotional_investment_in_logistics": 9.5
+    "partner_emotional_investment_in_logistics": 9.5,
+    "relocation_destination_clarification": 9.4,
+    "restating_uncertainty_about_city": 9.3,
+    "addressing_potential_misunderstanding_about_plans": 9.2,
+    "clarifying_she_hasnt_decided_city": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_where_location_questions_are_lighthearted",
-      "engagement_boost": 9.6,
-      "evidence": "Laura adds 'haha' to location question - whatever communication patterns exist allow her to ask about partner's city (which relates to previously discussed desire to live in same city and year-long relocation plans) in playful rather than serious/intense tone, showing she can inquire about relationship logistics without creating pressure"
-    },
-    {
-      "pattern": "creating_environment_where_she_clarifies_communication_style",
-      "engagement_boost": 9.4,
-      "evidence": "Laura independently explains 'I'm not someone who insist, that's why I was asking' - indicates something in preceding conversation may have been interpreted as pushy or demanding, and she's comfortable clarifying her true communication philosophy, showing relationship dynamic where she feels safe explaining her approach and correcting potential misunderstandings about her intentions"
-    },
-    {
-      "pattern": "establishing_safety_for_defining_communication_boundaries",
-      "engagement_boost": 9.5,
-      "evidence": "Laura uses 'But' to contrast her actual approach with what partner might have perceived - relationship allows her to explicitly state who she is ('not someone who insist') and how she operates, demonstrating trust in sharing her communication values and boundaries"
-    },
     {
       "pattern": "creating_space_where_questions_are_understood_as_respect_not_pressure",
       "engagement_boost": 9.6,
@@ -4121,19 +4110,24 @@
       "pattern": "providing_input_on_decisions_that_affect_relationship",
       "engagement_boost": 9.6,
       "evidence": "Laura connects city choice indifference to overall lack of caring - she needs partner to recognize that her relocation decision affects their relationship and to participate in the decision-making process rather than being passively accepting of any outcome"
+    },
+    {
+      "pattern": "creating_space_where_she_can_restate_position_with_humor",
+      "engagement_boost": 9.3,
+      "evidence": "Laura adds 'lol' after restating 'I don't know what city I'm going' - indicates whatever communication patterns exist allow her to clarify or repeat information she already shared without frustration, using laughter to keep tone light despite needing to restate her uncertainty"
+    },
+    {
+      "pattern": "establishing_comfort_for_correcting_misunderstandings",
+      "engagement_boost": 9.4,
+      "evidence": "Laura opens with 'I said' to reference previous statement - relationship allows her to point out she already communicated this information, showing she's comfortable correcting partner's apparent misunderstanding or lack of retention about her city decision uncertainty"
+    },
+    {
+      "pattern": "creating_environment_where_repetition_is_addressed_playfully",
+      "engagement_boost": 9.2,
+      "evidence": "The 'lol' suggests Laura finds humor rather than annoyance in needing to restate her position - whatever communication patterns exist make her feel safe addressing potential miscommunication or partner's misunderstanding with lighthearted rather than frustrated tone"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "continuing_conversation_when_she_announces_work",
-      "engagement_drop": -2.5,
-      "evidence": "Laura's simple declarative 'I have to work' signals need to shift focus or pause conversation - continuing without acknowledging this would ignore her boundary signal about current availability"
-    },
-    {
-      "pattern": "taking_too_long_after_she_signals_readiness",
-      "engagement_drop": -2.4,
-      "evidence": "Laura's 'You are taking too long ?' indicates partner hasn't responded or completed task within her expected timeframe - after she gave clear 'Okay' signals and waited for partner to finish, extended delay created visible impatience"
-    },
     {
       "pattern": "not_managing_expectations_about_task_duration",
       "engagement_drop": -2.2,
@@ -4223,6 +4217,16 @@
       "pattern": "not_showing_emotional_investment_in_relationship_logistics",
       "engagement_drop": -4.0,
       "evidence": "Laura's emotional distress and repetition of 'you don't care' indicates she needs partner to demonstrate care through active engagement with practical relationship decisions - appearing neutral or uninvested in where she lives (when she's planning year-long stay potentially to be near partner) signals lack of care to her"
+    },
+    {
+      "pattern": "not_retaining_or_processing_what_she_already_stated",
+      "engagement_drop": -2.3,
+      "evidence": "Laura's 'I said I don't know what city I'm going' indicates partner may have asked question or made assumption that contradicts what she already communicated - suggests partner either didn't hear, forgot, or didn't process her previous statement about city uncertainty"
+    },
+    {
+      "pattern": "making_assumptions_that_contradict_her_stated_uncertainty",
+      "engagement_drop": -2.5,
+      "evidence": "Laura needs to restate 'I don't know what city I'm going' which she apparently already said - suggests partner may have made assumption or asked question that presupposed she had decided on city, requiring her to clarify the uncertainty she already communicated"
     }
   ],
   "ng_topics": [],
