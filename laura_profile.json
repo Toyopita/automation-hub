@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:52:47.611372+09:00",
+  "last_updated": "2026-02-14T09:53:28.345640+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2679,7 +2679,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "thé (autocorrect for 'the')",
       "aleays (typo for 'always')",
       "sol (French autocorrect for 'so')",
       "thé (French autocorrect for 'the')",
@@ -2708,7 +2707,8 @@
       "Not yet baby",
       "Always (standalone affirmative response)",
       "Why? (standalone questioning)",
-      "dildo (explicit sexual term)"
+      "dildo (explicit sexual term)",
+      "Why (standalone questioning)"
     ]
   },
   "topic_engagement": {
@@ -3427,11 +3427,6 @@
   ],
   "avoid_patterns": [
     {
-      "pattern": "interrupting_tender_moment_with_sexual_logistics",
-      "engagement_drop": -1.9,
-      "evidence": "The 'Thats Lovely really' comment suggests Laura was appreciating the romantic emotional connection about sleeping together; immediately asking about sexual preferences ('dominated') shifts from emotional intimacy to sexual mechanics without transition"
-    },
-    {
       "pattern": "not_allowing_romantic_peak_to_settle",
       "engagement_drop": -1.6,
       "evidence": "Laura had just reached peak emotional vulnerability with 'Me too' and appreciation with 'Thats Lovely really' - asking sexual preference question immediately doesn't give space for that romantic moment to be fully experienced"
@@ -3525,6 +3520,11 @@
       "pattern": "statement_without_context_or_explanation",
       "engagement_drop": -2.1,
       "evidence": "Laura's single word 'Why?' suggests something was stated or proposed that lacks sufficient context or justification - she's seeking clarification or rationale, indicating the preceding message didn't provide adequate explanation"
+    },
+    {
+      "pattern": "statement_without_sufficient_context",
+      "engagement_drop": -2.3,
+      "evidence": "Laura's single word 'Why' suggests partner stated or proposed something without adequate explanation or justification - she's seeking clarification about rationale, indicating the preceding message lacked sufficient context for her to understand the reasoning"
     }
   ],
   "ng_topics": [],
