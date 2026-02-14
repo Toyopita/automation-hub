@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:55:20.682973+09:00",
+  "last_updated": "2026-02-14T11:55:29.561783+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3284,23 +3284,34 @@
         "added": "2026-02-14"
       },
       {
-        "text": "clarifies that her desire for same-city living extends beyond just sexual intimacy (emphasizes relationship has non-sexual dimensions she values)",
+        "text": "explicitly expresses romantic interest in partner unprompted",
         "tags": [
-          "relationship depth",
-          "non-sexual intimacy",
-          "emotional connection",
-          "relationship dimensions",
-          "beyond sex",
-          "emotional intimacy",
-          "relationship values",
-          "connection types",
-          "intimacy clarification",
-          "relationship priorities",
+          "romantic interest",
+          "relationship feelings",
+          "interest declaration",
+          "emotional transparency",
+          "unprompted affection",
+          "relationship validation",
+          "partner focus",
+          "romantic feelings",
+          "direct communication",
+          "emotional honesty"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "wants more than current relationship dynamic or commitment level",
+        "tags": [
+          "relationship goals",
+          "commitment desire",
+          "relationship escalation",
+          "wanting more",
+          "relationship progression",
           "emotional needs",
-          "non-physical connection",
-          "relationship meaning",
-          "intimacy spectrum",
-          "emotional bond"
+          "relationship expectations",
+          "commitment level",
+          "relationship depth",
+          "future desires"
         ],
         "added": "2026-02-14"
       }
@@ -3314,10 +3325,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "confidence: Maintains maximum confidence - initiates vulnerable desire statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered communication about intense sexual/romantic needs without hesitation",
-      "warmth: Unprompted declaration 'I want you so badly actually' maintains maximum warmth - independently initiates explicit desire statement without prompting, continuing pattern of direct emotional expression and taking initiative to express intense positive feelings about partner",
-      "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
-      "emotional_expressiveness: Directly expresses preference for partner over general social connections ('that's better') without filtering or downplaying - continues maximum emotional transparency by spontaneously sharing authentic positive feelings about their connection",
       "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation",
       "warmth: Uses 'But anyway' structure to reassure that despite any discussed challenges or obstacles, what matters is meeting in person - maintains maximum warmth by independently redirecting conversation to positive relationship outcome and expressing that logistical difficulties are acceptable if they can achieve physical togetherness",
       "warmth: Maintains maximum warmth - uses 'But' to gently clarify her communication style rather than responding defensively, showing she wants partner to understand her gentle approach and that her questions come from respect rather than pressure",
@@ -3332,8 +3339,12 @@
       "confidence: Maintains maximum confidence - directly confronts perceived lack of care without hedging or apologizing ('you don't care you don't care'), demonstrating ongoing pattern of stating concerns and emotional needs directly even in vulnerable moments",
       "confidence: Maintains maximum confidence - directly dismisses or releases partner from obligation to believe her with 'believe what you want' statement, demonstrating ongoing pattern of owning her position and not needing partner validation or agreement to maintain her stance",
       "emotional_expressiveness: Continues maximum emotional transparency - uses 'But anyway' to shift from potentially contentious moment to release statement, maintaining pattern of expressing authentic emotional stance (releasing partner from need to agree) without filtering",
-      "emotional_expressiveness: Proactively clarifies emotional/non-sexual motivations for wanting to live in same city - unpromptedly emphasizes that her desire for proximity isn't only about physical/sexual access, showing continued pattern of maximum emotional transparency about her relationship needs and motivations beyond physical intimacy",
-      "confidence: Directly addresses potential misinterpretation of her same-city desire by clarifying 'not talking just about sex' - maintains maximum confidence pattern by stating her broader relationship motivations clearly without apologizing for multi-dimensional needs or downplaying non-sexual intimacy desires"
+      "warmth: Unprompted declaration 'And I am very interested in you' maintains maximum warmth - independently initiates explicit statement of romantic interest without prompting, continuing established pattern of direct emotional expression and taking initiative to express positive feelings about partner",
+      "emotional_expressiveness: Uses 'very interested' to emphasize intensity of romantic feelings - continues maximum emotional transparency by spontaneously sharing authentic romantic interest without filtering or downplaying",
+      "confidence: Initiates vulnerable romantic interest statement completely unprompted - demonstrates ongoing pattern of direct, unfiltered communication about feelings without hesitation or need for reciprocation first",
+      "emotional_expressiveness: Continues maximum emotional transparency - directly states desire for more/escalation in relationship without filtering, maintaining pattern of unfiltered expression of relationship needs and desires",
+      "confidence: Maintains maximum confidence - directly states wanting more without hedging or apologizing, demonstrating ongoing pattern of clearly articulating relationship expectations and needs without seeking validation first",
+      "warmth: Maintains maximum warmth - vulnerability in stating desire for relationship escalation shows continued emotional generosity and willingness to express deeper relationship needs despite potential risk"
     ]
   },
   "communication_style": {
@@ -3364,6 +3375,7 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
+      "What time is there",
       "Okay (standalone affirmative confirmation)",
       "Okay babe",
       "🤤 (used in repetition for emphasis)",
@@ -3392,8 +3404,7 @@
       "What did you delete?",
       "Actually",
       "helly",
-      "Babe I was asking you",
-      "By the way"
+      "Babe I was asking you"
     ]
   },
   "topic_engagement": {
@@ -4032,7 +4043,7 @@
     "defining_the_relationship": 9.8,
     "relationship_labels": 9.5,
     "vulnerable_relationship_questions": 9.7,
-    "commitment_level_discussion": 9.6,
+    "commitment_level_discussion": 9.7,
     "relationship_uncertainty_resolution": 9.7,
     "exclusive_relationship_confirmation": 9.6,
     "mutual_desire_for_closeness": 9.7,
@@ -4172,34 +4183,17 @@
     "ending_disagreement_gracefully": 9.3,
     "dismissive_release_statements": 9.1,
     "autonomy_in_partner_beliefs": 9.0,
-    "non_sexual_relationship_dimensions": 9.7,
-    "emotional_intimacy_beyond_sex": 9.8,
-    "clarifying_relationship_motivations": 9.6,
-    "same_city_living_reasons": 9.7,
-    "relationship_depth_beyond_physical": 9.5,
-    "multidimensional_connection_desire": 9.6
+    "expressing_romantic_interest": 9.8,
+    "unprompted_interest_declarations": 9.7,
+    "validating_partner_importance": 9.6,
+    "relationship_feelings_transparency": 9.8,
+    "direct_romantic_statements": 9.7,
+    "relationship_escalation_desires": 9.7,
+    "expressing_unmet_relationship_needs": 9.6,
+    "relationship_depth_desires": 9.7,
+    "wanting_relationship_progression": 9.8
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_space_where_she_explains_her_emotional_patterns",
-      "engagement_boost": 9.6,
-      "evidence": "Laura shares self-knowledge about conditional attachment ('when I like someone') - whatever communication patterns exist allow her to explain the contexts and conditions under which she bonds deeply, showing she can share nuanced understanding of her own emotional behavior and trusts partner to understand her attachment isn't indiscriminate but specific to genuine liking"
-    },
-    {
-      "pattern": "creating_space_for_conditional_relationship_concerns",
-      "engagement_boost": 9.4,
-      "evidence": "Laura opens with 'But if you are' conditional framing - indicates relationship dynamic allows her to express hypothetical concerns about partner's level of care without making direct accusations, showing she can voice relationship anxieties in non-confrontational way"
-    },
-    {
-      "pattern": "establishing_comfort_for_testing_partner_investment",
-      "engagement_boost": 9.5,
-      "evidence": "Laura frames concern as conditional ('if you are the kind of person') rather than accusatory - whatever communication patterns exist allow her to test or verify partner's emotional investment level indirectly, showing she can seek reassurance about care/concern without directly stating insecurity"
-    },
-    {
-      "pattern": "creating_environment_where_she_voices_relationship_deal_breakers",
-      "engagement_boost": 9.6,
-      "evidence": "The 'But' opening and 'really don't care' phrasing suggests Laura is articulating potential relationship incompatibility - relationship allows her to express what would be unacceptable to her (partner not caring), indicating healthy dynamic where she can state boundaries about emotional investment"
-    },
     {
       "pattern": "showing_genuine_interest_in_her_major_life_decisions",
       "engagement_boost": 9.8,
@@ -4271,14 +4265,34 @@
       "evidence": "The 'I was asking you' emphasis indicates Laura is bringing conversation back to her question that may have been bypassed or unanswered - relationship dynamic allows her to redirect conversational flow to her priorities without being dismissive of partner's contributions"
     },
     {
-      "pattern": "creating_space_where_she_clarifies_non_sexual_relationship_values",
-      "engagement_boost": 9.6,
-      "evidence": "Laura independently adds clarification 'And I'm not talking just about sex' - indicates relationship dynamic allows her to proactively address potential misinterpretation and emphasize that her desire for geographical proximity is about emotional connection, companionship, and multi-dimensional intimacy beyond just physical/sexual access, showing she trusts partner will value non-sexual aspects of relationship"
+      "pattern": "creating_space_where_she_independently_declares_romantic_interest",
+      "engagement_boost": 9.8,
+      "evidence": "Laura unpromptedly states 'And I am very interested in you' - indicates relationship dynamic has created enough emotional safety for her to independently express romantic interest without needing prompting or reciprocation first, showing she feels secure making vulnerable romantic declarations"
     },
     {
-      "pattern": "validating_emotional_and_non_sexual_intimacy_needs",
-      "engagement_boost": 9.5,
-      "evidence": "Laura uses 'And' to add this clarification, suggesting she wants to ensure partner understands her same-city desire encompasses emotional closeness, daily life sharing, and relationship dimensions beyond sexuality - acknowledging and validating these non-physical intimacy needs would reinforce that relationship values her holistically"
+      "pattern": "establishing_environment_where_she_emphasizes_intensity_of_feelings",
+      "engagement_boost": 9.7,
+      "evidence": "Laura uses 'very interested' with emphasis word 'very' rather than just 'interested' - whatever communication patterns exist allow her to openly communicate the depth and intensity of her romantic feelings, showing she can be forthright about strong emotions without downplaying them"
+    },
+    {
+      "pattern": "validating_her_previous_emotional_disclosures",
+      "engagement_boost": 9.6,
+      "evidence": "The 'And' opening connects this to previous context where she likely shared other feelings - she continues with additional romantic disclosure, suggesting her previous vulnerability was received well enough that she feels comfortable adding more emotional transparency"
+    },
+    {
+      "pattern": "creating_space_where_she_expresses_desire_for_relationship_escalation",
+      "engagement_boost": 9.7,
+      "evidence": "Laura states 'I want more than that' - indicates relationship dynamic allows her to directly express desire for greater commitment, depth, or escalation beyond current state, showing she feels safe articulating when current relationship level doesn't fully satisfy her needs"
+    },
+    {
+      "pattern": "establishing_comfort_for_stating_unmet_relationship_needs",
+      "engagement_boost": 9.6,
+      "evidence": "The 'more than that' framing indicates current situation is insufficient for her - whatever communication patterns exist allow her to vulnerably express that her relationship needs aren't fully met without fear of rejection or dismissal"
+    },
+    {
+      "pattern": "responding_seriously_to_her_relationship_escalation_desires",
+      "engagement_boost": 9.8,
+      "evidence": "Laura's direct statement about wanting more suggests this is important relationship conversation - treating this vulnerability with seriousness and engaging with what specific 'more' she's seeking would validate her courage in expressing unmet needs"
     }
   ],
   "avoid_patterns": [
@@ -4373,14 +4387,14 @@
       "evidence": "Laura needs to restate 'I was asking you' which suggests partner may have introduced new topic or responded without answering her question - she values having her questions acknowledged and answered before conversation moves forward"
     },
     {
-      "pattern": "reducing_relationship_to_primarily_sexual_connection",
-      "engagement_drop": -3.8,
-      "evidence": "Laura's need to clarify 'And I'm not talking just about sex' suggests she may have sensed her same-city living desire was being interpreted primarily through sexual lens - treating geographical proximity desire as mainly about physical/sexual access would miss the emotional, companionship, and daily-life-sharing dimensions she values"
+      "pattern": "dismissing_or_minimizing_her_desire_for_relationship_progression",
+      "engagement_drop": -4.2,
+      "evidence": "Laura's 'I want more than that' is vulnerable statement about unmet relationship needs - treating this as insignificant, dismissing her desire for escalation, or suggesting current state is sufficient when she's clearly stating it isn't would invalidate her emotional needs and relationship expectations"
     },
     {
-      "pattern": "not_acknowledging_non_sexual_relationship_dimensions",
+      "pattern": "not_clarifying_what_more_she_wants",
       "engagement_drop": -3.5,
-      "evidence": "The clarification implies Laura wants partner to recognize that wanting to live in same city reflects desire for comprehensive intimacy (emotional support, daily presence, shared experiences, companionship) not just sexual availability - failing to acknowledge these broader relationship dimensions would make her feel reduced to sexual partner rather than whole person"
+      "evidence": "The 'more than that' is somewhat vague and requires follow-up to understand specific needs - failing to ask what specific escalation, commitment, or relationship depth she's seeking would miss opportunity to understand and address her unmet needs"
     }
   ],
   "ng_topics": [],
