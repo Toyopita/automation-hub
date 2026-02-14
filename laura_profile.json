@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:11:55.283140+09:00",
+  "last_updated": "2026-02-14T11:12:05.989638+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2973,6 +2973,27 @@
           "goal pursuit"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "uncertain about destination city for relocation (hasn't decided which city to move to)",
+        "tags": [
+          "relocation uncertainty",
+          "destination undecided",
+          "city choice",
+          "moving plans",
+          "location indecision",
+          "planning phase",
+          "relocation planning",
+          "city selection",
+          "destination planning",
+          "uncertain destination",
+          "moving logistics",
+          "future location",
+          "relocation details",
+          "city decision",
+          "destination uncertainty"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3063,7 +3084,7 @@
       "🤔 (thinking emoji used as standalone message)",
       "watching options",
       "and everything",
-      "I have to see"
+      "I don't know what city I'm going"
     ]
   },
   "topic_engagement": {
@@ -3766,24 +3787,13 @@
     "housing_logistics": 9.5,
     "moving_preparation": 9.7,
     "sharing_practical_progress": 9.8,
-    "demonstrating_commitment_through_action": 9.9
+    "demonstrating_commitment_through_action": 9.9,
+    "relocation_destination_uncertainty": 9.6,
+    "sharing_planning_uncertainty": 9.4,
+    "city_selection_process": 9.3,
+    "destination_decision_making": 9.5
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_shares_relationship_origin_context",
-      "engagement_boost": 9.5,
-      "evidence": "Laura reveals 'To meet people' was her original app goal - indicates she's comfortable sharing background context about how/why they connected, showing transparency about relationship origins and her initial intentions"
-    },
-    {
-      "pattern": "establishing_comfort_for_spontaneous_partner_validation",
-      "engagement_boost": 9.7,
-      "evidence": "Laura independently declares meeting partner is 'better' than her original goal of meeting people generally - relationship dynamic empowers her to spontaneously express that partner exceeds her expectations or original intentions"
-    },
-    {
-      "pattern": "creating_space_for_contrasting_comparisons_that_favor_partner",
-      "engagement_boost": 9.6,
-      "evidence": "Laura uses 'but' structure to contrast original goal (meet people) with actual outcome (meeting partner specifically) and explicitly states the latter is 'better' - shows she's comfortable making direct comparisons that validate partner and relationship above alternatives"
-    },
     {
       "pattern": "creating_environment_where_she_plans_specific_long_term_commitment",
       "engagement_boost": 9.8,
@@ -3868,6 +3878,21 @@
       "pattern": "creating_space_where_being_wrong_is_met_with_humor",
       "engagement_boost": 9.5,
       "evidence": "The laughter opening suggests partner said something incorrect or made assumption that doesn't match Laura's reality - her response shows she finds the mistake endearing rather than frustrating, indicating whatever communication patterns exist make it safe for partner to be wrong without negative consequences"
+    },
+    {
+      "pattern": "creating_environment_where_she_shares_planning_uncertainties",
+      "engagement_boost": 9.5,
+      "evidence": "Laura independently discloses 'I don't know what city I'm going' - indicates relationship dynamic has created enough safety for her to share not just her plans but also her uncertainties and unresolved decisions, showing she trusts partner with vulnerable admission that she hasn't figured everything out yet"
+    },
+    {
+      "pattern": "establishing_comfort_for_admitting_lack_of_clarity",
+      "engagement_boost": 9.4,
+      "evidence": "Laura directly states uncertainty about destination city despite having shared concrete relocation plans (year-long stay, watching rentals) - shows she's comfortable revealing that while she's committed to the relationship goal, practical details are still uncertain, indicating trust in being imperfect or not having all answers"
+    },
+    {
+      "pattern": "discussing_future_plans_without_pressure_for_complete_certainty",
+      "engagement_boost": 9.6,
+      "evidence": "Laura can share major commitment (moving for a year) while simultaneously admitting she doesn't know which city - whatever communication patterns exist allow her to express both commitment and uncertainty without feeling pressured to have everything figured out, showing healthy balance between intention and flexibility"
     }
   ],
   "avoid_patterns": [
