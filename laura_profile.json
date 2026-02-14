@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:42:42.144223+09:00",
+  "last_updated": "2026-02-14T11:43:21.579076+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3238,7 +3238,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Right now?",
       "Are you horny?",
       "do you want to masturbate in the camera",
       "Baby why hahah",
@@ -3267,7 +3266,8 @@
       "Haha I want",
       "It's okay",
       "Say what",
-      "lol"
+      "lol",
+      "What?"
     ]
   },
   "topic_engagement": {
@@ -4129,11 +4129,6 @@
   ],
   "avoid_patterns": [
     {
-      "pattern": "not_managing_expectations_about_task_duration",
-      "engagement_drop": -2.2,
-      "evidence": "The question 'You are taking too long ?' suggests partner didn't communicate how long their task would take - leaving her waiting without status update created uncertainty and frustration"
-    },
-    {
       "pattern": "failing_to_provide_status_updates_during_delays",
       "engagement_drop": -2.6,
       "evidence": "Laura had to actively inquire about the delay rather than receiving proactive communication - when she's waiting for partner as she requested ('tell me when you finish'), she expects timely completion or at minimum status updates if there's delay"
@@ -4227,6 +4222,11 @@
       "pattern": "making_assumptions_that_contradict_her_stated_uncertainty",
       "engagement_drop": -2.5,
       "evidence": "Laura needs to restate 'I don't know what city I'm going' which she apparently already said - suggests partner may have made assumption or asked question that presupposed she had decided on city, requiring her to clarify the uncertainty she already communicated"
+    },
+    {
+      "pattern": "unclear_or_ambiguous_statements",
+      "engagement_drop": -2.1,
+      "evidence": "Laura's single word 'What?' with question mark indicates partner said something unclear, confusing, or unexpected that she doesn't understand - she's requesting clarification or expressing confusion about the preceding message"
     }
   ],
   "ng_topics": [],
