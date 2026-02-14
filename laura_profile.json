@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:37:05.572756+09:00",
+  "last_updated": "2026-02-14T11:37:35.681089+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3135,7 +3135,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "😳 (flushed/embarrassed emoji as standalone response)",
       "Aw",
       "Right now?",
       "Are you horny?",
@@ -3164,7 +3163,8 @@
       "I don't know what city I'm going",
       "haha",
       "Haha I want",
-      "It's okay"
+      "It's okay",
+      "Say what"
     ]
   },
   "topic_engagement": {
