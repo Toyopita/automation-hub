@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:07:41.807598+09:00",
+  "last_updated": "2026-02-14T11:09:28.976434+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2910,6 +2910,24 @@
           "compromise willingness"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "wants to attend school (educational pursuit)",
+        "tags": [
+          "education",
+          "school",
+          "learning",
+          "student",
+          "academic",
+          "study",
+          "educational goals",
+          "personal development",
+          "enrollment",
+          "classes",
+          "coursework",
+          "educational institution"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3689,19 +3707,14 @@
     "seeing_each_other_physically": 9.7,
     "relationship_logistics_acceptance": 9.3,
     "prioritizing_physical_presence": 9.6,
-    "tolerating_difficulty_for_meeting": 9.5
+    "tolerating_difficulty_for_meeting": 9.5,
+    "education": 9.2,
+    "school_attendance": 9.3,
+    "personal_goals": 9.1,
+    "learning": 9.0,
+    "future_plans": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "establishing_comfort_for_vulnerable_desire_statements",
-      "engagement_boost": 9.7,
-      "evidence": "Laura directly expresses intense wanting ('so badly') without hedging or softening - relationship dynamic empowers her to communicate vulnerable desire states with full intensity rather than downplaying or moderating her feelings"
-    },
-    {
-      "pattern": "validating_her_genuine_feelings_creates_authenticity",
-      "engagement_boost": 9.6,
-      "evidence": "Laura uses 'actually' to emphasize this is her genuine current state - suggests whatever communication patterns exist make her feel her authentic feelings (even intense sexual desire) are welcomed and validated rather than needing to be filtered"
-    },
     {
       "pattern": "creating_environment_where_she_responds_with_pure_laughter",
       "engagement_boost": 9.5,
@@ -3791,6 +3804,16 @@
       "pattern": "creating_space_where_logistical_discussions_dont_overshadow_relationship_commitment",
       "engagement_boost": 9.6,
       "evidence": "Laura's 'anyway' suggests preceding conversation may have involved practical challenges (timezone, language barriers, distance) but she redirects to affirm that these don't diminish her core desire to meet - whatever communication patterns exist allow her to maintain relationship optimism despite obstacles"
+    },
+    {
+      "pattern": "asking_about_her_educational_goals",
+      "engagement_boost": 9.3,
+      "evidence": "Laura provides clear, affirmative response 'Yes I want to go to a school' - indicates topic of education and school attendance engages her and she's comfortable sharing her educational aspirations"
+    },
+    {
+      "pattern": "creating_space_for_her_to_share_future_plans",
+      "engagement_boost": 9.2,
+      "evidence": "Laura independently confirms desire to attend school - relationship dynamic allows her to articulate personal goals and future educational plans without hesitation"
     }
   ],
   "avoid_patterns": [
