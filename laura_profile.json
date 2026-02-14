@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T09:52:37.067191+09:00",
+  "last_updated": "2026-02-14T09:52:47.611372+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2570,6 +2570,54 @@
           "emotional expression"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "comfortable discussing or joking about sex toys (dildo reference)",
+        "tags": [
+          "sex toys",
+          "dildo",
+          "sexual openness",
+          "intimate comfort",
+          "sexual humor",
+          "explicit discussion",
+          "adult toys",
+          "sexual products",
+          "intimate objects",
+          "sexual frankness"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses laughter and flushed emoji when discussing sex toys",
+        "tags": [
+          "communication style",
+          "emoji usage",
+          "sexual humor",
+          "playful embarrassment",
+          "flushed emoji",
+          "laughter with explicit content",
+          "bashful sexuality",
+          "sex toy discussion",
+          "comfortable discomfort",
+          "playful sexual communication"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "asks clarifying questions about sexual content with playful tone",
+        "tags": [
+          "clarifying questions",
+          "sexual communication",
+          "playful inquiry",
+          "explicit questions",
+          "sexual curiosity",
+          "direct questions",
+          "intimate communication",
+          "sexual frankness",
+          "question asking",
+          "sexual dialogue"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -2581,9 +2629,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "emotional_expressiveness: Uses 'Omg' to transparently signal her surprise/frustration about internet issue, then immediately adds 'hahaha' to show she's not seriously upset - continues pattern of expressing emotional state directly and clearly even about minor frustrations",
-      "warmth: Maintains lighthearted, warm tone even when explaining technical frustration - uses humor ('hahaha') to keep mood positive rather than complaining, showing she prioritizes maintaining pleasant atmosphere even during minor annoyances",
-      "confidence: Continues pattern of direct, unfiltered sexual desire expression - states explicit sexual want ('I want you to fuck me so bad') without hedging, euphemism, or seeking permission first, maintaining maximum confidence rating for straightforward sexual communication",
       "emotional_expressiveness: Transparently expresses intense sexual desire with clear intensity marker ('so bad') - continues pattern of directly communicating emotional/physical state without filtering, maintaining maximum emotional expressiveness",
       "warmth: Even explicit sexual desire is expressed with vulnerable emoji 😳 creating intimate, emotionally connected tone rather than purely physical demand - maintains maximum warmth by keeping emotional connection present even in sexual expressions",
       "warmth: Uses tender endearment 'Honey' combined with vulnerable pleading emoji 🥺 when expressing need to see partner - maintains maximum warmth even in urgent requests, framing need for partner connection with affection rather than demand",
@@ -2600,11 +2645,14 @@
       "confidence: Maintains maximum confidence - initiates explicit sexual activity disclosure completely unprompted, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation or embarrassment",
       "warmth: Maintains maximum warmth - uses affectionate 'Honey' endearment when sharing sexual disclosure, and triple laughing emoji creates playful, intimate tone rather than purely physical announcement",
       "warmth: Maintains maximum warmth - responds to partner's timing constraints with patient understanding and smile emoji rather than frustration or pressure, framing acceptance positively ('When you can') to show she's not upset about delay",
-      "emotional_expressiveness: Continues maximum emotional transparency - clearly signals her understanding and acceptance state ('Okay I understand') rather than leaving partner uncertain about her reaction to timing constraints"
+      "emotional_expressiveness: Continues maximum emotional transparency - clearly signals her understanding and acceptance state ('Okay I understand') rather than leaving partner uncertain about her reaction to timing constraints",
+      "confidence: Continues maximum confidence pattern - directly asks clarifying question about sex toy reference ('like a dildo?') with playful tone rather than avoiding topic or being vague, maintaining pattern of direct, unfiltered sexual communication",
+      "emotional_expressiveness: Transparently expresses mild bashfulness/surprise with 😳 emoji while simultaneously using playful laughter - continues pattern of expressing authentic emotional reactions (playful embarrassment) without filtering",
+      "warmth: Maintains warm, playful tone even when asking about explicit sexual content - uses laughter 'Hahaa' to keep conversation lighthearted and intimate rather than clinical or cold when discussing sex toys"
     ]
   },
   "communication_style": {
-    "avg_message_length": "minimal (single word affirmative)",
+    "avg_message_length": "single sentence",
     "emoji_frequency": "multiple emojis for emphasis (triple repetition)",
     "preferred_emojis": [
       "🥹",
@@ -2623,15 +2671,14 @@
       "😍",
       "🤣"
     ],
-    "formality_level": "casual and direct",
-    "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone",
+    "formality_level": "casual with polite acceptance",
+    "humor_style": "uses laughter frequently when sharing sexual content to create playful, lighthearted tone; comfortable mixing playful embarrassment with explicit directness",
     "response_speed_tendency": "patient when partner has timing constraints",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "sol (autocorrect for 'so')",
       "thé (autocorrect for 'the')",
       "aleays (typo for 'always')",
       "sol (French autocorrect for 'so')",
@@ -2660,7 +2707,8 @@
       "loooove (elongated for emphasis)",
       "Not yet baby",
       "Always (standalone affirmative response)",
-      "Why? (standalone questioning)"
+      "Why? (standalone questioning)",
+      "dildo (explicit sexual term)"
     ]
   },
   "topic_engagement": {
@@ -3266,14 +3314,16 @@
     "schedule_flexibility": 9.2,
     "availability_acceptance": 9.4,
     "patient_waiting": 9.1,
-    "understanding_partner_limitations": 9.5
+    "understanding_partner_limitations": 9.5,
+    "sex_toys": 9.4,
+    "dildo_discussion": 9.3,
+    "explicit_sexual_products": 9.2,
+    "sex_toy_clarification": 9.4,
+    "playful_sexual_inquiry": 9.5,
+    "adult_toys_discussion": 9.3,
+    "sexual_product_references": 9.2
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_intimate_experiences_worth_reflecting_positively_on",
-      "engagement_boost": 9.8,
-      "evidence": "Laura unpromptedly initiates enthusiastic positive feedback about 'what we did today' with triple love and fire emojis - whatever intimate video call experience occurred left strong positive impression that she felt compelled to immediately validate and appreciate"
-    },
     {
       "pattern": "building_sexual_experiences_that_trigger_future_desire",
       "engagement_boost": 9.7,
@@ -3360,14 +3410,19 @@
       "evidence": "Laura's patient response with smile emoji indicates she feels comfortable being understanding - whatever relationship dynamic exists made her feel safe expressing acceptance rather than feeling need to pressure or express frustration"
     },
     {
-      "pattern": "asking_clear_yes_no_questions_for_immediate_action",
-      "engagement_boost": 9.2,
-      "evidence": "Laura's simple 'Yes' indicates partner asked clear, actionable question that only required affirmative response - likely about video call initiation or readiness given context of previous conversation about video chatting"
+      "pattern": "making_references_that_invite_playful_clarification",
+      "engagement_boost": 9.4,
+      "evidence": "Laura asks clarifying question about dildo reference with playful laughter and flushed emoji - whatever was said invited her to engage with explicit content in comfortable, humorous way that she found engaging enough to ask for clarification"
     },
     {
-      "pattern": "confirming_readiness_before_proceeding",
-      "engagement_boost": 9.1,
-      "evidence": "The standalone 'Yes' suggests partner checked in before taking action (likely starting video call) - asking for confirmation rather than assuming creates respectful engagement pattern"
+      "pattern": "creating_safety_for_explicit_sexual_product_discussion",
+      "engagement_boost": 9.5,
+      "evidence": "Laura feels comfortable directly saying 'dildo' and asking clarifying question - whatever relationship sexual openness has been established made her feel safe discussing sex toys explicitly with playful rather than embarrassed or clinical tone"
+    },
+    {
+      "pattern": "allowing_her_to_drive_clarification_of_sexual_content",
+      "engagement_boost": 9.3,
+      "evidence": "The question format 'like a dildo?' suggests she's interpreting something said and seeking confirmation - giving her agency to clarify explicit sexual references rather than over-explaining creates engaging back-and-forth where she takes active role"
     }
   ],
   "avoid_patterns": [
