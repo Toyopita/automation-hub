@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:09:41.315259+09:00",
+  "last_updated": "2026-02-14T10:10:17.631423+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2688,7 +2688,7 @@
       "🤣"
     ],
     "formality_level": "casual and reassuring",
-    "humor_style": "not applicable to this message",
+    "humor_style": "uses simple laughter as acknowledgment or response to playful/amusing content - 'Haha' appears frequently as standalone or brief reaction",
     "response_speed_tendency": "context-dependent - responds quickly to partner concerns or apologies with reassurance",
     "response_time_avg_minutes": null,
     "active_hours": [],
@@ -3352,16 +3352,6 @@
   },
   "effective_patterns": [
     {
-      "pattern": "creating_environment_where_she_shares_sexual_activity_unprompted",
-      "engagement_boost": 9.8,
-      "evidence": "Laura independently initiates disclosure about masturbating frequently that day with playful tone - whatever relationship safety and sexual openness has been established made her comfortable sharing intimate sexual activity details unprompted"
-    },
-    {
-      "pattern": "establishing_sexual_transparency_as_relationship_norm",
-      "engagement_boost": 9.7,
-      "evidence": "The casual, playful way she shares 'I masturbate a lot today' with laughing emojis suggests this level of sexual disclosure is normalized in relationship - she's not hesitant or embarrassed, indicating mutual sexual transparency has been established"
-    },
-    {
       "pattern": "responding_positively_to_her_sexual_disclosures",
       "engagement_boost": 9.6,
       "evidence": "Her willingness to share this information unprompted suggests previous pattern of positive reception when she's been sexually transparent - she likely expects accepting, non-judgmental response based on past experience"
@@ -3450,6 +3440,16 @@
       "pattern": "allowing_her_to_be_comforter",
       "engagement_boost": 9.6,
       "evidence": "By whatever prompted this reassurance (likely apology or concern), partner created space for Laura to take nurturing role and offer comfort - allowing her to be the one providing reassurance rather than always receiving it creates balanced dynamic"
+    },
+    {
+      "pattern": "evoking_simple_laughter_response",
+      "engagement_boost": 8.5,
+      "evidence": "Laura responds with 'Haha' - whatever was said or shared immediately before this elicited genuine amusement or playful appreciation she chose to acknowledge with brief laughter"
+    },
+    {
+      "pattern": "creating_moments_she_finds_amusing",
+      "engagement_boost": 8.3,
+      "evidence": "The standalone 'Haha' with space after suggests she's reacting to something partner said/did that she found funny or entertaining enough to warrant simple laughter acknowledgment"
     }
   ],
   "avoid_patterns": [
