@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:35:07.682085+09:00",
+  "last_updated": "2026-02-14T11:36:25.009823+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -3103,7 +3103,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "coffe (typo for coffee)",
       "😳 (flushed/embarrassed emoji as standalone response)",
       "Aw",
       "Right now?",
@@ -3132,7 +3131,8 @@
       "and everything",
       "I don't know what city I'm going",
       "haha",
-      "Haha I want"
+      "Haha I want",
+      "No"
     ]
   },
   "topic_engagement": {
