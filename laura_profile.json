@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:48:07.893715+09:00",
+  "last_updated": "2026-02-14T11:53:56.490987+09:00",
   "facts": {
     "age": null,
     "location": "considering schools in Tokyo but prefers not to live in Tokyo due to crowding",
@@ -3343,7 +3343,6 @@
     "conversation_starters_used": [],
     "vocabulary_level": "unknown",
     "grammar_patterns": [
-      "Baby why hahah",
       "Is 7pm (confirms time without full sentence structure)",
       "What time is there",
       "Okay (standalone affirmative confirmation)",
@@ -3372,7 +3371,8 @@
       "lol",
       "What?",
       "What did you delete?",
-      "Actually"
+      "Actually",
+      "helly"
     ]
   },
   "topic_engagement": {
