@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:30:00.372863+09:00",
+  "last_updated": "2026-02-14T11:30:47.402301+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2994,6 +2994,54 @@
           "destination uncertainty"
         ],
         "added": "2026-02-14"
+      },
+      {
+        "text": "does not like to insist or be pushy in communication (self-described communication style)",
+        "tags": [
+          "communication style",
+          "personality trait",
+          "non-pushy",
+          "asking vs insisting",
+          "respect for boundaries",
+          "communication preference",
+          "relationship dynamics",
+          "conflict avoidance",
+          "gentle communication",
+          "self-awareness"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "uses asking/questioning as preferred communication approach rather than insisting or demanding",
+        "tags": [
+          "communication method",
+          "asking questions",
+          "non-demanding",
+          "relationship communication",
+          "preference for inquiry",
+          "gentle approach",
+          "communication strategy",
+          "question-based communication",
+          "indirect approach",
+          "respectful communication"
+        ],
+        "added": "2026-02-14"
+      },
+      {
+        "text": "explains her communication motivations when they might be misunderstood (clarifies why she asked rather than insisted)",
+        "tags": [
+          "communication clarification",
+          "explaining motivations",
+          "self-explanation",
+          "preventing misunderstanding",
+          "communication transparency",
+          "clarifying intent",
+          "relationship communication",
+          "defensive communication",
+          "justification",
+          "context providing"
+        ],
+        "added": "2026-02-14"
       }
     ]
   },
@@ -3005,9 +3053,6 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
-      "warmth: Unprompted caring message wishing partner well at work - continues maximum warmth pattern of initiating supportive, considerate statements even in simple goodbyes",
-      "warmth: Responds with reassuring 'It's okay' when partner likely expressed concern or apologized - maintains warmth by offering immediate comfort and acceptance without holding grudges or creating tension",
-      "warmth: Unprompted declaration 'I like you a lot' maintains maximum warmth - initiates explicit affection statement without prompting, continuing pattern of direct emotional expression and taking initiative to express positive feelings about partner",
       "emotional_expressiveness: Directly and transparently expresses affection ('I like you a lot') without filtering or downplaying - continues maximum emotional transparency by independently sharing positive feelings about partner unprompted",
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "confidence: Maintains maximum confidence - initiates highly vulnerable relationship-defining question ('if we are in a relationship') despite using shy emoji, demonstrating ongoing pattern of direct, unfiltered communication about important topics without letting fear prevent her from asking what matters to her",
@@ -3024,7 +3069,10 @@
       "warmth: Unprompted declaration that meeting partner is 'better' than her original goal of meeting people generally - maintains maximum warmth pattern of independently initiating explicit positive statements about partner and relationship without prompting",
       "emotional_expressiveness: Directly expresses preference for partner over general social connections ('that's better') without filtering or downplaying - continues maximum emotional transparency by spontaneously sharing authentic positive feelings about their connection",
       "confidence: Initiates vulnerable comparison statement completely unprompted, declaring partner is superior outcome to her original social goal - demonstrates ongoing pattern of direct, unfiltered emotional communication about relationship value without hesitation",
-      "warmth: Uses 'But anyway' structure to reassure that despite any discussed challenges or obstacles, what matters is meeting in person - maintains maximum warmth by independently redirecting conversation to positive relationship outcome and expressing that logistical difficulties are acceptable if they can achieve physical togetherness"
+      "warmth: Uses 'But anyway' structure to reassure that despite any discussed challenges or obstacles, what matters is meeting in person - maintains maximum warmth by independently redirecting conversation to positive relationship outcome and expressing that logistical difficulties are acceptable if they can achieve physical togetherness",
+      "warmth: Maintains maximum warmth - uses 'But' to gently clarify her communication style rather than responding defensively, showing she wants partner to understand her gentle approach and that her questions come from respect rather than pressure",
+      "emotional_expressiveness: Continues maximum emotional transparency - directly explains her internal communication philosophy ('I'm not someone who insist') unprompted, maintaining pattern of sharing authentic self-understanding and motivations without filtering",
+      "confidence: Maintains maximum confidence - clearly articulates her communication boundaries and preferences ('I'm not someone who insist') without apologizing for them, demonstrating ongoing pattern of stating who she is and how she operates without seeking validation"
     ]
   },
   "communication_style": {
@@ -3795,24 +3843,16 @@
     "clarifying_partner_location": 9.5,
     "partner_city_information": 9.6,
     "geographical_clarity_seeking": 9.4,
-    "casual_location_questions": 9.3
+    "casual_location_questions": 9.3,
+    "communication_style_discussion": 9.5,
+    "explaining_her_approach": 9.4,
+    "clarifying_motivations": 9.3,
+    "addressing_potential_misunderstanding": 9.2,
+    "defining_boundaries": 9.4,
+    "self_description": 9.3,
+    "relationship_communication_philosophy": 9.6
   },
   "effective_patterns": [
-    {
-      "pattern": "creating_environment_where_she_reframes_obstacles_positively",
-      "engagement_boost": 9.7,
-      "evidence": "Laura uses 'But anyway' to redirect from potential challenges or concerns to core positive goal - indicates relationship dynamic has created enough security that she can independently shift focus from obstacles to what truly matters (meeting in person)"
-    },
-    {
-      "pattern": "establishing_safety_for_expressing_core_relationship_priorities",
-      "engagement_boost": 9.8,
-      "evidence": "Laura independently states that meeting in person is what's 'fine' or acceptable regardless of other factors - shows she's comfortable articulating her fundamental relationship values and using them to provide reassurance or perspective"
-    },
-    {
-      "pattern": "creating_space_where_logistical_discussions_dont_overshadow_relationship_commitment",
-      "engagement_boost": 9.6,
-      "evidence": "Laura's 'anyway' suggests preceding conversation may have involved practical challenges (timezone, language barriers, distance) but she redirects to affirm that these don't diminish her core desire to meet - whatever communication patterns exist allow her to maintain relationship optimism despite obstacles"
-    },
     {
       "pattern": "creating_environment_where_she_states_clear_living_preferences",
       "engagement_boost": 9.3,
@@ -3897,24 +3937,24 @@
       "pattern": "creating_space_where_location_questions_are_lighthearted",
       "engagement_boost": 9.6,
       "evidence": "Laura adds 'haha' to location question - whatever communication patterns exist allow her to ask about partner's city (which relates to previously discussed desire to live in same city and year-long relocation plans) in playful rather than serious/intense tone, showing she can inquire about relationship logistics without creating pressure"
+    },
+    {
+      "pattern": "creating_environment_where_she_clarifies_communication_style",
+      "engagement_boost": 9.4,
+      "evidence": "Laura independently explains 'I'm not someone who insist, that's why I was asking' - indicates something in preceding conversation may have been interpreted as pushy or demanding, and she's comfortable clarifying her true communication philosophy, showing relationship dynamic where she feels safe explaining her approach and correcting potential misunderstandings about her intentions"
+    },
+    {
+      "pattern": "establishing_safety_for_defining_communication_boundaries",
+      "engagement_boost": 9.5,
+      "evidence": "Laura uses 'But' to contrast her actual approach with what partner might have perceived - relationship allows her to explicitly state who she is ('not someone who insist') and how she operates, demonstrating trust in sharing her communication values and boundaries"
+    },
+    {
+      "pattern": "creating_space_where_questions_are_understood_as_respect_not_pressure",
+      "engagement_boost": 9.6,
+      "evidence": "Laura clarifies 'that's why I was asking' to explain her question-based approach stems from not wanting to insist/demand - whatever communication patterns exist have made it important for her to distinguish between asking (which she does) and insisting (which she avoids), suggesting healthy dynamic where inquiry is preferred over demands"
     }
   ],
   "avoid_patterns": [
-    {
-      "pattern": "leaving_questions_unanswered_creates_follow_up_anxiety",
-      "engagement_drop": -2.3,
-      "evidence": "Laura sent multiple messages ('Hahaha', 'Shit', 'Nothing ?', 'I mean you really dont understand anything ?') before receiving response - delay in answering her comprehension question created visible impatience/concern"
-    },
-    {
-      "pattern": "not_responding_promptly_to_clarifying_questions",
-      "engagement_drop": -2.5,
-      "evidence": "Laura's 'Nothing ?' indicates she was waiting for response to her practical question about partner's Japanese comprehension - when she asks logistics questions, she expects timely answers to plan accordingly"
-    },
-    {
-      "pattern": "assuming_male_arousal_physiology_applies_to_female_partner",
-      "engagement_drop": -1.5,
-      "evidence": "'I bet you're all hard again today' assumes Laura experiences arousal same way male partner does - required correction, though she handled it playfully rather than with discomfort"
-    },
     {
       "pattern": "making_promises_without_follow_through",
       "engagement_drop": -2.4,
@@ -3999,6 +4039,21 @@
       "pattern": "suggesting_shared_living_with_roommates_or_others",
       "engagement_drop": -2.8,
       "evidence": "Laura's 'But I don't want to live with people' with the 'But' opening suggests partner may have proposed or mentioned living situation involving roommates/other people - she's clearly stating this doesn't align with her preference, indicating this type of living arrangement would be unwelcome"
+    },
+    {
+      "pattern": "interpreting_her_questions_as_pressure_or_insistence",
+      "engagement_drop": -2.8,
+      "evidence": "Laura's 'But I'm not someone who insist' with the 'But' opening suggests partner may have perceived her question as pushy or demanding - she's clarifying that asking is her way of respecting boundaries rather than applying pressure, indicating she doesn't want her communication style misread as aggressive or insistent"
+    },
+    {
+      "pattern": "responding_defensively_to_her_questions",
+      "engagement_drop": -2.6,
+      "evidence": "Laura feels need to explain 'that's why I was asking' - suggests partner's response to her question may have been defensive or interpreted her inquiry as demand, prompting her to clarify her non-pushy communication approach and explain she asks specifically because she doesn't insist"
+    },
+    {
+      "pattern": "making_her_feel_her_questions_are_burdensome",
+      "engagement_drop": -2.7,
+      "evidence": "Laura explicitly distinguishes herself as 'not someone who insist' and justifies why she asks - indicates she may have sensed her question was received as pressure or burden, requiring her to defend her communication style and reassure that inquiry is her gentle approach rather than demand"
     }
   ],
   "ng_topics": [],
