@@ -1,11 +1,6 @@
 [
   {
     "role": "laura",
-    "text": "But I don’t want to live with people ",
-    "time": "11:09"
-  },
-  {
-    "role": "laura",
     "text": "So I’m watching options to rent and everything ",
     "time": "11:09"
   },
@@ -98,5 +93,10 @@
     "role": "laura",
     "text": "You don’t get attached you said ",
     "time": "11:37"
+  },
+  {
+    "role": "laura",
+    "text": "So what’s the matter ",
+    "time": "11:38"
   }
 ]
