@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T11:02:49.528548+09:00",
+  "last_updated": "2026-02-14T11:03:03.466489+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2861,7 +2861,7 @@
     ]
   },
   "communication_style": {
-    "avg_message_length": "single declaration (6 words)",
+    "avg_message_length": "emoji-only response (no text)",
     "emoji_frequency": "high repetition for emphasis (triple emoji usage)",
     "preferred_emojis": [
       "❤️",
@@ -2881,8 +2881,8 @@
       "👹"
     ],
     "formality_level": "casual and direct",
-    "humor_style": "playful laughter, uses repetitive emojis for comedic emphasis",
-    "response_speed_tendency": "varies - can be immediate for emotional/sexual topics, slower during work/transit/technical issues",
+    "humor_style": "pure expressive laughter through emojis, finds genuine amusement in partner's communication",
+    "response_speed_tendency": "immediate for emotional reactions - sends standalone emoji responses when genuinely amused",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
