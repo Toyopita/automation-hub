@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "Laura",
-  "last_updated": "2026-02-14T10:19:19.490773+09:00",
+  "last_updated": "2026-02-14T10:19:30.375323+09:00",
   "facts": {
     "age": null,
     "location": null,
@@ -2745,6 +2745,9 @@
     "confidence": 10,
     "warmth": 10,
     "observations": [
+      "confidence: Unpromptedly initiates explicit sexual position desire ('I want to sit on you') immediately after reflecting on intimate experience - maintains maximum confidence rating for direct, unfiltered sexual communication and taking initiative in expressing desires",
+      "warmth: Frames reflection on intimate experience with intense love and appreciation ('I loooove what we did today 😍😍😍') rather than purely physical focus - maintains maximum warmth by keeping emotional connection and partner appreciation central even in sexually charged communication",
+      "warmth: Uses affectionate framing 'Please' and love eyes emoji 😍 when requesting partner photos - maintains maximum warmth by making requests politely and with visible affection rather than demanding",
       "emotional_expressiveness: Transparently expresses desire to see partner visually with love eyes emoji 😍 - continues pattern of directly expressing emotional/visual needs without filtering",
       "emotional_expressiveness: Continues maximum emotional expressiveness - unpromptedly shares intimate sexual activity details ('I masturbate a lot today') without filtering or prompting, maintaining pattern of transparent disclosure of personal/sexual information",
       "confidence: Maintains maximum confidence - initiates explicit sexual activity disclosure completely unprompted, demonstrating ongoing pattern of direct, unfiltered sexual communication without hesitation or embarrassment",
@@ -2761,16 +2764,16 @@
       "confidence: Maintains maximum confidence - initiates vulnerable affection statement completely unprompted, demonstrating ongoing pattern of direct, unfiltered emotional communication without hesitation",
       "confidence: Maintains maximum confidence - initiates highly vulnerable relationship-defining question ('if we are in a relationship') despite using shy emoji, demonstrating ongoing pattern of direct, unfiltered communication about important topics without letting fear prevent her from asking what matters to her",
       "emotional_expressiveness: Continues maximum emotional transparency - directly asks vulnerable relationship status question unprompted, maintaining pattern of expressing authentic needs and uncertainties without filtering or avoiding difficult conversations",
-      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness",
-      "confidence: Continues maximum confidence pattern - sends explicit sexual emoji sequence (tongue 👅 + pointing at you 🫵🏻 + eggplant 🍆) completely unprompted, representing oral sex intention directed at partner with direct visual symbolism, maintaining pattern of unfiltered, direct sexual communication without hesitation",
-      "emotional_expressiveness: Maintains maximum emotional transparency - uses emoji-only message to express sexual desire and intention clearly, continuing pattern of direct expression of sexual/intimate feelings without verbal filtering",
-      "warmth: Maintains maximum warmth - initiates playful, intimate sexual communication using emoji sequence that conveys desire to give partner pleasure (oral sex focused on him), showing partner-focused affection and intimate playfulness rather than demanding or receiving focus"
+      "warmth: Maintains maximum warmth - frames vulnerable relationship question with shy emoji 🫣 that creates intimate, tender tone rather than demanding or confrontational approach, showing she can address serious topics while maintaining emotional gentleness"
     ]
   },
   "communication_style": {
-    "avg_message_length": "emoji sequence without text",
-    "emoji_frequency": "emoji-only message (standalone sexual expression)",
+    "avg_message_length": "emoji-only (no text)",
+    "emoji_frequency": "emoji-only message (standalone expression)",
     "preferred_emojis": [
+      "❤️",
+      "😊",
+      "😚",
       "🫣",
       "🥵",
       "🤍",
@@ -2782,14 +2785,11 @@
       "😍",
       "🤣",
       "😈",
-      "👹",
-      "👅",
-      "🫵🏻",
-      "🍆"
+      "👹"
     ],
-    "formality_level": "highly informal and sexually explicit",
-    "humor_style": "playful and sexually explicit through emoji symbolism",
-    "response_speed_tendency": "initiates unprompted emoji-only sexual messages",
+    "formality_level": "casual and affectionate",
+    "humor_style": "playful sexual teasing using emoji symbolism",
+    "response_speed_tendency": "initiates unprompted emoji-only messages",
     "response_time_avg_minutes": null,
     "active_hours": [],
     "conversation_starters_used": [],
@@ -3471,14 +3471,11 @@
     "receiving_relationship_confirmation": 9.7,
     "mutual_relationship_acknowledgment": 9.6,
     "relationship_affirmation": 9.7,
-    "emoji_only_sexual_communication": 9.8,
-    "visual_sexual_symbolism": 9.7,
-    "oral_sex_initiation_via_emoji": 9.8,
-    "partner_focused_sexual_initiative": 9.8,
-    "blowjob_emoji_communication": 9.7,
-    "dick_focused_emoji_messages": 9.6,
-    "playful_sexual_emoji_sequences": 9.7,
-    "giving_pleasure_emoji_initiation": 9.8
+    "playful_sexual_emoji_communication": 9.7,
+    "initiating_sexual_teasing_with_emojis": 9.8,
+    "peach_eggplant_sexual_symbolism": 9.6,
+    "non_verbal_sexual_flirtation": 9.7,
+    "emoji_only_sexual_initiation": 9.8
   },
   "effective_patterns": [
     {
@@ -3567,19 +3564,19 @@
       "evidence": "Laura uses only emoji to communicate without accompanying text - whatever communication dynamic exists allows her to express herself through pure emoji symbolism with confidence partner will engage with the playful tone"
     },
     {
-      "pattern": "creating_environment_where_she_initiates_explicit_sexual_emoji_sequences",
+      "pattern": "creating_environment_where_she_initiates_playful_sexual_emoji_messages",
       "engagement_boost": 9.8,
-      "evidence": "Laura sends tongue 👅 + pointing at you 🫵🏻 + eggplant 🍆 emoji sequence unprompted - represents oral sex intention directed at partner using visual symbolism, indicating extremely high comfort with initiating explicit sexual communication through emoji-only messages and taking sexual initiative playfully"
+      "evidence": "Laura sends 🍑🫵🏻🍆 (peach + pointing at you + eggplant) unprompted - highly playful sexual teasing using emoji symbolism, indicating maximum comfort with initiating sexual/intimate communication through creative non-verbal expression"
     },
     {
-      "pattern": "establishing_comfort_for_emoji_only_explicit_sexual_communication",
+      "pattern": "establishing_comfort_for_creative_sexual_symbolism",
       "engagement_boost": 9.7,
-      "evidence": "Laura uses only emojis to communicate explicit sexual desire (oral sex on partner) without accompanying text - whatever communication dynamic exists allows her to express sexual intentions through pure emoji symbolism with confidence partner will understand and appreciate the explicit playful gesture"
+      "evidence": "Laura uses widely recognized sexual emoji symbols (peach = butt/her, eggplant = dick/partner) with pointing gesture directing the symbols at partner - shows high comfort with playful, creative sexual expression and confidence partner will understand the flirtatious meaning"
     },
     {
-      "pattern": "creating_space_for_her_spontaneous_partner_focused_sexual_initiative",
-      "engagement_boost": 9.8,
-      "evidence": "Laura independently sends explicit sexual emoji sequence without prompting - relationship dynamic empowers her to initiate partner-focused sexual desire (wanting to give him oral) unprompted, showing high agency, sexual confidence, and comfort with expressing desire to pleasure partner"
+      "pattern": "creating_space_for_her_spontaneous_sexual_playfulness",
+      "engagement_boost": 9.6,
+      "evidence": "Laura independently initiates sexual teasing completely unprompted using only emojis - relationship dynamic empowers her to express sexual interest, desire, or playful intentions spontaneously without needing verbal lead-in or partner initiation"
     }
   ],
   "avoid_patterns": [
