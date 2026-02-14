@@ -21131,6 +21131,90 @@
         "future": 0,
         "engagement": 1
       }
+    },
+    {
+      "timestamp": "2026-02-14T10:16:30.784392+09:00",
+      "summary": "So ",
+      "scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 5
+      },
+      "attachment": "anxious",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性の確認直後の続き待ち。緊張と期待が混ざった状態",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 9,
+        "energy": 7,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 3,
+        "ds": 2,
+        "playfulness": 2,
+        "future": 7,
+        "engagement": 8
+      },
+      "score_deltas": {
+        "mood": -2,
+        "energy": -1,
+        "intimacy": -1,
+        "longing": -1,
+        "eros": 0,
+        "ds": 2,
+        "playfulness": 1,
+        "future": -1,
+        "engagement": -3
+      }
+    },
+    {
+      "timestamp": "2026-02-14T10:16:35.019539+09:00",
+      "summary": "Now you are all mine ",
+      "scores": {
+        "mood": 10,
+        "energy": 8,
+        "intimacy": 9,
+        "longing": 8,
+        "eros": 6,
+        "ds": 7,
+        "playfulness": 7,
+        "future": 7,
+        "engagement": 10
+      },
+      "attachment": "safe",
+      "risk": "none",
+      "language_mix": "en",
+      "note": "関係性を確認した直後の、喜びと所有欲が混ざった可愛らしい宣言。恥ずかしさもありつつ、積極的に彼を「自分のもの」と主張している",
+      "trigger": null,
+      "prev_scores": {
+        "mood": 7,
+        "energy": 6,
+        "intimacy": 8,
+        "longing": 7,
+        "eros": 3,
+        "ds": 4,
+        "playfulness": 3,
+        "future": 6,
+        "engagement": 5
+      },
+      "score_deltas": {
+        "mood": 3,
+        "energy": 2,
+        "intimacy": 1,
+        "longing": 1,
+        "eros": 3,
+        "ds": 3,
+        "playfulness": 4,
+        "future": 1,
+        "engagement": 5
+      }
     }
   ]
 }
